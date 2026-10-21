@@ -30,7 +30,7 @@ python3 -m http.server 8080 --directory dist
 - 对“重要/噪声”的样本标注，成功产品与商业化数据的证明要求。
 - 模型供应商、密钥、月度预算，以及是否部署完整引擎的长期主机。
 - 正式运营主体、联系方式、条款和隐私政策；site/pages 的草案尚未获确认。静态页只说明当前实际行为与预览状态。
-- 实际已购域名为 shendeng.news（此前误写为 shengdeng.news）。阿里云 DNS 及 Pages 域名绑定已完成，证书签发后开启强制 HTTPS。
+- 实际已购域名为 shendeng.news（此前误写为 shengdeng.news）。阿里云 DNS 及 Pages 域名绑定已完成，主域名 HTTPS 证书已签发并开启强制 HTTPS。
 
 ## shendeng.news 域名绑定
 
@@ -44,7 +44,7 @@ python3 -m http.server 8080 --directory dist
 | A | @ | 185.199.111.153 |
 | CNAME | www | littleweb.github.io |
 
-TTL 为 10 分钟。HTTP 已返回站点页面。HTTPS 证书由 GitHub 自动签发，签发后再开启 Enforce HTTPS；证书未就绪前不要绕过浏览器证书警告。Actions 发布无需 CNAME 文件。
+TTL 为 10 分钟。主域名已通过 HTTPS 证书校验并返回站点页面，Enforce HTTPS 已开启。www 的 DNS 已生效，其证书仍待 GitHub 完成验证和签发，当前请使用不带 www 的正式地址。Actions 发布无需 CNAME 文件。
 
 正式地址：https://shendeng.news/
 
