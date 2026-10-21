@@ -30,11 +30,11 @@ python3 -m http.server 8080 --directory dist
 - 对“重要/噪声”的样本标注，成功产品与商业化数据的证明要求。
 - 模型供应商、密钥、月度预算，以及是否部署完整引擎的长期主机。
 - 正式运营主体、联系方式、条款和隐私政策；site/pages 的草案尚未获确认。静态页只说明当前实际行为与预览状态。
-- 已确认拥有 shengdeng.news，尚需完成 DNS 解析与 HTTPS 绑定，见下方记录表。
+- 实际已购域名为 shendeng.news（此前误写为 shengdeng.news）。阿里云 DNS 及 Pages 域名绑定已完成，证书签发后开启强制 HTTPS。
 
-## shengdeng.news 域名绑定
+## shendeng.news 域名绑定
 
-用户已确认拥有域名并要求绑定。2026-10-21 公共 DNS 查询返回 NXDOMAIN，当前还无法启用该地址。先在域名服务商确认域名已生效、NS 已正确配置，再设置以下记录：
+2026-10-21，用户确认实际购买的是 shendeng.news。阿里云已添加并启用以下五条记录，权威 DNS 查询已核实。Pages Custom domain 已设置为 shendeng.news。仓库名仍为 littleweb/shengdeng.news，仓库名与自定义域名不必相同。
 
 | 类型 | 主机 | 值 |
 |---|---|---|
@@ -44,6 +44,8 @@ python3 -m http.server 8080 --directory dist
 | A | @ | 185.199.111.153 |
 | CNAME | www | littleweb.github.io |
 
-解析生效后，在 GitHub 仓库 Settings → Pages 的 Custom domain 中填写 shengdeng.news，等证书签发后启用 Enforce HTTPS。Actions 发布不依赖 CNAME 文件。当前保留 GitHub Pages 地址正常访问，避免在 DNS 未配置时将访问重定向到不可用域名。
+TTL 为 10 分钟。HTTP 已返回站点页面。HTTPS 证书由 GitHub 自动签发，签发后再开启 Enforce HTTPS；证书未就绪前不要绕过浏览器证书警告。Actions 发布无需 CNAME 文件。
+
+正式地址：https://shendeng.news/
 
 依据：https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
