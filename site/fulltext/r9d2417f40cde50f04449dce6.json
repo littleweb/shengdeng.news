@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "articleId": "r9d2417f40cde50f04449dce6",
+  "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+  "fetchedAt": "2026-10-22T14:27:16.861Z",
+  "sourceHtml": "<p>I'm working towards a new <a href=\"https://llm.datasette.io/\">LLM</a> release, and testing PRs caused me to revisit the <code>llm-echo</code> debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usage counts to take tool calls, system prompts, and reasoning tokens into account.</p><p>Example usage:</p><pre><code>uvx --with llm-echo llm -m echo 'hi there' -o thinking 1 --usage\n</code></pre><p>Outputs:</p><pre><code>First I consider the prompt, then I decide what to say.\n{\n  \"prompt\": \"hi there\",\n  \"system\": \"\",\n  \"attachments\": [],\n  \"stream\": true,\n  \"previous\": []\n}\nToken usage: 2 input, 24 output\n</code></pre>",
+  "sourceHash": "e47200555b13b69f4577b89f2bc7b81e9d3fd810a78c320f63b88dd5aaacfadc",
+  "language": "und",
+  "translation": {
+    "method": "local-codex",
+    "translatedAt": "2026-10-22T14:27:51.162Z",
+    "html": "<p>我正在为 <a href=\"https://llm.datasette.io/\">LLM</a> 的新版本发布做准备，在测试 PR 时重新研究了 <code>llm-echo</code> 调试插件。这个插件提供了一个完全不涉及 LLM 的“模型”——它只是原样返回输入的提示词。新版本更新了模拟的 token 用量统计，将工具调用、系统提示词和推理 token 也纳入计算。</p><p>使用示例：</p><pre><code>uvx --with llm-echo llm -m echo 'hi there' -o thinking 1 --usage\n</code></pre><p>输出：</p><pre><code>First I consider the prompt, then I decide what to say.\n{\n  \"prompt\": \"hi there\",\n  \"system\": \"\",\n  \"attachments\": [],\n  \"stream\": true,\n  \"previous\": []\n}\nToken usage: 2 input, 24 output\n</code></pre>",
+    "complete": true
+  }
+}
