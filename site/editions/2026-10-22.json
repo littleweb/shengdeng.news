@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "researchedAt": "2026-10-22T15:52:31+08:00",
+  "researchedAt": "2026-10-22T16:59:36+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -860,6 +860,35 @@
         "factTitle": "Mini App运行环境及创建工具在桌面端本地会话开放"
       },
       "addedAt": "2026-10-22T15:52:31+08:00"
+    },
+    {
+      "sourceId": "php-foundation",
+      "sourceName": "The PHP Foundation",
+      "date": "2026-10-21",
+      "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+      "title": "PHP基金会原文交叉确认漏洞修复与AI辅助研究协作",
+      "summary": "维护方确认PHP 8.5.12、8.4.27、8.3.36和8.2.35修复两项严重漏洞，并说明Calif、OpenAI和Wiz的报告如何帮助确认影响。此条补充维护方原始出处，与已有PHP2Shell发布事实交叉核对，不重复精选。",
+      "reason": "Codex来源核对：已阅读全文，核对发布主体、页示日期、修复版本及研究参与方；全部历史归档无相同网址。原文仅精确到日期，仅作48小时内同事实交叉证据，不作为24小时精选或原模型评分。",
+      "category": "industry",
+      "quote": "These releases fix two critical vulnerabilities",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "安全/对齐",
+        "开源生态",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "php2shell-disclosure-2026-10-21",
+        "title": "AI 辅助发现 PHP 漏洞后的披露、修复与应急响应",
+        "factKey": "php2shell-disclosure",
+        "factTitle": "PHP 披露 AI 辅助发现的核心漏洞并发布修复"
+      },
+      "addedAt": "2026-10-22T16:59:36+08:00"
     }
   ]
 }
