@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "articleId": "rae7b31dc246e27601c985358",
+  "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+  "fetchedAt": "2026-10-22T20:28:00.086Z",
+  "sourceHtml": "<p><strong>Sponsored by:</strong> <a href=\"https://fandf.co/4xGOI6I\">Teleport</a> — AI agents (and sub-agents they spawn) are given the same access as humans, but they never sleep. Learn how to monitor and constrain their behavior with isolated ephemeral trusted runtimes.\n  </p>",
+  "sourceHash": "9847d9cdb49e9b7fd7e51a54a65792318b10240f00d6b53fd861a2d873774920",
+  "language": "und",
+  "translation": {
+    "method": "local-codex",
+    "translatedAt": "2026-10-22T20:28:24.718Z",
+    "html": "<p><strong>赞助方：</strong> <a href=\"https://fandf.co/4xGOI6I\">Teleport</a> — AI 智能体（以及它们生成的子智能体）被授予与人类相同的访问权限，但它们从不休眠。了解如何利用隔离的临时可信运行时来监控和约束它们的行为。\n  </p>",
+    "complete": true
+  }
+}

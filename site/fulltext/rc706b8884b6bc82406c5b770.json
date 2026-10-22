@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "articleId": "rc706b8884b6bc82406c5b770",
+  "url": "https://simonwillison.net/2026/Oct/17/web-edit/",
+  "fetchedAt": "2026-10-22T20:48:41.569Z",
+  "sourceHtml": "<p>web-edit (<a href=\"https://simonwillison.net/2026/Oct/12/web-edit/\">previously</a>) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale.</p><p>I added a \"copy to clipboard\" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fb1cec9726b6aa62d4de47100f90f0c1a\">DeepSeek 4.1 Flash 1017</a>) and I wanted an easy way to copy the resulting logs into a Gist.</p>",
+  "sourceHash": "32a9fc4b6d8a4e541eddc22b6518c8cf39bb7e71f97b85ba526c3f4271ebf2d1",
+  "language": "und",
+  "translation": {
+    "method": "local-codex",
+    "translatedAt": "2026-10-22T20:49:05.783Z",
+    "html": "<p>web-edit（<a href=\"https://simonwillison.net/2026/Oct/12/web-edit/\">此前介绍过</a>）是我做的一个小型 Web 应用，用于浏览和编辑文件夹中的文件。我开发它主要是为了通过 Tailscale 编辑不同机器上的文件。</p><p>我为文本和图像数据都添加了“复制到剪贴板”选项。我需要这个功能，是因为我当时正用手机操作笔记本电脑运行 pelican 提示词（这是 <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fb1cec9726b6aa62d4de47100f90f0c1a\">DeepSeek 4.1 Flash 1017</a> 的结果），并且想要一种便捷的方式，将生成的日志复制到 Gist 中。</p>",
+    "complete": true
+  }
+}

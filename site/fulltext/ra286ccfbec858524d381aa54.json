@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "articleId": "ra286ccfbec858524d381aa54",
+  "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+  "fetchedAt": "2026-10-22T19:40:13.334Z",
+  "sourceHtml": "<p>19th October 2026 - Link Blog</p><p><strong><a href=\"https://dumbmatter.com/2026/10/programming-obituary/\">My obituary for programming</a></strong> (<a href=\"https://lobste.rs/s/wtobpt/my_obituary_for_programming\" title=\"lobste.rs\">via</a>) Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the <em>puzzle</em> of developing code:</p><blockquote>\n<p>Programming turned into one of the greatest jobs you could imagine. You got paid to work on tricky little logic puzzles. The trickier the puzzle, the more you got paid. But even pretty simple puzzles were worth a lot of money because regular people just couldn't do it! No, they needed us. They would give us a problem and we would solve it the way we wanted. We set the strategy, we made the timeline, we defined what was and was not possible.</p>\n</blockquote><p>If you're a programmer who thrives on building working systems and doesn't care too deeply about the problems solved along the way, LLMs are the gift that keeps on giving.</p><p>If directly solving those problems was a big part of your enjoyment, the loss is very real.</p>",
+  "sourceHash": "62533a70573788840e1edbbf5420286e22b60adec315b452f24b65381ac70ed0",
+  "language": "und",
+  "translation": {
+    "method": "local-codex",
+    "translatedAt": "2026-10-22T19:40:42.256Z",
+    "html": "<p>2026年10月19日 - 链接博客</p><p><strong><a href=\"https://dumbmatter.com/2026/10/programming-obituary/\">我为编程写的讣告</a></strong>（<a href=\"https://lobste.rs/s/wtobpt/my_obituary_for_programming\" title=\"lobste.rs\">转引自</a>）Jeremy Scheff 令人感伤地道出了编程智能体给那些享受编写代码这一<em>解谜过程</em>的职业程序员带来的关键损失：</p><blockquote>\n<p>编程成了你能想象到的最棒的工作之一。你可以靠解决一道道棘手的小逻辑谜题赚钱。谜题越难，报酬越高。但即使是相当简单的谜题，也值不少钱，因为普通人就是解不出来！不行，他们需要我们。他们给我们一个问题，我们就按自己想要的方式解决它。我们制定策略，安排时间，界定什么可行、什么不可行。</p>\n</blockquote><p>如果你是一名程序员，热衷于构建能正常运行的系统，又不太在意沿途解决的那些问题，那么大语言模型就是一份源源不断带来惊喜的礼物。</p><p>如果亲自解决这些问题是你乐趣的重要来源，那么这种失落是切实存在的。</p>",
+    "complete": true
+  }
+}

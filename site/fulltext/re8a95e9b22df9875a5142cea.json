@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "articleId": "re8a95e9b22df9875a5142cea",
+  "url": "https://simonwillison.net/2026/Oct/16/code-review/",
+  "fetchedAt": "2026-10-22T20:54:07.879Z",
+  "sourceHtml": "<p>16th October 2026</p><blockquote><p>We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\"</p>\n<p>Asking that question also changed <em>when</em> review happens. Before, review was a gate at the end of the road: write the code, open a PR, wait for your colleague.</p>\n<p>Now, review runs continuously, more like spellcheck while you write. Most changes have been reviewed and fixed by Claude at least once before a human is asked to look. This catches most routine mistakes, and saves team attention for higher-level questions and scrutiny.</p></blockquote><p>— <a href=\"https://claude.dev/blog/solving-code-review-at-anthropic/\">Addy Osmani, Morgan Westlee Lunt, and Qing Wang</a>, <span>How the Claude Code team does code review</span></p>",
+  "sourceHash": "4ef0d1f430931692ce3e86ddbcefdf71b57b2544e0d674196e5a464ca9f9bd11",
+  "language": "und",
+  "translation": {
+    "method": "local-codex",
+    "translatedAt": "2026-10-22T20:54:38.157Z",
+    "html": "<p>2026年10月16日</p><blockquote><p>我们认为，“有人读过代码吗？”并不能准确代替这个问题：“这次改动可能出什么问题，又该用哪种检查——自动检查还是人工检查——来发现它？”</p>\n<p>提出这个问题，也改变了审查发生的<em>时机</em>。过去，审查是流程末尾的一道关卡：写代码、提交 PR，然后等待同事审查。</p>\n<p>现在，审查持续进行，更像是写作时的拼写检查。在请人查看之前，大多数改动都已经由 Claude 至少审查并修正过一次。这能发现大多数常规错误，让团队把注意力留给更高层面的问题和细致审视。</p></blockquote><p>—— <a href=\"https://claude.dev/blog/solving-code-review-at-anthropic/\">Addy Osmani、Morgan Westlee Lunt 和 Qing Wang</a>，<span>Claude Code 团队如何进行代码审查</span></p>",
+    "complete": true
+  }
+}

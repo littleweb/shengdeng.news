@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "researchedAt": "2026-10-23T02:27:48+08:00",
+  "researchedAt": "2026-10-23T05:35:28+08:00",
   "items": [
     {
       "sourceId": "rss-microsoft-research",
@@ -374,6 +374,205 @@
         "factTitle": "Uber宣布将ChatGPT Work从千人试点推广至三万余员工"
       },
       "addedAt": "2026-10-23T02:27:48+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-22T19:00:00.000Z",
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "title": "Canva发布首个图像生成模型Craft，接入Dream Lab",
+      "summary": "据TechCrunch报道，Canva Craft先规划布局与文字，再生成最高2K、支持30种宽高比的图像，并可配合Canva Magic转为分层设计。报道明确用户现可从Dream Lab使用；API、第三方聊天应用接入及两个更快版本仍属后续安排，不能据此认定免费额度或实际画质。",
+      "reason": "Codex来源核对：已通读记者原文并核对原站精确发布时间；设计生成与分层编辑的衔接值得关注，效果尚未独立复测。",
+      "category": "ai-models",
+      "quote": "Canva Craft is available on the company’s platform to all users",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "AI产品",
+        "图像生成",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T03:33:40+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-22T19:00:00.000Z",
+      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "title": "OpenAI Decisions API向所有客户开放，新增语音与视觉模态",
+      "summary": "TechCrunch采访称，OpenAI将此前开发者日公布的Decisions API向所有客户开放，并加入语音与视觉模态。产品负责人表示其基于现有Luna调整推理配置，面向快速分类和选项决策。客户Speak称动作间隔从1.4秒降至0.13秒；这一结果属于客户自述，适用任务与成本仍需自行验证。",
+      "reason": "Codex来源核对：已通读采访原文并核对原站精确发布时间；开放范围和输入能力有明确变化，延迟收益保留受访者自述性质。",
+      "category": "ai-products",
+      "quote": "the Decisions API became available to all customers on Thursday.",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "多模态",
+        "语音",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T03:33:40+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-10-22T16:30:06.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemaker-ai/",
+      "title": "AWS分享语音服务伸缩方法：先测并发上限与扩容耗时",
+      "summary": "AWS以Kokoro-82M在ml.g5.xlarge上的实测说明如何推导伸缩策略：先测满足首音频延迟目标的并发上限，再测扩容到恢复流量的耗时。示例中50并发满足3秒目标、60并发超标；扩容实测260.2秒，规划另加60秒检测延迟。数值须按自身模型与硬件重测，样例还注明依赖安全公告及突发、缩容风险。",
+      "reason": "Codex来源核对：已通读AWS原文并核对原站精确发布时间；提供可迁移的测量方法，示例性能和部署效果未独立复测。",
+      "category": "tip",
+      "quote": "Q_max = 50",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "语音",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T03:33:40+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-22T20:24:04.000Z",
+      "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+      "title": "Meta称已修复Muse共享作品链接问题，旧链接须重新获取",
+      "summary": "Jay Peters报道，Meta恢复Muse分享功能，并为此前共享的作品更换网址，旧链接会提示访问者向分享者索取新链接。David Singleton称问题涉及文档、图片等共享作品的链接，而非聊天分享本身。此前研究者发现部分共享页面可被查找；此次修复效果尚未独立复测。",
+      "reason": "Codex核对记者原文与发布时间；旧链接需重新分发，具有直接使用价值。修复范围依据Meta说法，尚未独立复测。",
+      "category": "industry",
+      "quote": "it now has a new URL",
+      "tier": "T2",
+      "entity": "meta",
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI产品",
+        "海外AI",
+        "Agent",
+        "Meta"
+      ],
+      "selected": true,
+      "event": {
+        "key": "meta-muse-sharing-security-2026-10",
+        "title": "Muse共享作品链接安全问题与处置",
+        "factKey": "muse-artifact-links-replaced-2026-10-22",
+        "factTitle": "Meta恢复Muse分享并替换此前共享作品的网址"
+      },
+      "addedAt": "2026-10-23T04:39:06+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-22T18:43:53.000Z",
+      "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "title": "TechCrunch拆解微软诊断研究：编排增益随模型与病例变化",
+      "summary": "TechCrunch补充微软MAI-DxO研究的单模型对照：复杂病例中，GPT-5单独准确率为78.9%，加入编排后约83%；GPT-5.5从72%升至近87%。急诊病例中的编排增益则不明显。测试使用历史病例，医生比较组未包括专家或医生团队，不能据此证明真实临床效果。",
+      "reason": "Codex核对记者原文与发布时间；相较已归档总准确率，新增单模型对照，有助理解编排收益的适用边界，尚无真实临床结论。",
+      "category": "paper",
+      "quote": "DxO helps most on complex cases",
+      "tier": "T2",
+      "entity": "microsoft",
+      "subjects": [
+        "microsoft",
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "海外AI",
+        "Agent",
+        "AI赛道",
+        "Microsoft",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "microsoft-mai-dxo-science-2026-10-22",
+        "title": "微软MAI-DxO诊断研究及结果解读",
+        "factKey": "mai-dxo-baseline-model-comparison",
+        "factTitle": "报道补充诊断编排与单模型基线的分任务对照"
+      },
+      "addedAt": "2026-10-23T04:39:06+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-10-22T19:00:00.000Z",
+      "url": "https://openai.com/index/decisions-api",
+      "title": "OpenAI官方补充Decisions API定价与请求限制",
+      "summary": "OpenAI公告确认Decisions API正式全面开放，基于GPT-6 Luna，提供概率、选项和评分三种输出。输入每百万Token收费0.10美元，缓存输入0.01美元，不收输出Token费，缓存写入另有计费规则。每次请求最多400个问题，支持文本、图像和JSON，并原生集成GPT-Live；零数据保留仅面向合资格客户。",
+      "reason": "Codex完成原文正文＋原站 RSS 时间核验；为已归档开放事件补充官方定价与限制，作为交叉证据保留，性能主张未复测。",
+      "category": "ai-products",
+      "quote": "You only pay for input tokens",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "海外AI",
+        "Agent",
+        "OpenAI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "openai-decisions-api-ga-2026-10-22",
+        "title": "OpenAI Decisions API正式全面开放",
+        "factKey": "decisions-api-general-availability",
+        "factTitle": "Decisions API全面开放并增加原生语音集成等能力"
+      },
+      "addedAt": "2026-10-23T04:39:06+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-22T19:45:00.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
+      "title": "The Verge分析SpaceX与Tesla合并讨论中的AI收入与控制权",
+      "summary": "Elizabeth Lopatto分析两家公司合并讨论的财务动因。文章提醒，SpaceX披露的AI相关收入未将Grok与算力出租单独列出，不能直接等同于模型收入；并采访法律学者，解释假设由SpaceX换股收购Tesla时，控制权和股东稀释可能如何变化。合并仍处讨论阶段，不能视为已达成交易。",
+      "reason": "Codex核对记者全文与原站发布时间；新增采访帮助理解AI收入口径及潜在利益冲突，交易影响属于有条件的分析。",
+      "category": "opinion",
+      "quote": "that number wasn’t broken out from bare-metal revenue.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "现象/趋势",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T05:35:28+08:00"
     }
   ]
 }
