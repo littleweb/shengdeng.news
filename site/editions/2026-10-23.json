@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "researchedAt": "2026-10-23T06:40:59+08:00",
+  "researchedAt": "2026-10-23T07:50:37+08:00",
   "items": [
     {
       "sourceId": "rss-microsoft-research",
@@ -602,6 +602,30 @@
         "factTitle": "Canva发布Craft并向全球用户开放Dream Lab使用"
       },
       "addedAt": "2026-10-23T06:40:59+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-22T17:21:31.000Z",
+      "url": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
+      "title": "开发者称Codex协助完成Switch 2软件越狱，展示游戏模组",
+      "summary": "The Verge报道，开发者Sammy Hajhamid称Codex参与了ns2jb软件越狱开发，并展示修改后的游戏角色。这种越狱在关机后需要重新触发，操作仍复杂，实际影响尚不明确；报道未独立量化AI的贡献。",
+      "reason": "提供AI编码工具参与硬件安全研究的具体案例。已核对Jay Peters报道全文与原站发布时间；AI贡献来自开发者自述，未独立复现。",
+      "category": "industry",
+      "quote": "OpenAI’s Codex helped make this",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "编码",
+        "AI硬件",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T07:50:37+08:00"
     }
   ]
 }
