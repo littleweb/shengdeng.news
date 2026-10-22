@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "researchedAt": "2026-10-22T21:56:21+08:00",
+  "researchedAt": "2026-10-22T23:05:12+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -1328,6 +1328,60 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-22T21:56:21+08:00"
+    },
+    {
+      "sourceId": "rss-google-deepmind",
+      "sourceName": "Google DeepMind",
+      "date": "2026-10-22T14:30:00.000Z",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "title": "Google开放ForTy森林地图及2017—2025年度变化序列",
+      "summary": "Google与WRI、IIASA发布10米分辨率的ForTy 2020森林类型地图，并分享2017—2025年逐年变化的早期序列，可识别天然林被人工林或农场替代等变化。模型结合AlphaEarth嵌入区分六类土地，数据已按开放许可提供于Earth Engine；年度序列仍将继续完善。",
+      "reason": "Codex 来源核对 · 已通读官方正文并核对发布时间；新增年度序列有助于追踪森林用途变化，分类效果仍以团队验证为依据。",
+      "category": "paper",
+      "quote": "2017 to 2025",
+      "tier": "T1",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "AI赛道",
+        "数据/训练",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-22T23:05:12+08:00"
+    },
+    {
+      "sourceId": "rss-nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "date": "2026-10-22T05:00:27.000Z",
+      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+      "title": "NVIDIA扩展Cosmos工具，贯通合成数据、模型训练与仿真评估",
+      "summary": "Cosmos Data Factory现提供自动驾驶数据、图像属性、事件视频、缺陷图像和视频增强五类蓝图。Cosmos Framework将训练与优化流程扩展为Agent技能，支持更多开放模型；新增Nano仿真变体用于自动驾驶和双臂机器人策略测试。官方性能提升限指定验证配置，合作方预期成效不等于已兑现结果。",
+      "reason": "Codex 来源核对 · 已通读官方正文并核对精确发布时间；具体开发工具较此前模型总览有新增价值，性能及案例效果未独立复测。",
+      "category": "ai-products",
+      "quote": "five cloud-native blueprints",
+      "tier": "T1",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "具身智能",
+        "数据/训练",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-22T23:05:12+08:00"
     }
   ]
 }

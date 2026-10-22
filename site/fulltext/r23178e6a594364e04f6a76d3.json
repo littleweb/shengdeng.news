@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "articleId": "r23178e6a594364e04f6a76d3",
+  "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+  "fetchedAt": "2026-10-22T15:00:30.738Z",
+  "sourceHtml": "<p><a href=\"https://simonwillison.net/elsewhere/tool/\">Tool</a>\n    \n    <span><a href=\"https://tools.simonwillison.net/chirp-pong\">Chirp Pong</a></span>\n    <span>— Chirp Pong is a two-player paddle game where two phones pair and exchange the ball over sound, using each device's speaker and microphone instead of Wi-Fi or Bluetooth. The page offers a duel mode that pairs two phones through a chirp handshake and a practice mode against a CPU opponent, with selectable match lengths of 7, 11, or 15 points.</span>\n  </p><p>Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It seems to work!</p><blockquote>\n<p><code>Build a two player competitive pong like game where two players use their phones close to each other and the game state is sent via audio noises which the web microphone API can interpret - but add graphical and gameplay twists to make it a lot more fun and intertwine than pong</code></p>\n</blockquote><p>Claude Opus 5.5 Extra <a href=\"https://claude.ai/code/session_019awUnNB7NoYd7noBNAsNdd\">in Claude Code</a>.</p>",
+  "sourceHash": "c22977655e71e1adcf4f4656b8ef3f3d65a1926e62680058f43c21aeaf8740d3",
+  "language": "und",
+  "translation": {
+    "method": "local-codex",
+    "translatedAt": "2026-10-22T15:01:11.404Z",
+    "html": "<p><a href=\"https://simonwillison.net/elsewhere/tool/\">工具</a>\n    \n    <span><a href=\"https://tools.simonwillison.net/chirp-pong\">Chirp Pong</a></span>\n    <span>— Chirp Pong 是一款双人球拍游戏，两部手机通过声音配对并相互传球，使用各自设备的扬声器和麦克风，而非 Wi-Fi 或蓝牙。页面提供对战模式，通过啁啾声握手将两部手机配对；另有与 CPU 对手较量的练习模式，可选择 7、11 或 15 分的赛制。</span>\n  </p><p>又一个游戏实验——我想看看，能否在两部独立的手机上运行一个基于静态 HTML 的双人游戏，让网络通信代码使用通过麦克风发送的啁啾声。看起来可行！</p><blockquote>\n<p><code>Build a two player competitive pong like game where two players use their phones close to each other and the game state is sent via audio noises which the web microphone API can interpret - but add graphical and gameplay twists to make it a lot more fun and intertwine than pong</code></p>\n</blockquote><p>Claude Opus 5.5 Extra <a href=\"https://claude.ai/code/session_019awUnNB7NoYd7noBNAsNdd\">在 Claude Code 中</a>。</p>",
+    "complete": true
+  }
+}
