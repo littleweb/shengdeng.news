@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "researchedAt": "2026-10-22T06:43:33Z",
+  "researchedAt": "2026-10-22T15:52:31+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -827,6 +827,39 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-22T06:43:33Z"
+    },
+    {
+      "sourceId": "minimax-official",
+      "sourceName": "MiniMax 官方",
+      "date": "2026-10-22",
+      "url": "https://www.minimax.io/blog/minimax-code-mini-app-1792650729",
+      "title": "MiniMax Code推出Mini App，让智能体工作留在持续运行的应用中",
+      "summary": "Mini App已在macOS和Windows桌面端的本地会话开放，将前端页面、Node后端、持久数据和MCP工具连接起来。用户可用/miniapp-creator创建应用，也可安装官方插件。代码以本机用户身份运行，连接器和智能体权限须声明；本轮未实测。",
+      "reason": "Codex来源核对：从官方目录进入并通读原文，核对当日日期、开放范围及权限条件；与全部113条归档按网址和事实去重，未采用原引擎评分。",
+      "category": "ai-products",
+      "quote": "Mini Apps are available now in local sessions",
+      "tier": "T1",
+      "entity": "minimax",
+      "subjects": [
+        "minimax"
+      ],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI玩法",
+        "Agent",
+        "MCP/工具调用",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "minimax-code-mini-app-2026-10-22",
+        "title": "MiniMax Code发布Mini App",
+        "factKey": "minimax-code-mini-app-runtime-release",
+        "factTitle": "Mini App运行环境及创建工具在桌面端本地会话开放"
+      },
+      "addedAt": "2026-10-22T15:52:31+08:00"
     }
   ]
 }
