@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "researchedAt": "2026-10-22T20:44:54+08:00",
+  "researchedAt": "2026-10-22T21:56:21+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -1130,6 +1130,204 @@
         "factTitle": "外部专家评议实验结果与成药验证之间的距离"
       },
       "addedAt": "2026-10-22T20:44:54+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-22T13:26:52.000Z",
+      "url": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
+      "title": "Nirva披露2500万美元新融资，AI吊坠计划11月接单",
+      "summary": "Nirva宣布获得2500万美元pre-A轮融资，累计融资3300万美元。公司向TechCrunch介绍售价249美元的AI吊坠，称其仅记录佩戴者语音，处理后默认不保留音频与转写；计划11月接单、年底前向早期用户发货。语音过滤和隐私效果尚未独立验证。",
+      "reason": "Codex 来源核对 · 已通读采访原文并核对发布时间；关注随身AI的产品与隐私设计，融资和发货计划不代表商业成功。",
+      "category": "industry",
+      "quote": "bringing its total raise to $33 million",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI创业",
+        "AI产品",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "nirva-preseries-a-2026-10-22",
+        "title": "Nirva披露pre-A轮融资",
+        "factKey": "nirva-25m-preseries-a",
+        "factTitle": "Nirva宣布2500万美元pre-A轮融资"
+      },
+      "addedAt": "2026-10-22T21:56:21+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-22T13:11:13.000Z",
+      "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+      "title": "TechCrunch援引彭博称DeepSeek新融资约150亿美元",
+      "summary": "TechCrunch援引彭博报道，DeepSeek新一轮融资规模约1000亿元人民币，折合约150亿美元，潜在投资者包括腾讯和宁德时代。报道指向数据中心与开放模型投入；DeepSeek未回应TechCrunch置评请求，金额及投资方尚缺公司确认。",
+      "reason": "Codex 来源核对 · 已通读报道并核对发布时间；可观察国内模型公司的资金投入，但融资细节仍属媒体消息。",
+      "category": "industry",
+      "quote": "DeepSeek did not immediately respond to a TechCrunch request for comment.",
+      "tier": "T2",
+      "entity": "deepseek",
+      "subjects": [
+        "deepseek"
+      ],
+      "region": "国内",
+      "tags": [
+        "行业动态",
+        "AI创业",
+        "AI赛道",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "deepseek-funding-report-2026-10-22",
+        "title": "媒体报道DeepSeek新一轮融资规模",
+        "factKey": "deepseek-100b-yuan-reported-round",
+        "factTitle": "媒体称DeepSeek新融资约1000亿元人民币"
+      },
+      "addedAt": "2026-10-22T21:56:21+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-22T13:00:00.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in",
+      "title": "1Password推出智能体授权登录，密码由应用代填",
+      "summary": "1Password for Agents让智能体请求使用指定账号，用户在自己的设备上批准后，由1Password代填登录凭据，模型无需取得密码。各家集成分批开放，合作名单不等于所有智能体均已可用。",
+      "reason": "Codex 来源核对 · 已通读报道并对照官方公告；关注智能体登录的授权边界，分批开放状态已保留。",
+      "category": "ai-products",
+      "quote": "grant approval for sign-in requests",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "1password-for-agents-2026-10-22",
+        "title": "1Password宣布个人智能体授权登录平台",
+        "factKey": "1password-agents-platform-announcement",
+        "factTitle": "用户批准后由1Password代填智能体登录凭据"
+      },
+      "addedAt": "2026-10-22T21:56:21+08:00"
+    },
+    {
+      "sourceId": "official-1password-blog",
+      "sourceName": "1Password 官方博客",
+      "date": "2026-10-22",
+      "url": "https://1password.com/blog/1password-for-ai-agents",
+      "title": "1Password官方明确套餐、地区与集成开放条件",
+      "summary": "John Torrey署名公告说明，平台对1Password.com的Individual和Family账号不额外收费，暂不支持.eu和.ca账号。Muse与Grok Bot集成将在未来几天分批推出；Claude Duet、ChatGPT Work和dots等集成仍待开放，能力及控制措施因集成而异。",
+      "reason": "Codex 来源核对 · 已通读官方当日公告，作为同事件交叉证据，补充套餐、地区及尚未开放的限制。",
+      "category": "ai-products",
+      "quote": "Availability, platforms, and capabilities vary by partner integration.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "1password-for-agents-2026-10-22",
+        "title": "1Password宣布个人智能体授权登录平台",
+        "factKey": "1password-agents-platform-announcement",
+        "factTitle": "用户批准后由1Password代填智能体登录凭据"
+      },
+      "addedAt": "2026-10-22T21:56:21+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-10-22T06:00:00.000Z",
+      "url": "https://openai.com/index/forward-deployed-engineering-means",
+      "title": "OpenAI复盘FDE：验证业务结果，再复用共享运行框架",
+      "summary": "Colin Jarvis介绍半导体客户项目：先与工程师建立评测，再将独立应用迁到以Codex为核心的共享运行框架。团队称各项目约90%的定制代码被移除；一个案例初次部署耗时两个月，第二个团队复用耗时一天。这些是OpenAI披露的案例，未获独立审计。",
+      "reason": "Codex 来源核对 · 原文正文＋原站 RSS 时间核验；提供从定制交付转向复用的具体做法，成效数字保留厂商自述属性。",
+      "category": "tip",
+      "quote": "We were able to remove roughly 90% of the custom code from each project",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "部署/工程",
+        "Agent",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-22T21:56:21+08:00"
+    },
+    {
+      "sourceId": "rss-hugging-face",
+      "sourceName": "Hugging Face Blog · Dharma AI",
+      "date": "2026-10-21T17:35:36.000Z",
+      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "title": "Dharma AI复盘分词器优化，单任务推理成本实测下降77%",
+      "summary": "Dharma AI介绍VocabX，按输入与输出的不同成本调整领域词表，并压缩重复JSON结构。在葡萄牙语作文评分任务中，团队以RTX 5090、vLLM和相同500次请求测试，称按运行时间折算的成本下降77%。评分值必须保留独立token，过度合并曾损害质量；完整论文尚待发表。",
+      "reason": "Codex 来源核对 · 原文正文＋原站 RSS 时间核验；提供可迁移的优化方法，77%仅为作者在指定任务与环境中的实测。",
+      "category": "tip",
+      "quote": "Cost dropped 77.0%.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "部署/工程",
+        "数据/训练",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-22T21:56:21+08:00"
+    },
+    {
+      "sourceId": "rss-ars-technica-ai",
+      "sourceName": "Ars Technica · Financial Times供稿",
+      "date": "2026-10-21T15:14:07.000Z",
+      "url": "https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/",
+      "title": "FT采访梳理OpenEvidence广告模式与医疗应用争议",
+      "summary": "报道采访医生并梳理OpenEvidence的医院整合与准确性争议。文中1亿美元广告采购包含当前及未来承诺，4亿至5亿美元为全年广告预期，均不能等同已实现收入或利润。",
+      "reason": "Codex 来源核对 · 原文正文＋原站 RSS 时间核验；署名为FT记者，商业数字含匿名信源与预测，未视为审计结果。",
+      "category": "industry",
+      "quote": "current and future advertising commitments",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI赛道",
+        "AI创业",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-22T21:56:21+08:00"
     }
   ]
 }
