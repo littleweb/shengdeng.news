@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "researchedAt": "2026-10-23T05:35:28+08:00",
+  "researchedAt": "2026-10-23T06:40:59+08:00",
   "items": [
     {
       "sourceId": "rss-microsoft-research",
@@ -573,6 +573,35 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-23T05:35:28+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-22T21:51:25.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+      "title": "The Verge交叉报道Canva Craft发布及Dream Lab开放范围",
+      "summary": "Emma Roth报道，Canva Craft采用先规划设计再生成图像的两阶段架构，支持最高2K输出，全球用户现可从Dream Lab使用。MCP接入与更快版本仍属后续计划；画质、文字准确性及榜单表现主要依据厂商说明，未经本轮复测。",
+      "reason": "Codex通读记者原文并核对网页及原站RSS时间，补充已归档发布的同事实交叉证据；不重复精选，效果未复测。",
+      "category": "ai-models",
+      "quote": "Canva Craft is available now to all users globally.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "AI产品",
+        "图像生成",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "canva-craft-release-2026-10-22",
+        "title": "Canva发布图像生成模型Craft",
+        "factKey": "canva-craft-dream-lab-launch",
+        "factTitle": "Canva发布Craft并向全球用户开放Dream Lab使用"
+      },
+      "addedAt": "2026-10-23T06:40:59+08:00"
     }
   ]
 }
