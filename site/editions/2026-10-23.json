@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-23",
+  "researchedAt": "2026-10-23T00:11:23+08:00",
+  "items": [
+    {
+      "sourceId": "rss-microsoft-research",
+      "sourceName": "Microsoft Research",
+      "date": "2026-10-22T16:00:00.000Z",
+      "url": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/",
+      "title": "微软详解Flint交互图表：用语义事件连接图表、表格与对话",
+      "summary": "Chenglong Wang等作者介绍Flint-interactive的三条使用路径：通过MCP在对话中生成交互图表、将图表嵌入应用，以及自定义交互。用户描述选中了什么、希望怎样更新，由编译器处理渲染依赖；图表选择也能传给后续对话。本文是使用与机制讲解，不将既有版本写成今天首次发布，可靠性与成本改善未独立复测。",
+      "reason": "Codex来源核对：已通读署名原文并核对精确发布时间；提供可复用的交互图表方法，适合AI数据分析与应用开发。",
+      "category": "tip",
+      "quote": "It also enables the user to select and pass context to the follow-up turns.",
+      "tier": "T1",
+      "entity": "microsoft",
+      "subjects": [
+        "microsoft"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI产品",
+        "MCP/工具调用",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T00:11:23+08:00"
+    },
+    {
+      "sourceId": "rss-nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "date": "2026-10-22T15:00:02.000Z",
+      "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+      "title": "NVIDIA发布Minerva，关联GPU集群遥测与任务故障",
+      "summary": "Minerva将GPU、网络、存储、调度器与工作负载信号关联成动态知识图谱，用于发现异常、归并告警并辅助定位根因。运维人员可通过内置助手查询实时状态，再人工处置或连接自动化系统。官方称IREN已在使用，其他列名伙伴多处于计划部署阶段；文章未提供可独立复核的停机减少或成本节约结果。",
+      "reason": "Codex来源核对：已通读Brian Sparks官方原文并核对精确发布时间；关注AI集群运维的新工具，伙伴采用与成效保留厂商自述属性。",
+      "category": "ai-products",
+      "quote": "Launched today, NVIDIA Minerva is an AIOps platform",
+      "tier": "T1",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI赛道",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T00:11:23+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-22T15:50:30.000Z",
+      "url": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
+      "title": "The Verge梳理第三季度披露：三家AI公司游说支出创新高",
+      "summary": "Lauren Feiner援引联邦披露报道，NVIDIA、Anthropic和OpenAI在2026年第三季度的游说支出分别约为220万、210万和150万美元，均创各自季度纪录。列明议题涉及出口管制、AI安全、版权及数据中心能源负担。支出和议题披露不能证明公司支持或反对某项法案，也不代表政策已经改变。",
+      "reason": "Codex来源核对：已通读署名报道并核对精确发布时间；提供AI企业政策投入的新记录，金额依据报道所引披露，未独立逐份复核申报。",
+      "category": "industry",
+      "quote": "Nvidia spent the most of the group at $2.2 million",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "nvidia",
+        "anthropic",
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "政策/监管",
+        "海外AI",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T00:11:23+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-22T15:03:58.000Z",
+      "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+      "title": "Spotify谈智能体策略：让外部助手调用服务，推荐仍在内部完成",
+      "summary": "TechCrunch梳理Spotify财报电话会发言：联席CEO Gustav Söderström希望Spotify成为不同智能体调用的媒体服务，承接音乐发现与个性化播放请求。他称合作方提出请求后，由Spotify内部系统利用听歌历史完成推荐，而非向伙伴发送听众数据。所谓采用良好未附具体指标，不能据此认定智能体已带来可量化收入增长。",
+      "reason": "Codex来源核对：已通读报道并核对精确发布时间；为内容服务如何参与智能体生态提供具体经营思路，数据边界及采用情况仍属公司表述。",
+      "category": "opinion",
+      "quote": "Spotify isn’t sending its listener data to partners.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "现象/趋势",
+        "AI赛道",
+        "AI商业化",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T00:11:23+08:00"
+    }
+  ]
+}
