@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "researchedAt": "2026-10-22T05:37:06Z",
+  "researchedAt": "2026-10-22T06:43:33Z",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -742,6 +742,91 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-22T05:37:06Z"
+    },
+    {
+      "sourceId": "external-prnewswire",
+      "sourceName": "PR Newswire（Blacksmith供稿）",
+      "date": "2026-10-21T09:15-04:00",
+      "url": "https://www.prnewswire.com/news-releases/blacksmith-raises-sequoia-led-series-c-at-1-billion-valuation-to-scale-code-validation-302915140.html",
+      "title": "Blacksmith获6600万美元C轮融资，披露AI编码带来的测试需求",
+      "summary": "Blacksmith宣布完成红杉领投的6600万美元C轮融资，估值10亿美元。公司称，自1月以来ARR增长17倍，每周CI任务从500万增至逾9000万，服务超过1万家公司。这些经营指标属于企业自述，未独立审计；融资和ARR增长不能证明盈利，2027年算力扩张仍是计划。",
+      "reason": "Codex 来源核对：已读供稿全文，核对09:15 ET发布时间及供稿主体，并对照[公司公告](https://www.blacksmith.sh/blog/series-c)和TechCrunch报道；任务量采用原始公告的每周口径。媒体刊登企业供稿按T2记录，未采用原模型评分。",
+      "category": "industry",
+      "quote": "Company's ARR grew 17x since January",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI创业",
+        "AI商业化",
+        "编码",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "blacksmith-series-c-2026-10-21",
+        "title": "Blacksmith完成C轮融资并披露CI业务增长",
+        "factKey": "blacksmith-series-c-operating-disclosure",
+        "factTitle": "Blacksmith宣布6600万美元C轮融资及经营指标"
+      },
+      "addedAt": "2026-10-22T06:43:33Z"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch",
+      "date": "2026-10-21T10:18-07:00",
+      "url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
+      "title": "TechCrunch交叉报道Blacksmith融资",
+      "summary": "报道支持同一轮融资事实，经营指标仍来自公司披露。",
+      "reason": "Codex 来源核对：已读Dominic-Madori Davis全文并核对10:18 AM PDT发布时间；作为同事件媒体交叉证据，不重复精选，不视为对经营指标的独立审计。",
+      "category": "industry",
+      "quote": "$66 million Series C",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI创业",
+        "编码",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "blacksmith-series-c-2026-10-21",
+        "title": "Blacksmith完成C轮融资并披露CI业务增长",
+        "factKey": "blacksmith-series-c-operating-disclosure",
+        "factTitle": "Blacksmith宣布6600万美元C轮融资及经营指标"
+      },
+      "addedAt": "2026-10-22T06:43:33Z"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch",
+      "date": "2026-10-21T07:00-07:00",
+      "url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
+      "title": "调查关注AI采用后的管理负担",
+      "summary": "据[monday.com公开结果页](https://monday.com/gp/ai-report-2026)，调查覆盖7国1701名董事及高级经理：72%称公司要求或积极鼓励使用AI，仅29%称组织已具备充分优化、集中的AI基础设施，另有29%称AI增加了工作时长。这些是受访者自报，不能据此断言AI普遍降低生产率。",
+      "reason": "Codex 来源核对：已读Ram Iyer报道，核对07:00 AM PDT发布时间，并逐项对照报告公开结果页；未取得完整问卷和底层数据，未声称阅读全文报告PDF。全部历史归档未发现相同调查，未采用原模型评分。",
+      "category": "paper",
+      "quote": "invisible labor",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "AI赛道",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-22T06:43:33Z"
     }
   ]
 }
