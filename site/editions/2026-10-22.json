@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "researchedAt": "2026-10-22T05:25:04.529078+00:00",
+  "researchedAt": "2026-10-22T05:37:06Z",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -592,6 +592,156 @@
         "factTitle": "LiteLLM确认1.107.0及关联镜像含恶意组件并撤下"
       },
       "addedAt": "2026-10-22T05:25:04.529078+00:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch",
+      "date": "2026-10-21T21:14:19+00:00",
+      "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+      "title": "Meta称Muse用户超千万",
+      "summary": "公司自报，盈利仍属预期。",
+      "reason": "Codex 来源核对 · 已读Sarah Perez原文并核对article:published_time；用户数据保留公司自述性质，未经独立验证。",
+      "category": "industry",
+      "quote": "10 million",
+      "tier": "T2",
+      "entity": "meta",
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI产品",
+        "AI商业化",
+        "海外AI",
+        "Meta"
+      ],
+      "selected": true,
+      "event": {
+        "key": "meta-muse-user-disclosure-2026-10-21",
+        "title": "Muse用户披露",
+        "factKey": "muse-10m-users-disclosure",
+        "factTitle": "Muse注册用户超千万"
+      },
+      "addedAt": "2026-10-22T05:37:06Z"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch",
+      "date": "2026-10-21T20:27:41+00:00",
+      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "title": "Recursive发布Flint，开放可在笔记本运行的编码模型",
+      "summary": "Flint采用40B总参数、每token激活2.5B的MoE架构，权重按Apache 2.0开放。官方建议把复杂任务拆小，并优先在256K以内上下文使用；性能成绩属于厂商测试，尚未独立复测。",
+      "reason": "Codex 来源核对 · 已读Aditya Mehta报道并核对秒级发布时间；参数、许可和限制另对照[Recursive公告](https://recursive.com/updates/introducing-recursive-flint)及[vLLM参与方说明](https://vllm.ai/blog/2026-10-21-flint)。官方公告未核实发布时间，不另造T1记录。",
+      "category": "ai-models",
+      "quote": "Flint is a free coding model",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "编码",
+        "端侧",
+        "开源生态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "recursive-flint-release-2026-10-21",
+        "title": "Recursive发布Flint本地编码模型",
+        "factKey": "flint-open-weights-release",
+        "factTitle": "Flint开放权重并提供本地运行支持"
+      },
+      "addedAt": "2026-10-22T05:37:06Z"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch",
+      "date": "2026-10-21T19:30:00+00:00",
+      "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+      "title": "Walmart公布购物智能体网关与授权方案",
+      "summary": "Walmart公布Agent Gateway、Agent Profiles及智能体交易规则。对照官方原文，网关仍在建设，将先面向企业和开发者开展beta；Profiles计划下月推出，允许消费者设置审批和消费限额，不能写成已全面上线。",
+      "reason": "Codex 来源核对 · 已读Sarah Perez报道并核对秒级发布时间；开放阶段和授权条件以[Walmart原文](https://corporate.walmart.com/news/2026/10/Making-It-Possible-for-Agents-to-Shop-on-Behalf-of-Customers)交叉校正。",
+      "category": "ai-products",
+      "quote": "With Agent Profiles, rolling out next month",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI赛道",
+        "Agent",
+        "MCP/工具调用",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "walmart-agent-shopping-controls-2026-10-21",
+        "title": "Walmart公布购物智能体接入与授权方案",
+        "factKey": "walmart-agent-gateway-profiles-announcement",
+        "factTitle": "Walmart宣布Agent Gateway、Profiles及交易规则"
+      },
+      "addedAt": "2026-10-22T05:37:06Z"
+    },
+    {
+      "sourceId": "walmart-newsroom",
+      "sourceName": "Walmart Newsroom",
+      "date": "2026-10-21",
+      "url": "https://corporate.walmart.com/news/2026/10/Making-It-Possible-for-Agents-to-Shop-on-Behalf-of-Customers",
+      "title": "Walmart原文明确网关beta和消费者授权边界",
+      "summary": "官方说明将先开展企业与开发者beta，Profiles计划下月推出。默认要求消费者批准购买，智能体不能取得支付卡信息或更改付款方式，违规智能体可被阻止访问。",
+      "reason": "Codex 来源核对 · 已阅读全文并核对发布主体和页示日期。仅作同事件48小时内交叉证据；未核实具体发布时间，不作为24小时精选新消息。",
+      "category": "ai-products",
+      "quote": "We'll begin with a beta for companies and developers.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "MCP/工具调用",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "walmart-agent-shopping-controls-2026-10-21",
+        "title": "Walmart公布购物智能体接入与授权方案",
+        "factKey": "walmart-agent-gateway-profiles-announcement",
+        "factTitle": "Walmart宣布Agent Gateway、Profiles及交易规则"
+      },
+      "addedAt": "2026-10-22T05:37:06Z"
+    },
+    {
+      "sourceId": "rss-microsoft-research",
+      "sourceName": "Microsoft Research",
+      "date": "2026-10-21T16:00:00Z",
+      "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/",
+      "title": "微软复盘KLS证明：研究者筛选AI路线，无引导尝试未达目标",
+      "summary": "Xinzhi Zhang介绍团队如何探索约百条研究路线，由研究者淘汰无效方向、选择中间结果并完成数学论证。团队称，在约相同token预算下，无引导模型尝试未能达到目标。文章回顾的是10月4日版本已完成的证明，本轮新增内容是人机协作过程说明。",
+      "reason": "Codex 来源核对 · 已读署名全文，并以微软原站公开内容接口的date_gmt核实发布时间；对照文中论文版本日期，未把旧证明写成当天突破。过程对照结果仍属团队自述，未独立复现。",
+      "category": "paper",
+      "quote": "That effort fell short of the goal.",
+      "tier": "T1",
+      "entity": "microsoft",
+      "subjects": [
+        "microsoft"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "AI玩法",
+        "海外AI",
+        "Microsoft"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-22T05:37:06Z"
     }
   ]
 }
