@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "researchedAt": "2026-10-23T15:47:02+08:00",
+  "researchedAt": "2026-10-23T16:53:50+08:00",
   "items": [
     {
       "sourceId": "rss-microsoft-research",
@@ -1210,6 +1210,30 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-23T15:47:02+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-10-22T17:07:05+08:00",
+      "url": "https://www.qbitai.com/2026/10/504879.html",
+      "title": "蚂蚁数科发布LingDT决策模型，支持多选与按序决策",
+      "summary": "量子位刊登的蚂蚁供稿介绍，LingDT-Decision-1.0提供4B和27B版本，已在DTMaaS平台上线限时免费体验，支持多标签识别、工具组合及按任务依赖顺序决策。客服、风控等场景的成本与准确率表现来自企业内部测试，尚无独立复测。",
+      "reason": "为客服、风控智能体提供专用决策选项。已核对全文，网页与原站订阅时间一致；供稿中的性能优势和试用安排仍属企业披露。",
+      "category": "ai-models",
+      "quote": "支持原生多选与按序决策能力",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "模型发布",
+        "国内AI",
+        "AI赛道",
+        "Agent"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T16:53:50+08:00"
     }
   ]
 }
