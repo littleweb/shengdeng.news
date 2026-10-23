@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "researchedAt": "2026-10-24T04:59:32+08:00",
+  "researchedAt": "2026-10-24T05:34:31+08:00",
   "items": [
     {
       "sourceId": "rss-aws-ml",
@@ -374,6 +374,66 @@
         "factTitle": "Kimi K3.1 Pro及Highspeed正式开放使用"
       },
       "addedAt": "2026-10-24T04:59:32+08:00"
+    },
+    {
+      "sourceId": "pathos-ai",
+      "sourceName": "Pathos AI",
+      "date": "2026-10-23",
+      "url": "https://www.pathos.com/pathos-ai-announces-strategic-collaborations-with-bristol-myers-squibb-and-tempus-ai-to-advance-ai-driven-drug-development-beginning-with-alzheimers-disease-and-other-neurological-conditions",
+      "title": "Pathos与Tempus披露五年神经疾病数据合作，费用最高5500万美元",
+      "summary": "Pathos拟将Tempus的神经疾病纵向数据与Foundry智能体平台结合，支持BMS的阿尔茨海默病等药物研发。公告称合作为期五年、规模5500万美元；Tempus同期文件说明，最高金额取决于数据交付，双方存在管理层与股权交叉。此次合作改善研发及治疗结果仍是目标。",
+      "reason": "提供医疗AI商业合同的具体规模与用途。已通读双方原文；纽约当地10月23日处于本轮24小时窗口，合同金额不等于已到账收入。",
+      "category": "industry",
+      "quote": "five-year, $55 million agreement",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI赛道",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "tempus-pathos-neurology-license-2026-10-22",
+        "title": "Tempus与Pathos的神经疾病数据及智能体授权合作",
+        "factKey": "neuro-license-disclosure-2026-10-23",
+        "factTitle": "双方披露五年神经疾病数据及智能体授权协议"
+      },
+      "addedAt": "2026-10-24T05:34:31+08:00"
+    },
+    {
+      "sourceId": "tempus-ai",
+      "sourceName": "Tempus AI",
+      "date": "2026-10-23",
+      "url": "https://investors.tempus.com/node/10841/html",
+      "title": "Tempus文件补充数据授权的交付、计价与关联交易条件",
+      "summary": "Tempus的8-K披露，10月22日签订的神经疾病协议拟在五年内每年交付10万份、合计50万份去标识化患者记录，并授权数据分析智能体。数据费为每份100美元，另含500万美元记录更新费用，总额最高5500万美元，实际金额取决于交付。关联交易已经无利益冲突董事组成的特别委员会审议。",
+      "reason": "公司原始文件交叉确认同一协议，并补充付款条件与关联关系；仅作证据记录，不重复计为精选消息。文件日期仅精确到日。",
+      "category": "industry",
+      "quote": "fees of up to $55 million in cash",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI赛道",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "tempus-pathos-neurology-license-2026-10-22",
+        "title": "Tempus与Pathos的神经疾病数据及智能体授权合作",
+        "factKey": "neuro-license-disclosure-2026-10-23",
+        "factTitle": "双方披露五年神经疾病数据及智能体授权协议"
+      },
+      "addedAt": "2026-10-24T05:34:31+08:00"
     }
   ]
 }
