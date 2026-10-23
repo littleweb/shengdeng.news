@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "articleId": "r1560ea04dee0e58af37b6a0a",
+  "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+  "fetchedAt": "2026-10-23T22:49:58.170Z",
+  "sourceHtml": "<p>Prompt <a href=\"https://claude.ai/share/71adda96-193f-4f2a-97c0-454e08066afb\">to Claude Opus 5.5 High</a>:</p><blockquote>\n<p><code>Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush</code></p>\n</blockquote><p>See also <a href=\"https://simonwillison.net/2026/Aug/25/pelican-watercolor/\">my previous experiment</a> getting Claude Fable to simulate a watercolor illustration with P5.js.</p><p><img alt=\"A simulated oil painting of a photograph of a heron\" src=\"https://static.simonwillison.net/static/2026/heron-oil.webp\"></p><p>Quick Study uses <a href=\"https://en.wikipedia.org/wiki/Sobel_operator\">Sobel edge detection</a>, with no external libraries beyond Google Fonts.</p>",
+  "sourceHash": "e093d72043c6720121a2d1415ec16a73de9d6225830745e03c71c27ba80e1a65",
+  "language": "und",
+  "translation": {
+    "method": "local-codex",
+    "translatedAt": "2026-10-23T22:50:17.053Z",
+    "html": "<p>给 <a href=\"https://claude.ai/share/71adda96-193f-4f2a-97c0-454e08066afb\">Claude Opus 5.5 High</a> 的提示词：</p><blockquote>\n<p><code>Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush</code></p>\n</blockquote><p>另见<a href=\"https://simonwillison.net/2026/Aug/25/pelican-watercolor/\">我之前的实验</a>，让 Claude Fable 用 P5.js 模拟水彩插画。</p><p><img alt=\"A simulated oil painting of a photograph of a heron\" src=\"https://static.simonwillison.net/static/2026/heron-oil.webp\"></p><p>Quick Study 使用 <a href=\"https://en.wikipedia.org/wiki/Sobel_operator\">Sobel 边缘检测</a>，除 Google Fonts 外不使用任何外部库。</p>",
+    "complete": true
+  }
+}
