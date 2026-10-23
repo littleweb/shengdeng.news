@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "articleId": "rcd9eddb136ec6aac64a74eab",
+  "url": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine/",
+  "fetchedAt": "2026-10-23T02:12:05.145Z",
+  "sourceHtml": "<p><strong>Google announced Agent Compute Engine, a service that gives each AI agent its own isolated virtual machine.</strong> The service already powers Gemini and will open for preview in the coming months. Every agent runs inside a microVM secured by Google's Titanium chip, the company says. When an agent idles, its VM pauses automatically and frees up the machine for others. Shared memory between VMs cuts what each one costs to run. VMs are a pretty huge cost factor when providing agentic systems, so Google is going after efficiency here.</p><p>This is also behind the open-sourced Agent Substrate, a Kubernetes runtime. Google says it can fit ten times as many agents on a single server. In a test with 200,000 agents, suspend and resume took less than 500 milliseconds, according to Google. On the oversight side, Google is adding token tracking, model routing, and support for third-party identity providers like Ping Identity and SailPoint. Those controls will extend to Cloud Run, GKE, and managed endpoints.</p><h3>AI News Without the Hype – Curated by Humans<br></h3><p>\n\t\t\t\t\tSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\t\t\t\t</p>",
+  "sourceHash": "9a292c6a129a9a75928d3f7ed55fb7bd08fc2626bbb1727e5273cd0bdba1de78",
+  "language": "und",
+  "translation": {
+    "method": "local-codex",
+    "translatedAt": "2026-10-23T02:12:37.585Z",
+    "html": "<p><strong>Google 宣布推出 Agent Compute Engine，这项服务为每个 AI 智能体提供独立、隔离的虚拟机。</strong>该服务已在为 Gemini 提供支持，并将在未来几个月开放预览。Google 表示，每个智能体都在由其 Titanium 芯片提供安全保护的 microVM 中运行。当智能体空闲时，其虚拟机会自动暂停，将机器资源释放给其他智能体使用。虚拟机之间共享内存，降低了每台虚拟机的运行成本。虚拟机是提供智能体系统时一项相当大的成本，因此 Google 希望通过这种方式提高效率。</p><p>这项技术也支撑着已开源的 Kubernetes 运行时 Agent Substrate。Google 表示，它能让单台服务器容纳的智能体数量达到原来的十倍。据 Google 称，在一项涉及 200,000 个智能体的测试中，暂停和恢复耗时不到 500 毫秒。在监督管理方面，Google 正在添加 token 跟踪、模型路由，以及对 Ping Identity 和 SailPoint 等第三方身份提供商的支持。这些管控功能将扩展至 Cloud Run、GKE 和托管端点。</p><h3>不炒作的 AI 新闻——由人工精选<br></h3><p>\n\t\t\t\t\t订阅 THE DECODER，即可享受无广告阅读、每周 AI 新闻简报、每年六期的独家《AI Radar》前沿报告、全部历史内容的访问权限，以及评论区访问权限。\t\t\t\t</p>",
+    "complete": true
+  }
+}
