@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "researchedAt": "2026-10-23T20:16:08+08:00",
+  "researchedAt": "2026-10-23T23:32:02+08:00",
   "items": [
     {
       "sourceId": "rss-microsoft-research",
@@ -1347,6 +1347,98 @@
         "factTitle": "Claude为123个开源库的特定测试入口生成机器可检查证明"
       },
       "addedAt": "2026-10-23T20:16:08+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-23T14:47:41.000Z",
+      "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+      "title": "Meta将争议商业条款执行日期推迟至11月20日",
+      "summary": "Emma Roth报道，Meta发言人确认，原定10月30日执行的新商业条款将推迟至11月20日，以便进一步向合作方解释变化及网页抓取规则。出版商此前担忧条款扩大内容抓取和AI训练授权。延期已经确认，但不等于争议条款被撤回。",
+      "reason": "内容抓取与AI训练授权争议出现实质进展；已核对署名报道、精确发布时间及出版商协会原文，保留Meta回应与出版商主张的区别。",
+      "category": "industry",
+      "quote": "the terms will go into effect on November 20th",
+      "tier": "T2",
+      "entity": "meta",
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "数据/训练",
+        "海外AI",
+        "Meta"
+      ],
+      "selected": true,
+      "event": {
+        "key": "meta-commercial-terms-crawling-2026-10",
+        "title": "Meta商业条款抓取授权争议与执行安排",
+        "factKey": "meta-terms-enforcement-delayed-nov20",
+        "factTitle": "Meta确认将商业条款执行日期推迟至11月20日"
+      },
+      "addedAt": "2026-10-23T23:32:02+08:00"
+    },
+    {
+      "sourceId": "news-media-alliance",
+      "sourceName": "News/Media Alliance",
+      "date": "2026-10-22",
+      "url": "https://www.newsmediaalliance.org/letter-to-meta-demanding-withdrawal-of-new-terms-of-use/",
+      "title": "出版商协会原文确认曾致函要求Meta撤回抓取条款",
+      "summary": "News/Media Alliance于10月22日宣布，已致函Meta首席执行官，要求在新条款执行前撤回网页抓取条款。协会认为相关授权可能损害新闻内容许可市场；这些是协会的立场，并非监管机构或法院的认定。",
+      "reason": "作为近48小时内的当事方原文，交叉确认延期报道中的出版商反对行动；仅作事件背景证据，不能证明Meta已经撤回条款。",
+      "category": "industry",
+      "quote": "withdraw the crawling provision",
+      "tier": "T1",
+      "entity": "meta",
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "数据/训练",
+        "海外AI",
+        "Meta"
+      ],
+      "selected": false,
+      "event": {
+        "key": "meta-commercial-terms-crawling-2026-10",
+        "title": "Meta商业条款抓取授权争议与执行安排",
+        "factKey": "publishers-withdrawal-letter-2026-10-22",
+        "factTitle": "出版商协会致函要求Meta撤回商业条款中的抓取授权"
+      },
+      "addedAt": "2026-10-23T23:32:02+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-23T09:49:38.000Z",
+      "url": "https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion/",
+      "title": "媒体称OpenAI洽谈至多300亿美元融资，估值目标下调",
+      "summary": "The Decoder援引英国《金融时报》与CNBC称，OpenAI正洽谈至多300亿美元新融资，估值目标由1.4万亿美元降至1.25万亿美元，拟由Coatue和阿联酋投资者领投。报道还提及阿联酋算力合作洽谈；金额、估值及商业条件尚未最终确定。",
+      "reason": "融资条件与算力供给的关联值得关注；已核对报道正文和精确发布时间，核心仍为媒体转述，不能视为融资完成或经营成效。",
+      "category": "industry",
+      "quote": "up to $30 billion",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-funding-talks-2026-10",
+        "title": "媒体报道OpenAI新融资洽谈及估值目标",
+        "factKey": "reported-30b-round-1250b-valuation",
+        "factTitle": "媒体称OpenAI洽谈至多300亿美元融资及1.25万亿美元估值"
+      },
+      "addedAt": "2026-10-23T23:32:02+08:00"
     }
   ]
 }
