@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "researchedAt": "2026-10-23T12:20:37+08:00",
+  "researchedAt": "2026-10-23T13:31:16+08:00",
   "items": [
     {
       "sourceId": "rss-microsoft-research",
@@ -936,6 +936,87 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-23T12:20:37+08:00"
+    },
+    {
+      "sourceId": "rss-latent-space",
+      "sourceName": "Latent Space",
+      "date": "2026-10-22T17:40:57Z",
+      "url": "https://www.latent.space/p/modal-d",
+      "title": "Modal创始人复盘算力生意：沙箱收入占三分之一，长约带来价格风险",
+      "summary": "Erik Bernhardsson在访谈中称，曾一度考虑关闭的沙箱产品，随编码智能体、后台任务和强化学习需求增长，现约占Modal收入的三分之一。他解释了聚合客户需求、提供弹性算力的经营方式，以及多年算力采购承诺面对价格下跌时的风险。收入占比和经营经历均为创始人自述。",
+      "reason": "原文正文＋原站 RSS 时间核验，提供算力创业的具体经营取舍；自述数据未经独立财务核验，自动转录也可能存在误差。",
+      "category": "opinion",
+      "quote": "sandboxes is now about a third of our revenue",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "现象/趋势",
+        "AI创业",
+        "AI赛道",
+        "AI商业化",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T13:31:16+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-23T04:00:00.000Z",
+      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+      "title": "inDrive拟于2027年上半年在阿斯塔纳测试小马智行Robotaxi",
+      "summary": "TechCrunch报道，inDrive、小马智行与NVIDIA签署探索合作的谅解备忘录。inDrive技术负责人称，计划于2027年上半年在哈萨克斯坦阿斯塔纳启动测试，初期配备安全员，拟采用小马智行第七代Robotaxi及NVIDIA相关技术。当前仍是探索与测试安排，不能视为无人驾驶商业服务已经上线。",
+      "reason": "记者完整原文及精确发布时间已核对，新增测试排期和安全员条件；合作尚未形成已验证的运营结果。",
+      "category": "industry",
+      "quote": "The tests will initially involve a safety operator",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "AI硬件",
+        "具身智能",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T13:31:16+08:00"
+    },
+    {
+      "sourceId": "rss-ars-technica-ai",
+      "sourceName": "Ars Technica · AI",
+      "date": "2026-10-22T15:25:02Z",
+      "url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
+      "title": "Amazon称PHP2Shell公开披露前四天已有利用尝试",
+      "summary": "Ars Technica刊登的Financial Times报道引述Amazon称，PHP2Shell在公开披露前四天已出现利用尝试。这为此前AI辅助发现漏洞、发布补丁的事件补充了攻击时间线；利用尝试不能直接等同于成功入侵。",
+      "reason": "原文正文＋原站 RSS 时间核验，补充披露前利用线索，与已归档的补丁发布和服务下线进展分别记录。",
+      "category": "industry",
+      "quote": "four days before the weakness was disclosed to the public",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "安全/对齐",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "php2shell-disclosure-2026-10-21",
+        "title": "AI 辅助发现 PHP 漏洞后的披露、修复与应急响应",
+        "factKey": "php2shell-pre-disclosure-exploitation-attempts",
+        "factTitle": "Amazon称PHP2Shell公开披露前四天已有利用尝试"
+      },
+      "addedAt": "2026-10-23T13:31:16+08:00"
     }
   ]
 }
