@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "researchedAt": "2026-10-24T01:45:39+08:00",
+  "researchedAt": "2026-10-24T02:49:52+08:00",
   "items": [
     {
       "sourceId": "rss-aws-ml",
@@ -149,6 +149,60 @@
         "factTitle": "AISI公布独立行为分析与模拟场景比较"
       },
       "addedAt": "2026-10-24T01:45:39+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-10-23T17:48:54.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/",
+      "title": "AWS复盘多轮强化学习：奖励要结果优先，评估要匹配上线配置",
+      "summary": "AWS公开Wordle训练流程，说明如何避免过程奖励让失败反而得高分，并按实际推理配置评估。官方实验中，GPT-OSS-20B在128个留出词上的解题率由61%升至84%；训练Token约339美元，AgentCore运行另约79美元。结果仅对应文中任务和配置。",
+      "reason": "奖励设计失误与评估配置差异有可迁移价值。已通读官方正文并核对发布时间、费用拆分和实验条件；结果为官方实验，未独立复测。",
+      "category": "tip",
+      "quote": "Evaluate at the settings you will serve at.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "数据/训练",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-24T02:49:52+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-10-23T17:00:00.000Z",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "title": "OpenAI复盘Habitat存储扩容，披露隔离、缓存与故障演练经验",
+      "summary": "Jon Lee等工程师介绍Habitat从共享容器转向独立容器、再回到多租户的取舍，以及与Azure共同开展生产规模测试的方法。官方称，区域复制、缓存和Rust重写共同将全球读取延迟中位数从约120毫秒降至10毫秒；这不是ChatGPT完整回答的延迟。",
+      "reason": "提供真实故障及容量规划教训，可供产品基础设施团队参考。原文正文＋原站 RSS 时间核验；性能数字为官方自报。",
+      "category": "tip",
+      "quote": "reduced our overall global read p50 from roughly 120 ms to roughly 10 ms",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai",
+        "microsoft"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "部署/工程",
+        "OpenAI",
+        "Microsoft",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-24T02:49:52+08:00"
     }
   ]
 }
