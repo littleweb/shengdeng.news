@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "researchedAt": "2026-10-23T10:02:51+08:00",
+  "researchedAt": "2026-10-23T11:10:23+08:00",
   "items": [
     {
       "sourceId": "rss-microsoft-research",
@@ -807,6 +807,109 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-23T10:02:51+08:00"
+    },
+    {
+      "sourceId": "rss-nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "date": "2026-10-23T02:00:13.000Z",
+      "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
+      "title": "NVIDIA披露哈萨克电信已部署400块H200和480块B300",
+      "summary": "NVIDIA称，哈萨克电信已在阿斯塔纳和阿拉木图部署400块H200及480块B300 GPU。数据中心谷和埃基巴斯图兹的进一步扩容属于明年计划，不能计入当前已部署规模。",
+      "reason": "官方完整原文与发布时间已核对，提供中亚AI算力建设的具体规模；尚未取得运营方独立确认。",
+      "category": "industry",
+      "quote": "has already deployed 400 NVIDIA H200 and 480 NVIDIA B300 GPUs",
+      "tier": "T1",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI赛道",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T11:10:23+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-22T20:32:05.000Z",
+      "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+      "title": "Meta调整商业条款后，法律专家仍质疑AI训练授权范围",
+      "summary": "Emma Roth报道，Meta从将于10月30日生效的商业条款中删去“训练”措辞，但受访法律专家认为，保留的“开发”用途仍可能涵盖模型训练。Meta回应称，更新不会赋予其凌驾于网站robots.txt偏好之上的新权利。双方对条款含义仍有分歧。",
+      "reason": "已核对完整署名报道及精确发布时间；涉及网站内容授权边界，专家解释与Meta立场均保留归属。",
+      "category": "industry",
+      "quote": "these updates don’t give us new rights that supersede those preferences.",
+      "tier": "T2",
+      "entity": "meta",
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "数据/训练",
+        "海外AI",
+        "Meta"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T11:10:23+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-22T18:26:02+00:00",
+      "url": "https://the-decoder.com/major-us-banks-are-locking-out-ai-agents-that-log-in-with-customer-credentials/",
+      "title": "美国多家银行限制外部AI智能体凭用户凭据访问账户",
+      "summary": "Manuel Uth援引Axios报道，摩根士丹利等银行正在限制第三方智能体访问账户。用户同意提供凭据，并不代表银行允许这种登录方式；银行也难以判断操作是否出自用户指令。摩根士丹利明确表示，尚未发现失控智能体访问其平台。",
+      "reason": "原文正文＋原站 RSS 时间核验；揭示金融智能体落地的授权障碍，不将访问限制等同于已发生盗款。",
+      "category": "industry",
+      "quote": "Most banks want to limit agents to read-only access",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T11:10:23+08:00"
+    },
+    {
+      "sourceId": "rss-latent-space",
+      "sourceName": "Latent Space",
+      "date": "2026-10-22T14:03:40+00:00",
+      "url": "https://www.latent.space/p/moshi",
+      "title": "Moshi创始人谈垂直AI：融入客户工作流，先找到愿意付费的人",
+      "summary": "Anekha Sokhal介绍，Moshi结合公共行情、新闻和用户私有资料，通过关联图谱与推荐系统提供交易信息。她强调，做出个人看板还不够，产品需要融入客户工作流，并区分有需求与愿意购买的客户。访谈未提供收入或投资收益验证。",
+      "reason": "原文正文＋原站 RSS 时间核验；已通读访谈文字稿，经验来自创始人自述，自动转录可能存在措辞误差。",
+      "category": "opinion",
+      "quote": "the priority right now is to meet clients",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "AI创业",
+        "AI赛道",
+        "AI商业化",
+        "AI产品",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T11:10:23+08:00"
     }
   ]
 }
