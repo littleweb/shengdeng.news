@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "researchedAt": "2026-10-24T05:34:31+08:00",
+  "researchedAt": "2026-10-24T06:38:35+08:00",
   "items": [
     {
       "sourceId": "rss-aws-ml",
@@ -434,6 +434,31 @@
         "factTitle": "双方披露五年神经疾病数据及智能体授权协议"
       },
       "addedAt": "2026-10-24T05:34:31+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-10-23T21:35:13+00:00",
+      "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+      "title": "Simon Willison分享照片笔刷重绘提示词，用Canvas模拟绘制",
+      "summary": "Simon Willison分享给Claude Opus 5.5 High的提示词，要求生成一个打开照片后用Canvas和模拟笔刷快速重绘的交互作品。他说明实现使用Sobel边缘检测，除Google Fonts外无需外部库；几秒完成的效果属于作者描述。",
+      "reason": "提示词和实现线索可用于练习AI编程与视觉交互。原文正文＋原站 RSS 时间核验；未独立复测速度和绘制效果。",
+      "category": "tip",
+      "quote": "Quick Study uses Sobel edge detection",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "编码",
+        "AI创作者",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-24T06:38:35+08:00"
     }
   ]
 }
