@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "researchedAt": "2026-10-23T11:10:23+08:00",
+  "researchedAt": "2026-10-23T12:20:37+08:00",
   "items": [
     {
       "sourceId": "rss-microsoft-research",
@@ -910,6 +910,32 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-23T11:10:23+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-10-22T18:00:01.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/write-your-own-training-loop-without-managing-gpus-with-amazon-sagemaker-training-sessions/",
+      "title": "AWS公开强化学习训练配方，用沙箱单测评分并控制样本滞后",
+      "summary": "AWS技术教程给出异步采样、本地奖励计算、梯度更新和刷新采样器的实现，并用隔离沙箱单测评价生成代码。官方示例中，GPT-OSS 20B的LoRA适配器训练50步后，在200道留出编程题上的准确率从40%升至50.5%。结果仅对应文中双轮交互等配置，运行仍需AWS权限及受支持地区。",
+      "reason": "提供可复用的奖励函数、异步批处理与旧样本处理细节，补充服务发布公告。原文正文＋原站 RSS 时间核验；未运行代码，效果为官方实验自述。",
+      "category": "tip",
+      "quote": "accuracy on 200 held-out test problems rose from 40 percent to 50.5 percent.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "数据/训练",
+        "编码",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T12:20:37+08:00"
     }
   ]
 }
