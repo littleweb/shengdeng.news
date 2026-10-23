@@ -1,6 +1,6 @@
 {
   "kind": "models",
-  "capturedAt": "2026-10-22T16:12:15.110Z",
+  "capturedAt": "2026-10-23T16:38:50.800Z",
   "sourceName": "Artificial Analysis",
   "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
   "metric": "Intelligence Index",
@@ -25,7 +25,7 @@
       "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5",
       "context": "1M",
       "cost": "$5.46",
-      "speed": "134"
+      "speed": "133"
     },
     {
       "rank": 3,
@@ -36,7 +36,7 @@
       "url": "https://artificialanalysis.ai/models/claude-opus-5-5-xhigh",
       "context": "1M",
       "cost": "$3.46",
-      "speed": "84"
+      "speed": "85"
     },
     {
       "rank": 4,
@@ -69,7 +69,7 @@
       "url": "https://artificialanalysis.ai/models/claude-fable-5-1",
       "context": "1M",
       "cost": "$7.63",
-      "speed": "69"
+      "speed": "68"
     },
     {
       "rank": 7,
@@ -80,7 +80,7 @@
       "url": "https://artificialanalysis.ai/models/claude-fable-5-1-xhigh",
       "context": "1M",
       "cost": "$5.98",
-      "speed": "65"
+      "speed": "66"
     },
     {
       "rank": 8,
@@ -102,7 +102,7 @@
       "url": "https://artificialanalysis.ai/models/gemini-4-argon",
       "context": "1M",
       "cost": "$1.99",
-      "speed": "81"
+      "speed": "82"
     },
     {
       "rank": 10,
@@ -112,8 +112,8 @@
       "displayValue": "52",
       "url": "https://artificialanalysis.ai/models/muse-wonder",
       "context": "1.05M",
-      "cost": "$4.52",
-      "speed": "148"
+      "cost": "$4.54",
+      "speed": "149"
     }
   ]
 }

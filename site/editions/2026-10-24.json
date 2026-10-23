@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-24",
+  "researchedAt": "2026-10-24T00:38:00+08:00",
+  "items": [
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-10-23T16:21:36.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/",
+      "title": "拜耳复盘多智能体部署：按任务监控失败，缓存固定提示降低成本",
+      "summary": "AWS披露拜耳Crop Science的ADE部署实践：22个专用智能体为百余用户查询既有分析平台，按职责限制工具和权限，并将任务失败与HTTP请求成功分开监控。案例称，缓存稳定提示前缀使输入Token成本下降20%—30%，首阶段约80%的用户问题无需工程师介入。系统先向限定用户开放，这些成效属于案例自报。",
+      "reason": "提供状态持久化、工具权限划分和成本归因等可迁移做法。已通读原文并核对原站精确发布时间；成效数据未经独立复测。",
+      "category": "tip",
+      "quote": "For ADE, caching the stable prompt prefix cut input-token cost by 20–30 percent.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "Agent",
+        "AI玩法",
+        "AI赛道",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-24T00:38:00+08:00"
+    }
+  ]
+}
