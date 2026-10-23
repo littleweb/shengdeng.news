@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "researchedAt": "2026-10-23T13:31:16+08:00",
+  "researchedAt": "2026-10-23T14:39:58+08:00",
   "items": [
     {
       "sourceId": "rss-microsoft-research",
@@ -1017,6 +1017,174 @@
         "factTitle": "Amazon称PHP2Shell公开披露前四天已有利用尝试"
       },
       "addedAt": "2026-10-23T13:31:16+08:00"
+    },
+    {
+      "sourceId": "replit-blog",
+      "sourceName": "Replit Blog",
+      "date": "2026-10-22T20:24:13.430Z",
+      "url": "https://replit.com/blog/replit-monitoring-agent",
+      "title": "Replit推出生产监控智能体，可选择自动修复与发布",
+      "summary": "Monitoring Agent可读取生产日志与指标，在启用告警和自动修复后调查故障、修改并验证代码，再发送处理摘要。自动发布需要用户另外开启；适用于运行在Replit上的应用。官方未披露独立评测的修复成功率。",
+      "reason": "把AI编程延伸到上线后的维护环节。已读两位作者的官方全文并核对精确发布时间，保留自动修复、自动发布分别开启的条件；效果尚未独立实测。",
+      "category": "ai-products",
+      "quote": "You decide whether fixes are published automatically.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI创业",
+        "Agent",
+        "编码",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T14:39:58+08:00"
+    },
+    {
+      "sourceId": "redwood-research",
+      "sourceName": "Redwood Research",
+      "date": "2026-10-22T15:32:17Z",
+      "url": "https://blog.redwoodresearch.org/p/red-teaming-openais-internal-agent",
+      "title": "Redwood与METR披露OpenAI内部智能体监控红队结果",
+      "summary": "研究人员通过内部代码、监控配置和访谈，发现上下文压缩、监控触发时机及隔离机制等盲点，并建议定期监控、核对流量日志和隔离智能体与监控系统。测试针对7月21日及此前的系统；OpenAI称影响生产防护的漏洞已修补，研究方尚未复核。",
+      "reason": "展示监控覆盖声明与实际执行之间可能出现的差距。原文正文＋原站RSS时间核验，并对照METR参与方原文；公开内容经过删节，不能据此判断当前系统安全水平。",
+      "category": "paper",
+      "quote": "We have not evaluated these claims.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "安全/对齐",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-internal-agent-monitoring-redteam-2026-10-22",
+        "title": "Redwood与METR公开OpenAI内部智能体监控红队结果",
+        "factKey": "july-monitoring-redteam-public-disclosure",
+        "factTitle": "联合研究披露7月旧版内部监控系统的漏洞与评估限制"
+      },
+      "addedAt": "2026-10-23T14:39:58+08:00"
+    },
+    {
+      "sourceId": "metr-research",
+      "sourceName": "METR",
+      "date": "2026-10-22T00:00:00-07:00",
+      "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+      "title": "METR原文交叉确认监控红队范围与未复测限制",
+      "summary": "David Rein与Adam Kaufman署名的参与方原文确认，这次高访问权限试点持续三周，评估历史系统的监控覆盖及可绕过路径。研究方没有确认漏洞曾被智能体实际利用，也没有评估OpenAI随后声称完成的修补。",
+      "reason": "已通读参与方原文并核对页面发布时间。与Redwood属于同一联合研究的共同披露，不算另一项独立实验，仅作事件交叉证据。",
+      "category": "paper",
+      "quote": "We have not evaluated these claims.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "安全/对齐",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "openai-internal-agent-monitoring-redteam-2026-10-22",
+        "title": "Redwood与METR公开OpenAI内部智能体监控红队结果",
+        "factKey": "july-monitoring-redteam-public-disclosure",
+        "factTitle": "联合研究披露7月旧版内部监控系统的漏洞与评估限制"
+      },
+      "addedAt": "2026-10-23T14:39:58+08:00"
+    },
+    {
+      "sourceId": "sierra-blog",
+      "sourceName": "Sierra",
+      "date": "2026-10-22T14:02:33.939Z",
+      "url": "https://sierra.ai/blog/tau-entity-can-voice-agents-get-the-details-right",
+      "title": "Sierra语音基准：核对姓名与号码能提高可靠性，也增加耗时",
+      "summary": "τ-Entity用200项任务测试十类信息字段，每通电话只处理一个字段。六种语言汇总中，GPT Live 1普通环境正确率为60.3%，同时通过三种环境的任务比例为34.0%。配套实验中，规定复述、拼读及确认步骤提高了可靠性，但通话增加21—28秒；不能把不同实验配置的数字直接混用。",
+      "reason": "指出语音客服容易忽视的基础失败点，并给出可靠性与耗时的取舍。已读Soham Ray官方全文并核对精确发布时间；结果来自受控测试，尚未独立复测。",
+      "category": "paper",
+      "quote": "calls take 21–28 seconds longer.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "语音",
+        "Agent",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T14:39:58+08:00"
+    },
+    {
+      "sourceId": "rss-hugging-face",
+      "sourceName": "Hugging Face Blog",
+      "date": "2026-10-22T22:24:34.000Z",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "title": "微软公开ThinkingBox训练流程，用数据库结果检查智能体是否真正完成任务",
+      "summary": "微软与Hugging Face介绍将数据库最终状态检查转为训练奖励的方法。在507项测试任务、每项20次尝试中，Qwen3.8-27B经50步GRPO训练，平均成功率从51.70%升至60.78%，全部20次成功的任务由38项增至107项，但至少成功一次的任务由453项降至446项。代码已公开，实验使用的187项训练任务未完整公开。",
+      "reason": "提供按实际结果验收、分别衡量覆盖与重复可靠性的可复用方法。原文正文＋原站RSS时间核验；参考训练使用24块H100，公开样例不能完整复现所报训练结果。",
+      "category": "tip",
+      "quote": "The reward is 1 or 0.",
+      "tier": "T1",
+      "entity": "microsoft",
+      "subjects": [
+        "microsoft",
+        "hugging-face"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "Agent",
+        "数据/训练",
+        "部署/工程",
+        "开源生态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T14:39:58+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-22T16:18:02.000Z",
+      "url": "https://the-decoder.com/only-13-percent-of-companies-see-real-returns-from-ai-gartner-survey-finds/",
+      "title": "Gartner调查报道：13%受访技术负责人称AI带来重大回报",
+      "summary": "报道援引覆盖2002名CIO及其他技术负责人的Gartner调查，13%受访者报告重大或变革性AI回报。58%的CIO承担通过AI节约成本的任务，51%却预计AI会增加技术栈总运营成本。这些是受访者自报及预期，不能解释为只有13%的企业盈利。",
+      "reason": "补充企业AI投入与回报之间的具体调查证据，与已归档的管理负担调查不同。已读Manuel Uth原文并核对发布时间；报道经WSJ转述Gartner，未取得完整问卷及底层数据。",
+      "category": "paper",
+      "quote": "major or transformative returns",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T14:39:58+08:00"
     }
   ]
 }
