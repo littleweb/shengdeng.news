@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "researchedAt": "2026-10-24T03:55:24+08:00",
+  "researchedAt": "2026-10-24T04:59:32+08:00",
   "items": [
     {
       "sourceId": "rss-aws-ml",
@@ -294,6 +294,86 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-24T03:55:24+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-23T19:32:39.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+      "title": "Block展示语音模型Dessa，计划向少量安全研究者开放",
+      "summary": "Block公布Dessa语音模型及对话示例。团队称模型仅用人类对话语音从头训练，可在MacBook Pro M4 Max或更高配置上本地运行，并计划向少量AI安全研究者提供早期访问。报道中的自然度比较来自展示样例，不能视为独立性能评测或全面开放。",
+      "reason": "值得关注直接从语音学习的交互路线。已通读Jay Peters报道，原文发布时间与原站订阅一致；训练方式和本地运行能力仍是团队自述。",
+      "category": "ai-models",
+      "quote": "everything it knows came from human speech",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "语音",
+        "端侧",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-24T04:59:32+08:00"
+    },
+    {
+      "sourceId": "rss-latent-space",
+      "sourceName": "Latent Space",
+      "date": "2026-10-23T15:19:48.000Z",
+      "url": "https://latent.space/p/ai-is-getting-good-at-math/",
+      "title": "Ankit Maloo分析AI数学求解：记录失败路径，分开求解与验证",
+      "summary": "Ankit Maloo用关键提示、探索分支和验证成本解释AI数学求解的适用范围，并拆分提示编写、候选求解与结果检查三个角色。文章强调将失败原因写入后续尝试，以及人类筛选方向与模型展开计算之间的互补关系；这是作者的分析框架，并非经过验证的通用预测公式。",
+      "reason": "提供了可迁移到复杂智能体任务的分析框架。已核对署名、全文及原站发布时间；文中回顾的数学证明和算力数字未在本轮独立复核。",
+      "category": "opinion",
+      "quote": "Humans are good at shrinking branches.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "现象/趋势",
+        "AI创作者",
+        "Agent",
+        "推理",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-24T04:59:32+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-10-23T19:40:54.000Z",
+      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+      "title": "Simon Willison记录Kimi K3.1 Pro定价与API试用",
+      "summary": "Simon Willison记录Kimi K3.1 Pro已接入API，普通版每百万输入、输出Token分别为2美元和10美元；Highspeed版通常价格翻倍，输入缓存命中价格保持相同。他展示了三个推理档位的SVG生成尝试，并明确完整权重仍待开放。这些少量样例不足以证明普遍能力优势。",
+      "reason": "作为已有Kimi发布事件的独立试用与定价交叉证据，不重复列为精选。原文正文＋原站 RSS 时间核验；模型权重仍未开放。",
+      "category": "ai-models",
+      "quote": "it's not yet open weights",
+      "tier": "T2",
+      "entity": "kimi",
+      "subjects": [
+        "kimi"
+      ],
+      "region": "国内",
+      "tags": [
+        "模型发布",
+        "编码",
+        "推理",
+        "国内AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "kimi-k31-pro-release-2026-10-23",
+        "title": "月之暗面发布Kimi K3.1 Pro及高速版",
+        "factKey": "kimi-k31-pro-service-launch",
+        "factTitle": "Kimi K3.1 Pro及Highspeed正式开放使用"
+      },
+      "addedAt": "2026-10-24T04:59:32+08:00"
     }
   ]
 }
