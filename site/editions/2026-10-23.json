@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "researchedAt": "2026-10-23T18:03:03+08:00",
+  "researchedAt": "2026-10-23T20:16:08+08:00",
   "items": [
     {
       "sourceId": "rss-microsoft-research",
@@ -1259,6 +1259,94 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-23T18:03:03+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-23T12:00:00.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+      "title": "原创采访：AI加快复古游戏移植，也引发保存社区的贡献与署名冲突",
+      "summary": "Andrew Webster采访游戏移植爱好者与社区维护者：AI编码工具让个人能够并行推进更多移植项目，但抢先移植、缺少贡献的分叉及对原有代码理解不足，也损害了社区协作。一家反编译资源网站因此宣布关闭。",
+      "reason": "原创采访同时提供效率收益与社区代价，适合AI创作者参考；已核对完整报道及原站发布时间，效率描述属于受访者经验。",
+      "category": "industry",
+      "quote": "the pace and volume would not have been possible for me without it.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI玩法",
+        "编码",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T20:16:08+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-23T11:32:19.000Z",
+      "url": "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically/",
+      "title": "Claude形式化验证研究覆盖123个开源库，安全保证仍有严格边界",
+      "summary": "The Decoder报道Anthropic与Theorem的研究：Claude为既有软件生成约1.8亿行证明代码，由Rocq检查。保证仅适用于指定架构、单线程及输入大小等条件，不能据此认定整个软件没有漏洞。",
+      "reason": "提供AI辅助验证代码的新进展；已通读报道并对照研究原文，实验规模为研究团队披露，未独立复现。",
+      "category": "paper",
+      "quote": "The proofs only hold under strict conditions",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "编码",
+        "安全/对齐",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "claude-theorem-formal-verification-2026-10-22",
+        "title": "Claude与Theorem开展开源软件形式化验证研究",
+        "factKey": "oss-fuzz-123-libraries-proof-study",
+        "factTitle": "Claude为123个开源库的特定测试入口生成机器可检查证明"
+      },
+      "addedAt": "2026-10-23T20:16:08+08:00"
+    },
+    {
+      "sourceId": "anthropic-research",
+      "sourceName": "Anthropic Research",
+      "date": "2026-10-22",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "title": "Anthropic研究原文明确形式化证明的覆盖范围与限制",
+      "summary": "研究团队报告覆盖123个库的239个测试入口，主要保证针对固定内存预算的单线程RISC-V静态程序及小于64 MB的输入；未覆盖整个库或所有现实运行环境。",
+      "reason": "作为近48小时同事件原始研究证据，核对覆盖范围与限制；网页仅标日期，保留其精度，不重复精选。",
+      "category": "paper",
+      "quote": "“Formally verified” does not mean “bug-free.”",
+      "tier": "T1",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "编码",
+        "安全/对齐",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": false,
+      "event": {
+        "key": "claude-theorem-formal-verification-2026-10-22",
+        "title": "Claude与Theorem开展开源软件形式化验证研究",
+        "factKey": "oss-fuzz-123-libraries-proof-study",
+        "factTitle": "Claude为123个开源库的特定测试入口生成机器可检查证明"
+      },
+      "addedAt": "2026-10-23T20:16:08+08:00"
     }
   ]
 }
