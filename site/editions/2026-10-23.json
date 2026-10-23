@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "researchedAt": "2026-10-23T14:39:58+08:00",
+  "researchedAt": "2026-10-23T15:47:02+08:00",
   "items": [
     {
       "sourceId": "rss-microsoft-research",
@@ -1185,6 +1185,31 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-23T14:39:58+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-10-22T17:48:22.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/deploy-ai-in-a-hipaa-eligible-environment-with-amazon-quick/",
+      "title": "AWS分享医疗智能体部署方法：分别验证检索权限、工具权限与日志",
+      "summary": "AWS用虚构医保机构示例，演示文档级权限、结构化数据行列权限、只读连接器和对话日志的配置与测试。建议先以非敏感数据验证，再逐步扩大智能体权限；服务具备HIPAA适用资格，并不代表部署自动合规，Free和Plus路径也不提供BAA覆盖。",
+      "reason": "权限隔离与日志核查方法可供企业智能体部署参考；已通读两位AWS作者的原文并核对发布时间。案例为虚构演示，未独立复测。",
+      "category": "tip",
+      "quote": "Start agents in read-only mode against non-PHI data.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "Agent",
+        "部署/工程",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T15:47:02+08:00"
     }
   ]
 }
