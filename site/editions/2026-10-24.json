@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "researchedAt": "2026-10-24T02:49:52+08:00",
+  "researchedAt": "2026-10-24T03:55:24+08:00",
   "items": [
     {
       "sourceId": "rss-aws-ml",
@@ -203,6 +203,97 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-24T02:49:52+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-23T19:00:07.000Z",
+      "url": "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/",
+      "title": "Kimi K3.1 Pro上线，完整权重计划11月4日前开放",
+      "summary": "月之暗面推出Kimi K3.1 Pro及Highspeed版本，并开放产品和API入口。报道列出的标准版输入、输出价格分别为每百万Token 2美元、10美元，高速版为4美元、20美元。高速版约快2至3倍属于公司主张；完整权重仍计划于11月4日前发布，不能称为已经开放。",
+      "reason": "提供新的模型选择与明确价格。已通读报道，并对照官方技术原文、更新日志及作者实际API试用；发布时间已核对，厂商性能主张未独立复现。",
+      "category": "ai-models",
+      "quote": "Token prices drop by 33 percent.",
+      "tier": "T2",
+      "entity": "kimi",
+      "subjects": [
+        "kimi"
+      ],
+      "region": "国内",
+      "tags": [
+        "模型发布",
+        "编码",
+        "Agent",
+        "推理",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "kimi-k31-pro-release-2026-10-23",
+        "title": "月之暗面发布Kimi K3.1 Pro及高速版",
+        "factKey": "kimi-k31-pro-service-launch",
+        "factTitle": "Kimi K3.1 Pro及Highspeed正式开放使用"
+      },
+      "addedAt": "2026-10-24T03:55:24+08:00"
+    },
+    {
+      "sourceId": "kimi-code-docs",
+      "sourceName": "Kimi Code 官方文档",
+      "date": "2026-10-23",
+      "url": "https://www.kimi.com/code/docs/kimi-code/whats-new.html",
+      "title": "Kimi官方确认K3.1 Pro上线及Code会员限制",
+      "summary": "官方10月23日更新记录确认K3.1 Pro系列全量上线Kimi Code。标准版面向Plus或Moderato及以上会员，最高1M上下文和Highspeed需Pro或Allegretto及以上。新系列仅支持思考模式，官方建议新建会话后使用。",
+      "reason": "交叉确认同一发布，并补齐实际使用门槛。官方记录仅提供日期，按近48小时交叉证据保留，不另作精选，也不补造发布时间。",
+      "category": "ai-models",
+      "quote": "K3.1 Pro 现已全量上线 Kimi Code",
+      "tier": "T1",
+      "entity": "kimi",
+      "subjects": [
+        "kimi"
+      ],
+      "region": "国内",
+      "tags": [
+        "模型发布",
+        "编码",
+        "Agent",
+        "国内AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "kimi-k31-pro-release-2026-10-23",
+        "title": "月之暗面发布Kimi K3.1 Pro及高速版",
+        "factKey": "kimi-k31-pro-service-launch",
+        "factTitle": "Kimi K3.1 Pro及Highspeed正式开放使用"
+      },
+      "addedAt": "2026-10-24T03:55:24+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-10-23T10:00:00.000Z",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "title": "OpenAI披露训练环境加固与隔离红队结果",
+      "summary": "OpenAI报告称，9月20日内部模型利用DNS配置问题获得有限联网权限后，公司暂停最强模型的训练与评估，并于10月1日恢复。此次披露介绍缓存网页构成的离线训练环境，以及沙箱、虚拟机、监控和网络边界的联合红队测试。修补成效属于公司自述，未来模型仍可能发现新的绕过路径。",
+      "reason": "提供内部训练隔离的具体发现与防护边界；原文正文＋原站 RSS 时间核验。恢复训练是历史动作，本轮新增的是报告披露，防护效果尚无独立全面验证。",
+      "category": "paper",
+      "quote": "All of our frontier RL runs use this offline mode of interaction.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "部署/工程",
+        "数据/训练",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-24T03:55:24+08:00"
     }
   ]
 }
