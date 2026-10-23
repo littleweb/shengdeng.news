@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "researchedAt": "2026-10-23T07:50:37+08:00",
+  "researchedAt": "2026-10-23T10:02:51+08:00",
   "items": [
     {
       "sourceId": "rss-microsoft-research",
@@ -626,6 +626,187 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-23T07:50:37+08:00"
+    },
+    {
+      "sourceId": "rss-hugging-face",
+      "sourceName": "Hugging Face Blog · Ai2",
+      "date": "2026-10-22T16:11:31.000Z",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "title": "Ai2发布OlmoEarth 1.3，免登录探索卫星嵌入地图",
+      "summary": "Ai2开放OlmoEarth 1.3模型、预计算卫星嵌入及浏览器探索工具。用户可标注少量地点训练轻量分类器，并导出GeoTIFF，无需GPU。上线时2023—2025年覆盖全球，2017—2022年仅覆盖部分国家；资源采用OlmoEarth Artifact License，不能将全部年份都理解为全球覆盖。",
+      "reason": "已通读Ai2署名原文，完成原文正文＋原站 RSS 时间核验；地图探索可直接试用，厂商基准尚未独立复测。",
+      "category": "ai-models",
+      "quote": "No account, no setup required.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "AI产品",
+        "AI赛道",
+        "开源生态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T10:02:51+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-10-22T18:09:56+00:00",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+      "title": "Anthropic将Agent Skills标准捐赠AAIF，转入中立治理",
+      "summary": "Simon Willison转介Anthropic公告：Agent Skills标准将交由Linux Foundation旗下Agentic AI Foundation承接，继续面向社区、保持厂商中立。这是标准治理与归属的变化，不意味着所有兼容工具的功能或安全性同步升级。",
+      "reason": "原文正文＋原站 RSS 时间核验，并已核对Anthropic公告；跨工具技能生态的治理变化值得关注。",
+      "category": "industry",
+      "quote": "Today, we are donating the standard to the Agentic AI Foundation (AAIF)",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "Agent",
+        "开源生态",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "agent-skills-aaif-donation-2026-10-22",
+        "title": "Anthropic将Agent Skills标准捐赠AAIF",
+        "factKey": "agent-skills-standard-governance-transfer",
+        "factTitle": "Agent Skills标准及相关项目资产移交AAIF"
+      },
+      "addedAt": "2026-10-23T10:02:51+08:00"
+    },
+    {
+      "sourceId": "anthropic-news",
+      "sourceName": "Anthropic 官方",
+      "date": "2026-10-22",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "title": "Anthropic原文明确Agent Skills移交资产与参与条件",
+      "summary": "官方公告明确，捐赠范围包括Agent Skills名称、Logo、GitHub组织与agentskills.io域名；使用或贡献标准无需加入AAIF。版本化发布、正式提案流程及安全指南属于提出的后续路线，不能视为已经完成。",
+      "reason": "官方原文确认移交范围与社区参与条件；网页仅标日期，在48小时内作为同事实交叉证据保留，不重复精选。",
+      "category": "industry",
+      "quote": "You can continue to use the standard or contribute to it without joining the AAIF.",
+      "tier": "T1",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "Agent",
+        "开源生态",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": false,
+      "event": {
+        "key": "agent-skills-aaif-donation-2026-10-22",
+        "title": "Anthropic将Agent Skills标准捐赠AAIF",
+        "factKey": "agent-skills-standard-governance-transfer",
+        "factTitle": "Agent Skills标准及相关项目资产移交AAIF"
+      },
+      "addedAt": "2026-10-23T10:02:51+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-22T17:50:09+00:00",
+      "url": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine/",
+      "title": "Google披露Agent Compute Engine，面向智能体提供独立微虚拟机",
+      "summary": "Matthias Bastian报道，Google为每个智能体提供硬件隔离的微虚拟机，通过空闲暂停和共享内存降低运行开销。服务已用于Gemini，对外预览预计在未来几个月开放；运行密度与恢复速度数字来自Google测试，不能视为已普遍可用或独立验证。",
+      "reason": "已通读报道及Google技术原文，完成原文正文＋原站 RSS 时间核验；隔离与待机成本设计有参考价值，对外预览仍待开放。",
+      "category": "ai-products",
+      "quote": "The service already powers Gemini and will open for preview in the coming months.",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "部署/工程",
+        "海外AI",
+        "Google"
+      ],
+      "selected": true,
+      "event": {
+        "key": "google-agent-compute-engine-2026-10-22",
+        "title": "Google披露Agent Compute Engine及预览计划",
+        "factKey": "agent-compute-engine-architecture-preview",
+        "factTitle": "Google公开智能体微虚拟机架构并说明后续预览安排"
+      },
+      "addedAt": "2026-10-23T10:02:51+08:00"
+    },
+    {
+      "sourceId": "google-cloud-blog",
+      "sourceName": "Google Cloud 官方博客",
+      "date": "2026-10-22",
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/agent-compute-engine-deep-dive",
+      "title": "Google原文补充智能体沙箱隔离与凭据托管设计",
+      "summary": "Google工程师说明，Agent Compute Engine将编排运行框架与执行沙箱分离，长期用户凭据留在沙箱外，由网关核验身份后处理授权。空闲会话保存状态并暂停，工作区可跨天保留。文章明确服务目标是在未来几个月进入预览。",
+      "reason": "已通读两位工程师署名原文，交叉确认架构与开放阶段；网页仅标日期，在48小时内作证据保留，安全和性能主张未独立复测。",
+      "category": "ai-products",
+      "quote": "Agent Compute Engine is targeted for preview in the coming months.",
+      "tier": "T1",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "部署/工程",
+        "海外AI",
+        "Google"
+      ],
+      "selected": false,
+      "event": {
+        "key": "google-agent-compute-engine-2026-10-22",
+        "title": "Google披露Agent Compute Engine及预览计划",
+        "factKey": "agent-compute-engine-architecture-preview",
+        "factTitle": "Google公开智能体微虚拟机架构并说明后续预览安排"
+      },
+      "addedAt": "2026-10-23T10:02:51+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-10-22T15:11:14+08:00",
+      "url": "https://www.qbitai.com/2026/10/504832.html",
+      "title": "星辰发布Xing4.0-29B-Intent，提供意图识别与参数抽取资源",
+      "summary": "中国电信星辰实验室发布Xing4.0-29B-Intent，用预定义Schema同时识别意图、抽取参数并输出结构化结果。公告列出275.3万条监督微调语料、模型权重和推理镜像入口，面向客服路由、助手与信息抽取。文中比较结果来自企业自测，不代表所有任务中的通用优势。",
+      "reason": "已通读量子位授权供稿并核对精确时间，公开模型与数据便于业务适配；媒体供稿仍按T2记录，评测未独立复现。",
+      "category": "ai-models",
+      "quote": "支持意图识别、参数抽取及统一格式的结构化输出。",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "模型发布",
+        "AI产品",
+        "Agent",
+        "数据/训练",
+        "开源生态",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-23T10:02:51+08:00"
     }
   ]
 }
