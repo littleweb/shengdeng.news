@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "researchedAt": "2026-10-25T03:15:24+08:00",
+  "researchedAt": "2026-10-25T04:19:14+08:00",
   "items": [
     {
       "sourceId": "rss-techcrunch-ai",
@@ -86,6 +86,59 @@
         "factTitle": "宾州州长签署SB806并设置60日生效期"
       },
       "addedAt": "2026-10-25T03:15:24+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-24T09:21:39.000Z",
+      "url": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/",
+      "title": "编码智能体研究解读：比较运行框架前，先测重复运行的波动",
+      "summary": "Jonathan Kemper解读10月3日公开的研究：离线测试中，五种模型在45道难题上更换运行框架产生的结果波动，与重复运行相近；447题、两种模型的比较中，Claude Code与mini-SWE-agent在五个百分点内等效。同模型、同计价表下，单题成本最高相差约三倍；结果不能外推所有智能体。",
+      "reason": "为智能体选型提供重复测试与成本核算方法。已核对报道全文、精确发布时间及原论文；这是既有研究的新解读，存在单一基准和配置限制。",
+      "category": "paper",
+      "quote": "They recommend publishing a rerun of the same setup alongside every harness comparison.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "编码",
+        "评测/基准",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-25T04:19:14+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-24T14:34:05.000Z",
+      "url": "https://the-decoder.com/ai-makes-junior-patent-attorneys-instantly-better-but-may-quietly-stunt-their-professional-growth/",
+      "title": "专利律师实验解读：AI辅助提质未自动转化为新人的独立判断能力",
+      "summary": "Jonathan Kemper解读一项既有随机试验：美国11家律所的133名专利律师参与三个月实验，AI辅助提高了专利起草质量，初级律师受益更大。但在随后不使用AI的审改任务中，平均优势集中于资深律师，初级律师没有平均提升。这不能直接证明AI导致技能退化。",
+      "reason": "提醒团队分开评估交付质量与独立能力。报道全文、精确发布时间及Google官方研究摘要相互印证；研究由Google资助，样本较小且缺少基线技能测量。",
+      "category": "paper",
+      "quote": "the experiment doesn't explain why the effects diverged",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "AI赛道",
+        "行业报告",
+        "海外AI",
+        "Google"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-25T04:19:14+08:00"
     }
   ]
 }
