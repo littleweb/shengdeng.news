@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-25",
+  "researchedAt": "2026-10-24T16:04:08Z",
+  "items": [
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-24T15:00:00.000Z",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "title": "Convovo测试显示GPT与Grok的选举回答偏向不同",
+      "summary": "Convovo通过开启搜索的API，要求GPT-6.1 Sol和Grok 4.7在美国中期选举中强制推荐一名候选人，呈现相反党派倾向。报道另补做30场关闭搜索的对照，Grok在27场拒绝选边。",
+      "reason": "有助于理解搜索设置怎样影响政治回答；采访全文与研究页面的方法相符，API实验不能外推消费端或真实投票影响。",
+      "category": "paper",
+      "quote": "via their APIs",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "openai",
+        "xai"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "海外AI",
+        "搜索",
+        "OpenAI",
+        "xAI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-24T16:04:08Z"
+    }
+  ]
+}
