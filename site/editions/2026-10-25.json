@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "researchedAt": "2026-10-24T16:04:08Z",
+  "researchedAt": "2026-10-25T01:07:36+08:00",
   "items": [
     {
       "sourceId": "rss-techcrunch-ai",
@@ -29,6 +29,36 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-24T16:04:08Z"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-24T15:19:33.000Z",
+      "url": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/",
+      "title": "报道补充OpenAI安全研究员解雇调查中的手机检查与Signal通信细节",
+      "summary": "The Decoder援引华尔街日报采访，补充此前三名OpenAI安全研究员被解雇前的调查细节，包括检查私人手机及与外部研究者的Signal通信。三人否认泄密，并称未收到具体违规信息的书面说明。OpenAI否认解雇与提出安全担忧有关，也称Signal并非解雇理由。",
+      "reason": "涉及外部安全协作与保密边界。已通读Manuel Uth报道并核对原站发布时间；新增的是调查细节，泄密指控及解雇动机仍存在争议。",
+      "category": "industry",
+      "quote": "OpenAI said Signal was not an approved communication tool but insisted it was not the reason for the terminations.",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-safety-researcher-dismissals-2026-10",
+        "title": "OpenAI安全研究员解雇与外部协作争议",
+        "factKey": "dismissal-investigation-phone-signal-details-2026-10",
+        "factTitle": "报道补充解雇调查中的手机检查与Signal通信细节"
+      },
+      "addedAt": "2026-10-25T01:07:36+08:00"
     }
   ]
 }

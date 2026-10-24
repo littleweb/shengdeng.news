@@ -1,6 +1,6 @@
 {
   "kind": "models",
-  "capturedAt": "2026-10-23T16:38:50.800Z",
+  "capturedAt": "2026-10-24T17:08:10.964Z",
   "sourceName": "Artificial Analysis",
   "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
   "metric": "Intelligence Index",
@@ -51,6 +51,17 @@
     },
     {
       "rank": 5,
+      "name": "Kimi K3.1 Pro",
+      "owner": "Kimi",
+      "value": 55,
+      "displayValue": "55",
+      "url": "https://artificialanalysis.ai/models/kimi-k3-1-pro",
+      "context": "1M",
+      "cost": "$2.11",
+      "speed": "73"
+    },
+    {
+      "rank": 6,
       "name": "Claude Opus 5.5 (high with fallback)",
       "owner": "Anthropic",
       "value": 54,
@@ -58,10 +69,10 @@
       "url": "https://artificialanalysis.ai/models/claude-opus-5-5-high",
       "context": "1M",
       "cost": "$1.82",
-      "speed": "78"
+      "speed": "81"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "Claude Fable 5.1 (max with fallback)",
       "owner": "Anthropic",
       "value": 53,
@@ -72,7 +83,7 @@
       "speed": "68"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "Claude Fable 5.1 (xhigh with fallback)",
       "owner": "Anthropic",
       "value": 53,
@@ -80,10 +91,10 @@
       "url": "https://artificialanalysis.ai/models/claude-fable-5-1-xhigh",
       "context": "1M",
       "cost": "$5.98",
-      "speed": "66"
+      "speed": "65"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "GPT-6 Astra (max)",
       "owner": "OpenAI",
       "value": 53,
@@ -91,10 +102,10 @@
       "url": "https://artificialanalysis.ai/models/gpt-6-astra",
       "context": "1M",
       "cost": "$3.26",
-      "speed": "57"
+      "speed": "58"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "Gemini 4 Argon (high)",
       "owner": "Google",
       "value": 53,
@@ -102,18 +113,7 @@
       "url": "https://artificialanalysis.ai/models/gemini-4-argon",
       "context": "1M",
       "cost": "$1.99",
-      "speed": "82"
-    },
-    {
-      "rank": 10,
-      "name": "Muse Wonder (max)",
-      "owner": "Meta",
-      "value": 52,
-      "displayValue": "52",
-      "url": "https://artificialanalysis.ai/models/muse-wonder",
-      "context": "1.05M",
-      "cost": "$4.54",
-      "speed": "149"
+      "speed": "79"
     }
   ]
 }
