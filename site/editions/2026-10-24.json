@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "researchedAt": "2026-10-24T13:08:25+08:00",
+  "researchedAt": "2026-10-24T15:19:33+08:00",
   "items": [
     {
       "sourceId": "rss-aws-ml",
@@ -614,6 +614,70 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-24T13:08:25+08:00"
+    },
+    {
+      "sourceId": "reuters-marketscreener",
+      "sourceName": "Reuters（MarketScreener刊载）",
+      "date": "2026-10-24T01:51+01:00",
+      "url": "https://uk.marketscreener.com/news/openai-resumes-frontier-ai-training-after-security-overhaul-discloses-flaw-in-widely-used-software-ce785cdfdf8df723",
+      "title": "OpenAI披露红队发现Brotli漏洞，下游软件需分别更新",
+      "summary": "路透社报道，OpenAI称其红队测试发现Brotli压缩库漏洞，恶意压缩数据可能使受影响系统执行攻击者代码，涉及Node.js、Bun、Envoy等软件。根因虽在2月修入源码，当时尚未识别其安全影响，也未发布包含修复的新版本；后续修补需由各下游项目分别交付。",
+      "reason": "补充此前训练隔离报道未收录的具体漏洞事实。已通读署名报道并对照Node.js、Envoy维护者公告；AI发现过程仍属OpenAI披露，不能据此认定所有部署已修复。",
+      "category": "industry",
+      "quote": "During that exercise, the ChatGPT maker found a flaw in Brotli",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "安全/对齐",
+        "Agent",
+        "部署/工程",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "brotli-cve-2026-111497",
+        "title": "OpenAI红队发现Brotli漏洞及下游修补",
+        "factKey": "openai-brotli-redteam-disclosure-2026-10-23",
+        "factTitle": "OpenAI披露红队发现Brotli远程代码执行漏洞"
+      },
+      "addedAt": "2026-10-24T15:19:33+08:00"
+    },
+    {
+      "sourceId": "envoy-security",
+      "sourceName": "Envoy官方安全公告",
+      "date": "2026-10-23",
+      "url": "https://github.com/envoyproxy/envoy/security/advisories/GHSA-3wvj-j6qm-62mr",
+      "title": "Envoy公告确认Brotli漏洞影响条件及修复版本",
+      "summary": "Envoy维护者公告确认，配置Brotli解压器的受影响部署可能遭遇内存破坏、信息泄露、拒绝服务或任意代码执行。公告列出修复版本1.40.0、1.39.3、1.38.6、1.37.8和1.36.12，并将报告方记为OpenAI Security Research。",
+      "reason": "下游维护者原文独立确认漏洞、配置条件及修复版本。页面仅提供日期，作为近48小时交叉证据保留，不另列精选；公告没有证明所有Envoy部署都受影响。",
+      "category": "industry",
+      "quote": "Envoy deployments that have Brotli decompressor configured.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "安全/对齐",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "brotli-cve-2026-111497",
+        "title": "OpenAI红队发现Brotli漏洞及下游修补",
+        "factKey": "envoy-brotli-advisory-2026-10-23",
+        "factTitle": "Envoy公布Brotli漏洞影响条件及修复版本"
+      },
+      "addedAt": "2026-10-24T15:19:33+08:00"
     }
   ]
 }
