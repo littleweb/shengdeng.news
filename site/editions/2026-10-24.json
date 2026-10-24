@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "researchedAt": "2026-10-24T15:19:33+08:00",
+  "researchedAt": "2026-10-24T17:29:15+08:00",
   "items": [
     {
       "sourceId": "rss-aws-ml",
@@ -678,6 +678,30 @@
         "factTitle": "Envoy公布Brotli漏洞影响条件及修复版本"
       },
       "addedAt": "2026-10-24T15:19:33+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-23T16:07-07:00",
+      "url": "https://techcrunch.com/2026/10/23/startups-dont-need-to-go-viral-to-win-customers/",
+      "title": "Gamma谈创作者获客",
+      "summary": "按客群匹配创作者，协助讲清产品价值。",
+      "reason": "供获客参考；上周讨论新刊，经验自述。",
+      "category": "tip",
+      "quote": "target each one",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI创业",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-24T17:29:15+08:00"
     }
   ]
 }
