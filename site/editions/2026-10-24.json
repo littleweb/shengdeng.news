@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "researchedAt": "2026-10-24T09:52:23+08:00",
+  "researchedAt": "2026-10-24T11:00:00+08:00",
   "items": [
     {
       "sourceId": "rss-aws-ml",
@@ -539,6 +539,29 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-24T09:52:23+08:00"
+    },
+    {
+      "sourceId": "rss-ars-technica-ai",
+      "sourceName": "Ars Technica · AI",
+      "date": "2026-10-23T17:18:31.000Z",
+      "url": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
+      "title": "英特尔获一年机器人禁令豁免，允许维护晶圆厂特定设备",
+      "summary": "Jeremy Hsu报道，FCC给予英特尔一年豁免，允许其继续在美国晶圆厂使用特定外国制造机器人，并进行部分硬件、软件及固件修改。相关自动导引车用于搬运物料，具体型号未公开；这不代表外国机器人限制整体撤销。",
+      "reason": "揭示机器人限制对芯片制造维护的实际影响。原文正文＋原站 RSS 时间核验；FCC命令正文未能读取，范围依据记者报道。",
+      "category": "industry",
+      "quote": "for a period of one year.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "政策/监管",
+        "AI硬件",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-24T11:00:00+08:00"
     }
   ]
 }
