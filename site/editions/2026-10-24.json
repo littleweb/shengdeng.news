@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "researchedAt": "2026-10-24T06:38:35+08:00",
+  "researchedAt": "2026-10-24T09:52:23+08:00",
   "items": [
     {
       "sourceId": "rss-aws-ml",
@@ -459,6 +459,86 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-24T06:38:35+08:00"
+    },
+    {
+      "sourceId": "xinhua-news",
+      "sourceName": "新华网",
+      "date": "2026-10-23T17:02:53+08:00",
+      "url": "https://www3.xinhuanet.com/politics/20261023/f21a5777774749daa0eed451c81f4002/c.html",
+      "title": "国办部署AI与就业18项任务，强调岗位创造、转岗支持和风险评估",
+      "summary": "新华社报道，国务院办公厅日前印发相关意见，部署6个方面18项任务，包括培育AI领域新职业、支持创业、建立就业风险评估机制，以及加强转型转岗支持和劳动者保障。这是政策部署，不能视为新增岗位或培训成效已经实现。",
+      "reason": "直接关系AI应用、创业与劳动者转型。已核对新华社全文、发布时间及IT之家报道；政府网全文本轮未能访问，执行成效仍待观察。",
+      "category": "industry",
+      "quote": "建立人工智能应用就业风险评估机制",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "政策/监管",
+        "国内AI",
+        "AI创业",
+        "AI赛道"
+      ],
+      "selected": true,
+      "event": {
+        "key": "china-ai-employment-opinion-2026-10-23",
+        "title": "国办部署适应人工智能发展的就业政策",
+        "factKey": "ai-employment-opinion-publication",
+        "factTitle": "国办就业意见公开，部署6个方面18项任务"
+      },
+      "addedAt": "2026-10-24T09:52:23+08:00"
+    },
+    {
+      "sourceId": "ithome-ai",
+      "sourceName": "IT之家",
+      "date": "2026-10-23T17:17:16+08:00",
+      "url": "https://www.ithome.com/1/017/113.htm",
+      "title": "IT之家交叉报道AI就业意见，列明失业缓冲期与转岗支持安排",
+      "summary": "浩渺署名报道列明，意见鼓励企业探索失业缓冲期，在大规模推广AI时提前告知受影响劳动者并提供转岗支持；同时要求稳慎把握劳动密集型行业应用AI的范围和节奏。鼓励探索不等于所有企业已实行统一制度。",
+      "reason": "全文与网页时间可核对，用于交叉确认同一政策及具体措辞，不重复占用精选。",
+      "category": "industry",
+      "quote": "鼓励企业探索建立失业缓冲期制度",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "政策/监管",
+        "国内AI",
+        "AI赛道"
+      ],
+      "selected": false,
+      "event": {
+        "key": "china-ai-employment-opinion-2026-10-23",
+        "title": "国办部署适应人工智能发展的就业政策",
+        "factKey": "ai-employment-opinion-publication",
+        "factTitle": "国办就业意见公开，部署6个方面18项任务"
+      },
+      "addedAt": "2026-10-24T09:52:23+08:00"
+    },
+    {
+      "sourceId": "rss-hugging-face",
+      "sourceName": "Ai2 · Hugging Face Blog",
+      "date": "2026-10-23T16:15:50.000Z",
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "title": "Ai2讲解LitPivot：把文献筛选与研究提案修改连成迭代流程",
+      "summary": "Ai2团队介绍，LitPivot按问题、贡献和评估方案组织相关论文，以原文摘录支持批评和修改，并随提案变化重新排列文献。17人对照实验主要评估构思与文献的贴合度；相关论文早已公开，本次是团队的流程讲解，不能据此证明实际科研突破。",
+      "reason": "提供先选证据、再改提案、随后重查文献的可迁移做法。原文正文＋原站 RSS 时间核验；研究原型及小样本实验不等于成熟产品成效。",
+      "category": "tip",
+      "quote": "Researchers can accept, edit, or reject suggestions",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "海外AI",
+        "AI玩法"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-24T09:52:23+08:00"
     }
   ]
 }
