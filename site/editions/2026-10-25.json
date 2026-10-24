@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "researchedAt": "2026-10-25T01:07:36+08:00",
+  "researchedAt": "2026-10-25T03:15:24+08:00",
   "items": [
     {
       "sourceId": "rss-techcrunch-ai",
@@ -59,6 +59,33 @@
         "factTitle": "报道补充解雇调查中的手机检查与Signal通信细节"
       },
       "addedAt": "2026-10-25T01:07:36+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-24T18:32:21.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "title": "宾州签署AI广告披露法，误导性合成内容须显著标注",
+      "summary": "Terrence O’Brien报道，宾州州长10月22日签署SB806，要求使用AI合成内容、对商品或服务造成错误印象的广告作显著披露，披露须与合成内容使用同一媒介。法规签署60日后生效；法条另豁免明显虚构、戏仿、评论及纯文字内容。",
+      "reason": "影响AI广告制作与投放。已对照州长公告及法条，补充报道未列明的纯文字例外；签署发生于10月22日，本次为新报道。",
+      "category": "industry",
+      "quote": "uses synthetic content in a manner that creates a false consumer perception",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "政策/监管",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "pennsylvania-ai-advertising-law-2026-10-22",
+        "title": "宾州签署AI欺骗性广告法",
+        "factKey": "sb806-signing-2026-10-22",
+        "factTitle": "宾州州长签署SB806并设置60日生效期"
+      },
+      "addedAt": "2026-10-25T03:15:24+08:00"
     }
   ]
 }
