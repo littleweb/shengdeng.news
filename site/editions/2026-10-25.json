@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "researchedAt": "2026-10-25T04:19:14+08:00",
+  "researchedAt": "2026-10-25T05:33:10+08:00",
   "items": [
     {
       "sourceId": "rss-techcrunch-ai",
@@ -139,6 +139,31 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-25T04:19:14+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-10-24T03:59:57+00:00",
+      "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+      "title": "Simon Willison分享四人联机改造提示词，明确地图与网络约束",
+      "summary": "Simon Willison公开把Battledrones从双人扩展为四人联机的提示词，明确四向旋转对称、兼容既有WebSocket模式，以及空位由AI补齐。作者展示了新增地图、邀请链接与回放，为AI辅助修改现有项目提供具体示例。",
+      "reason": "相比此前开发复盘，新增了联机改造的具体约束写法。原文正文＋原站 RSS 时间核验；属于作者个人实验，未独立复测联机效果。",
+      "category": "tip",
+      "quote": "I added four player online mode to Battledrones",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "编码",
+        "AI创作者",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-25T05:33:10+08:00"
     }
   ]
 }
