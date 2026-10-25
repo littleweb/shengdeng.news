@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "researchedAt": "2026-10-25T12:08:10+08:00",
+  "researchedAt": "2026-10-25T13:13:20+08:00",
   "items": [
     {
       "sourceId": "rss-techcrunch-ai",
@@ -281,6 +281,31 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-25T12:08:10+08:00"
+    },
+    {
+      "sourceId": "stockstar-company-news",
+      "sourceName": "证券之星（来源：派财经）",
+      "date": "2026-10-24T16:59:00+08:00",
+      "url": "https://wap.stockstar.com/detail/IG2026102400014218",
+      "title": "百度健康发布健康相机与好医矩阵，衔接AI病情整理和真人接诊",
+      "summary": "健康相机支持拍摄视频并口述症状；好医答由AI整理病情，再接入真人医生追问判断。目前覆盖皮肤科、内科、中医科、妇科，限时免费体验，可从百度App搜索“百度健康”进入。服务规模和诊疗效果尚未独立验证。",
+      "reason": "视频输入与真人接诊的衔接值得关注。已通读媒体刊载全文并核对发布时间；内容主要引用企业披露，未验证诊疗效果。",
+      "category": "ai-products",
+      "quote": "还支持用户拍摄视频上传、边拍边说",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI赛道",
+        "国内AI",
+        "多模态"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-25T13:13:20+08:00"
     }
   ]
 }
