@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-26",
+  "researchedAt": "2026-10-26T02:18:14+08:00",
+  "items": [
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-25T16:57:32.000Z",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "title": "Apollo经济学家质疑AI回报：非科技巨头企业的总体财务改善尚不明显",
+      "summary": "Anthony Ha报道，Apollo首席经济学家Torsten Slok观察标普500剔除七家科技巨头后的493家公司，认为其利润率与人均收入总体持平，尚未显现AI带来的财务改善。这是总体指标支持的经济学家判断，不能证明每家企业或每个AI项目都没有收益。",
+      "reason": "为企业审视AI投入与经营回报提供具体观察。已核对报道全文和精确发布时间；总体财务指标不能单独证明AI项目的因果效果。",
+      "category": "opinion",
+      "quote": "profit margins and revenue per worker appear to be flat",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "现象/趋势",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-26T02:18:14+08:00"
+    }
+  ]
+}
