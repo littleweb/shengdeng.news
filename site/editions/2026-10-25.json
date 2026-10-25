@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "researchedAt": "2026-10-25T16:28:11+08:00",
+  "researchedAt": "2026-10-25T17:40:41+08:00",
   "items": [
     {
       "sourceId": "rss-techcrunch-ai",
@@ -390,6 +390,31 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-25T16:28:11+08:00"
+    },
+    {
+      "sourceId": "ithome-ai",
+      "sourceName": "IT之家",
+      "date": "2026-10-24T18:59:27+08:00",
+      "url": "https://www.ithome.com/1/017/480.htm",
+      "title": "媒体称小云雀并入即梦，保留独立入口与产品团队",
+      "summary": "IT之家引述36氪报道称，字节剪映体系内的小云雀并入即梦，独立入口继续保留，产品团队不变，运营改由即梦运营和市场负责人陈欣然负责。报道称即梦已接入小云雀短剧相关能力，未披露整合后的用户、收入或创作效率数据。",
+      "reason": "反映AI视频应用的资源整合与创作者入口安排。已通读问舟报道并核对发布时间；消息引自36氪，尚缺字节官方确认，不能据此判断整合成效。",
+      "category": "industry",
+      "quote": "产品仍保留独立入口",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "行业动态",
+        "AI产品",
+        "视频",
+        "AI赛道",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-25T17:40:41+08:00"
     }
   ]
 }
