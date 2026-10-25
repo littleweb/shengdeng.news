@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "researchedAt": "2026-10-25T18:45:42+08:00",
+  "researchedAt": "2026-10-25T22:03:05+08:00",
   "items": [
     {
       "sourceId": "rss-techcrunch-ai",
@@ -469,6 +469,30 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-25T18:45:42+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-25T13:25:32.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "title": "r/opensource禁止AI相关项目投稿，执行边界引发争议",
+      "summary": "Terrence O’Brien报道，r/opensource版主发布新投稿规则，禁止使用AI、由AI制作或面向AI的项目，并要求项目至少满一年、持续维护且有多位贡献者。版主表示，自动字幕等无障碍用途可能酌情处理。规则仅涉及该社区，不能扩展为Reddit全站政策。",
+      "reason": "影响AI开源项目的展示与贡献者招募。已通读署名报道，原文与原站订阅时间一致；尚未取得版主公告完整原文。",
+      "category": "industry",
+      "quote": "If your project uses AI, is made by AI, or is intended for AI, it’s not welcome on r/opensource.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "开源生态",
+        "编码",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-25T22:03:05+08:00"
     }
   ]
 }
