@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "researchedAt": "2026-10-25T05:33:10+08:00",
+  "researchedAt": "2026-10-25T09:48:15+08:00",
   "items": [
     {
       "sourceId": "rss-techcrunch-ai",
@@ -164,6 +164,74 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-25T05:33:10+08:00"
+    },
+    {
+      "sourceId": "the-next-web",
+      "sourceName": "The Next Web",
+      "date": "2026-10-24T10:59+00:00",
+      "url": "https://thenextweb.com/news/uk-funds-100m-ai-biosecurity-lab-with-openai-and-anthropic",
+      "title": "英国拟投入1亿英镑筹建AI生物安全实验室，企业另供模型额度",
+      "summary": "英国宣布为AI生物安全实验室提供1亿英镑政府资金，OpenAI与Anthropic另承诺合计最高2亿英镑的算力、模型额度及支持。实验室拟以独立非营利机构运作，首先关注威胁早期检测和疫苗、治疗等应对措施研发；公告尚未公布负责人、地点或启动日期。",
+      "reason": "AI生物安全获得明确资金与模型接入安排，值得跟踪。已核对Alina Maria Stan报道的UTC发布时间与政府原文；企业支持属于承诺，尚无实验室运行或防护成效。",
+      "category": "industry",
+      "quote": "However, the companies’ share is not cash.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "openai",
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "AI赛道",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "uk-ai-biosecurity-lab-2026-10-24",
+        "title": "英国宣布筹建AI生物安全实验室",
+        "factKey": "aibl-funding-model-credit-announcement",
+        "factTitle": "英国公布1亿英镑政府资金及最高2亿英镑企业支持承诺"
+      },
+      "addedAt": "2026-10-25T09:48:15+08:00"
+    },
+    {
+      "sourceId": "uk-cabinet-office",
+      "sourceName": "英国内阁办公室",
+      "date": "2026-10-24",
+      "url": "https://www.gov.uk/government/news/introducing-the-ai-biosecurity-lab",
+      "title": "英国官方公告明确生物安全实验室的资金构成与合作范围",
+      "summary": "公告明确，OpenAI将提供1亿英镑算力和模型额度，以及Rosalind Biodefense项目下的可信模型访问；Anthropic将提供最高1亿英镑模型额度、访问及技术支持。Google DeepMind与Basecamp Research参与研究合作，科学顾问委员会详情仍待公布。",
+      "reason": "原文直接支持资金构成、合作范围与筹建阶段。原站署期可确认处于48小时交叉核对范围，仅作同事件公告依据，不另计精选；额度承诺不等于现金到账或能力落地。",
+      "category": "industry",
+      "quote": "AIBL will operate as an independent, non-profit organisation",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [
+        "openai",
+        "anthropic",
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "AI赛道",
+        "OpenAI",
+        "Anthropic",
+        "Google"
+      ],
+      "selected": false,
+      "event": {
+        "key": "uk-ai-biosecurity-lab-2026-10-24",
+        "title": "英国宣布筹建AI生物安全实验室",
+        "factKey": "aibl-funding-model-credit-announcement",
+        "factTitle": "英国公布1亿英镑政府资金及最高2亿英镑企业支持承诺"
+      },
+      "addedAt": "2026-10-25T09:48:15+08:00"
     }
   ]
 }
