@@ -1,15 +1,15 @@
 {
   "date": "2026-10-26",
-  "researchedAt": "2026-10-26T02:18:14+08:00",
+  "researchedAt": "2026-10-26T01:33:17+08:00",
   "items": [
     {
       "sourceId": "rss-techcrunch-ai",
       "sourceName": "TechCrunch · AI",
       "date": "2026-10-25T16:57:32.000Z",
       "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-      "title": "Apollo经济学家质疑AI回报：非科技巨头企业的总体财务改善尚不明显",
-      "summary": "Anthony Ha报道，Apollo首席经济学家Torsten Slok观察标普500剔除七家科技巨头后的493家公司，认为其利润率与人均收入总体持平，尚未显现AI带来的财务改善。这是总体指标支持的经济学家判断，不能证明每家企业或每个AI项目都没有收益。",
-      "reason": "为企业审视AI投入与经营回报提供具体观察。已核对报道全文和精确发布时间；总体财务指标不能单独证明AI项目的因果效果。",
+      "title": "Apollo经济学家质疑AI回报：标普493家公司财务指标未显改善",
+      "summary": "Anthony Ha报道，Apollo首席经济学家Torsten Slok比较科技七巨头与标普其余493家公司，认为后者人均营收和利润率尚未显现AI收益。这是基于总体指标的分析，不能证明每家企业使用AI都无回报。",
+      "reason": "为企业AI投入提供财务检验视角。已通读报道并对照Slok原文，网页与原站订阅时间一致；相关性不等于因果证明。",
       "category": "opinion",
       "quote": "profit margins and revenue per worker appear to be flat",
       "tier": "T2",
@@ -17,14 +17,48 @@
       "subjects": [],
       "region": "国外",
       "tags": [
-        "现象/趋势",
+        "大佬观点",
         "AI商业化",
         "AI赛道",
         "海外AI"
       ],
       "selected": true,
-      "event": null,
-      "addedAt": "2026-10-26T02:18:14+08:00"
+      "event": {
+        "key": "apollo-ai-payoff-analysis-2026-10-24",
+        "title": "Slok分析科技七巨头之外的企业AI回报",
+        "factKey": "sp493-revenue-margin-analysis",
+        "factTitle": "Slok发布标普493家公司人均营收与利润率分析"
+      },
+      "addedAt": "2026-10-26T01:33:17+08:00"
+    },
+    {
+      "sourceId": "apollo-daily-spark",
+      "sourceName": "Apollo · The Daily Spark",
+      "date": "2026-10-24",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "title": "Slok原文交叉确认企业AI回报分析口径",
+      "summary": "Slok以人均营收、利润率和生产率图表支持其判断，并讨论AI支出集中现象。文章属于经济分析观点，未逐家测量企业AI项目的投入产出。",
+      "reason": "已核对原站署名、日期和全文，作为近48小时交叉证据保留；仅确认作者的分析，不重复列为精选。",
+      "category": "opinion",
+      "quote": "Revenue per worker is rising for the Mag 7 but is flat for the S&P 493",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "apollo-ai-payoff-analysis-2026-10-24",
+        "title": "Slok分析科技七巨头之外的企业AI回报",
+        "factKey": "sp493-revenue-margin-analysis",
+        "factTitle": "Slok发布标普493家公司人均营收与利润率分析"
+      },
+      "addedAt": "2026-10-26T01:33:17+08:00"
     }
   ]
 }

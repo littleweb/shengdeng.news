@@ -1,17 +1,17 @@
 {
   "date": "2026-10-25",
-  "researchedAt": "2026-10-25T22:03:05+08:00",
+  "researchedAt": "2026-10-25T22:15:00+08:00",
   "items": [
     {
       "sourceId": "rss-techcrunch-ai",
       "sourceName": "TechCrunch · AI",
       "date": "2026-10-24T15:00:00.000Z",
       "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-      "title": "Convovo测试显示GPT与Grok的选举回答偏向不同",
-      "summary": "Convovo通过开启搜索的API，要求GPT-6.1 Sol和Grok 4.7在美国中期选举中强制推荐一名候选人，呈现相反党派倾向。报道另补做30场关闭搜索的对照，Grok在27场拒绝选边。",
-      "reason": "有助于理解搜索设置怎样影响政治回答；采访全文与研究页面的方法相符，API实验不能外推消费端或真实投票影响。",
+      "title": "强制选候选人测试呈现模型分歧，关闭搜索后结果也改变",
+      "summary": "Rebecca Bellan报道Convovo的选举问答研究：在要求API必须推荐一名候选人的条件下，Grok与GPT分别明显偏向共和党和民主党。记者追加的30场无搜索测试中，提供候选人姓名后，GPT选择民主党24次，Grok拒答27次。消费端应用对直接提问通常拒答，不能把API强制选择结果当作普通聊天体验或选民影响的证明。",
+      "reason": "提供提示条件与搜索来源如何影响回答的具体证据。已核对署名、全文及一致的网页与原站订阅时间；追加测试样本很小，结果未独立复现。",
       "category": "paper",
-      "quote": "via their APIs",
+      "quote": "The consumer apps refused to answer",
       "tier": "T2",
       "entity": null,
       "subjects": [
@@ -21,25 +21,23 @@
       "region": "国外",
       "tags": [
         "论文/研究",
-        "海外AI",
-        "搜索",
-        "OpenAI",
-        "xAI"
+        "评测/基准",
+        "海外AI"
       ],
       "selected": true,
       "event": null,
-      "addedAt": "2026-10-24T16:04:08Z"
+      "addedAt": "2026-10-24T23:03:46Z"
     },
     {
       "sourceId": "rss-the-decoder",
       "sourceName": "The Decoder",
       "date": "2026-10-24T15:19:33.000Z",
       "url": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/",
-      "title": "报道补充OpenAI安全研究员解雇调查中的手机检查与Signal通信细节",
-      "summary": "The Decoder援引华尔街日报采访，补充此前三名OpenAI安全研究员被解雇前的调查细节，包括检查私人手机及与外部研究者的Signal通信。三人否认泄密，并称未收到具体违规信息的书面说明。OpenAI否认解雇与提出安全担忧有关，也称Signal并非解雇理由。",
-      "reason": "涉及外部安全协作与保密边界。已通读Manuel Uth报道并核对原站发布时间；新增的是调查细节，泄密指控及解雇动机仍存在争议。",
+      "title": "被解雇的OpenAI研究者质疑泄密指控，公司否认因安全异议解雇",
+      "summary": "Manuel Uth援引《华尔街日报》采访，补充三名前OpenAI安全研究者对内部调查的回应。他们否认分享机密信息，并称未收到书面说明指出具体泄露了什么；报道涉及个人手机检查及与外部研究者的Signal通信。OpenAI称解雇涉及敏感信息处理政策违规，与提出安全担忧无关，双方说法仍有争议。",
+      "reason": "补充外部安全评估合作与保密边界的具体争议。已通读署名报道，网页和原站订阅时间一致；调查细节来自所引采访，本轮未取得内部调查材料。",
       "category": "industry",
-      "quote": "OpenAI said Signal was not an approved communication tool but insisted it was not the reason for the terminations.",
+      "quote": "never told in writing which information they supposedly mishandled",
       "tier": "T2",
       "entity": "openai",
       "subjects": [
@@ -48,81 +46,24 @@
       "region": "国外",
       "tags": [
         "行业动态",
+        "安全/对齐",
         "海外AI",
         "OpenAI"
       ],
       "selected": true,
-      "event": {
-        "key": "openai-safety-researcher-dismissals-2026-10",
-        "title": "OpenAI安全研究员解雇与外部协作争议",
-        "factKey": "dismissal-investigation-phone-signal-details-2026-10",
-        "factTitle": "报道补充解雇调查中的手机检查与Signal通信细节"
-      },
-      "addedAt": "2026-10-25T01:07:36+08:00"
-    },
-    {
-      "sourceId": "rss-the-verge-ai",
-      "sourceName": "The Verge · AI",
-      "date": "2026-10-24T18:32:21.000Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
-      "title": "宾州签署AI广告披露法，误导性合成内容须显著标注",
-      "summary": "Terrence O’Brien报道，宾州州长10月22日签署SB806，要求使用AI合成内容、对商品或服务造成错误印象的广告作显著披露，披露须与合成内容使用同一媒介。法规签署60日后生效；法条另豁免明显虚构、戏仿、评论及纯文字内容。",
-      "reason": "影响AI广告制作与投放。已对照州长公告及法条，补充报道未列明的纯文字例外；签署发生于10月22日，本次为新报道。",
-      "category": "industry",
-      "quote": "uses synthetic content in a manner that creates a false consumer perception",
-      "tier": "T2",
-      "entity": null,
-      "subjects": [],
-      "region": "国外",
-      "tags": [
-        "政策/监管",
-        "海外AI"
-      ],
-      "selected": true,
-      "event": {
-        "key": "pennsylvania-ai-advertising-law-2026-10-22",
-        "title": "宾州签署AI欺骗性广告法",
-        "factKey": "sb806-signing-2026-10-22",
-        "factTitle": "宾州州长签署SB806并设置60日生效期"
-      },
-      "addedAt": "2026-10-25T03:15:24+08:00"
-    },
-    {
-      "sourceId": "rss-the-decoder",
-      "sourceName": "The Decoder",
-      "date": "2026-10-24T09:21:39.000Z",
-      "url": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/",
-      "title": "编码智能体研究解读：比较运行框架前，先测重复运行的波动",
-      "summary": "Jonathan Kemper解读10月3日公开的研究：离线测试中，五种模型在45道难题上更换运行框架产生的结果波动，与重复运行相近；447题、两种模型的比较中，Claude Code与mini-SWE-agent在五个百分点内等效。同模型、同计价表下，单题成本最高相差约三倍；结果不能外推所有智能体。",
-      "reason": "为智能体选型提供重复测试与成本核算方法。已核对报道全文、精确发布时间及原论文；这是既有研究的新解读，存在单一基准和配置限制。",
-      "category": "paper",
-      "quote": "They recommend publishing a rerun of the same setup alongside every harness comparison.",
-      "tier": "T2",
-      "entity": null,
-      "subjects": [],
-      "region": "国外",
-      "tags": [
-        "论文/研究",
-        "Agent",
-        "编码",
-        "评测/基准",
-        "部署/工程",
-        "海外AI"
-      ],
-      "selected": true,
       "event": null,
-      "addedAt": "2026-10-25T04:19:14+08:00"
+      "addedAt": "2026-10-24T23:03:46Z"
     },
     {
       "sourceId": "rss-the-decoder",
       "sourceName": "The Decoder",
       "date": "2026-10-24T14:34:05.000Z",
       "url": "https://the-decoder.com/ai-makes-junior-patent-attorneys-instantly-better-but-may-quietly-stunt-their-professional-growth/",
-      "title": "专利律师实验解读：AI辅助提质未自动转化为新人的独立判断能力",
-      "summary": "Jonathan Kemper解读一项既有随机试验：美国11家律所的133名专利律师参与三个月实验，AI辅助提高了专利起草质量，初级律师受益更大。但在随后不使用AI的审改任务中，平均优势集中于资深律师，初级律师没有平均提升。这不能直接证明AI导致技能退化。",
-      "reason": "提醒团队分开评估交付质量与独立能力。报道全文、精确发布时间及Google官方研究摘要相互印证；研究由Google资助，样本较小且缺少基线技能测量。",
+      "title": "律师AI实验解读：起草质量提高，初级律师独立判断未见平均增益",
+      "summary": "Jonathan Kemper解读一项涉及美国11家律所、133名专利律师的三个月随机实验。AI辅助提高了专利起草质量，初级律师改善更明显；随后不使用AI审改已有草案时，平均优势集中于资深律师，初级律师结果出现分化。这不能证明所有初级律师能力退化，也不能推广为长期职业发展结论。",
+      "reason": "提醒团队分别评估即时交付质量与脱离AI后的判断能力。已核对全文、发布时间及NBER研究说明；这是既有工作论文的新刊解读，研究由Google资助，观察期仅三个月。",
       "category": "paper",
-      "quote": "the experiment doesn't explain why the effects diverged",
+      "quote": "juniors saw no benefit at all",
       "tier": "T2",
       "entity": "google",
       "subjects": [
@@ -132,247 +73,129 @@
       "tags": [
         "论文/研究",
         "AI赛道",
-        "行业报告",
-        "海外AI",
-        "Google"
-      ],
-      "selected": true,
-      "event": null,
-      "addedAt": "2026-10-25T04:19:14+08:00"
-    },
-    {
-      "sourceId": "rss-simon-willison",
-      "sourceName": "Simon Willison",
-      "date": "2026-10-24T03:59:57+00:00",
-      "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
-      "title": "Simon Willison分享四人联机改造提示词，明确地图与网络约束",
-      "summary": "Simon Willison公开把Battledrones从双人扩展为四人联机的提示词，明确四向旋转对称、兼容既有WebSocket模式，以及空位由AI补齐。作者展示了新增地图、邀请链接与回放，为AI辅助修改现有项目提供具体示例。",
-      "reason": "相比此前开发复盘，新增了联机改造的具体约束写法。原文正文＋原站 RSS 时间核验；属于作者个人实验，未独立复测联机效果。",
-      "category": "tip",
-      "quote": "I added four player online mode to Battledrones",
-      "tier": "T2",
-      "entity": null,
-      "subjects": [],
-      "region": "国外",
-      "tags": [
-        "教程/实践",
-        "AI玩法",
-        "编码",
-        "AI创作者",
         "海外AI"
       ],
       "selected": true,
       "event": null,
-      "addedAt": "2026-10-25T05:33:10+08:00"
-    },
-    {
-      "sourceId": "the-next-web",
-      "sourceName": "The Next Web",
-      "date": "2026-10-24T10:59+00:00",
-      "url": "https://thenextweb.com/news/uk-funds-100m-ai-biosecurity-lab-with-openai-and-anthropic",
-      "title": "英国拟投入1亿英镑筹建AI生物安全实验室，企业另供模型额度",
-      "summary": "英国宣布为AI生物安全实验室提供1亿英镑政府资金，OpenAI与Anthropic另承诺合计最高2亿英镑的算力、模型额度及支持。实验室拟以独立非营利机构运作，首先关注威胁早期检测和疫苗、治疗等应对措施研发；公告尚未公布负责人、地点或启动日期。",
-      "reason": "AI生物安全获得明确资金与模型接入安排，值得跟踪。已核对Alina Maria Stan报道的UTC发布时间与政府原文；企业支持属于承诺，尚无实验室运行或防护成效。",
-      "category": "industry",
-      "quote": "However, the companies’ share is not cash.",
-      "tier": "T2",
-      "entity": null,
-      "subjects": [
-        "openai",
-        "anthropic"
-      ],
-      "region": "国外",
-      "tags": [
-        "行业动态",
-        "海外AI",
-        "AI赛道",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "selected": true,
-      "event": {
-        "key": "uk-ai-biosecurity-lab-2026-10-24",
-        "title": "英国宣布筹建AI生物安全实验室",
-        "factKey": "aibl-funding-model-credit-announcement",
-        "factTitle": "英国公布1亿英镑政府资金及最高2亿英镑企业支持承诺"
-      },
-      "addedAt": "2026-10-25T09:48:15+08:00"
-    },
-    {
-      "sourceId": "uk-cabinet-office",
-      "sourceName": "英国内阁办公室",
-      "date": "2026-10-24",
-      "url": "https://www.gov.uk/government/news/introducing-the-ai-biosecurity-lab",
-      "title": "英国官方公告明确生物安全实验室的资金构成与合作范围",
-      "summary": "公告明确，OpenAI将提供1亿英镑算力和模型额度，以及Rosalind Biodefense项目下的可信模型访问；Anthropic将提供最高1亿英镑模型额度、访问及技术支持。Google DeepMind与Basecamp Research参与研究合作，科学顾问委员会详情仍待公布。",
-      "reason": "原文直接支持资金构成、合作范围与筹建阶段。原站署期可确认处于48小时交叉核对范围，仅作同事件公告依据，不另计精选；额度承诺不等于现金到账或能力落地。",
-      "category": "industry",
-      "quote": "AIBL will operate as an independent, non-profit organisation",
-      "tier": "T1",
-      "entity": null,
-      "subjects": [
-        "openai",
-        "anthropic",
-        "google"
-      ],
-      "region": "国外",
-      "tags": [
-        "行业动态",
-        "海外AI",
-        "AI赛道",
-        "OpenAI",
-        "Anthropic",
-        "Google"
-      ],
-      "selected": false,
-      "event": {
-        "key": "uk-ai-biosecurity-lab-2026-10-24",
-        "title": "英国宣布筹建AI生物安全实验室",
-        "factKey": "aibl-funding-model-credit-announcement",
-        "factTitle": "英国公布1亿英镑政府资金及最高2亿英镑企业支持承诺"
-      },
-      "addedAt": "2026-10-25T09:48:15+08:00"
-    },
-    {
-      "sourceId": "rss-the-verge-ai",
-      "sourceName": "The Verge · AI",
-      "date": "2026-10-24T21:29:12.000Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
-      "title": "《蓝色星球III》制作方保留画面瑕疵，回应AI影像的真实性疑虑",
-      "summary": "BBC《蓝色星球III》制作方称，会保留浑浊水体、船只和浮标等不够完美的镜头细节，突出实拍质感。Terrence O’Brien的报道援引执行制片人Elizabeth White访谈，呈现AI仿真对纪实影像创作取舍的影响。",
-      "reason": "提供纪实创作者应对AI仿真的具体案例。已核对全文、原站时间及原始采访；保留瑕疵是制作方策略，尚无观众信任度测试。",
-      "category": "industry",
-      "quote": "leaving in the less-than-perfect shots",
-      "tier": "T2",
-      "entity": null,
-      "subjects": [],
-      "region": "国外",
-      "tags": [
-        "行业动态",
-        "海外AI",
-        "视频"
-      ],
-      "selected": true,
-      "event": null,
-      "addedAt": "2026-10-25T12:08:10+08:00"
-    },
-    {
-      "sourceId": "reddit-ocebe",
-      "sourceName": "Reddit · ocebe",
-      "date": "2026-10-24T16:40:02+00:00",
-      "url": "https://www.reddit.com/r/ClaudeCode/comments/1xedboz/12_months_of_putting_ai_into_a_saas_with_a/",
-      "title": "六人SaaS团队复盘AI编码流程：先审规格，再拆小任务",
-      "summary": "作者ocebe分享六人团队过去12个月形成的流程：AI追问项目文档，生成规格供人审阅，再拆成小任务实现；自动审查与CI之后，由人确认合并。团队允许使用不同编码工具，通过仓库规则统一流程，并称全自动处理工单的质量仍未达要求。",
-      "reason": "提供可复用的规格审阅和任务拆分方法。已核对作者原帖及平台精确发布时间；团队经历与效果属于个人自述，未提供工时或缺陷率对照。",
-      "category": "tip",
-      "quote": "Then to-spec, and a human reviews that spec.",
-      "tier": "T2",
-      "entity": null,
-      "subjects": [],
-      "region": "国外",
-      "tags": [
-        "教程/实践",
-        "AI玩法",
-        "编码",
-        "Agent",
-        "部署/工程",
-        "海外AI"
-      ],
-      "selected": true,
-      "event": null,
-      "addedAt": "2026-10-25T12:08:10+08:00"
-    },
-    {
-      "sourceId": "stockstar-company-news",
-      "sourceName": "证券之星（来源：派财经）",
-      "date": "2026-10-24T16:59:00+08:00",
-      "url": "https://wap.stockstar.com/detail/IG2026102400014218",
-      "title": "百度健康发布健康相机与好医矩阵，衔接AI病情整理和真人接诊",
-      "summary": "健康相机支持拍摄视频并口述症状；好医答由AI整理病情，再接入真人医生追问判断。目前覆盖皮肤科、内科、中医科、妇科，限时免费体验，可从百度App搜索“百度健康”进入。服务规模和诊疗效果尚未独立验证。",
-      "reason": "视频输入与真人接诊的衔接值得关注。已通读媒体刊载全文并核对发布时间；内容主要引用企业披露，未验证诊疗效果。",
-      "category": "ai-products",
-      "quote": "还支持用户拍摄视频上传、边拍边说",
-      "tier": "T2",
-      "entity": null,
-      "subjects": [],
-      "region": "国内",
-      "tags": [
-        "产品更新",
-        "AI产品",
-        "AI赛道",
-        "国内AI",
-        "多模态"
-      ],
-      "selected": true,
-      "event": null,
-      "addedAt": "2026-10-25T13:13:20+08:00"
-    },
-    {
-      "sourceId": "ifeng-huanqiu-tech",
-      "sourceName": "凤凰网·环球科技网",
-      "date": "2026-10-24T16:24:41+08:00",
-      "url": "https://tech.ifeng.com/c/8xUD5LlWV22",
-      "title": "联想P7预览版启动先享计划，提供本地模型接入与智能体运行",
-      "summary": "联想在CSDN开发者大会展示P7预览版并启动先享计划。发布材料介绍后摩M50与此芯P1双芯配置，以及通过API接入编程工具的本地模型管理功能。Auto模式可能调用云端模型；售价与正式发售日期尚未公布。",
-      "reason": "为本地模型与常驻智能体提供具体硬件方案。已通读刊载全文并核对精确发布时间；内容主要为厂商披露，性能及持续运行效果未经独立验证。",
-      "category": "ai-products",
-      "quote": "先行启动“先享计划”",
-      "tier": "T2",
-      "entity": null,
-      "subjects": [],
-      "region": "国内",
-      "tags": [
-        "产品更新",
-        "AI硬件",
-        "AI产品",
-        "国内AI",
-        "端侧",
-        "Agent"
-      ],
-      "selected": true,
-      "event": {
-        "key": "lenovo-p7-preview-2026-10-24",
-        "title": "联想P7预览版展示与先享计划",
-        "factKey": "p7-preview-early-access-program",
-        "factTitle": "联想展示P7预览版并启动先享计划"
-      },
-      "addedAt": "2026-10-25T14:19:44+08:00"
+      "addedAt": "2026-10-24T23:03:46Z"
     },
     {
       "sourceId": "rss-the-decoder",
       "sourceName": "The Decoder",
-      "date": "2026-10-25T06:55:22.000Z",
-      "url": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/",
-      "title": "OpenMobile-2研究解读：固定数据量下，扩大训练App种类改善泛化",
-      "summary": "The Decoder解读南京大学、商汤等团队的OpenMobile-2研究。固定2000条训练轨迹等条件，将训练App从15种扩至53种，未见应用上的单次成功率由60.7%升至67.5%。研究还发现，提供应用接口本身帮助有限，需要专门训练；这些接口实验目前限于模拟应用。",
-      "reason": "为手机智能体训练提供具体参考，原文数字与论文、项目页一致。论文10月9日已公开，本次为新报道解读；效果限于文中实验，未独立复测。",
+      "date": "2026-10-24T09:21:39.000Z",
+      "url": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/",
+      "title": "编程智能体研究解读：运行框架的成本差异比部分成功率差异更清楚",
+      "summary": "Jonathan Kemper解读山东大学研究者对Claude Code、OpenCode和mini-SWE-agent的比较。在447任务池的两款Qwen模型上，Claude Code与mini-SWE-agent处于5个百分点的等效范围；同模型的单任务成本可相差约3倍，OpenCode在部分比较中明显落后。研究主要使用离线SWE-bench，部分运行时限不一致，不能推出所有框架都无价值。",
+      "reason": "为工具选型提供同时检查重复运行波动、成功率和账单的方法。已核对全文、精确发布时间及论文；论文10月3日已公开，本次为新刊解读，结论受模型和测试配置限制。",
       "category": "paper",
-      "quote": "With the same data budget, app variety beats extra examples from a handful of apps.",
+      "quote": "a single task can cost up to three times more depending on the harness",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "anthropic",
+        "qwen",
+        "deepseek",
+        "zhipu"
+      ],
+      "region": "国内",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "编码",
+        "评测/基准",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-24T23:03:46Z"
+    },
+    {
+      "sourceId": "sina-finance",
+      "sourceName": "新浪财经（转载新华财经）",
+      "date": "2026-10-24T19:31+08:00",
+      "url": "https://finance.sina.com.cn/money/bond/2026-10-24/doc-iniwiqmn1171053.shtml",
+      "title": "上海机器人实景测试暴露短板：商超赛项多数队伍仍用遥操作",
+      "summary": "新华财经记者杜康在上海具身智能技能大赛现场观察到，质检任务中有机器人出现动作停顿、试管盖难以拧紧及离心机装载不准等问题，队伍随后改用遥操作。商超命题负责人表示，随机货架和随机取货仍有难度，该赛项多数队伍选择遥操作。报道还介绍了赛前仿真、现场训练与微调流程；长期开放的实训空间仍属计划。",
+      "reason": "现场报道提供了判断机器人落地能力的具体依据。已核对署名、页面时间和完整正文；观察限于这些赛项，不能推广为全行业成功率。",
+      "category": "industry",
+      "quote": "该赛项大部分队伍选择了遥操作",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "行业动态",
+        "具身智能",
+        "AI硬件",
+        "AI赛道",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-25T01:11:53Z"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-24T18:32:21.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "title": "宾州签署AI广告披露法，适用范围包含明确例外",
+      "summary": "The Verge于24日报道，宾夕法尼亚州州长已于22日签署AI欺骗性广告法。对于利用AI合成内容造成商品或服务错误印象的广告，法律要求清晰显著地披露，并使用与内容相同的媒介。讽刺、评论及明显虚构内容等有例外，不能概括为所有AI内容都须标识。",
+      "reason": "影响AI商业广告制作与投放；已通读报道并核对官方签署记录和议会文本。报道将纯文字列入适用范围，与议会文本存在出入，未采纳该扩大表述。",
+      "category": "industry",
+      "quote": "uses synthetic content in a manner that creates a false consumer perception",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "政策/监管",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "pennsylvania-ai-advertising-act-2026-10-22",
+        "title": "宾夕法尼亚州签署AI欺骗性广告法",
+        "factKey": "sb806-signed-act99",
+        "factTitle": "州长签署SB806，规定特定AI合成广告的披露义务"
+      },
+      "addedAt": "2026-10-25T02:19:48Z"
+    },
+    {
+      "sourceId": "ithome-ai",
+      "sourceName": "IT之家",
+      "date": "2026-10-24T22:41:49+08:00",
+      "url": "https://www.ithome.com/1/017/518.htm",
+      "title": "信通院报告解读：同一开源模型跨平台服务速度差距可接近一倍",
+      "summary": "IT之家梳理信通院基于2026年1—8月监测数据发布的词元服务报告，比较原厂接口及四款开源模型在不同平台的表现。报道指出，同模型跨平台吞吐速度差距最大接近一倍；8月国内样本平均每秒输出78.23个词元，首词等待均值为1.26秒。结果受样本、版本和测试设置影响，不代表模型智能水平或所有接口当前表现。",
+      "reason": "为API选型提供速度与等待时间的对照。已通读浩渺报道并核对发布时间；信通院页面仅能读取发布简介，报告全文方法尚未核验。",
+      "category": "paper",
+      "quote": "同一模型在不同平台间的 TPS 差距最大可接近一倍。",
       "tier": "T2",
       "entity": null,
       "subjects": [],
       "region": "国内",
       "tags": [
         "论文/研究",
-        "Agent",
-        "数据/训练",
-        "开源生态",
-        "国内AI"
+        "行业报告",
+        "国内AI",
+        "部署/工程"
       ],
       "selected": true,
       "event": null,
-      "addedAt": "2026-10-25T15:23:46+08:00"
+      "addedAt": "2026-10-25T03:24:53Z"
     },
     {
       "sourceId": "rss-the-decoder",
       "sourceName": "The Decoder",
       "date": "2026-10-25T07:30:11.000Z",
       "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/",
-      "title": "媒体称OpenAI以企业折扣争夺Anthropic编码客户",
-      "summary": "The Decoder援引The Information报道，Rippling负责人称OpenAI在公司编码工作量中的份额从16%升至52%，Anthropic从57%降至18%。报道还称，Replit获得超过30%的折扣，对应合同年额超过1亿美元。这些是个别企业交易的媒体报道，不能视为面向所有客户的公开降价。",
-      "reason": "客户用量变化为企业AI采购提供参考。已核对Matthias Bastian署名、全文与原站发布时间；合同数字仍是媒体转述，优惠条件未获参与公司独立确认。",
+      "title": "媒体称OpenAI以企业合同折扣争取Anthropic客户",
+      "summary": "The Decoder转述The Information报道，Rippling称其编程工作中OpenAI占比从16%升至52%，Anthropic从57%降至18%；Replit据报获得超过30%的合同折扣。这些数字对应个别客户和合同，不能视作公开API统一降价，也不能据此推断整个市场的份额变化。",
+      "reason": "提供企业采购受合同价格影响的具体案例。已通读报道，原文发布时间与原站RSS一致；合同细节属于媒体转述，未取得合同或客户账单独立验证。",
       "category": "industry",
-      "quote": "boosted OpenAI's share of its coding workload from 16 to 52 percent",
+      "quote": "Rippling CEO Parker Conrad said his company boosted OpenAI's share of its coding workload from 16 to 52 percent",
       "tier": "T2",
       "entity": "openai",
       "subjects": [
@@ -389,42 +212,17 @@
       ],
       "selected": true,
       "event": null,
-      "addedAt": "2026-10-25T16:28:11+08:00"
-    },
-    {
-      "sourceId": "ithome-ai",
-      "sourceName": "IT之家",
-      "date": "2026-10-24T18:59:27+08:00",
-      "url": "https://www.ithome.com/1/017/480.htm",
-      "title": "媒体称小云雀并入即梦，保留独立入口与产品团队",
-      "summary": "IT之家引述36氪报道称，字节剪映体系内的小云雀并入即梦，独立入口继续保留，产品团队不变，运营改由即梦运营和市场负责人陈欣然负责。报道称即梦已接入小云雀短剧相关能力，未披露整合后的用户、收入或创作效率数据。",
-      "reason": "反映AI视频应用的资源整合与创作者入口安排。已通读问舟报道并核对发布时间；消息引自36氪，尚缺字节官方确认，不能据此判断整合成效。",
-      "category": "industry",
-      "quote": "产品仍保留独立入口",
-      "tier": "T2",
-      "entity": null,
-      "subjects": [],
-      "region": "国内",
-      "tags": [
-        "行业动态",
-        "AI产品",
-        "视频",
-        "AI赛道",
-        "国内AI"
-      ],
-      "selected": true,
-      "event": null,
-      "addedAt": "2026-10-25T17:40:41+08:00"
+      "addedAt": "2026-10-25T15:41:10+08:00"
     },
     {
       "sourceId": "rss-the-decoder",
       "sourceName": "The Decoder",
       "date": "2026-10-25T10:08:49.000Z",
       "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
-      "title": "Flora研究解读：低价标注依赖算力假设，失败检测也有误报",
-      "summary": "Jonathan Kemper解读NVIDIA Flora的视频标注实验：每小时视频约0.72美元的成本来自每GPU每小时10美元的租金假设，并非生产实测。所引实验中，Flora能识别53.3%的失败步骤，但也将约11%的正常步骤误判；部分机器人视频描述与评分任务仍落后于GPT-6 Astra。",
-      "reason": "对照报道全文与官方实验表，可看清成本和精度的取舍；属于既有研究的新解读，成本为厂商推算，未独立复测。",
-      "category": "paper",
+      "title": "Flora标注成本解读：低价估算伴随任务质量取舍",
+      "summary": "报道拆解NVIDIA的Flora机器人视频标注引擎，覆盖动作分段、描述与奖励评分。每小时视频约0.72美元的成本按GPU租价推算，并非生产实测；不同基准上的优势也不一致，不能概括为全面优于通用模型。",
+      "reason": "帮助判断机器人数据工具的成本与质量取舍；已通读原文并核对发布时间，成本及性能仍属厂商实验口径。",
+      "category": "tip",
       "quote": "The Flora cost figures are projections, though, not production measurements.",
       "tier": "T2",
       "entity": "nvidia",
@@ -433,23 +231,25 @@
       ],
       "region": "国外",
       "tags": [
-        "论文/研究",
+        "教程/实践",
+        "AI产品",
+        "海外AI",
         "具身智能",
         "数据/训练",
-        "海外AI"
+        "开源生态"
       ],
       "selected": true,
       "event": null,
-      "addedAt": "2026-10-25T18:45:42+08:00"
+      "addedAt": "2026-10-25T18:57:34+08:00"
     },
     {
       "sourceId": "rss-the-decoder",
       "sourceName": "The Decoder",
       "date": "2026-10-25T09:12:10.000Z",
       "url": "https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/",
-      "title": "单智能体实践解读：逐个合并子智能体，用评测检查流程退化",
-      "summary": "Matthias Bastian梳理Anthropic的架构迁移经验：将专业流程改为按需加载的技能和工具，逐步比较任务质量、成本与延迟。需要独立上下文、并行任务或单智能体工具选择出现退化时，仍应保留子智能体。报道同时列出反例：合并虽降低延迟，却让主智能体绕过专家，破坏原本正常的客服流程。",
-      "reason": "报道与官方实践原文相互印证，提供可复用的迁移判断和失败案例；是既有方法的新梳理，厂商经验不能证明单智能体普遍更优。",
+      "title": "智能体架构迁移解读：按需加载技能，合并前先验证任务",
+      "summary": "Matthias Bastian梳理Anthropic的架构建议：将共享上下文的工作逐步合入主循环，按需加载技能与工具。上下文退化、独立并行任务及工具选择困难仍可保留子智能体；一次迁移虽降低延迟，却破坏了原本通过的业务流程。",
+      "reason": "提供可用于架构评估的具体方法；正文与发布时间已核对，属于既有指南的解读，案例效果未独立复测。",
       "category": "tip",
       "quote": "Anthropic warns against merging blindly",
       "tier": "T2",
@@ -463,36 +263,85 @@
         "AI玩法",
         "Agent",
         "部署/工程",
-        "海外AI",
-        "Anthropic"
+        "海外AI"
       ],
       "selected": true,
       "event": null,
-      "addedAt": "2026-10-25T18:45:42+08:00"
+      "addedAt": "2026-10-25T18:57:34+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-25T06:55:22.000Z",
+      "url": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/",
+      "title": "OpenMobile-2研究解读：训练应用多样性比单纯加数据更关键",
+      "summary": "Jonathan Kemper解读南京大学、商汤等团队的手机智能体研究：固定数据量时，增加训练应用种类，使未见应用任务成功率由60.7%升至67.5%。应用原生工具经专项训练后可减少操作步骤，但相关接口目前仅存在于模拟应用中。",
+      "reason": "为手机智能体训练提供明确对照与适用边界；已核对正文、原站时间及研究资料，成绩来自作者实验，非本轮复测。",
+      "category": "paper",
+      "quote": "These interfaces only exist in the simulated apps for now",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "论文/研究",
+        "国内AI",
+        "Agent",
+        "数据/训练",
+        "开源生态"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-25T18:57:34+08:00"
+    },
+    {
+      "sourceId": "ithome-ai",
+      "sourceName": "IT之家",
+      "date": "2026-10-25T19:18:22+08:00",
+      "url": "https://www.ithome.com/1/017/672.htm",
+      "title": "启元称第5000台个人机器人下线，日产能增至200余台",
+      "summary": "IT之家援引启元机器人公告及联席总裁高全中称，公司第5000台个人机器人下线，日产能由10余台提升至200余台，并采用半自动装配线及制造追溯系统。这些数字属于企业披露，下线数量和产能不能等同于销量、用户交付量或实际使用成效。",
+      "reason": "提供个人机器人量产扩张的具体观察点。已通读潞源报道并核对网页发布时间；产量数字仍是企业自述，尚无独立验证。",
+      "category": "industry",
+      "quote": "日产能从此前的 10 余台提升至 200 余台",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI商业化",
+        "具身智能",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-25T20:02:12+08:00"
     },
     {
       "sourceId": "rss-the-verge-ai",
       "sourceName": "The Verge · AI",
       "date": "2026-10-25T13:25:32.000Z",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
-      "title": "r/opensource禁止AI相关项目投稿，执行边界引发争议",
-      "summary": "Terrence O’Brien报道，r/opensource版主发布新投稿规则，禁止使用AI、由AI制作或面向AI的项目，并要求项目至少满一年、持续维护且有多位贡献者。版主表示，自动字幕等无障碍用途可能酌情处理。规则仅涉及该社区，不能扩展为Reddit全站政策。",
-      "reason": "影响AI开源项目的展示与贡献者招募。已通读署名报道，原文与原站订阅时间一致；尚未取得版主公告完整原文。",
+      "title": "r/opensource限制AI项目投稿，并提高项目门槛",
+      "summary": "Terrence O’Brien报道，r/opensource管理员公布新规，禁止使用AI、由AI制作或面向AI的项目投稿，同时要求项目至少维护一年且有多名贡献者。管理员表示，自动字幕等附带AI辅助功能可酌情例外。规则适用于该子社区，不能概括为Reddit全站禁止AI。",
+      "reason": "影响AI辅助开发项目的展示渠道。已通读署名报道，网页与原站订阅的发布时间一致；管理员保留例外裁量，实际执行范围仍待观察。",
       "category": "industry",
-      "quote": "If your project uses AI, is made by AI, or is intended for AI, it’s not welcome on r/opensource.",
+      "quote": "it’s not welcome on r/opensource.",
       "tier": "T2",
       "entity": null,
       "subjects": [],
       "region": "国外",
       "tags": [
         "行业动态",
-        "开源生态",
         "编码",
+        "开源生态",
         "海外AI"
       ],
       "selected": true,
       "event": null,
-      "addedAt": "2026-10-25T22:03:05+08:00"
+      "addedAt": "2026-10-25T22:15:00+08:00"
     }
   ]
 }
