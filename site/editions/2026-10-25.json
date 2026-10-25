@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "researchedAt": "2026-10-25T09:48:15+08:00",
+  "researchedAt": "2026-10-25T12:08:10+08:00",
   "items": [
     {
       "sourceId": "rss-techcrunch-ai",
@@ -232,6 +232,55 @@
         "factTitle": "英国公布1亿英镑政府资金及最高2亿英镑企业支持承诺"
       },
       "addedAt": "2026-10-25T09:48:15+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-24T21:29:12.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+      "title": "《蓝色星球III》制作方保留画面瑕疵，回应AI影像的真实性疑虑",
+      "summary": "BBC《蓝色星球III》制作方称，会保留浑浊水体、船只和浮标等不够完美的镜头细节，突出实拍质感。Terrence O’Brien的报道援引执行制片人Elizabeth White访谈，呈现AI仿真对纪实影像创作取舍的影响。",
+      "reason": "提供纪实创作者应对AI仿真的具体案例。已核对全文、原站时间及原始采访；保留瑕疵是制作方策略，尚无观众信任度测试。",
+      "category": "industry",
+      "quote": "leaving in the less-than-perfect shots",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "视频"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-25T12:08:10+08:00"
+    },
+    {
+      "sourceId": "reddit-ocebe",
+      "sourceName": "Reddit · ocebe",
+      "date": "2026-10-24T16:40:02+00:00",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1xedboz/12_months_of_putting_ai_into_a_saas_with_a/",
+      "title": "六人SaaS团队复盘AI编码流程：先审规格，再拆小任务",
+      "summary": "作者ocebe分享六人团队过去12个月形成的流程：AI追问项目文档，生成规格供人审阅，再拆成小任务实现；自动审查与CI之后，由人确认合并。团队允许使用不同编码工具，通过仓库规则统一流程，并称全自动处理工单的质量仍未达要求。",
+      "reason": "提供可复用的规格审阅和任务拆分方法。已核对作者原帖及平台精确发布时间；团队经历与效果属于个人自述，未提供工时或缺陷率对照。",
+      "category": "tip",
+      "quote": "Then to-spec, and a human reviews that spec.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "编码",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-25T12:08:10+08:00"
     }
   ]
 }
