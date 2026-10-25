@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "researchedAt": "2026-10-25T17:40:41+08:00",
+  "researchedAt": "2026-10-25T18:45:42+08:00",
   "items": [
     {
       "sourceId": "rss-techcrunch-ai",
@@ -415,6 +415,60 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-25T17:40:41+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-25T10:08:49.000Z",
+      "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
+      "title": "Flora研究解读：低价标注依赖算力假设，失败检测也有误报",
+      "summary": "Jonathan Kemper解读NVIDIA Flora的视频标注实验：每小时视频约0.72美元的成本来自每GPU每小时10美元的租金假设，并非生产实测。所引实验中，Flora能识别53.3%的失败步骤，但也将约11%的正常步骤误判；部分机器人视频描述与评分任务仍落后于GPT-6 Astra。",
+      "reason": "对照报道全文与官方实验表，可看清成本和精度的取舍；属于既有研究的新解读，成本为厂商推算，未独立复测。",
+      "category": "paper",
+      "quote": "The Flora cost figures are projections, though, not production measurements.",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "具身智能",
+        "数据/训练",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-25T18:45:42+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-25T09:12:10.000Z",
+      "url": "https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/",
+      "title": "单智能体实践解读：逐个合并子智能体，用评测检查流程退化",
+      "summary": "Matthias Bastian梳理Anthropic的架构迁移经验：将专业流程改为按需加载的技能和工具，逐步比较任务质量、成本与延迟。需要独立上下文、并行任务或单智能体工具选择出现退化时，仍应保留子智能体。报道同时列出反例：合并虽降低延迟，却让主智能体绕过专家，破坏原本正常的客服流程。",
+      "reason": "报道与官方实践原文相互印证，提供可复用的迁移判断和失败案例；是既有方法的新梳理，厂商经验不能证明单智能体普遍更优。",
+      "category": "tip",
+      "quote": "Anthropic warns against merging blindly",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "部署/工程",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-25T18:45:42+08:00"
     }
   ]
 }
