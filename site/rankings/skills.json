@@ -1,6 +1,6 @@
 {
   "kind": "skills",
-  "capturedAt": "2026-10-24T17:08:11.427Z",
+  "capturedAt": "2026-10-25T16:11:15.034Z",
   "sourceName": "skills.sh",
   "sourceUrl": "https://www.skills.sh/",
   "metric": "累计安装量",
@@ -119,6 +119,14 @@
     },
     {
       "rank": 15,
+      "name": "hyperframes-registry",
+      "owner": "heygen-com/hyperframes",
+      "value": 1000000,
+      "displayValue": "1.0M",
+      "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-registry"
+    },
+    {
+      "rank": 16,
       "name": "hyperframes-animation",
       "owner": "heygen-com/hyperframes",
       "value": 1000000,
@@ -126,35 +134,27 @@
       "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-animation"
     },
     {
-      "rank": 16,
-      "name": "hyperframes-registry",
-      "owner": "heygen-com/hyperframes",
-      "value": 992800,
-      "displayValue": "992.8K",
-      "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-registry"
-    },
-    {
       "rank": 17,
       "name": "triage",
       "owner": "mattpocock/skills",
-      "value": 991000,
-      "displayValue": "991.0K",
+      "value": 994300,
+      "displayValue": "994.3K",
       "url": "https://www.skills.sh/mattpocock/skills/triage"
     },
     {
       "rank": 18,
       "name": "prototype",
       "owner": "mattpocock/skills",
-      "value": 988300,
-      "displayValue": "988.3K",
+      "value": 991600,
+      "displayValue": "991.6K",
       "url": "https://www.skills.sh/mattpocock/skills/prototype"
     },
     {
       "rank": 19,
       "name": "grilling",
       "owner": "mattpocock/skills",
-      "value": 981600,
-      "displayValue": "981.6K",
+      "value": 986000,
+      "displayValue": "986.0K",
       "url": "https://www.skills.sh/mattpocock/skills/grilling"
     },
     {
