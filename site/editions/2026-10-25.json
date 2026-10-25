@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "researchedAt": "2026-10-25T14:19:44+08:00",
+  "researchedAt": "2026-10-25T15:23:46+08:00",
   "items": [
     {
       "sourceId": "rss-techcrunch-ai",
@@ -337,6 +337,31 @@
         "factTitle": "联想展示P7预览版并启动先享计划"
       },
       "addedAt": "2026-10-25T14:19:44+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-25T06:55:22.000Z",
+      "url": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/",
+      "title": "OpenMobile-2研究解读：固定数据量下，扩大训练App种类改善泛化",
+      "summary": "The Decoder解读南京大学、商汤等团队的OpenMobile-2研究。固定2000条训练轨迹等条件，将训练App从15种扩至53种，未见应用上的单次成功率由60.7%升至67.5%。研究还发现，提供应用接口本身帮助有限，需要专门训练；这些接口实验目前限于模拟应用。",
+      "reason": "为手机智能体训练提供具体参考，原文数字与论文、项目页一致。论文10月9日已公开，本次为新报道解读；效果限于文中实验，未独立复测。",
+      "category": "paper",
+      "quote": "With the same data budget, app variety beats extra examples from a handful of apps.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "数据/训练",
+        "开源生态",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-25T15:23:46+08:00"
     }
   ]
 }
