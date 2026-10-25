@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "researchedAt": "2026-10-25T15:23:46+08:00",
+  "researchedAt": "2026-10-25T16:28:11+08:00",
   "items": [
     {
       "sourceId": "rss-techcrunch-ai",
@@ -362,6 +362,34 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-25T15:23:46+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-25T07:30:11.000Z",
+      "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/",
+      "title": "媒体称OpenAI以企业折扣争夺Anthropic编码客户",
+      "summary": "The Decoder援引The Information报道，Rippling负责人称OpenAI在公司编码工作量中的份额从16%升至52%，Anthropic从57%降至18%。报道还称，Replit获得超过30%的折扣，对应合同年额超过1亿美元。这些是个别企业交易的媒体报道，不能视为面向所有客户的公开降价。",
+      "reason": "客户用量变化为企业AI采购提供参考。已核对Matthias Bastian署名、全文与原站发布时间；合同数字仍是媒体转述，优惠条件未获参与公司独立确认。",
+      "category": "industry",
+      "quote": "boosted OpenAI's share of its coding workload from 16 to 52 percent",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai",
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI赛道",
+        "编码",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-25T16:28:11+08:00"
     }
   ]
 }
