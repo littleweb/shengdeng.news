@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "researchedAt": "2026-10-25T13:13:20+08:00",
+  "researchedAt": "2026-10-25T14:19:44+08:00",
   "items": [
     {
       "sourceId": "rss-techcrunch-ai",
@@ -306,6 +306,37 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-25T13:13:20+08:00"
+    },
+    {
+      "sourceId": "ifeng-huanqiu-tech",
+      "sourceName": "凤凰网·环球科技网",
+      "date": "2026-10-24T16:24:41+08:00",
+      "url": "https://tech.ifeng.com/c/8xUD5LlWV22",
+      "title": "联想P7预览版启动先享计划，提供本地模型接入与智能体运行",
+      "summary": "联想在CSDN开发者大会展示P7预览版并启动先享计划。发布材料介绍后摩M50与此芯P1双芯配置，以及通过API接入编程工具的本地模型管理功能。Auto模式可能调用云端模型；售价与正式发售日期尚未公布。",
+      "reason": "为本地模型与常驻智能体提供具体硬件方案。已通读刊载全文并核对精确发布时间；内容主要为厂商披露，性能及持续运行效果未经独立验证。",
+      "category": "ai-products",
+      "quote": "先行启动“先享计划”",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "AI硬件",
+        "AI产品",
+        "国内AI",
+        "端侧",
+        "Agent"
+      ],
+      "selected": true,
+      "event": {
+        "key": "lenovo-p7-preview-2026-10-24",
+        "title": "联想P7预览版展示与先享计划",
+        "factKey": "p7-preview-early-access-program",
+        "factTitle": "联想展示P7预览版并启动先享计划"
+      },
+      "addedAt": "2026-10-25T14:19:44+08:00"
     }
   ]
 }
