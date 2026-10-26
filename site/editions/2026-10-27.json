@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "researchedAt": "2026-10-27T01:24:32+08:00",
+  "researchedAt": "2026-10-27T02:29:49+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -118,6 +118,71 @@
         "factTitle": "SpaceX披露约400亿美元GPU融资租赁约束性承诺"
       },
       "addedAt": "2026-10-27T01:24:32+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-10-26T10:00:00.000Z",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "title": "OpenAI开放ChatGPT工作用途数据，覆盖165类活动与近百个国家",
+      "summary": "OpenAI发布Signals工作活动数据，按季度覆盖2025年第一季度至2026年第三季度，可用于比较不同国家的ChatGPT工作用途。数据仅涵盖个人套餐中的工作相关消息，不含企业消息或Codex使用；统计经过自动分类、聚合及隐私处理，不能直接视为就业变化或生产率收益。",
+      "reason": "为研究AI实际使用方向提供可下载资料。已通读官方说明并核对数据方法页，原文正文＋原站 RSS 时间核验；使用分布不等于业务成效。",
+      "category": "paper",
+      "quote": "does not include enterprise messages or Codex use.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "AI赛道",
+        "行业报告",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-signals-work-activities-2026-10-26",
+        "title": "OpenAI发布ChatGPT工作活动数据",
+        "factKey": "signals-165-work-activities-data-release",
+        "factTitle": "OpenAI开放覆盖165类工作活动的季度使用数据"
+      },
+      "addedAt": "2026-10-27T02:29:49+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-26T17:30:55.000Z",
+      "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
+      "title": "The RealReal收紧智能体访问，回应Muse反复占用商品库存问题",
+      "summary": "Mia Sato报道，记者此前用Meta Muse反复将商品加入购物车，延续The RealReal每次20分钟的库存保留。该零售商技术负责人Luke Friang称已调整防机器人配置，使智能体更难登录、加购及结账，但仍允许发现商品并引导用户访问商品页。处置效果尚未独立复测。",
+      "reason": "相比此前购物实测，新增商家处置与访问边界。已通读署名原文并核对原站精确发布时间；修复情况依据技术负责人回应。",
+      "category": "industry",
+      "quote": "Agents will still be able to surface listings from The RealReal",
+      "tier": "T2",
+      "entity": "meta",
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI产品",
+        "AI赛道",
+        "Agent",
+        "海外AI",
+        "Meta"
+      ],
+      "selected": true,
+      "event": {
+        "key": "realreal-agent-cart-reservation-2026-10",
+        "title": "The RealReal购物智能体库存占用问题及处置",
+        "factKey": "realreal-bot-defense-update-2026-10-26",
+        "factTitle": "The RealReal称已调整防机器人配置以限制智能体操作"
+      },
+      "addedAt": "2026-10-27T02:29:49+08:00"
     }
   ]
 }
