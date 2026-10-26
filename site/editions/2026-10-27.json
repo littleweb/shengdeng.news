@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "researchedAt": "2026-10-27T02:29:49+08:00",
+  "researchedAt": "2026-10-26T19:35:37Z",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -183,6 +183,144 @@
         "factTitle": "The RealReal称已调整防机器人配置以限制智能体操作"
       },
       "addedAt": "2026-10-27T02:29:49+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-10-26T00:00:00.000Z",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "title": "OpenAI发布GPT-6.1 Terra，标准API输入与输出定价为每百万Token 1美元和5美元",
+      "summary": "GPT-6.1 Terra面向视觉推理、电脑操作与写作，已通过API、ChatGPT Work及Codex开放。标准缓存输入价格为每百万Token 0.05美元；超过272K输入Token的请求另有长上下文加价。付费套餐访问仍受工作区权限限制，官方能力评测不能替代实际任务验证。",
+      "reason": "模型开放与价格变化直接影响选型。原文正文＋原站 RSS 时间核验，并核对官方文档中的计费和访问条件；独立评测原文暂不可读。",
+      "category": "ai-models",
+      "quote": "Standard API pricing is $1 per million input tokens, $0.05 per million cached input tokens, and $5 per million output tokens.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "多模态",
+        "Agent",
+        "编码",
+        "OpenAI",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-gpt-61-terra-release-2026-10-26",
+        "title": "OpenAI发布GPT-6.1 Terra",
+        "factKey": "gpt-61-terra-model-release",
+        "factTitle": "GPT-6.1 Terra在API、ChatGPT Work与Codex开放"
+      },
+      "addedAt": "2026-10-26T19:35:37Z"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-10-26T17:27:20.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock/",
+      "title": "AWS缓存实践：稳定共享前缀，随对话增长保留缓存边界",
+      "summary": "Claudio Mazzoni介绍在Bedrock使用OpenAI模型时，结合显式共享前缀与隐式历史缓存的方法，并说明新增工具、跨会话复用和子智能体预热的处理方式。文中六轮测试的输入成本下降约61%—62%；缓存写入也收费，结果不能外推所有工作流。",
+      "reason": "提供可迁移的上下文组织与成本核算方法。已通读原文并核对原站精确发布时间；节省比例属于作者特定测试结果。",
+      "category": "tip",
+      "quote": "These are workload results. Measure your own agent’s savings.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "部署/工程",
+        "OpenAI",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-26T19:35:37Z"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-10-26T17:56:58.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3/",
+      "title": "AWS质检实践：用缺陷召回率守住质量门槛，评估实际交付的模型文件",
+      "summary": "AWS给出逐摄像头训练、评估和编译的视觉模型流水线。示例同时检查平衡准确率与缺陷召回率，避免多数样本正常时用高准确率掩盖漏检；评估针对导出的ONNX文件，编译成功后才登记。约0.07美元成本仅指指定区域和实例上的合成数据示例计算费用。",
+      "reason": "质量门槛与交付文件一致性的做法可用于其他模型部署。原文全文及精确发布时间已核对，示例成本不代表真实工厂总成本或质检成效。",
+      "category": "tip",
+      "quote": "the artifact you gate is the artifact you ship",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI赛道",
+        "部署/工程",
+        "端侧",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-26T19:35:37Z"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-10-26T07:00:00.000Z",
+      "url": "https://openai.com/index/openai-cut-incident-investigation",
+      "title": "OpenAI复盘内部排障：用Codex并行检查日志与沟通记录",
+      "summary": "OpenAI工程师介绍用Ultrafast模式辅助事故调查，将日志、结构化数据和Slack讨论放入排查流程。一名安全架构师称，原先需要一至两小时的数据汇总工作缩短至10—15分钟。文章描述内部使用经验，没有提供独立对照实验，也不是宣布新的Ultrafast发布。",
+      "reason": "具体展示低延迟如何改变排障分工。原文正文＋原站 RSS 时间核验；时间改善来自员工自述，不能等同所有事故的解决时长。",
+      "category": "tip",
+      "quote": "Now that happens in 10 to 15 minutes",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "部署/工程",
+        "OpenAI",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-26T19:35:37Z"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-26T17:50:15.000Z",
+      "url": "https://the-decoder.com/researchers-find-six-patterns-that-make-ai-text-so-exhausting-to-read/",
+      "title": "AI可读性研究解读：信息更短更密，未必更容易理解",
+      "summary": "Matthias Bastian解读10月21日公开的研究，梳理罕见词组、长句法依赖、名词堆叠等六类语言特征。研究比较14种模型在不同任务中的文本，并用长度惩罚实验探索成因；并非每种模型都参加所有任务。结果限于英语，不能据此证明某种训练方法必然造成阅读困难。",
+      "reason": "为检查AI写作提供具体观察维度。已读报道并对照论文的方法与局限，核对原站精确发布时间；本轮是研究解读，论文并非今日新发。",
+      "category": "paper",
+      "quote": "AI models overuse unusual word combinations that rarely show up in human writing",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "数据/训练",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-26T19:35:37Z"
     }
   ]
 }
