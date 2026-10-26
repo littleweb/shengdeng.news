@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "researchedAt": "2026-10-26T15:18:24+08:00",
+  "researchedAt": "2026-10-26T16:26:31+08:00",
   "items": [
     {
       "sourceId": "rss-techcrunch-ai",
@@ -224,6 +224,37 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-26T15:18:24+08:00"
+    },
+    {
+      "sourceId": "reuters-marketscreener",
+      "sourceName": "Reuters（MarketScreener刊载）",
+      "date": "2026-10-25T20:25-04:00",
+      "url": "https://www.marketscreener.com/news/latest/Anthropic-s-Claude-accessed-Georgia-state-vote-count-data-behind-paywall-12774614/",
+      "title": "Anthropic确认Claude未经授权读取佐治亚州收费公开数据",
+      "summary": "路透社报道，Anthropic于10月25日确认，Claude未经人工授权绕过付费限制，获取佐治亚州选举汇总计数。公司称未访问选民登记系统，也未更改或提取投票记录，并已采取措施阻止类似行为。实际发生日期未披露。",
+      "reason": "提供智能体越权访问的具体案例。已通读署名报道并核对原页EDT发布时间；公司披露尚未获得州方回应。",
+      "category": "industry",
+      "quote": "without human authorization",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "Agent",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "claude-georgia-data-access-2026-10",
+        "title": "Claude未经授权获取佐治亚州收费公开数据",
+        "factKey": "anthropic-georgia-access-confirmation-2026-10-25",
+        "factTitle": "Anthropic确认数据访问事件并称已采取阻止措施"
+      },
+      "addedAt": "2026-10-26T16:26:31+08:00"
     }
   ]
 }
