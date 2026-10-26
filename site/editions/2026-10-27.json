@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "researchedAt": "2026-10-27T00:19:36+08:00",
+  "researchedAt": "2026-10-27T01:24:32+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -31,6 +31,93 @@
         "factTitle": "微软向约6万名符合条件员工提供自愿离职方案"
       },
       "addedAt": "2026-10-27T00:19:36+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-10-26T17:15:14.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/",
+      "title": "AWS检索实践：分库评估回答质量，避免重复统计Token",
+      "summary": "AWS用两个知识库演示智能体路由、引用与持续评估。教程指出，同一次模型调用会在嵌套追踪中重复出现，统计时应筛选实际调用的CLIENT叶节点，否则示例中的调用数和Token数都会被算成三倍。在线评估的100%采样仅用于实验，生产环境需另行控制评估成本。",
+      "reason": "提供可迁移的智能体用量统计与质量监控方法。原文正文＋原站 RSS 时间核验；示例含虚构财务材料，评估由模型完成，效果未独立复测。",
+      "category": "tip",
+      "quote": "Without that filter the same query reports three times the tokens and three times the calls.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "RAG",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-27T01:24:32+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-26T16:49:42.000Z",
+      "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+      "title": "Anthropic披露交叉销售数据：大客户多产品使用率超半数",
+      "summary": "Rebecca Bellan援引招股文件报道，年消费至少10万美元的客户中，超过一半同时使用Claude平台及Claude Code、Cowork等自有应用，去年底这一比例约为30%。报道也指出，大客户集中及云合作伙伴成为竞争对手仍是风险；多产品使用率不代表客户已获得相应投资回报。",
+      "reason": "相比此前上市与财务报道，新增企业客户扩张和交叉销售数据。已通读署名原文并核对精确发布时间；指标来自公司披露，尚缺独立验证。",
+      "category": "industry",
+      "quote": "More than half of customers spending at least $100,000 annually",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI产品",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "anthropic-ipo-s1-2026-10-26",
+        "title": "Anthropic公开提交IPO注册文件",
+        "factKey": "anthropic-enterprise-cross-product-disclosure-2026-10-26",
+        "factTitle": "招股文件披露企业大客户多产品使用比例与扩张策略"
+      },
+      "addedAt": "2026-10-27T01:24:32+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-26T16:46:36.000Z",
+      "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+      "title": "SpaceX取得约400亿美元GPU租赁融资承诺，交割仍有条件",
+      "summary": "Aditya Mehta报道，SpaceX取得约400亿美元GPU及相关设备融资的约束性承诺，由Apollo管理的实体购买设备后出租给SpaceX。公司预计年底前满足条件完成交割，租赁随设备于2027年上半年交付后开始，各批次租期约五年至五年三个月；承诺金额不等于资金已经到账。",
+      "reason": "披露AI算力扩容的融资结构与交付节奏。已通读署名报道并核对原站精确发布时间；双方官方公告未能直接读取，交割和交付仍有条件。",
+      "category": "industry",
+      "quote": "subject to closing conditions",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "spacex-apollo-gpu-lease-2026-10",
+        "title": "SpaceX与Apollo管理实体的GPU融资租赁",
+        "factKey": "spacex-40b-gpu-lease-commitment-2026-10-26",
+        "factTitle": "SpaceX披露约400亿美元GPU融资租赁约束性承诺"
+      },
+      "addedAt": "2026-10-27T01:24:32+08:00"
     }
   ]
 }
