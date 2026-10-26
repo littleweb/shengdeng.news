@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "researchedAt": "2026-10-26T20:53:39+08:00",
+  "researchedAt": "2026-10-26T22:05:01+08:00",
   "items": [
     {
       "sourceId": "rss-techcrunch-ai",
@@ -329,6 +329,95 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-26T20:53:39+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-26T13:32:49.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
+      "title": "Anthropic公开招股文件，拟以ANT在纳斯达克上市",
+      "summary": "Robert Hart报道，Anthropic公开S-1文件，拟以ANT为股票代码上市。文件披露2026年上半年营收163亿美元、净亏损807亿美元；报道指出，亏损主要来自融资票据相关会计费用，不能等同经营现金消耗。公开提交尚不代表发行获准或上市完成。",
+      "reason": "招股文件提供财务规模与算力支出的具体信息。已通读署名报道并核对原站精确发布时间，官方公告另确认提交阶段；财务数字为报道所引文件口径。",
+      "category": "industry",
+      "quote": "the majority of that loss is from accounting charges",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "anthropic-ipo-s1-2026-10-26",
+        "title": "Anthropic公开提交IPO注册文件",
+        "factKey": "anthropic-public-s1-filing",
+        "factTitle": "Anthropic公开提交S-1并披露拟用股票代码ANT"
+      },
+      "addedAt": "2026-10-26T22:05:01+08:00"
+    },
+    {
+      "sourceId": "anthropic-news",
+      "sourceName": "Anthropic 官方",
+      "date": "2026-10-26",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "title": "Anthropic公告确认S-1已提交，发行数量与价格尚未确定",
+      "summary": "官方公告确认提交Class A普通股拟议IPO注册文件，计划在纳斯达克以ANT挂牌。发行股数与价格区间尚未确定，注册文件尚未生效；此条仅交叉确认提交事实与发行条件。",
+      "reason": "已通读官方公告，核对拟议发行及尚未生效的限制。官网仅署10月26日，保留日期精度，作为同事实交叉证据，不重复精选。",
+      "category": "industry",
+      "quote": "has not yet become effective",
+      "tier": "T1",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": false,
+      "event": {
+        "key": "anthropic-ipo-s1-2026-10-26",
+        "title": "Anthropic公开提交IPO注册文件",
+        "factKey": "anthropic-public-s1-filing",
+        "factTitle": "Anthropic公开提交S-1并披露拟用股票代码ANT"
+      },
+      "addedAt": "2026-10-26T22:05:01+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-26T13:15:00.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
+      "title": "专家评议AI迁移COBOL：代码测试通过仍不等于旧系统可替换",
+      "summary": "Robert Hart采访多位软件工程研究者，指出OpenAI的代码迁移评测未覆盖真实旧系统的数据格式、跨系统集成及模块拆分难题。专家建议比较新旧系统运行同一工作流的行为，并保留熟悉原系统人员的验证。OpenAI回应称，遗留代码问题仍远未解决。",
+      "reason": "对维护旧系统的团队有选型价值。已通读署名采访并核对原站发布时间；相较已收录的10月19日评测，新增专家分析与厂商回应，没有把测试成绩写成生产迁移成效。",
+      "category": "opinion",
+      "quote": "Rewriting code is not the same as replacing a system.",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "AI赛道",
+        "编码",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-26T22:05:01+08:00"
     }
   ]
 }
