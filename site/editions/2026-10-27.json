@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "researchedAt": "2026-10-27T04:41:17+08:00",
+  "researchedAt": "2026-10-27T05:35:45+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -411,6 +411,146 @@
         "factTitle": "GPT-6.1 Terra在API、ChatGPT Work与Codex开放"
       },
       "addedAt": "2026-10-27T04:41:17+08:00"
+    },
+    {
+      "sourceId": "ithome-ai",
+      "sourceName": "IT之家",
+      "date": "2026-10-26T16:08:44+08:00",
+      "url": "https://www.ithome.com/1/017/943.htm",
+      "title": "即梦上线短剧工作室，整合剧本、资产管理与分镜制作",
+      "summary": "即梦短剧工作室将剧本整理、角色场景管理、分镜和视频制作放进同一平台。报道介绍其支持10万字文本上传、100集连续生成，以及团队资产和积分管理；剧本创作、剧本解析可各免费体验一次，不能理解为完整制作流程免费。",
+      "reason": "为系列视频创作提供新的集中制作入口。已通读媒体全文并核对精确发布时间，另一篇报道支持同一上线事实；功能与性能仍属企业披露，未独立实测。",
+      "category": "ai-products",
+      "quote": "产品支持 10 万字长文本上传",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "视频",
+        "Agent",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "jimeng-short-drama-studio-2026-10-26",
+        "title": "即梦上线短剧工作室",
+        "factKey": "jimeng-short-drama-studio-launch",
+        "factTitle": "即梦上线整合剧本与分镜制作的短剧工作室"
+      },
+      "addedAt": "2026-10-27T05:35:45+08:00"
+    },
+    {
+      "sourceId": "pchome-ai",
+      "sourceName": "PChome",
+      "date": "2026-10-26T18:46:11+08:00",
+      "url": "https://article.pchome.net/news/16476.html",
+      "title": "PChome交叉报道即梦短剧工作室上线",
+      "summary": "编辑许惠婷报道即梦短剧工作室上线，列出DreamScript、Anycook、DreamShot及10万字文本解析、3D导演台预演等功能。报道明确相关能力来自官方介绍，没有提供独立制作效果或成本测试。",
+      "reason": "已核对编辑署名、全文与精确发布时间，仅补充同一上线事实。两篇媒体报道均介绍企业披露的功能，不能视为两次独立实测。",
+      "category": "ai-products",
+      "quote": "据官方介绍",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "视频",
+        "国内AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "jimeng-short-drama-studio-2026-10-26",
+        "title": "即梦上线短剧工作室",
+        "factKey": "jimeng-short-drama-studio-launch",
+        "factTitle": "即梦上线整合剧本与分镜制作的短剧工作室"
+      },
+      "addedAt": "2026-10-27T05:35:45+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-26T19:14:45.000Z",
+      "url": "https://the-decoder.com/anthropic-opens-its-books-for-wall-street-showing-record-revenue-and-mounting-obligations/",
+      "title": "Anthropic财务解读：八成收入按用量计费，长期算力承诺约7800亿至8100亿美元",
+      "summary": "Matthias Bastian援引招股文件报道，Anthropic约80%的收入来自实际用量计费，其余来自固定订阅；与多家供应商签订的长期算力容量合同合计约7800亿至8100亿美元。收入随使用变化、支出承诺相对固定，意味着未来仍需持续增长来承担合同义务，承诺金额不等于已经支出。",
+      "reason": "补充此前上市与客户使用报道未覆盖的收入结构和长期算力负担。已通读署名原文并核对精确发布时间；数字为媒体援引文件口径，未完成对全部合同的独立核验。",
+      "category": "industry",
+      "quote": "Eighty percent of revenue is billed on actual usage",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "anthropic-ipo-s1-2026-10-26",
+        "title": "Anthropic公开提交IPO注册文件",
+        "factKey": "anthropic-revenue-compute-obligations-disclosure-2026-10-26",
+        "factTitle": "招股文件披露收入计费结构与长期算力义务"
+      },
+      "addedAt": "2026-10-27T05:35:45+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-26T09:49:33.000Z",
+      "url": "https://the-decoder.com/wall-streets-fastest-traders-are-building-data-centers-and-backing-chip-startups-to-stay-ahead-in-ai/",
+      "title": "交易机构扩大AI算力投入，Hudson River称每年投入10亿美元",
+      "summary": "Maximilian Schreiner援引彭博报道，Hudson River Trading的AI负责人称公司每年投入10亿美元用于AI，并与CoreWeave签订多年协议。报道还梳理Jane Street的数据中心、股权投资和算力采购，反映交易机构对机器学习基础设施的需求；没有披露这些投入带来的交易收益。",
+      "reason": "提供金融交易领域AI采购需求的具体金额。原文正文＋原站 RSS 时间核验；投入数据来自高管及媒体披露，不能据此认定投资回报已经兑现。",
+      "category": "industry",
+      "quote": "Hudson River spends $1 billion a year on AI",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "AI硬件",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-27T05:35:45+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-26T09:18:15.000Z",
+      "url": "https://the-decoder.com/toyota-is-betting-6-4-billion-a-year-on-humanoid-robots-and-factory-automation/",
+      "title": "丰田机器人规划：拟每年投入64亿美元，优先部署自有工厂",
+      "summary": "Maximilian Schreiner援引《金融时报》称，丰田计划每年投入64亿美元发展人形机器人和工厂自动化，机器人部署目标为40万台，并优先在自有工厂推进。报道未明确整体完成期限或机器人类型占比，不能将目标全部解释为人形机器人，也不代表投资与交付已经完成。",
+      "reason": "提供汽车厂商发展机器人业务的投入规模与部署顺序。原文正文＋原站 RSS 时间核验；依据媒体转述的规划，尚无全部部署完成或经营收益证据。",
+      "category": "industry",
+      "quote": "the company's own factories come first for robot deployment",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI赛道",
+        "具身智能",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-27T05:35:45+08:00"
     }
   ]
 }
