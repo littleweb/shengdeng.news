@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "researchedAt": "2026-10-26T01:33:17+08:00",
+  "researchedAt": "2026-10-26T09:49:52+08:00",
   "items": [
     {
       "sourceId": "rss-techcrunch-ai",
@@ -59,6 +59,85 @@
         "factTitle": "Slok发布标普493家公司人均营收与利润率分析"
       },
       "addedAt": "2026-10-26T01:33:17+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-25T09:37:46.000Z",
+      "url": "https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027/",
+      "title": "TasteVal研究解读：实验效率提升，仍不等于AI能自主选题",
+      "summary": "Manuel Uth解读既有TasteVal研究：八项固定目标任务与24名专家的对照中，Opus 5.5的实验算力效率倍数为2.3，95%置信区间为1.15至4.37。该测试衡量实验设计和结果解读，不测试自主选择研究方向，也不能证明递归自我改进已经实现。",
+      "reason": "有助于区分实验效率与独立科研能力。已核对报道全文、原站RSS时间及研究原文；属于既有研究的新解读，Clark的预测早在10月12日发表，实验未独立复测。",
+      "category": "paper",
+      "quote": "TasteVal only tests the last two.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "海外AI",
+        "Agent",
+        "数据/训练"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-26T08:43:47+08:00"
+    },
+    {
+      "sourceId": "the-next-web",
+      "sourceName": "The Next Web",
+      "date": "2026-10-25T14:24+00:00",
+      "url": "https://thenextweb.com/news/western-australia-deloitte-refund-ai-university-report",
+      "title": "西澳催促德勤退费，AI辅助高校合并报告又现成本加总错误",
+      "summary": "Ana-Maria Stanciuc报道，西澳政府已致函德勤，要求加快追偿一份16.6万澳元高校合并研究的费用。报道列举两项成本应合计6.59亿澳元，报告却写为3.99亿。该报告此前已被发现含虚构AI引文；政府称将纠错重发，尚未确认退款完成，也未证明算术错误由AI造成。",
+      "reason": "为AI辅助咨询服务的验收与责任提供案例。已核对全文、署名及原站UTC发布时间；信息转述自同一原始采访，并非独立第二次调查。",
+      "category": "industry",
+      "quote": "Deloitte will correct them and reissue the report",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "deloitte-wa-university-report-2026-10",
+        "title": "德勤西澳高校报告纠错与追偿",
+        "factKey": "wa-expedited-cost-recovery-2026-10-25",
+        "factTitle": "西澳政府催促追偿高校报告费用"
+      },
+      "addedAt": "2026-10-26T09:49:52+08:00"
+    },
+    {
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "date": "2026-10-25T14:00+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/26/deloitte-report-wa-university-mergers-260m-discrepancy-ai",
+      "title": "西澳催促追偿的原始采访",
+      "summary": "政府催促德勤退费。",
+      "reason": "原始采访与署期已核，仅作同源证据。",
+      "category": "industry",
+      "quote": "expedited",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "deloitte-wa-university-report-2026-10",
+        "title": "德勤西澳高校报告纠错与追偿",
+        "factKey": "wa-expedited-cost-recovery-2026-10-25",
+        "factTitle": "西澳政府催促追偿高校报告费用"
+      },
+      "addedAt": "2026-10-26T09:49:52+08:00"
     }
   ]
 }
