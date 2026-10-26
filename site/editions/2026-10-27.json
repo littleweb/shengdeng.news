@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "researchedAt": "2026-10-26T19:35:37Z",
+  "researchedAt": "2026-10-27T04:41:17+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -321,6 +321,96 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-26T19:35:37Z"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-26T17:10:23.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
+      "title": "Anthropic披露创始人投票权安排，拟经Founder LLC保留50.1%",
+      "summary": "Robert Hart援引招股文件报道，Anthropic七名联合创始人拟通过Founder LLC，在上市后共同保留关键股东表决事项50.1%的投票权。这补充了此前上市及财务报道之外的控制权信息；提交文件尚不代表上市完成。",
+      "reason": "帮助理解融资后的控制权分配。已核对署名全文与精确发布时间，并有另一篇完整报道交叉支持；安排尚待上市实施。",
+      "category": "industry",
+      "quote": "collectively control 50.1 percent of shareholder voting power",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "anthropic-ipo-s1-2026-10-26",
+        "title": "Anthropic公开提交IPO注册文件",
+        "factKey": "anthropic-founder-voting-control-disclosure-2026-10-26",
+        "factTitle": "招股文件披露创始人表决权安排"
+      },
+      "addedAt": "2026-10-27T04:41:17+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-26T14:35:22.000Z",
+      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "title": "投票权安排",
+      "summary": "拟保留50.1%投票权。",
+      "reason": "已核对全文及发布时间，仅作同事实交叉证据。",
+      "category": "industry",
+      "quote": "Founder LLC",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": false,
+      "event": {
+        "key": "anthropic-ipo-s1-2026-10-26",
+        "title": "Anthropic公开提交IPO注册文件",
+        "factKey": "anthropic-founder-voting-control-disclosure-2026-10-26",
+        "factTitle": "招股文件披露创始人表决权安排"
+      },
+      "addedAt": "2026-10-27T04:41:17+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-26T20:30:55.000Z",
+      "url": "https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models/",
+      "title": "The Decoder交叉报道GPT-6.1 Terra开放范围与API定价",
+      "summary": "报道列出GPT-6.1 Terra标准API输入每百万Token 1美元、输出5美元，以及ChatGPT Work和Codex的开放范围。文章中的性能比较分别来自OpenAI和Artificial Analysis，不能直接视为所有实际任务的收益。",
+      "reason": "为已收录的模型发布补充独立媒体原文。已通读并核对精确发布时间，同一发布不重复精选；性能结论受评测任务及推理档位限制。",
+      "category": "ai-models",
+      "quote": "Input tokens cost $1 per million, output tokens $5",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "openai-gpt-61-terra-release-2026-10-26",
+        "title": "OpenAI发布GPT-6.1 Terra",
+        "factKey": "gpt-61-terra-model-release",
+        "factTitle": "GPT-6.1 Terra在API、ChatGPT Work与Codex开放"
+      },
+      "addedAt": "2026-10-27T04:41:17+08:00"
     }
   ]
 }
