@@ -1,6 +1,6 @@
 {
   "kind": "models",
-  "capturedAt": "2026-10-25T16:25:57.126Z",
+  "capturedAt": "2026-10-26T16:20:31.414Z",
   "sourceName": "Artificial Analysis",
   "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
   "metric": "Intelligence Index",
@@ -14,7 +14,7 @@
       "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
       "context": "1M",
       "cost": "$5.98",
-      "speed": "96"
+      "speed": "98"
     },
     {
       "rank": 2,
@@ -25,7 +25,7 @@
       "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5",
       "context": "1M",
       "cost": "$5.46",
-      "speed": "134"
+      "speed": "141"
     },
     {
       "rank": 3,
@@ -58,7 +58,7 @@
       "url": "https://artificialanalysis.ai/models/kimi-k3-1-pro",
       "context": "1M",
       "cost": "$2.11",
-      "speed": "58"
+      "speed": "51"
     },
     {
       "rank": 6,
@@ -102,7 +102,7 @@
       "url": "https://artificialanalysis.ai/models/gpt-6-astra",
       "context": "1M",
       "cost": "$3.26",
-      "speed": "66"
+      "speed": "67"
     },
     {
       "rank": 10,

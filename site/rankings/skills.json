@@ -1,6 +1,6 @@
 {
   "kind": "skills",
-  "capturedAt": "2026-10-25T16:25:57.964Z",
+  "capturedAt": "2026-10-26T16:20:31.904Z",
   "sourceName": "skills.sh",
   "sourceUrl": "https://www.skills.sh/",
   "metric": "累计安装量",
@@ -9,8 +9,8 @@
       "rank": 1,
       "name": "find-skills",
       "owner": "vercel-labs/skills",
-      "value": 4000000,
-      "displayValue": "4.0M",
+      "value": 4099999.9999999995,
+      "displayValue": "4.1M",
       "url": "https://www.skills.sh/vercel-labs/skills/find-skills"
     },
     {
@@ -23,19 +23,19 @@
     },
     {
       "rank": 3,
-      "name": "agent-browser",
-      "owner": "vercel-labs/agent-browser",
-      "value": 1200000,
-      "displayValue": "1.2M",
-      "url": "https://www.skills.sh/vercel-labs/agent-browser/agent-browser"
+      "name": "hyperframes-cli",
+      "owner": "heygen-com/hyperframes",
+      "value": 1300000,
+      "displayValue": "1.3M",
+      "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-cli"
     },
     {
       "rank": 4,
-      "name": "hyperframes-cli",
-      "owner": "heygen-com/hyperframes",
-      "value": 1200000,
-      "displayValue": "1.2M",
-      "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-cli"
+      "name": "agent-browser",
+      "owner": "vercel-labs/agent-browser",
+      "value": 1300000,
+      "displayValue": "1.3M",
+      "url": "https://www.skills.sh/vercel-labs/agent-browser/agent-browser"
     },
     {
       "rank": 5,
@@ -65,8 +65,8 @@
       "rank": 8,
       "name": "tdd",
       "owner": "mattpocock/skills",
-      "value": 1100000,
-      "displayValue": "1.1M",
+      "value": 1200000,
+      "displayValue": "1.2M",
       "url": "https://www.skills.sh/mattpocock/skills/tdd"
     },
     {
@@ -103,19 +103,19 @@
     },
     {
       "rank": 13,
-      "name": "frontend-design",
-      "owner": "anthropics/skills",
-      "value": 1000000,
-      "displayValue": "1.0M",
-      "url": "https://www.skills.sh/anthropics/skills/frontend-design"
-    },
-    {
-      "rank": 14,
       "name": "design-mobile-apps",
       "owner": "designed-by-ai/skills",
       "value": 1000000,
       "displayValue": "1.0M",
       "url": "https://www.skills.sh/designed-by-ai/skills/design-mobile-apps"
+    },
+    {
+      "rank": 14,
+      "name": "frontend-design",
+      "owner": "anthropics/skills",
+      "value": 1000000,
+      "displayValue": "1.0M",
+      "url": "https://www.skills.sh/anthropics/skills/frontend-design"
     },
     {
       "rank": 15,
@@ -137,24 +137,24 @@
       "rank": 17,
       "name": "triage",
       "owner": "mattpocock/skills",
-      "value": 994300,
-      "displayValue": "994.3K",
+      "value": 998800,
+      "displayValue": "998.8K",
       "url": "https://www.skills.sh/mattpocock/skills/triage"
     },
     {
       "rank": 18,
       "name": "prototype",
       "owner": "mattpocock/skills",
-      "value": 991600,
-      "displayValue": "991.6K",
+      "value": 996300,
+      "displayValue": "996.3K",
       "url": "https://www.skills.sh/mattpocock/skills/prototype"
     },
     {
       "rank": 19,
       "name": "grilling",
       "owner": "mattpocock/skills",
-      "value": 986000,
-      "displayValue": "986.0K",
+      "value": 992400,
+      "displayValue": "992.4K",
       "url": "https://www.skills.sh/mattpocock/skills/grilling"
     },
     {
