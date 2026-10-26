@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "researchedAt": "2026-10-26T22:05:01+08:00",
+  "researchedAt": "2026-10-26T23:10:29+08:00",
   "items": [
     {
       "sourceId": "rss-techcrunch-ai",
@@ -418,6 +418,64 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-26T22:05:01+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-10-26T07:00:00.000Z",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "title": "Fanatics上线AI搭配推荐，官方称测试参与度提升10%",
+      "summary": "OpenAI披露，Fanatics新版Shop the Look已在旗下多个体育商品网站上线，结合球队、库存和商品搭配规则生成推荐。双方先在不足一天内测试50款商品，再扩展至约3万款MLB商品；官方称参与度较旧版提高10%，未披露销售转化、收入增量或对照实验细节。",
+      "reason": "提供电商AI从小样本测试扩展至生产环境的具体案例。原文正文＋原站 RSS 时间核验；效果为合作方自述，参与度提升不能等同销售增长。",
+      "category": "industry",
+      "quote": "10% higher engagement than the previous experience.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI产品",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-26T23:10:29+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-26T14:21:23.000Z",
+      "url": "https://the-decoder.com/meta-plans-up-to-95-billion-in-stock-sales-to-fund-its-ai-buildout/",
+      "title": "Meta披露最高950亿美元股权融资计划，支持AI基础设施投入",
+      "summary": "The Decoder报道，Meta拟通过225亿美元A类普通股、125亿美元优先股相关存托股份，以及未来最高600亿美元C类股市场出售计划筹资。后者预计最早2027年第一季度启动。英伟达、AMD和博通表达合计最高50亿美元认购意向，但不具约束力；计划金额不代表资金已经到账。",
+      "reason": "相比此前批准C类股，本次新增融资规模与工具安排。已通读报道并核对原站精确发布时间；官方公告未能直接读取，认购和未来发行仍有条件。",
+      "category": "industry",
+      "quote": "non-binding interest in buying up to $5 billion",
+      "tier": "T2",
+      "entity": "meta",
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI",
+        "Meta"
+      ],
+      "selected": true,
+      "event": {
+        "key": "meta-class-c-ai-funding-2026-10-21",
+        "title": "Meta批准设立C类股以扩充AI投入的融资工具",
+        "factKey": "meta-95b-equity-financing-plan-2026-10-26",
+        "factTitle": "Meta披露最高950亿美元股权融资计划及分阶段安排"
+      },
+      "addedAt": "2026-10-26T23:10:29+08:00"
     }
   ]
 }
