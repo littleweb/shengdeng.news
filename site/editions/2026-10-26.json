@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "researchedAt": "2026-10-26T17:34:12+08:00",
+  "researchedAt": "2026-10-26T20:53:39+08:00",
   "items": [
     {
       "sourceId": "rss-techcrunch-ai",
@@ -306,6 +306,29 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-26T17:34:12+08:00"
+    },
+    {
+      "sourceId": "rss-mit-tech-review-ai",
+      "sourceName": "MIT Technology Review · AI",
+      "date": "2026-10-26T09:01:00.000Z",
+      "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+      "title": "AI治理评论：把情感依赖与思考能力纳入产品评估",
+      "summary": "Sam Hiner与Emma Leiken认为，仅防范自伤、性内容等严重危害，仍不足以评估AI产品的日常影响。他们主张，教育AI进入课堂前应证明学习与批判性思维收益，陪伴系统应接受对人际关系和独立思考影响的审查。这些属于政策建议，并非已经生效的新要求。",
+      "reason": "为AI陪伴和教育产品提供更具体的评估视角。已通读原文并核对发布时间；文章属于倡议评论，长期影响仍待研究。",
+      "category": "opinion",
+      "quote": "We should demand safety as a minimum, yes—and then demand considerably more.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "现象/趋势",
+        "海外AI",
+        "AI产品"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-26T20:53:39+08:00"
     }
   ]
 }
