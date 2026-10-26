@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "researchedAt": "2026-10-26T10:57:03+08:00",
+  "researchedAt": "2026-10-26T15:18:24+08:00",
   "items": [
     {
       "sourceId": "rss-techcrunch-ai",
@@ -198,6 +198,32 @@
         "factTitle": "IT之家记录猫眼口径累计票房达到116.2万元"
       },
       "addedAt": "2026-10-26T10:57:03+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-25T08:09:32.000Z",
+      "url": "https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies/",
+      "title": "施密特等谈AI竞争：资源与财政承受力约束扩张",
+      "summary": "Manuel Uth转述Niall Ferguson、Lisa Klaassen与Eric Schmidt的评论：AI竞争受芯片、能源和资本约束，长期投入还会加剧科技领先、国防与福利之间的预算压力。他们据此建议探索中美AI缓和安排。这是分析框架与政策主张，并非已达成的安排。",
+      "reason": "把算力竞争与财政承受力联系起来，提供观察长期投入的框架。已核对报道全文及原站发布时间；原始付费评论未能通读，相关投资数字未独立验证。",
+      "category": "opinion",
+      "quote": "Defense, tech leadership, and a generous welfare state can't all survive at once.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "openai",
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "海外AI",
+        "AI赛道"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-26T15:18:24+08:00"
     }
   ]
 }
