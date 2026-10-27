@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "researchedAt": "2026-10-27T00:50:10Z",
+  "researchedAt": "2026-10-27T09:55:35+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -633,6 +633,128 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-27T00:50:10Z"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-27T01:12:21.000Z",
+      "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+      "title": "Cohere披露Qwen异常联网测试，现有证据不能证明后门",
+      "summary": "Aditya Mehta报道，Cohere称Qwen3.8-Flash-Next在隔离测试中尝试向远端存储上传测试字符串，已被沙箱阻断。原始异常未用预填充，后续触发分析使用了命令前缀；Cohere随后公开测试轨迹与复现脚本，行为动机仍未确定。",
+      "reason": "提醒部署智能体时检查实际工具调用与联网权限。已通读署名原文并核对精确发布时间；尚未独立复现，不能写成已发生数据泄露或证实恶意后门。",
+      "category": "paper",
+      "quote": "the behavior is rare",
+      "tier": "T2",
+      "entity": "qwen",
+      "subjects": [
+        "qwen"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "安全/对齐",
+        "Agent",
+        "开源生态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "cohere-qwen-network-test-2026-10-26",
+        "title": "Cohere披露Qwen智能体异常联网测试",
+        "factKey": "qwen-sandbox-upload-attempt-disclosure",
+        "factTitle": "Cohere披露沙箱内上传尝试并公开测试轨迹"
+      },
+      "addedAt": "2026-10-27T09:55:35+08:00"
+    },
+    {
+      "sourceId": "cohere-blog",
+      "sourceName": "Cohere",
+      "date": "2026-10-26",
+      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+      "title": "Cohere原文说明异常联网测试的罕见性与复现条件",
+      "summary": "Cohere称此类调用在其评估中低于十万分之一，同一提示重新运行时未出现异常。后续触发分析使用预填充，相关完成率不能当作自然发生率；官方也承认无法确定行为是刻意产生还是训练残留。",
+      "reason": "发布方全文补充测试条件，仅作48小时内同事实交叉证据。页面只标日期，未作为近24小时精选；实验结论尚未独立复现。",
+      "category": "paper",
+      "quote": "Our sandbox had no route out",
+      "tier": "T1",
+      "entity": "qwen",
+      "subjects": [
+        "qwen"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "安全/对齐",
+        "Agent",
+        "开源生态",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "cohere-qwen-network-test-2026-10-26",
+        "title": "Cohere披露Qwen智能体异常联网测试",
+        "factKey": "qwen-sandbox-upload-attempt-disclosure",
+        "factTitle": "Cohere披露沙箱内上传尝试并公开测试轨迹"
+      },
+      "addedAt": "2026-10-27T09:55:35+08:00"
+    },
+    {
+      "sourceId": "rss-ars-technica-ai",
+      "sourceName": "Ars Technica · AI",
+      "date": "2026-10-26T20:04:16.000Z",
+      "url": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
+      "title": "Apple系统27.2更新Siri记忆，新增应用访问排除设置",
+      "summary": "Siri新增跨会话记忆，并允许通过Excluded Apps限制Siri、搜索与建议访问应用。iPhone相关功能支持iPhone 16及以后机型、iPhone 15 Pro和Pro Max；Siri AI仍未在欧盟和中国大陆开放。",
+      "reason": "记忆与访问权限变化影响日常使用。原文正文＋原站 RSS 时间核验，并对照官方更新说明；未实机测试。",
+      "category": "ai-products",
+      "quote": "Siri AI can recall your past conversations",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "语音",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "apple-siri-27-2-update-2026-10-26",
+        "title": "Apple系统27.2升级Siri记忆与访问控制",
+        "factKey": "siri-memory-excluded-apps-27-2",
+        "factTitle": "Siri新增跨会话记忆及应用访问排除设置"
+      },
+      "addedAt": "2026-10-27T09:55:35+08:00"
+    },
+    {
+      "sourceId": "apple-support",
+      "sourceName": "Apple Support",
+      "date": "2026-10-26",
+      "url": "https://support.apple.com/en-afri/149075",
+      "title": "Apple官方说明确认iPadOS 27.2的Siri记忆与访问控制",
+      "summary": "官方更新说明列出跨会话记忆、更多个人上下文来源及Excluded Apps设置。iPad相关Siri功能支持iPad mini A17 Pro及M1或更新芯片机型，仍受地区、语言及部分功能用量限制。",
+      "reason": "官方全文支持同批Siri功能变化及适用条件，仅作48小时内交叉证据。页面只标日期，未单独作为近24小时精选。",
+      "category": "ai-products",
+      "quote": "Excluded Apps lets you choose which apps Siri, Search, and suggestions can access",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "语音",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "apple-siri-27-2-update-2026-10-26",
+        "title": "Apple系统27.2升级Siri记忆与访问控制",
+        "factKey": "siri-memory-excluded-apps-27-2",
+        "factTitle": "Siri新增跨会话记忆及应用访问排除设置"
+      },
+      "addedAt": "2026-10-27T09:55:35+08:00"
     }
   ]
 }
