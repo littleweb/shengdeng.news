@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "researchedAt": "2026-10-27T12:07:56+08:00",
+  "researchedAt": "2026-10-27T13:13:41+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -855,6 +855,33 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-27T12:07:56+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-10-26T13:45:00.000Z",
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "title": "OpenAI介绍CodeRabbit跨仓库安全审查，漏洞验证在隔离环境进行",
+      "summary": "OpenAI介绍，CodeRabbit以GPT-6.1 Sol为安全智能体的主要模型，结合其他模型与扫描工具，调查跨文件、依赖及关联仓库的风险。针对用户选中的问题，系统可尝试在隔离沙箱中验证漏洞，并为支持的问题生成修复请求，最终由人工审核批准。文章未披露检出率或误报率。",
+      "reason": "展示从独立验码、跨仓库调查到修复审核的具体流程。原文正文＋原站 RSS 时间核验；效果仍属厂商自述，不能据此认定安全问题已被全面检出。",
+      "category": "ai-products",
+      "quote": "Human reviewers remain responsible for deciding which changes to ship.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "编码",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-27T13:13:41+08:00"
     }
   ]
 }
