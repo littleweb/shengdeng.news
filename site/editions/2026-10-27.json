@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "researchedAt": "2026-10-27T19:49:01+08:00",
+  "researchedAt": "2026-10-27T20:54:46+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -1232,6 +1232,96 @@
         "factTitle": "Artificial Analysis公布GPT-6.1 Terra成本与能力评测"
       },
       "addedAt": "2026-10-27T19:49:01+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-27T11:39:24.000Z",
+      "url": "https://the-decoder.com/openais-partner-content-arrives-in-chatgpt-pre-summarized-while-the-rest-of-the-web-gets-raw-scraps/",
+      "title": "研究者分析ChatGPT合作内容管线：摘要形式与排列位置存在差异",
+      "summary": "The Decoder转述Peec AI研究者David Konitzny的分析：其识别出12家出版方的43个域名，合作内容以预生成摘要进入ChatGPT检索上下文，普通网页则以原始文本片段进入，合作条目排列在普通网页结果之前。这是对输入材料组织方式的观察，不能直接证明最终回答存在付费排名。",
+      "reason": "有助于理解AI搜索的信息来源与呈现偏差。报道正文及原站发布时间可核对，但研究者原帖和原始样本尚未独立复核。",
+      "category": "industry",
+      "quote": "In the prompt, partner entries are placed ahead of all web results.",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI产品",
+        "搜索",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-27T20:54:46+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-10-26T23:53:07.000Z",
+      "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+      "title": "Simon评述Terra定位：按任务、速度和成本选模型",
+      "summary": "Simon Willison结合发布说明和OpenAI员工Ted Sanders的公开评论讨论Terra的适用场景。Sanders认为，Terra在技术表达上可能优于更大的模型，视觉和计算机操作能力相近且更快，但多数其他能力仍有差距。Simon指出，重复执行的电脑操作尤其值得比较模型成本；这些判断不构成全面独立评测。",
+      "reason": "补充发布公告之外的实际选用思路，帮助用户按任务取舍。原文正文＋原站 RSS 时间核验；能力比较主要来自员工判断，文中示例不能代表普遍效果。",
+      "category": "tip",
+      "quote": "Computer use is a good example of a task that benefits from a less expensive model",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-gpt-61-terra-release-2026-10-26",
+        "title": "OpenAI发布GPT-6.1 Terra",
+        "factKey": "gpt-61-terra-sanders-model-choice-guidance",
+        "factTitle": "Ted Sanders说明Terra定位与模型选用取舍"
+      },
+      "addedAt": "2026-10-27T20:54:46+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-27T10:09:26.000Z",
+      "url": "https://the-decoder.com/openais-ted-sanders-shares-a-rule-of-thumb-for-picking-the-right-gpt-model/",
+      "title": "The Decoder交叉报道Ted Sanders的模型选用建议",
+      "summary": "The Decoder同样报道Ted Sanders对Terra定位的解释，并补充其粗略选择建议：优先质量时考虑Astra，对价格有所敏感时考虑Sol，更敏感时考虑Terra或Luna。Sanders强调，模型大小、推理强度和多智能体系统是不同维度，单一综合分数不能完整表达任务差异。",
+      "reason": "正文及原站发布时间可核对，作为同一员工建议的交叉出处。属于经验性选择建议，没有新增独立性能实验。",
+      "category": "tip",
+      "quote": "If you care about quality only, pick Astra.",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "openai-gpt-61-terra-release-2026-10-26",
+        "title": "OpenAI发布GPT-6.1 Terra",
+        "factKey": "gpt-61-terra-sanders-model-choice-guidance",
+        "factTitle": "Ted Sanders说明Terra定位与模型选用取舍"
+      },
+      "addedAt": "2026-10-27T20:54:46+08:00"
     }
   ]
 }
