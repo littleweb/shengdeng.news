@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "articleId": "r96d68dc30b6f7348a4a9ae04",
+  "url": "https://www.antutu.com/doc/138107",
+  "fetchedAt": "2026-10-27T01:03:27.936Z",
+  "sourceHtml": "<p>据新浪科技10月26日报道，小米技术委创新产品团队孵化的桌面AI设备HachimoDock在2026观猹大会期间亮相，团队给出的硬件自制成本约150元，具体成本取决于主板、屏幕、外壳和打样数量等因素。</p><p>HachimoDock也被称为“哈基米机”，可以把电脑中AI智能体的工作状态变成小屏上的宠物表情和动作，根据项目仓库说明，当前硬件采用ESP32-P4主控，配备32MB Flash和32MB PSRAM，以及2.8英寸、480×640分辨率的屏幕，通过三个实体按键、四向摇杆和麦克风进行交互。</p><p><img src=\"https://img.antutu.com/2026/10/26/daf996cd6c4fd1f62bec31892a7e2bca_Y29tcHJlc3NfZm9ybWF0X3BuZw==.png\" alt=\"图片\" width=\"619\" height=\"auto\"></p><p>用户通过语音下达需求后，由电脑端完成语音识别，再将文字送入Codex、WorkBuddy等Agent会话，执行查资料、整理文件和编写代码等任务，小屏同步显示思考、执行、等待确认等状态，并通过动画、文字及声音反馈进展；涉及授权的重要操作，仍需在相应客户端确认。</p><p><img src=\"https://img.antutu.com/2026/10/26/4fc1d6e0bf4068aed98f25db4e013103_Y29tcHJlc3NfZm9ybWF0X3BuZw==.png\" alt=\"图片\" width=\"619\" height=\"auto\"></p><p>电脑与小屏通过USB同步状态、形象和组件，管理客户端支持Windows x64及搭载苹果芯片的Mac，公开安装包不内置语音识别或内容生成服务的API密钥，使用相关功能需要自行配置服务凭据。</p><p>用户也可以用自然语言描述想要的工具或小游戏，在Agent中生成组件，再由桌面客户端同步到设备，项目已提供番茄钟、喝水提醒、小游戏及电脑状态等组件，桌宠形象则支持AI生成、社区导入和本地视频导入。</p><p><img src=\"https://img.antutu.com/2026/10/26/68e7d6ee511491a86246ecff5d3cde33_Y29tcHJlc3NfZm9ybWF0X3BuZw==.png\" alt=\"图片\" width=\"619\" height=\"auto\"></p><p>通过联动小米Miloco，HachimoDock还可作为家居控制台，用语音控制设备，小屏显示设备状态、灯光控制和监控画面，家居功能需要授权米家账号，可用能力取决于设备和账号权限。</p><p><img src=\"https://img.antutu.com/2026/10/26/757c9be6d3ff042e3dce93d4b578d230_Y29tcHJlc3NfZm9ybWF0X3BuZw==.png\" alt=\"图片\" width=\"619\" height=\"auto\"></p><p>目前，项目已公开软件源码、硬件物料清单、结构件模型和装配教程，当前GitHub许可证允许个人在许可范围内进行非商业复刻、修改和组件创作。</p>",
+  "sourceHash": "b4da3cb861c9cdab5d4f526b610eb999feea29eabca7ea2b0e955f64de7308e5",
+  "language": "zh",
+  "translation": null
+}
