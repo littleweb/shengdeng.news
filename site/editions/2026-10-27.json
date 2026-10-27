@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "researchedAt": "2026-10-27T11:02:34+08:00",
+  "researchedAt": "2026-10-27T12:07:56+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -809,6 +809,52 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-27T11:02:34+08:00"
+    },
+    {
+      "sourceId": "rss-ars-technica-ai",
+      "sourceName": "Ars Technica · AI",
+      "date": "2026-10-26T14:30:27.000Z",
+      "url": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/",
+      "title": "特斯拉FSD活跃订阅达170万，收入仍未单列",
+      "summary": "《金融时报》供稿称，特斯拉全球FSD活跃订阅达170万，同比增长67%。该系统仍需驾驶员监督，公司未单独披露其经常性收入。",
+      "reason": "提供汽车AI订阅的实际规模；原文正文＋原站 RSS 时间核验，订阅数不能直接推算利润。",
+      "category": "industry",
+      "quote": "1.7 million active FSD subscriptions globally",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "AI商业化",
+        "AI赛道"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-27T12:07:56+08:00"
+    },
+    {
+      "sourceId": "rss-ars-technica-ai",
+      "sourceName": "Ars Technica · AI",
+      "date": "2026-10-26T17:26:36.000Z",
+      "url": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
+      "title": "数据中心货运盗窃调查揭示AI伪造身份与定位欺骗风险",
+      "summary": "Ars援引NBC调查称，自6月以来数据中心货物失窃超过1亿美元，作案手法包括AI伪造驾照及GPS欺骗；不能将全部损失归因于AI。",
+      "reason": "关注AI设施物流风险；原文正文＋原站 RSS 时间核验，NBC原始调查未能直接读取。",
+      "category": "industry",
+      "quote": "using AI to create fake driver’s licenses",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-27T12:07:56+08:00"
     }
   ]
 }
