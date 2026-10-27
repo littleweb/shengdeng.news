@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "researchedAt": "2026-10-27T22:01:42+08:00",
+  "researchedAt": "2026-10-27T23:09:47+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -1468,6 +1468,30 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-27T22:01:42+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-27T14:59:09.000Z",
+      "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+      "title": "Ndoc试点可追溯AI办公文档，把展示、分析与Python脚本放在一起",
+      "summary": "TechCrunch采访披露，离开Meta的Rohit Patel创办Ndoc，将展示页面、带引用的分析叙述、底层数据与Python脚本放进同一工作区，让用户检查生成结论所用的计算。三人团队正在开展企业试点，并向候补名单中的少量客户开放alpha。注册免费，实际使用与Token收费；beta及全面发布仍是后续计划。",
+      "reason": "为AI办公提供了保留计算依据的具体产品设计。已核对采访全文与原站发布时间；目前仅限量试点，成本优势仍是创始人自述。",
+      "category": "ai-products",
+      "quote": "customers will pay for usage and tokens.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI创业",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-27T23:09:47+08:00"
     }
   ]
 }
