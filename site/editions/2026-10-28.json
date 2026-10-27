@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-28",
+  "researchedAt": "2026-10-28T00:16:08+08:00",
+  "items": [
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-27T16:00:00.000Z",
+      "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
+      "title": "Google宣布Genie 4研究预览，加入声音生成与实时文字修改",
+      "summary": "Jay Peters报道，Google公布Genie 4世界模型。据Google说明，新模型支持生成声音、用自然语言实时修改体验，并将交互时长从约一分钟延长至两分钟。首批面向可信测试者开展研究预览，Google AI Ultra用户仍需等待后续开放；较长模拟仍可能出现细节与物体持续性变化，记者尚未实测。",
+      "reason": "世界模型增加声音与实时修改能力，值得关注创作和仿真用途。署名报道全文及原站发布时间可核对；官方公告暂不可读，能力仍为Google自述。",
+      "category": "ai-models",
+      "quote": "it’s launching first as a “research preview” to “trusted testers”",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "多模态",
+        "视频",
+        "AI产品",
+        "海外AI",
+        "Google"
+      ],
+      "selected": true,
+      "event": {
+        "key": "google-genie-4-2026-10-27",
+        "title": "Google公布Genie 4世界模型研究预览",
+        "factKey": "genie-4-research-preview-announcement",
+        "factTitle": "Google宣布Genie 4研究预览及后续候补计划"
+      },
+      "addedAt": "2026-10-28T00:16:08+08:00"
+    },
+    {
+      "sourceId": "rss-latent-space",
+      "sourceName": "Latent Space",
+      "date": "2026-10-27T14:41:25.000Z",
+      "url": "https://latent.space/p/offline-coding/",
+      "title": "断网编码实践：预装模型与依赖，用原有测试检查智能体修改",
+      "summary": "作者用OpenCode、Ollama和本地Qwen3.5 9B演示断网修复Python程序：提前准备模型、依赖与测试，将主模型和辅助模型都指向本机，关闭外部插件及网页工具，再断开网络。演示完成一行累加逻辑修复，作者随后手动运行原有5项测试并全部通过；另外两个练习尚未完成离线验证。",
+      "reason": "提供可复用的离线准备、权限检查与结果验证步骤。实操全文和原站发布时间可核对；只展示小型修复，不能外推大型项目能力，效果未独立复测。",
+      "category": "tip",
+      "quote": "The manual check shows all five tests passing.",
+      "tier": "T2",
+      "entity": "qwen",
+      "subjects": [
+        "qwen"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "编码",
+        "端侧",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-28T00:16:08+08:00"
+    }
+  ]
+}
