@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "researchedAt": "2026-10-27T09:55:35+08:00",
+  "researchedAt": "2026-10-27T11:02:34+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -755,6 +755,60 @@
         "factTitle": "Siri新增跨会话记忆及应用访问排除设置"
       },
       "addedAt": "2026-10-27T09:55:35+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-10-26T22:00:00.000Z",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "title": "Greptile分享AI验码方法：运行真实界面，并跟踪代码回退",
+      "summary": "Greptile创始人介绍，用GPT-6 Astra启动代码变更对应的开发服务器、调整手机视口并模拟用户操作，检查静态审查难以发现的问题。团队也通过MCP向Codex提供代码库知识，并跟踪生成代码被回退的频率；文章未披露回退率改善的具体数字。",
+      "reason": "可借鉴真实界面测试与代码回退检查方法。原文正文＋原站 RSS 时间核验；成效仍属企业自述，未提供量化对照。",
+      "category": "tip",
+      "quote": "the team tracks how often AI-generated code is reverted.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "编码",
+        "Agent",
+        "AI玩法",
+        "AI产品",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-27T11:02:34+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-27T02:00:00.000Z",
+      "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+      "title": "dots采访：主动助手仍受提醒时机与权限粒度限制",
+      "summary": "Tim Fernholz采访OpenAI产品负责人并记录试用，指出dots的主动提醒未必及时，云盘接入不接受只读权限。负责人承认需要更细粒度的控制。这是对既有产品的体验与设计讨论，并非再次发布dots。",
+      "reason": "为选择主动助手提供具体的授权与体验边界。已核对采访全文、作者和原站发布时间；试用观察不能代表所有用户的效果。",
+      "category": "opinion",
+      "quote": "it refuses to accept read-only access to cloud drives.",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "现象/趋势",
+        "AI产品",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-27T11:02:34+08:00"
     }
   ]
 }
