@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "researchedAt": "2026-10-27T13:13:41+08:00",
+  "researchedAt": "2026-10-27T14:19:30+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -882,6 +882,66 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-27T13:13:41+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-10-26T06:50:44.000Z",
+      "url": "https://www.qbitai.com/2026/10/505429.html",
+      "title": "趋境科技披露超13亿元B轮融资及推理服务经营规模",
+      "summary": "趋境科技宣布完成超13亿元B轮融资，年内累计募资24亿元，资金拟用于Token产能、ATaaS平台及研发。公司称日均Token产量已超万亿量级，年内收入接近去年全年十倍，但未披露收入绝对值及审计数据；杭州万卡级Token工厂仍属规划。",
+      "reason": "提供国产推理服务的融资与交付规模信息。原文正文＋原站 RSS 时间核验，并对照新京报署名报道；本文为企业供稿，经营数字未获独立验证。",
+      "category": "industry",
+      "quote": "本轮融资金额超13亿人民币",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "行业动态",
+        "AI创业",
+        "AI赛道",
+        "AI商业化",
+        "部署/工程",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "approaching-ai-series-b-2026-10-26",
+        "title": "趋境科技披露B轮融资及推理服务经营进展",
+        "factKey": "approaching-ai-series-b-operating-disclosure",
+        "factTitle": "趋境科技宣布超13亿元B轮融资并披露经营规模"
+      },
+      "addedAt": "2026-10-27T14:19:30+08:00"
+    },
+    {
+      "sourceId": "bjnews",
+      "sourceName": "新京报·贝壳财经",
+      "date": "2026-10-26T12:00+08:00",
+      "url": "https://www.bjnews.com.cn/detail/1792985909129060.html",
+      "title": "新京报交叉报道趋境科技超13亿元B轮融资",
+      "summary": "罗亦丹报道趋境科技完成超13亿元B轮融资、年内累计募资24亿元，并列出领投与跟投机构。募集资金拟用于Token产能扩张、ATaaS平台升级及研发。",
+      "reason": "已核对署名全文及分钟级发布时间，仅作同轮融资的交叉证据。报道同样依据公司披露，不能独立验证经营表现。",
+      "category": "industry",
+      "quote": "本轮融资金额超13亿元人民币",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "行业动态",
+        "AI创业",
+        "AI赛道",
+        "国内AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "approaching-ai-series-b-2026-10-26",
+        "title": "趋境科技披露B轮融资及推理服务经营进展",
+        "factKey": "approaching-ai-series-b-operating-disclosure",
+        "factTitle": "趋境科技宣布超13亿元B轮融资并披露经营规模"
+      },
+      "addedAt": "2026-10-27T14:19:30+08:00"
     }
   ]
 }
