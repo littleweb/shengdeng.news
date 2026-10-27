@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "researchedAt": "2026-10-27T20:54:46+08:00",
+  "researchedAt": "2026-10-27T22:01:42+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -1322,6 +1322,152 @@
         "factTitle": "Ted Sanders说明Terra定位与模型选用取舍"
       },
       "addedAt": "2026-10-27T20:54:46+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-27T13:50:51.000Z",
+      "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
+      "title": "Apple宣布办公应用AI助手与MCP支持，计划11月更新",
+      "summary": "Emma Roth报道，Apple计划为Keynote、Pages和Numbers加入理解文档上下文的AI助手，支持幻灯片编辑、文字修改及表格分析，并通过MCP连接外部智能体。相关Creator Studio更新将在11月向现有订阅者提供，助手为测试版，要求兼容Apple Intelligence的设备。",
+      "reason": "为智能体直接读写办公文档提供新入口。已通读署名报道并与官方公告交叉核对；11月更新尚未实测，不能视为今天已全面上线。",
+      "category": "ai-products",
+      "quote": "The updates to Apple’s Creator’s Studio will be available to existing subscribers for free in November.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "MCP/工具调用",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "apple-creator-studio-ai-update-2026-10-27",
+        "title": "Apple宣布Creator Studio新一批AI功能",
+        "factKey": "creator-studio-office-assistants-mcp-announcement",
+        "factTitle": "Apple宣布办公助手与MCP支持及11月更新计划"
+      },
+      "addedAt": "2026-10-27T22:01:42+08:00"
+    },
+    {
+      "sourceId": "apple-newsroom",
+      "sourceName": "Apple Newsroom",
+      "date": "2026-10-27",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/",
+      "title": "Apple官方补充办公助手的语言、系统与订阅条件",
+      "summary": "官方公告确认，办公助手测试版仅支持美式英语，需兼容Apple Intelligence的设备及iOS、iPadOS或macOS 27以上系统；MCP支持要求macOS 27以上。11月更新对现有Creator Studio订阅者免费，不等于所有免费版办公应用用户都能使用。",
+      "reason": "交叉确认同次更新，并补足语言、设备与订阅限制。公告仅标日期，保留原有精度，作为48小时内的同事件核对材料。",
+      "category": "ai-products",
+      "quote": "is available in U.S. English only.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "MCP/工具调用",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "apple-creator-studio-ai-update-2026-10-27",
+        "title": "Apple宣布Creator Studio新一批AI功能",
+        "factKey": "creator-studio-office-assistants-mcp-announcement",
+        "factTitle": "Apple宣布办公助手与MCP支持及11月更新计划"
+      },
+      "addedAt": "2026-10-27T22:01:42+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-27T13:00:00.000Z",
+      "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+      "title": "Opera推出WebAI预览，让网页和扩展调用本地模型",
+      "summary": "TechCrunch报道，Opera推出WebAI早期预览，使网页和扩展能够使用设备端AI进行文本生成、分类及语义处理。功能需用户主动启用，可减少向云端发送内容及按请求付费的需求；运行速度和资源占用仍取决于本机硬件。",
+      "reason": "为隐私敏感应用和个人扩展提供新的本地推理入口。已通读报道并核对官方说明；WebAI仍属标准提案与早期预览，未实测性能。",
+      "category": "ai-products",
+      "quote": "Users have to choose to opt into the feature",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "端侧",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "opera-webai-preview-2026-10-27",
+        "title": "Opera推出WebAI本地推理早期预览",
+        "factKey": "opera-webai-local-inference-preview",
+        "factTitle": "WebAI预览允许网页与扩展调用本地AI"
+      },
+      "addedAt": "2026-10-27T22:01:42+08:00"
+    },
+    {
+      "sourceId": "opera-official",
+      "sourceName": "Opera News",
+      "date": "2026-10-27",
+      "url": "https://blogs.opera.com/news/2026/10/webai-local-ai-for-the-web-now-in-opera/",
+      "title": "Opera官方列明WebAI预览的平台支持与开启方式",
+      "summary": "Emily Northway介绍，用户需在Opera AI设置中开启Web AI API并下载兼容模型。预览支持64位Intel或AMD Windows电脑及Apple芯片Mac，不支持Intel Mac、Linux或Windows on Arm；官方同时提供实验扩展示例。",
+      "reason": "交叉确认预览及实际使用门槛。官方称已覆盖Opera One、GX和Neon，与媒体所述后两者稍后开放存在差异，开放范围以官方说明为准；日期精度仅到日。",
+      "category": "ai-products",
+      "quote": "WebAI is opt-in.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "端侧",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "opera-webai-preview-2026-10-27",
+        "title": "Opera推出WebAI本地推理早期预览",
+        "factKey": "opera-webai-local-inference-preview",
+        "factTitle": "WebAI预览允许网页与扩展调用本地AI"
+      },
+      "addedAt": "2026-10-27T22:01:42+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-27T13:00:00.000Z",
+      "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
+      "title": "General Compute获1亿美元A轮融资，押注专用推理芯片",
+      "summary": "Tim Fernholz采访报道，General Compute完成Blackbird Ventures和Abstract Ventures领投的1亿美元A轮融资，投后估值8亿美元。公司采购SambaNova、Positron和Cerebras等芯片，利用租赁机房及改造场地提供推理算力；创始人预计2027年部署75兆瓦容量，仍属计划。",
+      "reason": "披露推理云如何衔接芯片采购、机房与融资。已通读包含创始人和投资方采访的报道；客户合同年化金额不等于已确认收入，融资与估值不代表盈利。",
+      "category": "industry",
+      "quote": "raise $100 million in Series A funding",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI创业",
+        "AI赛道",
+        "AI商业化",
+        "推理",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-27T22:01:42+08:00"
     }
   ]
 }
