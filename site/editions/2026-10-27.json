@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "researchedAt": "2026-10-27T06:39:42+08:00",
+  "researchedAt": "2026-10-27T00:50:10Z",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -607,6 +607,32 @@
         "factTitle": "招股文件披露天然气、电力及气候相关数据中心风险"
       },
       "addedAt": "2026-10-27T06:39:42+08:00"
+    },
+    {
+      "sourceId": "antutu",
+      "sourceName": "安兔兔",
+      "date": "2026-10-26T13:20:15+08:00",
+      "url": "https://www.antutu.com/doc/138107",
+      "title": "HachimoDock桌宠显示智能体任务状态，支持语音输入",
+      "summary": "小米团队孵化的HachimoDock通过USB显示电脑端智能体状态，并将语音转为任务输入。语音服务需自行配置，个人复刻受非商业许可约束；约150元为团队估算的硬件自制成本。",
+      "reason": "提供可复刻的AI硬件方案。已通读HyperZ-Ton署名原文并核对精确发布时间；成本为团队自述，未做实机复测。",
+      "category": "ai-products",
+      "quote": "硬件自制成本约150元",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI硬件",
+        "AI玩法",
+        "Agent",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-27T00:50:10Z"
     }
   ]
 }
