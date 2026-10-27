@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "researchedAt": "2026-10-28T00:16:08+08:00",
+  "researchedAt": "2026-10-28T01:22:48+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -62,6 +62,209 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-28T00:16:08+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-10-27T07:00:00.000Z",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "title": "OpenAI与Oracle扩大合作，计划在ChatGPT衔接企业应用与数据",
+      "summary": "OpenAI公告称，Oracle正在开发AI Workspace，让员工通过ChatGPT查询企业数据并完成获准的业务流程，沿用组织权限与审批。双方同时介绍安全测试、应用开发和中小企业工具方案；Workspace的完整体验仍属开发方向，公告未给出统一全面开放日期。",
+      "reason": "合作涉及企业软件的重要工作入口。原文正文＋原站 RSS 时间核验；保留开发阶段，不将规划写成全面上线。",
+      "category": "industry",
+      "quote": "Oracle is developing Oracle AI Workspace",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI产品",
+        "Agent",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-oracle-enterprise-partnership-2026-10-27",
+        "title": "OpenAI与Oracle扩大企业AI合作",
+        "factKey": "oracle-chatgpt-workspace-partnership-announcement",
+        "factTitle": "双方宣布通过Oracle AI Workspace衔接ChatGPT与企业系统"
+      },
+      "addedAt": "2026-10-28T01:22:48+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-27T16:14:18.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+      "title": "Firefox Smart Window新增跨标签页填表与网页监测",
+      "summary": "Emma Roth报道，Smart Window可根据用户选择的标签页生成表单填写建议，并通过/watch按日或按周检查网页变化。填表来源内容会交给Gemini处理，网页检查仅在浏览器打开时运行。首批面向美国、加拿大的桌面测试版用户，支持英文；下拉菜单和PDF表单仍待后续支持。",
+      "reason": "提供可实际使用的浏览辅助功能，并明确数据流向与运行条件。署名全文和发布时间已核对，Mozilla公告也确认了同一更新。",
+      "category": "ai-products",
+      "quote": "but only when the browser is open.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "firefox-smart-window-form-watch-2026-10-27",
+        "title": "Firefox Smart Window新增填表与网页监测",
+        "factKey": "smart-window-form-fill-page-watch-beta",
+        "factTitle": "Smart Window测试版开放来源填表与网页变化监测"
+      },
+      "addedAt": "2026-10-28T01:22:48+08:00"
+    },
+    {
+      "sourceId": "mozilla-blog",
+      "sourceName": "Mozilla Blog",
+      "date": "2026-10-27",
+      "url": "https://blog.mozilla.org/en/firefox/skip-the-busywork-with-smart-window/",
+      "title": "Mozilla原文确认Smart Window填表与网页监测的使用限制",
+      "summary": "Mozilla说明，填表功能适用于至少有四个可支持文本字段的表单，用户须检查建议并自行提交。网页监测每项任务最多跟踪五个页面，最多保留15项活动任务，检查仅在浏览器打开时进行。两项功能首批限美加英文桌面测试版。",
+      "reason": "官方原文确认同一更新及操作限制。页面仅标日期，按原始精度保留，作为48小时内交叉证据，不重复进入精选。",
+      "category": "ai-products",
+      "quote": "Smart Window won’t submit the form for you.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "firefox-smart-window-form-watch-2026-10-27",
+        "title": "Firefox Smart Window新增填表与网页监测",
+        "factKey": "smart-window-form-fill-page-watch-beta",
+        "factTitle": "Smart Window测试版开放来源填表与网页变化监测"
+      },
+      "addedAt": "2026-10-28T01:22:48+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-10-27T16:53:02.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/fix-evaluation-bias-to-unlock-better-models-on-amazon-bedrock/",
+      "title": "Property Finder换模型先查答案：96.8%的评测标签来自旧模型",
+      "summary": "AWS与Property Finder团队复盘房产图像分类迁移：原评测集96.8%的标签直接沿用旧模型输出，导致替代模型天然吃亏。团队改用领域专家独立标注、允许多标签并逐项分析错误。最终356张图的评估仍包含256张调参图片，双方提示这些准确率偏乐观，不能视作严格独立测试。",
+      "reason": "揭示模型选型中的循环评测问题，人工标注和错误分析方法可迁移。原站全文及时间已核对，结果仍属合作团队自报。",
+      "category": "tip",
+      "quote": "The evaluation set includes the 256 development images, and both models’ prompts were tuned on those images.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "多模态",
+        "数据/训练",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-28T01:22:48+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-10-27T16:50:55.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/exowatt-beats-frontier-models-on-accuracy-with-sagemaker-serverless-model-customization/",
+      "title": "Exowatt复盘能源小模型：核验训练改写，让输出逐项引用输入证据",
+      "summary": "AWS案例介绍Exowatt分别微调1.7B告警模型和14B能源市场分析模型。训练数据改写须保持决策、数字及证据不变，输出引用无法匹配输入时被剔除，证据不足则弃答。小模型量化后可在CPU离线运行；告警自动化验证是在云端站点副本中影子运行，不能当作真实设备全面自主控制。",
+      "reason": "给出数据扩充、证据检查和离线部署的具体做法。原站全文及时间已核对，准确率与成本比较仅对应团队自建任务，尚无独立复测。",
+      "category": "tip",
+      "quote": "the edge model abstains rather than guesses when unsure.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "端侧",
+        "数据/训练",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-28T01:22:48+08:00"
+    },
+    {
+      "sourceId": "rss-nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "date": "2026-10-27T15:00:20.000Z",
+      "url": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
+      "title": "NVIDIA介绍C-BRAIN科研智能体，分析提速仍属案例自报",
+      "summary": "NVIDIA介绍C-BRAIN已构建的OpenScientist和InsightEngine两款开源工具，分别辅助数据分析、假设生成及文献证据核对。所引案例称OpenScientist单次分析成本低于10美元，原需数周至数月的工时来自科学家估算。文章未提供独立对照或治疗成效证据，未来生物基础模型仍是计划。",
+      "reason": "展示科研智能体的具体任务、工具与成本口径。官方全文和发布时间可核对，提速主张尚不能外推为普遍科研收益。",
+      "category": "industry",
+      "quote": "an open source agentic AI co-scientist",
+      "tier": "T1",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI产品",
+        "AI赛道",
+        "Agent",
+        "开源生态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-28T01:22:48+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-27T16:30:57.000Z",
+      "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "title": "TechCrunch交叉确认Genie 4研究预览及开放阶段",
+      "summary": "Rebecca Bellan的发布会报道确认，Genie 4加入实时声音与文字修改场景能力，首批仅向可信测试者提供研究预览。Google AI Ultra及部分开发者入口仍待后续开放；团队承认长模拟会出现物体漂移，声音准确性和文字可读性也存在限制。",
+      "reason": "交叉核对上轮已收录的同一次发布及其限制，不重复进入精选；能力仍主要来自Google演示和说明。",
+      "category": "ai-models",
+      "quote": "Genie 4 is available now as a research preview for trusted testers.",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "多模态",
+        "视频",
+        "AI产品",
+        "海外AI",
+        "Google"
+      ],
+      "selected": false,
+      "event": {
+        "key": "google-genie-4-2026-10-27",
+        "title": "Google公布Genie 4世界模型研究预览",
+        "factKey": "genie-4-research-preview-announcement",
+        "factTitle": "Google宣布Genie 4研究预览及后续候补计划"
+      },
+      "addedAt": "2026-10-28T01:22:48+08:00"
     }
   ]
 }
