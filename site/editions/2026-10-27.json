@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "researchedAt": "2026-10-27T14:19:30+08:00",
+  "researchedAt": "2026-10-27T15:25:49+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -942,6 +942,60 @@
         "factTitle": "趋境科技宣布超13亿元B轮融资并披露经营规模"
       },
       "addedAt": "2026-10-27T14:19:30+08:00"
+    },
+    {
+      "sourceId": "rss-ars-technica-ai",
+      "sourceName": "Ars Technica · AI",
+      "date": "2026-10-26T18:50:41.000Z",
+      "url": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/",
+      "title": "波士顿动力说明机器狗违规使用的处置措施，仍支持ICE交易",
+      "summary": "面对员工反对，波士顿动力向Ars表示仍支持ICE相关交易，并称客户若滥用Spot，可被取消保修、停止软件更新或终止授权。这些是公司承诺的处置方式，报道没有证明已实际执行。",
+      "reason": "原文正文＋原站 RSS 时间核验。公司直接回应补充了机器人用途限制的执行方式，但仍属承诺。",
+      "category": "industry",
+      "quote": "terminating their license",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "具身智能",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "boston-dynamics-ice-spot-sale-2026",
+        "title": "波士顿动力机器狗ICE交易及用途限制争议",
+        "factKey": "spot-misuse-enforcement-response-2026-10-26",
+        "factTitle": "波士顿动力说明Spot违规使用的处置措施"
+      },
+      "addedAt": "2026-10-27T15:25:49+08:00"
+    },
+    {
+      "sourceId": "rss-mit-tech-review-ai",
+      "sourceName": "MIT Technology Review · AI",
+      "date": "2026-10-26T17:45:43.000Z",
+      "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+      "title": "AI治理评论：评估安全承诺，也要审视企业的竞争与商业动机",
+      "summary": "MIT科技评论从安全研究机构、前沿模型竞争者和营利企业三种角色审视Anthropic，质疑这些目标能否始终一致。文章主张把企业叙事与外部问责分开考察，包括独立测试者能否按自身条件获得模型访问权；这是评论判断，并非对模型安全性的实验结论。",
+      "reason": "已核对原文正文与发布时间。提供审视AI企业自律承诺和外部测试权限的具体角度，保留作者判断的边界。",
+      "category": "opinion",
+      "quote": "There are huge tensions between the priorities of an AI safety organization and a profit-driven megacorp",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "现象/趋势",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-27T15:25:49+08:00"
     }
   ]
 }
