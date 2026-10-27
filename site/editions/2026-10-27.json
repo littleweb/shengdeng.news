@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "researchedAt": "2026-10-27T15:25:49+08:00",
+  "researchedAt": "2026-10-27T18:42:57+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -996,6 +996,183 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-27T15:25:49+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-27T10:00:00.000Z",
+      "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
+      "title": "The Verge梳理美国选举中的数据中心分歧：用电、水资源与税惠成为焦点",
+      "summary": "Lauren Feiner梳理多个州的竞选政策，发现两党候选人都面临数据中心建设争议，但主张从暂停建设到强化地方决策权不等。要求开发商承担能源基础设施费用、调整税收优惠，是多地反复出现的议题；竞选承诺不等于已生效政策。",
+      "reason": "提供判断AI基础设施扩张阻力的具体政策背景。已通读署名原文并核对精确发布时间，各候选人的主张仍需后续立法与执行。",
+      "category": "industry",
+      "quote": "both candidates for Michigan’s open Senate seat support a moratorium.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "政策/监管",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-27T18:42:57+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-27T09:58:16.000Z",
+      "url": "https://the-decoder.com/meta-gets-3-billion-from-nvidia-and-plans-to-spend-more-on-nvidia-chips/",
+      "title": "NVIDIA拟向Meta投资30亿美元，双方扩大Muse算力合作",
+      "summary": "The Decoder报道，NVIDIA拟参与Meta股票发行，投资30亿美元；Meta计划为下一代智能体扩大Vera Rubin系统及Vera CPU的使用。报道同时讨论芯片供应商投资客户的融资关系，不能据此认定资金已交割或新增部署已经完成。",
+      "reason": "关注AI供应商与大客户之间的资本和采购联系。已通读媒体原文并核对精确发布时间，投资与部署仍属拟议安排。",
+      "category": "industry",
+      "quote": "Nvidia is investing $3 billion in Meta's planned equity offering",
+      "tier": "T2",
+      "entity": "meta",
+      "subjects": [
+        "meta",
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI赛道",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "nvidia-meta-muse-investment-2026-10-27",
+        "title": "NVIDIA与Meta扩大Muse合作并披露投资安排",
+        "factKey": "nvidia-meta-3b-investment-announcement",
+        "factTitle": "NVIDIA拟投资Meta30亿美元并扩大智能体基础设施合作"
+      },
+      "addedAt": "2026-10-27T18:42:57+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-10-27T08:46:12.000Z",
+      "url": "https://www.qbitai.com/2026/10/505799.html",
+      "title": "智元发布Genie Master，区分机器人经验积累与动作策略更新",
+      "summary": "衡宇报道，Genie Master通过具身执行协议连接智能体推理、机器人动作与执行反馈。系统一方面更新提示词、记忆和执行规则，另一方面筛选执行数据用于动作策略训练；后者仍会使用人工接管示范。6台G2的24小时便利店直播计划11月2日进行。",
+      "reason": "提供机器人部署后改进机制的具体设计。原文正文＋原站 RSS 时间核验；现场能力主要依据智元自述，尚不能称为全流程无需人工或已验证商业收益。",
+      "category": "ai-products",
+      "quote": "Policy RSI仍会使用人工接管示范等数据",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI硬件",
+        "Agent",
+        "具身智能",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "agibot-genie-master-2026-10-27",
+        "title": "智元发布Genie Master具身智能体框架",
+        "factKey": "genie-master-framework-disclosure",
+        "factTitle": "Genie Master披露执行反馈、经验积累与策略更新机制"
+      },
+      "addedAt": "2026-10-27T18:42:57+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-10-27T08:35:33.000Z",
+      "url": "https://www.qbitai.com/2026/10/505773.html",
+      "title": "百度开源Unlimited OCR 2，长文档解析通过分块控制缓存",
+      "summary": "听雨报道，Unlimited OCR 2已开放代码与权重，通过稀疏参考注意力和分块解码处理长文档。报告的百页级单序列测试中，峰值KV缓存由47GB降至1.77GB，这不包含模型权重等显存开销。量子位另记录884页文档约43分钟完成的测试，但只抽查了部分页面。",
+      "reason": "为批量扫描件和技术手册解析提供新选择。原文正文＋原站 RSS 时间核验，并与官方仓库对照；缓存数字有特定测试条件，抽查不能证明全文无误。",
+      "category": "ai-models",
+      "quote": "这里的1.77GB仅指KV缓存，模型权重等其他显存开销另计。",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "模型发布",
+        "AI产品",
+        "多模态",
+        "开源生态",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "baidu-unlimited-ocr-2-2026-10-27",
+        "title": "百度发布并开源Unlimited OCR 2",
+        "factKey": "unlimited-ocr-2-model-release",
+        "factTitle": "Unlimited OCR 2开放代码与权重并支持长文档连续解析"
+      },
+      "addedAt": "2026-10-27T18:42:57+08:00"
+    },
+    {
+      "sourceId": "baidu-unlimited-ocr",
+      "sourceName": "百度 · Unlimited OCR官方仓库",
+      "date": "2026-10-27",
+      "url": "https://github.com/baidu/Unlimited-OCR",
+      "title": "官方仓库确认Unlimited OCR 2发布及推理入口",
+      "summary": "百度官方仓库将Unlimited OCR 2发布记录标为10月27日，提供Transformers与SGLang推理说明，并解释多页输入和页面窗口设置。说明指出，更小的页面窗口可以降低峰值内存，但可能损害跨页内容合并。",
+      "reason": "官方发布记录与使用说明支持同次模型发布，仅作交叉证据。页面只提供日期，性能与部署效果尚未复测。",
+      "category": "ai-models",
+      "quote": "We release Unlimited OCR 2, achieving unlimited-horizon parsing with SR-SWA.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "模型发布",
+        "AI产品",
+        "多模态",
+        "开源生态",
+        "国内AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "baidu-unlimited-ocr-2-2026-10-27",
+        "title": "百度发布并开源Unlimited OCR 2",
+        "factKey": "unlimited-ocr-2-model-release",
+        "factTitle": "Unlimited OCR 2开放代码与权重并支持长文档连续解析"
+      },
+      "addedAt": "2026-10-27T18:42:57+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-10-27T07:09:28.000Z",
+      "url": "https://www.qbitai.com/2026/10/505600.html",
+      "title": "小米披露21自由度灵巧手设计，依据1827项工厂作业分析",
+      "summary": "小米供稿称，团队采集分析1827项工厂标准作业程序，并开展抓握仿真消融。在该场景中，17至21自由度方案的平均稳定抓握成功率较6至15自由度提升15%至38%，继续增加至23自由度以上时收益放缓。新设计采用21自由度、混合驱动及腱绳张力控制。",
+      "reason": "展示从实际工序需求选择机器人硬件参数的方法。原文正文＋原站 RSS 时间核验；本文为企业供稿，提升数字来自仿真，不代表真实产线成功率。",
+      "category": "ai-products",
+      "quote": "基于真实作业数据的仿真消融分析显示",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "AI硬件",
+        "AI赛道",
+        "具身智能",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "xiaomi-21dof-hand-2026-10-27",
+        "title": "小米披露21自由度仿生灵巧手技术探索",
+        "factKey": "xiaomi-hand-sop-simulation-design-disclosure",
+        "factTitle": "小米披露基于工厂作业分析与仿真的灵巧手设计"
+      },
+      "addedAt": "2026-10-27T18:42:57+08:00"
     }
   ]
 }
