@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "articleId": "r8333c89d9d7c203a0369214c",
+  "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+  "fetchedAt": "2026-10-28T07:48:51.409Z",
+  "sourceHtml": "<p>27th October 2026 - Link Blog</p><p><strong><a href=\"https://spf13.com/p/game-boy-color-on-my-conference-badge/\">Game Boy Color on My Conference Badge</a></strong>. I'm at GitHub Universe this week and, <a href=\"https://simonwillison.net/2025/Oct/28/github-universe-badge/\">similar to last year</a>, the conference badge is a full-blown color screen computer.</p><p>I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a <a href=\"https://spf13.com/p/zelda-on-my-conference-badge/\">full NES emulator</a> working on it, and then went a step further and deployed an emulator for both the Game Boy and the Game Boy Color.</p><p>Which means, if you can obtain the ROM, you can run <a href=\"https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Link%27s_Awakening\">The Legend of Zelda: Link's Awakening</a> on your conference badge!</p><p><img alt=\"Photo of the badge running Zelda, in full color, with visible touch buttons below the screen.\" src=\"https://static.simonwillison.net/static/2026-10-27/IMG_9339.jpeg\"></p><p>A neat feature of the badge is that you can turn it upside down and then use game controller touch buttons that are built into the badge body.</p>",
+  "sourceHash": "06370609a5ddfed6b329a001d16ac15ae35064d62e50dd80779f2a00e2cb51d1",
+  "language": "und",
+  "translation": {
+    "method": "local-codex",
+    "translatedAt": "2026-10-28T07:50:00.786Z",
+    "html": "<p>2026年10月27日 - 链接博客</p><p><strong><a href=\"https://spf13.com/p/game-boy-color-on-my-conference-badge/\">在我的会议胸牌上玩 Game Boy Color</a></strong>。这周我在参加 GitHub Universe，<a href=\"https://simonwillison.net/2025/Oct/28/github-universe-badge/\">和去年类似</a>，这次的会议胸牌是一台功能完备的彩屏计算机。</p><p>我又开始折腾这块胸牌，后来碰到了 Steve Francia……他借助 Gemini，让一个<a href=\"https://spf13.com/p/zelda-on-my-conference-badge/\">完整的 NES 模拟器</a>在胸牌上运行起来，随后又更进一步，部署了一个同时支持 Game Boy 和 Game Boy Color 的模拟器。</p><p>这意味着，只要你能获取 ROM，就能在会议胸牌上运行<a href=\"https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Link%27s_Awakening\">《塞尔达传说：织梦岛》</a>！</p><p><img alt=\"Photo of the badge running Zelda, in full color, with visible touch buttons below the screen.\" src=\"https://static.simonwillison.net/static/2026-10-27/IMG_9339.jpeg\"></p><p>这块胸牌有个巧妙的功能：你可以把它倒过来，使用内置于胸牌本体的游戏手柄触摸按键。</p>",
+    "complete": true
+  }
+}
