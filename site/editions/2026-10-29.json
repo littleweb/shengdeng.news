@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "researchedAt": "2026-10-29T05:38:27+08:00",
+  "researchedAt": "2026-10-29T06:45:10+08:00",
   "items": [
     {
       "sourceId": "rss-the-decoder",
@@ -632,6 +632,129 @@
         "factTitle": "XREAL AURA搭载Android XR与Gemini并开放订购"
       },
       "addedAt": "2026-10-29T05:38:27+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch",
+      "date": "2026-10-28T21:58:32.000Z",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+      "title": "微软首次披露Azure季度收入金额：332亿美元，同比增长48%",
+      "summary": "Aditya Mehta报道，微软首次在季度业绩中披露Azure收入金额，7月至9月收入332亿美元，同比增长48%。这一披露方便比较主要云服务商的经营规模，但各家业务口径不同；Azure同时承载传统应用与AI任务，不能把全部收入视为AI收入。",
+      "reason": "补充此前财报条目未覆盖的Azure收入规模。已核对署名全文与精确发布时间；官方公告支持48%增速，收入金额采用报道援引口径。",
+      "category": "industry",
+      "quote": "Azure brought in a healthy $33.2 billion",
+      "tier": "T2",
+      "entity": "microsoft",
+      "subjects": [
+        "microsoft"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI赛道",
+        "海外AI",
+        "Microsoft"
+      ],
+      "selected": true,
+      "event": {
+        "key": "microsoft-fy27-q1-results-2026-10-28",
+        "title": "微软公布2027财年第一季度业绩",
+        "factKey": "azure-quarterly-dollar-revenue-first-disclosure",
+        "factTitle": "微软首次披露Azure季度收入332亿美元"
+      },
+      "addedAt": "2026-10-29T06:45:10+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch",
+      "date": "2026-10-28T21:34:30.000Z",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "title": "TechCrunch：微软当季来自OpenAI商业安排的收入达100亿美元",
+      "summary": "Rebecca Bellan援引监管文件报道，截至9月30日的季度，微软通过与OpenAI的商业安排取得100亿美元收入，包含收入分成，但云服务与分成各占多少尚不清楚。另有72亿美元应收款属于此前交易欠款，不能再计为新增收入，也不能把这100亿美元误作OpenAI自身营收。",
+      "reason": "为观察AI产业链的客户集中度提供具体数据。已核对署名全文与精确发布时间；金额为媒体援引文件，尚未取得监管文件逐项复核。",
+      "category": "industry",
+      "quote": "That money represents amounts OpenAI owes for previous transactions, not additional revenue.",
+      "tier": "T2",
+      "entity": "microsoft",
+      "subjects": [
+        "microsoft",
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI",
+        "Microsoft",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "microsoft-fy27-q1-results-2026-10-28",
+        "title": "微软公布2027财年第一季度业绩",
+        "factKey": "openai-commercial-revenue-receivables-disclosure",
+        "factTitle": "报道披露微软来自OpenAI的季度商业收入与应收款"
+      },
+      "addedAt": "2026-10-29T06:45:10+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch",
+      "date": "2026-10-28T21:48:37.000Z",
+      "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+      "title": "Google宣布将AI Mode广告扩展至国际市场",
+      "summary": "Lauren Forristal报道，Google在Alphabet季度业绩电话会上宣布，将AI Mode广告扩展至国际市场。公司称，AI Mode中赞助商品列表的点击率已与自然列表接近，但这是公司披露，报道没有列出具体国家、完整推送时间或独立效果验证，不能据此推断广告主收益。",
+      "reason": "提供生成式搜索商业化的新进展。已核对署名全文与精确发布时间；开放范围尚不完整，点击表现保留为公司自述。",
+      "category": "ai-products",
+      "quote": "taking our monetization footprint global for the first time.",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI商业化",
+        "搜索",
+        "海外AI",
+        "Google"
+      ],
+      "selected": true,
+      "event": {
+        "key": "google-ai-mode-ads-international-2026-10-28",
+        "title": "Google宣布扩展AI Mode广告国际覆盖",
+        "factKey": "ai-mode-ads-international-expansion-announcement",
+        "factTitle": "Google在业绩电话会上宣布AI Mode广告进入国际市场"
+      },
+      "addedAt": "2026-10-29T06:45:10+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-10-28T18:12:13.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-software-delivery-with-agentic-qa-automation-using-amazon-nova-act-part-3/",
+      "title": "AWS分享AI测试管理方法：检查反复成败的用例，共享权限取较低值",
+      "summary": "Vinicius Pedroni与Jan Wiemers介绍QA Studio的团队管理实践：按应用和环境统计测试结果，把反复通过又失败的用例纳入稳定性检查，并关联智能体轨迹与录屏排查原因。跨团队共享时，有效权限取用户角色与共享授权中的较低值。参考方案需部署在自己的AWS账户中。",
+      "reason": "提供可迁移的AI测试稳定性与权限管理方法。已核对两位作者全文及精确发布时间；属于参考实现，未实测其效果。",
+      "category": "tip",
+      "quote": "Shared access follows a ceiling rule.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-29T06:45:10+08:00"
     }
   ]
 }
