@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "researchedAt": "2026-10-28T01:30:44Z",
+  "researchedAt": "2026-10-28T02:41:23Z",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -528,6 +528,152 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-28T01:30:44Z"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-28T01:15:28.000Z",
+      "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+      "title": "Anthropic财务解读：可转债公允价值费用不等于现金支出",
+      "summary": "Marina Temkin援引招股文件报道，亚马逊截至6月底持有本金62亿美元的Anthropic可转债，其自身文件将这些持仓估值为979亿美元。Anthropic上半年相关公允价值调整费用达724亿美元，属于非现金费用；潜在股权收益也不等于已经兑现。",
+      "reason": "补充既有招股报道未覆盖的可转债与会计口径。署名全文及精确发布时间可核对，尚未逐项独立复核申报文件。",
+      "category": "industry",
+      "quote": "The charge is non-cash, meaning no money left the company.",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "anthropic-ipo-s1-2026-10-26",
+        "title": "Anthropic公开提交IPO注册文件",
+        "factKey": "anthropic-amazon-convertible-notes-analysis-2026-10-27",
+        "factTitle": "招股分析补充亚马逊可转债持仓与非现金费用口径"
+      },
+      "addedAt": "2026-10-28T02:41:23Z"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-27T20:48:58.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+      "title": "研究者质疑OpenAI科研结果的选择性公开方式",
+      "summary": "Robert Hart采访多位数学与物理学者。受访者欢迎外部检验，但质疑由OpenAI指定首批阅稿专家；AGMAI要求及时公开物理结果的自然语言与Lean材料，让学界平等参与核查。报道没有认定相关成果已获最终验证。",
+      "reason": "新增学者原始采访和公开获取诉求，补充官方公告之外的审查争议。署名全文及精确发布时间可核对，评论不等于证明真伪的裁决。",
+      "category": "opinion",
+      "quote": "understanding should develop in the open, with everyone given the same access.",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-28T02:41:23Z"
+    },
+    {
+      "sourceId": "rss-google-research",
+      "sourceName": "Google Research",
+      "date": "2026-10-27T17:35:00.000Z",
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+      "title": "Google研究用离线“睡眠”阶段将短期信息写入参数记忆",
+      "summary": "Google研究者介绍交替交互与离线巩固的持续学习框架，通过预设记忆模块和训练规则保存新知识。作者报告BABILong实验扩展至1000万Token，并测试持续翻译与推理；这些结果不代表商用助手已获得同等长期记忆能力。",
+      "reason": "关注模型跨会话保留知识的能力边界。原文正文＋原站 RSS 时间核验；结果来自作者实验，尚未独立复测。",
+      "category": "paper",
+      "quote": "our framework operates entirely within a fixed model architecture and human-defined training rules.",
+      "tier": "T1",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "数据/训练",
+        "推理",
+        "海外AI",
+        "Google"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-28T02:41:23Z"
+    },
+    {
+      "sourceId": "ithome-ai",
+      "sourceName": "IT之家",
+      "date": "2026-10-27T15:51:12+08:00",
+      "url": "https://www.ithome.com/1/018/475.htm",
+      "title": "Rokid Glasses 2发布，3699元起并扩展AI记录与智能体连接",
+      "summary": "汪淼现场报道，Rokid发布Glasses 2，售价3699元起，搭载骁龙AR1与恒玄BES2800BP双芯片。产品介绍包含AI会议纪要、通话翻译、记忆回溯，以及连接桌面智能体的能力；实际效果和续航提升仍属厂商口径。",
+      "reason": "提供具体AI硬件的价格、功能和交互变化。现场报道全文与精确时间可核对，未独立实测，也不将发布等同于已经交付。",
+      "category": "ai-products",
+      "quote": "支持 AI 会议纪要、AI 通话翻译、AI 记忆回溯",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "AI硬件",
+        "AI产品",
+        "Agent",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "rokid-glasses-2-launch-2026-10-27",
+        "title": "Rokid发布Glasses 2智能眼镜",
+        "factKey": "rokid-glasses-2-product-announcement",
+        "factTitle": "Rokid公布Glasses 2售价与AI功能"
+      },
+      "addedAt": "2026-10-28T02:41:23Z"
+    },
+    {
+      "sourceId": "rss-google-deepmind",
+      "sourceName": "Google DeepMind",
+      "date": "2026-10-27T16:13:00.000Z",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "title": "DeepMind官方确认Genie 4可信测试者预览及开放限制",
+      "summary": "DeepMind确认Genie 4支持原生音频、交互对话与实时文字修改，当前仅向可信测试者提供研究预览。Project Genie的Ultra用户及API早期合作伙伴仍待后续开放；官方承认长时模拟存在细节漂移与物体持续性问题。",
+      "reason": "补齐已归档事件的官方证据，仅作交叉核对。网页明确发布时间比订阅晚约11分钟，采用网页时间；能力效果仍为官方自述。",
+      "category": "ai-models",
+      "quote": "Genie 4 has been released as a research preview to trusted testers",
+      "tier": "T1",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "多模态",
+        "视频",
+        "AI产品",
+        "海外AI",
+        "Google"
+      ],
+      "selected": false,
+      "event": {
+        "key": "google-genie-4-2026-10-27",
+        "title": "Google公布Genie 4世界模型研究预览",
+        "factKey": "genie-4-research-preview-announcement",
+        "factTitle": "Google宣布Genie 4研究预览及后续候补计划"
+      },
+      "addedAt": "2026-10-28T02:41:23Z"
     }
   ]
 }
