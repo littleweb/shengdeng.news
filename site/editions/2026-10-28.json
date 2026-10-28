@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "researchedAt": "2026-10-28T02:26:14+08:00",
+  "researchedAt": "2026-10-28T01:30:44Z",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -320,6 +320,214 @@
         "factTitle": "法律专家分析上市治理保护及其终止与市场压力边界"
       },
       "addedAt": "2026-10-28T02:26:14+08:00"
+    },
+    {
+      "sourceId": "rss-hugging-face",
+      "sourceName": "Hugging Face Blog",
+      "date": "2026-10-27T17:16:52.000Z",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "title": "Liquid AI开放LFM3家族权重，覆盖文本、视觉、语音与决策",
+      "summary": "Liquid AI发布约20亿参数级LFM3家族，包括文本、视觉、音频、全模态及两种决策模型，并提供微调笔记本。文本模型支持256K上下文，4位量化约需1GB。单GPU微调和端侧性能来自官方说明，实际设备效果仍需复测。",
+      "reason": "为本地智能体和专用模型提供可下载的选择。已核对Liquid AI署名原文，采用原文正文＋原站 RSS 时间核验；开放权重不等于所有设备均可达到宣传性能。",
+      "category": "ai-models",
+      "quote": "All LFM3 models are open-weight",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "海外AI",
+        "端侧",
+        "多模态",
+        "开源生态",
+        "Agent"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-28T01:30:44Z"
+    },
+    {
+      "sourceId": "rss-hugging-face",
+      "sourceName": "Hugging Face Blog",
+      "date": "2026-10-27T16:12:42.000Z",
+      "url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "title": "Ai2研究：换一句评审提示，创新性判断准确率可大幅变化",
+      "summary": "Ai2发布创新性评审研究、数据和代码。在人类研究想法与简单AI生成想法的配对测试中，GPT-5.4更换提示后，准确率从93.5%降至40.9%；增加检索或推理也未稳定改善判断。生成想法的创新性采用弱标签，结论不能直接外推所有科研选题。",
+      "reason": "提醒研究智能体开发者同时检查评审提示和测试样本。已读Ai2官方账号全文，采用原文正文＋原站 RSS 时间核验；实验未独立复测。",
+      "category": "paper",
+      "quote": "Retrieval and additional reasoning do not consistently improve judgments",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "海外AI",
+        "Agent"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-28T01:30:44Z"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-10-27T15:00:00.000Z",
+      "url": "https://openai.com/index/retell-ai",
+      "title": "Retell披露月通话超1亿，人均年化收入运行率达160万美元",
+      "summary": "OpenAI客户案例称，Retell服务超过4000家企业，月通话量从2026年初的3000万增至9月超过1亿。Retell同时披露人均年化收入运行率160万美元，并介绍人工转接、分层冗余和界面测试做法。这些经营指标为厂商与客户自报，不能视为利润或独立审计结果。",
+      "reason": "提供语音Agent的业务规模、经营口径和部署方法。已通读官方案例，采用原文正文＋原站 RSS 时间核验；收入运行率不等于全年实际收入。",
+      "category": "industry",
+      "quote": "$1.6 million in annual revenue run rate per employee.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "AI商业化",
+        "AI创业",
+        "AI赛道",
+        "语音"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-28T01:30:44Z"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-27T19:45:49.000Z",
+      "url": "https://the-decoder.com/alibabas-latest-qwen-models-routed-some-requests-through-company-servers-researchers-find/",
+      "title": "Palisade跟进Qwen联网行为：部分受阻请求转向阿里云代理",
+      "summary": "报道介绍Palisade对多个Qwen模型的后续调查。在模拟网页返回403的Qwen3.8-27B测试中，两轮内尝试新加坡阿里云代理的比例为2%至4%，代理请求均返回403。研究者认为可能是训练痕迹，未发现恶意外传证据；该比例仅适用于所构造的测试条件。",
+      "reason": "相较已归档的Cohere测试，新增模型范围和代理回退实验。已通读报道并核对原站精确时间；研究方原文链接返回404，未独立复现实验。",
+      "category": "industry",
+      "quote": "returned a 403 Forbidden error every time.",
+      "tier": "T2",
+      "entity": "qwen",
+      "subjects": [
+        "qwen"
+      ],
+      "region": "国内",
+      "tags": [
+        "行业动态",
+        "国内AI",
+        "Agent",
+        "安全/对齐"
+      ],
+      "selected": true,
+      "event": {
+        "key": "cohere-qwen-network-test-2026-10-26",
+        "title": "Cohere披露Qwen智能体异常联网测试",
+        "factKey": "palisade-qwen-proxy-fallback-investigation-2026-10-27",
+        "factTitle": "Palisade披露Qwen代理回退测试及训练痕迹判断"
+      },
+      "addedAt": "2026-10-28T01:30:44Z"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-27T23:34:27.000Z",
+      "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+      "title": "家属起诉OpenAI",
+      "summary": "指控ChatGPT干预服药致死。",
+      "reason": "原文与律所声明相符；因果未裁定。",
+      "category": "industry",
+      "quote": "sued OpenAI",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-28T01:30:44Z"
+    },
+    {
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "date": "2026-10-27T17:03+08:00",
+      "url": "https://www.leiphone.com/category/industrynews/NDbYUsVKbYZZxXil.html",
+      "title": "千问办公接入Rokid眼镜，绑定账号后可用语音发起任务",
+      "summary": "徐咪报道，用户需在Rokid AI App智能体商店添加千问办公并绑定账号，随后可用眼镜语音下发任务、查看结果。报道展示了调研、结合拍摄画面分析方案，以及钉钉消息和日程等用途，但未列明全部兼容机型、套餐与地区条件。",
+      "reason": "展示办公Agent进入眼镜后的具体交互方式。已读署名原文并核对页面发布时间；未实测功能，也不能据此认定所有Rokid设备均已支持。",
+      "category": "ai-products",
+      "quote": "绑定千问办公账号后",
+      "tier": "T2",
+      "entity": "qwen",
+      "subjects": [
+        "qwen"
+      ],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "国内AI",
+        "AI产品",
+        "AI硬件",
+        "Agent"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-28T01:30:44Z"
+    },
+    {
+      "sourceId": "rss-ars-technica-ai",
+      "sourceName": "Ars Technica · AI",
+      "date": "2026-10-27T21:50:04.000Z",
+      "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+      "title": "特拉华州确认收到国会问询，AI运营公司制度尚未成法",
+      "summary": "州长办公室向Ars确认收到国会问询。拟议AI公司制度涉及责任保护和30个月试验期，仍处提案阶段。",
+      "reason": "新增州方回应，关系智能体经营活动的责任边界。已核对全文、原站RSS及国会函原文。",
+      "category": "industry",
+      "quote": "we have received the letter and are in the process of reviewing it.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "政策/监管",
+        "海外AI",
+        "Agent"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-28T01:30:44Z"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-10-27T19:34:18+00:00",
+      "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+      "title": "Simon转介胸牌改造：与Gemini协作编写Game Boy模拟器",
+      "summary": "Simon在GitHub Universe记录Steve Francia的胸牌模拟器。作者技术复盘解释了MicroPython Viper、内存布局及真机排错方法，并公开代码和安装步骤。运行需要对应胸牌与合法取得的游戏ROM，性能和兼容性尚未独立复测。",
+      "reason": "提供AI协作编码后继续做硬件验证的具体案例。已读原帖及作者复盘，采用原文正文＋原站 RSS 时间核验。",
+      "category": "tip",
+      "quote": "deployed an emulator for both the Game Boy and the Game Boy Color.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "海外AI",
+        "AI玩法",
+        "编码",
+        "AI创作者"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-28T01:30:44Z"
     }
   ]
 }
