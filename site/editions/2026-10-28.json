@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "researchedAt": "2026-10-28T11:55:09+08:00",
+  "researchedAt": "2026-10-28T13:08:52+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -789,6 +789,34 @@
         "factTitle": "Halo眼镜宣布上市并开始分批发货"
       },
       "addedAt": "2026-10-28T11:55:09+08:00"
+    },
+    {
+      "sourceId": "rss-latent-space",
+      "sourceName": "Latent Space",
+      "date": "2026-10-27T18:53:10.000Z",
+      "url": "https://latent.space/p/opus55/",
+      "title": "Anthropic工程访谈导读：分别管理会话日志、执行环境与凭据",
+      "summary": "Latent Space在Katelyn Lesse与Angela Jiang访谈的书面导读中，梳理长期智能体的架构取舍：会话日志独立保存，执行沙箱按需创建，服务凭据单独托管并通过代理使用。这样可以减少执行环境故障对会话的影响，也避免生成代码直接接触服务凭据。",
+      "reason": "提供可迁移的故障恢复与凭据隔离思路。原文正文＋原站 RSS 时间核验；依据书面导读，未观看整期视频或复测效果。",
+      "category": "tip",
+      "quote": "a failed sandbox does not have to take the whole agent session with it.",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "部署/工程",
+        "安全/对齐",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-28T13:08:52+08:00"
     }
   ]
 }
