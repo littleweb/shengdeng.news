@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "researchedAt": "2026-10-28T02:41:23Z",
+  "researchedAt": "2026-10-28T11:55:09+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -674,6 +674,121 @@
         "factTitle": "Google宣布Genie 4研究预览及后续候补计划"
       },
       "addedAt": "2026-10-28T02:41:23Z"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-27T21:44:34.000Z",
+      "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+      "title": "美国银行提醒客户勿向外部AI智能体提供银行密码",
+      "summary": "Zack Whittaker报道，美国银行客户邮件提醒勿将银行用户名和密码交给外部AI工具或智能体，并称共享凭据产生的活动由客户负责。这是客户安全提示，报道未披露新的技术封锁或具体损失案例。",
+      "reason": "提醒个人智能体接入金融账户时的权限与责任边界。已核对署名、完整正文及原站精确发布时间，并与另一家媒体的客户邮件报道交叉核对。",
+      "category": "industry",
+      "quote": "you’re responsible for activity resulting from that access",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "Agent",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "bofa-ai-agent-credentials-warning-2026-10",
+        "title": "美国银行提醒勿向AI智能体分享银行凭据",
+        "factKey": "customer-email-ai-credential-warning",
+        "factTitle": "美国银行客户邮件警示AI凭据共享及责任风险"
+      },
+      "addedAt": "2026-10-28T11:55:09+08:00"
+    },
+    {
+      "sourceId": "seoul-economic-daily",
+      "sourceName": "首尔经济日报",
+      "date": "2026-10-28T05:29:05+09:00",
+      "url": "https://en.sedaily.com/international/2026/10/28/us-banks-warn-customers-against-sharing-passwords-with-ai",
+      "title": "首尔经济日报交叉报道美国银行客户邮件",
+      "summary": "Kim Chang-young署名报道并展示客户邮件图片，称美国银行于26日提醒客户勿向外部AI工具提供登录凭据，用户须留意共享访问产生的责任。邮件标题与TechCrunch报道一致。",
+      "reason": "署名报道和客户邮件图支持同一提醒。该报英文版标注机器翻译，韩文页面当前无法读取，仅作为同事件交叉证据。",
+      "category": "industry",
+      "quote": "sent customers an advisory email on the 26th",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "bofa-ai-agent-credentials-warning-2026-10",
+        "title": "美国银行提醒勿向AI智能体分享银行凭据",
+        "factKey": "customer-email-ai-credential-warning",
+        "factTitle": "美国银行客户邮件警示AI凭据共享及责任风险"
+      },
+      "addedAt": "2026-10-28T11:55:09+08:00"
+    },
+    {
+      "sourceId": "kvoa-business-wire",
+      "sourceName": "KVOA · Business Wire供稿",
+      "date": "2026-10-27T07:00-04:00",
+      "url": "https://kvoa.marketminute.com/article/bizwire-2026-10-27-brilliant-labs-launches-halo-glasses-a-new-generation-of-privacy-first-smartglasses",
+      "title": "Brilliant Labs宣布Halo眼镜上市，结合AI记忆与现实游戏",
+      "summary": "Brilliant Labs的企业供稿称，Halo眼镜现已上市，配备全彩microOLED、骨传导扬声器和Noa助手，支持交互记忆、语音创建小应用及Narrative现实游戏。供稿标价399美元，与独立报道所列价格存在差异。",
+      "reason": "提供AI眼镜从问答走向记忆和创作的产品样本。已核对供稿全文与页面时间；399美元与独立稿的299美元冲突，续航和隐私效果仍属厂商自述。",
+      "category": "ai-products",
+      "quote": "Priced at $399 they are available now at brilliant.xyz.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI硬件",
+        "AI产品",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "brilliant-labs-halo-launch-2026-10-27",
+        "title": "Brilliant Labs宣布Halo眼镜商业上市",
+        "factKey": "halo-commercial-availability-announcement",
+        "factTitle": "Halo眼镜宣布上市并开始分批发货"
+      },
+      "addedAt": "2026-10-28T11:55:09+08:00"
+    },
+    {
+      "sourceId": "gamesbeat",
+      "sourceName": "GamesBeat",
+      "date": "2026-10-27",
+      "url": "https://gamesbeat.com/brilliant-labs-is-betting-on-gamification-to-bring-smart-glasses-to-the-masses/",
+      "title": "GamesBeat实机与采访交叉确认Halo开始分批发货",
+      "summary": "Alexander Lee收到评测机并采访CEO，报道Halo在多次延期后于本月分批发货。其正文列基础价299美元，与同日企业供稿的399美元不一致，尚不能确认统一成交价。",
+      "reason": "实机到手与采访补充商业发货证据，也揭示价格口径冲突。页面仅提供10月27日，保留日期精度，作为近48小时同事件交叉证据。",
+      "category": "ai-products",
+      "quote": "the company is officially shipping out batches of Halo glasses this month.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI硬件",
+        "AI产品",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "brilliant-labs-halo-launch-2026-10-27",
+        "title": "Brilliant Labs宣布Halo眼镜商业上市",
+        "factKey": "halo-commercial-availability-announcement",
+        "factTitle": "Halo眼镜宣布上市并开始分批发货"
+      },
+      "addedAt": "2026-10-28T11:55:09+08:00"
     }
   ]
 }
