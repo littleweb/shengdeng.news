@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "researchedAt": "2026-10-28T13:08:52+08:00",
+  "researchedAt": "2026-10-28T08:25:25Z",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -817,6 +817,56 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-28T13:08:52+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-10-28T12:04:48+08:00",
+      "url": "https://www.qbitai.com/2026/10/505928.html",
+      "title": "百灵开放Ling-3.1-flash-1019权重，面向多步骤智能体任务",
+      "summary": "量子位刊登的蚂蚁供稿介绍，Ling-3.1-flash-1019在既有模型上继续后训练，强化推理、工具使用与多步骤任务。官方模型卡确认其采用560B总参数、每Token激活25B参数的混合线性MoE架构，并标注MIT许可证。供稿另介绍用于继续训练的Ling-3.1-flash-base；性能提升仍属厂商披露。",
+      "reason": "新增价值是模型权重开放，开发者可自行检验能力。原文正文＋原站 RSS 时间核验，并对照官方模型卡；企业供稿仍按媒体T2记录，效果未独立复测。",
+      "category": "ai-models",
+      "quote": "百灵同步开源其基础模型 Ling-3.1-flash-base",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "模型发布",
+        "国内AI",
+        "Agent",
+        "开源生态"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-28T08:25:25Z"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-10-27T20:57:51+08:00",
+      "url": "https://www.qbitai.com/2026/10/505865.html",
+      "title": "RoboParty介绍RP1开放研发平台，提供仿真模型与运动工具",
+      "summary": "田晏林报道，RP1提供24及30主动自由度配置，已公开URDF、MJCF、网格模型及人体动作重定向等资源，供机器人仿真和控制研究使用。正文同时说明，部分底层工程资料的开放范围须以项目仓库为准，PartyOS部分能力仍处研究阶段；不能据标题认定整机资料已全部公开。",
+      "reason": "为具身智能开发者提供可检查、可修改的研发入口。原文正文＋原站 RSS 时间核验，并对照官方仓库；未复现真机能力，也未认定全部工程资料已开放。",
+      "category": "ai-products",
+      "quote": "部分仍属于内部工程记录",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "开源/仓库",
+        "AI硬件",
+        "AI产品",
+        "具身智能",
+        "开源生态",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-28T08:25:25Z"
     }
   ]
 }
