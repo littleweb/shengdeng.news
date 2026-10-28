@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "researchedAt": "2026-10-28T17:41:35.736365+08:00",
+  "researchedAt": "2026-10-28T23:29:55+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -959,6 +959,285 @@
         "factTitle": "AMD宣布拟投资10亿美元参与Meta股票发行"
       },
       "addedAt": "2026-10-28T17:41:35.736365+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-10-28T09:30:00.000Z",
+      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "title": "Legora称NDA审查占法务团队产能由约20%降至不足1%",
+      "summary": "OpenAI客户案例中，Legora法务负责人估算，NDA审查占团队产能从约20%降至不足1%。团队先分析历史已签协议，形成审查规则，再让AI初审并标记异常条款；并购尽调输出仍由律师复核和解释。数字属于客户自述，未披露测量周期与对照样本。",
+      "reason": "提供法律AI应用的具体流程与产能口径。已通读官方客户案例，采用原文正文＋原站 RSS 时间核验；提效数字尚未独立验证。",
+      "category": "industry",
+      "quote": "Today, it’s under 1%.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "AI商业化",
+        "AI赛道",
+        "AI产品",
+        "Agent"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-28T18:51:59+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-28T11:15:00.000Z",
+      "url": "https://the-decoder.com/with-ai-writing-the-code-entrepreneurial-thinking-is-now-what-counts-most-for-newcomers-at-anthropic/",
+      "title": "Anthropic工程经理谈招聘：更关注小原型与产品判断",
+      "summary": "The Decoder报道，Felix Rieseberg称已停止给自己团队的候选人出传统编程题，更关注能展示判断、同理心和产品思考的小原型。他建议开发者先理解业务目标，再借助AI解决一个范围明确的问题。这是个人团队经验，不代表Anthropic统一招聘政策，也没有招聘效果的对照数据。",
+      "reason": "提供AI辅助开发时代的求职与产品思考建议。已核对媒体全文及原站发布时间，相关效果仍属经理个人观察。",
+      "category": "opinion",
+      "quote": "Rieseberg now looks for small prototypes in job applications",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "海外AI",
+        "编码",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-28T20:00:55+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-28T10:56:24.000Z",
+      "url": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/",
+      "title": "Anthropic第三方系统访问事件持续发酵，双方对范围与披露存在分歧",
+      "summary": "Matthias Bastian梳理Cathedral利用AI智能体访问Anthropic第三方业务系统的事件及后续回应。Cathedral称不到12小时即找到访问内部资料的路径；Anthropic称此前探测持续数日，确认部分销售、人事和IT系统被访问，但表示客户Claude对话、源代码与模型权重未暴露。双方对访问范围及漏洞披露是否符合规则仍有分歧。",
+      "reason": "补充第三方软件接入风险及双方回应。已核对署名全文与原站精确时间；当事方原帖未能直接读取，访问范围仍有争议，不将研究方声称视为独立证实。",
+      "category": "industry",
+      "quote": "Chats with Claude, source code, and model weights were never exposed, the company said.",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "Agent",
+        "部署/工程",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "anthropic-cathedral-third-party-access-2026-10",
+        "title": "Cathedral访问Anthropic第三方业务系统及披露争议",
+        "factKey": "cathedral-anthropic-access-dispute-followup-2026-10-28",
+        "factTitle": "后续报道梳理双方对访问范围、持续时间和披露规则的分歧"
+      },
+      "addedAt": "2026-10-28T22:22:53+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-28T12:00:00.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas",
+      "title": "得州数据中心阻力调查：居民关注水电成本，自备电源项目引发监管争议",
+      "summary": "Justine Calma采访得州居民组织、行业团体及竞选方，呈现数据中心扩张面临的地方阻力。受访组织特别指出，州内暂停与审查措施主要覆盖接入电网的项目，自备电源项目的监管范围仍受质疑；水资源、输电建设、税收优惠与地方决策权也是争议焦点。行业团体表示愿与社区合作，候选人的新增承诺仍需实际执行。",
+      "reason": "在此前全国选举综述之外，新增得州地方采访及自备电源项目的监管边界。已通读署名正文并核对精确发布时间；居民与行业方的说法分别保留，竞选承诺不视为生效政策。",
+      "category": "industry",
+      "quote": "the state is only auditing projects that connect to the power grid.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "政策/监管",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-28T22:22:53+08:00"
+    },
+    {
+      "sourceId": "rss-nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "date": "2026-10-28T15:00:46.000Z",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+      "title": "NVIDIA发布Nemotron 3.5 Transcribe，开放40语言转写权重",
+      "summary": "NVIDIA宣布开放Nemotron 3.5 Transcribe权重，用同一可提示模型处理录音转写、说话人标记、翻译及音频问答。官方提供BF16、FP8和NVFP4格式，并列出RTX Spark、DGX Spark、Jetson AGX Thor及RTX 5090等部署选项。榜单表现和本地运行效果仍属官方披露，未经独立复测。",
+      "reason": "官方正文与发布时间一致，补充可本地部署的语音模型选择；TechCrunch报道交叉确认发布动作与录音输入边界。",
+      "category": "ai-models",
+      "quote": "It transcribes 40 languages, including seven Indic languages.",
+      "tier": "T1",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "AI产品",
+        "语音",
+        "端侧",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "nvidia-nemotron-35-transcribe-2026-10-28",
+        "title": "NVIDIA发布Nemotron 3.5 Transcribe",
+        "factKey": "nemotron-35-transcribe-open-weight-release",
+        "factTitle": "Nemotron 3.5 Transcribe开放权重并支持多语言录音处理"
+      },
+      "addedAt": "2026-10-28T23:29:55+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-28T15:00:00.000Z",
+      "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+      "title": "TechCrunch交叉确认Nemotron转写模型发布，明确不支持实时流",
+      "summary": "TechCrunch确认NVIDIA发布Nemotron 3.5 Transcribe及Granary v2数据集，并指出Transcribe处理的是录制音频，不能据此视为实时语音流模型。报道所列长录音、多说话人及翻译能力来自NVIDIA说明，并非记者独立性能测试。",
+      "reason": "正文与原站发布时间一致，用于核对同一次发布及输入限制，不重复列为精选。",
+      "category": "ai-models",
+      "quote": "Transcribe works with recorded audio, not live streams.",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "AI产品",
+        "语音",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "nvidia-nemotron-35-transcribe-2026-10-28",
+        "title": "NVIDIA发布Nemotron 3.5 Transcribe",
+        "factKey": "nemotron-35-transcribe-open-weight-release",
+        "factTitle": "Nemotron 3.5 Transcribe开放权重并支持多语言录音处理"
+      },
+      "addedAt": "2026-10-28T23:29:55+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-10-28T13:55:15.000Z",
+      "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+      "title": "Simon分享浏览器游戏开发流程：先做原型，再试玩迭代",
+      "summary": "Simon通过找不同、奇幻村庄与南瓜农场等新案例，公开提示词、聊天记录和可玩版本。其做法是先用聊天界面生成移动端友好的three.js原型，再根据试玩暴露的任务、剧情和机制问题持续修改，超过概念验证阶段后转用编码智能体。趣味性与模型优劣属于作者体验，未做系统对照测试。",
+      "reason": "原文正文＋原站 RSS 时间核验。新增案例和完整迭代路径可供创作者参考，未重复此前已收录的RTS联机进展。",
+      "category": "tip",
+      "quote": "Switch to Codex or Claude Code once your project passes the proof-of-concept phase.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "anthropic",
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI创作者",
+        "编码",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-28T23:29:55+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-28T11:27:30.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world",
+      "title": "Meta推出Waddle World，用语音日记与小游戏养AI宠物",
+      "summary": "Robert Hart报道，Meta的Waddle World让用户与像素宠物语音交流，并根据对话生成涂鸦，结合轻量小游戏形成日记体验。报道援引应用商店说明，称应用免费且仅向菲律宾成年人提供；尚不清楚是否会扩展至其他地区，也没有用户留存或付费成效数据。",
+      "reason": "署名正文与原站精确时间一致，提供AI陪伴产品的新形态；地区范围来自商店说明，不能据此宣称已全球上线。",
+      "category": "ai-products",
+      "quote": "a daily journal disguised as a pet",
+      "tier": "T2",
+      "entity": "meta",
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "语音",
+        "海外AI",
+        "Meta"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-28T23:29:55+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-28T14:44:00.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+      "title": "报道：xAI子公司购房附带放弃数据中心相关索赔条件",
+      "summary": "Emma Roth报道，xAI子公司MZX在密西西比州Southaven提出购房安排，并援引居民收到的信函说明，交易要求另签放弃相关索赔的协议。争议涉及附近数据中心供电设施的噪声与振动。MZX否认相关指控，购房目标和已同意出售数量仍是媒体转引的说法，不能当作全部成交结果。",
+      "reason": "已读署名正文及收购函引文，精确发布时间可核对；揭示AI基础设施扩张中的居民权益成本，部分事实仍来自转引报道。",
+      "category": "industry",
+      "quote": "you will agree to execute a separate release agreement",
+      "tier": "T2",
+      "entity": "xai",
+      "subjects": [
+        "xai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "xAI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-28T23:29:55+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-28T15:04:43.000Z",
+      "url": "https://the-decoder.com/new-artificial-analysis-index-widens-the-gap-between-open-and-closed-models/",
+      "title": "The Decoder分析评测指数改版：私有测试防刷榜，也增加外部纠错难度",
+      "summary": "The Decoder分析Artificial Analysis Intelligence Index v5，称60%的指数依赖私有测试集，Kimi K3.1 Pro由第四降至第九。报道引述Nathan Lambert提醒，排名变化还可能涉及跨领域强化学习基础设施差异，不能只归因于刷榜；私有题集也使外部研究者更难发现题目错误。这是评测方法解读，不是模型本身更新。",
+      "reason": "完整正文与原站精确时间一致，新增价值在于解释榜单变化及透明度取舍；相关排名和因果解释未独立复测。",
+      "category": "opinion",
+      "quote": "Closed test sets do have a downside",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "kimi"
+      ],
+      "region": "国外",
+      "tags": [
+        "现象/趋势",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "artificial-analysis-intelligence-index-v5",
+        "title": "Artificial Analysis更新Intelligence Index至v5",
+        "factKey": "index-v5-methodology-analysis-2026-10-28",
+        "factTitle": "媒体分析v5排名变化与私有测试的透明度取舍"
+      },
+      "addedAt": "2026-10-28T23:29:55+08:00"
     }
   ]
 }

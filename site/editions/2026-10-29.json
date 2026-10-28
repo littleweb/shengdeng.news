@@ -1,0 +1,637 @@
+{
+  "date": "2026-10-29",
+  "researchedAt": "2026-10-29T05:38:27+08:00",
+  "items": [
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-28T16:20:03.000Z",
+      "url": "https://the-decoder.com/claude-for-legal-now-verifies-sources-automatically-then-hands-the-file-to-a-lawyer/",
+      "title": "Claude法律工具新增引文核查与案件管理工作表",
+      "summary": "The Decoder报道，Anthropic为Claude Enterprise法律用户增加交互概览和工作表，覆盖引文核查、跨国法律比较、案件管理及合同检查。模型先核查并关联原始出处，再由律师复审；报道还称法律目录提供60多个集成。信息隔离能力属于厂商说明，不能据此保证核查结果无误。",
+      "reason": "关注法律AI如何把出处追溯与专业复审接入工作流。已核对报道全文和原站发布时间；未披露价格与完整开放范围，也没有独立准确率测试。",
+      "category": "ai-products",
+      "quote": "before a lawyer reviews the results.",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI赛道",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-29T00:38:53+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-28T16:15:30.000Z",
+      "url": "https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely",
+      "title": "Meta称争议商业条款可能继续延期，协商期间沿用现行条款",
+      "summary": "Emma Roth报道，Meta通讯负责人Andy Stone表示，将充分征询行业团体与负责人意见；若协商超过11月20日，就会继续推迟新版广告与商业条款，期间沿用现行条款。此次新增的是可能再次延期的条件性表态，尚未公布新的执行日期，也未宣布撤回引发AI训练授权争议的条款。",
+      "reason": "网站内容抓取与AI训练授权争议出现后续进展。已核对署名原文及精确发布时间；报道引用Meta发言人声明，继续延期仍取决于协商进度。",
+      "category": "industry",
+      "quote": "Until then our existing terms remain in place.",
+      "tier": "T2",
+      "entity": "meta",
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "数据/训练",
+        "海外AI",
+        "Meta"
+      ],
+      "selected": true,
+      "event": {
+        "key": "meta-commercial-terms-crawling-2026-10",
+        "title": "Meta商业条款抓取授权争议与执行安排",
+        "factKey": "meta-terms-consultation-possible-further-delay-2026-10-28",
+        "factTitle": "Meta称若协商超过11月20日将继续推迟新版条款"
+      },
+      "addedAt": "2026-10-29T00:38:53+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-28T17:00:00.000Z",
+      "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
+      "title": "Chrome开始用Gmail信息辅助填表，首批面向美国用户",
+      "summary": "Andrew Liszewski报道，Chrome增强型自动填充开始结合Gemini Personal Intelligence，从Gmail提取快递单号、航班确认号、酒店预订和订单信息，生成填表建议。首批覆盖美国桌面、Android和iOS用户，需要开启Personal Intelligence；用户可在设置中管理访问范围或关闭功能。敏感信息加密属于Google说明，报道未提供独立安全测试。",
+      "reason": "把邮件查找接入日常填表流程，具有直接使用价值。已核对报道全文与发布时间，并与TechCrunch交叉确认美国推送及开关条件；尚无独立实测。",
+      "category": "ai-products",
+      "quote": "Google is starting to roll out the enhanced autofill improvements today in the US.",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "海外AI",
+        "Google"
+      ],
+      "selected": true,
+      "event": {
+        "key": "google-chrome-gmail-autofill-2026-10-28",
+        "title": "Chrome开始通过Gmail信息提供填表建议",
+        "factKey": "gmail-personal-intelligence-autofill-us-rollout",
+        "factTitle": "Chrome在美国开始推送Gmail信息自动填充"
+      },
+      "addedAt": "2026-10-29T01:46:06+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-28T17:00:00.000Z",
+      "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+      "title": "TechCrunch交叉确认Chrome邮件填表建议的推送范围",
+      "summary": "TechCrunch确认，Chrome将从Gmail提取信息，为在线表单提供建议，功能开始面向美国桌面及移动端用户推送。增强型自动填充由用户选择开启，可在Chrome设置中管理。报道依据Google公告，未声称已验证准确率或数据安全效果。",
+      "reason": "与The Verge核对同一次美国推送及用户可关闭的条件，仅作交叉证据；两篇报道均不等于独立产品测试。",
+      "category": "ai-products",
+      "quote": "users can decide whether or not to enable enhanced autofill from their Chrome settings.",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "海外AI",
+        "Google"
+      ],
+      "selected": false,
+      "event": {
+        "key": "google-chrome-gmail-autofill-2026-10-28",
+        "title": "Chrome开始通过Gmail信息提供填表建议",
+        "factKey": "gmail-personal-intelligence-autofill-us-rollout",
+        "factTitle": "Chrome在美国开始推送Gmail信息自动填充"
+      },
+      "addedAt": "2026-10-29T01:46:06+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-28T17:00:00.000Z",
+      "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+      "title": "Google开放Connected Apps平台预览申请，连接Gemini与搜索",
+      "summary": "Sarah Perez报道，Google推出Connected Apps Platform，美国开发者可登记候补申请预览，通过云托管MCP或Android MCP接入服务，再经Google Connected Console注册、测试与提交。开发者可选择面向Gemini、Search或两者发布，并查看流量、延迟和错误率。Gemini现有超过50个连接应用，向Search扩展仍计划在未来几周进行，不能视为已全部上线。",
+      "reason": "为应用增加对话式分发和服务调用入口，值得开发者评估。已核对报道全文与发布时间；当前仍须申请预览，尚无转化成效验证。",
+      "category": "ai-products",
+      "quote": "The new Connected Apps platform is in public preview for U.S. developers who sign up for the waitlist.",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "MCP/工具调用",
+        "搜索",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "google-connected-apps-platform-preview-2026-10-28",
+        "title": "Google开放Connected Apps Platform预览申请",
+        "factKey": "us-developer-preview-waitlist",
+        "factTitle": "美国开发者可申请连接Gemini与Search的平台预览"
+      },
+      "addedAt": "2026-10-29T01:46:06+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-10-28T16:45:23+00:00",
+      "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+      "title": "Simon现场记录Octoverse：GitHub月合并PR增至2.2亿",
+      "summary": "Simon Willison在GitHub Universe现场转介Octoverse 2026报告：GitHub称月合并PR在不到一年内增至三倍、达到2.2亿，月提交次数超过原来的三倍、达到73.8亿，新仓库月创建量翻倍至3030万。报告还披露使用模型辅助划分仓库行业和用户地域的方法。这些是平台活动量统计，不能直接证明代码质量或有效生产率同步提高；Simon说明其免费参会门票来自GitHub Stars计划。",
+      "reason": "原文正文＋原站 RSS 时间核验。现场记录提供平台活动量与统计方法线索；数字为GitHub自报，官方完整报告本轮未能通读。",
+      "category": "paper",
+      "quote": "merged pull requests tripled in less than a year to 220 million per month.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "编码",
+        "Agent",
+        "海外AI",
+        "GitHub"
+      ],
+      "selected": true,
+      "event": {
+        "key": "github-octoverse-2026",
+        "title": "GitHub公布Octoverse 2026报告",
+        "factKey": "octoverse-2026-development-activity-report",
+        "factTitle": "Octoverse披露2026年开发活动量及统计方法"
+      },
+      "addedAt": "2026-10-29T01:46:06+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-28T18:36:26.000Z",
+      "url": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+      "title": "LG电视通知称微软将于年内停止电视端Copilot支持",
+      "summary": "Andrew Liszewski报道，Windows Central记者的LG电视出现通知，称微软决定结束所有电视上的Copilot支持，停用安排在2026年内，具体日期仍待确定。报道回顾了LG与三星此前接入Copilot的情况。本次依据是电视通知及记者记录，尚未见微软、LG或三星另行发布正式公告。",
+      "reason": "提醒电视用户留意既有AI功能的服务期限。已核对全文与精确发布时间，并读到最初记者记录；两篇报道依赖同一通知，不视为两次独立确认。",
+      "category": "ai-products",
+      "quote": "scheduled for discontinuation during 2026",
+      "tier": "T2",
+      "entity": "microsoft",
+      "subjects": [
+        "microsoft"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI硬件",
+        "海外AI",
+        "Microsoft"
+      ],
+      "selected": true,
+      "event": {
+        "key": "microsoft-copilot-tv-discontinuation-2026-10",
+        "title": "电视端Copilot停用通知",
+        "factKey": "lg-tv-notice-copilot-support-ending-2026-10-28",
+        "factTitle": "LG电视通知称微软将在2026年内停止电视端Copilot支持"
+      },
+      "addedAt": "2026-10-29T02:53:07+08:00"
+    },
+    {
+      "sourceId": "windows-central",
+      "sourceName": "Windows Central",
+      "date": "2026-10-28",
+      "url": "https://www.windowscentral.com/artificial-intelligence/microsoft-copilot/microsoft-is-killing-copilot-on-all-smart-tvs-after-backlash-and-strategy-shift-lg-confirms-support-will-end-before-2027",
+      "title": "Windows Central记者记录LG电视上的Copilot停用通知",
+      "summary": "Zac Bowden称自己的webOS电视出现Copilot停用通知，并在原文展示通知截图及文字。通知称微软决定结束电视端Copilot功能，预计在2026年底前执行，确切日期尚未确认。记者对产品定位变化的解释属于其分析。",
+      "reason": "用于核对The Verge转引的通知出处与措辞。原文仅标10月28日，处于48小时交叉证据窗口，不作为本轮精选新消息。",
+      "category": "ai-products",
+      "quote": "expected to happen before the end of 2026.",
+      "tier": "T2",
+      "entity": "microsoft",
+      "subjects": [
+        "microsoft"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI硬件",
+        "海外AI",
+        "Microsoft"
+      ],
+      "selected": false,
+      "event": {
+        "key": "microsoft-copilot-tv-discontinuation-2026-10",
+        "title": "电视端Copilot停用通知",
+        "factKey": "lg-tv-notice-copilot-support-ending-2026-10-28",
+        "factTitle": "LG电视通知称微软将在2026年内停止电视端Copilot支持"
+      },
+      "addedAt": "2026-10-29T02:53:07+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-10-28T18:28:26.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/",
+      "title": "AWS详解企业智能体平台：分开模型与工具授权，上线前验证拒绝路径",
+      "summary": "AWS介绍基于Bedrock AgentCore的企业平台参考架构，将中央治理与各团队独立运行环境分开，并分别设置模型推理网关和工具网关。上线评估同时检查获准调用成功、越权调用被拒绝，以及回滚和资源清理是否有效。参考实现的验证范围以爱尔兰区域为基础，换区域或组件后仍须重新验证。",
+      "reason": "可迁移的重点是团队隔离、权限边界和上线验收方法。已通读官方全文，页面与原站订阅精确时间一致；参考实现不等于任意企业环境均已验证。",
+      "category": "tip",
+      "quote": "Every authorized call is paired with an adversarial twin",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "部署/工程",
+        "MCP/工具调用",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-29T02:53:07+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-10-28T10:00:00.000Z",
+      "url": "https://openai.com/index/the-future-of-the-firm",
+      "title": "两位OpenAI作者讨论AI如何进入组织架构：助手、同事与协调层",
+      "summary": "Hemanth Asirvatham与Elliott Mokski提出三种组织情景：AI在员工之下承担任务、与人并列承接职能，或进入管理层与执行层之间协调工作。文章讨论这些路径对员工自主权、公司规模与薪酬差异的不同影响，也指出管理能力缺少充分评估。作者明确表示文章代表个人观点，情景不能当作已经兑现的企业成果。",
+      "reason": "提供评估企业AI采用路径的框架，将任务效率与组织权力变化联系起来。原文正文＋原站 RSS 时间核验；属于作者推演，不代表OpenAI立场或实证结论。",
+      "category": "opinion",
+      "quote": "It reflects our views, not those of OpenAI or our colleagues.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "现象/趋势",
+        "AI赛道",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-29T02:53:07+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-28T19:17:58.000Z",
+      "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
+      "title": "Google宣布Gemini 4 Carbon，先向部分网络防御者开放",
+      "summary": "The Decoder报道，Gemini 4 Carbon强化长时间编码与网络安全任务，本周先向部分网络防御者开放，再通过Fairwind计划扩大可信伙伴访问。普通开发者、企业和消费者的全面开放仍待后续安排。Google列出的初始价格为每百万输入Token 2美元、输出10美元，不能据此认定公众API已开放。",
+      "reason": "新增模型与开放边界值得关注，已通读报道并与官方正文交叉核对。官网日期记录存在冲突，本条采用报道自身发布时间；内部效果仍属Google自述。",
+      "category": "ai-models",
+      "quote": "Selected cybersecurity experts get access first starting this week.",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "编码",
+        "Agent",
+        "安全/对齐",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "google-gemini-4-carbon-2026-10-28",
+        "title": "Google公布Gemini 4 Carbon及分阶段开放安排",
+        "factKey": "gemini-4-carbon-announcement-limited-access",
+        "factTitle": "Google宣布Carbon并先向部分网络防御者开放"
+      },
+      "addedAt": "2026-10-29T04:00:45+08:00"
+    },
+    {
+      "sourceId": "rss-google-deepmind",
+      "sourceName": "Google DeepMind",
+      "date": "2026-10-27T16:00:00.000Z",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "title": "DeepMind原文确认Carbon的首批访问范围",
+      "summary": "官方正文说明，Carbon首先提供给部分网络防御者，随后逐步扩展至Fairwind可信伙伴；面向开发者、企业和消费者的开放尚未全面落实。公告中的网络安全测试部分在不启用安全护栏的条件下进行，内部编码效果也不能视为独立复测结论。",
+      "reason": "用于交叉确认开放阶段。官网显示10月28日，但精确发布时间记为10月27日，与订阅冲突；保留较早时间，仅作48小时内交叉证据。",
+      "category": "ai-models",
+      "quote": "Starting this week, we will make Carbon available to a subset of cyber defenders",
+      "tier": "T1",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "编码",
+        "Agent",
+        "安全/对齐",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "google-gemini-4-carbon-2026-10-28",
+        "title": "Google公布Gemini 4 Carbon及分阶段开放安排",
+        "factKey": "gemini-4-carbon-announcement-limited-access",
+        "factTitle": "Google宣布Carbon并先向部分网络防御者开放"
+      },
+      "addedAt": "2026-10-29T04:00:45+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-28T19:19:58.000Z",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "title": "Claude Enterprise新增工作报告、员工调查与团队共享预算",
+      "summary": "Tim Fernholz报道，Anthropic推出企业分析工具，让管理者查看团队工作产出、费用和流程故障，并增加团队共享预算。官方说明进一步明确，报告分析会话样本，个人限额仍与团队预算同时生效，任一耗尽都会停止使用；功能可用性随企业配置变化。",
+      "reason": "为企业判断AI支出与工作流程提供新工具。已核对署名全文、精确发布时间及官方说明，报告能力不等于已经证明投资回报。",
+      "category": "ai-products",
+      "quote": "Anthropic is also creating pooled group budgets",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI商业化",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "claude-enterprise-reports-budgets-2026-10-28",
+        "title": "Claude Enterprise推出报告、调查与共享预算",
+        "factKey": "smart-reports-surveys-pooled-budgets-ga",
+        "factTitle": "企业报告、应用内调查及团队共享预算正式开放"
+      },
+      "addedAt": "2026-10-29T04:00:45+08:00"
+    },
+    {
+      "sourceId": "external-anthropic-claude-blog",
+      "sourceName": "Anthropic · Claude 官方博客",
+      "date": "2026-10-28",
+      "url": "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets",
+      "title": "Claude官方明确共享预算与报告使用边界",
+      "summary": "官方确认三项功能向Claude Enterprise正式开放，但HIPAA、客户管理加密密钥等配置会影响可用性。每次请求同时计入个人限额与团队预算，先耗尽的限制生效。智能报告用于了解采用情况和规划投入，官方明确不应用于个人绩效或雇佣决策。",
+      "reason": "已通读官方说明，补充套餐、预算及用途限制。原文仅有日期，作为近48小时同事件交叉证据保留，不重复列为精选。",
+      "category": "ai-products",
+      "quote": "Every request counts against both",
+      "tier": "T1",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "claude-enterprise-reports-budgets-2026-10-28",
+        "title": "Claude Enterprise推出报告、调查与共享预算",
+        "factKey": "smart-reports-surveys-pooled-budgets-ga",
+        "factTitle": "企业报告、应用内调查及团队共享预算正式开放"
+      },
+      "addedAt": "2026-10-29T04:00:45+08:00"
+    },
+    {
+      "sourceId": "thepaper",
+      "sourceName": "澎湃新闻",
+      "date": "2026-10-28T09:55+08:00",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34346632",
+      "title": "小雨智造复盘焊接机器人落地，现场打磨与成本仍是量产难点",
+      "summary": "秦盛采访小雨智造创始人乔忠良，介绍团队从实验室进入客户现场后又打磨一年多的过程。报道披露，北泡轻钢一个车间使用12台机器人，8月月产能较改造前提升30%，同等焊接质量下综合成本降低49%。这些为企业披露的单车间数据，年销10万台仍是未来目标。",
+      "reason": "提供工业AI从演示走向日常作业的具体经验。已核对原创采访、署名与发布时间；成效未经独立审计，不能外推全部工厂或认定公司已盈利。",
+      "category": "industry",
+      "quote": "到客户现场又磨了一年多",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI创业",
+        "AI商业化",
+        "具身智能",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-29T04:00:45+08:00"
+    },
+    {
+      "sourceId": "rss-latent-space",
+      "sourceName": "Latent Space",
+      "date": "2026-10-28T19:48:05.000Z",
+      "url": "https://latent.space/p/supabase/",
+      "title": "Supabase访谈导读：让智能体读懂后端，减少从注册到可运行应用的阻力",
+      "summary": "Latent Space的书面导读围绕Paul Copplestone与Ant Wilson访谈，分析免Docker本地运行、将目标数据库结构写入Git，以及贴近数据库执行计算的价值。创始人称AI驱动使用增长伴随激活与转化改善，但未给出幅度；本地运行新方案为alpha，Supabase Compute仍处私有alpha阶段。",
+      "reason": "为开发工具创业提供具体的使用流程与分发思路。已核对书面全文及原站发布时间，未将导读当作完整播客实录；转化改善仍为创始人自述。",
+      "category": "opinion",
+      "quote": "start a local backend without Docker",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "AI创业",
+        "Agent",
+        "部署/工程",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-29T04:00:45+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-10-28T13:15:00.000Z",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "title": "ServiceNow插件上架OpenAI市场，将企业工作流接入ChatGPT",
+      "summary": "OpenAI宣布ServiceNow MCP插件已上架，企业可连接自己的ServiceNow实例并选择开放能力，通过ChatGPT查询相似事件、评估变更风险或更新记录，操作仍受原有业务规则与权限约束。增强功能预计年底提供；语音、安全及Codex集成仍计划于2027年分阶段推出，不能视为已经落地。",
+      "reason": "值得关注企业智能体如何沿用现有权限执行工作流。原文正文＋原站 RSS 时间核验；已上架范围与未来计划明确区分，实际效果尚无独立验证。",
+      "category": "ai-products",
+      "quote": "The ServiceNow MCP plugin is available in the OpenAI marketplace today",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "MCP/工具调用",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-29T05:06:30+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch",
+      "date": "2026-10-28T21:25:30.000Z",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/",
+      "title": "微软季度云收入增30%，整体增长不能全部归因于AI",
+      "summary": "Julie Bort报道，微软截至9月30日的季度营收923亿美元，同比增长19%；Microsoft Cloud营收639亿美元，增长30%；净利润366亿美元，增长32%。报道提醒，云业务仍包含大量传统软件与SaaS收入，不能将整体业绩全部视为AI收入。",
+      "reason": "财报提供AI商业化的经营参照。已通读署名报道并核对精确发布时间，核心数字与官方报表一致。",
+      "category": "industry",
+      "quote": "Microsoft Cloud, which reached $63.9 billion",
+      "tier": "T2",
+      "entity": "microsoft",
+      "subjects": [
+        "microsoft"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI",
+        "Microsoft"
+      ],
+      "selected": true,
+      "event": {
+        "key": "microsoft-fy27-q1-results-2026-10-28",
+        "title": "微软公布2027财年第一季度业绩",
+        "factKey": "fy27-q1-revenue-cloud-results",
+        "factTitle": "微软披露季度营收923亿美元及云收入增长30%"
+      },
+      "addedAt": "2026-10-29T05:38:27+08:00"
+    },
+    {
+      "sourceId": "microsoft-investor-relations",
+      "sourceName": "Microsoft Investor Relations",
+      "date": "2026-10-28",
+      "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast",
+      "title": "微软官方财报交叉确认季度营收与云业务增长",
+      "summary": "官方报表确认，截至2026年9月30日的季度营收为922.79亿美元，Microsoft Cloud收入639亿美元；GAAP净利润366.29亿美元，同比增长32%。剔除OpenAI投资影响后的非GAAP净利润同比增长18%，两种口径应区分。",
+      "reason": "核对公司原始报表，补充利润统计口径。网页仅标日期，本条只作48小时内的交叉证据，不作为独立精选。",
+      "category": "industry",
+      "quote": "Microsoft Cloud revenue was $63.9 billion and increased 30%",
+      "tier": "T1",
+      "entity": "microsoft",
+      "subjects": [
+        "microsoft"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI",
+        "Microsoft"
+      ],
+      "selected": false,
+      "event": {
+        "key": "microsoft-fy27-q1-results-2026-10-28",
+        "title": "微软公布2027财年第一季度业绩",
+        "factKey": "fy27-q1-revenue-cloud-results",
+        "factTitle": "微软披露季度营收923亿美元及云收入增长30%"
+      },
+      "addedAt": "2026-10-29T05:38:27+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch",
+      "date": "2026-10-28T10:00-07:00",
+      "url": "https://techcrunch.com/2026/10/28/xreal-aura-is-a-new-wired-headset-powered-by-android-xr/",
+      "title": "XREAL AURA开放订购",
+      "summary": "有线AI眼镜搭载Gemini。",
+      "reason": "供产品观察。已读署名原文并核对发布时间，适用条件以同组官方说明为准，未实测。",
+      "category": "ai-products",
+      "quote": "powered by the Android XR",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI硬件",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "xreal-aura-order-launch-2026-10-28",
+        "title": "XREAL AURA正式发布并开放订购",
+        "factKey": "aura-android-xr-orders-opening",
+        "factTitle": "XREAL AURA搭载Android XR与Gemini并开放订购"
+      },
+      "addedAt": "2026-10-29T05:38:27+08:00"
+    },
+    {
+      "sourceId": "external-google-blog",
+      "sourceName": "Google 官方博客",
+      "date": "2026-10-28",
+      "url": "https://blog.google/products-and-platforms/platforms/android/xreal-aura/",
+      "title": "Google明确AURA订购地区、年龄与发货条件",
+      "summary": "Shahram Izadi宣布Google与XREAL推出AURA。Gemini可理解眼前环境与屏幕内容；设备通过线缆连接计算单元。美国、加拿大、韩国于10月28日开放订购，日本从11月2日开始，面向18岁以上用户；年底前首发价1099美元起，计划11月中旬开始发货。",
+      "reason": "核对发布参与方原文，并与XREAL产品页确认主要功能，补充订购和交付边界。网页仅标日期，本条只作48小时内交叉证据，未验证实际使用效果。",
+      "category": "ai-products",
+      "quote": "with shipments beginning in mid-November.",
+      "tier": "T1",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI硬件",
+        "多模态",
+        "海外AI",
+        "Google"
+      ],
+      "selected": false,
+      "event": {
+        "key": "xreal-aura-order-launch-2026-10-28",
+        "title": "XREAL AURA正式发布并开放订购",
+        "factKey": "aura-android-xr-orders-opening",
+        "factTitle": "XREAL AURA搭载Android XR与Gemini并开放订购"
+      },
+      "addedAt": "2026-10-29T05:38:27+08:00"
+    }
+  ]
+}

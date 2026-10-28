@@ -1,6 +1,6 @@
 {
   "kind": "skills",
-  "capturedAt": "2026-10-27T16:16:52.005Z",
+  "capturedAt": "2026-10-28T16:40:14.031Z",
   "sourceName": "skills.sh",
   "sourceUrl": "https://www.skills.sh/",
   "metric": "累计安装量",
@@ -17,8 +17,8 @@
       "rank": 2,
       "name": "grill-me",
       "owner": "mattpocock/skills",
-      "value": 1400000,
-      "displayValue": "1.4M",
+      "value": 1500000,
+      "displayValue": "1.5M",
       "url": "https://www.skills.sh/mattpocock/skills/grill-me"
     },
     {
@@ -41,8 +41,8 @@
       "rank": 5,
       "name": "hyperframes",
       "owner": "heygen-com/hyperframes",
-      "value": 1200000,
-      "displayValue": "1.2M",
+      "value": 1300000,
+      "displayValue": "1.3M",
       "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes"
     },
     {
@@ -63,19 +63,19 @@
     },
     {
       "rank": 8,
+      "name": "media-use",
+      "owner": "heygen-com/hyperframes",
+      "value": 1200000,
+      "displayValue": "1.2M",
+      "url": "https://www.skills.sh/heygen-com/hyperframes/media-use"
+    },
+    {
+      "rank": 9,
       "name": "tdd",
       "owner": "mattpocock/skills",
       "value": 1200000,
       "displayValue": "1.2M",
       "url": "https://www.skills.sh/mattpocock/skills/tdd"
-    },
-    {
-      "rank": 9,
-      "name": "media-use",
-      "owner": "heygen-com/hyperframes",
-      "value": 1100000,
-      "displayValue": "1.1M",
-      "url": "https://www.skills.sh/heygen-com/hyperframes/media-use"
     },
     {
       "rank": 10,
@@ -87,19 +87,19 @@
     },
     {
       "rank": 11,
-      "name": "setup-matt-pocock-skills",
-      "owner": "mattpocock/skills",
-      "value": 1100000,
-      "displayValue": "1.1M",
-      "url": "https://www.skills.sh/mattpocock/skills/setup-matt-pocock-skills"
-    },
-    {
-      "rank": 12,
       "name": "design-mobile-apps",
       "owner": "designed-by-ai/skills",
       "value": 1100000,
       "displayValue": "1.1M",
       "url": "https://www.skills.sh/designed-by-ai/skills/design-mobile-apps"
+    },
+    {
+      "rank": 12,
+      "name": "setup-matt-pocock-skills",
+      "owner": "mattpocock/skills",
+      "value": 1100000,
+      "displayValue": "1.1M",
+      "url": "https://www.skills.sh/mattpocock/skills/setup-matt-pocock-skills"
     },
     {
       "rank": 13,
@@ -113,8 +113,8 @@
       "rank": 14,
       "name": "hyperframes-registry",
       "owner": "heygen-com/hyperframes",
-      "value": 1000000,
-      "displayValue": "1.0M",
+      "value": 1100000,
+      "displayValue": "1.1M",
       "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-registry"
     },
     {
@@ -127,14 +127,6 @@
     },
     {
       "rank": 16,
-      "name": "hyperframes-animation",
-      "owner": "heygen-com/hyperframes",
-      "value": 1000000,
-      "displayValue": "1.0M",
-      "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-animation"
-    },
-    {
-      "rank": 17,
       "name": "triage",
       "owner": "mattpocock/skills",
       "value": 1000000,
@@ -142,7 +134,7 @@
       "url": "https://www.skills.sh/mattpocock/skills/triage"
     },
     {
-      "rank": 18,
+      "rank": 17,
       "name": "prototype",
       "owner": "mattpocock/skills",
       "value": 1000000,
@@ -150,19 +142,27 @@
       "url": "https://www.skills.sh/mattpocock/skills/prototype"
     },
     {
-      "rank": 19,
+      "rank": 18,
       "name": "grilling",
       "owner": "mattpocock/skills",
-      "value": 999100,
-      "displayValue": "999.1K",
+      "value": 1000000,
+      "displayValue": "1.0M",
       "url": "https://www.skills.sh/mattpocock/skills/grilling"
+    },
+    {
+      "rank": 19,
+      "name": "hyperframes-animation",
+      "owner": "heygen-com/hyperframes",
+      "value": 1000000,
+      "displayValue": "1.0M",
+      "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-animation"
     },
     {
       "rank": 20,
       "name": "hyperframes-core",
       "owner": "heygen-com/hyperframes",
-      "value": 930500,
-      "displayValue": "930.5K",
+      "value": 930600,
+      "displayValue": "930.6K",
       "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-core"
     }
   ]
