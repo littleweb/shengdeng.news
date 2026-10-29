@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "researchedAt": "2026-10-29T15:48:15+08:00",
+  "researchedAt": "2026-10-29T17:00:35+08:00",
   "items": [
     {
       "sourceId": "rss-the-decoder",
@@ -1372,6 +1372,56 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-29T15:48:15+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-10-28T18:32:39+08:00",
+      "url": "https://www.qbitai.com/2026/10/506098.html",
+      "title": "量子位拆解FluxVLA：统一数据接口，分开模型推理与机器人控制",
+      "summary": "衡宇梳理FluxVLA Engine从数据、训练、评测到真机部署的工程链路，介绍统一配置、推理与控制解耦、动作衔接和轨迹约束。文中LimX Oli搬箱实验完成全部四阶段的比例为33.33%，显示链路贯通仍有任务瓶颈；结果来自项目特定配置。",
+      "reason": "为具身开发团队提供工程设计参考。已通读衡宇原文，原文正文＋原站 RSS 时间核验；这是10月22日报告的后续解读，实验结果未经独立复测。",
+      "category": "tip",
+      "quote": "旨在验证跨平台部署链路而非受控架构对比",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "具身智能",
+        "部署/工程",
+        "开源生态",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-29T17:00:35+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-10-28T10:09:07+00:00",
+      "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
+      "title": "Simon摘录AI采用建议：没有收益时，记录原因并讨论",
+      "summary": "Simon摘录亚马逊工程副总裁Terk Terkowitz的建议：如果当前AI工具没有帮助具体工作，应记录原因、与同侪及经理讨论；能说明AI何时无效，也是在展示工程判断力。",
+      "reason": "为团队收集AI不适用场景提供具体做法。摘录已对照亚马逊完整备忘录，原文正文＋原站 RSS 时间核验；原指引仍允许审慎参考用量，不能解读为全面取消指标。",
+      "category": "tip",
+      "quote": "Document why, share it with your community of peers, bring it to your manager, and work to find solutions.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "编码",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-29T17:00:35+08:00"
     }
   ]
 }
