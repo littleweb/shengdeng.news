@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "articleId": "r2cf23206607f40daee574c46",
+  "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
+  "fetchedAt": "2026-10-29T09:12:59.757Z",
+  "sourceHtml": "<p>28th October 2026</p><blockquote><p>If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can explain where AI does not yet help their work is demonstrating the judgement we are asking for.</p></blockquote><p>— <a href=\"https://www.aboutamazon.com/news/company-news/amazon-software-engineer-role-guideline-ai\">Terk Terkowitz</a>, <span>An update from Amazon engineering leadership on the role of the developer in the age of AI</span></p>",
+  "sourceHash": "18465943ed521bb2c2be9a742923eec5e1126deff70f3e09bfe2ec377a13858a",
+  "language": "und",
+  "translation": {
+    "method": "local-codex",
+    "translatedAt": "2026-10-29T09:13:32.378Z",
+    "html": "<p>2026年10月28日</p><blockquote><p>如果你目前的工作无法从现有的 AI 工具中受益，这是一个发现，而非失败。记录原因，与同行社群分享，向你的主管反映，并努力寻找解决方案。能够解释 AI 在哪些方面尚未对自己的工作有所帮助的工程师，正是在展现我们所要求的判断力。</p></blockquote><p>— <a href=\"https://www.aboutamazon.com/news/company-news/amazon-software-engineer-role-guideline-ai\">Terk Terkowitz</a>，<span>亚马逊工程领导层关于 AI 时代开发者角色的最新说明</span></p>",
+    "complete": true
+  }
+}
