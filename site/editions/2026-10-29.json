@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "researchedAt": "2026-10-29T13:33:32+08:00",
+  "researchedAt": "2026-10-29T15:48:15+08:00",
   "items": [
     {
       "sourceId": "rss-the-decoder",
@@ -1289,6 +1289,89 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-29T13:33:32+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-10-29T08:59:26+08:00",
+      "url": "https://www.qbitai.com/2026/10/506246.html",
+      "title": "2026款理想i6搭载自研M100芯片，VLA 2.5将随OTA推送",
+      "summary": "2026款理想i6搭载自研马赫M100芯片，官方标称单颗算力1280 TOPS；马赫VLA 2.5采用3D ViT视觉感知架构，将随OTA 9.2向马赫平台车型推送。指导价24.98万元，首销权益价23.98万元，双芯片套装另行选装。辅助驾驶效果尚未独立实测。",
+      "reason": "自研AI芯片进入主力车型，值得关注软硬件协同落地。正文时间与原站订阅一致，另有媒体交叉报道；性能数字为发布会口径，软件更新仍须等待推送。",
+      "category": "ai-products",
+      "quote": "马赫M100芯片，正式进入i6",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "国内AI",
+        "AI硬件",
+        "AI产品",
+        "端侧"
+      ],
+      "selected": true,
+      "event": {
+        "key": "li-auto-i6-m100-vla25-2026-10-28",
+        "title": "2026款理想i6发布及马赫智能平台升级",
+        "factKey": "i6-m100-launch-vla25-ota-announcement",
+        "factTitle": "新款i6搭载M100并公布VLA 2.5推送安排"
+      },
+      "addedAt": "2026-10-29T15:48:15+08:00"
+    },
+    {
+      "sourceId": "ithome",
+      "sourceName": "IT之家",
+      "date": "2026-10-28T20:24:02+08:00",
+      "url": "https://www.ithome.com/1/019/168.htm",
+      "title": "IT之家交叉确认新款i6的M100芯片与VLA更新安排",
+      "summary": "问舟的发布会报道确认，新款i6搭载马赫M100芯片，单颗标称1280 TOPS；VLA 2.5将随OTA 9.2推送。报道同时列出双芯片套装为选装，首销权益价适用至11月30日。",
+      "reason": "与量子位报道互证芯片配置、价格条件及软件推送安排，仅作同事实补充；参数仍来自发布会，不能视为独立性能测试。",
+      "category": "ai-products",
+      "quote": "马赫 VLA 2.5 版本将随 OTA 9.2 推送",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "国内AI",
+        "AI硬件",
+        "AI产品",
+        "端侧"
+      ],
+      "selected": false,
+      "event": {
+        "key": "li-auto-i6-m100-vla25-2026-10-28",
+        "title": "2026款理想i6发布及马赫智能平台升级",
+        "factKey": "i6-m100-launch-vla25-ota-announcement",
+        "factTitle": "新款i6搭载M100并公布VLA 2.5推送安排"
+      },
+      "addedAt": "2026-10-29T15:48:15+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-10-28T16:59:00+08:00",
+      "url": "https://www.qbitai.com/2026/10/506055.html",
+      "title": "MMDesign披露分子设计实验：19个项目中18个找到结合分子",
+      "summary": "量子位授权报道介绍分子之心MMDesign的扩展实验，覆盖18个靶点、纳米抗体和大环肽两类分子，共19个项目。其中18个项目至少得到一个结合分子；453个受测候选中139个确认结合，候选命中率为30.7%。这些是早期实验结果，不能等同临床疗效或成药成功。",
+      "reason": "报道区分项目成功率与候选命中率，提供了湿实验验证线索。正文日期与原站订阅一致；属于企业授权稿，技术报告暂不可读，尚缺独立复现与临床证据。",
+      "category": "paper",
+      "quote": "19个项目18个获得可结合分子",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "论文/研究",
+        "国内AI",
+        "AI赛道"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-29T15:48:15+08:00"
     }
   ]
 }
