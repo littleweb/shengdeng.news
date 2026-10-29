@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "researchedAt": "2026-10-30T05:35:00+08:00",
+  "researchedAt": "2026-10-29T22:43:54Z",
   "items": [
     {
       "sourceId": "rss-nvidia-blog",
@@ -567,6 +567,96 @@
         "factTitle": "双方宣布全现金并购协议，交割仍需股东及反垄断批准"
       },
       "addedAt": "2026-10-30T05:35:00+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-29T15:25:27.000Z",
+      "url": "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/",
+      "title": "Mistral Large 4正式版评测：输出更快，综合能力提升有限",
+      "summary": "Maximilian Schreiner报道，Artificial Analysis对Large 4 high档的综合指数评分为26，预览版为25；输出速度由约111升至161 Token/秒，指数每任务成本由5.54美元降至2.06美元。结果补充了权重开放消息之外的能力与成本取舍，不能等同真实业务任务的速度或费用。",
+      "reason": "补充正式版的第三方评测与成本变化。已通读署名原文并核对原站精确发布时间；结果限指定推理档位与评测条件，未自行复测。",
+      "category": "ai-models",
+      "quote": "The model generates 161 tokens per second, up from 111 for the preview.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "评测/基准",
+        "编码",
+        "推理",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "mistral-large-4-2026-10",
+        "title": "Mistral Large 4开放权重",
+        "factKey": "large-4-final-independent-evaluation-2026-10-29",
+        "factTitle": "第三方评测补充Large 4正式版综合能力、速度与任务成本"
+      },
+      "addedAt": "2026-10-29T22:43:54Z"
+    },
+    {
+      "sourceId": "uk-government",
+      "sourceName": "英国政府 GOV.UK",
+      "date": "2026-10-29",
+      "url": "https://www.gov.uk/government/publications/ai-adoption-survey-2026/ai-adoption-survey-report-2026-executive-summary",
+      "title": "英国3503家企业调查：AI采用率升至32%，成本影响仍分化",
+      "summary": "英国政府发布第二轮AI采用调查执行摘要，电话调查于2026年1月7日至4月21日访问3503家企业。32%企业自报使用至少一种AI技术，2025年为16%；采用者中50%称整体生产率提高，运营成本方面24%称下降、64%称暂无直接财务影响。数据反映调查期，属于企业自报。",
+      "reason": "为企业AI采用与回报提供带样本口径的证据。已通读官方执行摘要；英国当地仍为发布日期，保留官网日期精度，结果不能用于认定因果收益。",
+      "category": "paper",
+      "quote": "Half of adopters (50%) reported an overall increase in productivity",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "uk-ai-adoption-survey-2026-10-29",
+        "title": "英国政府发布2026年AI采用调查",
+        "factKey": "wave-two-business-adoption-survey-results",
+        "factTitle": "3503家企业调查披露AI采用率、生产率与成本变化"
+      },
+      "addedAt": "2026-10-29T22:43:54Z"
+    },
+    {
+      "sourceId": "rss-mistral",
+      "sourceName": "Mistral AI",
+      "date": "2026-10-29T12:00:07.000Z",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "title": "Mistral官方确认Large 4开放权重及模型服务商许可条件",
+      "summary": "Mistral公告确认，本次开放的是继续训练后的Large 4权重，提供低、中、高三种推理模式。模型可使用、修改、微调及商业化，但经营模型即服务业务的企业须事先取得单独商业许可；此条仅补充已归档发布的官方交叉证据。",
+      "reason": "官方原文明确版本关系与许可边界。原文正文＋原站 RSS 时间核验，仅作交叉记录，不重复精选。",
+      "category": "ai-models",
+      "quote": "businesses that operate a Model-as-a-Service offering must obtain a separate commercial license from Mistral",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "开源生态",
+        "编码",
+        "多模态",
+        "推理",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "mistral-large-4-2026-10",
+        "title": "Mistral Large 4开放权重",
+        "factKey": "large-4-open-weights-release-2026-10-29",
+        "factTitle": "Mistral Large 4结束仅API预览阶段并开放权重"
+      },
+      "addedAt": "2026-10-29T22:43:54Z"
     }
   ]
 }
