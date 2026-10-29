@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "researchedAt": "2026-10-29T11:17:41+08:00",
+  "researchedAt": "2026-10-29T12:23:58+08:00",
   "items": [
     {
       "sourceId": "rss-the-decoder",
@@ -1085,6 +1085,65 @@
         "factTitle": "调查披露AI投入意愿、回报与数据准备度"
       },
       "addedAt": "2026-10-29T11:17:41+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-10-29T10:18:28+08:00",
+      "url": "https://www.qbitai.com/2026/10/505934.html",
+      "title": "扩散智能推出Clover预览模型，面向编码与工具调用",
+      "summary": "Clover-35B-A3B-Preview采用MoE架构，总参数350亿、每个Token激活约30亿参数，支持思考模式。量子位展示了交互网页和简历代码生成体验，并介绍其连续工具调用能力。基准与速度比较主要来自团队测试，不能直接视为所有任务中的实际收益。",
+      "reason": "扩散语言模型开始提供可下载部署的编码与智能体能力。原文正文＋原站 RSS 时间核验，并核对官方发布说明；开放权重已确认，在线体验仍需申请，性能优势未独立复测。",
+      "category": "ai-models",
+      "quote": "总参数350亿，每个token激活约30亿参数",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "模型发布",
+        "国内AI",
+        "Agent",
+        "编码",
+        "开源生态"
+      ],
+      "selected": true,
+      "event": {
+        "key": "diffuspace-clover-preview-2026-10-28",
+        "title": "扩散智能发布并开源Clover预览模型",
+        "factKey": "clover-35b-a3b-preview-release",
+        "factTitle": "Clover-35B-A3B-Preview发布，面向编码与工具调用"
+      },
+      "addedAt": "2026-10-29T12:23:58+08:00"
+    },
+    {
+      "sourceId": "thepaper",
+      "sourceName": "澎湃新闻",
+      "date": "2026-10-28T22:58+08:00",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34354024",
+      "title": "澎湃交叉报道Clover发布及开放权重",
+      "summary": "记者范佳来报道，扩散智能于10月28日发布并开源Clover-35B-A3B-Preview，总参数350亿、激活参数30亿。报道中的模型性能与生成速度比较属于发布方测试结果。",
+      "reason": "记者署名原文与官方说明共同支持模型发布、开源及参数规模，仅作同事件交叉证据，不把媒体转述当作独立性能评测。",
+      "category": "ai-models",
+      "quote": "采用MoE架构，总参数350亿、激活30亿。",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "模型发布",
+        "国内AI",
+        "Agent",
+        "开源生态"
+      ],
+      "selected": false,
+      "event": {
+        "key": "diffuspace-clover-preview-2026-10-28",
+        "title": "扩散智能发布并开源Clover预览模型",
+        "factKey": "clover-35b-a3b-preview-release",
+        "factTitle": "Clover-35B-A3B-Preview发布，面向编码与工具调用"
+      },
+      "addedAt": "2026-10-29T12:23:58+08:00"
     }
   ]
 }
