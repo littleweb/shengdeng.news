@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "researchedAt": "2026-10-30T05:26:55+08:00",
+  "researchedAt": "2026-10-30T05:35:00+08:00",
   "items": [
     {
       "sourceId": "rss-nvidia-blog",
@@ -395,6 +395,178 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-30T05:26:55+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-29T20:01:27.000Z",
+      "url": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/",
+      "title": "OpenAI提高Pro套餐Work与Codex用量，取消Pro 200降额安排",
+      "summary": "Pro 100和Pro 500的Work与Codex额度翻倍。Pro 200取消此前计划的降额，原有高额度用户保持不变，低额度用户提高至相同水平。Plus不变；额度翻倍不代表可完成任务数必然翻倍。",
+      "reason": "直接影响重度用户的套餐使用。完整报道与官方10月29日更新相互印证，保留Pro 200不同用户的适用区别。",
+      "category": "ai-products",
+      "quote": "The Plus plan stays the same.",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-pro-work-codex-allowance-2026-10-29",
+        "title": "OpenAI提高Pro套餐Work与Codex额度",
+        "factKey": "pro-allowance-increase-pro200-reduction-cancelled",
+        "factTitle": "Pro 100与500额度翻倍，Pro 200取消降额并统一额度"
+      },
+      "addedAt": "2026-10-30T05:35:00+08:00"
+    },
+    {
+      "sourceId": "openai-help-release-notes",
+      "sourceName": "OpenAI Help Center",
+      "date": "2026-10-29",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "title": "OpenAI官方更新明确Pro 200额度调整的适用人群",
+      "summary": "官方更新确认，Pro 100与Pro 500的Work、Codex额度提高一倍；Pro 200已有高额度用户继续保留，低额度用户自10月29日起翻倍至同一水平。",
+      "reason": "官方记录直接支持套餐调整及适用条件。仅有日期，作为48小时内同事件交叉证据保留。",
+      "category": "ai-products",
+      "quote": "If you already had the higher Work and Codex allowance, you keep it.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "openai-pro-work-codex-allowance-2026-10-29",
+        "title": "OpenAI提高Pro套餐Work与Codex额度",
+        "factKey": "pro-allowance-increase-pro200-reduction-cancelled",
+        "factTitle": "Pro 100与500额度翻倍，Pro 200取消降额并统一额度"
+      },
+      "addedAt": "2026-10-30T05:35:00+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-10-29T18:20:27.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act/",
+      "title": "Epsilon复盘AI界面测试：保留确定性回归，验证成功后复用执行轨迹",
+      "summary": "AWS与Epsilon团队分享自然语言界面测试实践：保留Playwright回归测试，另加意图驱动测试，逐步保存截图和结果，并复用成功轨迹。内部示例称，18步流程编写需5至10分钟；所谓100%回放通过率建立在初次探索成功、通常经过4至5轮提示调整之后。",
+      "reason": "提供测试分工、轨迹复用和逐步核验方法。署名全文与原站时间已核对，提速和通过率均为团队内部结果，未独立复测。",
+      "category": "tip",
+      "quote": "Playwright remains their regression backbone today.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "编码",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-30T05:35:00+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-10-29T18:14:17.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro/",
+      "title": "AWS分享AI迁移旧代码方法：先建行为对照，再修改迁移规则",
+      "summary": "Sarat Guttikonda等作者介绍PHP迁移Java的流程：先静态扫描模型与歧义，再用相同请求比较新旧系统行为；重复错误应反馈到规则文件后重新生成。方法可供其他迁移参考，但公开示例仅迁移37个模型中的4个，且尚未建立所倡导的等价性验证。",
+      "reason": "可借鉴先验证行为、再批量转换的做法。已核对署名全文和精确发布时间，示例仍有关键验证缺口，不能视为完成生产迁移。",
+      "category": "tip",
+      "quote": "the parity harness was never built for this slice",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "编码",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-30T05:35:00+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-29T19:56:19.000Z",
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "title": "Thrive Holdings签约收购ADT，交易尚待股东与反垄断批准",
+      "summary": "获OpenAI投资并合作的Thrive Holdings签约收购ADT。ADT公告列明股权价值约76亿美元、企业价值约153亿美元，预计2027年一季度交割，仍需批准。双方尚未公布具体AI安防新品。",
+      "reason": "涉及AI投资方进入家庭安防业务。报道写作已收购，但ADT公告明确仍处签约阶段，交易及产品成效尚未落地。",
+      "category": "industry",
+      "quote": "about $7.6 billion in equity",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "thrive-adt-acquisition-agreement-2026-10-29",
+        "title": "Thrive Holdings签约收购ADT",
+        "factKey": "definitive-cash-merger-agreement-announcement",
+        "factTitle": "双方宣布全现金并购协议，交割仍需股东及反垄断批准"
+      },
+      "addedAt": "2026-10-30T05:35:00+08:00"
+    },
+    {
+      "sourceId": "adt-newsroom",
+      "sourceName": "ADT Newsroom",
+      "date": "2026-10-29",
+      "url": "https://newsroom.adt.com/financial/adt-to-be-acquired-by-thrive-holdings-in-15-3-billion-transaction",
+      "title": "ADT官方公告明确并购尚未完成及客户数据条件",
+      "summary": "ADT确认双方已签署最终协议，交割前继续独立运营，预计2027年一季度完成。公告同时承诺现有数据和隐私政策保持不变，未经客户许可不新增数据共享。",
+      "reason": "当事方公告明确交易阶段、审批及数据条件。仅有日期，作为48小时内同事件交叉证据保留。",
+      "category": "industry",
+      "quote": "Until the transaction closes, ADT will continue to operate independently.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "thrive-adt-acquisition-agreement-2026-10-29",
+        "title": "Thrive Holdings签约收购ADT",
+        "factKey": "definitive-cash-merger-agreement-announcement",
+        "factTitle": "双方宣布全现金并购协议，交割仍需股东及反垄断批准"
+      },
+      "addedAt": "2026-10-30T05:35:00+08:00"
     }
   ]
 }
