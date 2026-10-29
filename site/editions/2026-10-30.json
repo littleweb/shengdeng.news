@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "researchedAt": "2026-10-29T22:43:54Z",
+  "researchedAt": "2026-10-30T07:51:39+08:00",
   "items": [
     {
       "sourceId": "rss-nvidia-blog",
@@ -657,6 +657,59 @@
         "factTitle": "Mistral Large 4结束仅API预览阶段并开放权重"
       },
       "addedAt": "2026-10-29T22:43:54Z"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-29T23:42:22.000Z",
+      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "title": "AWS收入同比增39%，亚马逊称2027年资本支出将明显增加",
+      "summary": "TechCrunch报道，Andy Jassy在亚马逊季度财报电话会上表示，AWS收入同比增长39%，年化收入运行率达1840亿美元。公司维持2026年约2200亿美元现金资本支出计划，大部分用于AWS，并预计2027年明显增加。AWS在2027、2028年增长超过40%的说法属于管理层预测，尚未兑现。",
+      "reason": "提供观察AI算力投入与云业务增长的新数据。已通读署名报道并核对精确发布时间；不能把全部云收入增长归因于AI，也不能将支出计划视为已实现回报。",
+      "category": "industry",
+      "quote": "expect to spend meaningfully more in 2027",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "amazon-q3-2026-results-2026-10-29",
+        "title": "亚马逊披露季度云业务增长与资本支出安排",
+        "factKey": "q3-aws-growth-and-capex-outlook",
+        "factTitle": "AWS收入同比增39%，亚马逊预计2027年资本支出明显增加"
+      },
+      "addedAt": "2026-10-30T07:51:39+08:00"
+    },
+    {
+      "sourceId": "rss-latent-space",
+      "sourceName": "Latent Space",
+      "date": "2026-10-29T16:00:00.000Z",
+      "url": "https://latent.space/p/elorian/",
+      "title": "Elorian补充Glimpse视觉计数自测，单次成绩与三轮均值口径不同",
+      "summary": "Richard MacManus采访Elorian CEO Andrew Dai，补充了Glimpse在DecoyCount上的测试口径。Dai称，模型在1660道题上的内部准确率为50.48%，测试未使用提示线索、智能体或工具框架，且仅运行一次；论文中六个对照模型采用三轮均值。该结果未列入论文，不能直接据此认定全面领先。",
+      "reason": "新增采访明确了厂商成绩的测试条件，有助于判断视觉推理宣传。已通读署名原文并核对精确发布时间；单次内部自测尚无独立复测，未将此前论文重报为新发布。",
+      "category": "ai-models",
+      "quote": "come from a single run of the model on its own",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "评测/基准",
+        "多模态",
+        "推理",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-30T07:51:39+08:00"
     }
   ]
 }
