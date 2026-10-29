@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "researchedAt": "2026-10-30T01:04:20+08:00",
+  "researchedAt": "2026-10-30T02:11:04+08:00",
   "items": [
     {
       "sourceId": "rss-nvidia-blog",
@@ -60,6 +60,125 @@
         "factTitle": "Dream披露1700万美元种子轮及10个建筑项目应用"
       },
       "addedAt": "2026-10-30T01:04:20+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-29T17:54:38.000Z",
+      "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+      "title": "Granola推出免费语音输入，目前支持Mac任意应用",
+      "summary": "Granola将会议记录之外的语音输入功能推向Mac用户，按Fn键即可口述，由工具整理格式并写入当前应用，可用于邮件、消息和提示词。官方功能页确认Basic用户也可免费使用、不限字数；Windows、iOS和Android仍待推出，尚无独立准确率或效率测试。",
+      "reason": "为日常输入提供直接可用的新选择。已核对报道全文、精确发布时间及官方功能页，免费条件与设备范围一致；效率宣传未独立复测。",
+      "category": "ai-products",
+      "quote": "Unlimited words, for free.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "语音",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "granola-voice-typing-launch-2026-10-29",
+        "title": "Granola推出免费跨应用语音输入",
+        "factKey": "mac-voice-typing-free-unlimited-launch",
+        "factTitle": "Granola向Mac用户开放免费不限字数语音输入"
+      },
+      "addedAt": "2026-10-30T02:11:04+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-10-29T17:00:00.000Z",
+      "url": "https://openai.com/index/updated-model-spec",
+      "title": "OpenAI重组Model Spec，新增上下文与自主权指导并撤去多数风格细则",
+      "summary": "OpenAI更新公开行为规范，围绕忠于人类意图、减少伤害、诚实透明、人类自主权和关怀五项价值重组内容，增加上下文判断、社会规范及行动副作用指导，并撤去多数详细文风要求。官方强调，这是希望模型达到的行为目标，现有模型尚未完全体现这些要求。",
+      "reason": "明确智能体理解意图、保留用户选择和说明副作用的要求。原文正文＋原站 RSS 时间核验；规范更新不代表所有模型行为已经同步改变。",
+      "category": "industry",
+      "quote": "our models do not yet fully reflect it.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "安全/对齐",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-model-spec-update-2026-10-29",
+        "title": "OpenAI更新Model Spec的价值结构与行为指导",
+        "factKey": "five-values-context-agency-style-guidance-revision",
+        "factTitle": "规范围绕五项价值重组并新增上下文与自主权指导"
+      },
+      "addedAt": "2026-10-30T02:11:04+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-10-29T16:54:52.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway/",
+      "title": "MoEngage复盘400个API接入智能体：身份留在模型之外，工具先授权再发现",
+      "summary": "AWS与MoEngage共同介绍内部工具架构：产品团队维护OpenAPI描述，平台团队统一管理MCP、私网连接与授权；租户和用户身份通过服务端请求头传递，不作为模型参数，工具目录先按权限过滤，再按任务搜索。案例称系统已运行三个月，在七个区域服务10个内部智能体，节省约六个月工程工作量属于团队估算。",
+      "reason": "提供可迁移的身份隔离、工具授权与按需发现方法。已通读双方共写的官方正文并核对精确时间；工程节省为案例自述，未独立验证。",
+      "category": "tip",
+      "quote": "Identity can’t be an agent’s decision.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "MCP/工具调用",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-30T02:11:04+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-10-29T09:00:00.000Z",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "title": "OpenAI披露扩展后的智能体监控，说明人工响应与API覆盖缺口",
+      "summary": "OpenAI介绍从激活探针、模型审查到调查智能体和外部日志核查的多层监控，称覆盖已扩展至训练、评估、内部使用及部分外部部署。报告同时说明，内部Codex当前未启用自动呼叫人工响应；外部Responses API自动暂停依赖受支持的会话追踪机制，Chat Completions不在覆盖内。此前独立红队发现的问题，多数据称已修补，仍有一项处理中。",
+      "reason": "补充此前监控红队事件的整改进展和实际覆盖边界。原文正文＋原站 RSS 时间核验；当前修补效果仍为官方说明，未取得新的独立复测。",
+      "category": "paper",
+      "quote": "This monitoring system does not cover Chat Completions API requests.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "安全/对齐",
+        "Agent",
+        "部署/工程",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-internal-agent-monitoring-redteam-2026-10-22",
+        "title": "Redwood与METR公开OpenAI内部智能体监控红队结果",
+        "factKey": "expanded-monitoring-coverage-response-disclosure-2026-10-29",
+        "factTitle": "OpenAI披露扩展监控、整改进展及响应与覆盖限制"
+      },
+      "addedAt": "2026-10-30T02:11:04+08:00"
     }
   ]
 }
