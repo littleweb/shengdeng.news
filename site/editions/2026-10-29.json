@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "researchedAt": "2026-10-29T12:24:12Z",
+  "researchedAt": "2026-10-29T21:31:42+08:00",
   "items": [
     {
       "sourceId": "rss-the-decoder",
@@ -1625,6 +1625,127 @@
         "factTitle": "披露数千万美元Pre-A轮投资及数据服务经营规模"
       },
       "addedAt": "2026-10-29T12:24:12Z"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-29T13:00:00.000Z",
+      "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+      "title": "Deepgram宣布收购Daily，双方承诺Pipecat继续开源",
+      "summary": "Ivan Mehta报道，Deepgram宣布正在收购实时音视频基础设施公司Daily，交易金额未披露。Daily维护的Pipecat可串联语音识别、语言模型和语音合成。双方原站公告同时确认，将保持Pipecat开源与供应商中立，并设立独立基金会；公告未明确交易交割日期。",
+      "reason": "收购影响语音Agent基础设施与开源治理。已核对报道全文、精确发布时间及双方公告；保持开源属于公开承诺。",
+      "category": "industry",
+      "quote": "The companies didn’t disclose the deal amount but said that they will keep Pipecat open-source.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "语音",
+        "Agent",
+        "开源生态",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "deepgram-daily-acquisition-2026-10-29",
+        "title": "Deepgram宣布收购Daily并安排Pipecat开源治理",
+        "factKey": "daily-acquisition-open-source-foundation-announcement",
+        "factTitle": "宣布收购Daily、保持Pipecat开源并设立独立基金会"
+      },
+      "addedAt": "2026-10-29T21:31:42+08:00"
+    },
+    {
+      "sourceId": "daily-blog",
+      "sourceName": "Daily 官方博客",
+      "date": "2026-10-29",
+      "url": "https://www.daily.co/blog/deepgram-is-acquiring-daily-and-establishing-an-independent-pipecat-foundation/",
+      "title": "Daily创始人确认加入Deepgram，Pipecat拟设独立基金会",
+      "summary": "Kwindla Hultman Kramer表示，Daily团队将加入Deepgram，现有产品与服务会继续获得支持。Pipecat保持开源和供应商中立，拟设立的独立基金会由覆盖实时AI生态的指导委员会管理，包括Deepgram的竞争方。",
+      "reason": "创始人署名全文确认同一收购与治理安排。页面仅标日期，作为48小时内交叉证据，不重复进入精选。",
+      "category": "industry",
+      "quote": "We are establishing an independent Pipecat Foundation.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "语音",
+        "Agent",
+        "开源生态",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "deepgram-daily-acquisition-2026-10-29",
+        "title": "Deepgram宣布收购Daily并安排Pipecat开源治理",
+        "factKey": "daily-acquisition-open-source-foundation-announcement",
+        "factTitle": "宣布收购Daily、保持Pipecat开源并设立独立基金会"
+      },
+      "addedAt": "2026-10-29T21:31:42+08:00"
+    },
+    {
+      "sourceId": "deepgram-blog",
+      "sourceName": "Deepgram 官方博客",
+      "date": "2026-10-29",
+      "url": "https://deepgram.com/blog/daily-pipecat-deepgram",
+      "title": "Deepgram公告确认Pipecat继续采用现有开源许可",
+      "summary": "Deepgram确认正在收购Daily，并表示Pipecat将保持现有BSD V2许可、免费使用及供应商中立，双方正在建立独立基金会。公告中的新Voice Agent Platform仍待后续预览及可用性说明，不能视为已经全面上线。",
+      "reason": "收购方完整公告与Daily原文相互印证。保留页面日期精度，作为同事件交叉证据；平台规划不写成落地结果。",
+      "category": "industry",
+      "quote": "Following the acquisition, the Daily team will join Deepgram.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "语音",
+        "Agent",
+        "开源生态",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "deepgram-daily-acquisition-2026-10-29",
+        "title": "Deepgram宣布收购Daily并安排Pipecat开源治理",
+        "factKey": "daily-acquisition-open-source-foundation-announcement",
+        "factTitle": "宣布收购Daily、保持Pipecat开源并设立独立基金会"
+      },
+      "addedAt": "2026-10-29T21:31:42+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-29T13:00:00.000Z",
+      "url": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-subscriptions-and-update-delivery-instructions/",
+      "title": "Alexa新增购物操作，可调整订阅配送频率与送货说明",
+      "summary": "TechCrunch简讯称，Amazon为Alexa增加超过100项购物相关能力，包括编辑购物清单、调整商品订阅配送频率、修改送货说明，以及查询Prime、Audible订阅和付款问题。报道未列明这些功能在各地区、账户与设备上的具体开放条件。",
+      "reason": "让语音助手承接更多实际购物操作。原站简讯正文与精确发布时间可核对；开放范围和执行效果仍需用户确认。",
+      "category": "ai-products",
+      "quote": "Users also can now ask Alexa about their Prime or Audible subscriptions",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "语音",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "amazon-alexa-shopping-update-2026-10-29",
+        "title": "Alexa扩展购物清单、订阅与配送管理能力",
+        "factKey": "shopping-subscription-delivery-capabilities-update",
+        "factTitle": "Alexa新增订阅配送调整、清单与送货说明管理"
+      },
+      "addedAt": "2026-10-29T21:31:42+08:00"
     }
   ]
 }
