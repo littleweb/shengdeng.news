@@ -1,6 +1,6 @@
 {
   "kind": "skills",
-  "capturedAt": "2026-10-28T16:40:14.031Z",
+  "capturedAt": "2026-10-29T17:05:32.001Z",
   "sourceName": "skills.sh",
   "sourceUrl": "https://www.skills.sh/",
   "metric": "累计安装量",
@@ -81,8 +81,8 @@
       "rank": 10,
       "name": "reddit-automation",
       "owner": "flowkit-labs/skills",
-      "value": 1100000,
-      "displayValue": "1.1M",
+      "value": 1200000,
+      "displayValue": "1.2M",
       "url": "https://www.skills.sh/flowkit-labs/skills/reddit-automation"
     },
     {
@@ -95,6 +95,14 @@
     },
     {
       "rank": 12,
+      "name": "hyperframes-registry",
+      "owner": "heygen-com/hyperframes",
+      "value": 1100000,
+      "displayValue": "1.1M",
+      "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-registry"
+    },
+    {
+      "rank": 13,
       "name": "setup-matt-pocock-skills",
       "owner": "mattpocock/skills",
       "value": 1100000,
@@ -102,20 +110,12 @@
       "url": "https://www.skills.sh/mattpocock/skills/setup-matt-pocock-skills"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "name": "handoff",
       "owner": "mattpocock/skills",
       "value": 1100000,
       "displayValue": "1.1M",
       "url": "https://www.skills.sh/mattpocock/skills/handoff"
-    },
-    {
-      "rank": 14,
-      "name": "hyperframes-registry",
-      "owner": "heygen-com/hyperframes",
-      "value": 1100000,
-      "displayValue": "1.1M",
-      "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-registry"
     },
     {
       "rank": 15,
@@ -127,6 +127,14 @@
     },
     {
       "rank": 16,
+      "name": "grilling",
+      "owner": "mattpocock/skills",
+      "value": 1000000,
+      "displayValue": "1.0M",
+      "url": "https://www.skills.sh/mattpocock/skills/grilling"
+    },
+    {
+      "rank": 17,
       "name": "triage",
       "owner": "mattpocock/skills",
       "value": 1000000,
@@ -134,20 +142,12 @@
       "url": "https://www.skills.sh/mattpocock/skills/triage"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "name": "prototype",
       "owner": "mattpocock/skills",
       "value": 1000000,
       "displayValue": "1.0M",
       "url": "https://www.skills.sh/mattpocock/skills/prototype"
-    },
-    {
-      "rank": 18,
-      "name": "grilling",
-      "owner": "mattpocock/skills",
-      "value": 1000000,
-      "displayValue": "1.0M",
-      "url": "https://www.skills.sh/mattpocock/skills/grilling"
     },
     {
       "rank": 19,
@@ -161,8 +161,8 @@
       "rank": 20,
       "name": "hyperframes-core",
       "owner": "heygen-com/hyperframes",
-      "value": 930600,
-      "displayValue": "930.6K",
+      "value": 930700,
+      "displayValue": "930.7K",
       "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-core"
     }
   ]

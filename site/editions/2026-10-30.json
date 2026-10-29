@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-30",
+  "researchedAt": "2026-10-30T01:04:20+08:00",
+  "items": [
+    {
+      "sourceId": "rss-nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "date": "2026-10-29T16:00:35.000Z",
+      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+      "title": "NVIDIA分享智能体仿真实践：逐步扩容压测，再定位性能瓶颈",
+      "summary": "NVIDIA团队展示用智能体编写仿真应用并反复验证的方法。仓库案例通过并行处理物理计算、渲染和视频，在80条传送带、40个机械臂及800个箱子的两分钟测试中维持1080p、30帧；继续扩容后，瓶颈转向物理与控制流程。其他案例明确指出，仿真通过仍需真实设备校准。",
+      "reason": "提供了扩容、测量和定位瓶颈的具体做法。已通读官方全文并核对精确发布时间；性能来自团队测试，尚不能外推为实机效果。",
+      "category": "tip",
+      "quote": "Running physics calculations, image rendering and video preparation concurrently restored performance and enabled further scaling.",
+      "tier": "T1",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "部署/工程",
+        "具身智能",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-30T01:04:20+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-29T16:21:00.000Z",
+      "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+      "title": "Dream公开亮相，称建筑AI产品已用于10个项目",
+      "summary": "Marina Temkin报道，前Palantir高管创办的Dream披露1700万美元种子轮融资，开发面向建筑设计与工程的世界模型。创始人称，模型使用逾一亿平方英尺建筑资料训练，产品已开始销售，并用于加州和得州10个在建项目；报道未提供营收金额或独立工程验收结果。",
+      "reason": "建筑AI出现付费销售与具体项目规模的线索，值得跟踪。已核对署名全文和精确发布时间；部署数量与模型能力主要为创始人自述，融资不代表经营成功。",
+      "category": "industry",
+      "quote": "The platform is already deployed across 10 active projects in Texas and California.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI创业",
+        "AI赛道",
+        "AI商业化",
+        "AI产品",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "dream-built-world-models-launch-2026-10-29",
+        "title": "Dream公开建筑世界模型及融资和项目进展",
+        "factKey": "dream-public-launch-seed-project-disclosure",
+        "factTitle": "Dream披露1700万美元种子轮及10个建筑项目应用"
+      },
+      "addedAt": "2026-10-30T01:04:20+08:00"
+    }
+  ]
+}
