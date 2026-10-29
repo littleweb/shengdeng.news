@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "researchedAt": "2026-10-29T12:23:58+08:00",
+  "researchedAt": "2026-10-29T13:33:32+08:00",
   "items": [
     {
       "sourceId": "rss-the-decoder",
@@ -1144,6 +1144,151 @@
         "factTitle": "Clover-35B-A3B-Preview发布，面向编码与工具调用"
       },
       "addedAt": "2026-10-29T12:23:58+08:00"
+    },
+    {
+      "sourceId": "web-zjol",
+      "sourceName": "浙江在线",
+      "date": "2026-10-28T21:14:15+08:00",
+      "url": "https://zjnews.zjol.com.cn/yc/qmt/202610/t20261028_31994593.shtml",
+      "title": "浙江发布十条OPC支持举措，杭州等四地先行先试",
+      "summary": "浙江在线记者李心怡报道，浙江推进杭州、宁波、温州、嘉兴四地人工智能OPC先行先试，支持方向包括算力券与Token券、数据和模型供给、场景订单及创业服务。报道未列出统一补贴金额与申请窗口，不能据此认定已可申领。",
+      "reason": "为AI个人创业提供具体政策方向。已核对记者原稿、发布时间及中新网独立报道；支持举措不等于补贴已经兑付。",
+      "category": "industry",
+      "quote": "支持算力券、Token券补贴",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "政策/监管",
+        "国内AI",
+        "AI创业",
+        "AI赛道"
+      ],
+      "selected": true,
+      "event": {
+        "key": "zhejiang-opc-pilot-ten-measures-2026-10-28",
+        "title": "浙江推进四地人工智能OPC先行先试",
+        "factKey": "four-city-ten-measures-announcement",
+        "factTitle": "浙江发布十条举措支持杭州等四地人工智能OPC试点"
+      },
+      "addedAt": "2026-10-29T13:33:32+08:00"
+    },
+    {
+      "sourceId": "web-chinanews",
+      "sourceName": "中国新闻网",
+      "date": "2026-10-28T21:22:38+08:00",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-28/10722426.shtml",
+      "title": "中新网交叉确认浙江四地OPC试点及支持方向",
+      "summary": "中新网蓝伊旎报道同场推进会，确认四地试点与十条支持举措，并介绍信用贷款、保险、跨境服务和合规指导方向。有关资源开放和补贴属于政策支持安排，报道未提供实际发放数据。",
+      "reason": "独立原稿与发布时间可核对，用于确认同次政策发布，不重复列为精选；具体申领条件仍待明确。",
+      "category": "industry",
+      "quote": "支持推行算力券、Token券补贴",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "政策/监管",
+        "国内AI",
+        "AI创业",
+        "AI赛道"
+      ],
+      "selected": false,
+      "event": {
+        "key": "zhejiang-opc-pilot-ten-measures-2026-10-28",
+        "title": "浙江推进四地人工智能OPC先行先试",
+        "factKey": "four-city-ten-measures-announcement",
+        "factTitle": "浙江发布十条举措支持杭州等四地人工智能OPC试点"
+      },
+      "addedAt": "2026-10-29T13:33:32+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-28T21:34:04.000Z",
+      "url": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key",
+      "title": "Akai展示AI编程改装采样器，固件开放范围仍待明确",
+      "summary": "The Verge的Terrence O’Brien报道，Akai在Sample Key预览中展示AI辅助编写的合成器模组，MPC Sample也被展示运行Claude生成的合成器。厂商向开发者提前提供设备并计划开放部分软件；设备仍处预览阶段，不能认定完整固件已经开源或普通用户已可使用。",
+      "reason": "展示AI编程用于实体乐器改装的具体案例。已核对全文、原站发布时间并与音乐媒体互证；演示效果未独立复测。",
+      "category": "ai-products",
+      "quote": "vibe-coded synths built by Claude",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI硬件",
+        "AI玩法",
+        "编码",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "akai-sample-key-firmware-preview-2026-10",
+        "title": "Akai展示Sample Key及社区固件改装",
+        "factKey": "sample-key-community-mods-preview",
+        "factTitle": "Akai展示Sample Key的AI辅助固件改装演示"
+      },
+      "addedAt": "2026-10-29T13:33:32+08:00"
+    },
+    {
+      "sourceId": "web-musicradar",
+      "sourceName": "MusicRadar",
+      "date": "2026-10-28",
+      "url": "https://www.musicradar.com/music-tech/akai-kicks-back-sample-key-teaser-lands-a-day-after-behringers-open-source-kick",
+      "title": "MusicRadar交叉核对Akai改装演示，提醒源码开放范围未明",
+      "summary": "Matt Mullen报道同批Sample Key演示，包括用Claude制作和弦演奏功能及自定义合成器。他指出，Akai尚未说明开放的是完整固件源码还是指定改装工具，也未公布价格与发售日期。",
+      "reason": "与The Verge互证同批演示及开放边界，仅作交叉证据。原文日期处于48小时核对范围，未独立复测设备。",
+      "category": "ai-products",
+      "quote": "modding will be limited to tools Akai provides",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI硬件",
+        "AI玩法",
+        "编码",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "akai-sample-key-firmware-preview-2026-10",
+        "title": "Akai展示Sample Key及社区固件改装",
+        "factKey": "sample-key-community-mods-preview",
+        "factTitle": "Akai展示Sample Key的AI辅助固件改装演示"
+      },
+      "addedAt": "2026-10-29T13:33:32+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-28T16:25:02.000Z",
+      "url": "https://the-decoder.com/openai-teases-dots-for-europe-but-its-berlin-devday-was-really-about-building-a-platform/",
+      "title": "OpenAI称Codex德国周活增至年初20倍，未公布绝对人数",
+      "summary": "The Decoder转述OpenAI在柏林DevDay Exchange披露的数据：德国Codex周活自2026年1月增长至20倍，近五分之一桌面用户会用Skills处理文档、演示和表格。公司未给出绝对人数，不能据此估算总体用户规模或付费收入。",
+      "reason": "提供编码智能体被用于办公任务的使用信号。已通读报道并核对原站发布时间；数字为OpenAI自述，未获独立验证。",
+      "category": "industry",
+      "quote": "OpenAI again didn't share absolute numbers.",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI产品",
+        "编码",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-29T13:33:32+08:00"
     }
   ]
 }
