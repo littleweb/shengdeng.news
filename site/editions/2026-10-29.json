@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "researchedAt": "2026-10-29T09:01:00+08:00",
+  "researchedAt": "2026-10-29T10:10:26+08:00",
   "items": [
     {
       "sourceId": "rss-the-decoder",
@@ -970,6 +970,91 @@
         "factTitle": "Google公开回应搜索回答问题并表示正在调查处理"
       },
       "addedAt": "2026-10-29T09:01:00+08:00"
+    },
+    {
+      "sourceId": "openrouter-blog",
+      "sourceName": "OpenRouter Blog",
+      "date": "2026-10-29",
+      "url": "https://openrouter.ai/blog/tutorials/extract-tables-from-pdf-llm/",
+      "title": "OpenRouter分享PDF抽表方法：检查空结果与输出截断",
+      "summary": "教程用严格JSON Schema定义表格行，并通过字段说明处理括号负数、脚注和合并单元格。五份合成PDF测试发现，扫描件走纯文本解析可能正常返回空数组，输出截断后修复JSON也可能掩盖缺行；应检查结束原因、行数及小计。样例使用付费模型，准确率和成本仅适用于该测试集。",
+      "reason": "已通读官方教程，原文署期为10月29日，保留日期精度。失败样例与校验方法可迁移到其他抽表流程；厂商测试仅覆盖五份合成PDF，本轮未复测。",
+      "category": "tip",
+      "quote": "so reject empty results.",
+      "tier": "T1",
+      "entity": "openrouter",
+      "subjects": [
+        "openrouter"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI产品",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-29T10:10:26+08:00"
+    },
+    {
+      "sourceId": "openrouter-blog",
+      "sourceName": "OpenRouter Blog",
+      "date": "2026-10-29",
+      "url": "https://openrouter.ai/blog/tutorials/prevent-prompt-injection/",
+      "title": "OpenRouter防注入实践：标记资料之外，还要检查工具调用",
+      "summary": "OpenRouter用四个模型测试文档中的恶意指令：仅标记资料为数据，仍有13/720次邮件攻击触发发信；加入Armor后，该测试集中的攻击邮件均被阻止。不过，用户认可文档请求却未明确收件人时，也出现误拦。教程还提醒，拦截结果本身可能含敏感参数，不能直接展示给用户。",
+      "reason": "已通读10月29日官方教程，给出工具授权、误拦与结果泄露的具体检查方法。效果来自厂商自建邮件实验，不能推定已解决所有提示注入问题，本轮未复测。",
+      "category": "tip",
+      "quote": "Labels lower the odds.",
+      "tier": "T1",
+      "entity": "openrouter",
+      "subjects": [
+        "openrouter"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-29T10:10:26+08:00"
+    },
+    {
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "date": "2026-10-28",
+      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+      "title": "GitHub官方报告补充Octoverse统计窗口与识别边界",
+      "summary": "Octoverse官方报告说明，年度窗口为2025年10月1日至2026年9月30日，多数指标包含公开和私有仓库，往年数字按相同口径重新计算。智能体参与仅统计可检测信号，行业分类来自公开仓库抽样；Copilot模型选择统计排除自动选模及自带密钥请求。活动量与使用份额不能直接代表代码质量。",
+      "reason": "已通读官方报告，补足既有现场报道的统计口径。原文署期10月28日，仅作为48小时内的同事件交叉证据；平台自报数据不构成生产率因果验证。",
+      "category": "paper",
+      "quote": "Figures describe observed use, not model quality.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "编码",
+        "Agent",
+        "海外AI",
+        "GitHub"
+      ],
+      "selected": false,
+      "event": {
+        "key": "github-octoverse-2026",
+        "title": "GitHub公布Octoverse 2026报告",
+        "factKey": "octoverse-2026-development-activity-report",
+        "factTitle": "Octoverse披露2026年开发活动量及统计方法"
+      },
+      "addedAt": "2026-10-29T10:10:26+08:00"
     }
   ]
 }
