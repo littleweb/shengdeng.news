@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "researchedAt": "2026-10-29T17:00:35+08:00",
+  "researchedAt": "2026-10-29T19:17:11+08:00",
   "items": [
     {
       "sourceId": "rss-the-decoder",
@@ -1422,6 +1422,153 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-29T17:00:35+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-10-29T06:53:19.000Z",
+      "url": "https://www.qbitai.com/2026/10/506478.html",
+      "title": "量子位实测Genspark视频工作流：先做低清草稿，再处理返修与成片",
+      "summary": "量子位试用Media Studio，先用480p草稿迭代，再升级1080p；短剧流程先固定人物与场景，再拆镜头、生成和返修。作者称三个案例约耗4.5万积分，并记录审批选项难找、音画不同步和跳帧等问题。积分属于文中活动期试用口径，不能换算为通用制作成本。",
+      "reason": "步骤、消耗与失败案例有助于判断试用门槛。原文正文＋原站 RSS 时间核验；效果属于媒体试用记录，未独立复测。",
+      "category": "tip",
+      "quote": "第一遍生成的视频规格都是480p",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI产品",
+        "AI玩法",
+        "视频",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-29T19:17:11+08:00"
+    },
+    {
+      "sourceId": "rss-mit-tech-review-ai",
+      "sourceName": "MIT Technology Review",
+      "date": "2026-10-29T10:11:12.000Z",
+      "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+      "title": "PAI研究者建议：为智能体保留持久身份、人工批准和权限变更记录",
+      "summary": "Madhulika Srikumar与Claire Leibowicz基于对四种主流智能体框架的研究，呼吁补齐持久身份、人工介入、权限及记忆变化等运行记录，并区分“发生了什么”和“如何作出决定”。作者同时指出，思维链是否忠实反映决策、置信度是否可靠，仍有未解决的研究问题。",
+      "reason": "把智能体治理落到可检查的运行记录，适合部署团队参考。已读两位作者署名全文并核对精确发布时间；这是基于既有研究的评论，不能视为防护效果验证。",
+      "category": "opinion",
+      "quote": "Key observability requirements were missing",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-29T19:17:11+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-29T10:16:34.000Z",
+      "url": "https://the-decoder.com/googles-ai-search-problem-finally-shows-up-in-the-earnings-report-some-investors-believe/",
+      "title": "Alphabet财报：搜索收入增12%，Google Cloud增长103%",
+      "summary": "The Decoder梳理Alphabet第三季度业绩：搜索及其他广告收入同比增长12%，Google Cloud收入约307亿美元，同比增长103%。报道援引管理层解释称，AI Mode查询增长较快但变现较低，是搜索收入增长承压的因素之一。公司还披露Gemini应用用户达到十亿，但未在这里给出活跃用户口径。",
+      "reason": "提供AI使用增长与收入转化之间的新证据。已通读报道、核对精确发布时间并对照公司财报；AI Mode影响未单独量化，云收入不能全部算作AI收入。",
+      "category": "industry",
+      "quote": "the strong growth in AI mode queries had an impact because of the lower monetization",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI赛道",
+        "搜索",
+        "海外AI",
+        "Google"
+      ],
+      "selected": true,
+      "event": {
+        "key": "alphabet-q3-2026-results-2026-10-28",
+        "title": "Alphabet公布2026年第三季度业绩",
+        "factKey": "q3-search-cloud-revenue-results",
+        "factTitle": "Alphabet披露第三季度搜索与云收入及AI业务使用规模"
+      },
+      "addedAt": "2026-10-29T19:17:11+08:00"
+    },
+    {
+      "sourceId": "alphabet-investor-relations",
+      "sourceName": "Alphabet财报（SEC原始文件）",
+      "date": "2026-10-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+      "title": "Alphabet原始财报确认搜索与云收入统计口径",
+      "summary": "截至9月30日的季度，Alphabet收入1275.77亿美元；Google Search及其他广告收入633.50亿美元，Google Cloud收入307.09亿美元。公告确认云业务同比增长103%，增长来源包括企业AI基础设施、AI解决方案、核心云服务及TPU系统销售。",
+      "reason": "公司原始财报交叉确认收入数字与统计季度。表内数据未经审计，云业务包含多种服务，不能全部视为生成式AI收入。",
+      "category": "industry",
+      "quote": "Google Cloud delivered record growth as revenues increased 103% to $30.7 billion",
+      "tier": "T1",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI赛道",
+        "海外AI",
+        "Google"
+      ],
+      "selected": false,
+      "event": {
+        "key": "alphabet-q3-2026-results-2026-10-28",
+        "title": "Alphabet公布2026年第三季度业绩",
+        "factKey": "q3-search-cloud-revenue-results",
+        "factTitle": "Alphabet披露第三季度搜索与云收入及AI业务使用规模"
+      },
+      "addedAt": "2026-10-29T19:17:11+08:00"
+    },
+    {
+      "sourceId": "google-ads-commerce",
+      "sourceName": "Google Ads & Commerce Blog",
+      "date": "2026-10-28",
+      "url": "https://blog.google/products/ads-commerce/ads-in-ai-mode-global/",
+      "title": "Google官方补齐AI Mode广告扩展地区与多轮广告条件",
+      "summary": "Google宣布在澳大利亚、加拿大、印度、肯尼亚、马来西亚、新西兰、尼日利亚、巴基斯坦、菲律宾和新加坡扩展AI Mode广告，并在美国推出后续提问中的多轮广告。巴西、墨西哥和英国属于2026年第四季度计划，不能视为已覆盖。",
+      "reason": "Shashi Thakur署名公告补齐已报道扩展计划的地区与条件。点击率比较来自Google美国内部数据，不能据此推断广告主收益。",
+      "category": "ai-products",
+      "quote": "we are launching multiturn ads in the U.S.",
+      "tier": "T1",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI商业化",
+        "搜索",
+        "海外AI",
+        "Google"
+      ],
+      "selected": false,
+      "event": {
+        "key": "google-ai-mode-ads-international-2026-10-28",
+        "title": "Google宣布扩展AI Mode广告国际覆盖",
+        "factKey": "ai-mode-ads-international-expansion-announcement",
+        "factTitle": "Google在业绩电话会上宣布AI Mode广告进入国际市场"
+      },
+      "addedAt": "2026-10-29T19:17:11+08:00"
     }
   ]
 }
