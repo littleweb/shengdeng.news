@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "researchedAt": "2026-10-29T21:31:42+08:00",
+  "researchedAt": "2026-10-29T14:48:44Z",
   "items": [
     {
       "sourceId": "rss-the-decoder",
@@ -1746,6 +1746,70 @@
         "factTitle": "Alexa新增订阅配送调整、清单与送货说明管理"
       },
       "addedAt": "2026-10-29T21:31:42+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-29T14:07:49.000Z",
+      "url": "https://the-decoder.com/us-antitrust-regulators-are-scrutinizing-nvidias-hugging-face-deal-and-sales-practices/",
+      "title": "路透社消息：美国司法部询问英伟达收购Hugging Face的竞争影响",
+      "summary": "The Decoder援引路透社报道，美国司法部正在询问英伟达拟以129.3亿美元收购Hugging Face是否可能控制关键AI分发渠道、损害竞争。交易预计2027年上半年完成，仍未交割；相关询问属于持续监管调查，不能视为违法认定。",
+      "reason": "关系到开放模型分发渠道的竞争格局。正文及原站发布时间已核对；核心消息来自路透社两名匿名信源，尚非监管裁定。",
+      "category": "industry",
+      "quote": "The US Justice Department is looking into Nvidia's planned acquisition of open-source platform Hugging Face.",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia",
+        "hugging-face"
+      ],
+      "region": "国外",
+      "tags": [
+        "政策/监管",
+        "AI赛道",
+        "开源生态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "nvidia-hugging-face-acquisition-2026",
+        "title": "英伟达拟收购Hugging Face及监管进展",
+        "factKey": "doj-competition-inquiries-disclosure-2026-10-28",
+        "factTitle": "路透社披露美国司法部询问拟议收购的竞争影响"
+      },
+      "addedAt": "2026-10-29T14:48:44Z"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-29T14:00:00.000Z",
+      "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+      "title": "SemiAnalysis访谈：看AI实验室盈利，先分开推理与训练成本",
+      "summary": "SemiAnalysis分析师Joey Brookhart在访谈中拆分Anthropic的推理经营、训练研发与算力投入，并以节假日用量波动解释按量收入的风险。他认为后续增长还需拓展编码之外的垂直应用；相关算力分配、增长路径和竞争判断属于分析师测算与观点。",
+      "reason": "补充既有招股数字之外的成本拆分与需求风险框架。已通读Nilay Patel主持的完整文字访谈并核对原站发布时间，受访者测算未独立验证。",
+      "category": "opinion",
+      "quote": "The rest is for experimentation and research, training models, and post-training models.",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "AI商业化",
+        "AI赛道",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "anthropic-ipo-s1-2026-10-26",
+        "title": "Anthropic公开提交IPO注册文件",
+        "factKey": "anthropic-tokenomics-interview-2026-10-29",
+        "factTitle": "Joey Brookhart分析推理经营、训练投入与需求风险"
+      },
+      "addedAt": "2026-10-29T14:48:44Z"
     }
   ]
 }
