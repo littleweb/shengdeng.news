@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "researchedAt": "2026-10-29T06:45:10+08:00",
+  "researchedAt": "2026-10-29T07:52:53+08:00",
   "items": [
     {
       "sourceId": "rss-the-decoder",
@@ -755,6 +755,32 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-29T06:45:10+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-28T23:05:39.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+      "title": "Instagram负责人承认AI内容的质量排序仍不完善",
+      "summary": "Adam Mosseri在Colin and Samir访谈中称，Instagram没有按创作者是否使用AI区别排序，但对AI内容质量的判断仍不够好。他也谈及AI账号自我标注要求，并预计创作行业对AI的焦虑与抵触还会加深。报道未提供排序实验或标注执行数据。",
+      "reason": "为AI创作者了解平台分发与身份标注态度提供参考。已核对Stevie Bonifield的报道全文和发布时间，相关判断仍属受访者自述，不能据此推断平台刚刚改变了规则。",
+      "category": "opinion",
+      "quote": "Do we rank AI content as well as we rank non-AI content? Probably not.",
+      "tier": "T2",
+      "entity": "meta",
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "AI创作者",
+        "海外AI",
+        "Meta"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-29T07:52:53+08:00"
     }
   ]
 }
