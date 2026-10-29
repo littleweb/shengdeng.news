@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "researchedAt": "2026-10-30T03:18:16+08:00",
+  "researchedAt": "2026-10-30T05:26:55+08:00",
   "items": [
     {
       "sourceId": "rss-nvidia-blog",
@@ -317,6 +317,84 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-30T03:18:16+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-29T20:08:31.000Z",
+      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+      "title": "Reddit拟逐步转向登录访问，先在美国以外部分市场测试",
+      "summary": "Sarah Perez报道，Reddit在季度财报沟通中宣布逐步转向以登录用户为主的体验，以保护数据并改善商业化。公司计划第四季度先在美国以外部分市场测试，尚无全球实施时间表，未登录访问的具体边界仍待确定，不能理解为已全面封闭浏览。",
+      "reason": "涉及AI抓取、数据授权与开放网络的实际访问边界。已核对署名全文和精确发布时间；官方完整公告未能交叉通读，具体限制仍待测试。",
+      "category": "industry",
+      "quote": "the shift to the logged-in experience will not be an overnight change",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "数据/训练",
+        "AI商业化",
+        "搜索",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-30T05:26:55+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-29T20:05:47.000Z",
+      "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+      "title": "Rivian向大众授权部分AI语音助手技术，费用与车型未披露",
+      "summary": "Kirsten Korosec援引Rivian第三季度投资者材料报道，Rivian与大众的合资合作扩大至AI助手，Rivian开始授权部分自研语音助手技术。双方未披露授权费用、付款条件及采用车型；报道提到的ID EVERY1仅是可能入口，不能视为已确认部署。",
+      "reason": "展示车载AI从自用走向对外技术授权的商业路径。已核对署名全文与精确发布时间；未取得双方公告全文，尚不能判断收入贡献或大众端落地时间。",
+      "category": "industry",
+      "quote": "Rivian is now licensing elements of its AI voice assistant technology to Volkswagen Group",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI赛道",
+        "语音",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-30T05:26:55+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-29T19:14:36.000Z",
+      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+      "title": "Meta穿搭应用Style Sketch已在东南亚三国提供下载",
+      "summary": "Aisha Malik报道，Style Sketch可从Instagram照片或用户上传素材建立虚拟衣橱，推荐已有衣物的搭配，并按行程和天气规划穿搭。目前支持印度尼西亚、新加坡和泰国的iOS及Android用户；Meta未回应采访，扩大开放的计划未知，虚拟试穿效果尚无独立验证。",
+      "reason": "提供利用已有衣物进行搭配和旅行规划的具体AI用法。已核对完整报道与精确发布时间；地区及功能说明来自报道引用的应用资料，未实际测试。",
+      "category": "ai-products",
+      "quote": "is available in Indonesia, Singapore, and Thailand on iOS and Android",
+      "tier": "T2",
+      "entity": "meta",
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI赛道",
+        "海外AI",
+        "Meta"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-30T05:26:55+08:00"
     }
   ]
 }
