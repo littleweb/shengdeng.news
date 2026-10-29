@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "researchedAt": "2026-10-29T07:52:53+08:00",
+  "researchedAt": "2026-10-29T09:01:00+08:00",
   "items": [
     {
       "sourceId": "rss-the-decoder",
@@ -781,6 +781,195 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-29T07:52:53+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-28T16:59:59.000Z",
+      "url": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/",
+      "title": "Android Studio Rabbit 2将第三方编程智能体接入稳定版",
+      "summary": "Google在Android Studio Rabbit 2稳定版中提供Bring Your Own Agent，支持通过ACP接入40余种编程智能体，包括Claude、Codex和Antigravity，并向其提供模拟器、构建及日志等IDE工具。接入需要相应账号认证，不能据此认为模型使用免费。",
+      "reason": "改变Android开发者选择智能体和调用IDE工具的方式。报道正文与发布时间可核对，Google官方原文确认稳定版范围；性能收益未独立复测。",
+      "category": "ai-products",
+      "quote": "Developers are no longer limited to Google's own AI tools.",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "编码",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "google-android-studio-rabbit-2-2026-10-28",
+        "title": "Android Studio Rabbit 2稳定版开放第三方智能体接入",
+        "factKey": "rabbit-2-stable-byoa-agent-integration",
+        "factTitle": "Rabbit 2稳定版支持通过ACP接入第三方编程智能体"
+      },
+      "addedAt": "2026-10-29T09:01:00+08:00"
+    },
+    {
+      "sourceId": "google-android-developers",
+      "sourceName": "Android Developers Blog",
+      "date": "2026-10-28",
+      "url": "https://developer.android.com/blog/posts/ai-agents-android-studio-integration",
+      "title": "Google官方确认Rabbit 2稳定版的智能体接入范围",
+      "summary": "产品经理Matthew Warner确认Rabbit 2已进入稳定版，用户可在智能体窗口或设置中选择、认证并使用支持的智能体；公告同时列出技能管理、LeakCanary和代码审查功能。",
+      "reason": "官方正文直接确认稳定版与接入步骤。页面仅标日期，作为48小时内的交叉证据，不单独列为精选。",
+      "category": "ai-products",
+      "quote": "Android Studio Rabbit 2 is now stable and ready for you to use in production.",
+      "tier": "T1",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "编码",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "google-android-studio-rabbit-2-2026-10-28",
+        "title": "Android Studio Rabbit 2稳定版开放第三方智能体接入",
+        "factKey": "rabbit-2-stable-byoa-agent-integration",
+        "factTitle": "Rabbit 2稳定版支持通过ACP接入第三方编程智能体"
+      },
+      "addedAt": "2026-10-29T09:01:00+08:00"
+    },
+    {
+      "sourceId": "rss-hugging-face",
+      "sourceName": "NVIDIA · Hugging Face Blog",
+      "date": "2026-10-28T14:58:17.000Z",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "title": "NVIDIA公开医疗语音适配流程，按说话人留出样本检验效果",
+      "summary": "NVIDIA给出先调整转写提示、再用合成与真实语音微调的方法。其医疗语音实验在2764条留出录音上，将词错率从22.44%降至12.17%；通用英语表现略有下降，品牌药名仍有短板。",
+      "reason": "比已归档的模型发布补充可复用的适配与评测方法。原文正文＋原站 RSS 时间核验；数字来自厂商实验，未独立复测。",
+      "category": "tip",
+      "quote": "For unfamiliar terms, try context before training.",
+      "tier": "T1",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "语音",
+        "数据/训练",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "nvidia-nemotron-35-transcribe-2026-10-28",
+        "title": "NVIDIA发布Nemotron 3.5 Transcribe",
+        "factKey": "nemotron-35-transcribe-domain-adaptation-recipe",
+        "factTitle": "NVIDIA公开医疗语音适配流程与按说话人留出评测"
+      },
+      "addedAt": "2026-10-29T09:01:00+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-28T15:49:39.000Z",
+      "url": "https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition/",
+      "title": "The Decoder交叉报道Nemotron的领域适配效果与代价",
+      "summary": "报道同样列出未见说话人上的22.44%至12.17%词错率变化，并指出适配后通用英语表现略降、品牌药名仍需改进。这些结果来自NVIDIA实验。",
+      "reason": "留出评测数字与官方一致，仅作交叉证据。文中数据集时数与官方现文有差异，不采用该数字，也不视为独立复测。",
+      "category": "ai-models",
+      "quote": "The specialization comes at a cost.",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "AI产品",
+        "语音",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "nvidia-nemotron-35-transcribe-2026-10-28",
+        "title": "NVIDIA发布Nemotron 3.5 Transcribe",
+        "factKey": "nemotron-35-transcribe-domain-adaptation-recipe",
+        "factTitle": "NVIDIA公开医疗语音适配流程与按说话人留出评测"
+      },
+      "addedAt": "2026-10-29T09:01:00+08:00"
+    },
+    {
+      "sourceId": "rss-ars-technica-ai",
+      "sourceName": "Ars Technica · AI",
+      "date": "2026-10-28T17:46:32.000Z",
+      "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+      "title": "Google回应AI Mode选举查询异常，称正修补数据缺口",
+      "summary": "Ars记者发现部分美国选举问题只返回外链，重复提问和跨地区结果不同。Google后续称2020年总统选举及2022年参院查询存在技术缺口，正在修复。",
+      "reason": "原文正文＋原站 RSS 时间核验；属于记者抽查，不能推及全部用户，尚未证明修复完成。",
+      "category": "industry",
+      "quote": "There was a technical gap with 2020",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI产品",
+        "搜索",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "google-ai-mode-election-query-gap-2026-10-28",
+        "title": "Google AI Mode选举查询异常及回应",
+        "factKey": "google-election-query-technical-gap-fix",
+        "factTitle": "Google确认部分选举查询存在技术缺口并称正在修复"
+      },
+      "addedAt": "2026-10-29T09:01:00+08:00"
+    },
+    {
+      "sourceId": "google-news-bluesky",
+      "sourceName": "Google新闻账号 · Bluesky",
+      "date": "2026-10-28T17:11:13.475Z",
+      "url": "https://bsky.app/profile/did:plc:v46lelmg2arh4cihy5ff76ki/post/3myxanapmcs2d",
+      "title": "Google最初公开回应称正在调查搜索回答问题",
+      "summary": "News from Google账号承认该搜索回答不够有帮助，并表示正在调查和处理；原帖没有宣称修复已完成。",
+      "reason": "记者原文链接直达Google回应，账号、正文与精确时间可核对；作为同事件早期回应的交叉证据。",
+      "category": "industry",
+      "quote": "We're looking into this and working to address it.",
+      "tier": "T1",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI产品",
+        "搜索",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "google-ai-mode-election-query-gap-2026-10-28",
+        "title": "Google AI Mode选举查询异常及回应",
+        "factKey": "google-initial-election-query-response",
+        "factTitle": "Google公开回应搜索回答问题并表示正在调查处理"
+      },
+      "addedAt": "2026-10-29T09:01:00+08:00"
     }
   ]
 }
