@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "researchedAt": "2026-10-29T14:48:44Z",
+  "researchedAt": "2026-10-29T15:57:45Z",
   "items": [
     {
       "sourceId": "rss-the-decoder",
@@ -1810,6 +1810,66 @@
         "factTitle": "Joey Brookhart分析推理经营、训练投入与需求风险"
       },
       "addedAt": "2026-10-29T14:48:44Z"
+    },
+    {
+      "sourceId": "rss-hugging-face",
+      "sourceName": "Hugging Face Blog",
+      "date": "2026-10-29T00:00:00.000Z",
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "title": "Mistral Large 4开放权重，模型服务商另受许可限制",
+      "summary": "Hugging Face团队介绍Mistral Large 4权重开放，提供FP8、NVFP4版本，支持文本与图像输入，并给出Transformers、vLLM和llama.cpp部署路径。许可采用带模型即服务限制的MIT衍生版本，不能据此理解为所有云服务商均可无条件商用。",
+      "reason": "原文正文＋原站 RSS 时间核验。从API预览推进到权重开放，增加自主部署选择；已核对团队署名和许可限制，性能未独立复测。",
+      "category": "ai-models",
+      "quote": "It’s distributed under the Mistral Ecosystem Open-Weight License",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "开源生态",
+        "多模态",
+        "编码",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "mistral-large-4-2026-10",
+        "title": "Mistral Large 4开放权重",
+        "factKey": "large-4-open-weights-release-2026-10-29",
+        "factTitle": "Mistral Large 4结束仅API预览阶段并开放权重"
+      },
+      "addedAt": "2026-10-29T15:57:45Z"
+    },
+    {
+      "sourceId": "the-next-web",
+      "sourceName": "The Next Web",
+      "date": "2026-10-29T14:00+00:00",
+      "url": "https://thenextweb.com/news/mistral-large-4-open-weights-release",
+      "title": "The Next Web交叉确认Mistral Large 4权重开放",
+      "summary": "Ana-Maria Stanciuc报道Mistral发布Large 4权重，并介绍新增低、中推理档位。文中的性能与效率变化来自Mistral披露，不能视为媒体独立实测；此条交叉确认同一发布。",
+      "reason": "已通读署名报道并核对原页UTC发布时间，与Hugging Face团队原文共同支持权重开放事实，仅作交叉记录。",
+      "category": "ai-models",
+      "quote": "Mistral has released the weights of Mistral Large 4",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "开源生态",
+        "多模态",
+        "编码",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "mistral-large-4-2026-10",
+        "title": "Mistral Large 4开放权重",
+        "factKey": "large-4-open-weights-release-2026-10-29",
+        "factTitle": "Mistral Large 4结束仅API预览阶段并开放权重"
+      },
+      "addedAt": "2026-10-29T15:57:45Z"
     }
   ]
 }
