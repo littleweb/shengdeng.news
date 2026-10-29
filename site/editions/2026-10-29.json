@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "researchedAt": "2026-10-29T19:17:11+08:00",
+  "researchedAt": "2026-10-29T12:24:12Z",
   "items": [
     {
       "sourceId": "rss-the-decoder",
@@ -1569,6 +1569,62 @@
         "factTitle": "Google在业绩电话会上宣布AI Mode广告进入国际市场"
       },
       "addedAt": "2026-10-29T19:17:11+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-10-28T18:19:54.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks/",
+      "title": "AWS分享分布式训练实践：任务跑完后，还要确认通信没有退回TCP",
+      "summary": "AWS用两台实例、8块L4演示Ray Train与FSDP训练部署，复用预制镜像，并通过NCCL日志检查是否实际使用EFA。样例使用随机Token，只验证通信与任务完成；真实微调仍需接入数据和检查点。文中给出的集群运行预算约为每小时9.50美元。",
+      "reason": "提供可迁移的环境固定、资源核验与通信检查方法。已核对署名全文及精确发布时间；属于厂商示例，吞吐表现未经独立复测。",
+      "category": "tip",
+      "quote": "The batches are random token IDs",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "部署/工程",
+        "数据/训练",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-29T12:24:12Z"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-10-29T11:27:50+08:00",
+      "url": "https://www.qbitai.com/2026/10/506281.html",
+      "title": "景烁科技披露数千万美元Pre-A轮融资进展及数据服务经营规模",
+      "summary": "量子位刊登的景烁科技供稿称，文远知行旗下该公司已获多家机构数千万美元Pre-A轮投资，业务覆盖第一视角采集设备、数据集与世界模型基础设施。公司自述客户与生态伙伴超过100家、在手订单数十亿元、年收入增长超过100%，但未披露绝对收入、利润或订单兑现情况。",
+      "reason": "提供物理AI数据服务的融资与经营观察样本；原文正文＋原站 RSS 时间核验。文章为企业供稿，经营数字未经独立验证，融资不代表盈利。",
+      "category": "industry",
+      "quote": "数千万美元的pre-A轮共同投资",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "行业动态",
+        "AI创业",
+        "AI赛道",
+        "具身智能",
+        "AI商业化",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "jingshuo-pre-a-funding-2026-10-29",
+        "title": "景烁科技披露Pre-A轮融资与经营进展",
+        "factKey": "pre-a-investment-operating-scale-disclosure",
+        "factTitle": "披露数千万美元Pre-A轮投资及数据服务经营规模"
+      },
+      "addedAt": "2026-10-29T12:24:12Z"
     }
   ]
 }
