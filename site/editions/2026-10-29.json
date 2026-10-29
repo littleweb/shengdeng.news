@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "researchedAt": "2026-10-29T10:10:26+08:00",
+  "researchedAt": "2026-10-29T11:17:41+08:00",
   "items": [
     {
       "sourceId": "rss-the-decoder",
@@ -1055,6 +1055,36 @@
         "factTitle": "Octoverse披露2026年开发活动量及统计方法"
       },
       "addedAt": "2026-10-29T10:10:26+08:00"
+    },
+    {
+      "sourceId": "prnewswire",
+      "sourceName": "美通社（邓白氏供稿）",
+      "date": "2026-10-28T09:00-04:00",
+      "url": "https://www.prnewswire.com/news-releases/dun--bradstreet-survey-of-10-000-businesses-finds-ai-returns-stable-for-most-but-data-ready-companies-pull-ahead-on-roi-302922158.html",
+      "title": "邓白氏万家企业调查：65%计划增加AI投入，广泛回报比例仍为28%",
+      "summary": "邓白氏公布覆盖32国一万家企业的季度调查：65%的受访企业计划未来一年增加AI投入，报告获得广泛或较强回报的比例为28%，与上季度持平。数据完全准备就绪的企业报告较好回报的比例更高，但这是企业自报的相关性，不能证明数据投入直接带来收益。",
+      "reason": "提供AI投入与回报的对照，已核对供稿全文及明确发布时间。供稿方销售相关数据服务，调查结果未经独立审计，不能视为已验证的利润增幅。",
+      "category": "paper",
+      "quote": "28% report broad or strong AI ROI, unchanged from Q3.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "dnb-ai-momentum-q4-2026",
+        "title": "邓白氏发布2026年第四季度AI Momentum调查",
+        "factKey": "q4-survey-ai-investment-returns-data-readiness",
+        "factTitle": "调查披露AI投入意愿、回报与数据准备度"
+      },
+      "addedAt": "2026-10-29T11:17:41+08:00"
     }
   ]
 }
