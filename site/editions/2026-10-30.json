@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "researchedAt": "2026-10-30T17:03:35+08:00",
+  "researchedAt": "2026-10-30T10:13:47Z",
   "items": [
     {
       "sourceId": "rss-nvidia-blog",
@@ -1012,6 +1012,129 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-30T17:03:35+08:00"
+    },
+    {
+      "sourceId": "phorion",
+      "sourceName": "Phorion",
+      "date": "2026-10-30",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "title": "Cursor市场恶意扩展分析：卸载Claude Code扩展后仍可能残留后门",
+      "summary": "Calum Hall分析遭篡改的2.1.313扩展，发现其会写入SSH密钥及持久化脚本。macOS上的权限检查错误可能阻止SSH服务开启，但不能据此认定没有残留；文章提供文件、进程及密钥指纹等排查依据。",
+      "reason": "原始样本分析与Cursor公告相互印证，提供开发者可用的排查线索；影响范围限于已识别的软件包，未独立复现实验。",
+      "category": "industry",
+      "quote": "uninstalling the extension alone won’t remove the backdoor.",
+      "tier": "T1",
+      "entity": "cursor",
+      "subjects": [
+        "cursor",
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "安全/对齐",
+        "AI产品",
+        "编码",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "cursor-claude-code-extension-compromise-2026-10-29",
+        "title": "Cursor扩展市场发现遭篡改的Claude Code扩展",
+        "factKey": "malicious-extension-2-1-313-and-persistence",
+        "factTitle": "2.1.313恶意扩展植入SSH密钥及持久化机制"
+      },
+      "addedAt": "2026-10-30T10:13:47Z"
+    },
+    {
+      "sourceId": "cursor-blog",
+      "sourceName": "Cursor",
+      "date": "2026-10-29",
+      "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+      "title": "Cursor公告确认恶意扩展版本与处置范围",
+      "summary": "Cursor称其市场中的Anthropic.claude-code 2.1.313遭恶意修改，最多影响5000名用户，恶意版本并非Anthropic开发。公司称已移除软件包、重建市场并协调下线攻击服务器，尚无证据表明其他版本或官方分发受到影响。",
+      "reason": "官方公告交叉确认版本、残留机制及处置措施；仅保留原文日期精度，作为同事件交叉证据。",
+      "category": "industry",
+      "quote": "This malicious version of the extension was not developed by Anthropic.",
+      "tier": "T1",
+      "entity": "cursor",
+      "subjects": [
+        "cursor",
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "安全/对齐",
+        "AI产品",
+        "编码",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "cursor-claude-code-extension-compromise-2026-10-29",
+        "title": "Cursor扩展市场发现遭篡改的Claude Code扩展",
+        "factKey": "malicious-extension-2-1-313-and-persistence",
+        "factTitle": "2.1.313恶意扩展植入SSH密钥及持久化机制"
+      },
+      "addedAt": "2026-10-30T10:13:47Z"
+    },
+    {
+      "sourceId": "ai-muninn",
+      "sourceName": "ai-muninn · coolthor",
+      "date": "2026-10-30",
+      "url": "https://ai-muninn.com/en/blog/open-h3-regenerate-2k-rtx5090",
+      "title": "RTX 5090视频重绘实测：细节增加，文字和人脸也可能改变",
+      "summary": "作者使用社区r128转换权重，在RTX 5090上比较三段5秒视频：2K重绘约133秒，VSR约19秒，均不含草稿生成。重绘增加细节，也改变人脸与招牌文字；文中附工作流，并说明首帧约束和单步重绘的取舍。",
+      "reason": "当日完整原文列出配置、计时及失败案例，便于选择重绘或保真放大；每场景每方法仅运行一次，未独立复测。",
+      "category": "tip",
+      "quote": "Caveat: one run per scene per method.",
+      "tier": "T2",
+      "entity": "minimax",
+      "subjects": [
+        "minimax",
+        "nvidia"
+      ],
+      "region": "国内",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI硬件",
+        "视频",
+        "部署/工程",
+        "AI创作者"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-30T10:13:47Z"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-30T09:00:00.000Z",
+      "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+      "title": "维基媒体向法院提出折中主张：区分AI训练与替代原文的输出",
+      "summary": "Lauren Feiner报道，维基媒体基金会提交法庭之友意见，不支持诉讼任何一方。基金会主张，对产生新用途的模型训练适用合理使用，同时要求替代原作品阅读的复制性输出遵守许可，包括维基百科内容的署名与相同方式共享条件。",
+      "reason": "完整原文引述法庭文件与基金会回应，涉及AI和开放知识的许可边界；尚未取得独立原始文件，所述属于基金会主张，并非法院判决。",
+      "category": "industry",
+      "quote": "Scraping websites shouldn’t be considered copyright infringement",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai",
+        "microsoft"
+      ],
+      "region": "国外",
+      "tags": [
+        "政策/监管",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "wikimedia-ai-copyright-amicus-2026-10-30",
+        "title": "维基媒体就AI版权诉讼提交法庭之友意见",
+        "factKey": "training-and-substitutive-output-distinction",
+        "factTitle": "主张区分具有转换用途的训练与替代原文的复制输出"
+      },
+      "addedAt": "2026-10-30T10:13:47Z"
     }
   ]
 }
