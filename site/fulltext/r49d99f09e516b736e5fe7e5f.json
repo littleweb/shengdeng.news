@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "articleId": "r49d99f09e516b736e5fe7e5f",
+  "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+  "fetchedAt": "2026-10-30T08:07:44.872Z",
+  "sourceHtml": "<p>29th October 2026 - Link Blog</p><p><strong><a href=\"https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions\">API credits benefit for eligible ChatGPT subscriptions</a></strong>. Earlier this month Anthropic <a href=\"https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/#api-credits\">announced a generous new benefit</a> for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic API.</p><p>OpenAI have now launched pretty much exactly the same deal: if you have a $100, $200, or $500 subscription plan with them you now get that same quantity of credits to apply to one of your API organizations.</p><p>I maintain subscriptions with both companies, so this is great news for me! I may even ship some public-facing demos now that the credits are already covered by my existing subscriptions.</p>",
+  "sourceHash": "ff02983202540d155b1fba000925ed7591471ecaa93fa8ab8ec36d5e990f6726",
+  "language": "und",
+  "translation": {
+    "method": "local-codex",
+    "translatedAt": "2026-10-30T08:08:21.737Z",
+    "html": "<p>2026年10月29日 - 链接博客</p><p><strong><a href=\"https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions\">符合条件的 ChatGPT 订阅可享 API 额度福利</a></strong>。本月早些时候，Anthropic 为其 Max 和 Team 订阅<a href=\"https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/#api-credits\">宣布了一项丰厚的新福利</a>：每月支付 100、200 或 500 美元的订阅用户，将获得等额的 Anthropic API 使用额度（有有效期）。</p><p>OpenAI 现在也推出了几乎完全相同的福利：如果你订阅了他们每月 100、200 或 500 美元的套餐，现在就能获得等额额度，用于你名下的一个 API 组织。</p><p>我同时订阅了这两家公司的服务，所以这对我来说是个好消息！既然现有订阅已经涵盖了这些额度，我现在甚至可能会发布一些面向公众的演示。</p>",
+    "complete": true
+  }
+}
