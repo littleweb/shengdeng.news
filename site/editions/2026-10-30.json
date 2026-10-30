@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "researchedAt": "2026-10-30T07:51:36Z",
+  "researchedAt": "2026-10-30T17:03:35+08:00",
   "items": [
     {
       "sourceId": "rss-nvidia-blog",
@@ -986,6 +986,32 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-30T07:51:36Z"
+    },
+    {
+      "sourceId": "thepaper",
+      "sourceName": "澎湃新闻",
+      "date": "2026-10-30T07:29+08:00",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34362477?commTag=true",
+      "title": "彭志辉谈机器人商业化：衡量有效工时，按工时收费仍是设想",
+      "summary": "彭志辉接受喻琰采访，介绍Worken框架，以活跃机器人数、自主工作时长和产出效能比衡量劳动价值，并表示希望未来据此收费。他称智元仍在推进细分场景部署，跨场景泛化尚待突破。",
+      "reason": "署名采访提供判断机器人部署回报的思路，发布时间明确。框架及收费设想属于受访者主张，尚无落地成效验证。",
+      "category": "opinion",
+      "quote": "希望未来对机器人的服务按Worken工时计费",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "大佬观点",
+        "AI硬件",
+        "AI赛道",
+        "AI商业化",
+        "具身智能",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-30T17:03:35+08:00"
     }
   ]
 }
