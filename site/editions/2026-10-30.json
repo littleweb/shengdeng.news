@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "researchedAt": "2026-10-30T00:57:20Z",
+  "researchedAt": "2026-10-30T02:05:16Z",
   "items": [
     {
       "sourceId": "rss-nvidia-blog",
@@ -768,6 +768,65 @@
         "factTitle": "英伟达否认向Megaspeed提供敏感信息"
       },
       "addedAt": "2026-10-30T00:57:20Z"
+    },
+    {
+      "sourceId": "ithome-ai",
+      "sourceName": "IT之家",
+      "date": "2026-10-29T12:24:43+08:00",
+      "url": "https://www.ithome.com/1/019/412.htm",
+      "title": "腾讯发布Buddy One，跨应用检索办公资料并共享积分",
+      "summary": "腾讯发布Buddy One，连接WorkBuddy、腾讯文档、腾讯会议、腾讯网盘和ima。报道称，WorkBuddy PC端升级至5.9.0及以上并关联账号后，可检索已授权资料，回答附带来源；跨应用记忆共享仍属后续计划。同步推出的VIP套餐连续包月700元，包含多款会员权益、共享AI积分及1TB存储。",
+      "reason": "为资料分散在腾讯办公应用中的用户提供新入口。原文明确版本、授权和连续包月条件，实际检索效果尚未独立实测。",
+      "category": "ai-products",
+      "quote": "关联账号即可使用。",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "国内AI",
+        "Agent",
+        "搜索"
+      ],
+      "selected": true,
+      "event": {
+        "key": "tencent-buddy-one-launch-2026-10-29",
+        "title": "腾讯发布跨应用AI办公体系Buddy One",
+        "factKey": "buddy-one-cross-app-accounts-credits-launch",
+        "factTitle": "腾讯发布Buddy One，统一办公应用账号与积分池"
+      },
+      "addedAt": "2026-10-30T02:05:16Z"
+    },
+    {
+      "sourceId": "yicai",
+      "sourceName": "第一财经",
+      "date": "2026-10-29T12:03+08:00",
+      "url": "https://www.yicai.com/brief/103414785.html",
+      "title": "第一财经交叉确认Buddy One发布及账号、积分互通",
+      "summary": "第一财经快讯确认，腾讯于10月29日全球数字生态大会发布Buddy One，连接腾讯文档、腾讯会议、腾讯网盘及ima，共享WorkBuddy Agent底座，并统一账号与积分池。",
+      "reason": "另一家媒体的完整快讯确认同次发布及核心连接范围，仅作交叉证据，未提供定价或效果实测。",
+      "category": "ai-products",
+      "quote": "并统一账号和积分池。",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "国内AI",
+        "Agent"
+      ],
+      "selected": false,
+      "event": {
+        "key": "tencent-buddy-one-launch-2026-10-29",
+        "title": "腾讯发布跨应用AI办公体系Buddy One",
+        "factKey": "buddy-one-cross-app-accounts-credits-launch",
+        "factTitle": "腾讯发布Buddy One，统一办公应用账号与积分池"
+      },
+      "addedAt": "2026-10-30T02:05:16Z"
     }
   ]
 }
