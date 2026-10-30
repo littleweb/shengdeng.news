@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "researchedAt": "2026-10-30T20:27:19+08:00",
+  "researchedAt": "2026-10-30T21:36:58+08:00",
   "items": [
     {
       "sourceId": "rss-nvidia-blog",
@@ -1187,6 +1187,159 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-30T20:27:19+08:00"
+    },
+    {
+      "sourceId": "google-ai-developers",
+      "sourceName": "Google AI for Developers",
+      "date": "2026-10-30",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog#10-30-2026",
+      "title": "Gemini API的Computer Use工具正式可用，覆盖两个API",
+      "summary": "Google当日更新日志宣布，Computer Use工具在Interactions和GenerateContent API中正式可用。配套文档说明，工具根据截图生成界面操作，开发者仍需实现接收、执行动作及回传截图的客户端环境，不能把API开放等同于完整托管的电脑操作服务。",
+      "reason": "改变了界面操作智能体的接入阶段。官方更新日志与配套文档一致；原文仅提供当日日期，保留其精度，未实际调用验证。",
+      "category": "ai-products",
+      "quote": "Released the Computer Use tool to general availability (GA) across the Interactions and GenerateContent APIs.",
+      "tier": "T1",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "海外AI",
+        "Google"
+      ],
+      "selected": true,
+      "event": {
+        "key": "gemini-computer-use-ga-2026-10-30",
+        "title": "Gemini API Computer Use工具正式可用",
+        "factKey": "computer-use-ga-interactions-generatecontent",
+        "factTitle": "Computer Use在Interactions和GenerateContent API正式可用"
+      },
+      "addedAt": "2026-10-30T21:36:58+08:00"
+    },
+    {
+      "sourceId": "rss-microsoft-research",
+      "sourceName": "Microsoft Research",
+      "date": "2026-10-30T13:05:28.000Z",
+      "url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
+      "title": "微软分享企业AI评测方法：用合成组织检验跨时间工作流",
+      "summary": "微软团队利用公开职业数据、招聘信息和企业申报资料，构建制药、资本市场及软件企业的合成环境，包含组织关系、邮件、会议和项目历史，再自动生成并验证评测问题。团队估算每套数据集节省约10万美元；这是内部评测建设成本估算，不能视作客户使用Copilot的收益。",
+      "reason": "为企业助手评测提供可迁移方法，尤其关注时间关系与行业任务。已核对官方署名全文及精确发布时间；合成质量和节省金额仍属团队自报。",
+      "category": "tip",
+      "quote": "no real customer data is used at any stage of the pipeline",
+      "tier": "T1",
+      "entity": "microsoft",
+      "subjects": [
+        "microsoft"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "数据/训练",
+        "部署/工程",
+        "海外AI",
+        "Microsoft"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-30T21:36:58+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-30T12:22:18.000Z",
+      "url": "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours/",
+      "title": "Epoch安全研究解读：公开补丁可成为模型攻击旧版Firefox的线索",
+      "summary": "Matthias Bastian报道Epoch AI实验：GLM 5.3利用已公开但尚未交付用户的修复信息，在离线测试中构造针对六个Firefox版本的文件读取攻击。约1000美元是环境建立后攻击一个新版本的边际API成本，并非研究总成本。研究涉及的另一项漏洞已在159.0修复，团队尚未确认类似攻击能否继续奏效。",
+      "reason": "揭示补丁发布流程面对公开模型的新风险。完整报道、作者及原站时间已核对，并与研究团队原文交叉确认；研究原文标注10月29日，未称其为今日新实验。",
+      "category": "paper",
+      "quote": "The cost per exploit is about $1,000.",
+      "tier": "T2",
+      "entity": "zhipu",
+      "subjects": [
+        "zhipu"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "安全/对齐",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "epoch-glm53-firefox-patch-gap-2026-10",
+        "title": "Epoch AI评估GLM 5.3利用Firefox补丁时间差",
+        "factKey": "glm53-six-firefox-releases-patch-gap-study",
+        "factTitle": "实验显示GLM 5.3可利用补丁时间差攻击六个Firefox版本"
+      },
+      "addedAt": "2026-10-30T21:36:58+08:00"
+    },
+    {
+      "sourceId": "epoch-ai",
+      "sourceName": "Epoch AI",
+      "date": "2026-10-29",
+      "url": "https://epoch.ai/publications/open-weight-models-patch-gap",
+      "title": "Epoch原文明确Firefox安全实验的成本与修复验证边界",
+      "summary": "Aiden Ament等研究者说明，Firefox方向总研究API支出超过10万美元；约1000美元指完成环境建设后的单版本边际成本。相同方法对Chrome的尝试未取得等效结果，这不证明Chrome免疫。团队披露相关漏洞已修复，但尚未复核Firefox 159.0能否抵挡类似攻击。",
+      "reason": "用于核对媒体报道的实验范围与成本口径。已通读研究方原文；页面仅标10月29日，本条保留日期并仅作48小时内交叉证据。",
+      "category": "paper",
+      "quote": "We have not yet confirmed whether similar attacks can succeed on 159.0 given this patch",
+      "tier": "T1",
+      "entity": "zhipu",
+      "subjects": [
+        "zhipu"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "安全/对齐",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "epoch-glm53-firefox-patch-gap-2026-10",
+        "title": "Epoch AI评估GLM 5.3利用Firefox补丁时间差",
+        "factKey": "glm53-six-firefox-releases-patch-gap-study",
+        "factTitle": "实验显示GLM 5.3可利用补丁时间差攻击六个Firefox版本"
+      },
+      "addedAt": "2026-10-30T21:36:58+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-30T13:11:05.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+      "title": "IPO学者评Anthropic招股披露：篇幅增加未必让关键风险更清楚",
+      "summary": "Ellen Thomas采访IPO研究者Jay Ritter，讨论Anthropic长达335页、其中94页为风险因素的招股文件。Ritter认为，信息膨胀可能让重要内容更难识别；报道同时指出文件尚缺第三季度业绩。公司关于未来技术与价值的承诺，不能替代对实际盈利及算力义务的判断。",
+      "reason": "在既有招股事实之外新增专家采访，帮助区分愿景叙述与可检验经营信息。已核对署名全文和精确发布时间；未逐项独立复核招股文件。",
+      "category": "opinion",
+      "quote": "the longer it is, the less inclined I am to read it.",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "AI商业化",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "anthropic-ipo-s1-2026-10-26",
+        "title": "Anthropic公开提交IPO注册文件",
+        "factKey": "anthropic-ipo-disclosure-expert-analysis-2026-10-30",
+        "factTitle": "IPO学者分析招股披露篇幅与关键经营信息缺口"
+      },
+      "addedAt": "2026-10-30T21:36:58+08:00"
     }
   ]
 }
