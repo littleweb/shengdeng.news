@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "researchedAt": "2026-10-31T03:25:18+08:00",
+  "researchedAt": "2026-10-31T04:31:52+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -240,6 +240,129 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-31T03:25:18+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-30T20:26:10.000Z",
+      "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "title": "微软拟分别设置AI训练与回答引用偏好，保留Bing搜索资格",
+      "summary": "Emma Roth报道，微软计划在共同AI训练偏好信号之外，提供独立的训练与回答引用用途控制，网站仍可出现在Bing搜索结果中。微软预计明年支持；共同信号仍处草案阶段，内容使用偏好不能等同于禁止爬虫访问。",
+      "reason": "补充此前OpenAI公告之外的微软进展，关系到网站内容如何被AI使用。已通读报道并核对微软原文，相关机制尚未生效。",
+      "category": "industry",
+      "quote": "Microsoft, however, will offer more granular controls",
+      "tier": "T2",
+      "entity": "microsoft",
+      "subjects": [
+        "microsoft"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "数据/训练",
+        "搜索",
+        "海外AI",
+        "Microsoft"
+      ],
+      "selected": true,
+      "event": {
+        "key": "shared-ai-training-preference-signal-2026-10-30",
+        "title": "共同AI训练偏好信号草案与厂商支持",
+        "factKey": "microsoft-independent-training-grounding-preferences",
+        "factTitle": "微软宣布独立的训练与回答引用偏好及搜索资格边界"
+      },
+      "addedAt": "2026-10-31T04:31:52+08:00"
+    },
+    {
+      "sourceId": "microsoft-bing-blog",
+      "sourceName": "Microsoft Bing Blog",
+      "date": "2026-10-30",
+      "url": "https://blogs.bing.com/search/2026/10/your-content-your-choice-clearer-preferences-for-training-and-grounding/",
+      "title": "微软原文明确内容偏好的生效时间与迁移要求",
+      "summary": "Krishna Madhavan说明，新偏好将于2027年2月1日起随重新抓取生效。使用NoArchive或NoCache的网站需关注3月1日迁移期限；训练和回答引用分别设置，传统Bing搜索资格不受影响。",
+      "reason": "交叉确认微软公告，并补充迁移条件。已通读官方全文；原文仅标日期，处于48小时交叉证据窗口，不单列为精选。",
+      "category": "industry",
+      "quote": "These settings govern use of content, not crawl access.",
+      "tier": "T1",
+      "entity": "microsoft",
+      "subjects": [
+        "microsoft"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "数据/训练",
+        "搜索",
+        "海外AI",
+        "Microsoft"
+      ],
+      "selected": false,
+      "event": {
+        "key": "shared-ai-training-preference-signal-2026-10-30",
+        "title": "共同AI训练偏好信号草案与厂商支持",
+        "factKey": "microsoft-independent-training-grounding-preferences",
+        "factTitle": "微软宣布独立的训练与回答引用偏好及搜索资格边界"
+      },
+      "addedAt": "2026-10-31T04:31:52+08:00"
+    },
+    {
+      "sourceId": "36kr-chaoyongai",
+      "sourceName": "36氪 · 潮涌AI",
+      "date": "2026-10-30T11:36+08:00",
+      "url": "https://www.36kr.com/p/4047777107007113",
+      "title": "潮涌AI分析机器人经营风险：看交付、回款与现金流",
+      "summary": "潮涌AI结合采访和公开资料，讨论机器人企业融资集中与经营压力，提醒区分框架订单、实际采购、交付和回款，也不能混用不同融资统计或破产程序。作者建议把观察重点转向复购、产线数据和具体场景毛利。",
+      "reason": "提供判断具身创业经营质量的具体框架。已核对署名、全文与发布时间；匿名访谈及引用数据未逐项独立验证，行业降温属于作者判断。",
+      "category": "opinion",
+      "quote": "估值最终要回到复购、交付和产线数据",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "现象/趋势",
+        "AI创业",
+        "AI赛道",
+        "AI商业化",
+        "具身智能",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-31T04:31:52+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-30T18:21:38.000Z",
+      "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+      "title": "The Verge交叉报道Suncatcher原型完成在轨推理",
+      "summary": "Emma Roth报道，Google称Suncatcher原型卫星启动TPU，并由Gemma 4生成太空主题俳句。后续仍需测试热应力与辐射影响，2027年互联双星属于下一阶段计划。",
+      "reason": "交叉核对已收录的原型运行事实。已读全文并核对原站发布时间；报道依据Google说明，没有独立性能测量，不重复列为精选。",
+      "category": "industry",
+      "quote": "successfully booted up the satellite’s Tensor Processing Units (TPUs)",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI赛道",
+        "部署/工程",
+        "海外AI",
+        "Google"
+      ],
+      "selected": false,
+      "event": {
+        "key": "google-suncatcher-prototype-2026-10",
+        "title": "Google Suncatcher太空TPU原型运行进展",
+        "factKey": "prototype-online-first-inference-disclosure",
+        "factTitle": "披露原型卫星运行推理及单芯片供电限制"
+      },
+      "addedAt": "2026-10-31T04:31:52+08:00"
     }
   ]
 }
