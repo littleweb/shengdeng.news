@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "researchedAt": "2026-10-30T11:20:09Z",
+  "researchedAt": "2026-10-30T20:27:19+08:00",
   "items": [
     {
       "sourceId": "rss-nvidia-blog",
@@ -1158,6 +1158,35 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-30T11:20:09Z"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-29T13:20:14.000Z",
+      "url": "https://the-decoder.com/openais-astra-becomes-the-main-target-for-chinese-ai-labs-after-anthropic-tightens-its-defenses/",
+      "title": "媒体称DeepSeek与月之暗面使用Astra输出训练模型，双方未确认",
+      "summary": "The Decoder援引The Information知情人士报道称，DeepSeek与月之暗面使用GPT-6 Astra输出训练最新模型，涉及V4.1-Flash 1017和Kimi K3.1 Pro。报道将这一变化与Anthropic收紧防蒸馏措施联系起来。月之暗面拒绝置评，DeepSeek未回应；相关训练情况尚未获得独立验证。",
+      "reason": "涉及前沿模型训练来源与防蒸馏竞争。已通读报道并核对原站精确发布时间；调查原稿受付费墙限制，企业未确认，保留媒体指称的边界。",
+      "category": "industry",
+      "quote": "Moonshot declined to comment",
+      "tier": "T2",
+      "entity": "deepseek",
+      "subjects": [
+        "deepseek",
+        "kimi",
+        "openai"
+      ],
+      "region": "国内",
+      "tags": [
+        "行业动态",
+        "数据/训练",
+        "国内AI",
+        "DeepSeek",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-30T20:27:19+08:00"
     }
   ]
 }
