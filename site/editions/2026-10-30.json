@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "researchedAt": "2026-10-30T11:14:38+08:00",
+  "researchedAt": "2026-10-30T05:31:40Z",
   "items": [
     {
       "sourceId": "rss-nvidia-blog",
@@ -849,6 +849,31 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-30T11:14:38+08:00"
+    },
+    {
+      "sourceId": "rss-sspai",
+      "sourceName": "少数派",
+      "date": "2026-10-30T03:30:43.000Z",
+      "url": "https://sspai.com/prime/story/zhuanglesha-261030",
+      "title": "阿帅分享AI工作流：反馈按别名分派，需求用Skill查漏",
+      "summary": "运动健康产品经理阿帅介绍，用ChatGPT编写脚本，将TestFlight截屏反馈同步到飞书多维表格，再按姓名缩写或别名分配负责人；需求文档则交给自定义Skill检查逻辑和边界。他也提醒，AI教练原型虽可快速做出，素材返工、功能完善和推广仍需投入。以上均为个人实践。",
+      "reason": "提供反馈归档与需求检查的具体做法。已核对完整采访及原站精确发布时间；流程与成本来自受访者自述，未独立复测。",
+      "category": "tip",
+      "quote": "将 Bug 分配给对应同事",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "编码",
+        "AI创作者",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-30T05:31:40Z"
     }
   ]
 }
