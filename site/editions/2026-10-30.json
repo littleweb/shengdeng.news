@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "researchedAt": "2026-10-30T21:36:58+08:00",
+  "researchedAt": "2026-10-30T22:46:48+08:00",
   "items": [
     {
       "sourceId": "rss-nvidia-blog",
@@ -1340,6 +1340,95 @@
         "factTitle": "IPO学者分析招股披露篇幅与关键经营信息缺口"
       },
       "addedAt": "2026-10-30T21:36:58+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-30T13:54:25.000Z",
+      "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+      "title": "DoorDash称第三方AI智能体累计带来的订单仅有数百单",
+      "summary": "DoorDash CEO Tony Xu在第三季度业绩电话会上表示，部分第三方AI智能体累计带来的订单约有数百单，用户仍主要通过DoorDash应用下单。公司将继续探索外部智能体合作。这一数字不包含其自有AI功能，也未明确累计统计区间，不能据此推算整个智能体商务市场的采用率。",
+      "reason": "为智能体商务的实际采用提供具体公司口径。已核对署名报道全文和精确发布时间，订单数据未独立审计。",
+      "category": "industry",
+      "quote": "maybe several hundred orders in total",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI赛道",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-30T22:46:48+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-30T13:01:14.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+      "title": "Altman回应AI科研发布争议，口述数学研究投入达数亿美元量级",
+      "summary": "Robert Hart报道，Altman在Cheeky Pint访谈中承认科研结果的发布方式需要改进，但主张继续公开发现。他估计数学相关研究投入达数亿美元量级，其中Navier–Stokes相关工作约耗费1000万美元或略高。费用属于本人估算，不能视为经审计开支，也不代表相关科学结论已获独立确认。",
+      "reason": "补充科研发布争议中的当事人回应与成本估算。报道全文、精确发布时间及节目原站文字稿相互印证，未将科研主张写成已验证突破。",
+      "category": "opinion",
+      "quote": "hundreds of millions of dollars",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "AI赛道",
+        "Agent",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "altman-cheeky-pint-interview-2026-10-29",
+        "title": "Altman在Cheeky Pint谈AI科研发布与研究开销",
+        "factKey": "math-publication-and-cost-estimate-remarks",
+        "factTitle": "Altman回应科研发布争议并口述数学研究投入估算"
+      },
+      "addedAt": "2026-10-30T22:46:48+08:00"
+    },
+    {
+      "sourceId": "cheeky-pint",
+      "sourceName": "Cheeky Pint（节目原站文字稿）",
+      "date": "2026-10-29",
+      "url": "https://cheekypint.transistor.fm/39/transcript",
+      "title": "节目原文确认Altman的数学研究开销估算及适用范围",
+      "summary": "节目文字稿显示，Altman估计Navier–Stokes相关工作花费约1000万美元或略高；谈到数亿美元量级的数学研究投入时，他补充其中包含尚未公开的探索。关于一年后可能以百分之一成本重做的说法是预测，并非已经实现的降本结果。",
+      "reason": "用于近48小时内的发言交叉核对。已通读节目文字稿，原站仅提供日期；成本为口头估算，不构成独立财务或科学验证。",
+      "category": "opinion",
+      "quote": "But that includes much more other discovery than what we have published.",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "AI赛道",
+        "Agent",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "altman-cheeky-pint-interview-2026-10-29",
+        "title": "Altman在Cheeky Pint谈AI科研发布与研究开销",
+        "factKey": "math-publication-and-cost-estimate-remarks",
+        "factTitle": "Altman回应科研发布争议并口述数学研究投入估算"
+      },
+      "addedAt": "2026-10-30T22:46:48+08:00"
     }
   ]
 }
