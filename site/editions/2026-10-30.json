@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "researchedAt": "2026-10-30T07:51:39+08:00",
+  "researchedAt": "2026-10-30T00:57:20Z",
   "items": [
     {
       "sourceId": "rss-nvidia-blog",
@@ -710,6 +710,64 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-30T07:51:39+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-29T16:42:32.000Z",
+      "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+      "title": "英伟达回应Megaspeed相关指控，称客户不获敏感信息",
+      "summary": "TechCrunch转述《纽约时报》关于Megaspeed高管的匿名信源指控，并取得英伟达书面回应。公司称黄仁勋与该高管的交往属于正常客户往来，区域云客户只获普通商业信息，不获敏感商业机密或国家安全信息。报道未提供公开调查结论，不能据此认定个人间谍身份或芯片转售违法。",
+      "reason": "涉及AI芯片客户关系与信息边界。已核对全文、精确发布时间及记者取得的公司回应；情报指控仍依赖匿名信源，尚无独立证实。",
+      "category": "industry",
+      "quote": "not sensitive NVIDIA trade secrets",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "nvidia-megaspeed-allegations-response-2026-10-29",
+        "title": "英伟达回应Megaspeed相关情报指控",
+        "factKey": "nvidia-customer-information-denial-2026-10-29",
+        "factTitle": "英伟达否认向Megaspeed提供敏感信息"
+      },
+      "addedAt": "2026-10-30T00:57:20Z"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-29T13:42:38.000Z",
+      "url": "https://the-decoder.com/chinese-spies-targeted-nvidia-ceo-jensen-huang-according-to-the-new-york-times/",
+      "title": "The Decoder交叉记录英伟达对客户信息范围的回应",
+      "summary": "The Decoder同日报道援引英伟达发言人称，会见客户属于CEO正常工作，Megaspeed不会收到敏感信息。此条仅交叉记录公司回应；两篇报道对情报指控均援引《纽约时报》，不能视为两份独立调查证据。",
+      "reason": "全文及精确发布时间可核对，支持同一公司回应，仅作交叉记录；没有独立证实匿名信源指控。",
+      "category": "industry",
+      "quote": "Megaspeed doesn't receive sensitive information.",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "nvidia-megaspeed-allegations-response-2026-10-29",
+        "title": "英伟达回应Megaspeed相关情报指控",
+        "factKey": "nvidia-customer-information-denial-2026-10-29",
+        "factTitle": "英伟达否认向Megaspeed提供敏感信息"
+      },
+      "addedAt": "2026-10-30T00:57:20Z"
     }
   ]
 }
