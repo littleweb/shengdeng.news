@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "researchedAt": "2026-10-30T02:05:16Z",
+  "researchedAt": "2026-10-30T11:14:38+08:00",
   "items": [
     {
       "sourceId": "rss-nvidia-blog",
@@ -827,6 +827,28 @@
         "factTitle": "腾讯发布Buddy One，统一办公应用账号与积分池"
       },
       "addedAt": "2026-10-30T02:05:16Z"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-30T01:20:48.000Z",
+      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+      "title": "肯塔基大学说明员工AI使用豁免条件，岗位变化后仍可复核",
+      "summary": "Amanda Silberling采访中，肯塔基大学发言人Jay Blanton确认，校方按岗位职责和具体情况，批准员工David Durman不亲自使用AI的安排，前提是仍能履行岗位核心职责；技术和工作要求变化后可重新评估。Durman目前未被要求使用AI，其申请旨在预先解决个人信念与潜在工作要求的冲突，豁免本身早于此次采访获批。",
+      "reason": "新增校方对批准条件和复核机制的直接回应，署名全文与精确发布时间已核对；属于个案，不能推导为普遍拒用AI的权利。",
+      "category": "industry",
+      "quote": "As technology and job responsibilities evolve, accommodations may be reviewed to ensure they remain reasonable and workable.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-30T11:14:38+08:00"
     }
   ]
 }
