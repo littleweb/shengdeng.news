@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "researchedAt": "2026-10-31T05:35:53+08:00",
+  "researchedAt": "2026-10-31T06:45:39+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -447,6 +447,121 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-31T05:35:53+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-30T21:54:34.000Z",
+      "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+      "title": "英特尔股价跌约28%，公司称内存价格与供应已影响PC需求",
+      "summary": "Julie Bort报道，英特尔周五股价跌约28%。公司第四季度营收指引为150亿至160亿美元，低于报道所述约170亿美元的市场预期。管理层称，内存价格与供应已使客户发出PC需求放缓信号；同期数据中心业务收入同比增长78%。",
+      "reason": "呈现AI算力需求与PC供应压力的分化。报道正文和精确发布时间可核对；内存影响依据管理层说法，不能仅凭股价变化认定因果。",
+      "category": "industry",
+      "quote": "Our customers began signaling a PC slowdown based on the memory prices and availability.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "intel-q3-2026-results-2026-10-29",
+        "title": "英特尔第三季度财报与后续市场反应",
+        "factKey": "post-earnings-selloff-pc-memory-pressure-2026-10-30",
+        "factTitle": "财报后股价下跌，管理层称内存价格和供应影响PC需求"
+      },
+      "addedAt": "2026-10-31T06:45:39+08:00"
+    },
+    {
+      "sourceId": "intel-investor-relations",
+      "sourceName": "Intel Investor Relations",
+      "date": "2026-10-29T16:01-04:00",
+      "url": "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results",
+      "title": "英特尔原始财报确认数据中心增长与客户端业务下滑",
+      "summary": "英特尔披露第三季度数据中心和AI业务收入73亿美元，同比增长78%；客户端计算与物理AI业务收入81亿美元，同比下降5%。第四季度营收150亿至160亿美元属于公司指引，尚非实际业绩。",
+      "reason": "公司原文与原站发布列表确认财报数据及发布时间，仅作事件背景交叉记录；季度数据未经审计，第四季度数字仍是预测。",
+      "category": "industry",
+      "quote": "Forecasting fourth-quarter 2026 revenue of $15.0 billion to $16.0 billion",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "intel-q3-2026-results-2026-10-29",
+        "title": "英特尔第三季度财报与后续市场反应",
+        "factKey": "q3-dcai-growth-q4-revenue-guidance-2026-10-29",
+        "factTitle": "英特尔公布季度业务收入及第四季度营收指引"
+      },
+      "addedAt": "2026-10-31T06:45:39+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-30T21:52:03.000Z",
+      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "title": "媒体称黑石调整Anthropic上市后评级预期，尚非正式评级",
+      "summary": "TechCrunch援引《金融时报》称，黑石向芯片融资交易的投资者表示，预计Anthropic上市后可能获得BB区间评级，取代此前在2027年前达到投资级的预期。Anthropic与黑石对TechCrunch均拒绝置评。这是投资方预判，不能写成评级机构已经降级。",
+      "reason": "补充上市筹备中的融资成本风险。已核对报道正文和精确发布时间；未取得黑石投资者材料或正式评级，相关预期尚未独立证实。",
+      "category": "industry",
+      "quote": "Now Blackstone expects double B range rating",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "anthropic-ipo-s1-2026-10-26",
+        "title": "Anthropic公开提交IPO注册文件",
+        "factKey": "reported-blackstone-post-ipo-credit-rating-outlook-2026-10-30",
+        "factTitle": "媒体称黑石调整对Anthropic上市后信用评级的预期"
+      },
+      "addedAt": "2026-10-31T06:45:39+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-10-30T21:59:22.000Z",
+      "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
+      "title": "Simon转介nesformer：把NES CPU放进Qwen权重，并分享开发提示",
+      "summary": "Simon Willison介绍Drew Breunig的nesformer实验，将NES的6502 CPU运行逻辑放入Qwen架构权重。他同时摘录开发者使用Opus 5.5先探索可行性、再要求实现权重与命令行工具的两轮提示。文中明确说明，游戏运行很慢。",
+      "reason": "提供从技术设想到运行演示的AI编程案例和提示参考，属于创意实验，未复测。原文正文＋原站 RSS 时间核验。",
+      "category": "tip",
+      "quote": "NES ROMs such as Super Mario Bros (very slowly) running inside Qwen!",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI创作者",
+        "编码",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-31T06:45:39+08:00"
     }
   ]
 }
