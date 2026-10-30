@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "researchedAt": "2026-10-30T05:31:40Z",
+  "researchedAt": "2026-10-30T06:42:11Z",
   "items": [
     {
       "sourceId": "rss-nvidia-blog",
@@ -874,6 +874,38 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-30T05:31:40Z"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-10-30T00:19:06.000Z",
+      "url": "https://www.qbitai.com/2026/10/506569.html",
+      "title": "智己LS8纯电版预售，IM Claw免费权益限首任非营运车主",
+      "summary": "智己LS8 NEO纯电版开启预售，报道披露其与阿里千问合作的IM Claw支持跨应用调用服务、多目的地路线规划及用户偏好记忆。厂商宣布首任非营运车主享IM Claw及Token终身免费。车型计划11月5日正式上市，目前仍处预售阶段。",
+      "reason": "提供车载智能体执行任务与使用成本的具体信息，原文正文＋原站 RSS 时间核验。免费权益有车主资格限制，能力为厂商发布口径，尚未经独立实车验证。",
+      "category": "ai-products",
+      "quote": "首任非营运车主享受IM Claw终身免费使用权",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "qwen"
+      ],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "AI硬件",
+        "AI产品",
+        "国内AI",
+        "Agent"
+      ],
+      "selected": true,
+      "event": {
+        "key": "im-ls8-neo-ev-presale-2026-10",
+        "title": "智己LS8 NEO纯电版开启预售",
+        "factKey": "presale-im-claw-lifetime-token-owner-benefit",
+        "factTitle": "预售车型披露IM Claw功能及首任非营运车主免费权益"
+      },
+      "addedAt": "2026-10-30T06:42:11Z"
     }
   ]
 }
