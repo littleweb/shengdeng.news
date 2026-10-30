@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "researchedAt": "2026-10-31T01:10:29+08:00",
+  "researchedAt": "2026-10-31T02:18:08+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -92,6 +92,69 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-31T01:10:29+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-30T17:47:12.000Z",
+      "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+      "title": "Zest推出短信餐厅管家，支持群聊选店与餐位预订",
+      "summary": "TechCrunch报道，Zest新增短信餐厅管家，可结合餐饮消费记录和朋友偏好推荐餐厅，通过OpenTable、Resy等服务预订，群聊还可投票选店。记者试用称推荐符合所设条件；报道未披露预订成功率、收费和完整地区范围，外卖下单仍是后续计划。",
+      "reason": "展示垂直智能体如何连接偏好数据与实际交易。已核对全文及原站发布时间；媒体试用支持推荐体验，商业成效尚未得到验证。",
+      "category": "ai-products",
+      "quote": "The agent is the product now",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI创业",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "zest-sms-restaurant-concierge-2026-10-29",
+        "title": "Zest推出短信餐厅推荐与预订智能体",
+        "factKey": "sms-recommendation-group-vote-booking-launch",
+        "factTitle": "短信管家加入餐厅推荐、群聊投票与餐位预订"
+      },
+      "addedAt": "2026-10-31T02:18:08+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-30T17:00:00.000Z",
+      "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "title": "Google太空TPU原型开始运行，单枚芯片每次约工作20分钟",
+      "summary": "据TechCrunch报道，Google Suncatcher原型卫星完成调试并运行Gemma 4推理。卫星携带4枚TPU，但供电限制使其一次只能开启1枚、约20分钟。后续将测试热应力和辐射影响；2027年双星及星间光链路仍属计划，报道已更正芯片同时运行数量。",
+      "reason": "具体供电限制有助于判断太空AI算力的现实阶段。已核对全文与原站发布时间；运行状态来自Google向记者的说明，尚无独立性能验证。",
+      "category": "industry",
+      "quote": "it can only turn one on for about twenty minutes at a time",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI赛道",
+        "部署/工程",
+        "海外AI",
+        "Google"
+      ],
+      "selected": true,
+      "event": {
+        "key": "google-suncatcher-prototype-2026-10",
+        "title": "Google Suncatcher太空TPU原型运行进展",
+        "factKey": "prototype-online-first-inference-disclosure",
+        "factTitle": "披露原型卫星运行推理及单芯片供电限制"
+      },
+      "addedAt": "2026-10-31T02:18:08+08:00"
     }
   ]
 }
