@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "researchedAt": "2026-10-30T10:13:47Z",
+  "researchedAt": "2026-10-30T11:20:09Z",
   "items": [
     {
       "sourceId": "rss-nvidia-blog",
@@ -1135,6 +1135,29 @@
         "factTitle": "主张区分具有转换用途的训练与替代原文的复制输出"
       },
       "addedAt": "2026-10-30T10:13:47Z"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-30T11:00:00.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+      "title": "缅因州采访：数据中心建设争议进入参议院选举",
+      "summary": "Abigail Bassett采访研究者与当地政治学者，呈现缅因州居民对数据中心用电、用水、长期就业及外来资本的担忧，并追踪科技与数据中心相关捐款。受访者指出，地方既希望吸引投资，又担心社区承担成本；报道没有证明竞选资金已改变选民选择。",
+      "reason": "在已收录的多州与得州报道之外，新增缅因州采访及资金关联线索。完整原文和精确发布时间已核对；受访者判断不代表选举结果。",
+      "category": "industry",
+      "quote": "Data centers just seem to be this symbolic flashpoint of that tension in rural living.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-30T11:20:09Z"
     }
   ]
 }
