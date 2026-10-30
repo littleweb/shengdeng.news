@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "researchedAt": "2026-10-30T06:42:11Z",
+  "researchedAt": "2026-10-30T07:51:36Z",
   "items": [
     {
       "sourceId": "rss-nvidia-blog",
@@ -906,6 +906,86 @@
         "factTitle": "预售车型披露IM Claw功能及首任非营运车主免费权益"
       },
       "addedAt": "2026-10-30T06:42:11Z"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-10-29T22:48:29.000Z",
+      "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+      "title": "合资格Pro订阅可领取等额API赠额，首次按剩余周期折算",
+      "summary": "Simon Willison记录OpenAI新增订阅API赠额。官方说明确认，Pro 100、200和500完整月度周期分别对应100、200和500美元API额度；付费订阅须满7天并主动激活，绑定一个符合所有权要求的API组织。首次按剩余周期折算，到期不结转，也不增加ChatGPT或登录态Codex用量，不覆盖通过API密钥使用Codex的费用。",
+      "reason": "直接影响开发者试做应用的成本。原文正文＋原站 RSS 时间核验，领取与到期条件经官方说明确认；实际开放仍受账户批次和国家限制。",
+      "category": "ai-products",
+      "quote": "you now get that same quantity of credits to apply to one of your API organizations.",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-chatgpt-api-credit-benefit-2026-10-29",
+        "title": "OpenAI向合资格ChatGPT订阅提供API赠额",
+        "factKey": "eligible-pro-subscription-api-credit-grants",
+        "factTitle": "合资格Pro订阅可激活等额API赠额并按周期到期"
+      },
+      "addedAt": "2026-10-30T07:51:36Z"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-10-30T05:52:47.000Z",
+      "url": "https://www.qbitai.com/2026/10/506686.html",
+      "title": "量子位拆解OXR文档解析：版面分析可替换，识别与阅读顺序合并",
+      "summary": "Jay介绍OXR将PDF和文档图片转换为结构化内容的做法，并自述已接入自己的写作应用。文章拆解独立版面分析模块、合并内容识别与阅读顺序判断，以及通过错误归因构造后续训练数据的方法。榜单和速度数字属于团队公布结果，作者体验没有给出系统性对照测试。",
+      "reason": "为PDF转知识库提供具体方案。原文正文＋原站 RSS 时间核验；官方要求本地低并发测试单卡24GB显存起，免费服务不保证稳定，商用另有许可限制，未复测效果。",
+      "category": "tip",
+      "quote": "版面分析模块独立且完全可插拔。",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "教程/实践",
+        "AI产品",
+        "AI玩法",
+        "部署/工程",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-30T07:51:36Z"
+    },
+    {
+      "sourceId": "woshipm-shenyue",
+      "sourceName": "人人都是产品经理 · 申悦",
+      "date": "2026-10-30",
+      "url": "https://www.woshipm.com/ai/6486525.html",
+      "title": "申悦分享经验萃取方法：从真实案例提规则，再换样本验证",
+      "summary": "申悦给出“找任务、讲案例、提规则、做验证、存方法”五步流程及访谈提示词。方法要求区分制度、个人经验和未确认建议，用正常、边界与缺失样本检查结果，再换一份材料验证规则能否复用，最后保存任务说明或封装为Skill。文中的教务样例用于演练，不能直接当成其他机构的业务规定。",
+      "reason": "提供可直接复用的访谈提示词和验收样例。已通读署名原文，网页标注今日日期；保留日期精度，方法效果未独立复测。",
+      "category": "tip",
+      "quote": "把一次结果改对，与形成可复用的方法，是两个需要分别检查的目标。",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI创作者",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-30T07:51:36Z"
     }
   ]
 }
