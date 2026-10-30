@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "researchedAt": "2026-10-31T04:31:52+08:00",
+  "researchedAt": "2026-10-31T05:35:53+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -363,6 +363,90 @@
         "factTitle": "披露原型卫星运行推理及单芯片供电限制"
       },
       "addedAt": "2026-10-31T04:31:52+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-30T21:17:40.000Z",
+      "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+      "title": "TechCrunch比较科技巨头现金流，分析AI投入的回报压力",
+      "summary": "Rebecca Bellan比较四家公司的资本开支与现金流：Alphabet第三季度自由现金流为负91亿美元，Meta同季度为负21亿美元；亚马逊过去12个月为负424亿美元，微软最近季度仍为正186亿美元。文章称四家公司全年资本开支计划合计逾7400亿美元，据此讨论融资与回报压力；这些支出并非全部用于AI，各项现金流的统计期间也不同。",
+      "reason": "提供观察AI投资回报压力的现金流对照。已核对署名全文和精确发布时间；数字为媒体整理，未逐项复核公司报表，不能据此断言AI需求下降。",
+      "category": "opinion",
+      "quote": "Demand for AI compute remains strong.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "google",
+        "meta",
+        "microsoft"
+      ],
+      "region": "国外",
+      "tags": [
+        "现象/趋势",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-31T05:35:53+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-30T20:48:43.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+      "title": "Altman谈内存分配：供给受限时应提高云端利用率",
+      "summary": "Stevie Bonifield报道，Altman在Cheeky Pint访谈中认为，内存供应紧张时，大量DRAM分散在低利用率的个人电脑中并非理想配置，应提高云端利用率。这是他对本地推理与集中式算力的资源分配判断；发言中的5%利用率未附实测依据，也不是宣布限制个人电脑或本地模型。",
+      "reason": "补充此前科研话题报道未覆盖的算力分配观点。媒体全文与节目逐字稿相互印证；利用率数字属于发言者估计。",
+      "category": "opinion",
+      "quote": "You want maximum utilization in the cloud",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "AI硬件",
+        "端侧",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "altman-cheeky-pint-interview-2026-10-29",
+        "title": "Altman在Cheeky Pint谈AI科研发布与研究开销",
+        "factKey": "dram-allocation-cloud-utilization-remarks",
+        "factTitle": "Altman主张内存供应受限时提高云端利用率"
+      },
+      "addedAt": "2026-10-31T05:35:53+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-30T13:00:00.000Z",
+      "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
+      "title": "Runware披露模块化机房扩产计划，48小时仅指现场安装",
+      "summary": "Runware联合创始人兼CEO Flaviu Radulescu向TechCrunch表示，罗马尼亚第二座工厂计划2027年初投产，目标到2028年达到每日30兆瓦的模块化数据中心产能。所谓48小时上线仅包括安装与配置，不含制造时间。客户可租用算力，或自带GPU支付机房及运维月费，电力和网络另计；扩产和交付目标尚待验证。",
+      "reason": "采访给出模块化算力设施的交付与收费边界。已通读全文并核对精确发布时间；产能及速度为公司自述，尚无独立交付验证。",
+      "category": "industry",
+      "quote": "That time covers installation and set-up time, not build time.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI创业",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-31T05:35:53+08:00"
     }
   ]
 }
