@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-31",
+  "researchedAt": "2026-10-31T01:10:29+08:00",
+  "items": [
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-10-30T09:00:00.000Z",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "title": "OpenAI公布ChatGPT暴力内容新限制，防护将于未来数周推送",
+      "summary": "OpenAI表示，将收紧所有用户获取历史大规模袭击细节的范围，并对未成年人增加武器信息限制。相关防护将于未来数周开始推送，自动结束高风险对话、暂停账户及部分家长通知机制仍在建设。首份社区安全报告计划2027年初发布，此后每半年更新。",
+      "reason": "涉及回答范围与账户干预边界，值得使用者和家长关注。原文正文＋原站 RSS 时间核验；部分干预机制和首份报告仍属计划。",
+      "category": "ai-products",
+      "quote": "The safeguards detailed here will begin rolling out in the next few weeks",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "安全/对齐",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "chatgpt-community-safety-teen-protections-2026-10-30",
+        "title": "OpenAI公布ChatGPT社区安全与未成年人保护措施",
+        "factKey": "violence-safeguards-and-reporting-announcement",
+        "factTitle": "公布暴力内容限制、干预机制及半年安全报告计划"
+      },
+      "addedAt": "2026-10-31T01:10:29+08:00"
+    },
+    {
+      "sourceId": "rss-nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "date": "2026-10-30T15:00:10.000Z",
+      "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+      "title": "英伟达披露望远镜Agent部署：用自然语言操控观测与处理信号",
+      "summary": "Chris Porter介绍，Allen Telescope Array已把自然语言指令接入望远镜指向、校准、数据纠错与信号分析。团队称，系统借助本地RTX PRO 6000 Blackwell GPU处理2.4 Tb/s数据流，并已实时检出蟹状星云脉冲星；Nemotron模型的适用性仍在评估。",
+      "reason": "提供Agent连接真实科研设备的具体任务和处理规模。已核对署名全文及原站精确时间；部署效果来自厂商与项目团队自述，尚未独立复测。",
+      "category": "industry",
+      "quote": "agents can now steer the instrument",
+      "tier": "T1",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "AI硬件",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "allen-telescope-array-agentic-observatory-2026-10",
+        "title": "Allen Telescope Array部署观测与信号处理智能体",
+        "factKey": "natural-language-control-realtime-signal-pipeline",
+        "factTitle": "披露自然语言控制望远镜及实时信号处理能力"
+      },
+      "addedAt": "2026-10-31T01:10:29+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-29T19:33:37.000Z",
+      "url": "https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds/",
+      "title": "50名专家实验解读：AI随机立场影响分析，人工签字未必代表独立判断",
+      "summary": "Matthias Bastian解读Anthropic实验：50名因果推断从业者完成同一分析任务，智能体被随机赋予两种合理选项之一的偏好。参与者在四项分析决策中有86%与智能体一致，但对最终政策建议的直接影响未达统计显著。实验刻意强化了智能体立场，不能推广到所有专家工作。",
+      "reason": "提示审核AI结果时，还需检查分析假设由谁决定。已核对完整报道、作者及原站精确时间；这是既有实验的解读，结论受单任务、小样本限制。",
+      "category": "paper",
+      "quote": "Participants adopted the agent's preference in 86 percent",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "安全/对齐",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-31T01:10:29+08:00"
+    }
+  ]
+}

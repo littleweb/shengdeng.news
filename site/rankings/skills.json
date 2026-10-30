@@ -1,6 +1,6 @@
 {
   "kind": "skills",
-  "capturedAt": "2026-10-29T17:05:32.001Z",
+  "capturedAt": "2026-10-30T17:11:41.755Z",
   "sourceName": "skills.sh",
   "sourceUrl": "https://www.skills.sh/",
   "metric": "累计安装量",
@@ -49,25 +49,25 @@
       "rank": 6,
       "name": "grill-with-docs",
       "owner": "mattpocock/skills",
-      "value": 1200000,
-      "displayValue": "1.2M",
+      "value": 1300000,
+      "displayValue": "1.3M",
       "url": "https://www.skills.sh/mattpocock/skills/grill-with-docs"
     },
     {
       "rank": 7,
-      "name": "improve-codebase-architecture",
-      "owner": "mattpocock/skills",
-      "value": 1200000,
-      "displayValue": "1.2M",
-      "url": "https://www.skills.sh/mattpocock/skills/improve-codebase-architecture"
-    },
-    {
-      "rank": 8,
       "name": "media-use",
       "owner": "heygen-com/hyperframes",
       "value": 1200000,
       "displayValue": "1.2M",
       "url": "https://www.skills.sh/heygen-com/hyperframes/media-use"
+    },
+    {
+      "rank": 8,
+      "name": "improve-codebase-architecture",
+      "owner": "mattpocock/skills",
+      "value": 1200000,
+      "displayValue": "1.2M",
+      "url": "https://www.skills.sh/mattpocock/skills/improve-codebase-architecture"
     },
     {
       "rank": 9,
@@ -121,8 +121,8 @@
       "rank": 15,
       "name": "frontend-design",
       "owner": "anthropics/skills",
-      "value": 1000000,
-      "displayValue": "1.0M",
+      "value": 1100000,
+      "displayValue": "1.1M",
       "url": "https://www.skills.sh/anthropics/skills/frontend-design"
     },
     {
