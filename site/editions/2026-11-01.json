@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "researchedAt": "2026-11-01T04:45:49+08:00",
+  "researchedAt": "2026-11-01T05:34:41+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -280,6 +280,66 @@
         "factTitle": "客户邮件披露四款模型水印扩展及两款旧模型的采样条件"
       },
       "addedAt": "2026-11-01T04:45:49+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-31T21:17:03.000Z",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "title": "法院驳回xAI撤诉请求，数据中心供电污染案继续审理",
+      "summary": "Anthony Ha报道，密西西比北区联邦法院驳回xAI要求撤销NAACP清洁空气法诉讼的请求，否定涉案燃气轮机属于豁免许可的移动源等理由。案件涉及为Colossus 2数据中心供电的设施；初步禁令仍待裁决，尚非最终责任判决。",
+      "reason": "反映AI数据中心扩张面临的供电合规约束。已通读署名原文、核对精确发布时间，并对照代理律师公告；案件仍在审理。",
+      "category": "industry",
+      "quote": "the plaintiffs’ claims will proceed",
+      "tier": "T2",
+      "entity": "xai",
+      "subjects": [
+        "xai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "xai-naacp-colossus2-clean-air-lawsuit-2026",
+        "title": "NAACP诉xAI数据中心供电设施污染案",
+        "factKey": "defendants-dismissal-motion-denied-2026-10-30",
+        "factTitle": "法院驳回xAI撤诉请求，允许清洁空气法诉讼继续"
+      },
+      "addedAt": "2026-11-01T05:34:41+08:00"
+    },
+    {
+      "sourceId": "selc-press-release",
+      "sourceName": "Southern Environmental Law Center",
+      "date": "2026-10-30",
+      "url": "https://www.selc.org/press-release/court-tosses-request-to-block-clean-air-act-lawsuit-against-musks-xai/",
+      "title": "原告代理律师公告确认撤诉请求被驳回，初步禁令尚待裁决",
+      "summary": "Southern Environmental Law Center公告确认，法院驳回xAI针对NAACP诉讼的撤诉请求，并拒绝燃气轮机可免于许可要求的主张。公告明确，法院尚未裁决原告提出的初步禁令申请。",
+      "reason": "原始公告用于交叉核对同一裁定及程序边界。仅作48小时内交叉证据；来源为原告代理律师，保留其立场与原站日期精度。",
+      "category": "industry",
+      "quote": "The Court has yet to rule on NAACP’s motion for a preliminary injunction.",
+      "tier": "T1",
+      "entity": "xai",
+      "subjects": [
+        "xai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "xai-naacp-colossus2-clean-air-lawsuit-2026",
+        "title": "NAACP诉xAI数据中心供电设施污染案",
+        "factKey": "defendants-dismissal-motion-denied-2026-10-30",
+        "factTitle": "法院驳回xAI撤诉请求，允许清洁空气法诉讼继续"
+      },
+      "addedAt": "2026-11-01T05:34:41+08:00"
     }
   ]
 }
