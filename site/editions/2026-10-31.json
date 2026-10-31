@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "researchedAt": "2026-10-31T20:58:51+08:00",
+  "researchedAt": "2026-10-31T22:07:28+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -1104,6 +1104,36 @@
         "factTitle": "标普因资本开支与现金流不确定性将Meta展望调为负面"
       },
       "addedAt": "2026-10-31T20:58:51+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-10-31T13:11:19+08:00",
+      "url": "https://www.qbitai.com/2026/10/506866.html",
+      "title": "量子位解读X7 Ultra：用量产智驾模型衡量车载芯片算力",
+      "summary": "贾浩楠介绍新芯航途X7 Ultra车载智驾芯片及其与Momenta模型的协同设计。报道列出700 TOPS算力、98.7% NPU利用率，并解释算子加速、减少数据搬运和工具链调度的作用。性能数字来自厂商，尚不能替代独立实车验证。",
+      "reason": "把芯片指标放回量产模型负载讨论，有助于判断端侧部署门槛；原文正文＋原站 RSS 时间核验，性能仍为厂商自述，尚缺独立实测。",
+      "category": "ai-products",
+      "quote": "NPU计算利用率达到98.7%",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "国内AI",
+        "AI硬件",
+        "端侧",
+        "部署/工程"
+      ],
+      "selected": true,
+      "event": {
+        "key": "xheart-x7-ultra-launch-2026-10",
+        "title": "新芯航途发布X7 Ultra车载智驾芯片",
+        "factKey": "x7-ultra-release-production-model-metrics",
+        "factTitle": "发布X7 Ultra并披露量产智驾模型测试指标"
+      },
+      "addedAt": "2026-10-31T22:07:28+08:00"
     }
   ]
 }
