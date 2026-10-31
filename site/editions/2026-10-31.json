@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "researchedAt": "2026-10-31T17:34:18+08:00",
+  "researchedAt": "2026-10-31T18:46:28+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -1011,6 +1011,37 @@
         "factTitle": "计划投资约100亿日元将磁带产能提高至2025财年的五倍"
       },
       "addedAt": "2026-10-31T17:34:18+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-31T09:22:52.000Z",
+      "url": "https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite/",
+      "title": "媒体称OpenAI本轮获约110亿美元融资承诺，低于原300亿美元目标",
+      "summary": "Matthias Bastian援引《华尔街日报》称，OpenAI最新融资迄今获得约110亿美元承诺，低于原先300亿美元目标，报道所述估值为1.25万亿美元。公司仍计划继续向家族办公室与高净值投资者筹资；这些金额尚未获得公司确认，也不代表全部资金已经到账。",
+      "reason": "相较此前融资洽谈，新增具体筹资进度。已核对署名全文与原站精确发布时间；核心仍为媒体转述，融资承诺不等于到账或经营成效。",
+      "category": "industry",
+      "quote": "The company has secured about $11 billion so far",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-funding-talks-2026-10",
+        "title": "媒体报道OpenAI新融资洽谈及估值目标",
+        "factKey": "reported-11b-commitments-funding-progress-2026-10-31",
+        "factTitle": "媒体称本轮已获约110亿美元融资承诺并继续筹资"
+      },
+      "addedAt": "2026-10-31T18:46:28+08:00"
     }
   ]
 }
