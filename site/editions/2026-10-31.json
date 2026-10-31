@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "researchedAt": "2026-10-31T06:45:39+08:00",
+  "researchedAt": "2026-10-31T08:59:28+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -562,6 +562,145 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-31T06:45:39+08:00"
+    },
+    {
+      "sourceId": "apple-newsroom",
+      "sourceName": "Apple Newsroom",
+      "date": "2026-10-31",
+      "url": "https://www.apple.com.cn/newsroom/2026/10/apple-intelligence-features-are-coming-to-users-in-china/",
+      "title": "苹果智能中国区首批功能拟11月4日测试，包含千问接入",
+      "summary": "苹果宣布，首批中国区苹果智能功能将于11月4日起随iOS开发者测试版开放测试，计划12月随iOS 27.3正式推出，包括翻译、写作、照片处理及部分千问接入。本次不包含Siri AI等下一代功能；仅支持指定iPhone机型及语言设置，其他平台仍需审批。",
+      "reason": "官网公告与媒体报道相互印证，明确了中国区功能范围和时间表；目前仍是推出计划，需留意设备与语言条件。",
+      "category": "ai-products",
+      "quote": "本次更新不包含 Siri AI",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [
+        "qwen"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "国内AI",
+        "多模态"
+      ],
+      "selected": true,
+      "event": {
+        "key": "apple-intelligence-china-rollout-2026-10-31",
+        "title": "苹果公布中国区苹果智能首批功能推出安排",
+        "factKey": "november-four-beta-december-ios-27-3-plan",
+        "factTitle": "宣布11月4日测试、12月正式推出及千问接入范围"
+      },
+      "addedAt": "2026-10-31T08:59:28+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-10-30T22:32:53.000Z",
+      "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+      "title": "The Verge交叉确认苹果智能中国区安排及Siri AI限制",
+      "summary": "Jay Peters的报道确认，苹果计划先在中国开放首批苹果智能功能测试，随后于12月正式推出，并在部分体验中接入千问；此次不包含新的Siri AI。",
+      "reason": "署名、正文和发布时间可核对，与苹果公告支持同一事实，仅作交叉证据。",
+      "category": "ai-products",
+      "quote": "This launch doesn’t bring the new Siri AI to China.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "qwen"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "国内AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "apple-intelligence-china-rollout-2026-10-31",
+        "title": "苹果公布中国区苹果智能首批功能推出安排",
+        "factKey": "november-four-beta-december-ios-27-3-plan",
+        "factTitle": "宣布11月4日测试、12月正式推出及千问接入范围"
+      },
+      "addedAt": "2026-10-31T08:59:28+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-10-30T22:42:24.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/managing-amazon-bedrock-costs-end-to-end-a-playbook-for-finops-and-platform-teams/",
+      "title": "AWS分享AI成本管理方法：先归因，再区分告警与预算阻断",
+      "summary": "文章提出费用归因、请求观测、预算执行、默认策略优化和定期复盘五步流程。重点说明共享网关如何保留用户与工作流归因，以及告警、异步权限阻断和同步网关限制的差别。最终应衡量每个成功结果的成本，而非只比较单次调用价格；文中阈值需按实际业务校准。",
+      "reason": "已核对官方署名、全文与发布时间。预算延迟和成功结果成本的判断可迁移到其他平台，具体部署示例基于Bedrock，未复测。",
+      "category": "tip",
+      "quote": "cost per successful outcome, not cost per call.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI商业化",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-31T08:59:28+08:00"
+    },
+    {
+      "sourceId": "rss-hugging-face",
+      "sourceName": "Hugging Face Blog",
+      "date": "2026-10-30T17:57:24.000Z",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "title": "英伟达员工分享互动鬼屋：缓存语音，双GPU分担对话与动画",
+      "summary": "作者将语音识别、Bolt E4B、语音合成与Audio2Face串成互动投影，用预制台词和缓存音频减少等待。其自测中，实时生成与缓存回应的出声延迟中位数分别为1.70秒和0.72秒。演示使用RTX PRO 6000与4000双GPU；完整工程尚未打包公开，真实访客和夜间环境仍待测试。",
+      "reason": "原文正文＋原站 RSS 时间核验。提供缓存回应与音画分流的搭建经验；数字为作者自测，尚非真实活动成效。",
+      "category": "tip",
+      "quote": "Real driveway groups, costumes and night lighting still need testing.",
+      "tier": "T1",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "语音",
+        "多模态",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-31T08:59:28+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-30T22:56:13.000Z",
+      "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+      "title": "Ollie拟11月6日停运",
+      "summary": "将提供退款与数据导出说明。",
+      "reason": "用户迁移提醒；报道引述创始人。",
+      "category": "industry",
+      "quote": "shut down on November 6",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI产品",
+        "AI创业",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-31T08:59:28+08:00"
     }
   ]
 }
