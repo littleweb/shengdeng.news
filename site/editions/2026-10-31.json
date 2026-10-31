@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "researchedAt": "2026-10-31T10:09:26+08:00",
+  "researchedAt": "2026-10-31T11:18:25+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -815,6 +815,61 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-31T10:09:26+08:00"
+    },
+    {
+      "sourceId": "figma-blog",
+      "sourceName": "Figma Blog",
+      "date": "2026-10-31",
+      "url": "https://www.figma.com/blog/the-tldr-on-figma-weave/",
+      "title": "Figma分享可复用创作流程：明确参考图职责，逐步检查结果",
+      "summary": "Emma Webster介绍用Weave节点和分支组织图像、视频创作：分别说明各张参考图提供什么，写清需要保留的细节，在进入下一步前检查输出。分享工作流前，应换素材测试并让同事独立试用；简单调色、裁剪可直接编辑，减少重复生成。",
+      "reason": "参考图分工、分步验收和分享前验证可用于其他创作工具。官网今日署期、作者及全文可核对；示例效果未复测。",
+      "category": "tip",
+      "quote": "Testing as you build makes it easier to see where something went wrong",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI产品",
+        "图像生成",
+        "视频",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-31T11:18:25+08:00"
+    },
+    {
+      "sourceId": "rss-ars-technica-ai",
+      "sourceName": "Ars Technica · AI",
+      "date": "2026-10-30T16:53:49Z",
+      "url": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/",
+      "title": "美国披露虚假学生诈骗案，指控AI被用于代课和伪装出勤",
+      "summary": "Ashley Belanger报道，司法部称犯罪网络盗用身份申请学生资助，并用AI完成课程、伪装出勤；已起诉5人并扣押逾75万美元加密资产。报道也提示自动反诈可能误伤真实申请者。案件尚未定罪。",
+      "reason": "呈现AI自动化欺诈与身份核验的现实冲突。原文正文＋原站 RSS 时间核验；涉案行为及规模仍属司法部门指控。",
+      "category": "industry",
+      "quote": "bad actors use AI to fill out applications",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "安全/对齐",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "us-ghost-student-fraud-charges-2026-10-29",
+        "title": "美国披露虚假学生资助诈骗案起诉与AI滥用",
+        "factKey": "ghostbusters-charges-ai-coursework-allegations",
+        "factTitle": "司法部披露五人被起诉及AI代课、伪装出勤指控"
+      },
+      "addedAt": "2026-10-31T11:18:25+08:00"
     }
   ]
 }
