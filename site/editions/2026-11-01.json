@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "researchedAt": "2026-11-01T00:20:57+08:00",
+  "researchedAt": "2026-11-01T01:29:11+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -62,6 +62,100 @@
         "factTitle": "受控实验发现看似无害的数据可绕过监控并诱发失配行为"
       },
       "addedAt": "2026-11-01T00:20:57+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-31T16:38:37.000Z",
+      "url": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/",
+      "title": "Daybreak Blue拟调整训练数据规则，随后承诺提供单独退出选项",
+      "summary": "The Decoder报道，OpenAI通知Trusted Access用户，拟从11月29日起将Daybreak Blue会话用于模型训练，即使个人账户关闭了通常的训练开关。随后第二封邮件承诺提供单独退出选项；安全审查标记的交互仍可能用于安全用途。退出机制的具体安排尚未公布。",
+      "reason": "影响安全研究者处理敏感资料时的数据边界。已通读原文并核对精确发布时间；邮件变化仍据媒体报道，单独退出尚属承诺。",
+      "category": "industry",
+      "quote": "promising a separate opt-out",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "安全/对齐",
+        "AI产品",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-daybreak-blue-data-policy-2026-10",
+        "title": "Daybreak Blue个人账户会话训练规则调整",
+        "factKey": "training-policy-notice-separate-opt-out-promise",
+        "factTitle": "媒体报道训练规则通知及随后单独退出承诺"
+      },
+      "addedAt": "2026-11-01T01:29:11+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-31T16:12:55.000Z",
+      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "title": "OpenAI融资目标据报降至200亿美元",
+      "summary": "TechCrunch援引FT称，融资目标由300亿降至200亿美元，尚未获公司确认。",
+      "reason": "新增目标调整；已核对全文与精确时间。",
+      "category": "industry",
+      "quote": "$20 billion",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-funding-talks-2026-10",
+        "title": "媒体报道OpenAI新融资洽谈及估值目标",
+        "factKey": "reported-funding-target-reduction-to-20b",
+        "factTitle": "据报融资目标下调至200亿美元"
+      },
+      "addedAt": "2026-11-01T01:29:11+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-10-31T13:05:29+08:00",
+      "url": "https://www.qbitai.com/2026/10/506855.html",
+      "title": "量子位交叉说明Claude Ultra解限条件：周额度不变，新账号仍需验证",
+      "summary": "梦瑶报道，Claude Max 20x更名Ultra，月费仍为200美元。已验证账号逐步取消五小时使用窗口，周额度仍为Pro的10倍；新账号需要等待自动验证，可在用量页面检查是否生效。这是已归档订阅调整的补充报道。",
+      "reason": "补充核对解限条件，仅作同事件交叉证据。原文正文＋原站 RSS 时间核验；取消五小时窗口不等于无限使用。",
+      "category": "ai-products",
+      "quote": "每周使用额度保持不变",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "Anthropic"
+      ],
+      "selected": false,
+      "event": {
+        "key": "claude-ultra-session-limit-change-2026-10-30",
+        "title": "Claude订阅更名及Ultra五小时限制调整",
+        "factKey": "max-renaming-verified-ultra-five-hour-limit-removal",
+        "factTitle": "Max 20x更名Ultra并分批取消已核验账号的五小时限制"
+      },
+      "addedAt": "2026-11-01T01:29:11+08:00"
     }
   ]
 }
