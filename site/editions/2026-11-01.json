@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "researchedAt": "2026-11-01T05:34:41+08:00",
+  "researchedAt": "2026-10-31T23:42:11Z",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -340,6 +340,33 @@
         "factTitle": "法院驳回xAI撤诉请求，允许清洁空气法诉讼继续"
       },
       "addedAt": "2026-11-01T05:34:41+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-10-31T23:15:22.000Z",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "title": "Simon解析ChatGPT已修复漏洞：沙箱隔离还需守住跨窗口消息边界",
+      "summary": "Simon Willison拆解Parameter披露的漏洞链：HTML预览虽然被隔离，主页面的数学组件却接受其他窗口传来的内容，最终让攻击代码获得用户会话权限。解读说明，预览沙箱、消息接收与第三方脚本需要一起检查。文中明确漏洞已经修复，并非当天新增事故。",
+      "reason": "帮助开发者理解AI预览组件之间的信任边界。原文正文＋原站 RSS 时间核验；已通读解读，漏洞与修复情况据研究方披露，未独立复现。",
+      "category": "tip",
+      "quote": "OpenAI closed the hole",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "安全/对齐",
+        "AI产品",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-31T23:42:11Z"
     }
   ]
 }
