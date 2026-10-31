@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "researchedAt": "2026-10-31T16:25:27+08:00",
+  "researchedAt": "2026-10-31T17:34:18+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -955,6 +955,62 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-31T16:25:27+08:00"
+    },
+    {
+      "sourceId": "rss-ars-technica-ai",
+      "sourceName": "Ars Technica · AI",
+      "date": "2026-10-30T20:40:13.000Z",
+      "url": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
+      "title": "达特茅斯教务长辞职，调查指其未按要求披露AI使用",
+      "summary": "Nate Anderson报道，Santiago Schnell在AI使用调查后辞职。委员会发现其至少两次未满足出版方的AI使用或披露要求，但掌握的记录不足以确认全部使用范围。争议涉及披露义务，不能据此认定作品全部由AI代写。",
+      "reason": "呈现AI辅助写作中披露责任的实际后果。原文正文＋原站 RSS 时间核验；调查范围及证据仍有限。",
+      "category": "industry",
+      "quote": "failed to disclose significant AI use",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "dartmouth-schnell-ai-disclosure-2026-10",
+        "title": "达特茅斯教务长AI使用披露调查与辞职",
+        "factKey": "schnell-resignation-and-disclosure-findings",
+        "factTitle": "报道教务长辞职及调查发现的AI使用披露问题"
+      },
+      "addedAt": "2026-10-31T17:34:18+08:00"
+    },
+    {
+      "sourceId": "rss-ars-technica-ai",
+      "sourceName": "Ars Technica · AI",
+      "date": "2026-10-30T17:38:19.000Z",
+      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+      "title": "富士胶片拟投约100亿日元扩产磁带，称AI推高归档需求",
+      "summary": "Nick Indge报道，富士胶片计划在2026至2028财年投资约100亿日元，将LTO磁带产能提高至2025财年的五倍。公司将需求增长归因于生成式AI；扩产仍是计划，不能视为产能已经兑现。",
+      "reason": "提供AI存储需求影响传统硬件投资的具体案例。原文正文＋原站 RSS 时间核验；需求归因来自厂商。",
+      "category": "industry",
+      "quote": "The project will run from fiscal years 2026 through 2028",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "AI硬件",
+        "AI赛道"
+      ],
+      "selected": true,
+      "event": {
+        "key": "fujifilm-lto-capacity-expansion-2026-10",
+        "title": "富士胶片公布LTO磁带扩产计划",
+        "factKey": "investment-fivefold-capacity-fy2025-baseline",
+        "factTitle": "计划投资约100亿日元将磁带产能提高至2025财年的五倍"
+      },
+      "addedAt": "2026-10-31T17:34:18+08:00"
     }
   ]
 }
