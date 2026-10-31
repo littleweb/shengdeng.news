@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "researchedAt": "2026-11-01T02:34:29+08:00",
+  "researchedAt": "2026-11-01T03:42:16+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -182,6 +182,72 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-01T02:34:29+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-10-31T21:49:44+08:00",
+      "url": "https://www.qbitai.com/2026/10/506904.html",
+      "title": "DeepSeek公开Super-agent架构探索与研究原型，部分设计尚未实现",
+      "summary": "量子位作者梦瑶介绍DeepSeek的Super-agent设计，以Router统筹任务、Worker并行执行，探索跨会话协作与持续运行。团队在约300条消息、20项工作请求、每种配置重复5次的模拟环境中，报告任务完成时间中位数12.4分钟、95分位15.7分钟。这些是初步自测结果；公开代码仍为研究原型，不能等同于完整产品已上线。",
+      "reason": "为持续运行、多任务协作的Agent提供可研究的架构和代码。原文正文＋原站 RSS 时间核验；性能数字来自团队模拟实验，尚无独立生产效果验证。",
+      "category": "ai-products",
+      "quote": "官方直接把 Personal Agent 的底层架构思路公开了。",
+      "tier": "T2",
+      "entity": "deepseek",
+      "subjects": [
+        "deepseek"
+      ],
+      "region": "国内",
+      "tags": [
+        "开源/仓库",
+        "AI产品",
+        "Agent",
+        "编码",
+        "国内AI",
+        "部署/工程"
+      ],
+      "selected": true,
+      "event": {
+        "key": "deepseek-superagent-prototype-2026-10-31",
+        "title": "DeepSeek公开Super-agent架构探索与研究原型",
+        "factKey": "dsh-superagent-research-prototype-publication",
+        "factTitle": "DeepSeek公开dsh-superagent研究原型"
+      },
+      "addedAt": "2026-11-01T03:42:16+08:00"
+    },
+    {
+      "sourceId": "deepseek-official-repository",
+      "sourceName": "DeepSeek 官方仓库",
+      "date": "2026-10-31T20:05:39+08:00",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/6337fc823ce20251c8de8085948165c81aaa701e",
+      "title": "DeepSeek官方原型说明确认单仓库范围，明确不属于正式产品",
+      "summary": "官方README将dsh-superagent定义为面向单个GitHub仓库的主动编码研究原型，可监听GitHub及可选的飞书消息，在获授权或团队规则允许时处理任务，并通过网页面板呈现需要人工介入的事项。代码采用MIT许可；团队明确表示公开版本不同于内部实现，架构文章中的部分设计尚未实现。",
+      "reason": "官方代码与完整说明用于交叉核对原型范围和成熟度。时间为团队首个代码提交的原始时间，不作为正式产品上线时间。",
+      "category": "ai-products",
+      "quote": "Research prototype for reference only, not an official DeepSeek product.",
+      "tier": "T1",
+      "entity": "deepseek",
+      "subjects": [
+        "deepseek"
+      ],
+      "region": "国内",
+      "tags": [
+        "开源/仓库",
+        "AI产品",
+        "Agent",
+        "编码",
+        "国内AI",
+        "部署/工程"
+      ],
+      "selected": false,
+      "event": {
+        "key": "deepseek-superagent-prototype-2026-10-31",
+        "title": "DeepSeek公开Super-agent架构探索与研究原型",
+        "factKey": "dsh-superagent-research-prototype-publication",
+        "factTitle": "DeepSeek公开dsh-superagent研究原型"
+      },
+      "addedAt": "2026-11-01T03:42:16+08:00"
     }
   ]
 }
