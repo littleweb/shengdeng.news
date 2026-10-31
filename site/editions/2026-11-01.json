@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "researchedAt": "2026-11-01T03:42:16+08:00",
+  "researchedAt": "2026-11-01T04:45:49+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -248,6 +248,38 @@
         "factTitle": "DeepSeek公开dsh-superagent研究原型"
       },
       "addedAt": "2026-11-01T03:42:16+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-31T19:20:55.000Z",
+      "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
+      "title": "据报Anthropic扩展文本水印，两个旧版Claude仅在默认采样参数下生效",
+      "summary": "Matthias Bastian援引Anthropic客户邮件称，文本水印将扩展至Mythos 5、Opus 4.7、Opus 4.6和Sonnet 4.6。其中Opus 4.6与Sonnet 4.6要求temperature、top_p、top_k均保持默认值；依赖水印进行合规检查的开发者需注意这一条件。Bedrock部署可能晚数日，检测API仍为私有预览。",
+      "reason": "关系到API输出标识与检查流程。已通读署名原文并核对精确发布时间；参数限制来自报道引述的客户邮件，尚未独立复测。",
+      "category": "ai-products",
+      "quote": "If you rely on the watermark for your own compliance, keep these settings at their defaults.",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "安全/对齐",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "anthropic-older-claude-watermark-rollout-2026-10",
+        "title": "Anthropic向旧版Claude扩展文本水印",
+        "factKey": "four-model-watermark-rollout-sampling-conditions",
+        "factTitle": "客户邮件披露四款模型水印扩展及两款旧模型的采样条件"
+      },
+      "addedAt": "2026-11-01T04:45:49+08:00"
     }
   ]
 }
