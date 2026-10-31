@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "researchedAt": "2026-10-31T11:18:25+08:00",
+  "researchedAt": "2026-10-31T12:24:19+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -870,6 +870,32 @@
         "factTitle": "司法部披露五人被起诉及AI代课、伪装出勤指控"
       },
       "addedAt": "2026-10-31T11:18:25+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-10-30T21:40:03.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/",
+      "title": "AWS演示编码Agent实时预览：边修改边检查，每次访问都鉴权",
+      "summary": "Sundar Raghavan演示在AgentCore同一会话内运行编码Agent与Vite网站，通过本地代理查看热更新，并检查变更记录、未授权访问和端口限制。预览地址随会话结束失效，正式应用仍需另行部署；示例要求支持该功能的AWS区域、相应权限和模型访问。",
+      "reason": "提供把实时预览、变更检查和访问控制放进编码流程的具体方法。原文正文＋原站 RSS 时间核验；示例未独立复测，会话内网站与Agent并非相互隔离。",
+      "category": "tip",
+      "quote": "Knowing the URL doesn’t grant access.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "编码",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-31T12:24:19+08:00"
     }
   ]
 }
