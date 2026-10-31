@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "researchedAt": "2026-10-31T18:46:28+08:00",
+  "researchedAt": "2026-10-31T20:58:51+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -1042,6 +1042,68 @@
         "factTitle": "媒体称本轮已获约110亿美元融资承诺并继续筹资"
       },
       "addedAt": "2026-10-31T18:46:28+08:00"
+    },
+    {
+      "sourceId": "reuters-marketscreener",
+      "sourceName": "Reuters（MarketScreener刊载）",
+      "date": "2026-10-30T18:37-04:00",
+      "url": "https://www.marketscreener.com/news/s-p-global-revises-meta-s-outlook-to-negative-on-ai-spending-cash-flow-worries-ce785fdbd081ff2c",
+      "title": "标普将Meta评级展望调为负面，担忧AI投入的现金流压力",
+      "summary": "路透社报道，标普将Meta评级展望由稳定调为负面，担忧资本开支持续高企及自由经营现金流的不确定性。标普预测其2026年、2027年现金流缺口分别为390亿和710亿美元；这些是预测，Meta发言人明确反对其对公司AI变现能力的判断。",
+      "reason": "AI扩张的现金流压力已进入信用评估。已核对报道全文、署名及带时区发布时间，标普公开目录确认调整动作；预测不等于实际亏损。",
+      "category": "industry",
+      "quote": "we are less certain that it will curtail its spending as previously anticipated",
+      "tier": "T2",
+      "entity": "meta",
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "meta-credit-outlook-negative-2026-10-30",
+        "title": "标普调整Meta信用评级展望",
+        "factKey": "negative-outlook-ai-capex-cashflow",
+        "factTitle": "标普因资本开支与现金流不确定性将Meta展望调为负面"
+      },
+      "addedAt": "2026-10-31T20:58:51+08:00"
+    },
+    {
+      "sourceId": "the-next-web",
+      "sourceName": "The Next Web",
+      "date": "2026-10-30T22:51Z",
+      "url": "https://thenextweb.com/news/meta-sp-outlook-negative-ai-spending",
+      "title": "The Next Web交叉确认Meta展望调整及公司异议",
+      "summary": "Ana-Maria Stanciuc援引彭博报道，确认标普将Meta的AA-评级展望由稳定调为负面，并记录Meta发言人Kamran Mumtaz对AI变现判断的异议。本次变化是评级展望调整，不能写成已经下调信用评级。",
+      "reason": "全文与UTC发布时间可核对，另一路报道支持同一事实；作为交叉证据保留，不重复列为精选。",
+      "category": "industry",
+      "quote": "We respectfully disagree with S&P’s assertion about Meta’s AI monetization capabilities",
+      "tier": "T2",
+      "entity": "meta",
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "meta-credit-outlook-negative-2026-10-30",
+        "title": "标普调整Meta信用评级展望",
+        "factKey": "negative-outlook-ai-capex-cashflow",
+        "factTitle": "标普因资本开支与现金流不确定性将Meta展望调为负面"
+      },
+      "addedAt": "2026-10-31T20:58:51+08:00"
     }
   ]
 }
