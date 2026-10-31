@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "researchedAt": "2026-10-31T12:24:19+08:00",
+  "researchedAt": "2026-10-31T13:31:15+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -896,6 +896,37 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-31T12:24:19+08:00"
+    },
+    {
+      "sourceId": "maccus",
+      "sourceName": "MACCUS · Marc Winer",
+      "date": "2026-10-30T21:13",
+      "url": "https://maccus.fr/en/claude-ultra-five-hour-limit/",
+      "title": "Claude Max 20x更名Ultra，已核验账号逐步取消五小时限制",
+      "summary": "Marc Winer报道，Max 20x更名Ultra，网页订阅仍为每月200美元，并分批取消已自动核验账号的五小时限制。周用量保持Pro的10倍，Fable另有周限额；尚未通过核验的账号仍受临时限制。更名不代表无限使用。",
+      "reason": "影响长任务用户的订阅选择与用量安排。已通读署名报道；分批生效，周限额未增加。原文时间精确到分钟，未标时区。",
+      "category": "ai-products",
+      "quote": "The weekly cap stays where it was.",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "claude-ultra-session-limit-change-2026-10-30",
+        "title": "Claude订阅更名及Ultra五小时限制调整",
+        "factKey": "max-renaming-verified-ultra-five-hour-limit-removal",
+        "factTitle": "Max 20x更名Ultra并分批取消已核验账号的五小时限制"
+      },
+      "addedAt": "2026-10-31T13:31:15+08:00"
     }
   ]
 }
