@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "researchedAt": "2026-10-31T08:59:28+08:00",
+  "researchedAt": "2026-10-31T10:09:26+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -701,6 +701,120 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-31T08:59:28+08:00"
+    },
+    {
+      "sourceId": "northflank-status",
+      "sourceName": "Northflank Status",
+      "date": "2026-10-30T13:40Z",
+      "url": "https://status.northflank.com/cmvv0rn5a092f14rutwccodpp",
+      "title": "Northflank通报AI密钥遭未授权调用，要求用户轮换凭据",
+      "summary": "Northflank官方事件页记录，多名用户报告存放于平台的AI API密钥遭未授权调用。平台要求按环境变量可能泄露处理，轮换工作负载、密钥组及全局凭据，并检查模型服务账单；10月31日又宣布向所有用户开放审计日志，包括免费用户。调查仍在进行。",
+      "reason": "直接关系到开发者的模型费用与部署安全。已核对官方完整事件时间线；具体影响范围和攻击路径尚未查清。",
+      "category": "industry",
+      "quote": "Users have reported unauthorised use of AI API keys supplied to the Northflank platform.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "安全/对齐",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "northflank-security-incident-2026-10-30",
+        "title": "Northflank安全事件与AI密钥滥用处置",
+        "factKey": "security-incident-ai-key-misuse-disclosure",
+        "factTitle": "Northflank披露安全事件及用户AI密钥滥用报告"
+      },
+      "addedAt": "2026-10-31T10:09:26+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-10-31T01:20:05.000Z",
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "title": "媒体称英伟达洽谈为Nscale的Anthropic机房建设债务提供担保",
+      "summary": "Aditya Mehta援引The Information和Bloomberg报道，英伟达正洽谈为Nscale西弗吉尼亚州、面向Anthropic的机房项目提供数十亿美元债务担保。拟议安排涉及机房资产残值，在Nscale违约时由英伟达介入处置。目前仍是谈判报道，不能视为担保已落实或融资到账。",
+      "reason": "涉及芯片厂商进一步承担云客户建设风险。已读署名全文并核对精确发布时间；尚未获得交易方公告确认。",
+      "category": "industry",
+      "quote": "Nvidia is in talks to guarantee billions in debt financing",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia",
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "nvidia-nscale-construction-guarantee-talks-2026-10",
+        "title": "英伟达与Nscale机房建设担保谈判报道",
+        "factKey": "reported-construction-residual-value-guarantee-talks",
+        "factTitle": "媒体披露英伟达洽谈机房建设债务残值担保"
+      },
+      "addedAt": "2026-10-31T10:09:26+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-10-30T19:42:59.000Z",
+      "url": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/",
+      "title": "研究者称Claude参与鼠脑给药实验，关键步骤经兽医批准",
+      "summary": "报道转述Exin Therapeutics研究者的实验：Claude Sonnet 5从19种候选基因疗法中选择方案、脑区和坐标，并控制电动装置。每个不可逆步骤都经持证兽医批准；模型发现校准异常后拒绝继续，最终由人修复代码。尚无同行评议，也未报告降低癫痫发作的疗效结果。",
+      "reason": "展示模型连接实验设备后的能力与停机边界。已核对Matthias Bastian全文和发布时间；依据研究者自述，原帖暂不可读，不能称为无人参与或治疗成功。",
+      "category": "paper",
+      "quote": "A licensed veterinarian approved every irreversible step",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "具身智能",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-31T10:09:26+08:00"
+    },
+    {
+      "sourceId": "openrouter-blog",
+      "sourceName": "OpenRouter Blog",
+      "date": "2026-10-31",
+      "url": "https://openrouter.ai/blog/tutorials/build-always-on-ai-agent/",
+      "title": "OpenRouter分享常驻Agent做法：持久化状态，对外操作先审批",
+      "summary": "教程用TypeScript构建定时监测Agent，将已读记录与暂停会话保存下来，完成后再标记已读，每轮开启新会话，对外通知须审批。6步或0.05美元阈值在工具轮次间检查，仍可能多出模型调用，总额需另设密钥限额。文中费用来自10月13—15日的少量运行，不能当作通用成本。",
+      "reason": "官网署期为今日，已通读教程与代码。状态恢复、审批和分层限额方法可迁移到其他平台；示例及费用未复测。",
+      "category": "tip",
+      "quote": "A run can therefore go a model call or two past the limit",
+      "tier": "T1",
+      "entity": "openrouter",
+      "subjects": [
+        "openrouter"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-31T10:09:26+08:00"
     }
   ]
 }
