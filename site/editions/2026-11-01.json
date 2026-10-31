@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "researchedAt": "2026-11-01T01:29:11+08:00",
+  "researchedAt": "2026-11-01T02:34:29+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -156,6 +156,32 @@
         "factTitle": "Max 20x更名Ultra并分批取消已核验账号的五小时限制"
       },
       "addedAt": "2026-11-01T01:29:11+08:00"
+    },
+    {
+      "sourceId": "rss-latent-space",
+      "sourceName": "Latent Space",
+      "date": "2026-10-31T16:05:00.000Z",
+      "url": "https://latent.space/p/arca/",
+      "title": "Arca分享金融Agent实践：跨日保存状态，资金操作交给人工",
+      "summary": "Arca的Aman Singh介绍，部分客户任务可跨十天，系统持续保存客户状态、待办与责任人，并按内部评测选择模型。Agent负责分析和提出方案，交易及资金移动由人工顾问执行；生成的数据查询先转换为严格格式再检查，顾问反馈与运行轨迹用于改进系统。",
+      "reason": "提供跨日任务记忆与权限划分的具体做法。已通读Richard MacManus署名访谈并核对原站发布时间；实施效果仍为受访者自述。",
+      "category": "tip",
+      "quote": "All of our safety restrictions are fully deterministic",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI赛道",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-01T02:34:29+08:00"
     }
   ]
 }
