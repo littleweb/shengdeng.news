@@ -1,6 +1,6 @@
 {
   "kind": "models",
-  "capturedAt": "2026-10-30T17:11:41.276Z",
+  "capturedAt": "2026-10-31T16:21:50.909Z",
   "sourceName": "Artificial Analysis",
   "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
   "metric": "Intelligence Index",
@@ -14,7 +14,7 @@
       "url": "https://artificialanalysis.ai/models/gemini-4-carbon",
       "context": "1M",
       "cost": "$7.76",
-      "speed": "83"
+      "speed": "85"
     },
     {
       "rank": 2,
@@ -25,7 +25,7 @@
       "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
       "context": "1M",
       "cost": "$10.04",
-      "speed": "98"
+      "speed": "97"
     },
     {
       "rank": 3,
@@ -36,7 +36,7 @@
       "url": "https://artificialanalysis.ai/models/claude-opus-5-5-xhigh",
       "context": "1M",
       "cost": "$6.05",
-      "speed": "86"
+      "speed": "85"
     },
     {
       "rank": 4,
@@ -47,7 +47,7 @@
       "url": "https://artificialanalysis.ai/models/gpt-6-astra",
       "context": "1M",
       "cost": "$6.24",
-      "speed": "84"
+      "speed": "78"
     },
     {
       "rank": 5,
@@ -58,7 +58,7 @@
       "url": "https://artificialanalysis.ai/models/gpt-6-astra-xhigh",
       "context": "1M",
       "cost": "$3.66",
-      "speed": "68"
+      "speed": "66"
     },
     {
       "rank": 6,
@@ -80,7 +80,7 @@
       "url": "https://artificialanalysis.ai/models/gpt-6-1-sol",
       "context": "1M",
       "cost": "$1.27",
-      "speed": "85"
+      "speed": "79"
     },
     {
       "rank": 8,
@@ -91,7 +91,7 @@
       "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5",
       "context": "1M",
       "cost": "$10.02",
-      "speed": "141"
+      "speed": "139"
     },
     {
       "rank": 9,
