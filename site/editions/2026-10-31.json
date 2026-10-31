@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "researchedAt": "2026-10-31T13:31:15+08:00",
+  "researchedAt": "2026-10-31T16:25:27+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -927,6 +927,34 @@
         "factTitle": "Max 20x更名Ultra并分批取消已核验账号的五小时限制"
       },
       "addedAt": "2026-10-31T13:31:15+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-10-30T17:27:45.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us/",
+      "title": "AWS分享受控部署方法：模型身份、设备策略与出网限制分别验证",
+      "summary": "Virgil Ennes与Sean Phuphanich介绍如何让ChatGPT桌面应用中的Codex通过美国政府云Bedrock端点执行模型推理。指南要求保护凭据来源、先配置管理员策略，再限制网络出口并验证实际身份；仅启用API登录并不会自动落实能力限制。适用前提是应用版本、模型和端点均受支持，采用政府云也不代表工作负载自动获得合规授权。",
+      "reason": "提供可迁移的凭据保护、权限与网络隔离方法。已核对署名全文和原站精确发布时间；配置面向特定政府云环境，未实际部署复测。",
+      "category": "tip",
+      "quote": "The API-only sign-in setting doesn’t apply the capability policy.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "部署/工程",
+        "编码",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-10-31T16:25:27+08:00"
     }
   ]
 }
