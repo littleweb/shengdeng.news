@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "researchedAt": "2026-11-01T13:09:44+08:00",
+  "researchedAt": "2026-11-01T17:26:14+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -422,6 +422,35 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-01T13:09:44+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-11-01T16:02:37+08:00",
+      "url": "https://www.qbitai.com/2026/11/507031.html",
+      "title": "量子位解读AWM：让Agent证明任务无解，结论仍取决于学到的规则",
+      "summary": "Jay介绍清华团队的代数世界模型AWM：先通过交互形成并检验Python假设，再将规则形式化为Lean 4证明。团队报告完成ARC-AGI-3的183个公开关卡，并探索不可达任务的证明。证明只对所学模型成立，遗漏环境规则仍会导致错误判断；论文于10月29日提交，本篇为新发表的解读。",
+      "reason": "帮助理解Agent判断“做不到”时需要什么证据。已通读署名解读并对照论文实验与限制；原文正文＋原站 RSS 时间核验，结果限游戏环境，未独立复现。",
+      "category": "paper",
+      "quote": "它的证明，是基于它「观测到的世界」成立的。",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "论文/研究",
+        "推理",
+        "Agent",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "algebraic-world-model-research-2026-10",
+        "title": "代数世界模型探索陌生环境中的形式化推理",
+        "factKey": "exploration-to-lean-reachability-impossibility-study",
+        "factTitle": "AWM通过交互学习规则并构造可达与不可达证明"
+      },
+      "addedAt": "2026-11-01T17:26:14+08:00"
     }
   ]
 }
