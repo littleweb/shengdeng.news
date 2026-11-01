@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "researchedAt": "2026-11-02T04:17:52+08:00",
+  "researchedAt": "2026-11-02T06:37:57+08:00",
   "items": [
     {
       "sourceId": "business-insider",
@@ -53,6 +53,36 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-02T04:17:52+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-01T21:55:23.000Z",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "title": "据报OpenAI拟在美国中期选举后推出AI政策倡议",
+      "summary": "TechCrunch援引Axios对OpenAI全球事务负责人Chris Lehane的采访称，公司准备在中期选举后推动政策讨论，涉及强大AI系统的安全限制、经济机会及国际标准，也考虑将数据中心称为“AI计算园区”。这些仍是政策与传播计划，尚非已生效规则。",
+      "reason": "关注AI企业如何回应监管与数据中心建设争议。已核对全文和精确发布时间；报道转述Axios采访，具体措施及实施效果尚待验证。",
+      "category": "industry",
+      "quote": "AI compute campuses",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "政策/监管",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-post-midterm-policy-plans-2026-11",
+        "title": "OpenAI高管披露美国中期选举后的政策倡议计划",
+        "factKey": "lehane-interview-policy-plans-disclosure",
+        "factTitle": "Lehane受访谈AI安全与数据中心等政策提议"
+      },
+      "addedAt": "2026-11-02T06:37:57+08:00"
     }
   ]
 }
