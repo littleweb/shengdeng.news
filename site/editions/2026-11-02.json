@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "researchedAt": "2026-11-02T01:04:15+08:00",
+  "researchedAt": "2026-11-02T04:17:52+08:00",
   "items": [
     {
       "sourceId": "business-insider",
@@ -27,6 +27,32 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-02T01:04:15+08:00"
+    },
+    {
+      "sourceId": "nbd",
+      "sourceName": "每日经济新闻",
+      "date": "2026-11-01T20:38:13+08:00",
+      "url": "https://www.nbd.com.cn/articles/2026-11-01/4633568.html",
+      "title": "每经采访深兰转型：企业工作手机按智能体服务收费",
+      "summary": "陈婷现场采访深兰科技负责人，披露其工作手机面向企业销售场景，按业务规模和智能体调用量分档提供订阅服务，手机作为配套交付载体。受访分析师指出，企业系统迁移、定制交付与合规要求仍约束规模复制；报道未披露订单、收入或盈利成效。",
+      "reason": "提供企业AI终端的收费方式与落地约束。已通读署名采访、核对精确发布时间并对照官方产品页；商业效果仍待经营数据验证。",
+      "category": "industry",
+      "quote": "以硬件为配套交付载体",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI硬件",
+        "AI产品",
+        "AI赛道",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-02T04:17:52+08:00"
     }
   ]
 }
