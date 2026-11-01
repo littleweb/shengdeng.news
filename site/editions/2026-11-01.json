@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "researchedAt": "2026-11-01T09:54:54+08:00",
+  "researchedAt": "2026-11-01T13:09:44+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -394,6 +394,34 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-01T09:54:54+08:00"
+    },
+    {
+      "sourceId": "ithome-ai",
+      "sourceName": "IT之家",
+      "date": "2026-10-31T23:56:00+08:00",
+      "url": "https://www.ithome.com/1/020/632.htm",
+      "title": "五家科技公司长期支出承诺据报超3万亿美元，包含非AI用途",
+      "summary": "清源援引彭博统计，Alphabet、Meta、微软、亚马逊和甲骨文未来租赁付款承诺合计约1.3万亿美元，其他采购承诺约1.9万亿美元。部分合同跨数十年，且包含非AI用途；各公司披露口径和截至日期不同，不能当作年度AI资本开支。",
+      "reason": "补充观察AI扩张长期资金负担的统计口径。已通读署名报道并核对原站精确发布时间；数字据媒体整理，未独立逐份复算财报。",
+      "category": "industry",
+      "quote": "其他采购承诺合计 1.9 万亿美元",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "google",
+        "meta",
+        "microsoft"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-01T13:09:44+08:00"
     }
   ]
 }
