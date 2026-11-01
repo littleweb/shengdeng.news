@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "researchedAt": "2026-11-01T19:35:11+08:00",
+  "researchedAt": "2026-11-01T20:40:40+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -509,6 +509,64 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-01T19:35:11+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-01T12:05:04.000Z",
+      "url": "https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage/",
+      "title": "ChatGPT限制同卡订阅和同设备付费账号，退出登录不保证释放名额",
+      "summary": "Matthias Bastian报道ChatGPT的支付卡与设备限制：关联订阅过多可能阻止新购买，同设备付费账号达到限制后，相关账号可能无法继续使用。官方说明列出的适用套餐为Go、Plus及Pro 100、200、500，Free和Business、Enterprise、Edu工作区不计入。退出登录不保证释放名额，购买额外额度也不能解除限制；具体数量上限未公开。",
+      "reason": "影响多账号用户与共用设备家庭的订阅安排。已通读署名报道、核对精确发布时间并对照官方说明；不将媒体对营收动机的推测作为事实。",
+      "category": "ai-products",
+      "quote": "Logging out of an account doesn't automatically free up a spot for another",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "chatgpt-card-device-subscription-limits-2026",
+        "title": "ChatGPT支付卡与设备订阅限制",
+        "factKey": "card-device-paid-account-restrictions-explained",
+        "factTitle": "披露支付卡购买限制及同设备付费账号使用边界"
+      },
+      "addedAt": "2026-11-01T20:40:40+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-01T11:25:21.000Z",
+      "url": "https://the-decoder.com/google-wants-video-ai-to-understand-what-people-need-as-they-workgoogle-researchers-are-teaching-a-video-assistant-when-to-offer-help/",
+      "title": "StreamVibe研究解读：看懂视频片段，仍不等于能持续适时提供帮助",
+      "summary": "Jonathan Kemper解读Google等机构的StreamVibe研究：约4100个测试样本覆盖明确、隐含及持续变化的用户意图。模型在孤立时点判断表现较好，但连续处理视频并沿用自身回复历史后，介入时机和回答质量明显下降。研究将任务状态与历史回复交给独立记忆系统管理，以减少重复和过时建议；项目代码仍待审批发布。",
+      "reason": "帮助判断主动视频助手的实际能力边界。已通读新解读并对照论文与项目页；论文10月26日已提交，结果限研究测试，不能视为成熟产品效果。",
+      "category": "paper",
+      "quote": "performance across all tested systems plummets as errors compound",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "多模态",
+        "视频",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-01T20:40:40+08:00"
     }
   ]
 }
