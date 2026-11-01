@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "researchedAt": "2026-11-01T18:30:39+08:00",
+  "researchedAt": "2026-11-01T19:35:11+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -483,6 +483,32 @@
         "factTitle": "12月起Plus、Pro和Business拟共享ChatGPT与Codex的Token额度"
       },
       "addedAt": "2026-11-01T18:30:39+08:00"
+    },
+    {
+      "sourceId": "cls-stib",
+      "sourceName": "科创板日报（财联社）",
+      "date": "2026-11-01T13:44+08:00",
+      "url": "https://api3.cls.cn/share/article/2521736?app=&os=web&sv=859",
+      "title": "科创板日报采访：具身智能投资更趋审慎，机构追问实际业务进展",
+      "summary": "余诗琪采访投资机构、机器人企业及融资顾问，记录LP询问投资风险、部分投资人放慢出手节奏的变化。记者不完全统计显示，第三季度国内具身智能领域至少发生185起融资，金额约333.35亿元；受访者也更关注真实应用场景与业务进度。采访观察不代表全行业资金撤离。",
+      "reason": "原创采访补充了融资节奏与落地要求的新观察。已通读原文并核对发布时间；统计不完全，部分受访者未具名，其判断不能代表整个市场。",
+      "category": "industry",
+      "quote": "投资人已经不像此前那样急于出手。",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "行业动态",
+        "AI创业",
+        "AI赛道",
+        "AI商业化",
+        "具身智能",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-01T19:35:11+08:00"
     }
   ]
 }
