@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "researchedAt": "2026-11-01T22:52:46+08:00",
+  "researchedAt": "2026-11-01T23:59:08+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -625,6 +625,31 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-01T22:52:46+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-01T14:56:44.000Z",
+      "url": "https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/",
+      "title": "EditAgent研究解读：用局部证据验收AI修图，推理时间约增至十倍",
+      "summary": "Jonathan Kemper解读Adobe与加州大学圣迭戈分校的EditAgent研究：对同一修图步骤并行生成候选，结合局部裁剪、变化图及亮度颜色统计选择结果，再检查后续操作是否破坏先前修改。团队通过专家标注和多项基准验证方法；推理时间约为单独编辑模型的十倍，效果仍受底层工具限制。",
+      "reason": "为AI修图工作流提供可借鉴的验收方法。已通读署名解读、核对精确时间并对照论文；论文10月29日已提交，本条为新解读，实验未独立复现。",
+      "category": "paper",
+      "quote": "what a judge model sees can matter more than how it was trained.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "AI玩法",
+        "图像生成",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-01T23:59:08+08:00"
     }
   ]
 }
