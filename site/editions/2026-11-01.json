@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "researchedAt": "2026-11-01T20:40:40+08:00",
+  "researchedAt": "2026-11-01T22:52:46+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -567,6 +567,64 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-01T20:40:40+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-01T14:36:49.000Z",
+      "url": "https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/",
+      "title": "研究解读：对话语气会显著改变模型的情绪自述",
+      "summary": "The Decoder解读卢森堡大学团队的PsAIch实验：四项实验覆盖525次会话、7600条编码记录。其中100次问卷会话改变采访风格后，温暖支持与认知治疗条件下，80%和96%的会话输出达到人类焦虑量表的中重度参考区间，中性及边界条件下则没有。量表分数仅描述模型输出，不能诊断模型情绪；研究没有真人参与，也未证明这些输出会如何影响用户。",
+      "reason": "帮助理解亲密对话为何需要不同于中性问答的安全评估。已通读新解读、核对精确时间并对照论文；论文7月已修订，本条不作为新研究发布，结果未独立复现。",
+      "category": "paper",
+      "quote": "None of this suggests the models have actual emotional states",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "openai",
+        "google",
+        "xai",
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "安全/对齐",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-01T22:52:46+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-01T12:33:01.000Z",
+      "url": "https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds/",
+      "title": "Vals研究解读：语言、回答格式和Agent环境都会改变政治倾向测量",
+      "summary": "Tomislav Bezmalinović解读Vals AI测试：同一模型面对政治问题时，提示语言、部署背景、开放回答或是非格式，以及Agent工具环境都会改变结果，部分变化发生在没有实际调用工具的情况下。测试默认把拒答记为中性，多款中国模型通过第三方服务测试；研究方也表示，定向政治问题的结果难以直接推广到日常任务，更不能作为答案准确率。",
+      "reason": "提醒跨语言和Agent评测需控制上下文、服务渠道及拒答计分。已通读署名解读、核对精确时间并对照Vals原文；研究原稿发表于10月12日，本条为新发表的研究解读。",
+      "category": "paper",
+      "quote": "The required response format also changed results.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "deepseek",
+        "qwen",
+        "kimi",
+        "zhipu",
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "评测/基准",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-01T22:52:46+08:00"
     }
   ]
 }
