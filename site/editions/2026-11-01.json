@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "researchedAt": "2026-10-31T23:42:11Z",
+  "researchedAt": "2026-11-01T09:54:54+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -367,6 +367,33 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-10-31T23:42:11Z"
+    },
+    {
+      "sourceId": "openrouter-blog",
+      "sourceName": "OpenRouter Blog",
+      "date": "2026-11-01",
+      "url": "https://openrouter.ai/blog/tutorials/ai-code-review/",
+      "title": "OpenRouter分享AI验码流程：先复现问题，再独立测试补丁",
+      "summary": "教程用Python把变更与测试上传至托管沙箱，要求发现附复现命令和输出，无法证实则标注。补丁先尝试应用到临时副本，修复效果仍须另跑测试；接口处于测试阶段，仅支持全球端点，代码会交给服务商。",
+      "reason": "可借鉴将发现、复现和修复后测试分开的做法。已通读官网教程并核对当日发布日期，未复测示例。",
+      "category": "tip",
+      "quote": "Always read patches before applying them.",
+      "tier": "T1",
+      "entity": "openrouter",
+      "subjects": [
+        "openrouter"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "编码",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-01T09:54:54+08:00"
     }
   ]
 }
