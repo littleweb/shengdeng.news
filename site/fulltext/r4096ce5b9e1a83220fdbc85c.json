@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "articleId": "r4096ce5b9e1a83220fdbc85c",
+  "url": "https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage/",
+  "fetchedAt": "2026-11-01T12:49:04.478Z",
+  "sourceHtml": "<p><strong>OpenAI is getting a bit more restrictive with ChatGPT, adding card and device limits as part of its security measures.</strong> Users who link too many subscriptions to the same payment card or device won't be able to start new ones. ChatGPT also caps the number of paid accounts per device. When users hit the limit, they'll see \"Device limit reached,\" and the affected account can no longer be used on that device.</p><p>The limits apply to ChatGPT Go, Plus, Pro 100, Pro 200, and Pro 500. Free accounts and Business, Enterprise, and Edu plans don't count. Logging out of an account doesn't automatically free up a spot for another, according to OpenAI's support page.</p><p>The policy will likely hit users who've been switching between multiple paid accounts on one device to squeeze more usage out of cheap flat-rate subscriptions. OpenAI instead points to <a href=\"https://help.openai.com/articles/12642688\">buying extra credits</a> or <a href=\"https://help.openai.com/articles/20001507\">usage resets</a>, options that are generally more expensive than an additional subscription. OpenAI also appears to be slowly prioritizing revenue over growth, as its move to <a href=\"https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/\">merge Chat and Work</a> suggests.</p><h3>AI News Without the Hype – Curated by Humans<br></h3><p>\n\t\t\t\t\tSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\t\t\t\t</p>",
+  "sourceHash": "ef7448e83512936f9531610a187a99a6e1d07cb7adeed47542797350c23b22aa",
+  "language": "und",
+  "translation": {
+    "method": "local-codex",
+    "translatedAt": "2026-11-01T12:49:25.523Z",
+    "html": "<p><strong>OpenAI 正在对 ChatGPT 施加更多限制，将支付卡和设备限制纳入其安全措施。</strong>如果用户将过多订阅关联到同一张支付卡或同一台设备，就将无法开通新的订阅。ChatGPT 还限制了每台设备可使用的付费账号数量。当用户达到上限时，就会看到“已达到设备上限”的提示，受影响的账号也将无法再在该设备上使用。</p><p>这些限制适用于 ChatGPT Go、Plus、Pro 100、Pro 200 和 Pro 500。免费账号以及 Business、Enterprise 和 Edu 套餐不计入限制。根据 OpenAI 的支持页面，退出一个账号并不会自动为另一个账号腾出名额。</p><p>这项政策很可能会影响那些在同一台设备上切换多个付费账号、以便从低价固定费率订阅中获得更多使用量的用户。OpenAI 则建议用户<a href=\"https://help.openai.com/articles/12642688\">购买额外额度</a>或<a href=\"https://help.openai.com/articles/20001507\">重置使用额度</a>，而这些选项通常比额外购买一份订阅更贵。OpenAI 似乎也在逐渐将营收置于增长之上，其<a href=\"https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/\">合并 Chat 与 Work</a> 的举措就体现了这一点。</p><h3>不炒作的 AI 新闻——由人工精选<br></h3><p>\n\t\t\t\t\t订阅 THE DECODER，即可享受无广告阅读、每周 AI 新闻通讯、每年六期的独家“AI Radar”前沿报告、完整历史内容访问权限，以及评论区访问权限。\t\t\t\t</p>",
+    "complete": true
+  }
+}
