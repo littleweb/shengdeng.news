@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-02",
+  "researchedAt": "2026-11-02T01:04:15+08:00",
+  "items": [
+    {
+      "sourceId": "business-insider",
+      "sourceName": "Business Insider",
+      "date": "2026-11-01T11:00:02.490Z",
+      "url": "https://www.businessinsider.com/8-person-company-uses-ai-agents-to-avoid-doubling-team-2026-11",
+      "title": "AMP创始人分享Agent运营方法：先写验收标准",
+      "summary": "先写触发条件、输入输出与验收标准，再对照人工结果迭代。创始人Rachel Woods称，9月Claude Code后台用量费为8510美元，另付团队订阅费。",
+      "reason": "提供可复用的运营方法与成本口径。已核对署名访谈全文及精确时间；费用为创始人自述，未独立审计。",
+      "category": "tip",
+      "quote": "fix the playbook",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI创业",
+        "AI玩法",
+        "Agent",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-02T01:04:15+08:00"
+    }
+  ]
+}

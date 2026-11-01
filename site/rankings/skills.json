@@ -1,6 +1,6 @@
 {
   "kind": "skills",
-  "capturedAt": "2026-10-31T16:21:51.666Z",
+  "capturedAt": "2026-11-01T17:04:48.413Z",
   "sourceName": "skills.sh",
   "sourceUrl": "https://www.skills.sh/",
   "metric": "累计安装量",
@@ -9,8 +9,8 @@
       "rank": 1,
       "name": "find-skills",
       "owner": "vercel-labs/skills",
-      "value": 4099999.9999999995,
-      "displayValue": "4.1M",
+      "value": 4200000,
+      "displayValue": "4.2M",
       "url": "https://www.skills.sh/vercel-labs/skills/find-skills"
     },
     {
@@ -89,8 +89,8 @@
       "rank": 11,
       "name": "design-mobile-apps",
       "owner": "designed-by-ai/skills",
-      "value": 1100000,
-      "displayValue": "1.1M",
+      "value": 1200000,
+      "displayValue": "1.2M",
       "url": "https://www.skills.sh/designed-by-ai/skills/design-mobile-apps"
     },
     {
@@ -161,8 +161,8 @@
       "rank": 20,
       "name": "hyperframes-core",
       "owner": "heygen-com/hyperframes",
-      "value": 930700,
-      "displayValue": "930.7K",
+      "value": 930800,
+      "displayValue": "930.8K",
       "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-core"
     }
   ]
