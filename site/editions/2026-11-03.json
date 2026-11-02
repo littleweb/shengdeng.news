@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "researchedAt": "2026-11-03T00:18:22+08:00",
+  "researchedAt": "2026-11-02T17:24:09Z",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -58,6 +58,179 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-03T00:18:22+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-02T17:11:21.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai/",
+      "title": "AWS分享网页知识库实践：先验收检索，另行处理旧内容与访问权限",
+      "summary": "示例用Crawl4AI抓取获授权网页，清理为Markdown并保留来源元数据，再用代表性问题检查检索质量。增量上传不会自动删除旧网页，元数据过滤也不能替代访问授权；文档删除、权限和失败告警需要单独设计。",
+      "reason": "提供可迁移的知识库验收方法。已核对官方全文与精确发布时间；示例需要AWS资源，云费用及运行监控须另行评估。",
+      "category": "tip",
+      "quote": "Metadata filtering can improve retrieval precision, but it is not an authorization boundary.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "RAG",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-02T17:24:09Z"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-02T17:01:31.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai/",
+      "title": "AWS蒸馏实践：保留成功推理轨迹，按问题划分训练与验证集",
+      "summary": "示例用成功购物轨迹微调Qwen3.5-4B。在324道留出任务上，三类任务平均成功率由29.7%升至54.1%，同时通用指令遵循有所下降。文章强调按问题而非步骤划分数据，并按实际负载测量成本，未公布通用降本比例。",
+      "reason": "给出轨迹筛选、防止数据泄漏和能力回归检查的具体做法。已通读官方正文并核对时间；结果来自单次实验，尚未独立复测。",
+      "category": "tip",
+      "quote": "Split the data by problem, not by row.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [
+        "qwen",
+        "zhipu"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "数据/训练",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-02T17:24:09Z"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-02T17:00:58.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock/",
+      "title": "Circle K复盘AI排障：先查日志再查代码，分诊耗时降至15分钟以内",
+      "summary": "AWS与Circle K联合复盘称，内部统计的平均故障分诊时间从45—60分钟降至不足15分钟。方法包括先筛选日志、再缩小代码检索范围，并将分析逻辑与编排层分开。当前系统提供原因和修复建议，实际修复仍由工程师执行。",
+      "reason": "提供明确的生产任务、耗时口径和可复用排障顺序。已核对双方合写全文及发布时间；提速为团队内部统计，未见独立评估。",
+      "category": "tip",
+      "quote": "an engineer carries out the fix.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-02T17:24:09Z"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-02T16:30:00.000Z",
+      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+      "title": "42AI披露行为预测业务，6250万美元资金含创始人三年投入",
+      "summary": "42AI创始人向TechCrunch介绍面向券商的行为预测系统，并称已服务10家大型券商。6250万美元种子资金来自创始人与Infinity Group三年投入，并非全部为新获外部融资；所谓98%准确率指交易流落入预测区间，不能理解为逐笔交易命中率。",
+      "reason": "采访澄清了融资构成和性能数字的适用口径，有助于判断金融AI商业化主张。已核对全文及发布时间；客户、收入和效果仍属公司自述。",
+      "category": "industry",
+      "quote": "wasn’t entirely raised from external investors",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI创业",
+        "AI赛道",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "42ai-behavioral-model-public-debut-2026-11",
+        "title": "42AI公开介绍行为预测业务与资金构成",
+        "factKey": "public-debut-brokerage-use-funding-disclosure",
+        "factTitle": "创始人披露券商应用、资金来源及预测指标口径"
+      },
+      "addedAt": "2026-11-02T17:24:09Z"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-02T16:26:03.000Z",
+      "url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/",
+      "title": "Anthropic季度营收据报接近170亿美元，算力与机房承诺增至8950亿美元",
+      "summary": "The Decoder援引媒体和更新招股资料称，Anthropic季度营收接近170亿美元，运营成本175亿美元，净亏损233亿美元；计算与数据中心租赁承诺合计约8950亿美元。未来承诺并非已经支出，净亏损也不能直接等同现金消耗。",
+      "reason": "补充既有IPO事件的季度财务与长期义务变化。已核对报道全文和发布时间；尚未直接复核更新申报文件，数字保留媒体转述口径。",
+      "category": "industry",
+      "quote": "operating costs of $17.5 billion outpaced that revenue",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "anthropic-ipo-s1-2026-10-26",
+        "title": "Anthropic公开提交IPO注册文件",
+        "factKey": "q3-financials-compute-commitments-disclosure-2026-11-02",
+        "factTitle": "媒体披露第三季度财务及更新后的算力承诺"
+      },
+      "addedAt": "2026-11-02T17:24:09Z"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-02T16:23:21.000Z",
+      "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+      "title": "Grok Bot用户反映周额度异常，马斯克回应服务成本过高",
+      "summary": "TechCrunch报道，部分用户称未持续使用时周额度显示已耗尽。马斯克11月1日回应，Grok Bot服务成本相对收入高到难以持续。报道未给出具体限额调整、适用套餐或补偿安排，不能据此推定统一削减比例。",
+      "reason": "反映持续运行智能体的订阅成本与使用边界。已核对完整报道及精确时间，另一媒体原文亦引述相同回复；原始X帖访问受限，具体规则仍待公布。",
+      "category": "ai-products",
+      "quote": "The cost of serving Grok Bot was unsustainably high relative to revenue",
+      "tier": "T2",
+      "entity": "xai",
+      "subjects": [
+        "xai"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "AI商业化",
+        "海外AI",
+        "xAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "grok-bot-usage-cost-response-2026-11",
+        "title": "Grok Bot用量争议与服务成本回应",
+        "factKey": "musk-cost-response-weekly-usage-complaints",
+        "factTitle": "用户反映周额度异常，马斯克回应服务成本问题"
+      },
+      "addedAt": "2026-11-02T17:24:09Z"
     }
   ]
 }
