@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "researchedAt": "2026-11-02T18:48:39+08:00",
+  "researchedAt": "2026-11-02T22:06:59+08:00",
   "items": [
     {
       "sourceId": "business-insider",
@@ -339,6 +339,64 @@
         "factTitle": "披露日本募集最高5529亿日元的拟议发售上限"
       },
       "addedAt": "2026-11-02T18:48:39+08:00"
+    },
+    {
+      "sourceId": "rss-mit-tech-review-ai",
+      "sourceName": "MIT Technology Review · AI",
+      "date": "2026-11-02T13:10:32.000Z",
+      "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+      "title": "HPE分享AI编程成本核算方法：按合并成果计费效，同时检查返工与缺陷",
+      "summary": "HPE供稿建议用每个已合并代码变更的完整成本评估AI编程投入，同时跟踪活跃开发者成本、返工和缺陷。团队可先建立基线，再用完整开发周期比较自有推理容量与外部API；自建成本须计入电力、运维和折旧，低频或不可预测需求仍可能更适合API。文中30%—50%的Token降本为HPE内部自述，不能直接推为其他团队的收益。",
+      "reason": "提供可迁移的成本与质量核算方法。已通读原文并核对精确发布时间；文章明确由HPE制作，属于企业供稿，效果数据未经独立验证。",
+      "category": "tip",
+      "quote": "Track rework and defects alongside it so cheaper changes do not conceal lower quality.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "编码",
+        "部署/工程",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-02T22:06:59+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-02T13:57:53.000Z",
+      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+      "title": "TechCrunch交叉报道ChatGPT合并Chat与Work及共享额度安排",
+      "summary": "TechCrunch援引用户邮件报道，OpenAI准备合并ChatGPT桌面体验中的Chat与Work，初期向部分用户收集反馈，再扩大范围。Codex仍保留独立入口，但将与ChatGPT共用Token额度；部分用户可能更频繁遇到额度重置等待。该安排与此前归档报道属于同一事实。",
+      "reason": "补充另一家媒体对用户邮件的报道，正文与精确发布时间已核对。仅作同事件交叉证据；没有新增正式开放范围，不重复计入精选。",
+      "category": "ai-products",
+      "quote": "Codex will remain a separate experience in the ChatGPT desktop app",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "OpenAI",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "chatgpt-chat-work-merger-2026",
+        "title": "ChatGPT整合Chat与Work及共享额度安排",
+        "factKey": "december-shared-token-budget-plus-pro-business",
+        "factTitle": "12月起Plus、Pro和Business拟共享ChatGPT与Codex的Token额度"
+      },
+      "addedAt": "2026-11-02T22:06:59+08:00"
     }
   ]
 }
