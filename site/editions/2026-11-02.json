@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "researchedAt": "2026-11-02T22:06:59+08:00",
+  "researchedAt": "2026-11-02T23:13:29+08:00",
   "items": [
     {
       "sourceId": "business-insider",
@@ -397,6 +397,56 @@
         "factTitle": "12月起Plus、Pro和Business拟共享ChatGPT与Codex的Token额度"
       },
       "addedAt": "2026-11-02T22:06:59+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-02T15:00:00.000Z",
+      "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+      "title": "Omen以1600万美元收购Aquatic Labs，拟整合数据中心冷却液检测技术",
+      "summary": "TechCrunch记者Tim Fernholz采访双方负责人称，Omen AI正以1600万美元现金加股票收购Aquatic Labs，拟结合水中元素分析与碱度检测技术。团队预计整合后的传感器于2027年初上市，面向AI数据中心冷却液监测；节水和减少停机的实际改善尚无量化验证。",
+      "reason": "提供AI基础设施创业的具体并购案例，正文及发布时间已核对。交易细节来自记者采访，整合产品仍属上市计划。",
+      "category": "industry",
+      "quote": "a $16 million cash-and-stock deal.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI创业",
+        "AI赛道",
+        "AI硬件",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-02T23:13:29+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-11-02T13:31:26.000Z",
+      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+      "title": "Simon重绘美国企业AI采用率，提醒先核对问卷口径",
+      "summary": "Simon Willison根据最新BTOS数据重绘企业AI采用率曲线，指出2025年11月问卷从询问生产商品或服务中的AI使用，扩大到任何业务职能，前后比例不能直接比较。近期问卷又将AI改称SI；这种措辞是否影响回答，仍需等待后续调查结果。",
+      "reason": "为判断AI市场渗透率提供具体的统计口径检查方法。原文正文＋原站 RSS 时间核验；作者图表未独立复算。",
+      "category": "opinion",
+      "quote": "This means that the answers to the question before and after November 17th are not directly comparable.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "现象/趋势",
+        "AI赛道",
+        "行业报告",
+        "AI创作者",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-02T23:13:29+08:00"
     }
   ]
 }
