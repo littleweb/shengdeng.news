@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "researchedAt": "2026-11-02T12:09:39+08:00",
+  "researchedAt": "2026-11-02T14:25:06+08:00",
   "items": [
     {
       "sourceId": "business-insider",
@@ -199,6 +199,64 @@
         "factTitle": "交易完成，沙特阿美持股49%、PIF保留51%"
       },
       "addedAt": "2026-11-02T12:09:39+08:00"
+    },
+    {
+      "sourceId": "semianalysis",
+      "sourceName": "SemiAnalysis",
+      "date": "2026-11-02",
+      "url": "https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities",
+      "title": "GDPx公开跨领域Agent评测：最高综合得分12%，任务与安全限制影响结果",
+      "summary": "Max Kan、Andrew Megalaa和Dylan Patel介绍GDPx，联合14家专业合作方提供11个领域的206项任务。当前榜单上Claude Opus 5.5综合得分12.0%居首。任务默认限时8小时，优先使用模型原生运行框架，各领域等权；作者同时说明安全拒答会影响部分成绩。结果反映这套高难度任务集，不能直接视为现实工作的完成率。",
+      "reason": "提供真实工作环境中的Agent能力边界及具体失败案例。已通读发布方原文并对照合作方说明；任务选择和安全限制影响比较，结果未独立复现。",
+      "category": "paper",
+      "quote": "even the best model scores just 12%.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "semianalysis-gdpx-benchmark-2026-11",
+        "title": "GDPx智能体基准与首批任务公开",
+        "factKey": "gdpx-initial-benchmark-task-disclosure",
+        "factTitle": "公开GDPx首版基准、任务设计与评测结果"
+      },
+      "addedAt": "2026-11-02T14:25:06+08:00"
+    },
+    {
+      "sourceId": "aria",
+      "sourceName": "Aria",
+      "date": "2026-11-01",
+      "url": "https://ariadata.ai/gdpx",
+      "title": "Aria说明GDPx芯片任务：先通过功能与物理验证，再比较能效",
+      "summary": "Aria确认参与GDPx芯片设计任务，并公开Tensor Graph Machine实例：Agent需在8小时内完成加速器的RTL设计、综合和布局布线。任务采用缩小规模及学术45纳米工艺；通过功能、物理签核和仿真后，才按能量、延迟与面积乘积评分。任务明确不覆盖时钟门控、多工艺角和毛刺功耗。",
+      "reason": "任务提供方原文确认参与及评测约束，仅作同事件交叉证据；不能据此独立验证综合榜单，也不代表已完成商用芯片设计。",
+      "category": "paper",
+      "quote": "We’re building hardware engineering tasks for GDPx",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "AI硬件",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "semianalysis-gdpx-benchmark-2026-11",
+        "title": "GDPx智能体基准与首批任务公开",
+        "factKey": "gdpx-initial-benchmark-task-disclosure",
+        "factTitle": "公开GDPx首版基准、任务设计与评测结果"
+      },
+      "addedAt": "2026-11-02T14:25:06+08:00"
     }
   ]
 }
