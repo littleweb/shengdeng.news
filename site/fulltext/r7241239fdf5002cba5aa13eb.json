@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "articleId": "r7241239fdf5002cba5aa13eb",
+  "url": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/",
+  "fetchedAt": "2026-11-02T20:49:47.016Z",
+  "sourceHtml": "<p><strong>Goldman Sachs has cut off most of its employees from advanced AI coding tools like Anthropic's Claude Code and Microsoft's GitHub.</strong> Only engineers can still use them, according to <a href=\"https://www.bloomberg.com/news/articles/2026-11-02/goldman-restricts-traders-and-bankers-from-using-some-ai-tools\">Bloomberg</a>, citing internal guidelines from October. Traders and bankers had spent months using the tools to monitor trading flows and create content. The rollback is reportedly causing frustration inside the firm.</p><p>Back in July, <a href=\"https://youtu.be/grOykIdJPgs?t=530\">Goldman CIO Marco Argenti praised \"vibe coding\"</a> by non-technical staff in an interview. A trader or someone in asset management would have an idea, build a quick prototype with AI, and then hand it off to an engineer to scale for production. That's no longer the plan, it seems.</p><p>Why the U-turn? Bloomberg's report cites only a \"variety of factors including productivity and risk management,\" according to Goldman spokesperson Nick Carcaterra. He added that the experimentation phase is over, and the firm is now limiting the tools to the people \"who are best suited to leverage them for the long term.\"</p><h3>AI News Without the Hype – Curated by Humans<br></h3><p>\n\t\t\t\t\tSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\t\t\t\t</p>",
+  "sourceHash": "5694c7fd8261c698d1cf4ff5814a7953d20c9fddcbdb8494678263315077e186",
+  "language": "und",
+  "translation": {
+    "method": "local-codex",
+    "translatedAt": "2026-11-02T20:50:04.857Z",
+    "html": "<p><strong>高盛已禁止大多数员工使用 Anthropic 的 Claude Code 和微软的 GitHub 等高级 AI 编程工具。</strong>据<a href=\"https://www.bloomberg.com/news/articles/2026-11-02/goldman-restricts-traders-and-bankers-from-using-some-ai-tools\">彭博社</a>援引 10 月的内部指引报道，目前只有工程师仍可使用这些工具。此前数月，交易员和银行业务人员一直在使用这些工具监控交易流并创作内容。据报道，这一收紧措施正在引发公司内部的不满。</p><p>早在 7 月，<a href=\"https://youtu.be/grOykIdJPgs?t=530\">高盛首席信息官 Marco Argenti 就曾在一次采访中称赞非技术员工进行“氛围编程”</a>。交易员或资产管理人员有了想法后，会用 AI 快速构建原型，再交给工程师扩展至可投入生产使用的规模。如今看来，这一计划已不再实行。</p><p>为何突然转向？彭博社的报道援引高盛发言人 Nick Carcaterra 的说法，仅提到“包括生产力和风险管理在内的多种因素”。他补充说，试验阶段已经结束，公司现在只允许那些“最适合长期利用这些工具的人”使用它们。</p><h3>不炒作的 AI 新闻——由人工精选<br></h3><p>\n\t\t\t\t\t订阅 THE DECODER，即可享受无广告阅读、每周 AI 通讯、每年六期的独家“AI Radar”前沿报告、完整历史内容访问权限，以及评论区访问权限。\t\t\t\t</p>",
+    "complete": true
+  }
+}
