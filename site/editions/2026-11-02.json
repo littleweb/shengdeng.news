@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "researchedAt": "2026-11-02T16:37:19+08:00",
+  "researchedAt": "2026-11-02T17:42:31+08:00",
   "items": [
     {
       "sourceId": "business-insider",
@@ -283,6 +283,31 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-02T16:37:19+08:00"
+    },
+    {
+      "sourceId": "rss-mit-tech-review-ai",
+      "sourceName": "MIT Technology Review · AI",
+      "date": "2026-11-02T09:35:19.000Z",
+      "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+      "title": "MIT科技评论观察Agent网页生态：权限设计与平台利益共同影响用户选择",
+      "summary": "文章通过研究者及浏览器从业者采访，比较Agent操作网页与通过连接器访问服务的两条路径。连接器可以限制操作范围并要求付款确认；随着Agent代替用户浏览，广告、内容付费及平台入口也面临变化。受访者对微支付、开放服务和平台集中的讨论仍是前景判断，并非已兑现的商业结果。",
+      "reason": "帮助产品团队理解Agent接入的权限设计与商业取舍。已通读完整原文，页面发布时间与原站订阅一致；署名暂未确认，未来市场走向仍属采访判断。",
+      "category": "opinion",
+      "quote": "connectors can help make agents much safer online.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "现象/趋势",
+        "Agent",
+        "AI赛道",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-02T17:42:31+08:00"
     }
   ]
 }
