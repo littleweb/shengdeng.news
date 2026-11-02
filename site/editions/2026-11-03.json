@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "researchedAt": "2026-11-03T04:40:05+08:00",
+  "researchedAt": "2026-11-03T05:35:10+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -461,6 +461,57 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-03T04:40:05+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-11-02T00:00:00.000Z",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "title": "Qodo分享AI验码流程：先取组织规则，再独立审查跨仓库影响",
+      "summary": "Qodo介绍其Codex插件工作流：编码前检索组织规则、历史PR与代码库知识，修改后在同一会话中进行独立审查，并关注跨仓库依赖。团队提出让人工处理仍有争议的问题；文章未公布缺陷检出率或效率提升的对照数据。",
+      "reason": "原文正文＋原站 RSS 时间核验。组织知识检索与独立审查的组合可供团队借鉴；效果主要来自受访团队自述。",
+      "category": "tip",
+      "quote": "one creates code, the other challenges it.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "编码",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-03T05:35:10+08:00"
+    },
+    {
+      "sourceId": "rss-sspai",
+      "sourceName": "少数派",
+      "date": "2026-11-02T09:57:55.000Z",
+      "url": "https://sspai.com/post/118240",
+      "title": "少数派实测Local Code：16GB Mac处理复杂任务仍受速度限制",
+      "summary": "少数派作者在M4、16GB内存的MacBook Air上体验Local Code，称高思考模式分析一个简单GitHub项目可能接近一小时，简单文本总结更快。文章介绍了模型选择与运行设置，并说明本地模型免费、云端模型另收费；耗时仅代表该作者的配置与任务。",
+      "reason": "作者给出机器配置和实际任务耗时，有助于判断本地Agent的使用门槛。已核对全文与发布时间，单机体验不能推及所有Mac或模型。",
+      "category": "tip",
+      "quote": "配置一般的朋友建议尝鲜为主。",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "评测/基准",
+        "AI产品",
+        "端侧",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-03T05:35:10+08:00"
     }
   ]
 }
