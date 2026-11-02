@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "researchedAt": "2026-11-02T06:37:57+08:00",
+  "researchedAt": "2026-11-02T12:09:39+08:00",
   "items": [
     {
       "sourceId": "business-insider",
@@ -83,6 +83,122 @@
         "factTitle": "Lehane受访谈AI安全与数据中心等政策提议"
       },
       "addedAt": "2026-11-02T06:37:57+08:00"
+    },
+    {
+      "sourceId": "longcat-official",
+      "sourceName": "美团LongCat官方文档",
+      "date": "2026-11-02",
+      "url": "https://longcat.ai/platform/docs/zh/change-log",
+      "title": "LongCat-2.5上线，面向视觉编程与长程Agent任务",
+      "summary": "官方更新日志将LongCat-2.5与9月的预览版分别列出，介绍视觉编程、创意设计、3D任务及复杂代码库的多步执行能力，并说明兼容Claude Code、Codex和Hermes等框架。",
+      "reason": "官方当日发布记录确认上线，媒体原文交叉支持。能力表现仍属厂商说明，尚未独立复测。",
+      "category": "ai-models",
+      "quote": "融合视觉理解与智能体编程",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "模型发布",
+        "国内AI",
+        "Agent",
+        "多模态",
+        "编码"
+      ],
+      "selected": true,
+      "event": {
+        "key": "longcat-25-release-2026-11-02",
+        "title": "美团LongCat-2.5正式版上线",
+        "factKey": "longcat-25-native-multimodal-agent-release",
+        "factTitle": "LongCat-2.5上线并公布视觉与长程智能体能力"
+      },
+      "addedAt": "2026-11-02T12:09:39+08:00"
+    },
+    {
+      "sourceId": "ithome-ai",
+      "sourceName": "IT之家",
+      "date": "2026-11-02T09:18:38+08:00",
+      "url": "https://www.ithome.com/1/020/873.htm",
+      "title": "IT之家交叉报道LongCat-2.5发布，权重仓库仍待上线",
+      "summary": "报道披露模型总参数1.6万亿、每个Token激活约480亿参数，并提供在线体验和API入口；GitHub与Hugging Face仓库仍标为即将上线。",
+      "reason": "已通读原文并核对秒级发布时间，仅作发布事件的交叉证据。参数为厂商披露，仓库预告不代表已经开源。",
+      "category": "ai-models",
+      "quote": "Github、HuggingFace：即将上线",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "模型发布",
+        "国内AI",
+        "Agent",
+        "多模态",
+        "编码"
+      ],
+      "selected": false,
+      "event": {
+        "key": "longcat-25-release-2026-11-02",
+        "title": "美团LongCat-2.5正式版上线",
+        "factKey": "longcat-25-native-multimodal-agent-release",
+        "factTitle": "LongCat-2.5上线并公布视觉与长程智能体能力"
+      },
+      "addedAt": "2026-11-02T12:09:39+08:00"
+    },
+    {
+      "sourceId": "arab-news",
+      "sourceName": "Arab News",
+      "date": "2026-11-01T11:41+03:00",
+      "url": "https://www.arabnews.com/finance/aramco-closes-26bn-deal-for-49-stake-in-humain-3009220",
+      "title": "沙特阿美完成HUMAIN股权交易，持股49%",
+      "summary": "Arab News报道交易已经完成，PIF保留51%股权。安排包含沙特阿美在2026年贡献约99亿里亚尔现金及AI、计算和数字资产；2030年部署3GW数据中心容量仍是目标。",
+      "reason": "交易从意向进入完成阶段，涉及中东AI基础设施布局。已通读媒体与交易方原文，页面时间按沙特时区读取；现金贡献并非全部交易对价。",
+      "category": "industry",
+      "quote": "Saudi Aramco has completed its acquisition of a 49 percent stake",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "AI赛道"
+      ],
+      "selected": true,
+      "event": {
+        "key": "aramco-humain-49-percent-transaction-2026",
+        "title": "沙特阿美完成HUMAIN49%股权交易",
+        "factKey": "transaction-closing-2026-11-01",
+        "factTitle": "交易完成，沙特阿美持股49%、PIF保留51%"
+      },
+      "addedAt": "2026-11-02T12:09:39+08:00"
+    },
+    {
+      "sourceId": "aramco-official",
+      "sourceName": "Saudi Aramco",
+      "date": "2026-11-01",
+      "url": "https://www.aramco.com/en/news-media/news/2026/pif-and-aramco-close-humain-transaction-to-accelerate-humains-global-growth",
+      "title": "沙特阿美公告确认HUMAIN交易完成及现金、资产贡献安排",
+      "summary": "交易方公告确认，沙特阿美通过全资子公司取得HUMAIN49%股权，PIF保留51%；现金贡献之外还包括AI、计算和数字资产，后续工业应用及扩产属于规划。",
+      "reason": "交易方原文确认成交及股权比例。公告仅标日期，本条只作近48小时交叉证据，不把扩产目标写成已建成。",
+      "category": "industry",
+      "quote": "PIF and Aramco today announced the closing of a transaction",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "AI赛道"
+      ],
+      "selected": false,
+      "event": {
+        "key": "aramco-humain-49-percent-transaction-2026",
+        "title": "沙特阿美完成HUMAIN49%股权交易",
+        "factKey": "transaction-closing-2026-11-01",
+        "factTitle": "交易完成，沙特阿美持股49%、PIF保留51%"
+      },
+      "addedAt": "2026-11-02T12:09:39+08:00"
     }
   ]
 }
