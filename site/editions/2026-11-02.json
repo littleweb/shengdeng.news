@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "researchedAt": "2026-11-02T17:42:31+08:00",
+  "researchedAt": "2026-11-02T18:48:39+08:00",
   "items": [
     {
       "sourceId": "business-insider",
@@ -308,6 +308,37 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-02T17:42:31+08:00"
+    },
+    {
+      "sourceId": "tbs-bloomberg",
+      "sourceName": "TBS CROSS DIG · Bloomberg",
+      "date": "2026-11-02T15:36+09:00",
+      "url": "https://newsdig.tbs.co.jp/articles/withbloomberg/3056475?display=1",
+      "title": "Anthropic拟在美国IPO期间向日本投资者发售最多35亿美元股份",
+      "summary": "彭博记者田村康剛报道，Anthropic拟向日本投资者发售上限约5529亿日元、约合35亿美元的股份，由瑞穗证券统筹当地募集。这是美国IPO的一部分，仍属拟议发售，上限不代表已经募集到的金额。",
+      "reason": "补充此前招股报道之外的日本募集规模与渠道。已通读署名原文并按日本时区核对发布时间；监管文件全文尚未核验，融资仍未完成。",
+      "category": "industry",
+      "quote": "上限35億ドル（約5529億円）",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "anthropic-ipo-s1-2026-10-26",
+        "title": "Anthropic公开提交IPO注册文件",
+        "factKey": "japan-offering-cap-disclosure-2026-11-02",
+        "factTitle": "披露日本募集最高5529亿日元的拟议发售上限"
+      },
+      "addedAt": "2026-11-02T18:48:39+08:00"
     }
   ]
 }
