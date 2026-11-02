@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "researchedAt": "2026-11-03T06:40:55+08:00",
+  "researchedAt": "2026-11-03T07:46:47+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -543,6 +543,32 @@
         "factTitle": "修订申报披露AI研发加速风险，尚未认定现有模型超过政策阈值"
       },
       "addedAt": "2026-11-03T06:40:55+08:00"
+    },
+    {
+      "sourceId": "rss-latent-space",
+      "sourceName": "Latent Space",
+      "date": "2026-11-02T22:54:03.000Z",
+      "url": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/",
+      "title": "Legora访谈导读：客户数据不可见时，律师与工程师共建模拟评测",
+      "summary": "节目说明介绍，Legora因客户保密要求无法直接查看智能体任务轨迹，由三位工程师和三位律师共建贴近客户工作的测试环境，包括模拟万份文件资料室中的尽调任务。相关方法来自CTO Jacob Lauritzen的团队经验，不能视为法律AI效果的独立验证。",
+      "reason": "为保密场景下的Agent评测提供具体组织方法。已核对完整节目说明与精确发布时间；长篇转录未完整取得，未复测嘉宾所述效果。",
+      "category": "tip",
+      "quote": "How three engineers and three lawyers build test environments modeled on customers’ work",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI赛道",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-03T07:46:47+08:00"
     }
   ]
 }
