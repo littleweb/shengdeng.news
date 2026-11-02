@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "researchedAt": "2026-11-02T17:24:09Z",
+  "researchedAt": "2026-11-03T02:29:34+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -231,6 +231,157 @@
         "factTitle": "用户反映周额度异常，马斯克回应服务成本问题"
       },
       "addedAt": "2026-11-02T17:24:09Z"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-11-02T09:00:00.000Z",
+      "url": "https://openai.com/index/lifeval",
+      "title": "OpenAI介绍LifeVal，用日常生活任务评估个人智能体",
+      "summary": "OpenAI介绍LifeVal评估，结合时间使用调查及3995人的需求调查，覆盖照护、教育、家庭事务、购物等任务。页面展示部分任务的最佳成绩，未提供足以复现的完整评测协议，不能将这些选例视为整体成功率或实际产品保证。",
+      "reason": "帮助判断个人智能体能否完成实际生活任务。原文正文＋原站 RSS 时间核验；成绩为官方选例，未经独立复测。",
+      "category": "paper",
+      "quote": "Measuring AI progress on the tasks that matter in everyday life.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "AI赛道",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-lifeval-evaluation-2026-11-02",
+        "title": "OpenAI介绍LifeVal日常任务评估",
+        "factKey": "lifeval-task-design-selected-results-disclosure",
+        "factTitle": "介绍生活任务评估设计并展示部分任务最佳成绩"
+      },
+      "addedAt": "2026-11-03T02:29:34+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-02T17:01:16.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore/",
+      "title": "AWS零件替代Agent实践：规则代码判定，模型整理证据",
+      "summary": "AWS用七种合成零件演示多智能体工程助手：规格匹配由确定性代码处理，模型检索资料、解释差异并起草审查文件，最终批准保留给工程师。文章还展示裁剪图表改善检索、记录权限失败和避免无必要汇总调用的方法；示例结果不能等同真实航空应用成效。",
+      "reason": "提供可迁移的工程审查与检索方法。已通读官方正文并核对精确发布时间；使用合成数据，效果未经独立复测。",
+      "category": "tip",
+      "quote": "no LLM is involved in this step.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "RAG",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-03T02:29:34+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-02T17:51:19.000Z",
+      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+      "title": "纽约时报等出版商起诉Brave，争议涉及向AI公司提供抓取内容",
+      "summary": "Jay Peters报道，纽约时报及其他出版商对Brave提起诉讼，指控其未经许可抓取新闻、向AI公司提供内容，并帮助用户绕过付费墙。报道引述出版商声明及Perplexity回应；这些仍是诉讼指控，尚非法院认定。",
+      "reason": "涉及AI检索与内容授权的商业边界。已核对署名报道全文及精确发布时间；起诉状尚未直接复核，指控未获裁决。",
+      "category": "industry",
+      "quote": "have filed lawsuits",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "搜索",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "publishers-brave-content-lawsuits-2026-11",
+        "title": "纽约时报等出版商起诉Brave内容抓取与分发",
+        "factKey": "publishers-file-brave-scraping-paywall-complaints",
+        "factTitle": "媒体报道出版商就抓取、AI内容供应及付费墙问题起诉Brave"
+      },
+      "addedAt": "2026-11-03T02:29:34+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-02T18:01:30.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+      "title": "The Verge交叉报道OpenAI电网需求响应计划",
+      "summary": "Emma Roth报道，OpenAI拟在佐治亚州尚待建成的数据中心试行Grid Protectors计划，并继续与电力公司协商紧张时段的减负荷安排。报道与已归档官方公告支持同一事实，没有证明园区已经实现供电或电费改善。",
+      "reason": "补充独立媒体的交叉报道，全文与精确时间已核对。沿用已有事件，仅作证据，不重复计入精选。",
+      "category": "industry",
+      "quote": "will pilot its “Grid Protectors Program”",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "openai-grid-protectors-program-2026-11-02",
+        "title": "OpenAI公布Grid Protectors电网需求响应计划",
+        "factKey": "national-program-launch-georgia-pilot",
+        "factTitle": "公布全国计划并以佐治亚州既有需求响应协议作为试点"
+      },
+      "addedAt": "2026-11-03T02:29:34+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-02T18:15:39.000Z",
+      "url": "https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/",
+      "title": "The Decoder交叉报道Grok Bot额度投诉与成本回应",
+      "summary": "报道转述用户额度投诉及马斯克关于服务成本相对收入过高的回应，与此前TechCrunch报道属于同一事实。有关额度减半的说法来自转述，公司并未在该回应中确认统一调整幅度。",
+      "reason": "补充同事件媒体证据，完整正文与精确时间已核对。原始X帖仍无法读取，不把用户投诉写成正式限额规则。",
+      "category": "ai-products",
+      "quote": "He didn't confirm a cut outright",
+      "tier": "T2",
+      "entity": "xai",
+      "subjects": [
+        "xai"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "AI商业化",
+        "海外AI",
+        "xAI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "grok-bot-usage-cost-response-2026-11",
+        "title": "Grok Bot用量争议与服务成本回应",
+        "factKey": "musk-cost-response-weekly-usage-complaints",
+        "factTitle": "用户反映周额度异常，马斯克回应服务成本问题"
+      },
+      "addedAt": "2026-11-03T02:29:34+08:00"
     }
   ]
 }
