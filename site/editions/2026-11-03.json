@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "researchedAt": "2026-11-03T03:34:39+08:00",
+  "researchedAt": "2026-11-03T04:40:05+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -437,6 +437,30 @@
         "factTitle": "媒体报道出版商就抓取、AI内容供应及付费墙问题起诉Brave"
       },
       "addedAt": "2026-11-03T03:34:39+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-02T20:00:03.000Z",
+      "url": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/",
+      "title": "据报高盛收紧交易员与银行业务员工的AI编码工具权限",
+      "summary": "The Decoder援引彭博报道，高盛10月更新内部指引，收紧多数非工程员工使用Claude Code等高级AI编码工具的权限，主要保留给工程岗位。高盛发言人表示，调整基于试用后的生产率与风险管理评估，报道未披露量化评估结果。",
+      "reason": "为金融机构分配AI工具权限提供现实案例。已核对原文全文及发布时间；内部指引未公开，不能据此认定AI部署失败或全行停用AI。",
+      "category": "industry",
+      "quote": "variety of factors including productivity and risk management",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "AI赛道",
+        "编码"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-03T04:40:05+08:00"
     }
   ]
 }
