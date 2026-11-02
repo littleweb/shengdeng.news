@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-03",
+  "researchedAt": "2026-11-03T00:18:22+08:00",
+  "items": [
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-11-02T15:00:00.000Z",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "title": "OpenAI公布电网需求响应计划，未来园区拟在用电紧张时减负荷",
+      "summary": "OpenAI宣布Grid Protectors计划，拟与电力公司协商未来计算园区的减负荷安排。佐治亚州试点沿用此前最高1000兆瓦需求响应协议；园区仍在开发，各地具体承诺尚待确定，不能视为已经实现节电或居民电费下降。",
+      "reason": "关注AI基础设施如何承担电网成本。已核对官方公告及电力公司既有协议说明；原文正文＋原站 RSS 时间核验，实际效果仍待运营验证。",
+      "category": "industry",
+      "quote": "The arrangements will differ by location",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-grid-protectors-program-2026-11-02",
+        "title": "OpenAI公布Grid Protectors电网需求响应计划",
+        "factKey": "national-program-launch-georgia-pilot",
+        "factTitle": "公布全国计划并以佐治亚州既有需求响应协议作为试点"
+      },
+      "addedAt": "2026-11-03T00:18:22+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-11-02T13:36:41.000Z",
+      "url": "https://www.qbitai.com/2026/11/507277.html",
+      "title": "量子位展示SenseNova动态设计流程，办公记忆测试使用内部版",
+      "summary": "金磊在小浣熊客户端测试SenseNova 6.8 Flash制作动态网页、海报、SVG动画和PPT，说明需安装运行环境、浏览器等组件及配套技能。文章另演示关联旧资料并提出修订提醒，但该部分使用内部研发版，不能据此认定公众版本已具备同等能力。",
+      "reason": "提供可尝试的动态内容制作入口与准备步骤。已通读署名原文，原文正文＋原站 RSS 时间核验；效果来自作者展示，未独立复测。",
+      "category": "tip",
+      "quote": "商汤小浣熊（内部研发版）进行了测试",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI产品",
+        "多模态",
+        "Agent",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-03T00:18:22+08:00"
+    }
+  ]
+}

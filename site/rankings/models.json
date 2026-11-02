@@ -1,6 +1,6 @@
 {
   "kind": "models",
-  "capturedAt": "2026-11-01T17:04:47.363Z",
+  "capturedAt": "2026-11-02T16:19:15.396Z",
   "sourceName": "Artificial Analysis",
   "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
   "metric": "Intelligence Index",
@@ -14,7 +14,7 @@
       "url": "https://artificialanalysis.ai/models/gemini-4-carbon",
       "context": "1M",
       "cost": "$7.76",
-      "speed": "85"
+      "speed": "95"
     },
     {
       "rank": 2,
@@ -25,10 +25,21 @@
       "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
       "context": "1M",
       "cost": "$10.04",
-      "speed": "97"
+      "speed": "96"
     },
     {
       "rank": 3,
+      "name": "Gemini 4 Carbon (medium)",
+      "owner": "Google",
+      "value": 58,
+      "displayValue": "58",
+      "url": "https://artificialanalysis.ai/models/gemini-4-carbon-medium",
+      "context": "1M",
+      "cost": "$6.59",
+      "speed": "--"
+    },
+    {
+      "rank": 4,
       "name": "Claude Opus 5.5 (xhigh with fallback)",
       "owner": "Anthropic",
       "value": 57,
@@ -36,10 +47,10 @@
       "url": "https://artificialanalysis.ai/models/claude-opus-5-5-xhigh",
       "context": "1M",
       "cost": "$6.05",
-      "speed": "85"
+      "speed": "82"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "GPT-6 Astra (max)",
       "owner": "OpenAI",
       "value": 57,
@@ -47,10 +58,10 @@
       "url": "https://artificialanalysis.ai/models/gpt-6-astra",
       "context": "1M",
       "cost": "$6.24",
-      "speed": "78"
+      "speed": "72"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "GPT-6 Astra (xhigh)",
       "owner": "OpenAI",
       "value": 55,
@@ -58,10 +69,10 @@
       "url": "https://artificialanalysis.ai/models/gpt-6-astra-xhigh",
       "context": "1M",
       "cost": "$3.66",
-      "speed": "66"
+      "speed": "68"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "GPT-6 Astra (high)",
       "owner": "OpenAI",
       "value": 55,
@@ -69,10 +80,10 @@
       "url": "https://artificialanalysis.ai/models/gpt-6-astra-high",
       "context": "1M",
       "cost": "$3.24",
-      "speed": "63"
+      "speed": "62"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "GPT-6.1 Sol (max)",
       "owner": "OpenAI",
       "value": 55,
@@ -80,10 +91,10 @@
       "url": "https://artificialanalysis.ai/models/gpt-6-1-sol",
       "context": "1M",
       "cost": "$1.27",
-      "speed": "79"
+      "speed": "87"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "Claude Sonnet 5.5 (max with fallback)",
       "owner": "Anthropic",
       "value": 54,
@@ -91,10 +102,10 @@
       "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5",
       "context": "1M",
       "cost": "$10.02",
-      "speed": "139"
+      "speed": "137"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "GPT-6.1 Sol (xhigh)",
       "owner": "OpenAI",
       "value": 52,
@@ -102,18 +113,7 @@
       "url": "https://artificialanalysis.ai/models/gpt-6-1-sol-xhigh",
       "context": "1M",
       "cost": "$0.76",
-      "speed": "71"
-    },
-    {
-      "rank": 10,
-      "name": "Claude Opus 5.5 (high with fallback)",
-      "owner": "Anthropic",
-      "value": 52,
-      "displayValue": "52",
-      "url": "https://artificialanalysis.ai/models/claude-opus-5-5-high",
-      "context": "1M",
-      "cost": "$3.46",
-      "speed": "80"
+      "speed": "77"
     }
   ]
 }

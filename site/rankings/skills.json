@@ -1,6 +1,6 @@
 {
   "kind": "skills",
-  "capturedAt": "2026-11-01T17:04:48.413Z",
+  "capturedAt": "2026-11-02T16:19:15.883Z",
   "sourceName": "skills.sh",
   "sourceUrl": "https://www.skills.sh/",
   "metric": "累计安装量",
@@ -31,19 +31,19 @@
     },
     {
       "rank": 4,
-      "name": "agent-browser",
-      "owner": "vercel-labs/agent-browser",
-      "value": 1300000,
-      "displayValue": "1.3M",
-      "url": "https://www.skills.sh/vercel-labs/agent-browser/agent-browser"
-    },
-    {
-      "rank": 5,
       "name": "hyperframes",
       "owner": "heygen-com/hyperframes",
       "value": 1300000,
       "displayValue": "1.3M",
       "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes"
+    },
+    {
+      "rank": 5,
+      "name": "agent-browser",
+      "owner": "vercel-labs/agent-browser",
+      "value": 1300000,
+      "displayValue": "1.3M",
+      "url": "https://www.skills.sh/vercel-labs/agent-browser/agent-browser"
     },
     {
       "rank": 6,
@@ -57,8 +57,8 @@
       "rank": 7,
       "name": "media-use",
       "owner": "heygen-com/hyperframes",
-      "value": 1200000,
-      "displayValue": "1.2M",
+      "value": 1300000,
+      "displayValue": "1.3M",
       "url": "https://www.skills.sh/heygen-com/hyperframes/media-use"
     },
     {
@@ -159,11 +159,11 @@
     },
     {
       "rank": 20,
-      "name": "hyperframes-core",
-      "owner": "heygen-com/hyperframes",
-      "value": 930800,
-      "displayValue": "930.8K",
-      "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-core"
+      "name": "ai-video-generation",
+      "owner": "101-skills/superpowers",
+      "value": 935000,
+      "displayValue": "935.0K",
+      "url": "https://www.skills.sh/101-skills/superpowers/ai-video-generation"
     }
   ]
 }
