@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "researchedAt": "2026-11-03T05:35:10+08:00",
+  "researchedAt": "2026-11-03T06:40:55+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -512,6 +512,37 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-03T05:35:10+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-02T22:14:50.000Z",
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "title": "Anthropic新增研发加速风险披露，尚未认定现有模型跨越自改进阈值",
+      "summary": "据TechCrunch报道，Anthropic在11月2日修订的招股文件中称，内部估计及对未来模型的预期显示，公司可能很快达到其政策定义的“由AI带来的研发显著加速”。公司同时明确，尚未认定任何现有模型超过这一阈值，并考虑更新政策，在前沿模型研发中保留有意义的人类监督。",
+      "reason": "补充了招股文件中不同于财务数据的新风险披露。已读Julie Bort完整报道并核对精确发布时间；这是公司内部判断，不能视为已实现递归自我改进，原申报文件本轮未能通读。",
+      "category": "industry",
+      "quote": "We have not designated any of our current models as exceeding this threshold",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "安全/对齐",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "anthropic-ipo-s1-2026-10-26",
+        "title": "Anthropic公开提交IPO注册文件",
+        "factKey": "ai-rd-acceleration-risk-disclosure-2026-11-02",
+        "factTitle": "修订申报披露AI研发加速风险，尚未认定现有模型超过政策阈值"
+      },
+      "addedAt": "2026-11-03T06:40:55+08:00"
     }
   ]
 }
