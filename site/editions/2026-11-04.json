@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "researchedAt": "2026-11-04T00:37:18+08:00",
+  "researchedAt": "2026-11-04T01:44:44+08:00",
   "items": [
     {
       "sourceId": "rss-techcrunch-ai",
@@ -116,6 +116,174 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-04T00:37:18+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch",
+      "date": "2026-11-03T17:07:01.000Z",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+      "title": "Anthropic季度算力支出占营收升至58%，其中50亿美元来自短期采购",
+      "summary": "Russell Brandom分析更新招股书称，Anthropic第三季度算力与基础设施支出占营收58%，高于上一季度的48%；其中50亿美元为成本较高的短期采购。申报口径覆盖研发、模型开发及客户服务等用途，不能直接视为付费推理的成本率或毛利率。",
+      "reason": "补充此前财务报道未覆盖的算力结构与采购溢价。已通读署名报道并对照申报原件核实；季度数字未经审计。",
+      "category": "industry",
+      "quote": "compute took up 58% of the company’s revenue, up from 48% the quarter before.",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "anthropic-ipo-s1-2026-10-26",
+        "title": "Anthropic公开提交IPO注册文件",
+        "factKey": "q3-compute-revenue-ratio-short-term-capacity-costs",
+        "factTitle": "补充季度算力成本占比回升及短期采购溢价"
+      },
+      "addedAt": "2026-11-04T01:44:44+08:00"
+    },
+    {
+      "sourceId": "anthropic-sec-filings",
+      "sourceName": "Anthropic · SEC申报",
+      "date": "2026-11-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+      "title": "Anthropic申报原件确认算力成本比例及短期采购口径",
+      "summary": "Anthropic的S-1修订文件确认，第三季度算力与基础设施支出占营收58%，上一季度为48%，并包含50亿美元短期算力采购。文件说明，该成本覆盖研究、模型开发、客户服务和内部使用等工作负载。",
+      "reason": "作为同一财务事实的原始申报旁证。已核对成本定义和季度变化章节；属于较早申报，不另计本轮精选。",
+      "category": "industry",
+      "quote": "This includes $5.0 billion of compute under short-term commitments",
+      "tier": "T1",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": false,
+      "event": {
+        "key": "anthropic-ipo-s1-2026-10-26",
+        "title": "Anthropic公开提交IPO注册文件",
+        "factKey": "q3-compute-revenue-ratio-short-term-capacity-costs",
+        "factTitle": "补充季度算力成本占比回升及短期采购溢价"
+      },
+      "addedAt": "2026-11-04T01:44:44+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-03T16:43:20.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-gen-digital-built-norton-revamps-ai-curated-news-engine-with-amazon-bedrock-agentcore-web-search/",
+      "title": "Norton团队复盘AI开发：功能实现提速，输出审查仍占两至三成时间",
+      "summary": "Gen Digital团队分享Norton Revamp的开发分工：人负责架构、安全和业务逻辑，AI承担代码、文档及测试脚手架。团队自述功能实现速度达到原来的3倍、70%的界面代码由AI生成，同时审查AI输出消耗20%至30%的时间；文章还介绍按新鲜度缓存检索结果和验证来源的方法。",
+      "reason": "提供具体的人机分工及检索产品经验。已核对署名全文与发布时间；提效数字来自团队自述，未披露独立对照。",
+      "category": "tip",
+      "quote": "AI output review consumed 20–30 percent of our time.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "编码",
+        "AI商业化",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-04T01:44:44+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-03T16:41:13.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-with-edb-postgres-ai-and-amazon-bedrock-agentcore/",
+      "title": "分析Agent实践：用数据库注释解释业务含义，用权限控制敏感字段",
+      "summary": "AWS与EDB作者展示在Postgres中建立语义层：用列注释解释订单金额，用视图统一业务定义，再由数据库权限限制敏感字段。示例中，缺少金额语义会将约2.8万美元误算为约50.3万美元。实现依赖EDB的AIDB扩展，并通过MCP连接AgentCore。",
+      "reason": "用具体算错案例说明业务语义和数据库权限的作用。已核对署名全文及发布时间；属于示例验证，不能推广为任意数据集的准确率提升。",
+      "category": "tip",
+      "quote": "The prompt, tool catalog, and agent code stay the same.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "部署/工程",
+        "MCP/工具调用",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-04T01:44:44+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-03T16:40:54.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-ultra-low-latency-voice-ai-applications-on-aws/",
+      "title": "语音AI部署实践：首包延迟、批处理与并发扩容需要一起权衡",
+      "summary": "AWS与Cartesia作者比较Sonic语音合成的托管和自管部署方式，介绍就近部署、模型预热、批处理调节，以及按活跃音频流或GPU负载扩容。文中约90毫秒指首个音频字节延迟，并非整段对话耗时；所列私有部署路径适用于Sonic，Ink仍通过Cartesia API提供。",
+      "reason": "提供可迁移的语音延迟与吞吐调优方法。已核对署名全文和发布时间；延迟为厂商披露，实际表现需按网络与并发条件测试。",
+      "category": "tip",
+      "quote": "Higher batch size improves GPU utilization but adds first-byte latency",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI产品",
+        "语音",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-04T01:44:44+08:00"
+    },
+    {
+      "sourceId": "rss-google-deepmind",
+      "sourceName": "Google DeepMind",
+      "date": "2026-11-03T15:00:00.000Z",
+      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "title": "Google展示化学Agent工作流：约一小时提出候选分子，仍须实验验证",
+      "summary": "Google团队演示用Antigravity化学信息学技能检索数千种化合物、分析分子配对并提出候选结构及合成路线。模型负责调度和推理，RDKit等确定性工具执行化学计算。团队称示例约一小时完成；这些设计仍是待合成、待实验验证的假设。",
+      "reason": "提供研究Agent的具体分工与操作流程。已核对署名全文；订阅时间晚于网页，采用网页发布时间。提效来自团队演示。",
+      "category": "tip",
+      "quote": "computational designs are testable hypotheses, not finished drugs.",
+      "tier": "T1",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI赛道",
+        "Agent",
+        "Google",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-04T01:44:44+08:00"
     }
   ]
 }
