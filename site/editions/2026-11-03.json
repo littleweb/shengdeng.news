@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "researchedAt": "2026-11-03T04:14:20Z",
+  "researchedAt": "2026-11-03T05:23:08Z",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -810,6 +810,102 @@
         "factTitle": "提高赏金区间，新增奖励并明确追溯补差条件"
       },
       "addedAt": "2026-11-03T04:14:20Z"
+    },
+    {
+      "sourceId": "the-next-web",
+      "sourceName": "The Next Web",
+      "date": "2026-11-02T20:14Z",
+      "url": "https://thenextweb.com/news/anthropic-message-threads-beta-claude-api-agents",
+      "title": "Claude消息线程进入公测，长会话可只上传新增消息",
+      "summary": "Anthropic开放Messages API消息线程公测，首轮上传完整会话，后续只发送新增消息和上次响应ID。官方称多数Claude Code用户已默认启用，50万至100万token请求的首token等待中位数约降35%。token用量、单价与限流不变；线程闲置5分钟过期，不适用零数据保留或HIPAA场景。",
+      "reason": "为长会话Agent提供明确的延迟优化与接入边界。已核对报道和官方说明；35%为厂商在指定请求长度下的数据，未独立复测。",
+      "category": "ai-products",
+      "quote": "Claude still reads the whole conversation on every turn",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "部署/工程",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "claude-message-threads-beta-2026-11-02",
+        "title": "Claude Messages API消息线程公测",
+        "factKey": "public-beta-delta-messages-latency-and-retention",
+        "factTitle": "消息线程开放公测，明确增量上传、延迟和保留条件"
+      },
+      "addedAt": "2026-11-03T05:23:08Z"
+    },
+    {
+      "sourceId": "external-anthropic-claude-blog",
+      "sourceName": "Anthropic · Claude 官方博客",
+      "date": "2026-11-02",
+      "url": "https://claude.com/resources/articles/message-threads",
+      "title": "Anthropic确认消息线程公测范围，标准计费与限流继续适用",
+      "summary": "官方公告确认，公测覆盖原生Claude Platform及AWS、Microsoft Foundry和Anthropic托管的Google Cloud入口。线程加密存于内存、不写磁盘，最后一次请求5分钟后过期，客户端随后需重发完整会话。模型每轮仍读取全部上下文，标准token费率和现有限流继续适用。",
+      "reason": "官方原文补足公测范围与计费条件，作为同次发布的交叉证据；延迟改善仍为厂商自述。",
+      "category": "ai-products",
+      "quote": "Standard Claude token rates and existing rate limits apply.",
+      "tier": "T1",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "部署/工程",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": false,
+      "event": {
+        "key": "claude-message-threads-beta-2026-11-02",
+        "title": "Claude Messages API消息线程公测",
+        "factKey": "public-beta-delta-messages-latency-and-retention",
+        "factTitle": "消息线程开放公测，明确增量上传、延迟和保留条件"
+      },
+      "addedAt": "2026-11-03T05:23:08Z"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-11-02T23:49:30.000Z",
+      "url": "https://simonwillison.net/2026/Nov/2/llm/",
+      "title": "LLM 0.37增加兼容端点配置命令与多模态嵌入支持",
+      "summary": "Simon Willison发布LLM 0.37，为命令行工具和Python库新增OpenAI兼容端点配置命令，并让嵌入接口接受带不同内容类型的附件，以适配文本、图像、音频和视频嵌入模型。未自行设置默认模型的用户将改用GPT-6 Luna；具体附件支持仍取决于所用模型与插件。",
+      "reason": "为多模型配置和多模态检索提供可用的工具更新。原文正文＋原站 RSS 时间核验；未复测效果或成本。",
+      "category": "ai-products",
+      "quote": "a new llm openai endpoint add command",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "开源生态",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "simon-willison-llm-037-release-2026-11-02",
+        "title": "Simon Willison发布LLM 0.37",
+        "factKey": "llm-037-endpoints-typed-embeddings-release",
+        "factTitle": "LLM 0.37加入兼容端点管理和带类型的嵌入附件"
+      },
+      "addedAt": "2026-11-03T05:23:08Z"
     }
   ]
 }
