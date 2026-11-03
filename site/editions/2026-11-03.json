@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "researchedAt": "2026-11-03T11:07:42+08:00",
+  "researchedAt": "2026-11-03T04:14:20Z",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -747,6 +747,69 @@
         "factTitle": "直接编辑Qwen小模型权重缓解推理循环并改善测试表现"
       },
       "addedAt": "2026-11-03T11:07:42+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-03T03:30:00.000Z",
+      "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+      "title": "Dreambeans扩展至印度，美国10月下载量据估算环比下降84%",
+      "summary": "Google将个性化故事应用Dreambeans扩展至印度，支持13种当地语言及英语，仅限个人Gmail账户，每次生成一种语言。TechCrunch引述Sensor Tower估算，美国10月下载量约5500次，环比下降84%。用户可选择连接服务并删除数据。",
+      "reason": "原文包含Google产品负责人采访及下载量估算，兼具使用条件与产品采用证据；下载量不代表活跃用户，尚无第二方原文交叉确认此次扩展。",
+      "category": "ai-products",
+      "quote": "downloads dropped 84% month over month",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "多模态",
+        "海外AI",
+        "Google"
+      ],
+      "selected": true,
+      "event": {
+        "key": "google-dreambeans-india-expansion-2026-11",
+        "title": "Google将Dreambeans扩展至印度",
+        "factKey": "india-launch-language-access-and-download-estimates",
+        "factTitle": "印度上线并披露语言、账户条件及美国下载估算"
+      },
+      "addedAt": "2026-11-03T04:14:20Z"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-11-02T18:00:00.000Z",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "title": "OpenAI提高漏洞赏金，特殊严重发现含奖励最高约17.2万美元",
+      "summary": "ChatGPT、Codex和API平台的危急漏洞基础赏金最高3万美元，特殊严重发现最高10万美元，叠加奖励可达约17.2万美元。新规则覆盖尚未发奖的报告，并对公告前30天内符合条件的已发奖励补差。",
+      "reason": "奖励调整为安全研究者提供明确条件。原文正文＋原站 RSS 时间核验；最高金额须满足特殊严重性及奖励条件，示例不代表实际支付。",
+      "category": "industry",
+      "quote": "and now up to $172,000 with bonuses.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "安全/对齐",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-security-bounty-update-2026-11-02",
+        "title": "OpenAI调整安全漏洞赏金与奖励规则",
+        "factKey": "reward-ranges-bonuses-and-retroactive-payments",
+        "factTitle": "提高赏金区间，新增奖励并明确追溯补差条件"
+      },
+      "addedAt": "2026-11-03T04:14:20Z"
     }
   ]
 }
