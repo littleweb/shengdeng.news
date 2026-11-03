@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "researchedAt": "2026-11-03T22:20:56+08:00",
+  "researchedAt": "2026-11-03T23:30:04+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -1262,6 +1262,112 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-03T22:20:56+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-03T15:00:44.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses",
+      "title": "OpenAI使用“计算园区”称谓，社区组织质疑更名难解环境争议",
+      "summary": "Robert Hart报道，OpenAI在电网计划公告中使用“计算园区”称谓。PauseAI US与NAACP相关负责人向The Verge表示，更名无法解决资源消耗和环境问题。OpenAI未回应记者关于更名动机的询问。",
+      "reason": "对既有电网公告新增两家组织的直接采访，呈现AI基建的社区阻力；批评属于受访者观点，更名动机未获公司确认。",
+      "category": "industry",
+      "quote": "Changing the name does not fix the problem",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "AI赛道",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-grid-protectors-program-2026-11-02",
+        "title": "OpenAI公布Grid Protectors电网需求响应计划",
+        "factKey": "compute-campus-terminology-community-reactions-2026-11-03",
+        "factTitle": "媒体采访社区组织对计算园区称谓及环境问题的回应"
+      },
+      "addedAt": "2026-11-03T23:30:04+08:00"
+    },
+    {
+      "sourceId": "miro-blog",
+      "sourceName": "Miro Blog",
+      "date": "2026-11-03",
+      "url": "https://miro.com/blog/state-of-intelligent-collaboration-2026/",
+      "title": "Miro调查：AI提速普遍，审核负担同步增加",
+      "summary": "Miro披露对9500余名管理者和员工的调查：83%认可AI提升个人生产力，56%认为质量改善，59%表示待审核的AI内容增加。调查于9至10月进行，覆盖四个地区，作者主张以团队流程衡量成效。",
+      "reason": "官方正文同时披露提效与审核负担，适合团队检查采用效果；这是厂商开展并提供小额激励的线上问卷，不能证明因果。",
+      "category": "paper",
+      "quote": "59% report more AI-generated output to review",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "海外AI",
+        "AI赛道"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-03T23:30:04+08:00"
+    },
+    {
+      "sourceId": "accenture-insights",
+      "sourceName": "Accenture Insights",
+      "date": "2026-11-03",
+      "url": "https://www.accenture.com/en/insights/ai-data/cio-pulse-survey?country=ch",
+      "title": "埃森哲调查：AI部署扩张，规模化优化仍不足",
+      "summary": "埃森哲调查300位技术负责人，64%正在扩展企业AI部署，7%进入规模化优化阶段；53%把用户采用与培训列为首要执行障碍。调查于8至9月进行，样本企业全球营收均超过10亿美元。",
+      "reason": "官网正文披露样本范围与落地障碍，可作为组织准备度对照；结果来自大型企业负责人自述，不能直接外推至中小企业。",
+      "category": "paper",
+      "quote": "AI is primarily being used for individual productivity",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "海外AI",
+        "AI赛道",
+        "Agent"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-03T23:30:04+08:00"
+    },
+    {
+      "sourceId": "xinhua-finance",
+      "sourceName": "新华财经",
+      "date": "2026-11-03",
+      "url": "https://www.cnfin.com/gs-lb/detail/20261103/4490182_1.html",
+      "title": "新华财经：千问办公一分钱月卡售出10万份，额度不等于消耗",
+      "summary": "杨子华报道，11月2日晚千问办公在李佳琦直播间销售一分钱个人会员月卡，约半小时售出10万份，对应约2万亿Token权益额度。报道明确指出，该优惠价不代表算力真实市场价格。",
+      "reason": "提供AI会员面向大众销售的具体样本；原文已核对，售卡与权益额度不能当作实际Token消耗、持续付费或盈利证据。",
+      "category": "industry",
+      "quote": "并非实际消耗算力的真实市场价格。",
+      "tier": "T2",
+      "entity": "qwen",
+      "subjects": [
+        "qwen"
+      ],
+      "region": "国内",
+      "tags": [
+        "行业动态",
+        "国内AI",
+        "AI商业化",
+        "AI产品"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-03T23:30:04+08:00"
     }
   ]
 }
