@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "researchedAt": "2026-11-03T07:46:47+08:00",
+  "researchedAt": "2026-11-03T08:53:09+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -569,6 +569,96 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-03T07:46:47+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-11-02T15:30:00.000Z",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "title": "OpenAI复盘Pando：按分支并行写入，复用数据包缓解Agent开发压力",
+      "summary": "OpenAI工程团队介绍已用于内部单仓库的Git后端Pando，通过分支独立更新、数据包复用和区域缓存承接大量Agent并发开发。团队自述推送延迟中位数下降近80%，并分享兼容性测试、确定性仿真和渐进迁移方法；Pando尚未作为公开产品提供。",
+      "reason": "提供Agent规模开发下的具体扩容取舍与验证方法。原文正文＋原站 RSS 时间核验；性能数据为OpenAI内部自报。",
+      "category": "tip",
+      "quote": "reduced the latency of the median push by nearly 80%.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "海外AI",
+        "Agent",
+        "编码",
+        "部署/工程",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-03T08:53:09+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-02T23:13:53.000Z",
+      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+      "title": "Trajectory推出后训练平台，让领域专家反馈进入模型改进流程",
+      "summary": "TechCrunch采访介绍，Trajectory将任务反馈收集、模型再训练、评估和部署整合进同一平台，面向法律、金融等领域专家。公司公告确认此次平台发布；官网仍保留候补入口，自动评分与单轨迹训练功能标为研究预览，不能据此认定已全面开放或实现自主持续改进。",
+      "reason": "展示专业判断如何转成训练信号，采访与公司公告相互印证。客户效果尚未独立复测，实际接入范围仍需确认。",
+      "category": "ai-products",
+      "quote": "The startup is now making its post-training platform publicly available.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "海外AI",
+        "AI产品",
+        "AI创业",
+        "Agent",
+        "数据/训练"
+      ],
+      "selected": true,
+      "event": {
+        "key": "trajectory-continual-learning-platform-2026-11-02",
+        "title": "Trajectory推出生产数据后训练平台",
+        "factKey": "platform-launch-grading-gs1-research-previews",
+        "factTitle": "发布后训练平台并介绍两项持续学习研究预览"
+      },
+      "addedAt": "2026-11-03T08:53:09+08:00"
+    },
+    {
+      "sourceId": "web-trajectory",
+      "sourceName": "Trajectory",
+      "date": "2026-11-02",
+      "url": "https://www.trajectory.ai/field-notes/introducing-the-trajectory-platform",
+      "title": "Trajectory官方确认平台发布，两项持续学习能力仍属研究预览",
+      "summary": "Trajectory团队公告称，平台整合训练、评估与部署，用户需提供任务及评分方式。Continual Grading和Group Size 1明确标为研究预览；页面同时保留候补入口，实际开放范围不能仅凭“自助使用”的宣传措辞判断。",
+      "reason": "官方原文确认同次平台发布及预览限制。页面仅标日期，作为48小时内同事件交叉证据保留，不计作新增精选。",
+      "category": "ai-products",
+      "quote": "Today we're launching the Trajectory platform",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "海外AI",
+        "AI产品",
+        "AI创业",
+        "Agent",
+        "数据/训练"
+      ],
+      "selected": false,
+      "event": {
+        "key": "trajectory-continual-learning-platform-2026-11-02",
+        "title": "Trajectory推出生产数据后训练平台",
+        "factKey": "platform-launch-grading-gs1-research-previews",
+        "factTitle": "发布后训练平台并介绍两项持续学习研究预览"
+      },
+      "addedAt": "2026-11-03T08:53:09+08:00"
     }
   ]
 }
