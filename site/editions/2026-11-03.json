@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "researchedAt": "2026-11-03T16:44:05+08:00",
+  "researchedAt": "2026-11-03T18:57:59+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -1078,6 +1078,61 @@
         "factTitle": "确认Opus 5.5游戏复刻限制及原创开发边界"
       },
       "addedAt": "2026-11-03T16:44:05+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-11-03T08:00:00.000Z",
+      "url": "https://openai.com/index/heimstaden",
+      "title": "Heimstaden称AI房产配图成本降至每张不足0.1欧元",
+      "summary": "OpenAI客户案例称，Heimstaden在荷兰制作虚拟布置房产图片的单张成本由约50欧元降至不足0.1欧元，年节省13万欧元仍是潜力估算。员工继续审核内容和批准决策。",
+      "reason": "提供具体成本及人工责任边界。原文正文＋原站 RSS 时间核验；成效为客户自述，未见独立复核。",
+      "category": "industry",
+      "quote": "Employees remain responsible for reviewing and approving decisions.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI赛道",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-03T18:57:59+08:00"
+    },
+    {
+      "sourceId": "rss-hugging-face",
+      "sourceName": "Hugging Face Blog",
+      "date": "2026-11-03T00:00:00.000Z",
+      "url": "https://huggingface.co/blog/transformers-mic",
+      "title": "Hugging Face分享模型回归测试：缩小模型，保留真实执行路径",
+      "summary": "Tarek Ziadé介绍用缩小模型做CPU回归测试，保留预处理和执行路径，并冻结人工审阅的输出基线。UMT5历史回放检出了回归问题；覆盖仍不完整，当前CI仅报告失败，不阻断PR，也不能替代真实权重测试。",
+      "reason": "提供可复用的模型接入测试方法。原文正文＋原站 RSS 时间核验；结果来自团队自测。",
+      "category": "tip",
+      "quote": "The LLM drafts; it doesn't approve.",
+      "tier": "T1",
+      "entity": "hugging-face",
+      "subjects": [
+        "hugging-face"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "部署/工程",
+        "开源生态",
+        "海外AI",
+        "Hugging Face"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-03T18:57:59+08:00"
     }
   ]
 }
