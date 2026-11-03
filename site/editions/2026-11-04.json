@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-04",
+  "researchedAt": "2026-11-04T00:37:18+08:00",
+  "items": [
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-03T16:30:34.000Z",
+      "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+      "title": "Google拟调整学校AI开关，完全停用AI将同时停用搜索",
+      "summary": "Aisha Malik报道，Google计划明年将学校管理的K-12学生账号中的相关AI产品改为默认关闭，由管理员主动启用。教育负责人解释，搜索与AI已深度整合，学校若完全限制AI，学生也将无法使用Google搜索。具体执行细则仍待公布。",
+      "reason": "影响学校对AI辅助学习与信息检索的选择。已核对报道全文、署名和精确发布时间；调整仍属后续计划。",
+      "category": "ai-products",
+      "quote": "Search and AI are deeply integrated",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI赛道",
+        "海外AI",
+        "Google"
+      ],
+      "selected": true,
+      "event": {
+        "key": "google-k12-ai-school-controls-2026-11-03",
+        "title": "Google调整学校账号的AI与搜索控制",
+        "factKey": "school-account-opt-in-and-search-access-plan",
+        "factTitle": "宣布学校AI主动启用计划，完全停用AI将同时停用搜索"
+      },
+      "addedAt": "2026-11-04T00:37:18+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-03T15:38:27.000Z",
+      "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
+      "title": "苹果明确浪漫或性内容AI伴侣须18+，新增申报项11月16日上线",
+      "summary": "Sarah Perez报道苹果11月2日公布的年龄分级调整。涉及真人约会、关系连接，或与用户进行浪漫或性内容互动的虚拟伴侣功能，最低分级为18+。新内容描述项11月16日加入App Store Connect，所有应用须于2027年1月12日前完成相关声明。",
+      "reason": "直接影响AI陪伴应用的分级与上架准备。报道全文与苹果公告相符；适用范围是相关关系功能，不能泛化到所有AI聊天应用。",
+      "category": "industry",
+      "quote": "sexual or romantic content",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "政策/监管",
+        "AI产品",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "apple-romantic-companion-age-rating-2026-11-02",
+        "title": "苹果调整约会与虚拟伴侣功能年龄分级",
+        "factKey": "dating-relationships-18plus-declarations-deadline",
+        "factTitle": "明确相关功能最低18+分级及新增声明期限"
+      },
+      "addedAt": "2026-11-04T00:37:18+08:00"
+    },
+    {
+      "sourceId": "apple-developer-news",
+      "sourceName": "Apple Developer",
+      "date": "2026-11-02",
+      "url": "https://developer.apple.com/news/?id=yxkh08us",
+      "title": "苹果开发者公告确认18+分级范围与声明截止日期",
+      "summary": "苹果公告明确，约会与关系功能包括涉及浪漫或性内容的虚拟伴侣，最低年龄分级为18+。开发者在更新应用或修改分级问卷时须填写新增声明，全部应用的完成期限为2027年1月12日。",
+      "reason": "原站公告直接支持媒体报道中的适用范围与期限。网页仅标日期，保留为交叉证据。",
+      "category": "industry",
+      "quote": "Apps that include Dating and Relationships receive a minimum age rating of 18+.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "政策/监管",
+        "AI产品",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "apple-romantic-companion-age-rating-2026-11-02",
+        "title": "苹果调整约会与虚拟伴侣功能年龄分级",
+        "factKey": "dating-relationships-18plus-declarations-deadline",
+        "factTitle": "明确相关功能最低18+分级及新增声明期限"
+      },
+      "addedAt": "2026-11-04T00:37:18+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-03T15:24:51.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai",
+      "title": "苹果AI商业模式分析：硬件、应用分成与未来扩容收费",
+      "summary": "Rani Molla结合苹果财报和电话会，分析硬件销售、第三方AI订阅分成与自有服务收费三条路径。苹果表示，依赖服务器的部分AI功能将设用量限制，未来可购买更多容量；文章也列举企业在Mac上运行本地模型的案例。苹果尚未披露AI对营收增长的具体贡献。",
+      "reason": "帮助理解AI如何通过设备与服务变现。已核对分析全文、署名和发布时间；扩容收费仍是计划，案例也不能证明总体营收增长由AI带来。",
+      "category": "opinion",
+      "quote": "will be able to purchase expanded access in the future",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "现象/趋势",
+        "AI商业化",
+        "AI赛道",
+        "端侧",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-04T00:37:18+08:00"
+    }
+  ]
+}

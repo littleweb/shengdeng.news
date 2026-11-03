@@ -1,6 +1,6 @@
 {
   "kind": "models",
-  "capturedAt": "2026-11-02T16:19:15.396Z",
+  "capturedAt": "2026-11-03T16:38:26.334Z",
   "sourceName": "Artificial Analysis",
   "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
   "metric": "Intelligence Index",
@@ -14,7 +14,7 @@
       "url": "https://artificialanalysis.ai/models/gemini-4-carbon",
       "context": "1M",
       "cost": "$7.76",
-      "speed": "95"
+      "speed": "94"
     },
     {
       "rank": 2,
@@ -36,7 +36,7 @@
       "url": "https://artificialanalysis.ai/models/gemini-4-carbon-medium",
       "context": "1M",
       "cost": "$6.59",
-      "speed": "--"
+      "speed": "101"
     },
     {
       "rank": 4,
@@ -47,7 +47,7 @@
       "url": "https://artificialanalysis.ai/models/claude-opus-5-5-xhigh",
       "context": "1M",
       "cost": "$6.05",
-      "speed": "82"
+      "speed": "81"
     },
     {
       "rank": 5,
@@ -58,7 +58,7 @@
       "url": "https://artificialanalysis.ai/models/gpt-6-astra",
       "context": "1M",
       "cost": "$6.24",
-      "speed": "72"
+      "speed": "71"
     },
     {
       "rank": 6,
@@ -91,7 +91,7 @@
       "url": "https://artificialanalysis.ai/models/gpt-6-1-sol",
       "context": "1M",
       "cost": "$1.27",
-      "speed": "87"
+      "speed": "93"
     },
     {
       "rank": 9,
@@ -102,18 +102,18 @@
       "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5",
       "context": "1M",
       "cost": "$10.02",
-      "speed": "137"
+      "speed": "139"
     },
     {
       "rank": 10,
-      "name": "GPT-6.1 Sol (xhigh)",
-      "owner": "OpenAI",
-      "value": 52,
-      "displayValue": "52",
-      "url": "https://artificialanalysis.ai/models/gpt-6-1-sol-xhigh",
+      "name": "Gemini 4 Carbon (low)",
+      "owner": "Google",
+      "value": 54,
+      "displayValue": "54",
+      "url": "https://artificialanalysis.ai/models/gemini-4-carbon-low",
       "context": "1M",
-      "cost": "$0.76",
-      "speed": "77"
+      "cost": "--",
+      "speed": "--"
     }
   ]
 }
