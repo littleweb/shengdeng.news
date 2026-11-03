@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "researchedAt": "2026-11-03T09:58:57+08:00",
+  "researchedAt": "2026-11-03T11:07:42+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -683,6 +683,70 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-03T09:58:57+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-11-03T09:57:30+08:00",
+      "url": "https://www.qbitai.com/2026/11/507322.html",
+      "title": "MIT权重编辑实验：Astra缓解Qwen推理循环，数学测试得分提升",
+      "summary": "MIT CSAIL团队让GPT-6 Astra直接分析并修改Qwen3.5-0.8B权重，缓解重复推理问题。在50次前向调用预算、相同采样设置下，MATH-500得分由7.9%升至48.1%，改动约0.016%的权重。实验未使用梯度训练，但仍需要模型诊断、前向测试和评估计算。",
+      "reason": "展示直接编辑权重修复模型行为的早期证据。原文正文＋原站 RSS 时间核验，并对照作者实验条件；结果限特定小模型，未独立复现。",
+      "category": "paper",
+      "quote": "模型诊断和验证都还在。",
+      "tier": "T2",
+      "entity": "qwen",
+      "subjects": [
+        "qwen",
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "数据/训练",
+        "推理",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "mit-weight-space-programming-2026-11-02",
+        "title": "MIT团队展示权重空间编程实验",
+        "factKey": "qwen35-08b-weight-edit-loop-reduction",
+        "factTitle": "直接编辑Qwen小模型权重缓解推理循环并改善测试表现"
+      },
+      "addedAt": "2026-11-03T11:07:42+08:00"
+    },
+    {
+      "sourceId": "rikiya-takehi",
+      "sourceName": "Rikiya Takehi研究博客",
+      "date": "2026-11-02",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "title": "作者原文补充权重编辑实验的调用预算与失败对照",
+      "summary": "作者报告说明，Qwen实验的主要改进来自缓解推理循环；50次前向调用后，仍有33.1%的MATH-500回答触及长度上限。对于较少循环的Gemma 3 270M，对照实验未建立数学能力提升，说明修复已有能力的障碍仍有明确适用边界。",
+      "reason": "提供实验设置、完整日志入口及失败对照，支持核查媒体报道。原站仅标11月2日，保留日期精度，仅作近48小时交叉证据；未独立复测。",
+      "category": "paper",
+      "quote": "With 50 forward passes, MATH-500 rose from 7.9% to 48.1%",
+      "tier": "T2",
+      "entity": "qwen",
+      "subjects": [
+        "qwen",
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "数据/训练",
+        "推理",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "mit-weight-space-programming-2026-11-02",
+        "title": "MIT团队展示权重空间编程实验",
+        "factKey": "qwen35-08b-weight-edit-loop-reduction",
+        "factTitle": "直接编辑Qwen小模型权重缓解推理循环并改善测试表现"
+      },
+      "addedAt": "2026-11-03T11:07:42+08:00"
     }
   ]
 }
