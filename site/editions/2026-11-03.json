@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "researchedAt": "2026-11-03T13:12:32Z",
+  "researchedAt": "2026-11-03T22:20:56+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -1236,6 +1236,32 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-03T13:12:32Z"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-11-03T19:13:49+08:00",
+      "url": "https://www.qbitai.com/2026/11/507448.html",
+      "title": "海马云谈RunningHub经营路径：共享算力，让Agent衔接专业制作工具",
+      "summary": "量子位围绕海马云创始人党劲峰的观点，介绍RunningHub将推理与渲染任务交由统一GPU池调度、让Agent调用Blender等专业工具，并将授权创作轨迹用于后训练的做法。企业称约60%的模型调用已由动态路由完成；相关用量、降本及留存数据尚未独立验证。",
+      "reason": "提供AI创作平台控制成本和组织交付的经营思路。原文正文＋原站 RSS 时间核验；客户案例未具名，成效来自企业自述，不能据此认定盈利。",
+      "category": "opinion",
+      "quote": "模型可以从市场上买到",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "现象/趋势",
+        "AI商业化",
+        "AI创业",
+        "AI赛道",
+        "Agent",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-03T22:20:56+08:00"
     }
   ]
 }
