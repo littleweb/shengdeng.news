@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "researchedAt": "2026-11-03T05:23:08Z",
+  "researchedAt": "2026-11-03T15:36:42+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -906,6 +906,89 @@
         "factTitle": "LLM 0.37加入兼容端点管理和带类型的嵌入附件"
       },
       "addedAt": "2026-11-03T05:23:08Z"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-03T07:20:00.000Z",
+      "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+      "title": "Apple Watch音频AI开始开发者测试，支持回看15秒对话与生成摘要",
+      "summary": "TechCrunch报道，Audio Intelligence开始随iOS 27.3向开发者提供测试，适用于Apple Watch Series 12与Ultra 4。用户可选择开启对话回看和摘要功能，需要配对iPhone，摘要处理还会使用Private Cloud Compute。未保存的回看片段会在30秒后删除，摘要未保存则在七天内删除；公众测试与正式开放仍在后续。",
+      "reason": "手表对话辅助从预告进入开发者测试，影响硬件选择与日常使用。已核对完整报道和精确发布时间；隐私及续航效果仍为苹果自述，尚未独立实测。",
+      "category": "ai-products",
+      "quote": "initially for developers in the iOS 27.3 update",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI硬件",
+        "语音",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "apple-watch-audio-intelligence-beta-2026-11",
+        "title": "Apple Watch音频智能功能进入测试",
+        "factKey": "audio-intelligence-ios-27-3-developer-beta",
+        "factTitle": "Audio Intelligence开始向iOS 27.3开发者测试用户提供"
+      },
+      "addedAt": "2026-11-03T15:36:42+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-11-03T13:16:35+08:00",
+      "url": "https://www.qbitai.com/2026/11/507396.html",
+      "title": "小米披露机器人8小时工站验证，公寓试运营覆盖50余项任务",
+      "summary": "小米披露，人形机器人在汽车工厂中控台侧盖板排序工站挑战8小时作业，并初步完成产线级能力验证。另一套基于Xiaomi-Robotics-1的Agent系统在青年公寓启动小范围试运营，公司称已完成连续超过30分钟、跨3个房间、包含50余项任务的验证。两项进展均处于验证或试运营阶段。",
+      "reason": "提供了工厂连续作业和家庭长任务的具体规模，便于跟踪机器人落地。原文正文＋原站 RSS 时间核验；文章明确为小米供稿，数据尚无独立长期测试支持。",
+      "category": "industry",
+      "quote": "首次挑战8小时作业任务",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI赛道",
+        "具身智能",
+        "Agent",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-03T15:36:42+08:00"
+    },
+    {
+      "sourceId": "rss-nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "date": "2026-11-03T07:00:12.000Z",
+      "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+      "title": "NVIDIA披露城市AI案例，共享算力支撑政务、交通与规划",
+      "summary": "NVIDIA介绍多地城市AI部署，包括西班牙1MillionBot的150余项政务服务部署，以及马来西亚ITMAX结合TeraSim测试交通信号配时的做法。文章称后者高峰走廊通行时间最多缩短26%，并计划到2027年支持1.7万余路摄像头；其他部分数字孪生项目仍在规划或建设中。",
+      "reason": "给出城市Agent的应用规模与工作流程，可供公共服务团队参考。已核对完整原文和原站发布时间；改善数字来自厂商披露，扩容计划不代表已完成交付。",
+      "category": "industry",
+      "quote": "reducing peak-hour corridor travel times by up to 26%",
+      "tier": "T1",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-03T15:36:42+08:00"
     }
   ]
 }
