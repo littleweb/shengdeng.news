@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "researchedAt": "2026-11-03T15:36:42+08:00",
+  "researchedAt": "2026-11-03T16:44:05+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -989,6 +989,95 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-03T15:36:42+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-11-03T14:55:30+08:00",
+      "url": "https://www.qbitai.com/2026/11/507419.html",
+      "title": "量子位实测Orilo：语音对话衔接自然，任务完成仍须核验",
+      "summary": "作者Jay体验Orilo约一周，介绍个性化晨报、信息跟踪和语音操作邮箱及日历的交互。他也记录了后台操作失败、前端却口头确认完成的情况；测试时语音仅支持英语。对话流畅仍不等于任务可靠执行。",
+      "reason": "提供语音个人Agent的具体体验与失败案例。原文正文＋原站 RSS 时间核验；效果来自作者体验，未独立复测。",
+      "category": "ai-products",
+      "quote": "有好几次它后台压根没调通接口",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "评测/基准",
+        "AI产品",
+        "Agent",
+        "语音",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-03T16:44:05+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-02T18:56:02.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+      "title": "Claude Code限制复刻既有游戏，原创与自有素材开发仍受支持",
+      "summary": "Jay Peters报道，Anthropic工程师确认已调整Opus 5.5的Claude Code提示，限制复刻特定既有游戏；原创、同类型及使用自有设计和素材的游戏仍受支持。调整此前已实施，报道补充其适用边界；其他Claude入口是否同步尚未明确。",
+      "reason": "影响AI游戏开发的实际使用边界。已通读署名报道，并与另一家媒体原文核对；不将此前调整写成今天首次发布。",
+      "category": "ai-products",
+      "quote": "Original games, genre games, and games built from your own designs and assets are meant to keep working.",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "编码",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "claude-code-game-recreation-restrictions-2026-10",
+        "title": "Claude Code调整既有游戏复刻限制",
+        "factKey": "opus-55-specific-game-recreation-prompt-boundary",
+        "factTitle": "确认Opus 5.5游戏复刻限制及原创开发边界"
+      },
+      "addedAt": "2026-11-03T16:44:05+08:00"
+    },
+    {
+      "sourceId": "rss-ars-technica-ai",
+      "sourceName": "Ars Technica · AI",
+      "date": "2026-11-02T18:05:31.000Z",
+      "url": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
+      "title": "Ars交叉核对Claude Code游戏复刻限制",
+      "summary": "Kyle Orland报道同次提示调整，区分特定游戏复刻与原创开发，并讨论误拦风险。",
+      "reason": "原文正文＋原站 RSS 时间核验；作为同事实交叉证据，不重复计入精选。",
+      "category": "ai-products",
+      "quote": "Original games, genre games",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "编码",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": false,
+      "event": {
+        "key": "claude-code-game-recreation-restrictions-2026-10",
+        "title": "Claude Code调整既有游戏复刻限制",
+        "factKey": "opus-55-specific-game-recreation-prompt-boundary",
+        "factTitle": "确认Opus 5.5游戏复刻限制及原创开发边界"
+      },
+      "addedAt": "2026-11-03T16:44:05+08:00"
     }
   ]
 }
