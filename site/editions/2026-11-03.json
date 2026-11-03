@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "researchedAt": "2026-11-03T08:53:09+08:00",
+  "researchedAt": "2026-11-03T09:58:57+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -659,6 +659,30 @@
         "factTitle": "发布后训练平台并介绍两项持续学习研究预览"
       },
       "addedAt": "2026-11-03T08:53:09+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-03T00:35:52.000Z",
+      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+      "title": "Garry Tan自述每年Token支出约10万至20万美元，认为成本仍限制个人Agent普及",
+      "summary": "Y Combinator CEO Garry Tan在访谈中称，每年Token支出约10万至20万美元，并介绍YC内部Agent Stray Light会使用创始人及申请材料等组织上下文。他认为个人Agent普及仍受成本限制；报道未提供支出明细或可核验的效率回报。",
+      "reason": "让高强度Agent使用的成本门槛更具体。已核对Julie Bort署名原文及精确发布时间；支出和内部应用范围来自Tan自述，尚无独立验证。",
+      "category": "opinion",
+      "quote": "It’s too expensive right now",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "AI创业",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-03T09:58:57+08:00"
     }
   ]
 }
