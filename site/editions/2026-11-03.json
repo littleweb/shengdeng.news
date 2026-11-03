@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "researchedAt": "2026-11-03T12:05:54Z",
+  "researchedAt": "2026-11-03T13:12:32Z",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -1210,6 +1210,32 @@
         "factTitle": "提高赏金区间，新增奖励并明确追溯补差条件"
       },
       "addedAt": "2026-11-03T12:05:54Z"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-03T12:22:12.000Z",
+      "url": "https://the-decoder.com/nvidia-pushes-cloud-customers-to-cut-back-on-china-business/",
+      "title": "据报英伟达建议部分云客户减少新增中国业务",
+      "summary": "Maximilian Schreiner报道，英伟达已建议部分云计算客户降低对中国企业业务的依赖，并要求披露使用芯片的最终用户身份。文章援引The Information与《金融时报》，称指导通过销售和区域团队口头传达，属于非强制安排，针对未来合同而非既有交易；尚不能视为新的法定云算力禁令。",
+      "reason": "关系中国AI团队获取海外算力的条件。已核对完整媒体原文、署名与精确发布时间；报道依赖匿名消息源，尚无当事方独立确认。",
+      "category": "industry",
+      "quote": "The directive isn't mandatory and applies to future contracts, not existing deals.",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-03T13:12:32Z"
     }
   ]
 }
