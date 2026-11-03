@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "researchedAt": "2026-11-03T18:57:59+08:00",
+  "researchedAt": "2026-11-03T12:05:54Z",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -1133,6 +1133,83 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-03T18:57:59+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-03T11:47:37.000Z",
+      "url": "https://the-decoder.com/huawei-tells-customers-to-find-their-own-ai-chip-memory-effectively-outsourcing-procurement-to-the-black-market/",
+      "title": "据报华为部分AI芯片客户须自购HBM，国产内存供应仍不足",
+      "summary": "The Decoder援引The Information调查称，华为让部分订购AI芯片的客户自行采购高带宽内存，背景是国产HBM供应不足及直接采购限制。文中所述昇腾960DT仍计划于2027年初推出，性能翻倍也是厂商主张，不能视为已交付结果。",
+      "reason": "呈现AI算力扩张中的内存瓶颈。已通读媒体原文并核对发布时间；采购安排来自转述的供应链调查，尚未获得华为公开确认。",
+      "category": "industry",
+      "quote": "Huawei is telling some customers to source the memory for its AI chips themselves",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-03T12:05:54Z"
+    },
+    {
+      "sourceId": "rss-mit-tech-review-ai",
+      "sourceName": "MIT Technology Review · AI",
+      "date": "2026-11-03T10:43:41.000Z",
+      "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+      "title": "研究者讨论用激励机制约束AI，合谋与泛化问题仍待解决",
+      "summary": "MIT Technology Review采访研究者，介绍通过同伴评分、竞争以及解题者与审计者的奖惩机制约束AI行为的思路。报道同时指出，模型是否稳定响应激励、如何防止合谋，以及机制能否跨任务迁移，仍未得到解决；相关理论不能视为已验证的前沿模型安全方案。",
+      "reason": "采访把抽象的对齐问题落实到激励规则及其漏洞，适合理解多Agent监督的边界。已通读正文并核对发布时间，所引论文包含此前研究，不能称为本日新发布成果。",
+      "category": "paper",
+      "quote": "It’s unclear, for instance, how these theories will apply to real models",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "安全/对齐",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-03T12:05:54Z"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-03T10:42:44.000Z",
+      "url": "https://the-decoder.com/bug-hunters-can-now-earn-up-to-172000-from-openai-as-company-ramps-up-security/",
+      "title": "The Decoder交叉报道OpenAI漏洞赏金调整及追溯补差条件",
+      "summary": "报道确认，OpenAI核心产品严重漏洞赏金最高3万美元，特殊发现最高10万美元，叠加奖励后总额最高约17.2万美元；过去30天提交漏洞的研究者可按新旧标准补差。这些金额对应不同条件，不能理解为每次漏洞报告都能获得最高奖励。",
+      "reason": "媒体完整原文与已归档官方公告的金额及补差条件一致，仅作同一事实的交叉来源，不重复列为精选。",
+      "category": "industry",
+      "quote": "Exceptional findings can net up to $100,000",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "安全/对齐",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "openai-security-bounty-update-2026-11-02",
+        "title": "OpenAI调整安全漏洞赏金与奖励规则",
+        "factKey": "reward-ranges-bonuses-and-retroactive-payments",
+        "factTitle": "提高赏金区间，新增奖励并明确追溯补差条件"
+      },
+      "addedAt": "2026-11-03T12:05:54Z"
     }
   ]
 }
