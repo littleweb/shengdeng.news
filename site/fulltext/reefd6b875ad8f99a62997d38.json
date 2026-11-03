@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "articleId": "reefd6b875ad8f99a62997d38",
+  "url": "https://the-decoder.com/nvidia-pushes-cloud-customers-to-cut-back-on-china-business/",
+  "fetchedAt": "2026-11-03T13:21:10.428Z",
+  "sourceHtml": "<p><strong>Nvidia has told some cloud customers to take on less business from Chinese companies.</strong> The guidance is meant to push cloud providers, including Nvidia-backed neoclouds, toward a more diverse customer mix, <a href=\"https://www.theinformation.com/briefings/nvidia-tells-cloud-clients-take-less-china-business\">The Information reports</a>, citing three people familiar with the matter.</p><p>The directive isn't mandatory and applies to future contracts, not existing deals. Cloud customers are also being asked to disclose the identity of end users accessing the chips. According to the <a href=\"https://www.ft.com/content/1902df70-1380-4588-bad5-171352b575f2?syn-25a6b1a6=1\">Financial Times</a>, the instruction was communicated verbally through sales reps and regional teams.</p><p>The move targets a gap in U.S. export controls. The rules restrict chip shipments but generally don't cover remote access through cloud services. That lets Chinese AI developers tap advanced Nvidia chips by renting compute capacity at data centers abroad, without ever importing the hardware. U.S. authorities had been looking into Chinese AI companies accessing such chips through foreign data centers after allegations surfaced involving Moonshot AI, the developer behind the Kimi chatbot.</p><h3>AI News Without the Hype – Curated by Humans<br></h3><p>\n\t\t\t\t\tSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\t\t\t\t</p>",
+  "sourceHash": "1e8a32b1a135fc8a490e38ace88d2ba3213d65b73fcb63ba0bb2a0917e456b2a",
+  "language": "und",
+  "translation": {
+    "method": "local-codex",
+    "translatedAt": "2026-11-03T13:21:37.639Z",
+    "html": "<p><strong>英伟达已告知部分云服务客户，减少承接中国公司的业务。</strong><a href=\"https://www.theinformation.com/briefings/nvidia-tells-cloud-clients-take-less-china-business\">The Information 报道</a>援引三位知情人士的话称，这项指导旨在推动云服务提供商（包括英伟达支持的新兴云服务商）实现更加多元化的客户组合。</p><p>这项指示并非强制要求，适用于未来签订的合同，不涉及现有交易。云服务客户还被要求披露使用这些芯片的最终用户身份。据<a href=\"https://www.ft.com/content/1902df70-1380-4588-bad5-171352b575f2?syn-25a6b1a6=1\">《金融时报》</a>报道，这项指示是通过销售代表和区域团队口头传达的。</p><p>此举针对的是美国出口管制中的一个漏洞。相关规则限制芯片出口，但通常不涵盖通过云服务进行的远程访问。这使得中国 AI 开发者可以通过租用海外数据中心的算力来使用英伟达的先进芯片，而完全无需进口硬件。在涉及 Kimi 聊天机器人开发商 Moonshot AI 的相关指控浮出水面后，美国有关部门一直在调查中国 AI 公司通过境外数据中心使用此类芯片的情况。</p><h3>不炒作的 AI 新闻——由人工精选<br></h3><p>\n\t\t\t\t\t订阅 THE DECODER，即可享受无广告阅读、每周 AI 简报、每年六期的独家“AI Radar”前沿报告、完整历史内容访问权限，以及评论区访问权限。\t\t\t\t</p>",
+    "complete": true
+  }
+}
