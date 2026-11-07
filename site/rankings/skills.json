@@ -1,6 +1,6 @@
 {
   "kind": "skills",
-  "capturedAt": "2026-11-07T13:35:07.158Z",
+  "capturedAt": "2026-11-07T14:41:12.539Z",
   "sourceName": "skills.sh",
   "sourceUrl": "https://www.skills.sh/",
   "metric": "累计安装量",
@@ -145,8 +145,8 @@
       "rank": 18,
       "name": "triage",
       "owner": "mattpocock/skills",
-      "value": 1000000,
-      "displayValue": "1.0M",
+      "value": 1100000,
+      "displayValue": "1.1M",
       "url": "https://www.skills.sh/mattpocock/skills/triage"
     },
     {
