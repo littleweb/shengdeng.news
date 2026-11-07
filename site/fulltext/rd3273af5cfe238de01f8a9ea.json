@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "articleId": "rd3273af5cfe238de01f8a9ea",
+  "url": "https://www.ithome.com/1/022/922.htm",
+  "fetchedAt": "2026-11-07T15:20:24.665Z",
+  "sourceHtml": "<p><a href=\"https://www.ithome.com/\">IT之家</a> 11 月 5 日消息，腾讯混元与 WorkBuddy 今日发文，称自 2026 年 11 月 4 日混元 Hy4 在 WorkBuddy 首发接入以来，受到了广大用户与开发者的积极体验和热情反馈，上线首日即在 WorkBuddy 任务队列中出现大量用户触及额度情况。</p><p>官方表示，为保障大家的使用体验，<strong>已针对 Hy4 推理集群进行紧急扩容十倍并提升了用户的免费体验额度，也将持续动态调配资源</strong>。但受限于高端算力总量与高峰并发集中，仍不排除个别时段会继续出现限额情况，如有遇到，建议大家可以考虑如下过渡方案：</p><ul><li><p>切换到 Hy3 等其他模型继续使用：<strong>Hy3 当前 WorkBuddy 限免将延长至 2026 年 11 月 15 日 23:59</strong></p></li><li><p>非紧急需求错峰在晚间时段使用</p></li></ul><p><img src=\"https://img.ithome.com/newsuploadfiles/2026/11/e8dcee25-aaa5-4fb0-a209-cd04799b6fc2.jpg?x-bce-process=image/format,f_auto\" title=\"腾讯混元：Hy4 调用激增，WorkBuddy 已十倍扩容、Hy3 限免延长\" width=\"1062\" height=\"1303\"></p><p>据IT之家此前报道，<a href=\"https://www.ithome.com/1/022/035.htm\">腾讯混元昨日发布最新一代大语言模型 Hy4 正式版</a>。相比于 Hy4 preview，Hy4 显著扩展了预训练和后训练规模，首次引入了视觉能力，并大幅提升了指令遵循、长文理解、长程任务、深度研究等各项综合能力。</p><p>官方表示，随着模型能力的再次全面跃升，<strong>Hy </strong><strong>首次跻身最强开源模型之列</strong>。Hy4 将于近期开源模型权重，发布模型系统卡片，并积极推进更负责任的开源，重点关注网络和生物安全等风险。</p><p><img src=\"https://img.ithome.com/newsuploadfiles/2026/11/1dc59f2f-d10e-43f5-a1e0-b40a32e347f3.png?x-bce-process=image/format,f_auto\" title=\"腾讯混元：Hy4 调用激增，WorkBuddy 已十倍扩容、Hy3 限免延长\" width=\"1080\" height=\"614\"></p>",
+  "sourceHash": "002bbc69ab53d66245dfa0134093405070ae49e3587ca523e55be51f0810b087",
+  "language": "zh",
+  "translation": null
+}
