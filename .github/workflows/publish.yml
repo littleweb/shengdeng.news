@@ -87,3 +87,5 @@ jobs:
           path: dist/static
       - uses: actions/deploy-pages@v4
         id: deployment
+        with:
+          timeout: 1800000
