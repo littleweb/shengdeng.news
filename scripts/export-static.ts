@@ -18,7 +18,7 @@ const prefix = `/${arg("--prefix", "").split("/").filter(Boolean).join("/")}`.re
 const publishedUrl = arg("--site-url", "https://shendeng.news").replace(/\/$/, "");
 // Poster QR codes and the printed host must use the final public deployment URL.
 process.env.SITE_URL = publishedUrl;
-const maxPages = Number(arg("--max-pages", "2000"));
+const maxPages = Number(arg("--max-pages", "Infinity"));
 const publicPage = (u: URL) => u.origin === origin.origin && !/^\/(admin|api|img|og|assets)(\/|$)/.test(u.pathname) && !/\.(xml|txt|json|png|ico|svg|webmanifest)$/.test(u.pathname) && !/^\/(feedback|all\/search-busy|search-busy)(\/|$)/.test(u.pathname);
 const key = (u: URL) => { u.hash = ""; u.searchParams.sort(); return u.pathname + u.search; };
 const pageFile = (u: URL) => `${u.pathname.replace(/\/$/, "")}${u.search ? `/query-${createHash("sha256").update(u.search).digest("hex").slice(0, 12)}` : ""}/index.html`.replace(/^\//, "");
