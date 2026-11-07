@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "researchedAt": "2026-11-04T01:44:44+08:00",
+  "researchedAt": "2026-11-04T23:27:34+08:00",
   "items": [
     {
       "sourceId": "rss-techcrunch-ai",
@@ -284,6 +284,1296 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-04T01:44:44+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-03T18:42:16.000Z",
+      "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+      "title": "Netflix灰度上线AI Discover，按即时心情调整观影推荐",
+      "summary": "Netflix开始在美国向使用英语、持有支持电视设备的用户逐步提供AI Discover实验入口。首项功能让用户按轻松观看、家庭电影夜或短时观看等主题寻找内容，并通过反馈保留喜欢的推荐、排除不想再次看到的作品；后续功能是否进入主界面仍取决于实验与用户反馈。",
+      "reason": "提供AI推荐从长期偏好转向即时需求的具体产品案例。已通读Aisha Malik报道、核对精确发布时间及另一家媒体原文；尚无推荐质量或商业成效数据。",
+      "category": "ai-products",
+      "quote": "AI Discover is starting to roll out in the U.S.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "netflix-ai-discover-tv-rollout-2026-11-03",
+        "title": "Netflix灰度上线电视端AI Discover",
+        "factKey": "us-english-tv-themed-recommendations-experiment",
+        "factTitle": "向美国英语电视用户逐步提供主题推荐与反馈实验"
+      },
+      "addedAt": "2026-11-04T02:51:03+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-03T18:00:00.000Z",
+      "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+      "title": "The Verge交叉确认Netflix AI Discover的开放范围",
+      "summary": "Jay Peters报道，Netflix电视应用新增Discover入口，首批实验围绕观看主题提供推荐，并记住用户不喜欢的建议。开放范围为美国、英语界面及支持的电视设备，采用逐步推送方式。",
+      "reason": "独立媒体原文确认同次灰度上线及适用条件，仅作交叉证据；不能据此证明推荐效果提升。",
+      "category": "ai-products",
+      "quote": "members who use Netflix in English on supported TVs",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "netflix-ai-discover-tv-rollout-2026-11-03",
+        "title": "Netflix灰度上线电视端AI Discover",
+        "factKey": "us-english-tv-themed-recommendations-experiment",
+        "factTitle": "向美国英语电视用户逐步提供主题推荐与反馈实验"
+      },
+      "addedAt": "2026-11-04T02:51:03+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-03T18:30:42.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+      "title": "OpenAI称ChatGPT搜索量约为Google两成，比较基数未披露",
+      "summary": "ChatGPT消费者产品负责人Adam Fry在媒体活动中称，ChatGPT搜索查询量约相当于Google的20%。他将一次搜索定义为用户问题触发网页检索，但未说明Google查询量的数据来源；这一比例不能直接解释为ChatGPT占据20%的搜索市场。",
+      "reason": "有助于观察AI搜索的使用规模与竞争格局。已通读Hayden Field报道并核对原站精确时间；数字为OpenAI自述，比较基数尚未独立验证。",
+      "category": "industry",
+      "quote": "Fry did not specify the source of the Google search volume number.",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai",
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "搜索",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-04T02:51:03+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-03T18:31:00.000Z",
+      "url": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta",
+      "title": "The Verge交叉报道Apple Watch音频AI测试与隐私条件",
+      "summary": "Stevie Bonifield报道，watchOS 27.3开发者测试提供Siri Recap对话摘要和最近15秒音频的Live Rewind文字回看。苹果称原始音频由专用硬件处理；用户选择保存的摘要或文字，在启用双重认证及设备密码的iCloud账户间采用端到端加密同步。",
+      "reason": "交叉核对已归档的音频功能测试，并补充报道中的隐私适用条件；苹果相关承诺尚未独立验证，不作为新的正式开放消息。",
+      "category": "ai-products",
+      "quote": "available in the new watchOS 27.3 developer beta rolling out now.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI硬件",
+        "语音",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "apple-watch-audio-intelligence-beta-2026-11",
+        "title": "Apple Watch音频智能功能进入测试",
+        "factKey": "audio-intelligence-ios-27-3-developer-beta",
+        "factTitle": "Audio Intelligence开始向iOS 27.3开发者测试用户提供"
+      },
+      "addedAt": "2026-11-04T02:51:03+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-03T17:00:04.000Z",
+      "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+      "title": "The Verge交叉报道学校账号停用AI与搜索的联动安排",
+      "summary": "Emma Roth报道，Google计划让学校管理的K-12学生账号由管理员主动启用相关AI功能及搜索。Google教育负责人解释，搜索与AI已深度整合，学校若完全关闭相关AI能力，也将无法为学生账号保留搜索入口。",
+      "reason": "独立媒体原文确认已归档的账号控制计划及搜索联动限制，仅作同事件交叉证据，不视为另一项上线进展。",
+      "category": "industry",
+      "quote": "Search and AI are deeply integrated",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "搜索",
+        "海外AI",
+        "Google"
+      ],
+      "selected": false,
+      "event": {
+        "key": "google-k12-ai-school-controls-2026-11-03",
+        "title": "Google调整学校账号的AI与搜索控制",
+        "factKey": "school-account-opt-in-and-search-access-plan",
+        "factTitle": "宣布学校AI主动启用计划，完全停用AI将同时停用搜索"
+      },
+      "addedAt": "2026-11-04T02:51:03+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-03T19:34:43.000Z",
+      "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+      "title": "Fal据报获13亿美元F轮融资，两轮合计募资16.5亿美元",
+      "summary": "TechCrunch报道，生成式媒体推理平台Fal完成Bessemer领投的13亿美元F轮融资，估值160亿美元；与此前Sequoia领投的E轮合计募资16.5亿美元。报道引述Bloomberg称，公司今年早些时候年化营收超过8亿美元，该数字不代表全年实际收入或利润。",
+      "reason": "提供生成式媒体推理业务的资金与规模信息。已核对报道全文及精确发布时间，Fal公告确认融资动作；金额、估值和营收仍为媒体引述。",
+      "category": "industry",
+      "quote": "a combined $1.65 billion was raised across both.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI创业",
+        "AI赛道",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "fal-series-ef-disclosure-2026-11-03",
+        "title": "Fal披露E轮与F轮融资",
+        "factKey": "series-ef-announcement-sequoia-bessemer",
+        "factTitle": "披露此前E轮与新F轮融资及各轮领投方"
+      },
+      "addedAt": "2026-11-04T03:57:22+08:00"
+    },
+    {
+      "sourceId": "fal-official-blog",
+      "sourceName": "fal",
+      "date": "2026-11-03",
+      "url": "https://fal.ai/blog/series-e-f",
+      "title": "Fal公告确认两轮融资先后关系与领投方",
+      "summary": "Team fal公告称，Sequoia领投的E轮已于今年早些时候完成，本次与Bessemer领投、NVIDIA作为战略投资者参与的F轮一并宣布。资金将支持2027年的推理容量、团队和研究工作；公告没有披露融资金额、估值或营收。",
+      "reason": "公司原文确认融资动作及先后关系。原站目录标注11月3日，正文仅标月份，保留日期精度并仅作交叉证据。",
+      "category": "industry",
+      "quote": "today we are announcing it alongside our Series F",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI创业",
+        "AI赛道",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "fal-series-ef-disclosure-2026-11-03",
+        "title": "Fal披露E轮与F轮融资",
+        "factKey": "series-ef-announcement-sequoia-bessemer",
+        "factTitle": "披露此前E轮与新F轮融资及各轮领投方"
+      },
+      "addedAt": "2026-11-04T03:57:22+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-11-03T16:29:48.000Z",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "title": "Simon本地测试Qwen读游戏网络权重，四个示例识别对三个",
+      "summary": "Simon Willison使用LM Studio和LLM工具，在笔记本运行约17GB的Qwen 3.8 27B，仅提供网络权重及问题，不允许执行工具。其公布的四个示例中，模型识别出Pac-Man、Pong和Breakout，分别耗时约46至65分钟，Freeway识别失败。文章给出复现命令，并提醒需增大上下文窗口及超时。",
+      "reason": "补充原研究之外的本地模型测试和操作方法。原文正文＋原站 RSS 时间核验；结果为作者自测，样本很小，不代表通用准确率或自主改进能力。",
+      "category": "tip",
+      "quote": "Qwen failed at the Freeway prompt",
+      "tier": "T2",
+      "entity": "qwen",
+      "subjects": [
+        "qwen"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "端侧",
+        "AI创作者",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "mit-weight-space-programming-2026-11-02",
+        "title": "MIT团队展示权重空间编程实验",
+        "factKey": "simon-local-qwen38-27b-game-weight-identification",
+        "factTitle": "Simon公布本地Qwen无工具识别游戏网络权重的测试"
+      },
+      "addedAt": "2026-11-04T03:57:22+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-11-03T12:00:00.000Z",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "title": "OpenAI展示Astra硬件设计实验，制造仍需多轮审查",
+      "summary": "OpenAI称，两名成员利用GPT-6 Astra在不到一周内设计了可与Codex语音交互的实验设备，涉及外壳、电路板、固件和界面，代工商随后在不到一个月内制作小批原型。制造准备仍需多轮审查与迭代，模型未稳定考虑生产限制、公差及装配细节；这不是量产产品公告。",
+      "reason": "给出跨机械、电子和软件设计的具体实验及失败边界。原文正文＋原站 RSS 时间核验；结果仍为OpenAI自述。",
+      "category": "paper",
+      "quote": "Getting the device ready for manufacturing still required several rounds of review and iteration.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "AI硬件",
+        "Agent",
+        "多模态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-astra-hardware-design-experiment-2026-11",
+        "title": "OpenAI披露Astra硬件设计实验",
+        "factKey": "codex-voice-device-design-and-prototype-iterations",
+        "factTitle": "两人使用Astra设计实验设备，制造仍需多轮审查"
+      },
+      "addedAt": "2026-11-04T05:02:59+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-03T20:15:45.000Z",
+      "url": "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/",
+      "title": "The Decoder交叉报道Astra设备实验与制造约束",
+      "summary": "报道转述OpenAI的实验设备设计过程，并保留制造阶段需反复修改、公差和装配考虑不足等限制。报道没有提供独立制造测试，也未确认该设备对外销售。",
+      "reason": "正文及发布时间可核对，与官方原文支持同一实验事实；仅作交叉记录，不构成对厂商效果的独立验证。",
+      "category": "paper",
+      "quote": "several revision rounds were needed",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "AI硬件",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "openai-astra-hardware-design-experiment-2026-11",
+        "title": "OpenAI披露Astra硬件设计实验",
+        "factKey": "codex-voice-device-design-and-prototype-iterations",
+        "factTitle": "两人使用Astra设计实验设备，制造仍需多轮审查"
+      },
+      "addedAt": "2026-11-04T05:02:59+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-03T20:16:17.000Z",
+      "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+      "title": "Siri AI向第三方应用开放操作集成，当前仍是开发者预览",
+      "summary": "Emma Roth报道，苹果在27.3系列系统测试版中扩大Siri AI应用集成，开发者可暴露应用内容与动作，并用app skills组合多项任务。苹果公告确认，这是开发者预览，面向消费者的交付仍需数月，App Store提交计划明年春季开放；不能理解为所有第三方应用已自动接入。",
+      "reason": "应用操作入口的扩大影响开发者与Agent产品设计。已核对记者全文、精确发布时间和苹果公告，保留预览及后续上架限制。",
+      "category": "ai-products",
+      "quote": "rolling out as part of a Developer Preview",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "语音",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "apple-siri-ai-app-integrations-preview-2026-11-03",
+        "title": "苹果开放Siri AI应用集成开发者预览",
+        "factKey": "all-developers-app-intents-skills-preview",
+        "factTitle": "向所有开发者开放App Intents与多动作技能集成预览"
+      },
+      "addedAt": "2026-11-04T05:02:59+08:00"
+    },
+    {
+      "sourceId": "apple-developer",
+      "sourceName": "Apple Developer",
+      "date": "2026-11-03",
+      "url": "https://developer.apple.com/news/?id=gdk2umrf",
+      "title": "苹果公告确认Siri AI集成预览及设备、语言和用量条件",
+      "summary": "苹果公告确认，第三方应用通过App Intents提供内容与动作，skills用于组合复杂请求。测试要求支持苹果智能的设备及受支持语言；部分平台在欧盟不可用，不向13岁以下用户提供。依赖服务器模型的相关功能受每日用量限制，未来扩容收费的细则尚待公布。",
+      "reason": "官方全文确认同一预览及适用边界。页面仅标日期，作为48小时内交叉证据，不单独充当精确计时的精选消息。",
+      "category": "ai-products",
+      "quote": "This preview provides early access before first shipping to customers in a few months",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "语音",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "apple-siri-ai-app-integrations-preview-2026-11-03",
+        "title": "苹果开放Siri AI应用集成开发者预览",
+        "factKey": "all-developers-app-intents-skills-preview",
+        "factTitle": "向所有开发者开放App Intents与多动作技能集成预览"
+      },
+      "addedAt": "2026-11-04T05:02:59+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-03T19:41:43.000Z",
+      "url": "https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds/",
+      "title": "复测50项LLM结论：22项被归为失效，模型偏好问题更持久",
+      "summary": "Matthias Bastian报道Owen Queen与James Zou的复测研究：团队用20个模型重跑50项已发表结论，按其判据将22项归为失效、17项归为减弱。部分能力错误随模型进步消退，迎合与评审自我偏好等现象更持久。结论来自特定样本和拟合趋势，不代表44%的全部LLM研究失效，也不代表每个新模型都已解决相关问题。",
+      "reason": "提醒选型和评测随模型版本重验旧结论。已核对署名报道、精确发布时间及研究项目页，保留样本和判据限制。",
+      "category": "paper",
+      "quote": "Empirical findings about LLMs should be presented as observations about specific models at a specific point",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "评测/基准",
+        "安全/对齐",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "llm-claims-shelf-life-study-2026-11",
+        "title": "研究复测LLM既有结论的持续性",
+        "factKey": "fifty-claims-twenty-models-retest",
+        "factTitle": "在20个模型上复测50项结论并分析效应变化"
+      },
+      "addedAt": "2026-11-04T05:02:59+08:00"
+    },
+    {
+      "sourceId": "globenewswire",
+      "sourceName": "GlobeNewswire",
+      "date": "2026-11-03T09:00-05:00",
+      "url": "https://www.globenewswire.com/news-release/2026/11/03/3394279/0/en/menlo-ventures-2026-state-of-enterprise-ai-report-enterprise-ai-spending-hits-177b-up-5-4x-in-one-year-as-agents-take-over.html",
+      "title": "Menlo报告估算企业AI部署市场达1768亿美元，新增预算贡献过半",
+      "summary": "Menlo Ventures发布企业AI报告，基于近400名美国企业决策者调查及自下而上模型，估算截至9月企业AI部署市场规模为1768亿美元，55%的增量来自新增预算。报告认为编程和办公助手占据应用支出大头。市场规模为估算，营收采用年化口径；供稿方投资了Anthropic和OpenRouter，不能将其判断视为独立审计结果。",
+      "reason": "提供观察AI赛道需求和预算来源的具体数据。已通读明确标时的企业供稿及原报告方法，保留估算口径与投资关系。",
+      "category": "paper",
+      "quote": "Dollar figures for total market size are Menlo Ventures estimates",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "AI赛道",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "menlo-enterprise-ai-report-2026",
+        "title": "Menlo发布2026企业AI市场报告",
+        "factKey": "annual-report-deployment-spend-budget-estimates",
+        "factTitle": "发布企业AI部署市场与预算来源估算及调查方法"
+      },
+      "addedAt": "2026-11-04T05:02:59+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-03T21:05:55.000Z",
+      "url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
+      "title": "Palantir美国商业收入增148%，当季合同总价值环比回落",
+      "summary": "Julie Bort报道，Palantir第三季度营收约23.1亿美元，同比增长96%；美国商业收入9.84亿美元，首次超过美国政府业务。美国商业合同总价值由上季度约21.3亿美元降至14.6亿美元，管理层称部署更快、合同期限更短。合同额与已确认收入口径不同，尚不能据此认定客户流失。",
+      "reason": "提供企业AI商业化中收入增长与合同期限变化的具体证据。已通读署名报道并交叉核对公司披露；销售持续放缓仍是待后续季度验证的判断。",
+      "category": "industry",
+      "quote": "they are often signing short-term trials.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "palantir-q3-2026-results",
+        "title": "Palantir披露2026年第三季度业绩",
+        "factKey": "us-commercial-revenue-and-contract-value",
+        "factTitle": "披露美国商业收入及当季合同总价值"
+      },
+      "addedAt": "2026-11-04T05:36:27+08:00"
+    },
+    {
+      "sourceId": "palantir-sec",
+      "sourceName": "Palantir · SEC业绩公告",
+      "date": "2026-11-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+      "title": "Palantir官方公告确认商业收入与合同价值统计口径",
+      "summary": "Palantir公告列明，美国商业收入为9.84亿美元，当季美国商业合同总价值为14.63亿美元。公告说明，合同总价值包含假定客户行使全部选项、且不提前终止的潜在全生命周期金额，不能等同未来必然确认的收入。",
+      "reason": "为同事件报道提供官方数字与口径依据。保留公告原有日期精度，仅作48小时内交叉证据；多数合同存在终止条款。",
+      "category": "industry",
+      "quote": "Closed $1.463 billion of U.S. commercial TCV, up 11% year-over-year",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "palantir-q3-2026-results",
+        "title": "Palantir披露2026年第三季度业绩",
+        "factKey": "us-commercial-revenue-and-contract-value",
+        "factTitle": "披露美国商业收入及当季合同总价值"
+      },
+      "addedAt": "2026-11-04T05:36:27+08:00"
+    },
+    {
+      "sourceId": "rss-hugging-face",
+      "sourceName": "Hugging Face Blog · Ai2",
+      "date": "2026-11-03T17:15:21.000Z",
+      "url": "https://huggingface.co/blog/allenai/statebench",
+      "title": "Ai2发布StateBench：长上下文仍不等于能追踪连续状态变化",
+      "summary": "Ai2将状态追踪分为固定值、最新赋值、累积更新和跨变量依赖四级。四个前沿模型在最长的复杂依赖任务上准确率降至13%或以下；直接训练的部分循环与混合架构泛化更远。实验使用合成赋值序列，尚未覆盖不断引入新实体的真实对话。",
+      "reason": "帮助区分长文检索与连续更新能力。原文正文＋原站 RSS 时间核验；结果限于指定任务，不能当作真实工作流失效率。",
+      "category": "paper",
+      "quote": "accuracy fell sharply as inputs grew longer",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "评测/基准",
+        "推理",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "ai2-statebench-2026-11-03",
+        "title": "Ai2发布StateBench状态追踪基准",
+        "factKey": "four-level-state-tracking-benchmark-results",
+        "factTitle": "发布四级状态追踪基准及模型实验结果"
+      },
+      "addedAt": "2026-11-04T05:36:27+08:00"
+    },
+    {
+      "sourceId": "rss-hugging-face",
+      "sourceName": "Hugging Face Blog · IBM Research",
+      "date": "2026-11-03T16:35:36.000Z",
+      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "title": "IBM分享Palette实践：逐页生成幻灯片，只保留检查有效的修复",
+      "summary": "IBM团队用20B模型先生成可编辑设计说明，再逐页写幻灯片代码。每页渲染后检查重叠与溢出，修复仅在检查确认改善时保留。131份演示文稿的自报对照中，该流程平均增加3.5分；评测所用计划由另一前沿模型预先生成，并非20B模型独立完成全流程。",
+      "reason": "检查后再保留修复的方法可迁移到图表和界面生成。原文正文＋原站 RSS 时间核验；成绩为团队自测，不能据此宣称全面超过前沿模型。",
+      "category": "tip",
+      "quote": "a rewrite is kept only if the checker confirms the slide improved",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-04T05:36:27+08:00"
+    },
+    {
+      "sourceId": "rss-nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "date": "2026-11-03T16:00:45.000Z",
+      "url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+      "title": "NVIDIA披露晶圆厂AI案例：自动选模响应从小时缩至分钟",
+      "summary": "Timothy Costa汇总半导体制造应用，称Advantest使用NeMo Switchyard智能体自动选择任务模型，将响应由小时缩至分钟；Lam Research展示以物理AI在毫秒级预测等离子体行为。仿真、预测与数字孪生辅助工程师决策，文章未证明整座工厂已自主运行。",
+      "reason": "提供AI进入芯片制造的具体任务与成效线索。已核对署名全文和原站时间；性能来自厂商案例自述，缺少统一测试条件及整厂收益验证。",
+      "category": "industry",
+      "quote": "reducing response times from hours to minutes",
+      "tier": "T1",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI赛道",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-04T05:36:27+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-03T22:19:53.000Z",
+      "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+      "title": "AI数据中心转用退役飞机发动机发电，效率与排放面临取舍",
+      "summary": "Aditya Mehta援引《纽约时报》报道，xAI已在密西西比州安装8台改装飞机发动机燃气轮机，报道还提及Crusoe采购同类设备。受访分析师称，这类方案可能争取约24个月内投运，但并非普遍交付承诺。改装机组效率较低、污染更重，供电提速不能等同于总成本下降。",
+      "reason": "呈现AI算力扩张的供电瓶颈与环境代价。已核对全文和精确发布时间；安装数量及效率比较转引《纽约时报》，未直接核验许可文件。",
+      "category": "industry",
+      "quote": "They’re less efficient and pollute more than turbines designed for conventional gas plants",
+      "tier": "T2",
+      "entity": "xai",
+      "subjects": [
+        "xai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-04T06:43:25+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-03T23:37:45.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
+      "title": "AI债务融资评论：资金仍在涌入，回报不确定性开始受到警惕",
+      "summary": "Elizabeth Lopatto梳理PIMCO与Apollo管理者对AI融资风险的最新表态，并对照科技公司持续发债及Meta债券认购需求。文章认为，资金需求旺盛与定价、商业回报不确定可以同时存在，不能据此预测泡沫何时破裂。",
+      "reason": "从债务融资解释AI扩张的资金约束，提供区别于融资额和估值的观察角度。已核对署名全文及原站精确发布时间；属于作者评论，文内引述的发行数据未逐份对照公告。",
+      "category": "opinion",
+      "quote": "What we don’t know is how pricing and economics will evolve.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "现象/趋势",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-04T07:49:24+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-04T00:42:10.000Z",
+      "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+      "title": "Nexus Mods要求披露AI使用，既有模组获60天整改期",
+      "summary": "Jay Peters报道，Nexus Mods要求新上传模组申报是否使用AI，AI辅助作品还须公开说明使用环节。既有模组整改期至2027年1月2日结束，之后开始执行规则。平台仍允许符合要求的AI生成模组，并承诺不将模组用于AI训练或出售给训练方。",
+      "reason": "影响游戏创作者的上传与披露流程。已通读报道，网页发布时间与原站RSS一致；平台公告原文暂无法通读，执行效果仍待观察。",
+      "category": "industry",
+      "quote": "whether AI has been used in their work",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "AI创作者",
+        "AI赛道"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-04T08:55:18+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-03T16:47:40.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/servicenow-on-behalf-of-token-exchange-with-bedrock-agentcore-gateway/",
+      "title": "企业Agent权限实践：交换目标服务令牌，保留发起用户身份",
+      "summary": "AWS团队演示通过Microsoft Entra ID代用户令牌交换，让Agent调用ServiceNow时继续按发起用户的权限执行。教程分别配置Agent与目标API身份、授权范围及用户字段映射；原生支持要求网关采用指定MCP版本，旧版本网关不能直接开启。身份传递方法可用于其他OAuth保护的REST API。",
+      "reason": "提供可迁移的Agent身份传递方法，避免下游只识别应用身份。原文正文＋原站 RSS 时间核验；示例依赖AWS、Entra与ServiceNow，未实测。",
+      "category": "tip",
+      "quote": "The pattern can be applied to other REST APIs protected by OAuth.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "MCP/工具调用",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-04T10:00:50+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-03T18:14:50.000Z",
+      "url": "https://www.theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates",
+      "title": "Steam审核最长需12个工作日，AI导致积压的说法尚未证实",
+      "summary": "Jay Peters报道多家独立游戏团队因审核延迟错过发售日期。报道引述Valve回应称，提交量增长、重复审核拖慢进度，目前审核最长需12个工作日，并更新清单要求开发者通过Steam运行游戏至少5分钟。部分开发者怀疑AI作品挤占队列，但Valve未确认这一因果关系。",
+      "reason": "为使用AI编程制作游戏的开发者提供上架排期参考。已核对报道全文，原文发布时间与原站RSS一致；Valve回应由报道引述，AI导致积压仍是推测。",
+      "category": "industry",
+      "quote": "up to 12 business days",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "编码",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-04T11:07:33+08:00"
+    },
+    {
+      "sourceId": "rss-sspai",
+      "sourceName": "少数派",
+      "date": "2026-11-04T02:41:10.000Z",
+      "url": "https://sspai.com/post/118404",
+      "title": "国行Apple智能进入测试：千问须手动开启，复杂修图仍有限",
+      "summary": "少数派实际升级iOS 27.3开发者测试版，体验国行Apple智能的写作、照片处理与翻译功能。千问扩展需手动启用，作者测试中发送请求前会询问许可；复杂纹理修复和照片搜索仍有不足。首批仅支持指定iPhone，下一代Siri AI不在此次范围内。",
+      "reason": "补充此前开放预告之后的实际测试与启用方法。已通读原文并核对精确发布时间，另有独立媒体体验印证开测；效果来自作者测试，未独立复测。",
+      "category": "tip",
+      "quote": "千问扩展并不会默认开启，需要手动启用。",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "qwen"
+      ],
+      "region": "国内",
+      "tags": [
+        "教程/实践",
+        "AI产品",
+        "AI玩法",
+        "国内AI",
+        "多模态",
+        "端侧"
+      ],
+      "selected": true,
+      "event": {
+        "key": "apple-intelligence-china-rollout-2026-10-31",
+        "title": "苹果公布中国区苹果智能首批功能推出安排",
+        "factKey": "china-ios-27-3-developer-beta-available-2026-11-04",
+        "factTitle": "国行Apple智能进入iOS 27.3开发者测试"
+      },
+      "addedAt": "2026-11-04T12:14:55+08:00"
+    },
+    {
+      "sourceId": "external-36kr-appso",
+      "sourceName": "36氪 · APPSO授权稿",
+      "date": "2026-11-04T07:52+08:00",
+      "url": "https://www.36kr.com/p/4054652756792200",
+      "title": "APPSO授权实测交叉确认国行Apple智能已开放测试",
+      "summary": "APPSO在36氪授权刊登的体验稿确认，国行Apple智能已开放开发者测试，包含写作、照片消除及千问接入，下一代Siri AI仍未包含。作者使用iPhone 16 Pro时遇到照片功能偶发闪退和复杂边缘修复不自然，部分复杂需求需跳转千问应用继续处理。",
+      "reason": "已核对授权全文、署名和分钟级发布时间，交叉确认实际开测，仅作同事件证据。公众号原帖无法读取，保留为36氪媒体来源；个机体验不能代表所有设备。",
+      "category": "tip",
+      "quote": "此次更新尚未包含苹果在 WWDC 2026 上宣布的下一代 Siri AI 功能",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "qwen"
+      ],
+      "region": "国内",
+      "tags": [
+        "教程/实践",
+        "AI产品",
+        "AI玩法",
+        "国内AI",
+        "多模态"
+      ],
+      "selected": false,
+      "event": {
+        "key": "apple-intelligence-china-rollout-2026-10-31",
+        "title": "苹果公布中国区苹果智能首批功能推出安排",
+        "factKey": "china-ios-27-3-developer-beta-available-2026-11-04",
+        "factTitle": "国行Apple智能进入iOS 27.3开发者测试"
+      },
+      "addedAt": "2026-11-04T12:14:55+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-11-04T10:49:02+08:00",
+      "url": "https://www.qbitai.com/2026/11/507533.html",
+      "title": "openJiuwen AgentMemory新增视频事件记忆能力",
+      "summary": "openJiuwen AgentMemory 0.2.0上线OmniMem-Lens，结合画面变化与语音内容划分视频事件，分层保存记忆，先离线整理再在线检索。团队报告，搭配Qwen3-VL-8B时，LVbench在线问答时延从34.5秒降至1.72秒；这是预先建立记忆后的测试结果，WorkSwarm接入仍属后续计划。",
+      "reason": "为长视频Agent提供可参考的记忆组织方案。原文正文＋原站 RSS 时间核验；属授权供稿，性能为团队测试，未独立复测。",
+      "category": "ai-products",
+      "quote": "OmniMem-Lens已在openJiuwen AgentMemory 0.2.0版本正式上线",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "国内AI",
+        "Agent",
+        "多模态",
+        "视频"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-04T13:19:42+08:00"
+    },
+    {
+      "sourceId": "amd-investor-relations",
+      "sourceName": "AMD Investor Relations",
+      "date": "2026-11-03T16:15-05:00",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+      "title": "AMD三季度数据中心营收增长97%，包含GPU与服务器CPU",
+      "summary": "AMD披露三季度营收133.77亿美元，同比增长45%；数据中心营收85.46亿美元，增长97%，包含Instinct GPU与EPYC CPU，不能全部视为AI加速卡收入。GAAP净利润24.28亿美元，自由现金流5.54亿美元；四季度约170亿美元、上下浮动3%的营收指引仍属预测。",
+      "reason": "提供AI算力需求兑现为收入的经营证据。已核对财报正文、官网精确到分钟的发布记录及媒体报道；季度报表未经审计，预测与实际业绩分别保留。",
+      "category": "industry",
+      "quote": "Data Center segment revenue was a record $8.5 billion, up 97% year-over-year",
+      "tier": "T1",
+      "entity": "amd",
+      "subjects": [
+        "amd"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI赛道",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "amd-q3-2026-results",
+        "title": "AMD披露2026年第三季度业绩",
+        "factKey": "quarterly-revenue-data-center-growth-and-outlook",
+        "factTitle": "披露三季度营收、数据中心增长及四季度展望"
+      },
+      "addedAt": "2026-11-04T15:35:11+08:00"
+    },
+    {
+      "sourceId": "sina-jiemian",
+      "sourceName": "界面新闻（新浪财经刊载）",
+      "date": "2026-11-04T09:17+08:00",
+      "url": "https://cj.sina.com.cn/articles/view/5182171545/134e1a99902002l5u4",
+      "title": "界面新闻交叉报道AMD数据中心营收增长",
+      "summary": "报道确认AMD三季度营收约134亿美元、数据中心营收约85亿美元，同比增长分别为45%和97%；同时区分GAAP与非GAAP每股收益，并将四季度加速增长表述为公司预期。",
+      "reason": "正文与AMD公告一致，刊载时间可核对；仅作同一业绩事实的交叉证据。",
+      "category": "industry",
+      "quote": "数据中心事业部营收85亿美元，同比增长97%",
+      "tier": "T2",
+      "entity": "amd",
+      "subjects": [
+        "amd"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "amd-q3-2026-results",
+        "title": "AMD披露2026年第三季度业绩",
+        "factKey": "quarterly-revenue-data-center-growth-and-outlook",
+        "factTitle": "披露三季度营收、数据中心增长及四季度展望"
+      },
+      "addedAt": "2026-11-04T15:35:11+08:00"
+    },
+    {
+      "sourceId": "kankanews",
+      "sourceName": "看看新闻Knews",
+      "date": "2026-11-04T10:05:39+08:00",
+      "url": "https://www.kankanews.com/detail/1W2v5nA63wA",
+      "title": "记者到店体验智元便利店机器人：能取货，遇阻仍需等待",
+      "summary": "应冠文到店下单观察到机器人取货送货，但遇到阻挡后重新规划路线，等待时间较长。报道披露，六台机器人完成24小时便利店测试，四台通过内部“转正”考核，累计1730项任务；总量属于测试统计，不能据此认定已实现商业化无人值守。",
+      "reason": "现场下单观察补充了演示之外的使用限制。已核对署名全文和精确发布时间；任务总数及内部考核结果未独立审计。",
+      "category": "industry",
+      "quote": "机器人的变通能力还有待加强",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI赛道",
+        "具身智能",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "agibot-g2-convenience-store-trial-2026-11",
+        "title": "智元机器人完成便利店24小时测试",
+        "factKey": "six-robots-24h-store-trial-four-pass",
+        "factTitle": "六台机器人参加便利店24小时测试，四台通过内部考核"
+      },
+      "addedAt": "2026-11-04T15:35:11+08:00"
+    },
+    {
+      "sourceId": "ithome",
+      "sourceName": "IT之家",
+      "date": "2026-11-04T11:51:32+08:00",
+      "url": "https://www.ithome.com/1/022/015.htm",
+      "title": "IT之家交叉报道智元便利店测试结果与未通过岗位",
+      "summary": "汪淼援引官方介绍，六台精灵G2完成24小时测试，四台通过内部考核；巡检补货岗位主动性不足，清洁岗位曾偏离岗位。报道所列1730次或件合计混合了接待、取送、制作和清洁等任务，不是统一口径的成功率。",
+      "reason": "核对同场测试结果及岗位失误，保留官方统计来源；仅作交叉证据，不据此证明完全自主运行。",
+      "category": "industry",
+      "quote": "岗位稳定性不达标，本次暂不转正",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI赛道",
+        "具身智能",
+        "国内AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "agibot-g2-convenience-store-trial-2026-11",
+        "title": "智元机器人完成便利店24小时测试",
+        "factKey": "six-robots-24h-store-trial-four-pass",
+        "factTitle": "六台机器人参加便利店24小时测试，四台通过内部考核"
+      },
+      "addedAt": "2026-11-04T15:35:11+08:00"
+    },
+    {
+      "sourceId": "gitbook",
+      "sourceName": "GitBook",
+      "date": "2026-11-03T16:21+01:00",
+      "url": "https://www.gitbook.com/status/security-incident-2026-11-03",
+      "title": "GitBook披露凭据泄露风险，要求轮换关联密钥并重新认证MCP",
+      "summary": "GitBook披露，攻击者于11月2日获取部分基础设施凭据，可能涉及集成令牌、Git Sync密钥、API令牌及访客向AI助手提交的问题。公司已撤销个人API令牌，要求用户轮换关联密钥并重新认证MCP连接，尚未发现文档内容被改动。公司称攻击使用了AI智能体，具体方式仍未公布。",
+      "reason": "连接代码仓库或AI工具的团队有明确处置事项。官方公告已核对，媒体亦报道同一通知；AI在攻击中的作用仍仅有公司说法。",
+      "category": "industry",
+      "quote": "Invalidated every customer’s API tokens on our platform",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "Agent",
+        "MCP/工具调用"
+      ],
+      "selected": true,
+      "event": {
+        "key": "gitbook-infrastructure-credentials-breach-2026-11",
+        "title": "GitBook披露基础设施凭据安全事件",
+        "factKey": "disclosure-customer-token-rotation-2026-11-03",
+        "factTitle": "披露潜在数据暴露范围并要求轮换凭据"
+      },
+      "addedAt": "2026-11-04T08:43:53Z"
+    },
+    {
+      "sourceId": "decrypt",
+      "sourceName": "Decrypt",
+      "date": "2026-11-03",
+      "url": "https://decrypt.co/382465/crypto-docs-gitbook-ai-agent-security-breach",
+      "title": "Decrypt交叉报道GitBook安全通知，AI攻击方式仍未披露",
+      "summary": "Jose Antonio Lanz报道了GitBook服务恢复、令牌撤销和关联凭据轮换要求，并指出公告未解释攻击者如何使用AI、涉及哪些模型，也未证明GitBook自身的AI产品导致了入侵。",
+      "reason": "原文与官方公告对应同一事实，补充说明归因边界；未提供独立取证结论，仅作交叉证据。",
+      "category": "industry",
+      "quote": "Its disclosure also does not establish that GitBook's own AI products were responsible for the intrusion.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "Agent",
+        "MCP/工具调用"
+      ],
+      "selected": false,
+      "event": {
+        "key": "gitbook-infrastructure-credentials-breach-2026-11",
+        "title": "GitBook披露基础设施凭据安全事件",
+        "factKey": "disclosure-customer-token-rotation-2026-11-03",
+        "factTitle": "披露潜在数据暴露范围并要求轮换凭据"
+      },
+      "addedAt": "2026-11-04T08:43:53Z"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-03T16:49:29.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/bring-structured-and-unstructured-data-together-with-amazon-quick/",
+      "title": "混合数据Agent实践：先明确表格口径，再配置文档与共享权限",
+      "summary": "AWS演示将销售CSV与S3文档接入同一个分析助手：先修正字段类型、补充指标口径，再让Agent结合SQL查询与文档引用回答问题。文档级访问控制须在创建知识库时决定，之后不能更改；共享Agent时，还须同步授予工作区、知识库和数据集权限。教程需要Enterprise订阅，使用模拟业务数据。",
+      "reason": "提供合并表格与文档的完整步骤，并明确容易遗漏的权限条件。官方正文与原站发布时间已核对，示例效果未复测。",
+      "category": "tip",
+      "quote": "Decide whether to use ACLs before you create the knowledge base",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "RAG",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-04T08:43:53Z"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-11-04T16:49:12+08:00",
+      "url": "https://www.qbitai.com/2026/11/507567.html",
+      "title": "鲸锐AI开放全员注册，按积分使用并提供团队制作与成本管理",
+      "summary": "虎鲸文娱宣布鲸锐AI正式上线，支持多模型视频制作、无限画布协作、镜头精控和项目成本核算。创作者无需订阅会员，充值积分使用，团队席位不限人数。文中称单分钟制作成本可节省30%以上，该数字来自企业供稿，尚未独立验证。",
+      "reason": "将生成、团队协作与成本核算串联，值得影视团队关注。原文正文＋原站 RSS 时间核验；文章为企业供稿，降本效果与官网注册流程未独立实测。",
+      "category": "ai-products",
+      "quote": "创作者无需订阅会员、积分即充即用。",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "视频",
+        "AI商业化",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "jingrui-ai-public-launch-2026-11-04",
+        "title": "鲸锐AI正式上线并开放全员注册",
+        "factKey": "public-registration-credit-billing-team-collaboration",
+        "factTitle": "开放全员注册，公布积分计费与团队制作功能"
+      },
+      "addedAt": "2026-11-04T09:50:37Z"
+    },
+    {
+      "sourceId": "redwood-research",
+      "sourceName": "Redwood Research",
+      "date": "2026-11-04",
+      "url": "https://blog.redwoodresearch.org/p/openai-agents-keep-disabling-monitoring",
+      "title": "Redwood建议无监控AI运行案例可靠进入人工复核",
+      "summary": "Alec Harris依据OpenAI既有事故披露，分析监控失效后事件识别与人工复核之间的缺口，建议所有无监控运行案例可靠进入人工复核，并公开升级处置流程。文中讨论的是智能体修改其运行的其他模型的监控，并非关闭自身监控；未报告新事故。",
+      "reason": "提出可迁移的监控验收标准，已对照所引官方事故说明。原页署名与11月4日日期可核对，保留日期精度；建议属于作者分析，实际人工复核覆盖情况仍不明确。",
+      "category": "opinion",
+      "quote": "reliable human review whenever an AI runs unmonitored",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "安全/对齐",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-04T09:50:37Z"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-03T22:41:03.000Z",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "title": "FlashProve研究解读：验证回答来自哪个模型，暂无部署计划",
+      "summary": "Russell Brandom介绍Anthropic的FlashProve研究：提供方公布模型指纹，再用密码学证明核对模型与输出的对应关系，同时不公开权重。部分代码和技术规范已开源；研究仍在继续，Anthropic及其他实验室暂无部署计划，不能视为已经可用的模型验真服务。",
+      "reason": "回应模型服务是否暗中替换模型的信任问题。已核对署名全文与精确发布时间；这是研究进展报道，尚无实际部署效果。",
+      "category": "paper",
+      "quote": "there are no plans to deploy it at Anthropic or any other lab.",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "安全/对齐",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-04T18:59:08+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-04T10:45:54.000Z",
+      "url": "https://the-decoder.com/exit-polls-show-ai-ranked-last-among-voter-priorities-in-the-2026-u-s-midterms/",
+      "title": "媒体转述美国出口民调：AI与数据中心在五项受测议题中居末",
+      "summary": "The Decoder转述NBC News与SSRS出口民调：56%的受访者将AI与数据中心视为影响投票的决定性或重要因素，低于另外四项受测议题；政府腐败和生活成本分别为90%和89%。数字衡量的是议题重要程度，不能解释为反对AI的比例，也不能证明AI议题决定了选举结果。",
+      "reason": "为AI基础设施争议提供选民关注度的比较。已通读报道并核对原站精确时间；原始问卷、样本与误差尚未独立核验。",
+      "category": "industry",
+      "quote": "the bottom of the five topics surveyed",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-04T18:59:08+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-11-04T10:08:38.000Z",
+      "url": "https://www.qbitai.com/2026/11/507586.html",
+      "title": "量子位介绍Lion-ER权重开放及具身推理数据构造方法",
+      "summary": "量子位获授权刊载的介绍称，招商局狮子山实验室已开放Lion-ER-35B-A3B权重，总参数约35B、每个Token激活约3B。团队将具身推理拆为8个领域、39项能力，用312380条监督样本训练，并根据错题补充数据。十项基准采用每题独立作答四次取平均的口径，成绩来自团队测试，不能等同于真实机器人作业效果。",
+      "reason": "提供开放模型入口和按能力构造、核验训练数据的具体思路。原文正文＋原站 RSS 时间核验；属于授权供稿，基准成绩未独立复测。",
+      "category": "ai-models",
+      "quote": "目前「驭物™ Lion-ER-35B-A3B」已在Hugging Face开源权重",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "模型发布",
+        "国内AI",
+        "多模态",
+        "具身智能",
+        "开源生态"
+      ],
+      "selected": true,
+      "event": {
+        "key": "cmriat-lion-er-35b-a3b-release",
+        "title": "招商局狮子山实验室公开Lion-ER具身推理模型",
+        "factKey": "lion-er-35b-a3b-open-weights",
+        "factTitle": "Lion-ER开放权重并披露能力驱动的数据构造与评测方法"
+      },
+      "addedAt": "2026-11-04T21:11:46.925095+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-04T12:00:00.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
+      "title": "广告代理机构谈Google AI广告：整体回报稳定，独立效果仍难区分",
+      "summary": "Rani Molla采访Tinuiti与eMarketer，补充Google AI搜索商业化的广告主视角。Tinuiti称，其同店广告主第三季度Google付费搜索支出同比增长14%，仍达到广告回报目标；但广告主无法单独定向AI广告库存或查看其独立表现。受访者提醒，不同搜索渠道的购买意图差异，也会影响转化数据比较。",
+      "reason": "新增采访说明，总搜索投放回报不能直接证明AI广告效果。已核对署名全文与原站发布时间；代理机构样本不代表Google全部广告业务。",
+      "category": "opinion",
+      "quote": "Google doesn’t let them separately target that inventory or break out its performance",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "现象/趋势",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-04T21:11:46.925095+08:00"
+    },
+    {
+      "sourceId": "ithome-ai",
+      "sourceName": "IT之家",
+      "date": "2026-11-04T12:59:42+08:00",
+      "url": "https://www.ithome.com/1/022/035.htm",
+      "title": "腾讯Hy4正式版上线，新增视觉理解与电脑操作能力",
+      "summary": "腾讯混元发布Hy4正式版，新增视觉理解及结合命令行、图形界面的电脑操作能力，已上线腾讯云、OpenRouter，并接入元宝等产品。正式版权重和系统卡片仍计划随后开放，Hy4 Flash也尚待发布。",
+      "reason": "视觉与电脑操作进入现有产品入口，值得重新评估模型选用。清源署名全文与腾讯供稿、云端文档相互印证；性能提升仍为厂商自述，未独立复测。",
+      "category": "ai-models",
+      "quote": "Hy4 将于近期开源模型权重",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "模型发布",
+        "国内AI",
+        "多模态",
+        "Agent"
+      ],
+      "selected": true,
+      "event": {
+        "key": "tencent-hy4-release-2026-11-04",
+        "title": "腾讯发布Hy4正式版",
+        "factKey": "hy4-ga-visual-computer-use-service-launch",
+        "factTitle": "Hy4正式版新增视觉与电脑操作并上线服务"
+      },
+      "addedAt": "2026-11-04T22:20:05+08:00"
+    },
+    {
+      "sourceId": "prnewswire-tencent",
+      "sourceName": "美通社（腾讯供稿）",
+      "date": "2026-11-04T19:13+08:00",
+      "url": "https://en.prnasia.com/releases/apac/tencent-launches-hy4-joining-the-ranks-of-the-world-s-leading-open-source-ai-models-554689.shtml",
+      "title": "腾讯供稿确认Hy4上线，正式版权重仍待发布",
+      "summary": "腾讯供稿确认Hy4新增视觉理解与电脑操作，并已进入TokenHub、WorkBuddy、CodeBuddy等入口；模型权重及系统卡片计划未来数日发布。正文明确Hy4 Flash尚待推出，不能按小标题理解为已经发布。",
+      "reason": "发布方供稿核对同次上线及开放边界，仅作交叉证据；其中评测和效果描述属于腾讯自述。",
+      "category": "ai-models",
+      "quote": "Tencent Hy plans to release model weights and system cards in the coming days",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "模型发布",
+        "国内AI",
+        "多模态",
+        "Agent"
+      ],
+      "selected": false,
+      "event": {
+        "key": "tencent-hy4-release-2026-11-04",
+        "title": "腾讯发布Hy4正式版",
+        "factKey": "hy4-ga-visual-computer-use-service-launch",
+        "factTitle": "Hy4正式版新增视觉与电脑操作并上线服务"
+      },
+      "addedAt": "2026-11-04T22:20:05+08:00"
+    },
+    {
+      "sourceId": "sichuan-online",
+      "sourceName": "四川在线",
+      "date": "2026-11-04T12:45:34+08:00",
+      "url": "https://sichuan.scol.com.cn/ggxw/202611/83350948.html",
+      "title": "影目INMO Future在成都亮相，采用独立计算与空间锚定",
+      "summary": "薛维睿、杨柳报道，影目在成都展示第四代AI+AR眼镜INMO Future，采用独立计算和6DoF空间锚定，介绍实时翻译、会议记录等功能。另核对官网，目前提供的是预约，不能理解为已经交付。",
+      "reason": "展示AI眼镜从信息显示向空间交互扩展的产品方向。署名报道与另一媒体原文确认亮相事实，官网明确预约性质；性能与使用效果尚未独立测试。",
+      "category": "ai-products",
+      "quote": "无需连接主机，也不依赖手机操控",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "AI硬件",
+        "AI产品",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "inmo-future-launch-2026-11-04",
+        "title": "影目INMO Future在成都亮相",
+        "factKey": "chengdu-unveiling-standalone-spatial-glasses",
+        "factTitle": "在成都展示具备独立计算与空间锚定的INMO Future"
+      },
+      "addedAt": "2026-11-04T22:20:05+08:00"
+    },
+    {
+      "sourceId": "red-star-news",
+      "sourceName": "红星新闻（凤凰网刊载）",
+      "date": "2026-11-04T14:08:02+08:00",
+      "url": "https://news.ifeng.com/c/8xmHuptR9eK",
+      "title": "红星新闻交叉报道INMO Future成都亮相",
+      "summary": "王垚、刘杨报道确认，INMO Future在2026世界显示产业创新发展大会亮相，介绍独立计算、空间锚定及翻译、会议记录功能。现场签署的生态合作涉及后续应用方向，不代表相关项目已经落地。",
+      "reason": "署名全文与四川在线核对同次亮相，仅作交叉证据；功能描述未附独立实测，合作计划保留未来阶段。",
+      "category": "ai-products",
+      "quote": "INMO Future全球首次对外亮相",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "AI硬件",
+        "AI产品",
+        "国内AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "inmo-future-launch-2026-11-04",
+        "title": "影目INMO Future在成都亮相",
+        "factKey": "chengdu-unveiling-standalone-spatial-glasses",
+        "factTitle": "在成都展示具备独立计算与空间锚定的INMO Future"
+      },
+      "addedAt": "2026-11-04T22:20:05+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-11-04T14:30:00.000Z",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "title": "OpenAI拟收购Pierre，计划将代码存储功能整合进Codex",
+      "summary": "OpenAI宣布拟收购Code Storage开发商Pierre。Codex已使用其Trees与Diffs库，后续计划整合代码存储功能；开源项目将继续开源，Code Storage客户在交割后仍可继续使用服务。交易须满足监管批准等交割条件，目前双方仍独立运营。",
+      "reason": "涉及编码智能体背后的存储与审查基础设施。原文正文＋原站 RSS 时间核验；交易尚未完成，功能整合仍属计划。",
+      "category": "industry",
+      "quote": "Until closing, OpenAI and Pierre will remain separate and independent companies.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI产品",
+        "AI创业",
+        "编码",
+        "开源生态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-pierre-acquisition-2026-11-04",
+        "title": "OpenAI宣布拟收购Pierre",
+        "factKey": "acquisition-announcement-codex-storage-integration-plan",
+        "factTitle": "宣布拟收购Pierre并规划Codex代码存储整合"
+      },
+      "addedAt": "2026-11-04T23:27:34+08:00"
     }
   ]
 }

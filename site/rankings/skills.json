@@ -1,6 +1,6 @@
 {
   "kind": "skills",
-  "capturedAt": "2026-11-03T16:38:26.819Z",
+  "capturedAt": "2026-11-07T13:35:07.158Z",
   "sourceName": "skills.sh",
   "sourceUrl": "https://www.skills.sh/",
   "metric": "累计安装量",
@@ -25,20 +25,12 @@
       "rank": 3,
       "name": "hyperframes-cli",
       "owner": "heygen-com/hyperframes",
-      "value": 1400000,
-      "displayValue": "1.4M",
+      "value": 1500000,
+      "displayValue": "1.5M",
       "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-cli"
     },
     {
       "rank": 4,
-      "name": "hyperframes",
-      "owner": "heygen-com/hyperframes",
-      "value": 1400000,
-      "displayValue": "1.4M",
-      "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes"
-    },
-    {
-      "rank": 5,
       "name": "agent-browser",
       "owner": "vercel-labs/agent-browser",
       "value": 1400000,
@@ -46,15 +38,15 @@
       "url": "https://www.skills.sh/vercel-labs/agent-browser/agent-browser"
     },
     {
-      "rank": 6,
-      "name": "grill-with-docs",
-      "owner": "mattpocock/skills",
-      "value": 1300000,
-      "displayValue": "1.3M",
-      "url": "https://www.skills.sh/mattpocock/skills/grill-with-docs"
+      "rank": 5,
+      "name": "hyperframes",
+      "owner": "heygen-com/hyperframes",
+      "value": 1400000,
+      "displayValue": "1.4M",
+      "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes"
     },
     {
-      "rank": 7,
+      "rank": 6,
       "name": "media-use",
       "owner": "heygen-com/hyperframes",
       "value": 1300000,
@@ -62,15 +54,31 @@
       "url": "https://www.skills.sh/heygen-com/hyperframes/media-use"
     },
     {
+      "rank": 7,
+      "name": "grill-with-docs",
+      "owner": "mattpocock/skills",
+      "value": 1300000,
+      "displayValue": "1.3M",
+      "url": "https://www.skills.sh/mattpocock/skills/grill-with-docs"
+    },
+    {
       "rank": 8,
       "name": "reddit-automation",
       "owner": "flowkit-labs/skills",
-      "value": 1200000,
-      "displayValue": "1.2M",
+      "value": 1300000,
+      "displayValue": "1.3M",
       "url": "https://www.skills.sh/flowkit-labs/skills/reddit-automation"
     },
     {
       "rank": 9,
+      "name": "design-mobile-apps",
+      "owner": "designed-by-ai/skills",
+      "value": 1300000,
+      "displayValue": "1.3M",
+      "url": "https://www.skills.sh/designed-by-ai/skills/design-mobile-apps"
+    },
+    {
+      "rank": 10,
       "name": "improve-codebase-architecture",
       "owner": "mattpocock/skills",
       "value": 1200000,
@@ -78,28 +86,20 @@
       "url": "https://www.skills.sh/mattpocock/skills/improve-codebase-architecture"
     },
     {
-      "rank": 10,
-      "name": "design-mobile-apps",
-      "owner": "designed-by-ai/skills",
-      "value": 1200000,
-      "displayValue": "1.2M",
-      "url": "https://www.skills.sh/designed-by-ai/skills/design-mobile-apps"
-    },
-    {
       "rank": 11,
-      "name": "tdd",
-      "owner": "mattpocock/skills",
-      "value": 1200000,
-      "displayValue": "1.2M",
-      "url": "https://www.skills.sh/mattpocock/skills/tdd"
-    },
-    {
-      "rank": 12,
       "name": "hyperframes-registry",
       "owner": "heygen-com/hyperframes",
       "value": 1200000,
       "displayValue": "1.2M",
       "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-registry"
+    },
+    {
+      "rank": 12,
+      "name": "tdd",
+      "owner": "mattpocock/skills",
+      "value": 1200000,
+      "displayValue": "1.2M",
+      "url": "https://www.skills.sh/mattpocock/skills/tdd"
     },
     {
       "rank": 13,
@@ -129,12 +129,20 @@
       "rank": 16,
       "name": "grilling",
       "owner": "mattpocock/skills",
-      "value": 1000000,
-      "displayValue": "1.0M",
+      "value": 1100000,
+      "displayValue": "1.1M",
       "url": "https://www.skills.sh/mattpocock/skills/grilling"
     },
     {
       "rank": 17,
+      "name": "prototype",
+      "owner": "mattpocock/skills",
+      "value": 1100000,
+      "displayValue": "1.1M",
+      "url": "https://www.skills.sh/mattpocock/skills/prototype"
+    },
+    {
+      "rank": 18,
       "name": "triage",
       "owner": "mattpocock/skills",
       "value": 1000000,
@@ -142,28 +150,20 @@
       "url": "https://www.skills.sh/mattpocock/skills/triage"
     },
     {
-      "rank": 18,
-      "name": "prototype",
-      "owner": "mattpocock/skills",
+      "rank": 19,
+      "name": "ui-taste",
+      "owner": "uizze.sh",
       "value": 1000000,
       "displayValue": "1.0M",
-      "url": "https://www.skills.sh/mattpocock/skills/prototype"
+      "url": "https://www.skills.sh/site/uizze.sh/ui-taste"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "name": "hyperframes-animation",
       "owner": "heygen-com/hyperframes",
       "value": 1000000,
       "displayValue": "1.0M",
       "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes-animation"
-    },
-    {
-      "rank": 20,
-      "name": "ui-taste",
-      "owner": "uizze.sh",
-      "value": 947300,
-      "displayValue": "947.3K",
-      "url": "https://www.skills.sh/site/uizze.sh/ui-taste"
     }
   ]
 }

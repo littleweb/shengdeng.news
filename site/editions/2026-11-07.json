@@ -1,0 +1,1152 @@
+{
+  "date": "2026-11-07",
+  "researchedAt": "2026-11-07T13:34:08Z",
+  "items": [
+    {
+      "sourceId": "rss-hugging-face",
+      "sourceName": "Hugging Face Blog · Ai2",
+      "date": "2026-11-06T14:00:48.000Z",
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "title": "Ai2公开ToyBlocks框架，用受控积木任务检验机器人泛化",
+      "summary": "ToyBlocks公开仿真资产、演示生成器、模型及训练评测代码，首批包含85,336条长任务演示、约1,600小时数据。实机拼字测试在字母可见且正立的最简单设置中，30次成功15次；完整强化学习训练能力仍待后续加入。",
+      "reason": "方便区分规划与动作执行的失误。已读Ai2署名原文并对照官方仓库，原文正文＋原站 RSS 时间核验；实验结果仍属团队自报。",
+      "category": "ai-products",
+      "quote": "ToyBlocks connects data generation, training, and evaluation in one controlled setting",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "开源/仓库",
+        "AI产品",
+        "具身智能",
+        "数据/训练",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "allenai-toyblocks-framework-2026-11-06",
+        "title": "Ai2公开ToyBlocks机器人学习研究框架",
+        "factKey": "simulation-framework-data-models-public-release",
+        "factTitle": "公开受控积木仿真框架、首批数据与训练评测资源"
+      },
+      "addedAt": "2026-11-07T00:13:53+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-06T15:54:47.000Z",
+      "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "title": "Ramp经济学家谈AI支出：用量增加未必带来收入同步增长",
+      "summary": "TechCrunch采访Ramp首席经济学家Ara Kharazian：样本Token支出在8—9月仅增长1.5%，10月的月度比较则回升8.9%。他认为降价、预算控制及向便宜模型分流，使使用量与支出脱钩。这是对既有数据的解释，不能据此认定整个AI市场需求下降。",
+      "reason": "为模型采购预算和收入预期提供具体参照。已通读报道、核对原站发布时间并对照Ramp指数；Token数据只覆盖其支出管理产品用户，因果解释未独立验证。",
+      "category": "opinion",
+      "quote": "You can use more AI, but use it for less.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "openai",
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "现象/趋势",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-07T00:13:53+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-06T16:55:05.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore/",
+      "title": "Greenlight复盘安全Agent：九成案例自动分流，处置仍须明确授权",
+      "summary": "AWS原文披露，Greenlight的Luna每月处理约3000—4000宗安全与风险案例，通过分层调查、专用Agent和历史处置记忆，将自报自动解决率从83%提高至90%以上。这里的自动化主要涉及分流、调查和建议，实际处置由人工或预先批准的自动策略授权执行，复杂案例继续升级。",
+      "reason": "有明确处理量、人工基线和升级机制，值得参考其分流与处置分开的设计。原文与原站订阅时间一致；成效属于客户自报，未独立验证。",
+      "category": "tip",
+      "quote": "a human analyst or an approved automated policy authorizes and executes remediation.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI商业化",
+        "AI赛道",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-07T01:22:05+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-06T16:49:42.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/taxbit-assist-a-grounded-role-aware-ai-agent-on-amazon-bedrock-agentcore/",
+      "title": "Taxbit复盘知识助手：先清理语料，把用户身份绑定在代码中",
+      "summary": "Taxbit团队分享已上线助手的检索改进：排除营销页面，为文档切块补上标题与适用范围，并让已认证身份由调用服务传给工具，模型不能自行指定用户。一次检查发现约28%的切块可能因长度超限丢失尾部。当前助手不读取客户税务数据，只能修改调用者自己的支持工单；每次对话模型成本低于0.20美元为团队自报。",
+      "reason": "给出语料范围、切块截断和身份传递的具体问题与修正方法。原文及原站时间可核对；成本只含模型调用，效果未独立复测。",
+      "category": "tip",
+      "quote": "Bind identity in code from the first prototype.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "RAG",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-07T01:22:05+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-06T16:45:58.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/extend-claude-code-to-remote-sessions-on-amazon-bedrock-agentcore-with-security-controls/",
+      "title": "AWS演示远程编码任务：隔离运行，测试未通过则提交草稿PR",
+      "summary": "官方示例把Claude Code任务放入独立AgentCore会话，使用短期GitHub凭据，运行仓库自己的安装与测试命令，最多尝试三轮后提交PR，合并交给人。未通过验证的结果标为草稿。教程明确只适合可信仓库和范围清楚的任务；提示筛查不覆盖仓库内容带来的注入，部署闲置时仍收费，默认200美元月预算仅发送告警。",
+      "reason": "公开示例把任务隔离、验证证据、人工合并和费用边界说明清楚。原文与原站时间一致，仓库可公开访问；本轮未部署复测。",
+      "category": "tip",
+      "quote": "The agent never merges.",
+      "tier": "T1",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "编码",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-07T01:22:05+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-06T17:09:23.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/",
+      "title": "Agent权限实测提醒：停用用户登录，不一定撤销已有工具授权",
+      "summary": "AWS团队比较Okta跨应用授权与逐用户OAuth授权：其测试中，用户在Okta被停用后，已有GitHub授权配合尚有效的入口令牌仍可调用，须另行断开存储的授权。教程同时演示把凭据交换和默认拒绝策略集中到网关，并逐项核对允许、拒绝与审计记录。结果仅代表文中的配置，部分代码是概念示例。",
+      "reason": "揭示登录停用、令牌过期与下游授权撤销的不同边界，适合已有企业Agent的团队检查。已通读两篇系列原文并对照Okta说明，未独立复测。",
+      "category": "tip",
+      "quote": "The two lanes revoke differently.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "MCP/工具调用",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-07T01:22:05+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-06T16:34:39.000Z",
+      "url": "https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai",
+      "title": "inMusic进一步披露乐器改装工具规划，SDK与开放范围仍待交付",
+      "summary": "Terrence O’Brien采访inMusic CEO Jack O’Donnell，补充此前Akai改装演示之后的规划：向社区提供设备内部工具和SDK，并考虑通过恢复机制兼顾实验与舞台稳定性。公司还计划在NAMM设置Creator Lab，让开发者接触更多品牌设备。报道提及源码开放意向，但不能据此认定完整固件已经开源或全部设备都支持改装。",
+      "reason": "在历史演示之外补充了工具支持和更广设备规划，并有另一音乐媒体采访互证。新增内容仍是厂商计划，具体产品名单、许可与交付时间未明确。",
+      "category": "industry",
+      "quote": "We’re going to provide a toolbox to the community",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI玩法",
+        "编码",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "akai-sample-key-firmware-preview-2026-10",
+        "title": "Akai展示Sample Key及社区固件改装",
+        "factKey": "inmusic-expanded-modding-tools-creator-lab-plan-2026-11",
+        "factTitle": "inMusic披露扩大设备改装支持与Creator Lab规划"
+      },
+      "addedAt": "2026-11-07T01:22:05+08:00"
+    },
+    {
+      "sourceId": "web-cdm",
+      "sourceName": "CDM Create Digital Music",
+      "date": "2026-11-05",
+      "url": "https://cdm.link/inmusic-opens-up-for-namm/",
+      "title": "CDM采访交叉确认inMusic扩大改装规划，提醒开放不等于完整开源",
+      "summary": "Peter Kirn的原文采访同样说明，inMusic拟将社区改装支持扩展至更多设备，并在NAMM安排Creator Lab。作者明确区分可运行自定义代码与完整硬件、固件开源，指出展示设备仍是未出货原型，SDK细节还要等待。",
+      "reason": "另一位记者的采访支持同项扩展规划，并补充开放边界。原文只有日期，仅作近48小时交叉证据，不重复精选。",
+      "category": "industry",
+      "quote": "These will be pre-production prototypes",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI玩法",
+        "编码",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "akai-sample-key-firmware-preview-2026-10",
+        "title": "Akai展示Sample Key及社区固件改装",
+        "factKey": "inmusic-expanded-modding-tools-creator-lab-plan-2026-11",
+        "factTitle": "inMusic披露扩大设备改装支持与Creator Lab规划"
+      },
+      "addedAt": "2026-11-07T01:22:05+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-06T18:10:10.000Z",
+      "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "title": "Muse推出spaces，可用自然语言创建持续使用的看板与小游戏",
+      "summary": "Emma Roth报道，Muse新增spaces，可按描述生成购物中心、日程看板或小游戏，并放入侧栏、主标签页或按时间显示。连接相关应用后，空间可在后台更新信息。Meta确认功能覆盖Muse已开放的地区；分享与协作仍在探索。",
+      "reason": "将聊天生成结果变成可反复打开的交互空间。报道与Meta公告已互证开放范围，本轮未复测后台同步效果。",
+      "category": "ai-products",
+      "quote": "Meta is rolling out spaces to all Muse users",
+      "tier": "T2",
+      "entity": "meta",
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "海外AI",
+        "Meta"
+      ],
+      "selected": true,
+      "event": {
+        "key": "meta-muse-spaces-rollout-2026-11-06",
+        "title": "Meta为Muse推出spaces交互空间",
+        "factKey": "spaces-interactive-experiences-rollout",
+        "factTitle": "在Muse现有可用地区开放自定义交互空间"
+      },
+      "addedAt": "2026-11-07T02:31:28+08:00"
+    },
+    {
+      "sourceId": "meta-newsroom",
+      "sourceName": "Meta Newsroom",
+      "date": "2026-11-06",
+      "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
+      "title": "Meta官方确认spaces开放范围，分享协作仍在探索",
+      "summary": "Meta公告说明，用户可通过描述创建空间，持续调整内容、外观和行为，并安排其在应用中的位置与出现时间。连接应用后可后台更新信息；spaces在Muse现有可用地区开放，分享和协作尚未作为已交付能力公布。",
+      "reason": "官方原文交叉确认同次上线及适用范围，并明确协作功能仍属后续探索。",
+      "category": "ai-products",
+      "quote": "Starting today, spaces are available everywhere Muse is available.",
+      "tier": "T1",
+      "entity": "meta",
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "海外AI",
+        "Meta"
+      ],
+      "selected": false,
+      "event": {
+        "key": "meta-muse-spaces-rollout-2026-11-06",
+        "title": "Meta为Muse推出spaces交互空间",
+        "factKey": "spaces-interactive-experiences-rollout",
+        "factTitle": "在Muse现有可用地区开放自定义交互空间"
+      },
+      "addedAt": "2026-11-07T02:31:28+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-06T18:01:00.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/",
+      "title": "AWS测试GPU分区：成本优势随负载变化，仍按整机计费",
+      "summary": "AWS以相同Llama-3.1-8B模型比较H100的40GB分区与A100 40GB整卡。在其测试的足够并发条件下，按实例分摊估算的每百万输出Token成本低18%—34%；短输入或低并发时整卡更便宜。实际账单仍按完整实例计算，分区仅适用于支持Inference Components的实时端点。",
+      "reason": "提供按实际负载选择GPU容量的方法。已核对官方全文及精确发布时间；功能10月30日已公布，本次新增价值是测试与计费边界，结果未独立复测。",
+      "category": "tip",
+      "quote": "You’re billed for the full GPU instance",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI硬件",
+        "AI玩法",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-07T02:31:28+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-06T17:13:13.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/",
+      "title": "AWS分享数据湖MCP实践：用共享元数据接表，工具层限制只读查询",
+      "summary": "Amazon物流规划团队将表结构、字段解释和取值示例维护为JSON元数据，由共享MCP工具发现数据、生成只读SQL并集中记录调用，减少各Agent重复接表。新增数据集完成索引后可供客户端共用；更细的列级权限与查询失败反馈闭环仍在规划。",
+      "reason": "元数据与工具层分离的做法可迁移到其他数据助手。已核对官方全文及发布时间，未复测生产效果，也不能据只读SQL认定已实现完整租户隔离。",
+      "category": "tip",
+      "quote": "Adding a dataset requires only a metadata file, not code.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "MCP/工具调用",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-07T02:31:28+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-11-06T00:00:00.000Z",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "title": "OpenAI发布BioBasicsBench，展示AI判读实验数据的进步与误判",
+      "summary": "OpenAI与Ligo构建100项湿实验室数据判读任务，覆盖图像、仪器读数及实验记录。在xhigh推理设置下，GPT-6 Astra平均获得66.7%的可得分，GPT-5.6 Sol为43.8%；这不是任务成功率。模型仍会忽视对照条件、误数菌落，结果不能证明其已能可靠承担实验室判断。",
+      "reason": "用真实实验材料揭示模型识别证据不足的能力与局限。原文正文＋原站 RSS 时间核验；结果为OpenAI自报，未找到另一参与方的新公告或独立复测。",
+      "category": "paper",
+      "quote": "Higher benchmark scores do not yet mean models can make reliable judgments in the lab.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "AI赛道",
+        "多模态",
+        "Agent",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-ligo-biobasicsbench-2026-11-06",
+        "title": "OpenAI与Ligo介绍BioBasicsBench实验数据判读评测",
+        "factKey": "benchmark-introduction-100-wetlab-analysis-tasks",
+        "factTitle": "公布100项实验数据判读任务及模型表现与误判案例"
+      },
+      "addedAt": "2026-11-07T03:37:24+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-06T17:34:45.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/",
+      "title": "Quick团队分享Agent设计方法：先分清触发、执行者与能力",
+      "summary": "Quick团队把智能体任务拆成何时触发、做什么、谁执行和如何执行，并区分工具、技能与固定工作流。以定时生成Slack摘要为例，同一需求可以采用一句指令、附带格式规则的技能，或步骤固定的工作流，选择取决于用户需要多少确定性与可审计性。",
+      "reason": "帮助产品与开发团队减少重复创建Agent，按任务要求选择执行方式。原文正文＋原站 RSS 时间核验；属于团队设计经验，未提供独立效率评测。",
+      "category": "tip",
+      "quote": "The route is fixed, but the judgment inside a step is still the agent’s.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-07T04:43:53+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-06T18:44:38.000Z",
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "title": "Censys调查发现逾800个ARTEX部署公网暴露，并非全部用于恶意活动",
+      "summary": "TechCrunch报道，Censys发现超过800个不同形态的ARTEX智能体渗透测试工具部署公开暴露，部分系统还泄露攻击工具。研究者提醒，其中也可能包括授权测试人员，不能把暴露实例数量等同于攻击者数量。",
+      "reason": "揭示AI攻防工具自身的配置风险。已通读Zack Whittaker报道并对照Censys原始调查；未独立扫描这些系统。",
+      "category": "industry",
+      "quote": "not every instance of Artex is operated maliciously",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "censys-artex-public-exposure-report-2026-11-05",
+        "title": "Censys披露ARTEX工具公网暴露调查",
+        "factKey": "exposed-deployments-and-open-directories-census",
+        "factTitle": "披露ARTEX部署公网暴露及开放目录统计"
+      },
+      "addedAt": "2026-11-07T04:43:53+08:00"
+    },
+    {
+      "sourceId": "censys-blog",
+      "sourceName": "Censys",
+      "date": "2026-11-05",
+      "url": "https://censys.com/blog/artex-agentic-asbestos/",
+      "title": "Censys原始调查说明ARTEX统计口径：1465台主机不等于同量独立部署",
+      "summary": "Silas Cutler的原始调查列出1465台暴露ARTEX控制台的主机；排除约650台配置高度一致的托管主机后，剩余约815个形态不同的部署。调查还发现32个开放目录，并明确说明部分实例可能用于合法授权测试。",
+      "reason": "作为近48小时交叉证据，核对媒体报道的统计口径。已通读原始报告；主机数不等于独立运营者数，页面仅标明11月5日，保留日期精度。",
+      "category": "industry",
+      "quote": "Excluding them leaves about 815 ARTEX deployments.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "censys-artex-public-exposure-report-2026-11-05",
+        "title": "Censys披露ARTEX工具公网暴露调查",
+        "factKey": "exposed-deployments-and-open-directories-census",
+        "factTitle": "披露ARTEX部署公网暴露及开放目录统计"
+      },
+      "addedAt": "2026-11-07T04:43:53+08:00"
+    },
+    {
+      "sourceId": "iresearch-reports",
+      "sourceName": "艾瑞咨询",
+      "date": "2026-11-06T10:45:51+08:00",
+      "url": "https://report.iresearch.cn/report/202611/4875.shtml",
+      "title": "艾瑞报告摘要：204家样本中，逾半企业AI增量尚难弥补旧业务下滑",
+      "summary": "艾瑞公布2026上半年企业AI转型韧性报告的公开简介，依据204家样本企业财报，考察AI业务增长能否弥补原有业务下滑。其结论称，超过半数样本尚未实现这一对冲，同一行业内部的企业分化更明显。",
+      "reason": "提供了区分AI应用普及与经营兑现的观察框架。已核对发布方公开简介和发布时间；完整报告收费，样本筛选与计算细节未独立核验。",
+      "category": "paper",
+      "quote": "同一行业内企业的分化更为明显。",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "AI商业化",
+        "AI赛道",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-07T05:50:40+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-06T17:00:00.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+      "title": "湾区约会采访：有人用AI立场筛选伴侣，也有人让Agent代聊",
+      "summary": "Helen Li通过湾区采访和公开交友资料，记录AI态度如何影响部分人的择偶与生育规划。一名创业者还自述用Agent筛选对象、代发消息并预约约会，对方并不知道使用了AI；这些个人经历不能代表整体人群。",
+      "reason": "原创采访呈现AI进入私人关系后的价值观与披露问题。已通读正文并核对作者、发布时间；代理使用效果属于受访者自述。",
+      "category": "opinion",
+      "quote": "The women on the other side don’t know.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "现象/趋势",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-07T05:50:40+08:00"
+    },
+    {
+      "sourceId": "rss-latent-space",
+      "sourceName": "Latent Space",
+      "date": "2026-11-06T15:10:53.000Z",
+      "url": "https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/",
+      "title": "虚拟细胞访谈导读：比较模型前，先检查指标与任务是否合适",
+      "summary": "RJ Honicky在Fabian Theis访谈导读中解释，部分细胞扰动评测可能奖励只预测均值的简单模型，因为多数基因变化很小。Theis主张关注更复杂的跨尺度预测与高精度数据；这是研究方向判断，并非新模型发布或临床验证。",
+      "reason": "提供理解AI生物研究基线、指标与数据缺口的具体视角。已核对署名原文与发布时间；仅概括公开文字，未核验完整访谈或复现实验。",
+      "category": "opinion",
+      "quote": "they can reward an uninformative mean prediction because most genes barely change.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "AI赛道",
+        "数据/训练",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-07T05:50:40+08:00"
+    },
+    {
+      "sourceId": "rss-nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "date": "2026-11-06T16:00:35.000Z",
+      "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+      "title": "NVIDIA披露AI通信实验：减少传输数据，缩短机器人任务耗时",
+      "summary": "Soma Velayutham介绍多项基于Aerial和Sionna的研究。伦敦国王学院让机器人传输物体及其关系的紧凑描述，在人为注入故障的水果包装和积木任务中，相比周期传送图像，任务耗时最多缩短52.6%。利兹大学另一项实验通过预测需求安排基站休眠，相对全功率基线降低45.6%的无线接入网功耗。两项结果分别对应各自的测试条件。",
+      "reason": "原文给出任务、比较基线和适用条件，为评估AI通信方案提供具体参考。作者与原站发布时间已核对；成效仍来自厂商汇总，尚未取得参与机构的独立原文确认。",
+      "category": "industry",
+      "quote": "robots transmit compact descriptions of objects",
+      "tier": "T1",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "海外AI",
+        "具身智能",
+        "部署/工程",
+        "开源生态"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-07T06:56:17+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-06T17:09:18.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1/",
+      "title": "AWS实测Agent撤权：新请求约1秒被拒，旧令牌仍可存活5分钟",
+      "summary": "AWS团队测试Okta跨应用授权：移除用户的Agent授权后，新请求约1秒内被拒，已经签发的令牌仍可使用至过期，最长5分钟。测试环境中，停用Agent操作还曾排队86分钟。教程据此建议缩短令牌寿命，并在工具层同时检查Agent身份与用户权限；这些结果仅对应文中的配置，示例代码不适合直接用于生产。",
+      "reason": "提供区别于已收录下篇的撤权实测，提醒开发者分别检查新请求与存量令牌。已通读署名原文并核对发布时间；属于团队自测，未经独立复测。",
+      "category": "tip",
+      "quote": "tokens already issued expired within 5 minutes.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "MCP/工具调用",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-07T08:03:34+08:00"
+    },
+    {
+      "sourceId": "rss-ars-technica-ai",
+      "sourceName": "Ars Technica",
+      "date": "2026-11-06T17:43:02.000Z",
+      "url": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+      "title": "Meta确认暂停争议商业条款更新，11月20日不实施",
+      "summary": "Meta确认暂停原定11月20日生效的商业条款更新，协商期间沿用现行条款，尚未公布新日期。争议涉及出版商网站抓取及AI训练授权。",
+      "reason": "原文正文＋原站 RSS 时间核验。相比此前“可能延期”，本次已确认暂停；不等于永久撤回。",
+      "category": "industry",
+      "quote": "our existing terms remain in effect",
+      "tier": "T2",
+      "entity": "meta",
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "数据/训练",
+        "海外AI",
+        "Meta"
+      ],
+      "selected": true,
+      "event": {
+        "key": "meta-commercial-terms-crawling-2026-10",
+        "title": "Meta商业条款抓取授权争议与执行安排",
+        "factKey": "meta-terms-paused-nov20-implementation-2026-11-06",
+        "factTitle": "Meta确认暂停更新，11月20日不实施并沿用现行条款"
+      },
+      "addedAt": "2026-11-07T09:11:43+08:00"
+    },
+    {
+      "sourceId": "ithome-ai",
+      "sourceName": "IT之家",
+      "date": "2026-11-07T07:02:32+08:00",
+      "url": "https://www.ithome.com/1/023/609.htm",
+      "title": "Amp推出Spaces，由主Agent拆分并协调团队任务",
+      "summary": "故渊报道，Amp Spaces让团队在同一对话中提出需求，由主Agent创建和协调并行线程，以实时卡片展示状态及人工介入需求。成员评论只有提及@amp后才交给Agent读取；实际任务成效尚未独立验证。",
+      "reason": "减少手动调度多个编码Agent的负担。已通读报道、官方公告与用法说明，未复测效率或交付质量。",
+      "category": "ai-products",
+      "quote": "每项被拆出的工作会显示当前状态",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "编码",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "amp-spaces-launch-2026-11-06",
+        "title": "Amp推出Spaces多Agent协作空间",
+        "factKey": "spaces-team-chat-agent-thread-orchestration-launch",
+        "factTitle": "推出由主Agent创建协调并行线程的团队空间"
+      },
+      "addedAt": "2026-11-07T09:11:43+08:00"
+    },
+    {
+      "sourceId": "amp-news",
+      "sourceName": "Amp",
+      "date": "2026-11-06",
+      "url": "https://ampcode.com/news/spaces",
+      "title": "Amp官方确认Spaces上线，展示功能开发与安全审查用法",
+      "summary": "官方公告确认Spaces已推出，可由单个协调Agent创建和组织工作线程，并让团队在空间中反馈需求。文中列出内部开发、功能支持及定期安全审查案例，成效属于团队自述。",
+      "reason": "官方原文支持同次上线及协作机制。页面仅标日期，作为近48小时交叉证据，不重复精选。",
+      "category": "ai-products",
+      "quote": "It's a new, higher-level way to work with many agents.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "编码",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "amp-spaces-launch-2026-11-06",
+        "title": "Amp推出Spaces多Agent协作空间",
+        "factKey": "spaces-team-chat-agent-thread-orchestration-launch",
+        "factTitle": "推出由主Agent创建协调并行线程的团队空间"
+      },
+      "addedAt": "2026-11-07T09:11:43+08:00"
+    },
+    {
+      "sourceId": "ithome-ai",
+      "sourceName": "IT之家",
+      "date": "2026-11-07T07:11:36+08:00",
+      "url": "https://www.ithome.com/1/023/610.htm",
+      "title": "Cursor推出实时语音通话，可边交谈边让编码Agent工作",
+      "summary": "故渊报道，Cursor新增双向语音通话，覆盖Agents Window、IDE、网页和iOS。Grok Voice负责听说，编码Agent继续使用用户所选模型；通话有每日限额，开启Privacy Mode才适用零数据留存承诺。",
+      "reason": "把口头交办、进度查询和后台编码接在同一流程中。已核对官方公告及文档，未独立测试语音效果与隐私承诺。",
+      "category": "ai-products",
+      "quote": "编码智能体则继续使用用户所选模型。",
+      "tier": "T2",
+      "entity": "cursor",
+      "subjects": [
+        "cursor"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "编码",
+        "语音",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "cursor-realtime-voice-chat-2026-11-06",
+        "title": "Cursor推出与编码Agent的实时语音通话",
+        "factKey": "cross-client-speech-conversation-coding-handoff-launch",
+        "factTitle": "跨客户端开放双向语音对话并交接编码任务"
+      },
+      "addedAt": "2026-11-07T09:11:43+08:00"
+    },
+    {
+      "sourceId": "cursor-changelog",
+      "sourceName": "Cursor Changelog",
+      "date": "2026-11-06",
+      "url": "https://cursor.com/changelog/voice-chat",
+      "title": "Cursor官方确认语音通话上线，与原有听写功能分开",
+      "summary": "官方更新说明确认，用户可实时与语音Agent交谈，由其把代码修改任务交给聊天中的编码Agent，并接收简短进度播报。功能由Grok Voice驱动，开启Privacy Mode时采用零数据留存。",
+      "reason": "原始公告确认开放入口与隐私条件。仅标日期，保留为近48小时交叉证据，不重复精选。",
+      "category": "ai-products",
+      "quote": "Voice chat is separate from dictation",
+      "tier": "T1",
+      "entity": "cursor",
+      "subjects": [
+        "cursor"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "编码",
+        "语音",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "cursor-realtime-voice-chat-2026-11-06",
+        "title": "Cursor推出与编码Agent的实时语音通话",
+        "factKey": "cross-client-speech-conversation-coding-handoff-launch",
+        "factTitle": "跨客户端开放双向语音对话并交接编码任务"
+      },
+      "addedAt": "2026-11-07T09:11:43+08:00"
+    },
+    {
+      "sourceId": "ithome-ai",
+      "sourceName": "IT之家",
+      "date": "2026-11-07T07:25:14+08:00",
+      "url": "https://www.ithome.com/1/023/613.htm",
+      "title": "Anthropic记忆实验：整理日志可纠错，保存更多未必更有效",
+      "summary": "故渊介绍Anthropic的跨会话记忆实验：系统在交互之间检查日志、修正笔记并构建Wiki。在25道企业文档问题的内部测试中，Wiki配合搜索的综合得分随整理规模扩大从54%升至61%。这些结果不代表所有任务都能同等受益。",
+      "reason": "为Agent记忆的筛选、验证和维护提供具体实验依据。报道与原研究已核对；结果来自团队自测，未独立复现。",
+      "category": "paper",
+      "quote": "但并非所有信息都值得保存",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "部署/工程",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "anthropic-agent-memory-components-2026-11-06",
+        "title": "Anthropic披露Agent记忆组成与离线整理实验",
+        "factKey": "memory-notes-dreaming-wiki-evaluation-disclosure",
+        "factTitle": "公开记忆筛选、日志纠错及Wiki配合搜索的实验"
+      },
+      "addedAt": "2026-11-07T09:11:43+08:00"
+    },
+    {
+      "sourceId": "anthropic-research",
+      "sourceName": "Anthropic",
+      "date": "2026-11-06",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "title": "Anthropic原文说明记忆实验边界：Wiki仍需搜索，也会积累错误",
+      "summary": "Lance Martin的原文区分日志、笔记、Wiki与注入上下文。团队测试中，Wiki配合搜索优于单用Wiki；部分法律文档任务未见明显收益，甚至出现Wiki比原文更大的情况。维护和纠错还需额外计算。",
+      "reason": "原研究补充媒体报道中的基线与失败条件。已通读全文；仅标日期，作为近48小时交叉证据，不重复精选。",
+      "category": "paper",
+      "quote": "Dreaming can correct mistakes in memory.",
+      "tier": "T1",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "部署/工程",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": false,
+      "event": {
+        "key": "anthropic-agent-memory-components-2026-11-06",
+        "title": "Anthropic披露Agent记忆组成与离线整理实验",
+        "factKey": "memory-notes-dreaming-wiki-evaluation-disclosure",
+        "factTitle": "公开记忆筛选、日志纠错及Wiki配合搜索的实验"
+      },
+      "addedAt": "2026-11-07T09:11:43+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-07T01:40:28.000Z",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "title": "Crusoe确认Google购入怀俄明数据中心项目，成交价未披露",
+      "summary": "Marina Temkin报道，Crusoe确认Google已购入其怀俄明州未完工的数据中心项目，卖方结束当地前期开发工作，仍在得州为Google开发另一园区。Google的170亿美元是建设投资计划，交易价格并未公开，不能视为已投运算力。",
+      "reason": "新增卖方正式确认，明确了AI基础设施项目的转移与开发阶段。已核对署名全文、精确发布时间及卖方公告；交易此前已有报道，本次不视为首次曝光。",
+      "category": "industry",
+      "quote": "confirmed Friday it has sold an unfinished data center project",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "部署/工程",
+        "海外AI",
+        "Google"
+      ],
+      "selected": true,
+      "event": {
+        "key": "crusoe-google-wyoming-site-transfer-2026-11",
+        "title": "Crusoe确认Google购入怀俄明数据中心项目",
+        "factKey": "seller-confirms-acquisition-predevelopment-completion-2026-11-06",
+        "factTitle": "卖方确认项目已被Google购入并结束前期开发工作"
+      },
+      "addedAt": "2026-11-07T10:19:30+08:00"
+    },
+    {
+      "sourceId": "crusoe-newsroom",
+      "sourceName": "Crusoe",
+      "date": "2026-11-06",
+      "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+      "title": "Crusoe官方确认怀俄明项目转移，完成选址、审批与供电规划工作",
+      "summary": "Crusoe公告确认其怀俄明州东南部数据中心场址已被Google购入，公司参与的选址、政府审批及供电策略等前期开发工作结束。公告同时说明，公司仍负责Google位于得州Armstrong County的另一座在建园区。",
+      "reason": "卖方原文直接支持同一交易，仅作近48小时内的交叉证据。公告仅标日期，未披露成交价，前期开发完成也不代表园区已建成。",
+      "category": "industry",
+      "quote": "its site in southeast Wyoming has been acquired by Google.",
+      "tier": "T1",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "部署/工程",
+        "海外AI",
+        "Google"
+      ],
+      "selected": false,
+      "event": {
+        "key": "crusoe-google-wyoming-site-transfer-2026-11",
+        "title": "Crusoe确认Google购入怀俄明数据中心项目",
+        "factKey": "seller-confirms-acquisition-predevelopment-completion-2026-11-06",
+        "factTitle": "卖方确认项目已被Google购入并结束前期开发工作"
+      },
+      "addedAt": "2026-11-07T10:19:30+08:00"
+    },
+    {
+      "sourceId": "rss-github-ai",
+      "sourceName": "GitHub Blog · AI & ML",
+      "date": "2026-11-06T22:15:59.000Z",
+      "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+      "title": "GitHub分享Agent开发流程：写清验收条件，拆小PR并跟踪上线表现",
+      "summary": "Nick Liffen与Philip Holleran将Agent开发分为规划、实现、验证和观察四步：先写明确的验收条件，为并行任务隔离工作区，将大改动拆成便于审查的小PR，再把线上故障证据转为后续任务与回归测试。文章以Copilot演示，相关流程可供其他编码Agent使用者参考。",
+      "reason": "把关注点从生成代码延伸到验收、审查和上线反馈，做法可迁移。原文正文＋原站 RSS 时间核验；工具能力与效率描述属于厂商说明，未经本轮复测。",
+      "category": "tip",
+      "quote": "Stack up smaller, more focused pull requests instead of creating a single, massive change.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [
+        "microsoft"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "编码",
+        "海外AI",
+        "GitHub"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-07T11:25:21+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-06T23:00:44.000Z",
+      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+      "title": "Megaspeed相关情报指控出现新说法，仍未见公开调查结论",
+      "summary": "The Verge记者Jay Peters援引《纽约时报》称，Megaspeed高管Alice Huang被中国国家安全部门招募，目标涉及美国AI芯片信息及供华政策。相较此前报道，新增内容是对招募方的明确指称；报道没有证明英伟达已泄露技术或个人已被司法认定从事情报活动。",
+      "reason": "补充了已归档事件中的招募方说法。署名正文及发布时间可核对；仍转引《纽约时报》调查，不能视为已证实的间谍身份或技术泄露。",
+      "category": "industry",
+      "quote": "the information that China’s MSS had recruited her is new.",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "nvidia-megaspeed-allegations-response-2026-10-29",
+        "title": "英伟达回应Megaspeed相关情报指控",
+        "factKey": "reported-mss-recruitment-allegation-2026-11-06",
+        "factTitle": "媒体新增有关Megaspeed高管招募方的情报指控"
+      },
+      "addedAt": "2026-11-07T13:39:36+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-11-07T13:01:17+08:00",
+      "url": "https://www.qbitai.com/2026/11/508264.html",
+      "title": "量子位试用Comma：同一对话分派并行任务，衔接Linear工作",
+      "summary": "梦瑶将游戏制作、周报复盘和模型信息整理交给同一对话，由不同Worker并行处理，另展示Linear任务交接与定时选题推送。Comma此前已经开源，本次是使用体验分享；长期在线和持续学习效果尚未独立验证。",
+      "reason": "提供并行任务、跨应用交接和定时工作的具体样例。已通读署名原文并核对发布时间，试用效果未经本轮复测。",
+      "category": "tip",
+      "quote": "三个任务，被分配给不同Worker",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "评测/基准",
+        "AI产品",
+        "AI玩法",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-07T17:02:28+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-11-07T11:31:44+08:00",
+      "url": "https://www.qbitai.com/2026/11/508236.html",
+      "title": "MoWorld 2.0采访补充工程细节：多卡分担推理，云端与手机端协作",
+      "summary": "henry采访魔芯团队，介绍此前发布的MoWorld 2.0如何将场景解码、主干生成等任务分配到多张昇腾NPU，减少重复数据搬运。团队还说明，宠物数字分身应用由云端生成高质量资产，手机端承担模型推理、渲染与交互。相关性能仍是团队自述。",
+      "reason": "采访补充多卡分工及云端、端侧职责，有助于理解世界模型部署。已通读署名原文并核对发布时间，测试配置披露有限，未独立复现。",
+      "category": "tip",
+      "quote": "将场景解码、主干生成等任务拆分到多张NPU上执行",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "教程/实践",
+        "AI硬件",
+        "端侧",
+        "部署/工程",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-07T17:02:28+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-06T22:53:46.000Z",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "title": "媒体称OpenAI新一轮已筹110亿美元，整轮融资尚未结束",
+      "summary": "Lucas Ropek援引彭博社知情人士称，OpenAI新一轮融资迄今筹得约110亿美元，对应估值1.25万亿美元。整轮尚未结束，未来数周可能合计约200亿美元。报道时OpenAI尚未回应置评请求，最终规模仍未确定。",
+      "reason": "补充此前融资承诺之后的筹资进展。全文与原站精确时间已核对；与另一媒体一致，但均转述彭博社，尚无公司确认。",
+      "category": "industry",
+      "quote": "hasn’t closed yet",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-funding-talks-2026-10",
+        "title": "媒体报道OpenAI新融资洽谈及估值目标",
+        "factKey": "reported-first-11b-tranche-funding-2026-11-06",
+        "factTitle": "媒体报道首批约110亿美元融资落定，整轮仍未结束"
+      },
+      "addedAt": "2026-11-07T18:11:55+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-07T09:45:23.000Z",
+      "url": "https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital/",
+      "title": "The Decoder交叉报道OpenAI首批资金据称到账",
+      "summary": "The Decoder援引彭博社称，约110亿美元作为本轮首批资金已于周五汇入OpenAI，整轮可能扩至200亿美元，其余资金预计未来数周完成。报道没有提供公司公告或到账凭证。",
+      "reason": "仅作同一融资进展的交叉证据。全文与原站发布时间已核对；消息同源于彭博社，不代表独立确认到账。",
+      "category": "industry",
+      "quote": "The money was wired on Friday",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "openai-funding-talks-2026-10",
+        "title": "媒体报道OpenAI新融资洽谈及估值目标",
+        "factKey": "reported-first-11b-tranche-funding-2026-11-06",
+        "factTitle": "媒体报道首批约110亿美元融资落定，整轮仍未结束"
+      },
+      "addedAt": "2026-11-07T18:11:55+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-11-07T11:23:29+08:00",
+      "url": "https://www.qbitai.com/2026/11/508196.html",
+      "title": "Jeff Dean谈科研Agent：自动化能省等待，训练与验证仍需时间",
+      "summary": "听雨整理Jeff Dean与李飞飞的对谈，解释优化任务模型与改进实验设计系统的区别。Dean称Discovery Loop约有20个自动改进循环运行，当前聚焦机器学习研究、工程及硬件设计；专家生产力提高20至50倍仍是目标，不能视为已实现效果。",
+      "reason": "为理解科研Agent的工作方式与提速边界提供具体解释。原文正文＋原站 RSS 时间核验；属于既有对谈的中文整理，运行规模为本人自述，效果未独立验证。",
+      "category": "opinion",
+      "quote": "这些过程不可能以无限快的速度完成",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "AI创业",
+        "AI赛道",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-07T19:19:26+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-06T15:55:23.000Z",
+      "url": "https://the-decoder.com/frontier-radar-5-if-agi-is-so-close-why-is-everyone-leaving-the-neolabs-and-their-bets/",
+      "title": "The Decoder梳理45家AI实验室：对照技术押注与公开产物",
+      "summary": "Maximilian Schreiner按持续学习、物理世界理解、独有数据、计算效率、科研自动化及商业需求补缺六类方向梳理研究型AI公司，并对照公开产品、访问条件与融资信息。文章提供赛道比较框架；对未来整合的判断属于作者预测，融资与技术计划不能视为经营成功。",
+      "reason": "便于比较AI创业公司的实际交付与长期承诺。已补读全文并核对署名及原站精确时间；路线划分属于作者分析，公司成效未逐家独立验证。",
+      "category": "opinion",
+      "quote": "sorted them into six groups by their primary bet.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "现象/趋势",
+        "AI创业",
+        "AI赛道",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-07T20:27:13+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-07T12:32:45.000Z",
+      "url": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/",
+      "title": "Nous开放Arete-27B与评估数据，展示定向微调如何改变模型回答",
+      "summary": "Nous Research基于Qwen3.8-27B，以约5280万Token进行监督微调，开放Arete-27B权重、训练数据及803题评估集。在团队自定义、由Grok评判的测试中，被其归为宣传性回答的比例从22%降至0.9%。这些结果体现特定价值目标下的行为变化，不能证明模型已获得普遍政治中立性。",
+      "reason": "报道与官方说明、模型卡相互印证，开放材料便于检查微调与评估方法；效果比例属于团队自测，未见独立复测。",
+      "category": "ai-models",
+      "quote": "The weights, test dataset, and training data for Arete-27B are available under an Apache 2.0 license",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "海外AI",
+        "开源生态",
+        "数据/训练",
+        "安全/对齐"
+      ],
+      "selected": true,
+      "event": {
+        "key": "nous-arete27b-open-weights-2026-11",
+        "title": "Nous开放Arete-27B及价值定向微调材料",
+        "factKey": "weights-data-and-value-alignment-evaluation",
+        "factTitle": "开放模型权重、训练数据及803题行为评估"
+      },
+      "addedAt": "2026-11-07T13:34:08Z"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-07T12:30:00.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "title": "The Verge补充采访，交叉核对METR对Anthropic研发提速的评估",
+      "summary": "Robert Hart梳理METR评估并采访外部研究者。报道指出，当前研发提速主要来自AI辅助人类研究人员，尚不能等同于完全自主研发；内部模型和大量证据未公开，也限制了外界复核。Anthropic未直接回答记者提问，而是指向联合创始人的公开回应。",
+      "reason": "补充外部研究者采访，与已收录METR评估对应；核心结论已归档，仅作交叉证据，相关判断仍依赖未充分公开的内部材料。",
+      "category": "paper",
+      "quote": "For now, much of that acceleration appears to be coming from AI assisting human researchers",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "海外AI",
+        "Agent",
+        "安全/对齐",
+        "Anthropic"
+      ],
+      "selected": false,
+      "event": {
+        "key": "metr-anthropic-rd-acceleration-assessment-2026-11-05",
+        "title": "METR公开Anthropic研发加速评估",
+        "factKey": "public-assessment-internal-aeci-growth-rate",
+        "factTitle": "公开内部基准增速评估及AI贡献与证据限制"
+      },
+      "addedAt": "2026-11-07T13:34:08Z"
+    }
+  ]
+}
