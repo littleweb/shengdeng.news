@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "articleId": "r310e228912821e18c3f69f57",
+  "url": "https://www.ithome.com/1/022/035.htm",
+  "fetchedAt": "2026-11-07T18:08:58.037Z",
+  "sourceHtml": "<p><a href=\"https://www.ithome.com/\">IT之家</a> 11 月 4 日消息，腾讯混元今天（4 日）发布最新一代大语言模型 Hy4 正式版。官方表示，随着模型能力的再次全面跃升，Hy <strong>首次跻身最强开源模型之列</strong>。Hy4 将于近期开源模型权重，发布模型系统卡片，并积极推进更负责任的开源，重点关注网络和生物安全等风险。</p><p>相比于 Hy4 preview，Hy4 显著扩展了预训练和后训练规模，首次引入了视觉能力，并大幅提升了指令遵循、长文理解、长程任务、深度研究等各项综合能力。</p><p><img src=\"https://img.ithome.com/newsuploadfiles/2026/11/cebc6b60-0c79-4131-87fd-f255fffd0308.png\" alt=\"图片\" title=\"腾讯混元 Hy4 正式版发布，号称首次跻身最强开源模型之列、为真实生产力而生\" width=\"1080\" height=\"614\"></p><p>Hy4 首次引入视觉能力，可以结合感知、推理和工具调用，进行细粒度图像处理、复杂图表分析和数学视觉推理等任务。Hy4 也<strong>首次支持电脑操作</strong>，可以灵活地结合使用命令行和图形界面。腾讯还针对 Blender、CAD 等专业软件和跨应用长程任务开展了专项训练，持续优化专业任务的规划与执行力。</p><p>根据介绍，该模型可用于<strong>视觉与电脑任务、前端与游戏开发、金融与办公场景、科研与模型研发、长期个人助理</strong>等多种场景，为真实生产力而生。</p><p>据IT之家此前报道，8 月 28 日，<a href=\"https://www.ithome.com/0/995/570.htm\">腾讯发布 Hy4 preview</a>，总参数 770 B，激活参数 49 B，上下文长度 1M。</p><p>官方当时曾表示，Hy4 preview 在模型尺寸、上下文长度、数据规模上都进行了显著的扩展，预训练和后训练的共同进步带来了智能水平的又一次巨大提升。</p><p>目前，Hy4 已在腾讯云和 OpenRouter 上线，并可在 CodeBuddy / WorkBuddy、元宝、ima 等产品上体验，性能显著超过 Hy4 preview 的同时维持相同 API 价格。</p><p><img src=\"https://img.ithome.com/newsuploadfiles/2026/11/700db346-2943-444c-9515-1402255e8992.png?x-bce-process=image/format,f_auto\" alt=\"图片\" title=\"腾讯混元 Hy4 正式版发布，号称首次跻身最强开源模型之列、为真实生产力而生\" width=\"957\" height=\"354\"></p><p>官方计划开源模型权重，并已联合 vLLM/SGLang 社区以及 Inferact Inc. 提供开源生态支持。模型系统卡片也计划届时发布，包括更全面的安全评估等细节。</p><p>尽管 Hy4 已经是目前最强的开源模型之一，其与顶尖闭源模型仍然存在较大差距，尤其在内部构建的前沿数学、长程开发、模型迭代、视觉问答等领域的高难度测试集上。腾讯混元方面表示，将持续稳健地扩展预训练和后训练规模，努力缩小和顶尖闭源模型的差距。</p><p><img src=\"https://img.ithome.com/newsuploadfiles/2026/11/ac2d74de-4359-4aad-a19d-f9ef01027bcd.png?x-bce-process=image/format,f_auto\" alt=\"图片\" title=\"腾讯混元 Hy4 正式版发布，号称首次跻身最强开源模型之列、为真实生产力而生\" width=\"1080\" height=\"820\"></p><p>Hy4 flash 也计划近期发布，将显著提升模型性价比和推理速度，并更加高频地和产品协同迭代，不断提高实用性。</p>",
+  "sourceHash": "b7e4b0ad4f8271ca49ab5732d79c5c107e902f978a3e09977c8348f0a6856775",
+  "language": "zh",
+  "translation": null
+}

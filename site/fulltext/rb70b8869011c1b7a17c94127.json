@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "articleId": "rb70b8869011c1b7a17c94127",
+  "url": "https://the-decoder.com/anthropic-reverses-course-and-pays-for-news-content-for-the-first-time/",
+  "fetchedAt": "2026-11-07T15:41:56.065Z",
+  "sourceHtml": "<p><strong>Anthropic signed its first licensing deal with a news publisher just ahead of the US midterm elections.</strong> The partner is the Associated Press (AP), according to <a href=\"https://www.adweek.com/media/anthropic-licensing-deal-ap-election/\">Adweek</a>, citing two people familiar with the matter. The deal let the chatbot Claude show live AP election results on election night, complete with source attribution. Financial terms and the length of the agreement weren't disclosed.</p><p>Until now, Anthropic had rejected these kinds of partnerships, arguing that scraping publisher content is legally permissible under fair use. Rival OpenAI already has more than a dozen such deals, including with Axel Springer, News Corp., and The Atlantic. Without access to current publisher data, though, Claude was severely limited on time-sensitive queries. Publishers have been deliberately blocking Anthropic's crawlers to force the company to the negotiating table.</p><p>AP was also the first licensing partner for both Google and OpenAI. Anthropic is close to going public.</p><h3>AI News Without the Hype – Curated by Humans<br></h3><p>\n\t\t\t\t\tSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\t\t\t\t</p>",
+  "sourceHash": "3a43c64dee0717cb8102b0c675492184200b79590d5af38d7376453d4905c70d",
+  "language": "und",
+  "translation": {
+    "method": "local-codex",
+    "translatedAt": "2026-11-07T15:42:26.521Z",
+    "html": "<p><strong>Anthropic 在美国中期选举前夕，与一家新闻出版机构签署了其首份内容授权协议。</strong>据 <a href=\"https://www.adweek.com/media/anthropic-licensing-deal-ap-election/\">Adweek</a> 援引两位知情人士的消息，合作方是美联社（AP）。这项协议让聊天机器人 Claude 能够在选举当晚展示美联社的实时选举结果，并注明来源。协议的财务条款和期限均未披露。</p><p>在此之前，Anthropic 一直拒绝此类合作，认为抓取出版机构的内容符合合理使用原则，在法律上是允许的。竞争对手 OpenAI 已经达成了十多项此类协议，合作方包括 Axel Springer、News Corp. 和 The Atlantic。不过，由于无法获取出版机构的最新数据，Claude 在回答时效性强的问题时受到很大限制。出版机构一直在有意屏蔽 Anthropic 的爬虫，以迫使该公司坐到谈判桌前。</p><p>美联社也是 Google 和 OpenAI 各自的首家内容授权合作伙伴。Anthropic 已接近上市。</p><h3>不炒作的 AI 新闻——由人工精选<br></h3><p>\n\t\t\t\t\t订阅 THE DECODER，即可享受无广告阅读、每周 AI 新闻通讯、每年六期的独家“AI Radar”前沿报告、完整历史内容访问权限，以及评论区访问权限。\t\t\t\t</p>",
+    "complete": true
+  }
+}

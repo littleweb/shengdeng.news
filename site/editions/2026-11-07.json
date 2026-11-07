@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "researchedAt": "2026-11-07T13:34:08Z",
+  "researchedAt": "2026-11-07T15:46:24Z",
   "items": [
     {
       "sourceId": "rss-hugging-face",
@@ -1147,6 +1147,32 @@
         "factTitle": "公开内部基准增速评估及AI贡献与证据限制"
       },
       "addedAt": "2026-11-07T13:34:08Z"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-07T15:00:00.000Z",
+      "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+      "title": "Stamos谈AI安全运营：压低防御成本，为自动处置设硬上限",
+      "summary": "Cognition安全负责人Alex Stamos在Nilay Patel的完整访谈中主张，AI防御需要降低日志分析与调查成本，不能只关注查找和修补漏洞。他建议先用低成本分类器筛选日志，再逐级调用模型，并介绍正在构建的内部安全运营系统：自动停用账号设数量上限，超过上限须由人工批准。这些是受访者的判断与内部实践自述。",
+      "reason": "提供了可迁移的安全运营思路和自动处置边界。完整访谈、作者及精确发布时间均可核对，网页与原站订阅时间一致；内部方案的实际效果尚无独立验证。",
+      "category": "opinion",
+      "quote": "My preference is there are deterministic limits to what they’re allowed to do.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "海外AI",
+        "AI赛道",
+        "Agent",
+        "安全/对齐",
+        "部署/工程"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-07T15:46:24Z"
     }
   ]
 }

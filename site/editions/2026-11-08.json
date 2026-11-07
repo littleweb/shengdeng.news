@@ -1,0 +1,145 @@
+{
+  "date": "2026-11-08",
+  "researchedAt": "2026-11-07T18:01:34Z",
+  "items": [
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-07T15:50:00.000Z",
+      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "title": "NYT Cooking助手实测：替换食材有帮助，切换配方仍需核对用量",
+      "summary": "Jennifer Pattison Tuohy实测发现，助手能按现有食材调整菜谱、缩放份量并标出改动，但切换原版与修改版时，曾未说明版本就给出减半的黄油用量。首发仅面向iOS订阅用户，烹饪时间与用量仍需自行核对。",
+      "reason": "有具体操作、成菜体验和失败案例，可帮助判断菜谱助手的使用边界；已核对作者、完整正文及发布时间，效果属于记者个人实测。",
+      "category": "tip",
+      "quote": "You can’t save your new recipe separately",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI产品",
+        "AI玩法",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-08T00:53:08+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-07T15:43:45.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "title": "媒体转述H200许可调查：获批企业New Matrix登记地址被指为空置",
+      "summary": "Terrence O'Brien转述纽约时报调查称，获准处理NVIDIA H200芯片的New Matrix，其登记地址未见实际办公迹象，所有者还被指与美国列入限制名单的投资机构有关。报道提出许可审查疑问，未提供监管认定或许可证撤销结论。",
+      "reason": "涉及AI芯片出口许可的具体审查疑点，区别于此前Megaspeed报道；已读完整正文并核对作者与时间，未取得许可证原件或原始调查全文。",
+      "category": "industry",
+      "quote": "a company directory does not include the firm",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "政策/监管",
+        "AI硬件",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-08T00:53:08+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-07T17:37:25.000Z",
+      "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
+      "title": "据报Anthropic仍拟感恩节前上市，融资目标800亿至1000亿美元",
+      "summary": "The Decoder援引金融时报采访的投资者称，Anthropic仍争取感恩节前上市，拟融资800亿至1000亿美元，对应估值1.25万亿至1.75万亿美元。报道另称年化收入运行率约810亿美元；这不是全年已实现营收，融资规模、定价和上市时间仍未最终确定。",
+      "reason": "较此前估值分歧报道，补充融资区间与继续推进安排。已核对完整报道及发布时间；金融时报原文受限，投资者说法未获公司确认。",
+      "category": "industry",
+      "quote": "Annualized reported revenue now sits at about $81 billion",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "anthropic-ipo-s1-2026-10-26",
+        "title": "Anthropic公开提交IPO注册文件",
+        "factKey": "reported-pre-thanksgiving-ipo-target-range-2026-11-07",
+        "factTitle": "媒体补充感恩节前上市计划及融资估值区间"
+      },
+      "addedAt": "2026-11-07T18:01:34Z"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-07T16:31:00.000Z",
+      "url": "https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/",
+      "title": "Inkling 2 Small日志分析：脏话集中于长任务，却难以预警失败",
+      "summary": "Matthias Bastian报道，Vals AI检查13项基准的2655次运行，50次出现目标脏话，316处用词中241处集中在两次重复循环。虽然48次有评分且带脏话的运行中46次失败，但96%的失败运行没有脏话，不能据此可靠预警失败。统计针对内部推理日志，不代表一般用户对话表现。",
+      "reason": "提供模型发布后的独立行为观察，提醒监控不能只靠异常措辞。已核对署名全文、精确时间并阅读原始分析；未复跑，也不能据相关性解释失败原因。",
+      "category": "paper",
+      "quote": "96 percent of failed runs contained no expletives.",
+      "tier": "T2",
+      "entity": "thinking-machines",
+      "subjects": [
+        "thinking-machines"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "推理",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "thinking-machines-inkling2-small-release-2026-11-05",
+        "title": "Thinking Machines发布Inkling 2 Small",
+        "factKey": "vals-reasoning-profanity-analysis-2026-11-06",
+        "factTitle": "Vals披露推理日志重复及脏话统计与预警局限"
+      },
+      "addedAt": "2026-11-07T18:01:34Z"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-11-07T11:43:55+08:00",
+      "url": "https://www.qbitai.com/2026/11/508244.html",
+      "title": "编码Agent安全排查：检查陌生指令文件与配置变更",
+      "summary": "ay结合Forever Security于10月公开的调查，整理编码Agent的指令文件、全局配置、恶意依赖及代理地址排查清单，并建议从独立工程目录启动、保留沙箱和审批、隔离敏感目录。文章也提醒，未查出异常不能证明环境安全；本次是方法整理，并非披露新攻击。",
+      "reason": "给编码Agent使用者提供可复用的排查思路。原文正文＋原站 RSS 时间核验；攻击链此前已公开，本轮仅收方法整理，未复测效果。",
+      "category": "tip",
+      "quote": "没查出异常，不代表电脑一定安全。",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "openai",
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "编码",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-07T18:01:34Z"
+    }
+  ]
+}
