@@ -1,6 +1,6 @@
 {
   "kind": "skills",
-  "capturedAt": "2026-11-08T15:56:39.165Z",
+  "capturedAt": "2026-11-08T17:01:17.693Z",
   "sourceName": "skills.sh",
   "sourceUrl": "https://www.skills.sh/",
   "metric": "累计安装量",
@@ -31,19 +31,19 @@
     },
     {
       "rank": 4,
-      "name": "agent-browser",
-      "owner": "vercel-labs/agent-browser",
-      "value": 1400000,
-      "displayValue": "1.4M",
-      "url": "https://www.skills.sh/vercel-labs/agent-browser/agent-browser"
-    },
-    {
-      "rank": 5,
       "name": "hyperframes",
       "owner": "heygen-com/hyperframes",
       "value": 1400000,
       "displayValue": "1.4M",
       "url": "https://www.skills.sh/heygen-com/hyperframes/hyperframes"
+    },
+    {
+      "rank": 5,
+      "name": "agent-browser",
+      "owner": "vercel-labs/agent-browser",
+      "value": 1400000,
+      "displayValue": "1.4M",
+      "url": "https://www.skills.sh/vercel-labs/agent-browser/agent-browser"
     },
     {
       "rank": 6,
@@ -55,19 +55,19 @@
     },
     {
       "rank": 7,
-      "name": "grill-with-docs",
-      "owner": "mattpocock/skills",
-      "value": 1300000,
-      "displayValue": "1.3M",
-      "url": "https://www.skills.sh/mattpocock/skills/grill-with-docs"
-    },
-    {
-      "rank": 8,
       "name": "design-mobile-apps",
       "owner": "designed-by-ai/skills",
       "value": 1300000,
       "displayValue": "1.3M",
       "url": "https://www.skills.sh/designed-by-ai/skills/design-mobile-apps"
+    },
+    {
+      "rank": 8,
+      "name": "grill-with-docs",
+      "owner": "mattpocock/skills",
+      "value": 1300000,
+      "displayValue": "1.3M",
+      "url": "https://www.skills.sh/mattpocock/skills/grill-with-docs"
     },
     {
       "rank": 9,
@@ -135,19 +135,19 @@
     },
     {
       "rank": 17,
-      "name": "prototype",
-      "owner": "mattpocock/skills",
-      "value": 1100000,
-      "displayValue": "1.1M",
-      "url": "https://www.skills.sh/mattpocock/skills/prototype"
-    },
-    {
-      "rank": 18,
       "name": "ui-taste",
       "owner": "uizze.sh",
       "value": 1100000,
       "displayValue": "1.1M",
       "url": "https://www.skills.sh/site/uizze.sh/ui-taste"
+    },
+    {
+      "rank": 18,
+      "name": "prototype",
+      "owner": "mattpocock/skills",
+      "value": 1100000,
+      "displayValue": "1.1M",
+      "url": "https://www.skills.sh/mattpocock/skills/prototype"
     },
     {
       "rank": 19,
