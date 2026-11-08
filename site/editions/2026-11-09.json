@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "researchedAt": "2026-11-09T02:05:30+08:00",
+  "researchedAt": "2026-11-09T03:09:40+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -26,6 +26,28 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-09T02:05:30+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-08T13:49:21.000Z",
+      "url": "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/",
+      "title": "AI意识争论解读：区分语言表现、主观体验与理论假设",
+      "summary": "Manuel Uth对照Seth等人的Nature评论与Butlin等人的意识指标报告，解释争论背后的不同假设。Butlin报告不把其评估的系统视为强意识候选，但保留未来可能性；Seth等人更强调物理实现对意识的作用，并担忧错误赋予AI意识会妨碍监督。这是理论解读，没有提供新的意识实验。",
+      "reason": "提供理解AI意识主张的具体比较框架。已核对署名正文及精确发布时间；所讨论的Nature评论属于旧文，相关判断仍有理论争议。",
+      "category": "opinion",
+      "quote": "A universally accepted, definitive test for consciousness doesn't yet exist.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-09T03:09:40+08:00"
     }
   ]
 }
