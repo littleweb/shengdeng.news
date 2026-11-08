@@ -1,6 +1,6 @@
 {
   "kind": "skills",
-  "capturedAt": "2026-11-08T13:43:48.431Z",
+  "capturedAt": "2026-11-08T14:49:24.064Z",
   "sourceName": "skills.sh",
   "sourceUrl": "https://www.skills.sh/",
   "metric": "累计安装量",
@@ -143,19 +143,19 @@
     },
     {
       "rank": 18,
-      "name": "triage",
-      "owner": "mattpocock/skills",
-      "value": 1100000,
-      "displayValue": "1.1M",
-      "url": "https://www.skills.sh/mattpocock/skills/triage"
-    },
-    {
-      "rank": 19,
       "name": "ui-taste",
       "owner": "uizze.sh",
       "value": 1100000,
       "displayValue": "1.1M",
       "url": "https://www.skills.sh/site/uizze.sh/ui-taste"
+    },
+    {
+      "rank": 19,
+      "name": "triage",
+      "owner": "mattpocock/skills",
+      "value": 1100000,
+      "displayValue": "1.1M",
+      "url": "https://www.skills.sh/mattpocock/skills/triage"
     },
     {
       "rank": 20,

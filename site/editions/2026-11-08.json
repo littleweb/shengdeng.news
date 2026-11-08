@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "researchedAt": "2026-11-08T20:37:54+08:00",
+  "researchedAt": "2026-11-08T22:48:45+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -321,6 +321,32 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-08T20:37:54+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-08T14:23:00.000Z",
+      "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+      "title": "Karpathy分享TristanTube：用AI把推荐频道清单做成视频浏览站",
+      "summary": "The Decoder介绍Karpathy后续制作的TristanTube，将Tristan Hume的YouTube频道清单组织成带TV模式的视频浏览站。约4.7万条视频和用Claude Code三分钟完成均为作者自述；本轮确认项目页面可访问，未复测完整视频库、播放表现或构建耗时。",
+      "reason": "提供把现成内容清单转成专用界面的AI编程案例。已通读报道并打开本人项目页；数量与耗时尚未独立验证。",
+      "category": "ai-products",
+      "quote": "one-shotted with Claude Code in 3 minutes",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI玩法",
+        "编码",
+        "AI创作者",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-08T22:48:45+08:00"
     }
   ]
 }
