@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "researchedAt": "2026-11-08T18:26:36+08:00",
+  "researchedAt": "2026-11-08T20:37:54+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -270,6 +270,57 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-08T18:26:36+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-08T11:44:41.000Z",
+      "url": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/",
+      "title": "Sutton重申算力不足以替代算法，研究者讨论扩展路线的误读",
+      "summary": "Matthias Bastian梳理Richard Sutton的新发言及研究者回应。Sutton认为智能仍需要新学习方法；Jerry Tworek强调算法决定能否持续扩展，Jayden Teoh则提醒，不应因一种方法无法永久扩展就否定其阶段性贡献。这些是研究路线判断，尚非证明现有大模型扩展已经失效的实验结论。",
+      "reason": "为判断研究方向提供具体分歧，区别于此前创业实验室盘点。已核对署名全文和精确发布时间；相关X原帖访问受限，观点按媒体转述保留。",
+      "category": "opinion",
+      "quote": "Some algorithms scale, others hit dead ends",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "海外AI",
+        "数据/训练"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-08T20:37:54+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-07T15:35:50.000Z",
+      "url": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/",
+      "title": "网络靶场评测解读：低价开放模型的能力受运行预算影响",
+      "summary": "Matthias Bastian解读Vals CyberOffense评测。原始表格显示，GPT-6 Sol Daybreak与DeepSeek V4.1 Flash在Lighthouse分别完成27和21项任务，总计31项；DeepSeek的大部分进展出现在累计使用一亿Token之后。Nova单次运行成本分别约22美元和不足3美元，不能把这一成本差直接推广到所有安全任务。",
+      "reason": "提醒安全团队同时比较能力、运行预算与成本。全文和精确时间已核对，并对照原始方法及表格；原评测页10月23日已更新，本条为新解读，仅覆盖两个模拟网络，不能视为真实入侵成功率。",
+      "category": "paper",
+      "quote": "Short tests therefore underestimate the real potential of open models.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "openai",
+        "deepseek"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "海外AI",
+        "Agent",
+        "安全/对齐",
+        "开源生态"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-08T20:37:54+08:00"
     }
   ]
 }
