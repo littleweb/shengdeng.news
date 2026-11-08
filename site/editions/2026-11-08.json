@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "researchedAt": "2026-11-07T18:01:34Z",
+  "researchedAt": "2026-11-08T02:44:36Z",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -140,6 +140,38 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-07T18:01:34Z"
+    },
+    {
+      "sourceId": "ithome-ai",
+      "sourceName": "IT之家",
+      "date": "2026-11-07T22:57:42+08:00",
+      "url": "https://www.ithome.com/1/023/824.htm",
+      "title": "Claude Max额度宣传诉讼继续审理，法院尚未认定最终责任",
+      "summary": "清源报道，美国法官Alex Tse在11月6日裁定中，允许Claude Max额度宣传相关的过失性虚假陈述、违约及一名原告的消费者保护诉求继续审理，同时驳回部分其他诉求。争议涉及“5倍或20倍”究竟指会话额度还是月度用量；这并非最终责任或赔偿判决。",
+      "reason": "涉及订阅额度与营销承诺的实际边界，报道与裁定全文相符。案涉倍数属于历史宣传，不能直接作为现行套餐说明。",
+      "category": "industry",
+      "quote": "原告可以继续追究 Anthropic 涉嫌过失性虚假陈述和违约的责任。",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "政策/监管",
+        "海外AI",
+        "AI产品",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "anthropic-claude-max-usage-lawsuit-2026",
+        "title": "Claude Max额度宣传集体诉讼",
+        "factKey": "partial-denial-motion-to-dismiss-2026-11-06",
+        "factTitle": "法院允许额度宣传相关主要诉求继续审理"
+      },
+      "addedAt": "2026-11-08T02:44:36Z"
     }
   ]
 }
