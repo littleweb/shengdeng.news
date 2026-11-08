@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "researchedAt": "2026-11-09T06:25:18+08:00",
+  "researchedAt": "2026-11-09T07:30:15+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -157,6 +157,31 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-09T06:25:18+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-11-08T22:26:00.000Z",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+      "title": "Willison分享AI编程实验：先跑基准，再针对瓶颈优化",
+      "summary": "Simon Willison记录用Claude比较C与Rust版SQLite数值解析扩展的过程：先明确输入、异常处理和比较指标，发现初版Rust更快后，再要求优化C版解析函数。作者报告，优化后C版在三类、各200万行测试中，每行净耗时为16至19纳秒。结果限于该实验，不能推广为C全面优于Rust。",
+      "reason": "提供先测量、再针对瓶颈迭代的AI编程范例，附具体提示词。原文正文＋原站 RSS 时间核验；性能数据来自作者实验，未独立复测。",
+      "category": "tip",
+      "quote": "But the Rust extension was faster!",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "编码",
+        "AI创作者",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-09T07:30:15+08:00"
     }
   ]
 }
