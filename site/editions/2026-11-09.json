@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "researchedAt": "2026-11-09T03:09:40+08:00",
+  "researchedAt": "2026-11-09T05:19:13+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -48,6 +48,64 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-09T03:09:40+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-08T20:22:39.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "title": "英伟达董事会启动独立调查，称目前无理由认为机密受损",
+      "summary": "Terrence O'Brien报道，英伟达董事会宣布就黄仁勋被指成为外国情报行动目标一事启动独立调查，由独立董事委员会在外部独立律师协助下监督。董事会称目前没有理由认为国家安全或公司机密受损，黄仁勋承诺配合，董事会仍信任其及管理团队。调查结果尚未公布。",
+      "reason": "这是既有指控后的重要治理进展。两家媒体原文及精确发布时间已核对；尚未直接读到董事会原站声明，调查启动不代表情报指控成立或已经泄密。",
+      "category": "industry",
+      "quote": "The NVIDIA Board is initiating an independent investigation",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "nvidia-megaspeed-allegations-response-2026-10-29",
+        "title": "英伟达回应Megaspeed相关情报指控",
+        "factKey": "board-independent-investigation-announced-2026-11-08",
+        "factTitle": "英伟达董事会宣布启动独立调查"
+      },
+      "addedAt": "2026-11-09T05:19:13+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-08T21:00:11.000Z",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "title": "TechCrunch交叉确认英伟达董事会启动独立调查",
+      "summary": "Anthony Ha同日报道，英伟达董事会宣布由独立董事与外部律师开展调查，并表示目前没有理由认为国家安全或公司机密受损，黄仁勋将配合审查。该报道确认同一调查启动事实，没有提供情报指控已经成立的独立证据。",
+      "reason": "补充同一董事会公告的媒体交叉记录，正文及精确发布时间已核对。仅作证据，不重复计入精选，也不构成对情报指控的独立证实。",
+      "category": "industry",
+      "quote": "The investigation will be conducted by independent directors working with outside legal counsel.",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "nvidia-megaspeed-allegations-response-2026-10-29",
+        "title": "英伟达回应Megaspeed相关情报指控",
+        "factKey": "board-independent-investigation-announced-2026-11-08",
+        "factTitle": "英伟达董事会宣布启动独立调查"
+      },
+      "addedAt": "2026-11-09T05:19:13+08:00"
     }
   ]
 }
