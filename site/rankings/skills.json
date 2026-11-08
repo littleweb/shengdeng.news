@@ -1,6 +1,6 @@
 {
   "kind": "skills",
-  "capturedAt": "2026-11-08T09:20:08.304Z",
+  "capturedAt": "2026-11-08T10:27:17.009Z",
   "sourceName": "skills.sh",
   "sourceUrl": "https://www.skills.sh/",
   "metric": "累计安装量",
@@ -153,8 +153,8 @@
       "rank": 19,
       "name": "ui-taste",
       "owner": "uizze.sh",
-      "value": 1000000,
-      "displayValue": "1.0M",
+      "value": 1100000,
+      "displayValue": "1.1M",
       "url": "https://www.skills.sh/site/uizze.sh/ui-taste"
     },
     {

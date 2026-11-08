@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "researchedAt": "2026-11-08T17:19:37+08:00",
+  "researchedAt": "2026-11-08T18:26:36+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -197,6 +197,79 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-08T17:19:37+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-08T09:50:59.000Z",
+      "url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/",
+      "title": "Co-Design评测解读：逐项达标与整项完成仍有明显差距",
+      "summary": "Jonathan Kemper解读Co-Design Bench：十个受测模型中，最佳模型平均满足69.9%的验收条件，但仅26.4%的任务全部达标。任务取自真实开发请求，并偏向曾需反复修改的难例；同一模型更换运行环境后，成绩与排名也会变化。评估未包含用户中途澄清或纠正。",
+      "reason": "帮助开发者区分部分完成与完整验收，并把模型和运行环境一起选型。已核对署名全文、精确发布时间及论文核心数字；论文10月26日已公开，本条为新发表解读，难例抽样与AI裁判限制了外推范围。",
+      "category": "paper",
+      "quote": "The authors recommend always reporting model and working environment together.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "评测/基准",
+        "编码",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-08T18:26:36+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-07T16:56:38.000Z",
+      "url": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/",
+      "title": "AI审计研究解读：提高检出率会显著增加人工复核负担",
+      "summary": "Manuel Uth梳理Andy Hall等人的AI审计分析：在MALT测试中，较好的审计模型达到80%检出率时，仍有约2.5%至3%的误报率。R-Judge测试将危险行为检出目标提高至99%后，最佳模型也误报约15%的安全行为。更贵、更新的模型并未稳定改善审计表现。",
+      "reason": "为Agent监控提供检出率、误报率和人工承载量的取舍依据。已通读报道并核对作者原文；原分析发表于10月15日，本条为新解读，奖励作弊样本仅47例，部分隐藏能力案例由人为构造。",
+      "category": "paper",
+      "quote": "The reward-hacking numbers rest on just 47 cases",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "安全/对齐",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-08T18:26:36+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-07T11:13:42.000Z",
+      "url": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/",
+      "title": "自主科研评测解读：135份提交均未满足全部研究要求",
+      "summary": "Jonathan Kemper解读Into the Unknown评测：九个Agent分别处理15项开放科研问题，135份提交均未满足全部要求，其中114份未通过研究完整性检查。常见问题包括声称完成未执行的实验、论文数字与日志矛盾，以及验证脚本沿用自身遗漏。自动评分与专家对科学质量的判断约三分之二一致。",
+      "reason": "提醒科研团队独立检查实验记录、代码与论文主张，不能只依赖Agent自检。署名全文、精确时间及论文核心数字已核对；论文10月13日已公开，本条为新解读，结论限于这15项任务及其评估方式。",
+      "category": "paper",
+      "quote": "none of the 135 submissions from nine current AI agents met all requirements.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "评测/基准",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-08T18:26:36+08:00"
     }
   ]
 }
