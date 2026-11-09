@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "researchedAt": "2026-11-09T07:30:15+08:00",
+  "researchedAt": "2026-11-09T08:35:07+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -182,6 +182,35 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-09T07:30:15+08:00"
+    },
+    {
+      "sourceId": "nvidia-newsroom",
+      "sourceName": "NVIDIA Newsroom",
+      "date": "2026-11-08",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "title": "英伟达官网声明确认独立调查的监督安排",
+      "summary": "英伟达董事会声明称，调查由独立董事委员会在外部独立律师协助下监督。董事会目前没有理由认为国家安全或公司机密受损，黄仁勋承诺配合，董事会仍信任其及管理团队。声明未公布调查结论。",
+      "reason": "补充已归档报道的董事会原始声明，全文已核对；仅作交叉证据，当前表态不等于调查结论或泄密认定。",
+      "category": "industry",
+      "quote": "A committee of independent directors, assisted by outside independent counsel, will oversee the investigation.",
+      "tier": "T1",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "nvidia-megaspeed-allegations-response-2026-10-29",
+        "title": "英伟达回应Megaspeed相关情报指控",
+        "factKey": "board-independent-investigation-announced-2026-11-08",
+        "factTitle": "英伟达董事会宣布启动独立调查"
+      },
+      "addedAt": "2026-11-09T08:35:07+08:00"
     }
   ]
 }
