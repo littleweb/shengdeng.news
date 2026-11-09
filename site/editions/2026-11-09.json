@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "researchedAt": "2026-11-09T08:35:07+08:00",
+  "researchedAt": "2026-11-09T09:40:33+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -211,6 +211,31 @@
         "factTitle": "英伟达董事会宣布启动独立调查"
       },
       "addedAt": "2026-11-09T08:35:07+08:00"
+    },
+    {
+      "sourceId": "rss-latent-space",
+      "sourceName": "Latent Space",
+      "date": "2026-11-08T21:41:44.000Z",
+      "url": "https://latent.space/p/cs146s/",
+      "title": "AI编程教学复盘：用真实开源补丁训练代码判断力",
+      "summary": "Mihail Eric在访谈中介绍，CS146S让学生参与真实开源项目，由维护者审查补丁；处理陌生仓库时，先研究代码、提出备选方案，再由人选择路径并实施测试。访谈还介绍用代码变更讲解和问答检查理解的方法，适合已有编程基础的读者参考。",
+      "reason": "提供可复用的AI编程学习与验收方法，署名正文及精确发布时间已核对。教学与团队实践来自受访者自述，未独立验证学习成效。",
+      "category": "tip",
+      "quote": "The person who maintains the repo reviews the student’s patch.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "编码",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-09T09:40:33+08:00"
     }
   ]
 }
