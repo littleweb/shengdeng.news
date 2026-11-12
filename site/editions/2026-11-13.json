@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "researchedAt": "2026-11-13T00:31:10+08:00",
+  "researchedAt": "2026-11-13T01:39:29+08:00",
   "items": [
     {
       "sourceId": "rss-aws-ml",
@@ -77,6 +77,181 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-13T00:31:10+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-12T17:00:00.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "title": "购物问答测试发现风险网址，出现率包含带警告提及",
+      "summary": "Podqi测试151个品牌、6795条购物回答，Gemini、ChatGPT、Perplexity出现风险网址的比例分别为4%、8%、15%。统计包含推荐、无评价提及及带警告提及，并非诈骗推荐率或成交率。",
+      "reason": "已通读Mia Sato署名全文并核对精确发布时间；研究采用9月人工构造问题，未独立复现，不能代表全部真实购物请求。",
+      "category": "paper",
+      "quote": "Podqi crafted its own prompts",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "google",
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "AI产品",
+        "AI赛道",
+        "搜索",
+        "安全/对齐",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-13T01:39:29+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-12T17:00:00.000Z",
+      "url": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+      "title": "GDC新调查：40%受访开发者称工作中使用生成式AI",
+      "summary": "Jay Peters报道，40%受访开发者称工作中使用生成式AI；免费游戏开发者为58%，纯移动工作室从业者为70%。这些是问卷自述，不能直接推断生产效率或裁员因果。",
+      "reason": "已通读署名报道并核对精确发布时间，提供游戏开发应用差异；完整报告需登记，样本及跨年可比性尚未独立核实。",
+      "category": "paper",
+      "quote": "mobile-only studio workers at 70 percent",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-13T01:39:29+08:00"
+    },
+    {
+      "sourceId": "reuters",
+      "sourceName": "Reuters",
+      "date": "2026-11-12T14:15+00:00",
+      "url": "https://www.reuters.com/business/retail-consumer/warby-parker-bets-google-ai-glasses-growth-privacy-fears-still-loom-2026-11-12/",
+      "title": "Warby Parker开启Gemini眼镜预订，隐私措施仍待现实检验",
+      "summary": "Warby Parker开始接受与Google、三星合作的Gemini眼镜预订。路透采访相关负责人，记录视觉数据不用于AI训练等承诺；隐私组织提醒，这仍无法消除旁人被拍摄的风险。",
+      "reason": "已通读Danielle Kaye署名报道并核对原站时分，与三星公告交叉确认预订；隐私效果尚未独立实测。",
+      "category": "ai-products",
+      "quote": "Shoppers will start placing pre-orders from Warby Parker on Thursday.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI硬件",
+        "多模态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "samsung-google-intelligent-eyewear-2026",
+        "title": "三星与Google合作智能眼镜进入预订阶段",
+        "factKey": "warby-parker-preorders-open-2026-11-12",
+        "factTitle": "Warby Parker智能眼镜开放预订"
+      },
+      "addedAt": "2026-11-13T01:39:29+08:00"
+    },
+    {
+      "sourceId": "samsung-mobile-press",
+      "sourceName": "Samsung Mobile Press",
+      "date": "2026-11-12",
+      "url": "https://samsungmobilepress.com/articles/samsung-intelligent-eyewear-december-release-smarter-way-see-world",
+      "title": "三星公告补充眼镜售价、12月交付计划与激活条件",
+      "summary": "三星确认Warby Parker系列开放预订，计划12月10日上市，美国起价395美元。完整AI功能需配对兼容手机；激活账号需关联正式销售市场，并有18岁年龄要求。",
+      "reason": "已通读官网纽约11月12日公告，仅作同事实交叉证据并保留日期精度；交付与隐私措施仍属厂商承诺。",
+      "category": "ai-products",
+      "quote": "Warby Parker Intelligent Eyewear will start at $395",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI硬件",
+        "多模态",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "samsung-google-intelligent-eyewear-2026",
+        "title": "三星与Google合作智能眼镜进入预订阶段",
+        "factKey": "warby-parker-preorders-open-2026-11-12",
+        "factTitle": "Warby Parker智能眼镜开放预订"
+      },
+      "addedAt": "2026-11-13T01:39:29+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-12T16:36:37.000Z",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+      "title": "美议员称黄仁勋同意出席国会闭门简报，日期仍待协商",
+      "summary": "TechCrunch援引彭博和NBC报道，众议院外委会主席Brian Mast称黄仁勋已同意在感恩节前出席国会闭门简报，预计录像并形成文字记录。具体日期仍待协商，尚未实际作证。",
+      "reason": "已核对全文与秒级发布时间，比此前准备传票新增出席意向；交叉报道均引述Mast，尚未取得国会或黄仁勋原声明。",
+      "category": "industry",
+      "quote": "agreed to testify before Congress by Thanksgiving",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "政策/监管",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "nvidia-megaspeed-allegations-response-2026-10-29",
+        "title": "英伟达回应Megaspeed相关情报指控",
+        "factKey": "huang-agrees-congress-closed-door-briefing-2026-11-12",
+        "factTitle": "议员称黄仁勋同意出席国会闭门简报"
+      },
+      "addedAt": "2026-11-13T01:39:29+08:00"
+    },
+    {
+      "sourceId": "moneycontrol",
+      "sourceName": "Moneycontrol",
+      "date": "2026-11-12T22:09+05:30",
+      "url": "https://www.moneycontrol.com/world/jensen-huang-agrees-to-testify-before-us-congress-ahead-of-thanksgiving-hearing-likely-to-be-under-oath-article-14078545.html",
+      "title": "Moneycontrol交叉记录黄仁勋出席意向，具体日期未定",
+      "summary": "Moneycontrol记录Mast称黄仁勋已同意到场，双方仍在协商具体日期，并称周三晚已暂时同意。报道没有确认简报已经举行。",
+      "reason": "已通读原文并核对印度标准时间，仅作同事实交叉证据；同样依赖议员发言，不构成对相关指控的独立验证。",
+      "category": "industry",
+      "quote": "He has agreed to come. We're in negotiations for which day",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "政策/监管",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "nvidia-megaspeed-allegations-response-2026-10-29",
+        "title": "英伟达回应Megaspeed相关情报指控",
+        "factKey": "huang-agrees-congress-closed-door-briefing-2026-11-12",
+        "factTitle": "议员称黄仁勋同意出席国会闭门简报"
+      },
+      "addedAt": "2026-11-13T01:39:29+08:00"
     }
   ]
 }
