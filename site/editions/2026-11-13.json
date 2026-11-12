@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "researchedAt": "2026-11-13T05:00:53+08:00",
+  "researchedAt": "2026-11-13T05:35:10+08:00",
   "items": [
     {
       "sourceId": "rss-aws-ml",
@@ -528,6 +528,65 @@
         "factTitle": "宣布限制个人AI助手完成机票交易并说明隐私与监管顾虑"
       },
       "addedAt": "2026-11-13T05:00:53+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-12T21:27:10.000Z",
+      "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+      "title": "Nebius营收增长伴随交付延期，2027年拟投入400亿至450亿美元",
+      "summary": "Rebecca Bellan报道，Nebius三季度营收约9.81亿美元，同比增长571%，约三分之一来自一次性付款。第三方机房延期令公司将2026年营收预期下调至约30亿美元；2027年计划资本支出400亿至450亿美元，拟主要依靠客户预付款和合同支持的融资。微软相关剩余容量现计划2027年第二季度交付，报道未取得微软对新日期的确认。",
+      "reason": "揭示AI算力扩张中交付、收入与融资的联动风险。已核对完整署名报道和原站发布时间，官网确认同次财报发布；支出及交付安排仍是公司展望。",
+      "category": "industry",
+      "quote": "Nebius reported third-quarter revenue of $981 million, up 571% from a year earlier.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "AI商业化",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "nebius-q3-2026-results-2026-11-12",
+        "title": "Nebius公布2026年第三季度财报",
+        "factKey": "q3-2026-financial-results-announcement",
+        "factTitle": "公布截至2026年9月30日的第三季度财务结果"
+      },
+      "addedAt": "2026-11-13T05:35:10+08:00"
+    },
+    {
+      "sourceId": "nebius-newsroom",
+      "sourceName": "Nebius Newsroom",
+      "date": "2026-11-12",
+      "url": "https://nebius.com/newsroom/nebius-reports-third-quarter-2026-financial-results",
+      "title": "Nebius官网确认第三季度未审计财报发布",
+      "summary": "Nebius官网公告确认，公司发布截至2026年9月30日三个月及九个月的未审计财务结果，同时发布CEO季度股东信，并安排11月12日美东时间8时举行财报说明会。本条仅补充财报发布动作的官方证据。",
+      "reason": "官网公告与记者报道对应同一次财报发布，仅作交叉证据。保留原文日期精度，不据此证明扩建或盈利目标已兑现。",
+      "category": "industry",
+      "quote": "today announced its unaudited financial results for the three and nine months ended September 30, 2026.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "nebius-q3-2026-results-2026-11-12",
+        "title": "Nebius公布2026年第三季度财报",
+        "factKey": "q3-2026-financial-results-announcement",
+        "factTitle": "公布截至2026年9月30日的第三季度财务结果"
+      },
+      "addedAt": "2026-11-13T05:35:10+08:00"
     }
   ]
 }
