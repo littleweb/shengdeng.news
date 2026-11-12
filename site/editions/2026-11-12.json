@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "researchedAt": "2026-11-12T21:11:19+08:00",
+  "researchedAt": "2026-11-12T22:16:56+08:00",
   "items": [
     {
       "sourceId": "rss-aws-ml",
@@ -1504,6 +1504,64 @@
         "factTitle": "报道披露AI使用后出现逾400条Steam负面评价"
       },
       "addedAt": "2026-11-12T21:11:19+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-12T13:53:16.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-fired-nvidia",
+      "title": "英伟达宣布黄仁勋辞任，CFO Colette Kress临时接任CEO",
+      "summary": "Hayden Field报道，英伟达公告黄仁勋辞去总裁、CEO及董事职务，即刻生效。CFO Colette Kress临时接任CEO，Harvey C. Jones出任董事长，董事会将从内外部寻找正式继任者。相关情报指控仍不能视为已有公开调查结论。",
+      "reason": "AI算力核心供应商出现实质领导层交接，比此前董事会拟讨论去留有明确进展。已核对署名全文与精确发布时间；两家媒体均引述公司声明，尚未直接取得声明全文。",
+      "category": "industry",
+      "quote": "effective immediately",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "nvidia-megaspeed-allegations-response-2026-10-29",
+        "title": "英伟达回应Megaspeed相关情报指控",
+        "factKey": "huang-resignation-kress-interim-ceo-announced-2026-11-12",
+        "factTitle": "公告黄仁勋即刻辞任并任命Kress为临时CEO"
+      },
+      "addedAt": "2026-11-12T22:16:56+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-12T14:11:40.000Z",
+      "url": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value/",
+      "title": "The Decoder交叉记录黄仁勋辞任及Kress临时接任安排",
+      "summary": "报道引述11月12日声明，确认黄仁勋即刻辞去CEO、总裁及董事职务，由CFO Colette Kress临时接任，董事会寻找正式继任者，并由Harvey C. Jones担任董事长。",
+      "reason": "原站全文与精确发布时间已核对，核心人事安排与The Verge一致。仅作同事实交叉证据，两篇均引用公司声明，不代表独立调查结论。",
+      "category": "industry",
+      "quote": "CFO Colette Kress is taking over on an interim basis",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "nvidia-megaspeed-allegations-response-2026-10-29",
+        "title": "英伟达回应Megaspeed相关情报指控",
+        "factKey": "huang-resignation-kress-interim-ceo-announced-2026-11-12",
+        "factTitle": "公告黄仁勋即刻辞任并任命Kress为临时CEO"
+      },
+      "addedAt": "2026-11-12T22:16:56+08:00"
     }
   ]
 }
