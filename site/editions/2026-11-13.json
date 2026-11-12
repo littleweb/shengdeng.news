@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "researchedAt": "2026-11-13T05:35:10+08:00",
+  "researchedAt": "2026-11-13T06:41:13+08:00",
   "items": [
     {
       "sourceId": "rss-aws-ml",
@@ -587,6 +587,122 @@
         "factTitle": "公布截至2026年9月30日的第三季度财务结果"
       },
       "addedAt": "2026-11-13T05:35:10+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-12T22:22:28.000Z",
+      "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+      "title": "Muse向美国付费用户开放商家电话代拨",
+      "summary": "Sarah Perez报道，Meta将此前限量测试的商家代拨功能开放给美国Muse付费用户，可用于尝试餐厅预约和客服联络。订阅起价20美元/月。商家可能挂断AI来电，报道未提供独立的任务完成率测试。",
+      "reason": "日常代办能力扩大开放范围。已核对署名全文与一致的原站发布时间，开放条件依据公司说明，官方原帖尚未直接核对。",
+      "category": "ai-products",
+      "quote": "only paid subscribers have access to the feature",
+      "tier": "T2",
+      "entity": "meta",
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "语音",
+        "海外AI",
+        "Meta"
+      ],
+      "selected": true,
+      "event": {
+        "key": "meta-muse-business-calling-rollout-2026-11-12",
+        "title": "Muse向美国付费用户开放商家代拨",
+        "factKey": "us-paid-business-calling-public-rollout",
+        "factTitle": "商家电话代拨从限量测试扩大到美国付费用户"
+      },
+      "addedAt": "2026-11-13T06:41:13+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-12T21:47:07.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/",
+      "title": "Natera复盘设备排错Agent，平均首响从17.4小时降至约8分钟",
+      "summary": "AWS与Natera介绍SWARM如何结合设备知识库、版本化技能和工程师复核处理实验室设备工单。90天评估覆盖524张工单，平均首次响应从17.4小时降至约8分钟；准确率比较覆盖其中269张有确认结果的工单，高置信组准确率为74%。",
+      "reason": "提供知识覆盖、技能追踪与持续评估的具体做法。已核对官方全文及原站发布时间，成效数据来自合作双方自报，尚缺独立复测。",
+      "category": "tip",
+      "quote": "Average first response time dropped from 17.4 hours to roughly 8 minutes",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI赛道",
+        "Agent",
+        "RAG",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-13T06:41:13+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-12T19:29:55.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets/",
+      "title": "AWS分享按身份控费，明确预算延迟与共享角色限制",
+      "summary": "官方教程用IAM身份标签关联Bedrock账单，再通过AWS Budgets挂载拒绝策略。共享角色可用会话标签区分费用，但预算动作作用于整个角色；预算数据每天最多刷新三次，支出可能越过阈值。新标签进入账单也存在生效延迟。",
+      "reason": "补充成本归因之外的执行边界，便于判断预算能否落实到个人。已核对完整原文与原站精确时间，配置步骤尚未自行部署验证。",
+      "category": "tip",
+      "quote": "Budget data refreshes up to three times a day",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI商业化",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-13T06:41:13+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-12T21:55:32.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+      "title": "The Verge交叉记录Hydrogen接入范围与搜索默认模型变化",
+      "summary": "Stevie Bonifield报道，Gemini 4 Hydrogen开始接入搜索、Gemini应用、AI Studio及API，Google称其成为AI Mode默认模型，并用于AI Overviews中的复杂问题。Antigravity接入面向Google AI Pro与Ultra订阅者。",
+      "reason": "与已归档上线消息对应同一事实，仅作交叉证据。署名原文与原站发布时间一致，能力比较仍为Google自述。",
+      "category": "ai-products",
+      "quote": "now the new default model in AI Mode",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "搜索",
+        "海外AI",
+        "Google"
+      ],
+      "selected": false,
+      "event": {
+        "key": "google-gemini4-hydrogen-release-2026-11-12",
+        "title": "Google发布Gemini 4 Hydrogen并扩大接入",
+        "factKey": "hydrogen-search-app-api-public-rollout",
+        "factTitle": "Hydrogen开始接入全球搜索、Gemini应用与开发入口"
+      },
+      "addedAt": "2026-11-13T06:41:13+08:00"
     }
   ]
 }
