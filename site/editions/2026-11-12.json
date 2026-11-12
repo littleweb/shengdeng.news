@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "researchedAt": "2026-11-12T18:58:16+08:00",
+  "researchedAt": "2026-11-12T20:05:32+08:00",
   "items": [
     {
       "sourceId": "rss-aws-ml",
@@ -1425,6 +1425,56 @@
         "factTitle": "披露Planven领投的2100万美元A轮融资"
       },
       "addedAt": "2026-11-12T18:58:16+08:00"
+    },
+    {
+      "sourceId": "idc-research",
+      "sourceName": "IDC",
+      "date": "2026-11-12",
+      "url": "https://www.idc.com/resource-center/blog/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B5%8B%E8%83%BD%E4%BC%A0%E7%BB%9Fai%EF%BC%8C%E5%BC%80%E5%90%AF%E5%B8%82%E5%9C%BA%E5%A2%9E%E9%95%BF%E6%96%B0%E7%A9%BA%E9%97%B4/",
+      "title": "IDC：中国AI应用公有云上半年规模达67亿元，机器学习平台53亿元",
+      "summary": "IDC解读2026年上半年追踪报告：中国AI应用公有云服务规模67亿元，机器学习平台公有云53亿元、私有化13亿元；计算机视觉私有化43.2亿元，同比增长16.8%。报告认为，大模型与专用模型形成互补，数据治理和工程交付能力影响应用落地。",
+      "reason": "提供中国AI软件分市场数据，便于区分应用、训练平台和私有化需求。已通读IDC中国当日署名原文；公开稿未披露完整统计方法及底层数据。",
+      "category": "paper",
+      "quote": "中国计算机视觉私有化市场同比增长16.8%",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "AI赛道",
+        "AI商业化",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-12T20:05:32+08:00"
+    },
+    {
+      "sourceId": "gartner-newsroom",
+      "sourceName": "Gartner",
+      "date": "2026-11-12",
+      "url": "https://emt.gartnerweb.com/en/newsroom/press-releases/2026-11-12-gartner-forecasts-artificial-intelligence-infrastructure-spending-to-represent-59-percent-of-total-global-artificial-intelligence-spending-in-2027",
+      "title": "Gartner预测2027年全球AI支出4.05万亿美元，基础设施约占59%",
+      "summary": "Gartner在巴塞罗那公布预测，2027年全球AI支出约4.05万亿美元，同比增长47.5%；其中基础设施约2.397万亿美元、占59%，AI软件6490亿美元，Agent与助手670亿美元。这些数字属于市场预测，不能视为已发生采购或企业实际回报。",
+      "reason": "已通读原站当日公告并核对分类表，可比较算力与应用投入的预测结构；公开稿未展开完整估算方法，预测尚待后续实际数据检验。",
+      "category": "paper",
+      "quote": "Global spending on AI infrastructure is projected to total $2.4 trillion in 2027",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "AI赛道",
+        "AI硬件",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-12T20:05:32+08:00"
     }
   ]
 }
