@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "articleId": "r86409c70a4f047e99a48942e",
+  "url": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+  "fetchedAt": "2026-11-12T13:30:29.037Z",
+  "sourceHtml": "<p>Congress is gearing up to subpoena Nvidia CEO Jensen Huang to answer their questions about his affair with <a href=\"https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/\">an alleged Chinese spy</a>, <a href=\"https://www.bloomberg.com/news/articles/2026-11-11/congress-set-to-subpoena-nvidia-s-jensen-huang-republican-says\">Bloomberg reports</a>, citing two House Republicans.&nbsp;</p><p>The report comes a week after House Republicans Brian Mast, John Moolenaar, and Rick Crawford <a href=\"https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-request-jensen-huang-brief-congress-on-link-to-chinese-intelligence-asset\">sent a letter to Huang</a> asking him to appear before their committees for a joint, closed-door briefing in regards to his relations with Alice Huang, the Megaspeed executive and suspected Chinese spy.</p><p>House China committee Chairman Moolenaar said Wednesday on Fox Business that Huang has until the end of the day to respond to the request. If he doesn’t agree to the briefing, he’ll likely be subpoenaed, said Moolenaar.</p><p>Mast, who chairs the House Foreign Affairs Committee, on Wednesday said his committee is preparing a subpoena for Huang to send if he doesn’t respond.&nbsp;</p><p>Nvidia did not immediately respond to TechCrunch’s request for comment.</p>",
+  "sourceHash": "676660fb9b711a1d1bdce8556d5bfdc44105820b2d87e13926880d593196a43b",
+  "language": "und",
+  "translation": {
+    "method": "local-codex",
+    "translatedAt": "2026-11-12T13:30:49.733Z",
+    "html": "<p>据<a href=\"https://www.bloomberg.com/news/articles/2026-11-11/congress-set-to-subpoena-nvidia-s-jensen-huang-republican-says\">彭博社报道</a>，两名众议院共和党议员透露，国会正准备传唤英伟达首席执行官黄仁勋，要求他就自己与<a href=\"https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/\">一名涉嫌为中国从事间谍活动的女子</a>的私情回答质询。&nbsp;</p><p>一周前，众议院共和党议员 Brian Mast、John Moolenaar 和 Rick Crawford <a href=\"https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-request-jensen-huang-brief-congress-on-link-to-chinese-intelligence-asset\">致信黄仁勋</a>，要求他出席由他们各自所在委员会联合举行的闭门简报会，说明他与 Megaspeed 高管、涉嫌为中国从事间谍活动的 Alice Huang 之间的关系。此后便出现了上述报道。</p><p>众议院中国问题委员会主席 Moolenaar 周三在福克斯商业频道表示，黄仁勋必须在当天结束前回应这一要求。Moolenaar 说，如果他不同意出席简报会，很可能会被传唤。</p><p>众议院外交事务委员会主席 Mast 周三表示，他的委员会正在为黄仁勋准备传票，如果他不作回应，就会发出传票。&nbsp;</p><p>英伟达未立即回应 TechCrunch 的置评请求。</p>",
+    "complete": true
+  }
+}
