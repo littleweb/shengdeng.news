@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "articleId": "rc4312adb767125dc510734b0",
+  "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
+  "fetchedAt": "2026-11-12T16:20:01.745Z",
+  "sourceHtml": "<p><a href=\"https://simonwillison.net/elsewhere/tool/\">Tool</a>\n    \n    <span><a href=\"https://tools.simonwillison.net/yonkers-rises\">Yonkers Rises</a></span>\n    <span>— Yonkers Rises is an animated 3D diorama of New York City in which a giant mech, cut from the Yonkers boundary, rises from the ground and walks through Manhattan, Brooklyn, Queens, and the Bronx while a stomp counter and mech height readout track its progress. The scene plays a stand-up sequence followed by a looping stomping tour, with buildings flattened under each footfall, and the status line changes as it moves across land or wades through water.</span>\n  </p><p>I realized I didn't know where Yonkers was, so I looked it up on Google Maps and then, to help embed its location and shape in my head (and to try out Claude Fable 5.2's 3D modeling and animation skills), I <a href=\"https://claude.ai/share/97443910-2e0a-4e17-9b9e-11d14d8ff65c\">prompted Fable 5.2 Medium</a> to:</p><blockquote>\n<p><code>Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and átomos around manhattan and queens and Brooklyn, use openstreetmap mapping data</code></p>\n</blockquote><p>It correctly deduced that \"átomos\" was a mobile keyboard typo for \"stomps\":</p><video controls=\"\" playsinline=\"\" preload=\"none\" width=\"572\" height=\"360\" poster=\"https://static.simonwillison.net/static/2026/yonkers.webp\">\n  <source src=\"https://static.simonwillison.net/static/2026/yonkers-large.mp4\" type=\"video/mp4\">\n</video>",
+  "sourceHash": "cb325b0d36638fbd2bf3006262a13e99db2a62263bfc64551f807223cbe67a27",
+  "language": "und",
+  "translation": {
+    "method": "local-codex",
+    "translatedAt": "2026-11-12T16:20:24.854Z",
+    "html": "<p><a href=\"https://simonwillison.net/elsewhere/tool/\">工具</a>\n    \n    <span><a href=\"https://tools.simonwillison.net/yonkers-rises\">Yonkers Rises</a></span>\n    <span>— Yonkers Rises 是一个以纽约市为场景的动态 3D 立体模型，其中一台按扬克斯市边界轮廓切割而成的巨型机甲从地面升起，穿行于曼哈顿、布鲁克林、皇后区和布朗克斯，跺脚计数器和机甲高度读数会跟踪显示其行进情况。场景先播放一段起身动画，随后循环播放跺脚巡游，每次落脚都会踩平脚下的建筑，状态栏文字则会随机甲在陆地上行走或涉水前进而变化。</span>\n  </p><p>我发现自己不知道扬克斯在哪里，于是在 Google Maps 上查了一下。接着，为了把它的位置和形状记在脑海里（也为了试试 Claude Fable 5.2 的 3D 建模和动画能力），我<a href=\"https://claude.ai/share/97443910-2e0a-4e17-9b9e-11d14d8ff65c\">向 Fable 5.2 Medium 输入了提示词</a>，让它：</p><blockquote>\n<p><code>Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and átomos around manhattan and queens and Brooklyn, use openstreetmap mapping data</code></p>\n</blockquote><p>它正确推断出，“átomos”是在手机键盘上输入“stomps”时打错的词：</p><video controls=\"\" playsinline=\"\" preload=\"none\" width=\"572\" height=\"360\" poster=\"https://static.simonwillison.net/static/2026/yonkers.webp\">\n  <source src=\"https://static.simonwillison.net/static/2026/yonkers-large.mp4\" type=\"video/mp4\">\n</video>",
+    "complete": true
+  }
+}
