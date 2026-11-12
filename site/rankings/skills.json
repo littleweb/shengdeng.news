@@ -1,6 +1,6 @@
 {
   "kind": "skills",
-  "capturedAt": "2026-11-12T12:06:12.157Z",
+  "capturedAt": "2026-11-12T13:05:30.316Z",
   "sourceName": "skills.sh",
   "sourceUrl": "https://www.skills.sh/",
   "metric": "累计安装量",
@@ -153,16 +153,16 @@
       "rank": 25,
       "name": "domain-modeling",
       "owner": "mattpocock/skills",
-      "value": 970200,
-      "displayValue": "970.2K",
+      "value": 970700,
+      "displayValue": "970.7K",
       "url": "https://www.skills.sh/mattpocock/skills/domain-modeling"
     },
     {
       "rank": 26,
       "name": "codebase-design",
       "owner": "mattpocock/skills",
-      "value": 945400,
-      "displayValue": "945.4K",
+      "value": 945800,
+      "displayValue": "945.8K",
       "url": "https://www.skills.sh/mattpocock/skills/codebase-design"
     }
   ]

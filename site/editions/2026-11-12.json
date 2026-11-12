@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "researchedAt": "2026-11-12T20:05:32+08:00",
+  "researchedAt": "2026-11-12T21:11:19+08:00",
   "items": [
     {
       "sourceId": "rss-aws-ml",
@@ -1475,6 +1475,35 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-12T20:05:32+08:00"
+    },
+    {
+      "sourceId": "rss-ars-technica-ai",
+      "sourceName": "Ars Technica · AI",
+      "date": "2026-11-11T17:37:32+00:00",
+      "url": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
+      "title": "Big Walk披露AI排错后遭逾400条差评，整体仍为特别好评",
+      "summary": "Kyle Orland报道，Big Walk披露少量AI辅助排错后，Steam近几天出现逾400条负面评价。平台反刷评机制限制其影响，游戏整体仍为“特别好评”；部分评委拒投使用生成式AI的作品，不代表IGF整体政策。",
+      "reason": "补充此前开发披露之外的玩家反应。原文正文＋原站 RSS 时间核验；数量为报道时快照，未独立重算。",
+      "category": "industry",
+      "quote": "over 400 negative reviews",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "编码",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "big-walk-ai-development-disclosure-2026-11",
+        "title": "House House披露Big Walk的AI辅助开发使用",
+        "factKey": "steam-negative-review-wave-reported-2026-11-11",
+        "factTitle": "报道披露AI使用后出现逾400条Steam负面评价"
+      },
+      "addedAt": "2026-11-12T21:11:19+08:00"
     }
   ]
 }

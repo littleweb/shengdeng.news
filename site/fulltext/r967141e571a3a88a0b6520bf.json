@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "articleId": "r967141e571a3a88a0b6520bf",
+  "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+  "fetchedAt": "2026-11-12T13:06:45.804Z",
+  "sourceHtml": "<p>11th November 2026 - Link Blog</p><p><strong><a href=\"https://github.com/aws/aws-emulator\">aws-emulator</a></strong>. Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so.</p><p>It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Sivasubramanian wrote about <a href=\"https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html\">how it came to be</a> in a guest post on Werner Vogels' blog.</p><p>It currently requires Docker to run on macOS or Windows. I'm hoping they fix that in the future - it would be great if you could download a single binary and use that as part of a standard test suite in other languages and on other platforms.</p>",
+  "sourceHash": "5c96db7dd0abd353c4005d80bc6a874091775a2f1f1447e027be25184685dc2f",
+  "language": "und",
+  "translation": {
+    "method": "local-codex",
+    "translatedAt": "2026-11-12T13:07:02.560Z",
+    "html": "<p>2026年11月11日 - 链接博客</p><p><strong><a href=\"https://github.com/aws/aws-emulator\">aws-emulator</a></strong>。终于，AWS 推出了官方模拟器，可以在本地模拟其众多不同服务来运行测试，无需为此配置付费 API 密钥。</p><p>它由一大群智能体用 Rust 编写而成——项目启动后的前三周就产生了 29,684 次提交。Swaminathan (Swami) Sivasubramanian 在 Werner Vogels 博客的一篇客座文章中讲述了<a href=\"https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html\">它的诞生过程</a>。</p><p>目前，在 macOS 或 Windows 上运行它需要 Docker。我希望他们将来能解决这一点——如果能下载一个独立的二进制文件，并将其用于其他语言和其他平台上的标准测试套件，那就太好了。</p>",
+    "complete": true
+  }
+}
