@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "articleId": "r7c3a9f92f90264bb51255511",
+  "url": "https://www.nbd.com.cn/articles/2026-11-10/4643574.html",
+  "fetchedAt": "2026-11-12T14:51:16.823Z",
+  "sourceHtml": "<p>\n          <span>\n            每日经济新闻\n          </span>\n          <span>\n            2026-11-10 14:04:36\n          </span>\n        </p><p>每经AI快讯，11月10日，据美团消息，美团正式开源LongCat-2.5，采用MIT协议，支持商用推理部署与二次训练，无需额外授权。据介绍，LongCat-2.5是面向长程智能体任务的原生多模态模型，模型总参数1.6万亿，每个token激活约480亿参数，支持一百万上下文。</p><p>如需转载请与《每日经济新闻》报社联系。<br>未经《每日经济新闻》报社授权，严禁转载或镜像，违者必究。</p><p>读者热线：4008890008</p>",
+  "sourceHash": "18bfbe0fb8723ac2d4e46fac62255fdf18d08dc38bbd5e1c5618c8ab206cb596",
+  "language": "zh",
+  "translation": null
+}

@@ -1,6 +1,6 @@
 {
   "kind": "skills",
-  "capturedAt": "2026-11-12T14:05:31.664Z",
+  "capturedAt": "2026-11-12T15:05:32.547Z",
   "sourceName": "skills.sh",
   "sourceUrl": "https://www.skills.sh/",
   "metric": "累计安装量",
@@ -103,19 +103,19 @@
     },
     {
       "rank": 16,
-      "name": "ui-taste",
-      "owner": "uizze.sh",
-      "value": 1100000,
-      "displayValue": "1.1M",
-      "url": "https://www.skills.sh/site/uizze.sh/ui-taste"
-    },
-    {
-      "rank": 17,
       "name": "grilling",
       "owner": "mattpocock/skills",
       "value": 1100000,
       "displayValue": "1.1M",
       "url": "https://www.skills.sh/mattpocock/skills/grilling"
+    },
+    {
+      "rank": 17,
+      "name": "ui-taste",
+      "owner": "uizze.sh",
+      "value": 1100000,
+      "displayValue": "1.1M",
+      "url": "https://www.skills.sh/site/uizze.sh/ui-taste"
     },
     {
       "rank": 18,
@@ -153,16 +153,16 @@
       "rank": 25,
       "name": "domain-modeling",
       "owner": "mattpocock/skills",
-      "value": 970700,
-      "displayValue": "970.7K",
+      "value": 971200,
+      "displayValue": "971.2K",
       "url": "https://www.skills.sh/mattpocock/skills/domain-modeling"
     },
     {
       "rank": 26,
       "name": "codebase-design",
       "owner": "mattpocock/skills",
-      "value": 945800,
-      "displayValue": "945.8K",
+      "value": 946300,
+      "displayValue": "946.3K",
       "url": "https://www.skills.sh/mattpocock/skills/codebase-design"
     }
   ]
