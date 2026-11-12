@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "researchedAt": "2026-11-13T01:39:29+08:00",
+  "researchedAt": "2026-11-13T02:46:46+08:00",
   "items": [
     {
       "sourceId": "rss-aws-ml",
@@ -252,6 +252,55 @@
         "factTitle": "议员称黄仁勋同意出席国会闭门简报"
       },
       "addedAt": "2026-11-13T01:39:29+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-12T17:00:00.000Z",
+      "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+      "title": "Phota推出iOS照片助手，主打自动修图与人物保真",
+      "summary": "Phota Labs推出iOS照片助手，可自动挑选和编辑照片，并按不同摄影风格调整构图、光线或视角。Aisha Malik采访创始人称，应用初期免费，之后考虑免费增值模式，Android版仍属计划。人物保真及用户拍照意愿提升均为团队自述。",
+      "reason": "已通读署名采访并核对精确发布时间，官网也确认iOS下载入口；为日常照片处理提供新选择，实际效果与免费额度尚未独立实测。",
+      "category": "ai-products",
+      "quote": "Phota Labs is launching as a free app",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI创业",
+        "图像生成",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-13T02:46:46+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-12T17:00:52.000Z",
+      "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+      "title": "软银燃机押注失利，能源专家讨论AI机房的供电取舍",
+      "summary": "Tim De Chant采访能源专家，分析为提前取得燃机而超额预订，如何转化为不可退押金的损失。另一位专家提出，部分数据中心可考虑较小电网接入配合大型电池削峰。季度亏损属于此前披露背景，天然气需求可能见顶是作者判断。",
+      "reason": "已通读原文并核对精确发布时间，新增采购风险解释及供电方案权衡；损失数字依赖报道，专家方案尚未独立验证。",
+      "category": "opinion",
+      "quote": "This charge is just that price discovery finally happening",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "现象/趋势",
+        "AI赛道",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-13T02:46:46+08:00"
     }
   ]
 }
