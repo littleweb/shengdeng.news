@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-13",
+  "researchedAt": "2026-11-13T00:31:10+08:00",
+  "items": [
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-12T15:38:47.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/from-prototype-to-production-engineering-agents-with-agent-dlc/",
+      "title": "AWS演示知识库排错：检索片段相关，仍可能缺少答案",
+      "summary": "AWS用三道HR政策问题演示，检索片段全部相关，仍可能没有覆盖实际问题。一次提示词修改改善了其中一题，却使缺少病假政策资料的问题继续变差。文章建议分别检查资料覆盖、回答依据与隐私约束，每次只改一个变量，并重复评估。",
+      "reason": "提供了区分资料缺失与提示词问题的具体对照。已通读原文，网页与原站订阅时间一致；实验仅为小型参考实现，不能推广为生产效果。",
+      "category": "tip",
+      "quote": "Chunk-level precision is 1.00 for all three questions.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "海外AI",
+        "Agent",
+        "RAG"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-13T00:31:10+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-12T15:40:24.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/fine-grained-access-control-for-amazon-bedrock-managed-knowledge-base-tools/",
+      "title": "AWS分享知识库权限实践：可信代码写入身份，再检查绕过路径",
+      "summary": "AWS通过共享知识库示例，展示从已验证登录信息写入检索身份，再独立核对工具参数与令牌身份，并限制绕过网关的直接检索。示例还测试伪造其他用户、移除拦截器及管理员直接访问等路径。S3文档权限变更需要同步后才生效。",
+      "reason": "补充了身份注入之外的独立校验和绕过测试，适合多租户Agent参考。已通读原文，网页与原站订阅时间一致；示例依赖相应AWS服务，未独立复测。",
+      "category": "tip",
+      "quote": "The design principle is to not let the LLM decide who the user is.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "海外AI",
+        "Agent",
+        "MCP/工具调用",
+        "RAG"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-13T00:31:10+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-12T15:42:21.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws/",
+      "title": "AWS演示跨组织A2A协作：不同框架双向调用，各自保管密钥",
+      "summary": "参考架构让两个AWS账号中的LangChain与Strands Agent通过A2A协作，被调用方还能回调企业Agent获取上下文。双方只交换公开接入信息，各自保管密钥。教程提供三个部署Notebook、端到端验证及七项信任边界检查。",
+      "reason": "给出了跨框架双向协作的接入和验证方法。已通读原文，网页与原站订阅时间一致；示例使用合成数据，仅建议在沙箱运行，部署会产生资源费用。",
+      "category": "tip",
+      "quote": "the two sides share no secrets.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "海外AI",
+        "Agent",
+        "部署/工程"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-13T00:31:10+08:00"
+    }
+  ]
+}

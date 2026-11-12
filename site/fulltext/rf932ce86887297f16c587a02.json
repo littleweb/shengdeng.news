@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "articleId": "rf932ce86887297f16c587a02",
+  "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+  "fetchedAt": "2026-11-12T16:31:44.164Z",
+  "sourceHtml": "<p>10th November 2026</p><blockquote><p>Claude Fable 5.2 pays close attention to who owns the code it works on. In Anthropic’s testing on small coding tasks, the model tended to add to the existing structure when the prompt said nothing about ownership or presented the code base as someone else’s, even when that duplicated existing code. When the prompt said the code base was the model’s own, it often consolidated duplicated code and sometimes made related fixes without being asked.</p>\n<p>If you want the model to improve the structure as it works, say that the code is its own:</p>\n<blockquote>\n<p><code>You are the owner and long-term maintainer of this codebase, and its design is up to you.</code></p>\n</blockquote>\n<p>The ownership sentence makes the model much more likely to consolidate duplicated code into one shared function. In Anthropic’s testing on small coding tasks, the model consolidated duplicated code in under 10 percent of runs without the sentence and in about 75 percent of runs with it.</p></blockquote><p>— <a href=\"https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2#say-who-owns-the-code\">Prompting Claude Fable 5.2</a>, <span>Anthropic documentation</span></p>",
+  "sourceHash": "8541618e2914a30c84aaa6971264e90f6ced824a28ab05cacba7bd2de8705ac4",
+  "language": "und",
+  "translation": {
+    "method": "local-codex",
+    "translatedAt": "2026-11-12T16:32:02.448Z",
+    "html": "<p>2026年11月10日</p><blockquote><p>Claude Fable 5.2 非常关注它所处理代码的归属。在 Anthropic 的小型编程任务测试中，当提示词未提及代码归属，或将代码库描述为他人所有时，模型往往会在现有结构上添加代码，即使这样会造成代码重复。当提示词说明代码库属于模型自己时，它经常会合并重复代码，有时还会在未被要求的情况下修复相关问题。</p>\n<p>如果你希望模型在工作过程中改进代码结构，可以说明代码是它自己的：</p>\n<blockquote>\n<p><code>You are the owner and long-term maintainer of this codebase, and its design is up to you.</code></p>\n</blockquote>\n<p>这句说明代码归属的话，会大幅提高模型将重复代码合并为一个共享函数的可能性。在 Anthropic 的小型编程任务测试中，没有这句话时，模型合并重复代码的运行次数占比不到 10%；加上这句话后，这一比例约为 75%。</p></blockquote><p>— <a href=\"https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2#say-who-owns-the-code\">Claude Fable 5.2 提示指南</a>，<span>Anthropic 文档</span></p>",
+    "complete": true
+  }
+}
