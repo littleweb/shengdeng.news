@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "researchedAt": "2026-11-12T22:16:56+08:00",
+  "researchedAt": "2026-11-12T23:24:38+08:00",
   "items": [
     {
       "sourceId": "rss-aws-ml",
@@ -1562,6 +1562,32 @@
         "factTitle": "公告黄仁勋即刻辞任并任命Kress为临时CEO"
       },
       "addedAt": "2026-11-12T22:16:56+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-11T19:19:21+00:00",
+      "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-delivery-with-reusable-assets/",
+      "title": "AWS分享组件复用流程：检查维护与安全，部署后验证并清理资源",
+      "summary": "AWS整理自2023年以来发布的23项开源组件，并演示客服Agent的选型、部署和验收流程。示例需要相应AWS权限及Bedrock模型访问权，部署后用随附Notebook验证；练习结束还需清理资源栈和关联服务，避免持续收费。",
+      "reason": "可借鉴组件选型、维护检查与部署验收方法。原文正文＋原站 RSS 时间核验；示例依赖AWS服务，节省时间等成效来自厂商案例，未独立复测。",
+      "category": "tip",
+      "quote": "Validate the deployment using the included Jupyter notebooks.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "部署/工程",
+        "RAG",
+        "开源生态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-12T23:24:38+08:00"
     }
   ]
 }
