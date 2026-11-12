@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "articleId": "r460872e68e9eeabbb2b493e0",
+  "url": "https://simonwillison.net/2026/Nov/11/llm/",
+  "fetchedAt": "2026-11-12T19:39:27.001Z",
+  "sourceHtml": "<p>Fixes a security issue reported by <a href=\"https://github.com/BluePlexus\">Daniel de Araujo</a> in <a href=\"https://github.com/simonw/llm/security/advisories/GHSA-v9h7-jj4g-f862\">GHSA-v9h7-jj4g-f862</a> and <a href=\"https://github.com/simonw/llm/security/advisories/GHSA-r639-rr7r-x72w\">GHSA-r639-rr7r-x72w</a>.</p><p>LLM has a mechanism called <a href=\"https://llm.datasette.io/en/stable/other-models.html#configure-an-openai-compatible-model\">extra-openai-models.yaml</a> - now managed by the new-in-0.37 <a href=\"https://llm.datasette.io/en/stable/other-models.html#openai-endpoint-add\">llm openai endpoint add</a> command - for using LLM with OpenAI-compatible API endpoints from other providers.</p><p>Daniel reported two ways this could accidentally send your configured OpenAI API key to one of those providers: if the key named by <code>api_key_name</code> had never been stored, or if a <code>responses: true</code> model was run with <code>-o chat_completions 1</code>.</p>",
+  "sourceHash": "4dafad71c599f2d6f7938e33a155868973604ac42f703d03793fbcbb557cccfc",
+  "language": "und",
+  "translation": {
+    "method": "local-codex",
+    "translatedAt": "2026-11-12T19:39:42.185Z",
+    "html": "<p>修复了 <a href=\"https://github.com/BluePlexus\">Daniel de Araujo</a> 在 <a href=\"https://github.com/simonw/llm/security/advisories/GHSA-v9h7-jj4g-f862\">GHSA-v9h7-jj4g-f862</a> 和 <a href=\"https://github.com/simonw/llm/security/advisories/GHSA-r639-rr7r-x72w\">GHSA-r639-rr7r-x72w</a> 中报告的安全问题。</p><p>LLM 有一种名为 <a href=\"https://llm.datasette.io/en/stable/other-models.html#configure-an-openai-compatible-model\">extra-openai-models.yaml</a> 的机制，用于让 LLM 使用其他提供商的 OpenAI 兼容 API 端点。该机制现在由 0.37 版新增的 <a href=\"https://llm.datasette.io/en/stable/other-models.html#openai-endpoint-add\">llm openai endpoint add</a> 命令管理。</p><p>Daniel 报告了两种可能导致此机制意外将你配置的 OpenAI API 密钥发送给其中某个提供商的情况：<code>api_key_name</code> 指定名称的密钥从未存储过，或者运行 <code>responses: true</code> 模型时使用了 <code>-o chat_completions 1</code>。</p>",
+    "complete": true
+  }
+}

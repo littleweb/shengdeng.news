@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "researchedAt": "2026-11-13T02:46:46+08:00",
+  "researchedAt": "2026-11-13T03:52:48+08:00",
   "items": [
     {
       "sourceId": "rss-aws-ml",
@@ -301,6 +301,126 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-13T02:46:46+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-12T19:27:45.000Z",
+      "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "title": "Google向全球搜索推送Hydrogen，Gemini与API同步接入",
+      "summary": "Sarah Perez报道，Google开始向全球搜索用户推送Gemini 4 Hydrogen，改善复杂问题理解、查询拆分及视觉回答，并接入Gemini应用、AI Studio和API。Antigravity接入面向AI Pro与Ultra订阅者。速度与能力提升数字来自Google，尚未独立复测。",
+      "reason": "涉及搜索和开发入口的广泛可用性变化。已通读署名全文，网页与原站订阅时间一致；官方公告未能直接打开，性能主张保留为厂商自述。",
+      "category": "ai-products",
+      "quote": "rolling out to all Search users globally",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "搜索",
+        "Agent",
+        "海外AI",
+        "Google"
+      ],
+      "selected": true,
+      "event": {
+        "key": "google-gemini4-hydrogen-release-2026-11-12",
+        "title": "Google发布Gemini 4 Hydrogen并扩大接入",
+        "factKey": "hydrogen-search-app-api-public-rollout",
+        "factTitle": "Hydrogen开始接入全球搜索、Gemini应用与开发入口"
+      },
+      "addedAt": "2026-11-13T03:52:48+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-12T19:11:00.000Z",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "title": "Nectar推出创作者营销Agent，覆盖筛选、联络与合作管理",
+      "summary": "Nectar向全球推出Creator Agent，覆盖Instagram与TikTok创作者，可筛选合作对象、起草和发送品牌消息，并管理合作及追踪活动表现。团队称其检索范围超过3亿个创作者档案；通过MCP接入其他助手仍属后续计划，报道未披露定价或独立成效测试。",
+      "reason": "展示营销Agent从内容生成扩展到合作执行的具体产品形态。已通读Lauren Forristal署名全文并核对精确发布时间；检索规模与能力描述主要来自团队。",
+      "category": "ai-products",
+      "quote": "Creator Agent is available today globally",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI创业",
+        "AI赛道",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "nectar-creator-agent-launch-2026-11-12",
+        "title": "Nectar推出Creator Agent",
+        "factKey": "global-instagram-tiktok-creator-agent-launch",
+        "factTitle": "向全球推出覆盖Instagram与TikTok的创作者营销Agent"
+      },
+      "addedAt": "2026-11-13T03:52:48+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-12T18:43:19.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-per-task-and-proving-agent-roi-on-amazon-bedrock/",
+      "title": "AWS分享Agent回报核算：计入重试与人工复核，再做对照实验",
+      "summary": "AWS建议按完成一个任务的全部调用计算成本，分别记录缓存、推理、重试和人工复核时间，再与上线前测得的人工基线比较。文章给出运行记录与成本关联示例，并建议用留出组区分Agent贡献和业务自然变化。低价模型反而更贵的数字是演示算例。",
+      "reason": "补充了成功任务成本、人工复核和对照实验的具体做法，可用于审查Agent回报宣传。已通读原文，网页与原站订阅时间一致；示例未经独立复测。",
+      "category": "tip",
+      "quote": "Baselines must be measured before the agent goes live",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI商业化",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-13T03:52:48+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-12T17:59:59.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime/",
+      "title": "AgentCore Runtime扩容至8核32GB，新增闲置缩容与文件系统挂载",
+      "summary": "AWS宣布更新AgentCore Runtime，会话最高支持8个vCPU、32GB内存及10GB容器镜像，新增内存回收、闲置缩容和文件系统挂载。常驻会话的承诺基线仍按最低内存计费。按会话凭据限定存储目录计划到re:Invent提供，尚未作为本次已完成功能。",
+      "reason": "同时改变Agent部署容量、资源计费与数据访问方式。已通读官网全文并核对精确发布时间；启动提速和节省比例属于厂商及客户自述，未独立验证。",
+      "category": "ai-products",
+      "quote": "up to 8 vCPUs and 32 GB",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "aws-agentcore-runtime-upgrade-2026-11-12",
+        "title": "AWS更新AgentCore Runtime",
+        "factKey": "runtime-compute-idle-memory-filesystem-update",
+        "factTitle": "扩大运行容量并更新闲置资源管理与文件系统挂载"
+      },
+      "addedAt": "2026-11-13T03:52:48+08:00"
     }
   ]
 }
