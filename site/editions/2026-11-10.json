@@ -1,0 +1,1553 @@
+{
+  "date": "2026-11-10",
+  "researchedAt": "2026-11-10T23:39:14+08:00",
+  "items": [
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-09T15:38:56.000Z",
+      "url": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+      "title": "迪士尼与Adobe宣布多年合作，开发定制生成式AI模型",
+      "summary": "Jess Weatherbed报道，迪士尼与Adobe在MAX大会宣布多年合作，拟通过Firefly Foundry开发围绕迪士尼角色、场景和视觉风格的专有生成式模型，并提供创作技术的提前访问。报道提到Imagineering已使用Firefly进行主题乐园开发；StudioLAB和ESPN的进一步应用仍属合作方向，未公布可独立核验的提效数据。",
+      "reason": "展示内容产业将定制AI接入制作流程的具体合作。署名原文与精确发布时间已核对；商用安全及提效属于厂商主张，尚未独立验证。",
+      "category": "industry",
+      "quote": "The Walt Disney Company has teamed up with Adobe",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "图像生成",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "disney-adobe-generative-ai-alliance-2026-11-09",
+        "title": "迪士尼与Adobe宣布定制生成式AI合作",
+        "factKey": "multiyear-alliance-announcement",
+        "factTitle": "宣布多年合作并开发迪士尼定制生成式模型"
+      },
+      "addedAt": "2026-11-10T00:02:06+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-09T16:12:28.000Z",
+      "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+      "title": "Medium推出TK写作工具，将AI助手与草稿协作放进编辑器",
+      "summary": "Sarah Perez报道，Medium推出TK，用户可在编辑器中通过@TK请求帮助、调用已保存文字，并邀请他人反馈草稿。发布时提供网页版，Medium账号可免费使用；桌面版仍在规划。工具支持说明写作中的AI使用情况，内容不加密，可设置访问权限。",
+      "reason": "为写作者提供结合素材整理、AI辅助与人工反馈的新入口。完整报道及精确发布时间已核对；免费范围来自公司说明，尚未实测。",
+      "category": "ai-products",
+      "quote": "At launch, TK is available on the web",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI创作者",
+        "MCP/工具调用",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "medium-tk-writing-app-launch-2026-11-09",
+        "title": "Medium发布TK写作与协作工具",
+        "factKey": "tk-web-launch-ai-assistance-collaboration",
+        "factTitle": "推出结合AI辅助与草稿协作的TK网页版"
+      },
+      "addedAt": "2026-11-10T01:08:25+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-09T16:56:54.000Z",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "title": "据报Anthropic斥资34亿美元接手燃气发电机订单",
+      "summary": "Tim De Chant援引《金融时报》报道，Anthropic以34亿美元采购OnePWR原先向Caterpillar订购的燃气发电设备，所涉设备总发电能力最高为1.7吉瓦。报道将此举与AI算力供电紧张联系起来，但没有确认设备已全部交付或相关设施已经投运。",
+      "reason": "涉及AI扩张从租用算力延伸至供电设备采购。已核对完整报道、作者及精确时间；交易信息转引《金融时报》，未获参与方原文独立确认。",
+      "category": "industry",
+      "quote": "The generators are capable of producing up to 1.7 gigawatts of electricity.",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "AI商业化",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "anthropic-gas-generator-purchase-report-2026-11",
+        "title": "媒体报道Anthropic采购燃气发电设备",
+        "factKey": "reported-34b-17gw-caterpillar-generator-purchase",
+        "factTitle": "据报以34亿美元采购最高1.7吉瓦燃气发电设备"
+      },
+      "addedAt": "2026-11-10T01:08:25+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-09T14:30:00.000Z",
+      "url": "https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech",
+      "title": "FluxCap创始人介绍AI反垄断工具：检查论证漏洞、检索诉讼证据",
+      "summary": "Lauren Feiner采访前美国司法部反垄断负责人Jonathan Kanter，介绍其与Doha Mekki创办的FluxCap。工具面向反垄断法律研究、论证检查及证据检索；团队称经过数月测试，Kressin Powers为首批客户之一。扩展其他法律领域仍属计划。",
+      "reason": "提供法律AI创业的具体任务与客户线索，说明证据语境为何难以自动判断。署名采访全文及精确时间已核对；客户和效率描述仍属团队自述。",
+      "category": "ai-products",
+      "quote": "helps plaintiffs build and strengthen cases",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI创业",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-10T01:08:25+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-09T16:54:16.000Z",
+      "url": "https://the-decoder.com/disney-bets-on-adobes-firefly-to-create-brand-safe-ai-models-for-its-entertainment-empire/",
+      "title": "The Decoder交叉记录迪士尼与Adobe定制AI合作",
+      "summary": "The Decoder报道同次多年合作：Adobe拟通过Firefly Foundry开发适配迪士尼角色、环境和视觉风格的专有模型，并向相关团队提供技术提前访问。报道区分Imagineering现有使用与StudioLAB、ESPN后续合作方向，未提供独立提效测量。",
+      "reason": "补充已归档合作的媒体交叉记录，正文与精确发布时间已核对。核心信息仍来自厂商，不构成独立效果验证，不重复精选。",
+      "category": "industry",
+      "quote": "The multi-year partnership was announced at Adobe's MAX conference",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "图像生成",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "disney-adobe-generative-ai-alliance-2026-11-09",
+        "title": "迪士尼与Adobe宣布定制生成式AI合作",
+        "factKey": "multiyear-alliance-announcement",
+        "factTitle": "宣布多年合作并开发迪士尼定制生成式模型"
+      },
+      "addedAt": "2026-11-10T01:08:25+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-09T18:00:00.000Z",
+      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "title": "Meta发布Muse Ember，面向高频Agent执行任务",
+      "summary": "Russell Brandom报道，Muse Ember面向工具调用、编码子任务、路由和文档提取，支持图像、音频等输入，可与负责规划的Muse Wonder配合。报道列出每百万输入Token为0.10美元；输出价格及完整访问条件尚未核对，不能据此推算总任务成本。",
+      "reason": "为批量Agent任务增加模型选择。署名原文和精确发布时间已核对；成本与能力来自厂商披露，官方公告全文暂不可读，未独立实测。",
+      "category": "ai-models",
+      "quote": "Muse Wonder plans, Muse Ember handles the volume.",
+      "tier": "T2",
+      "entity": "meta",
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "Agent",
+        "多模态",
+        "海外AI",
+        "Meta"
+      ],
+      "selected": true,
+      "event": {
+        "key": "meta-muse-ember-release-2026-11-09",
+        "title": "Meta发布Muse Ember执行模型",
+        "factKey": "muse-ember-model-release",
+        "factTitle": "发布面向高频Agent任务的Muse Ember"
+      },
+      "addedAt": "2026-11-10T02:16:00+08:00"
+    },
+    {
+      "sourceId": "rss-latent-space",
+      "sourceName": "Latent Space",
+      "date": "2026-11-09T17:15:53.000Z",
+      "url": "https://latent.space/p/handshake/",
+      "title": "Handshake访谈拆解Agent评测：懂规则仍可能在执行时用错",
+      "summary": "Latent Space访谈文字导读展示金融、生物图像和安全模拟案例：模型能解释税务规则，却未在代码中正确应用；最终答复也可能掩盖文件访问过程。材料说明专业评测为何需要领域判断和工具轨迹，不能只检查答案文本。",
+      "reason": "提供检查Agent真实执行过程的具体案例。原站文字导读及精确时间已核对；未观看完整视频，案例和经营数字仍属受访方披露。",
+      "category": "tip",
+      "quote": "The agent carries the number into Python and subtracts it.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI赛道",
+        "Agent",
+        "数据/训练",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-10T02:16:00+08:00"
+    },
+    {
+      "sourceId": "smzdm",
+      "sourceName": "什么值得买 · 玩家直呼内行",
+      "date": "2026-11-09T12:42:28+08:00",
+      "url": "https://post.smzdm.com/p/a8263od7/",
+      "title": "雷鸟V4个人体验：室外语音受限，Agent需先打开应用",
+      "summary": "作者称雷鸟V4在安静处语音交互方便，路边和超市易听不清；暗光、小物体及过曝屏幕识别会出错。另用NAS服务接入自定义车况查询，但须先打开独立智能体应用。",
+      "reason": "提供具体使用边界和自定义接入经验。已通读原文、核对署名及秒级时间；属于单人体验，未独立复测。",
+      "category": "tip",
+      "quote": "智能体得先进应用，离一句话直达还差一步。",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "教程/实践",
+        "AI硬件",
+        "AI玩法",
+        "AI产品",
+        "国内AI",
+        "Agent"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-10T02:16:00+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-09T19:00:00.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+      "title": "Anthropic宣布Fable 5.2与Mythos 5.2，后者首批限审核机构",
+      "summary": "Jay Peters报道，Anthropic宣布Claude Fable 5.2和Claude Mythos 5.2，称其编码、推理、视觉能力及输出速度有所改善。Fable 5.2当天推出，Mythos 5.2首批仅向审核通过的机构开放。科学与工程任务成果为厂商披露，报道未提供独立复测。",
+      "reason": "涉及主力模型版本与访问范围变化。报道正文及精确发布时间已核对；官方发布页暂无法读取，能力提升仍属厂商自述。",
+      "category": "ai-models",
+      "quote": "Claude Fable 5.2 is launching today.",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "Anthropic",
+        "海外AI",
+        "编码",
+        "推理",
+        "Agent"
+      ],
+      "selected": true,
+      "event": {
+        "key": "claude-fable-mythos-52-release-2026-11-09",
+        "title": "Anthropic宣布Claude Fable与Mythos 5.2",
+        "factKey": "models-announced-fable-launch-mythos-vetted-access",
+        "factTitle": "宣布两款5.2模型，Fable推出且Mythos首批限审核机构"
+      },
+      "addedAt": "2026-11-10T03:22:08+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-09T18:07:23.000Z",
+      "url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+      "title": "Instagram推出AI滤镜创建工具，首批面向美国成年用户",
+      "summary": "Stevie Bonifield报道并试用了Instagram Effect Builder。美国18岁以上居民可用文字和参考图创建Stories滤镜，上传照片预览并继续修改；提交的滤镜须通过安全审核，才向其他用户开放。记者的单次测试中，自动扩写提示词没有明显改变生成效果。",
+      "reason": "为创作者提供从生成到审核分发的具体入口。报道正文、试用描述及时间已核对；官方页面暂不可读，尚未独立复测。",
+      "category": "ai-products",
+      "quote": "effects have to pass a safety review before they’ll be available to other users.",
+      "tier": "T2",
+      "entity": "meta",
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI创作者",
+        "图像生成",
+        "海外AI",
+        "Meta"
+      ],
+      "selected": true,
+      "event": {
+        "key": "instagram-ai-effect-builder-launch-2026-11-09",
+        "title": "Instagram推出AI Effect Builder",
+        "factKey": "us-adult-access-stories-effects-safety-review",
+        "factTitle": "向美国成年用户开放滤镜创建并设置发布审核"
+      },
+      "addedAt": "2026-11-10T03:22:08+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-09T19:05:54.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/pluggable-agentic-ai-framework-a-seven-layer-composable-enterprise-agentic-ai-reference-architecture-on-amazon-bedrock-agentcore/",
+      "title": "AWS分享七层Agent架构：工具先授权，持续检查质量与成本",
+      "summary": "AWS给出七层可组合参考架构，将数据、模型、编排、安全、应用、可观测性和持续评估分别管理，并提供退款客服示例。可迁移的做法包括用稳定接口替换底层服务、调用工具前授权、使用临时凭据，以及持续记录质量、延迟和成本。示例仍需生产安全加固和测试。",
+      "reason": "把原型上线所需的权限、评估与成本管理落实到具体职责和示例。官方正文及发布时间已核对，参考实现未复测。",
+      "category": "tip",
+      "quote": "Grant agents temporary, scoped credentials instead of persistent secrets.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "部署/工程",
+        "MCP/工具调用",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-10T03:22:08+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-09T18:55:43.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-crossnokaye-grounds-physical-ai-with-amazon-bedrock-agentcore/",
+      "title": "工业Agent实践：校验计算结果，设备改动须经人工批准",
+      "summary": "CrossnoKaye在AWS案例中介绍工业助手AURA：结合设备拓扑、控制逻辑与传感器数据，用隔离Python环境计算，校验输出表结构和引用后再生成报告。定时巡检保持只读，交互式设置变更须经人工批准，现场控制与硬件保护独立执行。公司自报覆盖100多处设施，效率与节能结果未经独立验证。",
+      "reason": "提供工业Agent可复用的计算校验与控制权限设计。官方案例正文及时间已核对，部署规模和成效为客户自报，未复测。",
+      "category": "tip",
+      "quote": "Automated Routines run strictly in read-only mode.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI赛道",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-10T03:22:08+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-09T19:09:58.000Z",
+      "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "title": "Logic Pro新增49.99美元AI用量包，余额12个月后到期",
+      "summary": "Andrew Liszewski报道，Logic Pro新增一次性购买的Intelligence Usage Pack，价格49.99美元，用于延长部分依赖云端模型的AI功能使用。用量仅限购买账号，不支持家庭共享；未用余额可逐月结转，但购买12个月后到期。目前只有Logic Pro可购买，其他Creator Studio应用的支持仍属后续安排。",
+      "reason": "直接影响创作者的AI使用成本与购买选择。已核对署名全文和精确发布时间；尚未实测，也未核实49.99美元对应的具体任务量。",
+      "category": "ai-products",
+      "quote": "Family Sharing isn’t supported",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI商业化",
+        "AI创作者",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "apple-creator-studio-ai-update-2026-10-27",
+        "title": "Apple宣布Creator Studio新一批AI功能",
+        "factKey": "logic-pro-intelligence-usage-pack-purchase-2026-11-09",
+        "factTitle": "Logic Pro开放49.99美元AI用量包购买并说明有效期"
+      },
+      "addedAt": "2026-11-10T04:29:28+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-09T20:04:37.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-2-on-aws/",
+      "title": "AWS说明Fable 5.2留存条件，符合条件客户可使用零留存",
+      "summary": "AWS宣布Fable 5.2在Bedrock及Claude Platform on AWS可用，并说明默认要求最多30天数据留存和人工安全审查，Bedrock审查由AWS边界内的Amazon人员执行。Enterprise Frontier Safeguards现已可用；由客户控制存储桶与密钥的版本尚未推出，符合条件客户可在2027年6月30日前使用零数据留存。",
+      "reason": "补充已归档模型发布的重要企业部署条件。官方完整正文与精确时间已核对；零留存有资格限制，客户自控存储版本仍待交付。",
+      "category": "ai-products",
+      "quote": "EFS is available now.",
+      "tier": "T1",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "安全/对齐",
+        "部署/工程",
+        "Anthropic",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "claude-fable-mythos-52-release-2026-11-09",
+        "title": "Anthropic宣布Claude Fable与Mythos 5.2",
+        "factKey": "fable-52-efs-zero-data-retention-availability",
+        "factTitle": "Fable 5.2通过企业安全防护支持符合条件的零数据留存"
+      },
+      "addedAt": "2026-11-10T04:29:28+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-09T19:24:51.000Z",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "title": "TechCrunch交叉记录Fable 5.2的EFS零留存支持",
+      "summary": "Russell Brandom的模型发布报道确认，Fable 5.2通过Enterprise Frontier Safeguards支持零数据留存政策。报道还称其每百万输入Token价格由10美元降至8美元；没有进一步说明AWS的默认留存、审查执行方及过渡期限。",
+      "reason": "补充同次发布中零留存支持的媒体交叉证据。署名正文和精确时间已核对；兼容性仍来自厂商披露，不代表所有客户默认零留存，不重复精选。",
+      "category": "ai-models",
+      "quote": "compatible with zero data retention (ZDR) policies through the Enterprise Frontier Safeguards system",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "安全/对齐",
+        "Anthropic",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "claude-fable-mythos-52-release-2026-11-09",
+        "title": "Anthropic宣布Claude Fable与Mythos 5.2",
+        "factKey": "fable-52-efs-zero-data-retention-availability",
+        "factTitle": "Fable 5.2通过企业安全防护支持符合条件的零数据留存"
+      },
+      "addedAt": "2026-11-10T04:29:28+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-11-09T08:00:00.000Z",
+      "url": "https://openai.com/index/kuken",
+      "title": "空研工业图纸AI案例补充核验结果：原型九成告警为真实差异",
+      "summary": "OpenAI发布空研工业案例，介绍与Recursive合作的图纸检索及校核工具。空研称，检索图纸耗时从近一小时降至4.5分钟；校核原型测试中，约90%的告警确为真实差异，这不等于发现90%的全部错误。年度搜索工时减少90%仍是预测，原文未公布测试样本量。",
+      "reason": "为工业文档AI提供具体任务与结果口径。原文正文＋原站 RSS 时间核验；数据为客户自述，未获独立验证，也未证明已全面投产。",
+      "category": "industry",
+      "quote": "According to Kuken, in prototype testing, about 90% of the issues the AI flagged were genuine discrepancies.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "AI商业化",
+        "多模态",
+        "搜索",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-10T04:29:28+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-09T21:15:23.000Z",
+      "url": "https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo/",
+      "title": "Fable 5.2评测解读：推理档位影响成绩，也影响任务成本",
+      "summary": "The Decoder转述Artificial Analysis测试：Fable 5.2最高计算档位在Index v5得65分，平均每任务成本26.50美元；High和Xhigh档位得62分。部分终端及知识工作测试并不领先，综合成绩不能代表所有任务表现。",
+      "reason": "补充既有发布未覆盖的档位与成本差异。完整正文和精确时间已核对；评测方原帖未能读取，结果按媒体转述保留。",
+      "category": "ai-models",
+      "quote": "Per-task costs at the highest tier average $26.50",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "评测/基准",
+        "推理",
+        "Agent",
+        "Anthropic",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "claude-fable-mythos-52-release-2026-11-09",
+        "title": "Anthropic宣布Claude Fable与Mythos 5.2",
+        "factKey": "artificial-analysis-fable52-effort-cost-results-2026-11-09",
+        "factTitle": "媒体转述Fable 5.2分档评测及任务成本"
+      },
+      "addedAt": "2026-11-10T05:35:15+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-09T20:13:18.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base/",
+      "title": "AWS检索实践：按问题选择规划轮次，只看原文时关闭生成",
+      "summary": "AWS说明AgenticRetrieveStream新增的0和1档：0只检索、不调用语言模型，须关闭生成；1检索一次后生成答案；2至5保留多轮规划。建议用真实问题同时检查正确性、引用、延迟与成本，再选择满足质量要求的最低轮次。模式由应用选择，并非自动路由。",
+      "reason": "提供控制检索成本与答案质量的具体方法。署名完整正文和精确时间已核对；银行案例为虚构示例，没有实测降本结果。",
+      "category": "tip",
+      "quote": "Retrieval-only requests make no foundation model calls.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "RAG",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-10T05:35:15+08:00"
+    },
+    {
+      "sourceId": "rss-mit-tech-review-ai",
+      "sourceName": "MIT Technology Review · AI",
+      "date": "2026-11-09T19:35:33.000Z",
+      "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+      "title": "数据中心现场观察：电网成本与现场发电影响社区接受度",
+      "summary": "记者走访弗吉尼亚数据中心并采访居民与开发者，分析两种供电路径的影响：接入电网涉及输电扩建及费用分担，自建燃气发电则带来污染和选址争议。作者认为电力约束比单纯的科技文化冲突更能解释部分阻力，同时承认就业等因素也有作用。",
+      "reason": "用现场采访解释AI算力扩张的现实约束。原站完整正文与精确时间已核对；因果判断属于作者分析，地方政策未逐项复核。",
+      "category": "opinion",
+      "quote": "It was always about power,",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "现象/趋势",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-10T05:35:15+08:00"
+    },
+    {
+      "sourceId": "rss-mit-tech-review-ai",
+      "sourceName": "MIT Technology Review · AI",
+      "date": "2026-11-09T17:05:43.000Z",
+      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+      "title": "Scott Wiener采访：支持联邦AI监管，同时保留州立法空间",
+      "summary": "Scott Wiener在赢得国会席位后的采访中，主张建立有执行力的联邦AI监管机构，加强测试、审计和举报人保护，并反对广泛排除州AI法律。他愿参与可能成立的AI特别委员会；这些是政策主张，尚非已通过的联邦措施。",
+      "reason": "提供潜在联邦AI立法参与者的具体立场。原站完整采访及精确时间已核对；其对AI失控风险的判断不能视为已证实结论。",
+      "category": "opinion",
+      "quote": "I think it’s really important to have a strong, empowered, nimble federal regulator,",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "政策/监管",
+        "安全/对齐",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-10T05:35:15+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-11-09T13:00:00.000Z",
+      "url": "https://openai.com/index/control-room",
+      "title": "OpenAI披露Control Room：在推理层停机，最长延迟35秒",
+      "summary": "OpenAI称，Control Room已用于研究基础设施，按任务ID在推理层检查授权，收到停机指令后最多35秒停止后续模型输出。服务失效时拒绝推理的机制已覆盖前沿模型研究任务，其余任务仍在分批部署；研究进程本身可能继续运行。",
+      "reason": "可借鉴把终止权限放在推理入口、故障时默认拒绝的设计。原文正文＋原站 RSS 时间核验；35秒上限为官方披露，未获独立验证。",
+      "category": "tip",
+      "quote": "The 35-second lag comes from a caching layer for inference authorization",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "Agent",
+        "部署/工程",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-control-room-disclosure-2026-11-09",
+        "title": "OpenAI披露Control Room研究任务停机机制",
+        "factKey": "research-inference-stop-system-design-and-rollout",
+        "factTitle": "披露推理层授权、35秒停机上限及部署范围"
+      },
+      "addedAt": "2026-11-10T06:41:52+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-11-09T08:00:00.000Z",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "title": "CodeRabbit复盘编码Agent：重做测试、发布和审批流程",
+      "summary": "CodeRabbit创始人Harjot Gill介绍，团队采用Codex后重新梳理测试、发布与人工审批，让低风险变更自动流转，并用Slack机器人将生产告警和支持工单转成待审PR。其称半年内同等团队的软件交付量约增至20倍；原文未披露统计定义或独立验证。",
+      "reason": "提供采用编码Agent后调整交付流程的具体经验。原文正文＋原站 RSS 时间核验；交付增长来自企业自述，不能等同于质量或利润增长。",
+      "category": "tip",
+      "quote": "reconsidered where human approvals belonged",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "编码",
+        "Agent",
+        "AI创业",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-10T06:41:52+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-09T19:41:51.000Z",
+      "url": "https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do/",
+      "title": "The Decoder交叉记录Muse Ember发布与API价格",
+      "summary": "The Decoder报道，Muse Ember已通过Meta Model API和Muse Code提供，定位工具调用、请求路由、数据抽取等高频Agent任务。报道列出的价格为每百万输入Token 0.10美元、输出0.50美元；性价比评价不能替代具体任务测试。",
+      "reason": "补充已归档发布的独立媒体交叉证据，正文与精确发布时间已核对；价格按报道口径，未实测，不重复作为精选。",
+      "category": "ai-models",
+      "quote": "It's available now through the Meta Model API and Muse Code",
+      "tier": "T2",
+      "entity": "meta",
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "Agent",
+        "多模态",
+        "海外AI",
+        "Meta"
+      ],
+      "selected": false,
+      "event": {
+        "key": "meta-muse-ember-release-2026-11-09",
+        "title": "Meta发布Muse Ember执行模型",
+        "factKey": "muse-ember-model-release",
+        "factTitle": "发布面向高频Agent任务的Muse Ember"
+      },
+      "addedAt": "2026-11-10T06:41:52+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-09T20:01:20.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart/",
+      "title": "AWS部署指南：核对实际上下文配置，再比较推理性能",
+      "summary": "AWS分享Nemotron 3.5 Super VL部署与测试：模型支持百万Token，但JumpStart预设上下文为520至15600 Token，输入与输出须共同计入；PDF需先转为图片。文章同时提醒，BF16与NVFP4使用不同GPU，速度差异不能直接归因于精度。",
+      "reason": "提供可复用的部署验收方法，避免混淆模型能力、端点配置与硬件测试。已核对官方署名全文及精确发布时间，未独立复测。",
+      "category": "tip",
+      "quote": "these measurements are not an isolated BF16-versus-NVFP4 precision comparison.",
+      "tier": "T1",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "多模态",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-10T07:50:32+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-09T18:50:01.000Z",
+      "url": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/",
+      "title": "The Decoder交叉记录Seedream 5.5连续编辑与透明素材能力",
+      "summary": "The Decoder报道同次Seedream 5.5发布，转述字节关于最多100轮编辑稳定性及原生RGBA透明图像的主张。模型正逐步在即梦、豆包等入口推出，Pro版本仍属计划。",
+      "reason": "补充已归档发布的媒体交叉记录。完整正文及精确时间已核对，效果仍为厂商自述，未独立复测，不重复精选。",
+      "category": "ai-models",
+      "quote": "generates native RGBA images",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "模型发布",
+        "AI产品",
+        "图像生成",
+        "国内AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "bytedance-seedream55-release-2026-11-09",
+        "title": "字节发布Seedream 5.5",
+        "factKey": "seedream55-multiturn-editing-native-rgba-release",
+        "factTitle": "发布强化连续编辑并支持原生RGBA输出的Seedream 5.5"
+      },
+      "addedAt": "2026-11-10T07:50:32+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-10T00:21:34.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-skills-and-agents-work-in-aws-quick/",
+      "title": "AWS分享技能维护方法：写清依赖、验证失败处理，分别管理发布与共享",
+      "summary": "AWS介绍将重复任务整理成Skill的方法，强调写明数据与连接器依赖、把易变路径作为输入、核验发送等操作的实际结果，并在使用者环境中测试。发布技能与共享是两个步骤；共享Agent也不会自动授予数据访问权。",
+      "reason": "技能测试、故障处理和权限边界可迁移到其他Agent工作流。已核对官方完整原文与精确发布时间，未独立执行示例。",
+      "category": "tip",
+      "quote": "Publishing and sharing are separate steps",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-10T00:58:20Z"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-11-09T23:57:21+00:00",
+      "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+      "title": "Willison分享声源定位实践：让编码Agent借助录音、拍手测试迭代",
+      "summary": "Willison让Claude Code编写声源定位工具，用手机、平板和电脑采样，通过拍手测试与录音回放迭代。他称最终把蜂鸣声定位到约40厘米范围，找到需换电池的探测器。音频由代码分析，并非模型原生听音。",
+      "reason": "展示如何给编码Agent建立可观察、可验证的现实反馈。原文正文＋原站 RSS 时间核验；定位精度属于作者自述，未独立复测。",
+      "category": "tip",
+      "quote": "the position of the beep to within about 40cm",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "编码",
+        "AI创作者",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-10T00:58:20Z"
+    },
+    {
+      "sourceId": "reuters-marketscreener",
+      "sourceName": "Reuters（MarketScreener）",
+      "date": "2026-11-09T17:37-05:00",
+      "url": "https://www.marketscreener.com/news/nvidia-ceo-huang-sued-over-disclosures-related-to-suspected-chinese-spy-ce785fd3d180f326",
+      "title": "英伟达与黄仁勋遭股东起诉，争议涉及Megaspeed相关披露",
+      "summary": "路透社报道，Mark Kistenmacher已在加州联邦法院对英伟达及黄仁勋提起拟议集体诉讼，指控相关披露误导投资者，并要求未指定金额的赔偿。案件仍属原告指控，不能视为欺诈或情报泄露已获证实。",
+      "reason": "这是董事会独立调查之后新增的诉讼行动。已核对路透正文、页面发布时间，并与另一媒体原文互证；尚无裁判结论。",
+      "category": "industry",
+      "quote": "were sued on Monday in a proposed class action",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "nvidia-megaspeed-allegations-response-2026-10-29",
+        "title": "英伟达回应Megaspeed相关情报指控",
+        "factKey": "shareholder-securities-class-action-filed-2026-11-09",
+        "factTitle": "股东就Megaspeed相关披露起诉英伟达及黄仁勋"
+      },
+      "addedAt": "2026-11-10T00:58:20Z"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-09T22:23:42.000Z",
+      "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+      "title": "TechCrunch确认诉讼",
+      "summary": "股东已起诉，尚无裁决。",
+      "reason": "仅作诉讼交叉证据。",
+      "category": "industry",
+      "quote": "filed the case Monday",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "nvidia-megaspeed-allegations-response-2026-10-29",
+        "title": "英伟达回应Megaspeed相关情报指控",
+        "factKey": "shareholder-securities-class-action-filed-2026-11-09",
+        "factTitle": "股东就Megaspeed相关披露起诉英伟达及黄仁勋"
+      },
+      "addedAt": "2026-11-10T00:58:20Z"
+    },
+    {
+      "sourceId": "rss-hugging-face",
+      "sourceName": "Hugging Face Blog",
+      "date": "2026-11-09T15:05:57.000Z",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "title": "NVIDIA与Elith开放日本金融合成数据，含100万条记录",
+      "summary": "NVIDIA团队介绍与Elith发布的Nemotron-Personas-Finance-Japan：100万条记录，每条含9类人物描述和共50个字段，覆盖人口、家庭财务与金融素养。数据采用CC BY 4.0许可，可用于金融Agent的对话生成、用户模拟和评测；作者称人物全部为合成，不代表真实客户。",
+      "reason": "为金融AI训练与评测提供可商用的合成数据。已完成原文正文＋原站 RSS 时间核验；数据代表性及实际业务效果尚未独立验证。",
+      "category": "paper",
+      "quote": "Every persona is fully synthetic.",
+      "tier": "T1",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "数据/训练",
+        "AI赛道",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-10T10:05:19+08:00"
+    },
+    {
+      "sourceId": "reuters-streetinsider",
+      "sourceName": "路透社（StreetInsider刊载）",
+      "date": "2026-11-09T20:21-05:00",
+      "url": "https://www.streetinsider.com/Reuters/Exclusive-Anthropic%2Baims%2Bto%2Braise%2Bup%2Bto%2B%2469.3%2Bbillion%2Bin%2Bblockbuster%2BIPO/27316877.html",
+      "title": "路透：Anthropic撤回发给银行的IPO定价资料，称信息不准确",
+      "summary": "Echo Wang报道，Anthropic向银行发送IPO文件后，又发邮件称其中定价细节不准确，将稍后更新文件。公司拒绝置评，先前流传的价格区间及募资规模不能视为已确定条款。",
+      "reason": "补充上市筹备中的实际更正。已核对署名全文、发布时间及同稿刊载版本；尚无公司公开更正文件。",
+      "category": "industry",
+      "quote": "details about the pricing were inaccurate",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "anthropic-ipo-s1-2026-10-26",
+        "title": "Anthropic公开提交IPO注册文件",
+        "factKey": "ipo-pricing-details-circulated-then-retracted-2026-11-09",
+        "factTitle": "向银行发送IPO定价资料后撤回并称信息不准确"
+      },
+      "addedAt": "2026-11-10T05:26:57Z"
+    },
+    {
+      "sourceId": "meta-research",
+      "sourceName": "Meta AI",
+      "date": "2026-11-09",
+      "url": "https://research.meta.ai/blog/muse-ember",
+      "title": "Meta官方确认Muse Ember开放入口与API价格",
+      "summary": "Meta确认Muse Ember已在Muse Code及Meta Model API提供，每百万Token输入0.10美元、缓存输入0.004美元、输出0.50美元，支持100万Token上下文。官网同时区分外部评测与内部测试，单项成绩不能推广为全部任务都更优。",
+      "reason": "补充厂商原文，交叉确认已收录的发布与定价；保留原文日期精度，仅作48小时内同事件证据，性能未独立复测。",
+      "category": "ai-models",
+      "quote": "It costs $0.10 per million input tokens",
+      "tier": "T1",
+      "entity": "meta",
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "Agent",
+        "编码",
+        "多模态",
+        "海外AI",
+        "Meta"
+      ],
+      "selected": false,
+      "event": {
+        "key": "meta-muse-ember-release-2026-11-09",
+        "title": "Meta发布Muse Ember执行模型",
+        "factKey": "muse-ember-model-release",
+        "factTitle": "发布面向高频Agent任务的Muse Ember"
+      },
+      "addedAt": "2026-11-10T14:37:05.149485+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-11-10T07:28:21.000Z",
+      "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+      "title": "Willison测试Muse Ember六档推理：SVG质量未随档位稳定提升",
+      "summary": "Willison用“骑自行车的鹈鹕”SVG任务测试Muse Ember六档推理设置，记录到high档未返回完整SVG，其余结果的视觉质量也未随推理档位稳定改善。这是单一作者的小样本实验，可用于提醒用户按实际任务验证设置，不能据此推导综合能力排名。",
+      "reason": "提供了模型发布之外的具体使用观察；原文正文＋原站 RSS 时间核验，结果为作者自测，未独立复测。",
+      "category": "ai-models",
+      "quote": "the reasoning level didn't cleanly map to the visual quality of the response.",
+      "tier": "T2",
+      "entity": "meta",
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "评测/基准",
+        "海外AI",
+        "推理",
+        "编码",
+        "Meta"
+      ],
+      "selected": true,
+      "event": {
+        "key": "meta-muse-ember-release-2026-11-09",
+        "title": "Meta发布Muse Ember执行模型",
+        "factKey": "willison-six-effort-svg-tests-2026-11-10",
+        "factTitle": "Willison记录Muse Ember六档推理的SVG生成结果"
+      },
+      "addedAt": "2026-11-10T15:45:18+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-11-10T05:34:14.000Z",
+      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+      "title": "Willison引介Fable 5.2提示对照：代码归属表述会影响重构倾向",
+      "summary": "Willison摘引Anthropic指南中的小型编码任务测试：加入将代码库视为模型自有的提示后，合并重复代码的比例由不足一成升至约一半。这类提示会鼓励主动调整结构，只适合允许重构的任务；该结果来自厂商测试，不能当作普适的质量提升。",
+      "reason": "为编码Agent提示词调整提供具体对照；原文正文＋原站 RSS 时间核验，并对照官方指南确认了额外改动风险，未独立复测。",
+      "category": "tip",
+      "quote": "the model merged repeated code in about half of the tries with this sentence",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "海外AI",
+        "编码",
+        "Agent",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "claude-fable-mythos-52-release-2026-11-09",
+        "title": "Anthropic宣布Claude Fable与Mythos 5.2",
+        "factKey": "willison-code-ownership-prompting-discussion-2026-11-10",
+        "factTitle": "Willison引介代码归属提示及小型编码任务对照"
+      },
+      "addedAt": "2026-11-10T15:45:18+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-11-09T23:58:46.000Z",
+      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+      "title": "Willison测试Fable 5.2：max档耗尽128K推理预算，未生成SVG",
+      "summary": "Simon Willison用同一鹈鹕骑自行车提示词测试Fable 5.2的五档推理强度，称xhigh给出了他最满意的SVG，而max耗尽128,000个推理Token后未返回图像。这是作者记录的具体案例，不能据此推断各档位的整体质量或失败率。",
+      "reason": "为选择推理档位与控制调用预算提供具体反例。原文正文＋原站 RSS 时间核验；结果为作者自测，未独立复现。",
+      "category": "ai-models",
+      "quote": "running out of tokens after spending 128,000 thinking about them",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "评测/基准",
+        "海外AI",
+        "编码",
+        "AI创作者",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "claude-fable-mythos-52-release-2026-11-09",
+        "title": "Anthropic宣布Claude Fable与Mythos 5.2",
+        "factKey": "willison-fable52-five-effort-svg-token-exhaustion-2026-11-09",
+        "factTitle": "Willison记录Fable 5.2五档SVG测试及max预算耗尽现象"
+      },
+      "addedAt": "2026-11-10T16:53:59+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-11-10T09:00:00.000Z",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "title": "OpenAI教育报告：教师省时与学生学习成效须分开评估",
+      "summary": "OpenAI发布EMEA教育合作报告。爱沙尼亚723名教师自报平均每周省时1.8小时；ITI学习应用另有182名学生反馈，平均满意度3.07/5、净推荐值−27.5。报告强调，这些体验指标不能证明学习改善，仍需独立、长期评估。",
+      "reason": "帮助教育产品团队区分使用反馈与真实成效。已通读官网及随附报告，原文正文＋原站 RSS 时间核验；省时为自报，学生反馈仅对应该应用。",
+      "category": "paper",
+      "quote": "avoid treating either satisfaction or usage as proof of learning.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "AI赛道",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-10T18:00:41+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-11-10T06:11:49+08:00",
+      "url": "https://www.qbitai.com/2026/11/508787.html",
+      "title": "BLA尝试阻断AI逆向分析，费用放大倍数仍属估算",
+      "summary": "鱼羊介绍BLA通过诱饵和触发分析器资源上限干扰AI逆向。作者13项对照中，7项报错或拒绝，3项未观察到阻断；14个示例的639.5倍Token及304.4倍费用属于估算，并非实际账单。加固还可能明显增大文件体积。",
+      "reason": "帮助开发者区分实际阻断与成本推算。已核对鱼羊署名全文及精确发布时间；效果来自项目作者测试和估算，未独立复测。",
+      "category": "ai-products",
+      "quote": "其中7项在被测步骤报错或被拒绝",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "开源生态",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-10T19:07:39+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-11-10T03:53:04.000Z",
+      "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
+      "title": "Willison分享地图动画玩法：让城市边界变成会走路的机甲",
+      "summary": "Simon Willison为记住Yonkers的位置与轮廓，向Claude Fable 5.2 Medium提出Three.js动画需求，明确要求使用OpenStreetMap数据，让城市轮廓化作机甲穿行纽约。原文给出提示词和作品说明，并记录模型纠正输入拼写错误的表现；地图精度与动画效果未独立复测。",
+      "reason": "提供把地理学习转成可视化创作的具体提示思路。原文正文＋原站 RSS 时间核验，效果仅据作者记录，未独立复测。",
+      "category": "tip",
+      "quote": "use openstreetmap mapping data",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "编码",
+        "AI创作者",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-10T20:14:28+08:00"
+    },
+    {
+      "sourceId": "anthropic-news",
+      "sourceName": "Anthropic 官方",
+      "date": "2026-11-09",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "title": "Anthropic官方交叉确认Fable与Mythos 5.2发布及访问条件",
+      "summary": "Anthropic确认两款模型共用底层模型，Fable加入网络安全与生物安全防护，Mythos面向通过验证项目审核的机构。普通模式每百万输入、输出Token分别为8美元和40美元；快速模式另行计价。能力及安全效果仍属于厂商评估。",
+      "reason": "补充已归档发布的一手证据。官网日期处于48小时交叉窗口，无法确认在24小时内，不重复精选；厂商评测不等于独立验证。",
+      "category": "ai-models",
+      "quote": "Claude Fable and Claude Mythos are the same underlying model.",
+      "tier": "T1",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": false,
+      "event": {
+        "key": "claude-fable-mythos-52-release-2026-11-09",
+        "title": "Anthropic宣布Claude Fable与Mythos 5.2",
+        "factKey": "models-announced-fable-launch-mythos-vetted-access",
+        "factTitle": "宣布两款5.2模型，Fable推出且Mythos首批限审核机构"
+      },
+      "addedAt": "2026-11-10T20:14:28+08:00"
+    },
+    {
+      "sourceId": "rss-google-deepmind",
+      "sourceName": "Google DeepMind",
+      "date": "2026-11-10T12:02:28.000Z",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "title": "DeepMind用AlphaProof Code验证Signal核心密码代码",
+      "summary": "研究人员先审定数学规格，再由AI智能体生成Lean证明，验证Signal核心协议实现的若干安全性质，工作历时四周。技术报告将范围限定为特定AArch64环境下的一对一会话，不能据此认定整个Signal应用没有漏洞；团队已开放验证材料。",
+      "reason": "原文正文＋原站 RSS 时间核验，并对照技术报告与独立采访；展示AI验证实际代码的进展，结论仍依赖指定规格与可信语义，未独立复现。",
+      "category": "paper",
+      "quote": "Every proof is checked by Lean to verify the agents' work.",
+      "tier": "T1",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "编码",
+        "安全/对齐",
+        "开源生态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "alphaproof-code-signal-verification-2026-11-10",
+        "title": "DeepMind用AlphaProof Code验证Signal核心协议实现",
+        "factKey": "signal-implementation-security-proofs-disclosure",
+        "factTitle": "披露Signal核心代码安全性质证明并开放验证材料"
+      },
+      "addedAt": "2026-11-10T21:24:50+08:00"
+    },
+    {
+      "sourceId": "wired",
+      "sourceName": "WIRED",
+      "date": "2026-11-10",
+      "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+      "title": "WIRED交叉确认Signal验证范围与成本限制",
+      "summary": "Lily Hay Newman采访研究人员，确认验证未覆盖整个Signal应用，研究成本及商业服务计划尚未披露。",
+      "reason": "独立采访交叉确认同一研究，仅作证据记录；未独立复现。",
+      "category": "paper",
+      "quote": "it did not, for example, formally verify the entire Signal mobile app",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "编码",
+        "安全/对齐",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "alphaproof-code-signal-verification-2026-11-10",
+        "title": "DeepMind用AlphaProof Code验证Signal核心协议实现",
+        "factKey": "signal-implementation-security-proofs-disclosure",
+        "factTitle": "披露Signal核心代码安全性质证明并开放验证材料"
+      },
+      "addedAt": "2026-11-10T21:24:50+08:00"
+    },
+    {
+      "sourceId": "anthropic-official",
+      "sourceName": "Anthropic",
+      "date": "2026-11-10",
+      "url": "https://www.anthropic.com/news/roadshow-launch",
+      "title": "Anthropic启动IPO路演，拟发行8.25亿股",
+      "summary": "Anthropic公告确认启动路演，拟发行8.25亿股A类普通股，预期每股70至78美元，其中部分为现有股东出售，公司不取得这部分收益。注册声明尚未生效，拟议发行不等于已经上市或完成募资。",
+      "reason": "官网当日公告与媒体报道相互印证，较上轮撤回定价资料新增正式路演及发行条件；价格仍为预期区间。",
+      "category": "industry",
+      "quote": "Today Anthropic, PBC launched the roadshow",
+      "tier": "T1",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "anthropic-ipo-s1-2026-10-26",
+        "title": "Anthropic公开提交IPO注册文件",
+        "factKey": "ipo-roadshow-launch-proposed-price-range-2026-11-10",
+        "factTitle": "启动IPO路演并公布拟发行数量与预期价格区间"
+      },
+      "addedAt": "2026-11-10T21:24:50+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-10T12:13:03.000Z",
+      "url": "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/",
+      "title": "The Decoder交叉记录Anthropic路演与拟议发行条件",
+      "summary": "报道援引正式公告，确认拟发行8.25亿股、预期每股70至78美元，部分股份由现有股东出售。这里只记录路演与拟议条件，不将目标融资规模写成已到账资金。",
+      "reason": "已通读报道并对照官网公告，精确发布时间已核对；仅作同一进展的交叉证据。",
+      "category": "industry",
+      "quote": "825 million Class A common shares priced between $70 and $78 per share.",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": false,
+      "event": {
+        "key": "anthropic-ipo-s1-2026-10-26",
+        "title": "Anthropic公开提交IPO注册文件",
+        "factKey": "ipo-roadshow-launch-proposed-price-range-2026-11-10",
+        "factTitle": "启动IPO路演并公布拟发行数量与预期价格区间"
+      },
+      "addedAt": "2026-11-10T21:24:50+08:00"
+    },
+    {
+      "sourceId": "ithome",
+      "sourceName": "IT之家",
+      "date": "2026-11-10T10:46:47+08:00",
+      "url": "https://www.ithome.com/1/024/701.htm",
+      "title": "蚂蚁灵波开放LingBot-Touch，探索跨传感器触觉迁移",
+      "summary": "LingBot-Touch统一磁触觉、视触觉和压阻式信号，公开仓库提供Tiny、Small权重入口、冻结编码器推理代码与样例。团队在两款灵巧手的26项任务中报告成功率较无触觉提高约14至26个百分点；结果尚未独立复现，也不代表训练数据全部开放。",
+      "reason": "已核对浩渺署名原文、精确发布时间及官方项目和仓库；跨硬件复用值得关注，性能数字仍属团队自测。",
+      "category": "ai-models",
+      "quote": "四种动作模型的平均任务成功率，较无触觉时提高约 14 至 26 个百分点。",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "模型发布",
+        "AI硬件",
+        "具身智能",
+        "多模态",
+        "开源生态",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "robbyant-lingbot-touch-release-2026-11",
+        "title": "蚂蚁灵波开放LingBot-Touch触觉模型",
+        "factKey": "tactile-encoder-weights-inference-release",
+        "factTitle": "开放触觉编码器权重与推理代码并披露真机测试"
+      },
+      "addedAt": "2026-11-10T21:24:50+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-10T13:00:00.000Z",
+      "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+      "title": "Hugging Face谈开放平台安全：加强监控与令牌轮换",
+      "summary": "Irene Solaiman在采访中表示，Hugging Face正更频繁地轮换管理员访问令牌，并加强网络控制与监控，希望维持独立开发者参与。她警告攻击可能推动开放生态收紧，但报道未确认限制上传、强制实名等政策已经实施。",
+      "reason": "Rebecca Bellan的采访提供了具体防护调整与开放社区的成本取舍；相关措施为受访方披露，风险判断不等于已生效政策。",
+      "category": "opinion",
+      "quote": "we just rotate them a lot more frequently than we used to",
+      "tier": "T2",
+      "entity": "hugging-face",
+      "subjects": [
+        "hugging-face"
+      ],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "开源生态",
+        "安全/对齐",
+        "海外AI",
+        "Hugging Face"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-10T21:24:50+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-10T14:00:00.000Z",
+      "url": "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates",
+      "title": "Adobe预览本地MCP，让第三方Agent编辑创作软件原生文件",
+      "summary": "Adobe在MAX展示本地MCP集成，拟让第三方Agent操作Photoshop、Illustrator、Premiere和After Effects的原生项目，图层、矢量和时间线仍可由用户继续编辑。该集成尚未开放，私测计划于2027年初启动；持续后台运行的Agent也仍处预览阶段。",
+      "reason": "Jess Weatherbed的完整报道说明了原生文件编辑能力与开放限制，另有独立采访印证接口方向；尚不能当作已可使用的功能。",
+      "category": "ai-products",
+      "quote": "a private beta will be launching in early 2027.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "MCP/工具调用",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "adobe-creative-cloud-local-mcp-preview-2026-11-10",
+        "title": "Adobe预览Creative Cloud本地MCP集成",
+        "factKey": "local-mcp-native-project-editing-preview",
+        "factTitle": "展示第三方Agent编辑原生项目的本地MCP集成"
+      },
+      "addedAt": "2026-11-10T22:31:13+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-10T14:05:10.000Z",
+      "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+      "title": "TechCrunch采访确认Adobe本地MCP的覆盖软件与探索范围",
+      "summary": "报道采访Adobe副总裁Deepa Subramaniam，确认本地MCP涉及Illustrator、Photoshop、After Effects和Premiere。她表示具体开放哪些能力仍需结合用户反馈探索；该文未提供明确的私测日期。",
+      "reason": "完整采访独立印证同一本地接口及覆盖软件，仅作交叉证据；不据其发布措辞推定功能已经开放。",
+      "category": "ai-products",
+      "quote": "Adobe is releasing a local MCP",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "MCP/工具调用",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "adobe-creative-cloud-local-mcp-preview-2026-11-10",
+        "title": "Adobe预览Creative Cloud本地MCP集成",
+        "factKey": "local-mcp-native-project-editing-preview",
+        "factTitle": "展示第三方Agent编辑原生项目的本地MCP集成"
+      },
+      "addedAt": "2026-11-10T22:31:13+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-10T13:30:00.000Z",
+      "url": "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
+      "title": "Ring室内无人机现场演示：依赖云端导航，断网只能降落",
+      "summary": "记者现场看到Ring Drone Cam完成约一分钟的预设路线飞行及多次起降。设备以云端AI Pilot导航，断网后只能降落；厂商称续航5至8分钟。美国售价249.99美元，计划2027年1月27日交付，仍在办理FCC认证；现场未展示复杂避障与楼梯飞行。",
+      "reason": "Jennifer Pattison Tuohy的现场观察提供了可见进展，也揭示联网、续航和演示范围的限制；交付日期与续航仍属厂商说明。",
+      "category": "ai-products",
+      "quote": "without Wi-Fi, all it can do is land.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI硬件",
+        "AI产品",
+        "具身智能",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "ring-drone-cam-ai-pilot-2026-11-10",
+        "title": "Ring展示AI导航室内安防无人机",
+        "factKey": "flight-demonstration-and-january-delivery-plan",
+        "factTitle": "展示预设路线飞行并公布计划交付日期"
+      },
+      "addedAt": "2026-11-10T22:31:13+08:00"
+    },
+    {
+      "sourceId": "kora-official",
+      "sourceName": "KORA Systems",
+      "date": "2026-11-10T14:00Z",
+      "url": "https://press.kora.fun/kit/releases/KORA-Press-Release.txt",
+      "title": "KORA公布AI原生桌面系统，计划2027年进入PC",
+      "summary": "KORA公布基于Linux的桌面系统，将本地模型、云端模型和Agent纳入系统层，设计了隔离工作区、用户权限及本地记忆机制，计划2027年进入PC，包括Snapdragon设备。官方问答明确Cortex核心引擎不开源，价格与商业模式细节仍待公布。",
+      "reason": "官网公告、发布时刻与独立采访相互印证，展示Agent进入操作系统层的具体设计；性能、权限效果及商业可行性尚未经独立验证。",
+      "category": "ai-products",
+      "quote": "KORA is coming to PCs in 2027",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI创业",
+        "Agent",
+        "端侧",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "kora-ai-desktop-os-announcement-2026-11-10",
+        "title": "KORA公布AI原生桌面操作系统",
+        "factKey": "linux-agent-os-unveiling-2027-availability-plan",
+        "factTitle": "公布系统层Agent设计及2027年可用计划"
+      },
+      "addedAt": "2026-11-10T22:31:13+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-10T14:00:00.000Z",
+      "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+      "title": "TechCrunch采访KORA创始人，确认2027年推出计划",
+      "summary": "采访确认KORA由Playtron转型而来，约50名工程师开发基于Linux与Nix的桌面系统，目标让Agent跨应用处理任务并保留上下文。创始人称AI编码工具加快了开发，但该效率数字属于自述；系统预计2027年推出，核心技术仍为专有软件。",
+      "reason": "独立采访与官方公告支持同一公布事实，仅作交叉证据；开发提速自述不等于产品效果或经营成功。",
+      "category": "ai-products",
+      "quote": "The software is expected to launch in 2027",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI创业",
+        "Agent",
+        "端侧",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "kora-ai-desktop-os-announcement-2026-11-10",
+        "title": "KORA公布AI原生桌面操作系统",
+        "factKey": "linux-agent-os-unveiling-2027-availability-plan",
+        "factTitle": "公布系统层Agent设计及2027年可用计划"
+      },
+      "addedAt": "2026-11-10T22:31:13+08:00"
+    },
+    {
+      "sourceId": "rss-google-deepmind",
+      "sourceName": "Google DeepMind",
+      "date": "2026-11-10T15:00:00.000Z",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "title": "DeepMind发布Gemini Robotics 2.5，披露奔驰产线概念验证",
+      "summary": "Gemini Robotics 2.5开始向机器人合作伙伴推送。DeepMind称已评估超过200种任务，并在奔驰两处生产线用Apptronik Apollo 2进行汽车零件分拣配套概念验证，报告成功率96%。这一数字属于特定试验，不代表机器人在任意工厂或任务中的可靠性。",
+      "reason": "提供机器人进入真实产线的具体证据，但成效仍属厂商自述。网页发布时间与较早的原站订阅时间冲突，采用网页明确时间；尚未取得合作伙伴的独立验证。",
+      "category": "ai-models",
+      "quote": "Gemini Robotics 2.5 is rolling out to our robotics partners.",
+      "tier": "T1",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "AI硬件",
+        "具身智能",
+        "AI赛道",
+        "海外AI",
+        "Google"
+      ],
+      "selected": true,
+      "event": {
+        "key": "google-gemini-robotics25-release-2026-11-10",
+        "title": "DeepMind发布Gemini Robotics 2.5",
+        "factKey": "robotics25-partner-rollout-mercedes-kitting-pilot",
+        "factTitle": "向伙伴推送机器人模型并披露奔驰产线配套试验"
+      },
+      "addedAt": "2026-11-10T23:39:14+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-11-10T07:00:00.000Z",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "title": "OpenAI与Upwork研究：AI项目预算更大，也包含更多工作",
+      "summary": "联合研究发现，2023年初至2025年底，Upwork上AI相关招聘需求的任务组合更多样，常把原本较少共同出现的技能放进一个项目。AI相关项目的固定预算和工作时数较高，但公布的时薪相近，不能据此推断自由职业者收入或利润提高。研究描述平台需求变化，也不能单独证明AI造成了岗位替代。",
+      "reason": "为自由职业者判断技能组合和接单范围提供依据。原文正文＋原站 RSS 时间核验；较高预算可能反映工作范围扩大，不能当作收益承诺。",
+      "category": "paper",
+      "quote": "posted hourly rates were similar",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "AI赛道",
+        "AI商业化",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-10T23:39:14+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-10T14:00:00.000Z",
+      "url": "https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates",
+      "title": "Adobe新增视频物体移除与可重复创作工作流，部分仍在测试",
+      "summary": "Jess Weatherbed报道，Premiere新增测试版Generative Remove，可在时间线上遮罩、跟踪并移除物体，再用生成内容补齐区域。Firefly Graph则以测试版提供可重复组合的创作工作流，Quick Actions已正式开放。上述功能与此前收录的本地MCP预览不同，实际修复质量和工作流效果仍需按素材验证。",
+      "reason": "给视频后期和重复创作任务带来具体工具变化，报道内容与Adobe官方公告相符；保留各功能的测试阶段，未复测宣传效果。",
+      "category": "ai-products",
+      "quote": "a new Generative Remove tool in beta",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "视频",
+        "图像生成",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-10T23:39:14+08:00"
+    }
+  ]
+}

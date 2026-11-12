@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "researchedAt": "2026-11-09T09:40:33+08:00",
+  "researchedAt": "2026-11-09T22:55:47+08:00",
   "items": [
     {
       "sourceId": "rss-the-verge-ai",
@@ -236,6 +236,500 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-09T09:40:33+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-11-09T04:25:05.000Z",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "title": "Willison分享AI辅助PR写法：审定简短引言，折叠详细说明",
+      "summary": "Simon Willison建议，为AI生成的代码合并请求保留一段经过作者判断的简短引言，必要时配截图；把完整技术描述放进GitHub支持的details/summary折叠区域，并以模型名称及推理档位标注来源。文章列出Datasette、llm等实际PR示例，让读者先了解改动价值，再按需展开细节。",
+      "reason": "提供可直接复用的AI协作写作方法，并附实际PR示例。原文正文＋原站 RSS 时间核验；阅读体验改善为作者自述，未量化验证。",
+      "category": "tip",
+      "quote": "Crucially, <details><summary> is supported in GitHub Markdown.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "编码",
+        "Agent",
+        "AI创作者",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-09T12:56:02+08:00"
+    },
+    {
+      "sourceId": "rss-nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "date": "2026-11-09T05:00:40.000Z",
+      "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
+      "title": "NVIDIA披露韩国工业AI案例：三星仿真提速，LG演示工厂机器人",
+      "summary": "NVIDIA称，三星一项仿真结合AI预测材料参数、粗网格与GPU加速，将32核CPU细网格方案约18小时的计算缩至41秒。LG CLOiD也在真实制造环境演示了操作任务。前者同时改变网格和硬件，不能把约1600倍差异全部归因于AI；文中Kakao的L4自动驾驶合作仍属计划。",
+      "reason": "提供具体任务、耗时和机器人演示阶段，可帮助判断工业AI的实际进展。官方原文与发布时间已核对；效果仍为厂商披露，未取得其他参与方全文交叉验证。",
+      "category": "industry",
+      "quote": "combining AI-predicted effective material properties, coarser grids and GPU acceleration resulted in a roughly 1,600x speedup.",
+      "tier": "T1",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "AI硬件",
+        "具身智能",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-09T14:01:54+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-11-09T04:32:33.000Z",
+      "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+      "title": "Willison分享3D改写实验：把Three.js作品转为原生WebGL",
+      "summary": "Simon Willison在生成作品的同一对话中，要求Claude Opus 5.5 Medium将Three.js彩蛋模型改写为原生JavaScript与WebGL，并附前后作品和对话链接。他指出两个版本外观并不完全相同，自己尚未弄清差异原因；这不是视觉一致性或性能的系统评测。",
+      "reason": "提供利用原对话上下文改写前端实现的具体尝试。原文正文＋原站 RSS 时间核验；效果属于作者体验，本轮未复测作品。",
+      "category": "tip",
+      "quote": "to port that to Vanilla JS, in the same thread where it had built it",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI创作者",
+        "编码",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-09T14:01:54+08:00"
+    },
+    {
+      "sourceId": "lg-ai-research",
+      "sourceName": "LG AI Research",
+      "date": "2026-11-09",
+      "url": "https://www.lgresearch.ai/news/view?seq=754",
+      "title": "LG开放K-EXAONE 2.5免费API，供开发与研究使用",
+      "summary": "LG AI研究院宣布，开发者、企业和研究机构取得API密钥后，可免费将K-EXAONE 2.5用于服务开发与研究。该版本是在8月模型上继续训练的技术验证模型，公布的Agent与编码成绩来自厂商自测。",
+      "reason": "官方当日原文确认免费开放，为模型选型增加试用入口；免费期限和用量限制未说明，性能尚未独立复验。",
+      "category": "ai-models",
+      "quote": "K-EXAONE 2.5의 API를 무료로 공개합니다.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "海外AI",
+        "Agent",
+        "编码"
+      ],
+      "selected": true,
+      "event": {
+        "key": "lg-k-exaone-25-free-api-2026-11-09",
+        "title": "LG免费开放K-EXAONE 2.5 API",
+        "factKey": "free-api-access-development-research",
+        "factTitle": "开放供服务开发与研究使用的免费API"
+      },
+      "addedAt": "2026-11-09T15:10:29+08:00"
+    },
+    {
+      "sourceId": "skt-newsroom",
+      "sourceName": "SK Telecom Newsroom",
+      "date": "2026-11-09",
+      "url": "https://news.sktelecom.com/232944",
+      "title": "SKT、NVIDIA与Rebellions签署GPU与NPU联合推理开发备忘录",
+      "summary": "SKT宣布与NVIDIA、Rebellions签署开发备忘录，拟通过NVLink Fusion及MGX机架设计连接GPU与Rebel R200 NPU，分别承担输入处理和回答生成。SKT计划在数据中心验证性能、稳定性及商业化可能，尚非已部署成果。",
+      "reason": "SKT与NVIDIA两方原文确认合作及任务分工，提供异构推理基础设施的新进展；效率提升仍是待验证目标。",
+      "category": "industry",
+      "quote": "GPU·NPU 통합 시스템 개발 업무협약(MOU)을 체결했다고 밝혔다.",
+      "tier": "T1",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI赛道",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "skt-nvidia-rebellions-nvlink-fusion-2026-11-09",
+        "title": "SKT、NVIDIA与Rebellions合作开发异构推理系统",
+        "factKey": "gpu-npu-system-development-agreement",
+        "factTitle": "宣布GPU与R200 NPU联合推理系统开发合作"
+      },
+      "addedAt": "2026-11-09T15:10:29+08:00"
+    },
+    {
+      "sourceId": "nvidia-newsroom",
+      "sourceName": "NVIDIA Newsroom",
+      "date": "2026-11-08",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion",
+      "title": "NVIDIA确认三方异构推理合作，R200系统预计2028年可部署",
+      "summary": "NVIDIA公告确认与SKT、Rebellions合作，计划由GPU承担prefill、NPU承担decode，并采用NVLink Fusion及MGX架构。公告明确R200系统预计2028年具备部署条件。",
+      "reason": "作为SKT公告的另一参与方证据，补充系统时间表；保留原站11月8日日期，仅作48小时内交叉核对。",
+      "category": "industry",
+      "quote": "Rebellions’ R200 systems are expected to be ready for deployment in 2028.",
+      "tier": "T1",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "skt-nvidia-rebellions-nvlink-fusion-2026-11-09",
+        "title": "SKT、NVIDIA与Rebellions合作开发异构推理系统",
+        "factKey": "gpu-npu-system-development-agreement",
+        "factTitle": "宣布GPU与R200 NPU联合推理系统开发合作"
+      },
+      "addedAt": "2026-11-09T15:10:29+08:00"
+    },
+    {
+      "sourceId": "52audio",
+      "sourceName": "我爱音频网",
+      "date": "2026-11-09",
+      "url": "https://www.52audio.com/archives/1794189440421.html",
+      "title": "千问AI耳机原创拆解：多麦克风拾音，单耳实测约5.8克",
+      "summary": "Wen5拆解千问AI耳夹式耳机，识别出3个MEMS麦克风、1个骨传导麦克风、BES2810ZP蓝牙音频主控及55mAh耳机电池，单耳实测约5.8克。文章介绍的转写、翻译功能未提供准确率测试。",
+      "reason": "当天原创拆解提供AI语音耳机的具体硬件证据；拆解结果不能验证AI功能效果或标称续航。",
+      "category": "tip",
+      "quote": "单只耳机重量约为5.8g。",
+      "tier": "T2",
+      "entity": "qwen",
+      "subjects": [
+        "qwen"
+      ],
+      "region": "国内",
+      "tags": [
+        "教程/实践",
+        "AI硬件",
+        "AI产品",
+        "语音",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-09T15:10:29+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-11-09T05:47:58.000Z",
+      "url": "https://www.qbitai.com/2026/11/508607.html",
+      "title": "量子位实测LobeHub：共享成果接续任务，人工保留验收权",
+      "summary": "文婷用LobeHub组建主管与三名分工Agent，先生成六条AI选题简报，再沿用成果制作可搜索、筛选的资讯网页。网页阶段另建开发与QA Agent，检查发现问题后修改，最终由人验收。作者报告选题阶段不足8分钟，网页阶段约30分钟。",
+      "reason": "提供任务分工、成果交接和人工验收的具体用法。原文正文＋原站 RSS 时间核验；耗时来自作者单次体验，未独立复测。",
+      "category": "tip",
+      "quote": "人类始终牢牢掌握着最终的验收权。",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI产品",
+        "Agent"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-09T16:16:49+08:00"
+    },
+    {
+      "sourceId": "bytedance-seed",
+      "sourceName": "字节跳动 Seed",
+      "date": "2026-11-09",
+      "url": "https://seed.bytedance.com/en/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5",
+      "title": "Seedream 5.5发布，新增原生透明素材并强化连续编辑",
+      "summary": "字节发布Seedream 5.5，新增原生RGBA透明及半透明输出，并展示同一图像连续100轮编辑，强调保留未编辑区域、减少画质退化。公告还介绍小字渲染和真实感改进；百轮效果属于厂商演示，Pro版本仍待后续发布，价格及完整开放条件未说明。",
+      "reason": "透明素材和连续修改直接关系设计制作流程。已核对官网今日公告与产品页；演示及评测为厂商披露，尚未独立复测，原文日期保留到日。",
+      "category": "ai-models",
+      "quote": "Today, we are introducing Seedream 5.5, our next-generation image creation model.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "模型发布",
+        "国内AI",
+        "图像生成",
+        "多模态"
+      ],
+      "selected": true,
+      "event": {
+        "key": "bytedance-seedream55-release-2026-11-09",
+        "title": "字节发布Seedream 5.5",
+        "factKey": "seedream55-multiturn-editing-native-rgba-release",
+        "factTitle": "发布强化连续编辑并支持原生RGBA输出的Seedream 5.5"
+      },
+      "addedAt": "2026-11-09T17:24:39+08:00"
+    },
+    {
+      "sourceId": "baidu-ernie",
+      "sourceName": "百度文心 ERNIE",
+      "date": "2026-11-09",
+      "url": "https://ernie.baidu.com/zh/research/posts/ernie-evolve/",
+      "title": "百度披露ERNIE Evolve：自主选择研究方向并验证代码改进",
+      "summary": "百度介绍自动研究系统ERNIE Evolve，以双层循环选择研究方向、修改代码和积累实验经验，由仓库外的固定评测及代码复核验收。团队称，在保持确定性的ERNIE-5.5-Flash推理任务中，吞吐提高33.7%；部分公开基准的实验代码与日志已开放，内部推理收益尚未获独立复测。",
+      "reason": "提供AI参与真实研发的流程与验证边界。已核对今日中英文官网全文及公开实验仓库；收益属于团队自述，未确认系统对外开放，原文日期保留到日。",
+      "category": "paper",
+      "quote": "Evaluator 是固定的评测程序，在真实负载上测性能、查正确性。",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "论文/研究",
+        "国内AI",
+        "Agent",
+        "编码",
+        "部署/工程"
+      ],
+      "selected": true,
+      "event": {
+        "key": "baidu-ernie-evolve-research-2026-11-09",
+        "title": "百度披露ERNIE Evolve自动研究系统",
+        "factKey": "research-loop-and-validation-results-disclosure",
+        "factTitle": "披露自动研究流程、公开任务结果及内部推理优化实验"
+      },
+      "addedAt": "2026-11-09T17:24:39+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-11-09T16:34:03+08:00",
+      "url": "https://www.qbitai.com/2026/11/508694.html",
+      "title": "千问办公2.0上线团队协作与事件触发任务",
+      "summary": "千问供稿宣布，办公2.0功能已在客户端全量上线：协作空间可关联多个钉钉群聊、文档和表格，数字员工结合共享上下文跟进任务；自动任务支持指定消息、审批等事件触发，并新增产物共创、资料空间及跨端接续。远程操作电脑须经用户授权，文中客户提效尚未独立验证。",
+      "reason": "团队协作和事件触发改变实际办公流程。原文正文＋原站 RSS 时间核验，并对照官方日志；属于企业供稿，效果未独立验证。",
+      "category": "ai-products",
+      "quote": "目前，所有功能已在千问办公客户端全量上线。",
+      "tier": "T2",
+      "entity": "qwen",
+      "subjects": [
+        "qwen"
+      ],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "qwenwork-20-team-agent-2026-11-09",
+        "title": "千问办公2.0上线团队协作与自动任务",
+        "factKey": "qwenwork-20-client-rollout",
+        "factTitle": "客户端2.0上线协作空间、事件触发及跨端接续"
+      },
+      "addedAt": "2026-11-09T18:30:38+08:00"
+    },
+    {
+      "sourceId": "qwenwork-docs",
+      "sourceName": "千问办公官方文档",
+      "date": "2026-11-09",
+      "url": "https://docs.qwenwork.cn/release-notes/desktop",
+      "title": "千问官方日志确认2.0功能及远控权限条件",
+      "summary": "官方2.0.0日志确认协作空间、资料空间、人机共创与触发任务。手机远控需要目标电脑开启远程控制，并使用同一账号组织；在线文档、表格和应用继续沿用原有权限。事件触发覆盖消息、审批、待办，任务可在云电脑或本机运行。",
+      "reason": "补充同次更新的官方依据和使用条件，仅作交叉证据。日志只标日期；与媒体供稿同属厂商口径，不构成独立效果验证。",
+      "category": "ai-products",
+      "quote": "触发事件覆盖消息、审批、待办三大类",
+      "tier": "T1",
+      "entity": "qwen",
+      "subjects": [
+        "qwen"
+      ],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "国内AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "qwenwork-20-team-agent-2026-11-09",
+        "title": "千问办公2.0上线团队协作与自动任务",
+        "factKey": "qwenwork-20-client-rollout",
+        "factTitle": "客户端2.0上线协作空间、事件触发及跨端接续"
+      },
+      "addedAt": "2026-11-09T18:30:38+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-11-09T16:44:00+08:00",
+      "url": "https://www.qbitai.com/2026/11/507843.html",
+      "title": "Hy4实操复盘：先验证单页模板，再批量修改PPT",
+      "summary": "闻乐记录用WorkBuddy中的Hy4制作网页和演示文稿：播放器先运行交互测试，再修复列表末尾的切歌问题；PPT换模板时先验证一页，再批量修改其余页面。文章提供分阶段验收的具体案例，测试通过数来自文中自测记录，不能据此保证产物没有缺陷。",
+      "reason": "新增可借鉴的网页验收与PPT改版做法。原文正文＋原站 RSS 时间核验；仅核对文字案例，未复测产物或观看完整演示视频。",
+      "category": "tip",
+      "quote": "先挑一页试着套进去，确认没问题",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "编码",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "tencent-hy4-release-2026-11-04",
+        "title": "腾讯发布Hy4正式版",
+        "factKey": "qbitai-workbuddy-practical-tests-2026-11-09",
+        "factTitle": "量子位分享Hy4网页测试与PPT分阶段修改案例"
+      },
+      "addedAt": "2026-11-09T18:30:38+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-09T12:59:02.000Z",
+      "url": "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/",
+      "title": "Google新增两款TPU系统配置，面向保密计算与长上下文",
+      "summary": "Maximilian Schreiner报道，Google新增TPU 8tx和TPU 8i Max，均基于现有第八代芯片。前者面向处理敏感数据的保密计算，后者通过双芯片封装提高计算与内存资源，服务大型代码库、长视频等任务。性能描述来自Google，报道未明确价格及客户开放时间。",
+      "reason": "为企业AI算力选型增加具体配置变化。已通读报道并核对作者、精确发布时间及原站订阅；厂商性能主张未独立复测，未取得官方公告全文。",
+      "category": "ai-products",
+      "quote": "Both new variants are built on existing silicon.",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI硬件",
+        "部署/工程",
+        "Agent",
+        "海外AI",
+        "Google"
+      ],
+      "selected": true,
+      "event": {
+        "key": "google-tpu-8tx-8i-max-announcement-2026-11-09",
+        "title": "Google公布TPU 8tx与TPU 8i Max系统",
+        "factKey": "two-eighth-generation-system-configurations-announced",
+        "factTitle": "公布面向保密计算与长上下文的两种第八代TPU配置"
+      },
+      "addedAt": "2026-11-09T21:49:06+08:00"
+    },
+    {
+      "sourceId": "rss-nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "date": "2026-11-09T14:00:01.000Z",
+      "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "title": "NVIDIA介绍GR00T 2，披露少样本机器人操控结果",
+      "summary": "NVIDIA在CoRL介绍基于Cosmos的GR00T 2世界动作模型，支持通过API串联机器人技能并处理错误。官方称，在50项任务中，每项提供一次示范时平均成功率为71%，五次示范时为95%；无任务专属示范时，40项任务至少完成过一次，这不等于80%的单次执行成功率。",
+      "reason": "展示机器人从少量示范学习操作的进展。官方全文与精确发布时间一致；成功率来自厂商评测，尚未独立复测。",
+      "category": "ai-models",
+      "quote": "At CoRL, NVIDIA is introducing GR00T 2",
+      "tier": "T1",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "具身智能",
+        "数据/训练",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-09T22:55:47+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-09T14:00:00.000Z",
+      "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
+      "title": "Automattic正式发布Spacefast，整合AI应用部署与数据库",
+      "summary": "TechCrunch采访Spacefast负责人，介绍这项面向AI生成网站和应用的部署服务：用户可连接自选编码Agent或Git仓库，使用数据库、认证与统计等基础设施。产品九月曾试运行，本次为正式发布；报道没有提供可独立核验的用户留存或经营成效。",
+      "reason": "为AI编程项目提供新的部署选择。完整报道、原站精确时间与创始人公告相互印证；未实际测试，后续规划不视为已交付。",
+      "category": "ai-products",
+      "quote": "Automattic soft-launched the product in September to get feedback before today’s launch.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "编码",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "automattic-spacefast-launch-2026-11-09",
+        "title": "Automattic正式发布Spacefast应用部署平台",
+        "factKey": "spacefast-formal-launch-announcement",
+        "factTitle": "Spacefast宣布正式发布并说明平台能力"
+      },
+      "addedAt": "2026-11-09T22:55:47+08:00"
+    },
+    {
+      "sourceId": "spacefast-blog",
+      "sourceName": "Spacefast Blog",
+      "date": "2026-11-09",
+      "url": "https://spacefast.com/blog/spacefast-and-beyond/",
+      "title": "Spacefast官方确认正式发布，区分现有能力与后续计划",
+      "summary": "创始人Batuhan İçöz署名宣布Spacefast正式发布，列出MariaDB数据库、访问控制、页面协作、版本回滚、源码管理及API、CLI、MCP入口。交易邮件、对象存储、视频流、电商与支付等仍列为后续计划，不能全部理解为已经上线。",
+      "reason": "补充核对平台能力与交付边界。已通读创始人公告；页面仅标11月9日，保留日期精度，仅作同事件交叉证据。",
+      "category": "ai-products",
+      "quote": "today I’m excited and proud to announce the launch of Spacefast.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "编码",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "automattic-spacefast-launch-2026-11-09",
+        "title": "Automattic正式发布Spacefast应用部署平台",
+        "factKey": "spacefast-formal-launch-announcement",
+        "factTitle": "Spacefast宣布正式发布并说明平台能力"
+      },
+      "addedAt": "2026-11-09T22:55:47+08:00"
     }
   ]
 }

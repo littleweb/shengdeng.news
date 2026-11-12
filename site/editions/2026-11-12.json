@@ -1,0 +1,1430 @@
+{
+  "date": "2026-11-12",
+  "researchedAt": "2026-11-12T18:58:16+08:00",
+  "items": [
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-11T16:05:33.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-product-development-with-ai-driven-lifecycle-management-ai-pdlc-in-aws-quick/",
+      "title": "AWS分享产品开发Agent流程，让需求证据与验收标准贯穿交付",
+      "summary": "AWS介绍六个Agent协作的产品开发流程，覆盖需求发现、优先级判断、设计与原型。流程将验收标准写入统一规格，同时用于编码交付和结果审查，并逐阶段保存来源、判断及人工审批记录。搭建示例需要AWS Quick桌面端、自定义Agent权限和企业数据连接。",
+      "reason": "需求追溯、共用验收标准及逐阶段审批可供产品团队借鉴。已通读AWS原文并核对精确发布时间；示例依赖AWS Quick，提速说法未经独立验证。",
+      "category": "tip",
+      "quote": "Every decision traces back to a source.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "编码",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-12T00:42:49+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-11T16:00:00.000Z",
+      "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+      "title": "Google测试Tabletop，用文字生成可共同使用的旅行与家务工具",
+      "summary": "Jess Weatherbed报道，Google实验工具Tabletop可结合链接、文件与文字要求，生成旅行行程、家务表、费用分摊等交互工具，并通过邀请链接供多人同时使用。测试版正通过等候名单逐步开放，目前限美国18岁以上用户。",
+      "reason": "展示自然语言生成应用进入日常多人协作的具体用法。已通读署名原报道并核对精确发布时间；官方公告未能另行通读，工具尚未实测。",
+      "category": "ai-products",
+      "quote": "currently limited to people over the age of 18 in the US.",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI玩法",
+        "海外AI",
+        "Google"
+      ],
+      "selected": true,
+      "event": {
+        "key": "google-tabletop-beta-2026-11-11",
+        "title": "Google启动Tabletop协作应用测试",
+        "factKey": "us-adult-waitlist-beta",
+        "factTitle": "Tabletop通过等候名单向美国成年用户逐步开放测试"
+      },
+      "addedAt": "2026-11-12T00:42:49+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-11T15:00:00.000Z",
+      "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+      "title": "Databricks更新Genie，记者观看CEO用业务数据分析员工反馈与销售失利",
+      "summary": "Databricks公布新版Genie，称其可借助企业数据的业务语义与上下文完成多步骤任务。Julie Bort观看CEO Ali Ghodsi展示实际使用记录，包括分析员工满意度低分项、审视改进建议及总结失败的销售沟通。公司称可通过Unity Gateway限制用量和选择较低成本模型；采访未给出普遍适用的准确率或成本结果。",
+      "reason": "现场展示让企业Agent的使用场景更具体。已通读署名采访并核对精确发布时间；无人值守能力仍属公司主张，官方公告全文未能另行核验。",
+      "category": "ai-products",
+      "quote": "Genie, which can now perform multi-step jobs that take extended work to finish.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI赛道",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "databricks-genie-update-2026-11-11",
+        "title": "Databricks公布Genie多步骤业务Agent更新",
+        "factKey": "multistep-business-agent-update-and-ceo-demonstration",
+        "factTitle": "公布多步骤任务能力并展示CEO实际业务使用记录"
+      },
+      "addedAt": "2026-11-12T01:48:32+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-11T15:50:55.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/uaef-a-framework-agnostic-system-for-closed-loop-evaluation-of-ai-agents/",
+      "title": "AWS开源UAEF，让不同框架的Agent使用同一套评估指标",
+      "summary": "UAEF将LangGraph、LangChain、Strands等框架的执行记录转换为统一格式，提供7个维度、36项指标，并支持版本对比和回归检测。项目采用Apache 2.0许可。部分指标调用Bedrock模型，持久化结果使用DynamoDB与S3，会产生相应服务费用。",
+      "reason": "为更换模型、提示词或框架后的效果比较提供可用工具。已核对官方完整说明；12家组织使用情况为AWS自述，评估分数仍需结合实际任务判断。",
+      "category": "ai-products",
+      "quote": "UAEF is open source under the Apache 2.0 license",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "开源/仓库",
+        "AI产品",
+        "Agent",
+        "部署/工程",
+        "开源生态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "aws-uaef-open-source-release-2026-11-11",
+        "title": "AWS开源UAEF跨框架Agent评估工具",
+        "factKey": "uaef-apache2-release-36-metrics-seven-dimensions",
+        "factTitle": "开放统一执行记录、36项指标和版本回归比较工具"
+      },
+      "addedAt": "2026-11-12T02:54:54+08:00"
+    },
+    {
+      "sourceId": "thenextweb",
+      "sourceName": "The Next Web",
+      "date": "2026-11-11T17:27+00:00",
+      "url": "https://thenextweb.com/news/aws-uaef-open-source-ai-agent-evaluation",
+      "title": "TNW交叉记录UAEF开源范围与AWS服务费用条件",
+      "summary": "Ana Maria Constantin报道UAEF开源，确认其统一不同Agent框架的执行记录，并以36项指标比较版本表现。报道同时指出，模型裁判和结果存储依赖AWS服务，使用时需要考虑相应费用。",
+      "reason": "与官方说明支持同一次开源事实，补充费用条件的交叉核对；报道未提供独立性能测试。",
+      "category": "ai-products",
+      "quote": "Some scores are calculated directly, while others are judged by a second AI model on Amazon Bedrock.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "开源/仓库",
+        "AI产品",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "aws-uaef-open-source-release-2026-11-11",
+        "title": "AWS开源UAEF跨框架Agent评估工具",
+        "factKey": "uaef-apache2-release-36-metrics-seven-dimensions",
+        "factTitle": "开放统一执行记录、36项指标和版本回归比较工具"
+      },
+      "addedAt": "2026-11-12T02:54:54+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-11-11T17:19:52.000Z",
+      "url": "https://simonwillison.net/2026/Nov/11/llm/",
+      "title": "LLM作者披露并修复两种兼容端点密钥误发路径",
+      "summary": "Simon Willison说明，LLM使用第三方OpenAI兼容端点时，两种配置组合可能误发用户的OpenAI密钥。一种发生在指定名称的密钥尚未保存时，另一种涉及Responses模型切换到Chat Completions调用路径。作者宣布已修复这些问题。",
+      "reason": "影响使用兼容端点的密钥隔离，触发条件具体。原文正文＋原站 RSS 时间核验；未独立复现，也未确认实际泄露案例。",
+      "category": "ai-products",
+      "quote": "two ways this could accidentally send your configured OpenAI API key",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "部署/工程",
+        "开源生态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "simon-willison-llm-037-release-2026-11-02",
+        "title": "Simon Willison发布LLM 0.37",
+        "factKey": "compatible-endpoint-key-misrouting-fixes-2026-11-11",
+        "factTitle": "修复两种第三方兼容端点误发OpenAI密钥的路径"
+      },
+      "addedAt": "2026-11-12T02:54:54+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-11-11T00:00:00.000Z",
+      "url": "https://openai.com/index/jiostar-vijay-seshadri",
+      "title": "JioStar分享语音内容助手实践，验证模型裁判并持续补充评估案例",
+      "summary": "JioStar首席架构师Vijay Seshadri在访谈中称，团队约8周构建了覆盖15种以上语言的内容与板球统计助手。其做法包括先限定回答范围，由领域专家提供种子案例，再用模型扩展测试，并验证裁判模型、把线上失败补回评估集。",
+      "reason": "提供语音搜索与推荐产品可借鉴的上线方法。原文正文＋原站 RSS 时间核验；工期及部署情况为受访者自述，未独立复测。",
+      "category": "tip",
+      "quote": "Designing the validator was itself an evaluation problem.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI产品",
+        "AI玩法",
+        "语音",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-12T02:54:54+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-11T19:54:00.000Z",
+      "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+      "title": "CoreWeave转向客户预付与短约融资，季度利息费用达8.46亿美元",
+      "summary": "Rebecca Bellan分析CoreWeave第三季度财报与电话会，公司季度营收约36.6亿美元，净亏损7.09亿美元，利息费用8.46亿美元。公司增加合同支持贷款与短期算力合同，并预计未来三个月收到约90亿美元客户预付款和保证金。预付款仍属预测，短约收益取决于后续需求与定价。",
+      "reason": "提供算力扩张如何筹资与承担成本的具体经营数据。已通读署名报道并与公司公告交叉核对，预付款预期及提价描述来自公司。",
+      "category": "industry",
+      "quote": "it also posted a $709 million net loss",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "coreweave-q3-2026-results-financing",
+        "title": "CoreWeave披露第三季度财务与融资安排",
+        "factKey": "q3-results-contract-backed-financing-prepayment-outlook",
+        "factTitle": "披露季度财务、合同支持融资及客户预付款预期"
+      },
+      "addedAt": "2026-11-12T04:01:56+08:00"
+    },
+    {
+      "sourceId": "coreweave-news",
+      "sourceName": "CoreWeave",
+      "date": "2026-11-10",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+      "title": "CoreWeave原公告确认季度亏损与客户预付款预期",
+      "summary": "公司公告列出第三季度营收36.61亿美元、净亏损7.09亿美元及净利息费用8.46亿美元，并预计未来三个月收到约90亿美元客户预付款和保证金。公告同时确认26亿美元DDTL 5.5融资安排面向期限较短的客户合同。",
+      "reason": "11月10日原公告处于48小时交叉核对窗口，支持同一财务与融资事实，仅作证据补充。季度报表未经审计，未来收款仍属公司预期。",
+      "category": "industry",
+      "quote": "approximately $9 billion in customer prepayments and deposits expected in the next three months alone",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "coreweave-q3-2026-results-financing",
+        "title": "CoreWeave披露第三季度财务与融资安排",
+        "factKey": "q3-results-contract-backed-financing-prepayment-outlook",
+        "factTitle": "披露季度财务、合同支持融资及客户预付款预期"
+      },
+      "addedAt": "2026-11-12T04:01:56+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-11T19:35:11.000Z",
+      "url": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/",
+      "title": "Ramp十月样本显示AI支出分化，付费企业人均月支出中位数16.32美元",
+      "summary": "The Decoder解读Ramp十月数据，付费AI企业的人均月支出中位数为16.32美元，支出最高1%企业的对应中位数约1.02万美元。总体样本覆盖8.5万余家美国企业客户，观察到的付费AI采用率为56.8%。Token用量与价格另来自使用其支出管理产品的子样本。",
+      "reason": "帮助判断企业AI需求的支出分布。已通读报道并核对Ramp原始表格与方法说明，客户样本及Token子样本均有代表性限制。",
+      "category": "paper",
+      "quote": "A typical company, by contrast, spent just $16.32",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-12T04:01:56+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-11T19:22:22.000Z",
+      "url": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+      "title": "美众议院议员称正准备传票，要求黄仁勋回应闭门简报请求",
+      "summary": "TechCrunch援引彭博报道，John Moolenaar称黄仁勋须在周三结束前回应此前的闭门简报请求，否则可能收到传票。Brian Mast也表示其委员会正在准备传票。报道没有确认传票已经发出，英伟达尚未回应记者置评请求，相关情报指控仍待调查。",
+      "reason": "为英伟达既有治理争议补充国会程序进展。完整原文与精确发布时间可核对，内容转述彭博及议员发言，尚缺独立原文交叉核验。",
+      "category": "industry",
+      "quote": "his committee is preparing a subpoena",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "政策/监管",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "nvidia-megaspeed-allegations-response-2026-10-29",
+        "title": "英伟达回应Megaspeed相关情报指控",
+        "factKey": "house-chairmen-conditional-subpoena-preparation-2026-11-11",
+        "factTitle": "众议院委员会主席称正准备有条件发出的传票"
+      },
+      "addedAt": "2026-11-12T04:01:56+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-11T20:12:46.000Z",
+      "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/",
+      "title": "Google推出Gemini决策API，一次处理最多1000个封闭式问题",
+      "summary": "Gemini Decisions API针对判断、多选和量表评分返回概率与置信度，支持文本、图像、音频、视频和PDF。官方标价为每百万输入Token 0.10美元，不收输出Token费用；150至250毫秒延迟属于Google公布的测试结果。",
+      "reason": "完整报道与Google公告相互印证，为Agent路由和规则检查提供新接口；延迟及基准优势尚未独立复测。",
+      "category": "ai-products",
+      "quote": "It's available now through Google AI Studio",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "多模态",
+        "海外AI",
+        "Google"
+      ],
+      "selected": true,
+      "event": {
+        "key": "google-gemini-decisions-api-release-2026-11-11",
+        "title": "Google发布Gemini Decisions API",
+        "factKey": "decision1-multimodal-closed-set-api-launch",
+        "factTitle": "开放Gemini Decision 1封闭式多模态决策接口"
+      },
+      "addedAt": "2026-11-12T05:10:07+08:00"
+    },
+    {
+      "sourceId": "external-google-blog",
+      "sourceName": "Google 官方博客",
+      "date": "2026-11-11",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "title": "Google原公告补充决策API计费、免费原型额度与开放边界",
+      "summary": "Google确认共享输入在每次请求中计费一次，各问题另计自身指令与选项Token，并提供免费原型额度。官方列出的低延迟测试覆盖至16K上下文、每次1至100个问题，不能直接推广为最大输入和1000题下的保证；Google Cloud支持仍待推出。",
+      "reason": "补充核对计费与性能适用条件。原页仅标日期，保留为48小时内交叉证据，不采用第三方索引的精确时间。",
+      "category": "ai-products",
+      "quote": "There are no output-token charges",
+      "tier": "T1",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "多模态",
+        "海外AI",
+        "Google"
+      ],
+      "selected": false,
+      "event": {
+        "key": "google-gemini-decisions-api-release-2026-11-11",
+        "title": "Google发布Gemini Decisions API",
+        "factKey": "decision1-multimodal-closed-set-api-launch",
+        "factTitle": "开放Gemini Decision 1封闭式多模态决策接口"
+      },
+      "addedAt": "2026-11-12T05:10:07+08:00"
+    },
+    {
+      "sourceId": "rss-google-research",
+      "sourceName": "Google Research",
+      "date": "2026-11-11T19:54:00.000Z",
+      "url": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
+      "title": "Google研究用可穿戴轨迹模拟辅助健康建议，尚未验证临床疗效",
+      "summary": "研究将约10万名同意参与的Fitbit用户、228万人周数据用于SensorWM训练，模拟未来12周不同习惯下的生理轨迹，再由语言模型生成建议。49份参与者档案的盲评中，生活方式教练在71.4%的比较里偏好模拟支持的方案；研究仍是回顾性离线评估，工具不用于临床诊断。",
+      "reason": "原文正文＋原站 RSS 时间核验。展示健康Agent如何结合轨迹模拟与专家评估，方案偏好不等于实际健康改善。",
+      "category": "paper",
+      "quote": "our evaluations were conducted offline using retrospective research cohorts",
+      "tier": "T1",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "AI赛道",
+        "Agent",
+        "海外AI",
+        "Google"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-12T05:10:07+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-11T19:34:55.000Z",
+      "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+      "title": "Fractile获7.2亿美元C轮融资",
+      "summary": "英国政府参与支持的这轮融资规模超过5亿英镑，投向AI芯片及配套软件研发。",
+      "reason": "完整报道与英国政府公告相互印证；融资不等于商业成效，芯片交付仍属后续计划。",
+      "category": "industry",
+      "quote": "work ahead",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI创业",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "fractile-series-c-funding-2026-11-11",
+        "title": "Fractile完成英国政府参与的C轮融资",
+        "factKey": "series-c-funding-with-uk-sovereign-backing",
+        "factTitle": "完成英国主权AI基金和英国商业银行参与的C轮融资"
+      },
+      "addedAt": "2026-11-12T05:10:07+08:00"
+    },
+    {
+      "sourceId": "uk-government",
+      "sourceName": "英国政府 GOV.UK",
+      "date": "2026-11-11",
+      "url": "https://www.gov.uk/government/news/sovereign-ai-and-british-business-bank-invest-in-british-firm-developing-the-next-generation-of-ai-hardware",
+      "title": "英国政府原公告确认参投Fractile及融资英镑口径",
+      "summary": "公告确认主权AI基金与英国商业银行参与Fractile的C轮融资，本轮总规模超过5亿英镑、估值超过50亿英镑。公告没有披露两家机构各自的具体投资额，不能把整轮金额写成政府出资。",
+      "reason": "投资参与方的原始公告确认轮次、参投与金额口径；页面仅标日期，作为48小时内交叉证据保留。",
+      "category": "industry",
+      "quote": "Today’s funding round values the company at over £5 billion.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI创业",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "fractile-series-c-funding-2026-11-11",
+        "title": "Fractile完成英国政府参与的C轮融资",
+        "factKey": "series-c-funding-with-uk-sovereign-backing",
+        "factTitle": "完成英国主权AI基金和英国商业银行参与的C轮融资"
+      },
+      "addedAt": "2026-11-12T05:10:07+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-11T20:12:01.000Z",
+      "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+      "title": "Meta确认基础设施负责人将交棒，由Dave Brown接任",
+      "summary": "Meta向TechCrunch确认，长期基础设施负责人兼工程联合负责人Santosh Janardhan将卸任，由今年加入公司的Dave Brown接任。Janardhan预计明年离开，过渡期间继续留任，并为Meta Compute提供顾问支持。",
+      "reason": "报道获得Meta直接确认，涉及AI算力组织的负责人更替；离职原因未披露，不能据此推断项目或投资计划变化。",
+      "category": "industry",
+      "quote": "he is moving into an advisory role on Meta Compute",
+      "tier": "T2",
+      "entity": "meta",
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "Meta"
+      ],
+      "selected": true,
+      "event": {
+        "key": "meta-infrastructure-leadership-transition-2026-11-11",
+        "title": "Meta确认基础设施领导层交接",
+        "factKey": "janardhan-brown-succession-confirmation",
+        "factTitle": "确认Janardhan卸任及Dave Brown接任安排"
+      },
+      "addedAt": "2026-11-12T05:10:07+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-11-11T18:42:50.000Z",
+      "url": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+      "title": "Willison用编码Agent分析代码，为244个小工具生成分类导航",
+      "summary": "Willison分享了一项工具目录整理实践：让Fable 5.2配合tree-sitter分析既有代码，提取JavaScript API、依赖库和Web API主机，再分别生成标签云，方便浏览其244个小工具。",
+      "reason": "原文正文＋原站 RSS 时间核验。可借鉴按代码结构整理工具目录的思路；原帖没有完整提示词或标签准确率，本轮未复测。",
+      "category": "tip",
+      "quote": "using tree-sitter to analyze the code",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI创作者",
+        "编码",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-12T05:10:07+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-11T21:54:21.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+      "title": "美联航限制个人AI助手代订机票，仍允许查询航班",
+      "summary": "Lauren Feiner报道，美联航称将阻止未经授权的个人AI助手代用户完成机票交易，理由包括账户隐私、非预期购买及旅客确认要求。助手仍可展示航班信息。公司表示会随技术发展重新评估，目前尚未看到大量用户尝试由Agent代订。",
+      "reason": "影响旅行Agent的实际交易边界。已通读署名报道并核对原站精确时间，政策说明主要依据报道转引的公司回应，执行效果仍待观察。",
+      "category": "industry",
+      "quote": "they won’t be able to actually complete the transaction",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "Agent",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "united-personal-ai-agent-booking-restrictions-2026-11-11",
+        "title": "美联航限制未经授权的个人AI助手代办交易",
+        "factKey": "personal-agent-ticket-transaction-restrictions-announced",
+        "factTitle": "宣布限制个人AI助手完成机票交易并说明隐私与监管顾虑"
+      },
+      "addedAt": "2026-11-12T06:18:40+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-11-11T21:18:30+00:00",
+      "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+      "title": "AWS公开本地模拟器，Willison记录Agent开发规模与运行条件",
+      "summary": "Simon Willison介绍AWS Emulator，可在本地模拟AWS服务进行软件测试。作者记录其Rust实现及项目前三周29,684次提交，并指出macOS和Windows目前需要Docker。开发过程由大量Agent参与，具体兼容程度仍需按项目验证。",
+      "reason": "为编码Agent提供可运行的本地测试环境。原文正文＋原站 RSS 时间核验，并与团队客文交叉核对；尚未实际运行或复测兼容性。",
+      "category": "ai-products",
+      "quote": "29,684 commits in the first three weeks of the project.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "开源/仓库",
+        "AI产品",
+        "Agent",
+        "编码",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "aws-emulator-public-launch-2026-11-11",
+        "title": "AWS公开本地模拟器及Agent开发方式",
+        "factKey": "local-emulator-public-release-and-agent-development-disclosure",
+        "factTitle": "公开AWS本地模拟器并披露Agent开发与验证方式"
+      },
+      "addedAt": "2026-11-12T06:18:40+08:00"
+    },
+    {
+      "sourceId": "all-things-distributed",
+      "sourceName": "All Things Distributed · Swaminathan Sivasubramanian",
+      "date": "2026-11-11",
+      "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+      "title": "AWS团队客文补充模拟器的真实服务对照测试与合并检查",
+      "summary": "Swaminathan Sivasubramanian在Werner Vogels博客介绍，团队先让测试通过真实AWS，再用相同测试检查模拟器，并为每次代码合并设置自动检查。团队称模拟器由Agent编写和测试，覆盖200多项服务，代码以CC0公开。",
+      "reason": "补充同次发布的团队一手说明。已通读客文，原文仅标日期，作为48小时内交叉证据保留；开发规模与过程属于团队自述。",
+      "category": "ai-products",
+      "quote": "All of AWS Emulator’s code was written and tested by agents",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "开源/仓库",
+        "AI产品",
+        "Agent",
+        "编码",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "aws-emulator-public-launch-2026-11-11",
+        "title": "AWS公开本地模拟器及Agent开发方式",
+        "factKey": "local-emulator-public-release-and-agent-development-disclosure",
+        "factTitle": "公开AWS本地模拟器并披露Agent开发与验证方式"
+      },
+      "addedAt": "2026-11-12T06:18:40+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-11T14:00:00.000Z",
+      "url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+      "title": "Plurai披露1300万美元种子融资，用企业数字环境仿真测试Agent",
+      "summary": "Tim Fernholz采访Plurai创始人，介绍其复制企业知识库与工具环境、梳理Agent任务路径并测试边缘情况的方法。公司宣布获得Team8领投的1300万美元种子融资，并希望利用仿真数据后训练面向客户任务的小型开放权重模型。降本与性能效果主要来自团队自述。",
+      "reason": "展示企业Agent评估与定制模型的创业路径。已通读署名采访并核对原站精确时间，融资尚不能证明经营成效，性能与成本主张未独立复测。",
+      "category": "industry",
+      "quote": "creates a digital twin of the company’s electronic systems",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI创业",
+        "AI赛道",
+        "Agent",
+        "数据/训练",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "plurai-seed-enterprise-agent-simulation-2026-11-11",
+        "title": "Plurai披露种子融资与企业Agent仿真方法",
+        "factKey": "seed13m-and-enterprise-simulation-disclosure",
+        "factTitle": "披露1300万美元种子融资及企业数字环境仿真方法"
+      },
+      "addedAt": "2026-11-12T06:18:40+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-11T15:10:23.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-usage-based-pricing-for-amazon-sagemaker-ai-bidirectional-streaming/",
+      "title": "SageMaker新增流式用量计费，端点资源费仍单独计算",
+      "summary": "AWS为SageMaker双向流式推理增加软件用量计量，Deepgram为首发合作方。模型提供商可在会话期间上报消耗，并按产品约定单位收费。连接持续时间与计费音频量须按具体产品规则确认，端点配置期间的基础设施费用仍适用。",
+      "reason": "为实时语音产品厘清软件计费与资源成本。已核对AWS与Deepgram联合署名全文及精确发布时间，实际计量和账单一致性尚未独立验证。",
+      "category": "ai-products",
+      "quote": "Amazon SageMaker AI endpoint infrastructure charges still apply.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "语音",
+        "AI商业化",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "sagemaker-bidirectional-usage-metering-2026-11-11",
+        "title": "SageMaker增加双向流式软件用量计费",
+        "factKey": "marketplace-live-stream-software-metering-launch",
+        "factTitle": "开放流式用量上报并由Deepgram首发接入"
+      },
+      "addedAt": "2026-11-12T07:25:24+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-11T22:44:36.000Z",
+      "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+      "title": "据报英伟达董事会准备讨论黄仁勋去留，决定仍待确认",
+      "summary": "Lauren Feiner援引《华尔街日报》报道，英伟达董事会正准备撤换CEO黄仁勋，最早可能于美国周三开会决定其去留。报道发布时英伟达尚未回应置评请求，相关消息仍待公司确认，不能据此认定撤换已经完成。",
+      "reason": "较此前独立调查新增CEO去留层面的报道，涉及AI芯片龙头治理。已核对署名全文与精确发布时间，两家媒体均转述《华尔街日报》，缺少公司确认。",
+      "category": "industry",
+      "quote": "Nvidia’s board is preparing to dismiss CEO Jensen Huang",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "nvidia-megaspeed-allegations-response-2026-10-29",
+        "title": "英伟达回应Megaspeed相关情报指控",
+        "factKey": "reported-board-ceo-removal-preparation-2026-11-11",
+        "factTitle": "媒体报道董事会准备讨论撤换黄仁勋"
+      },
+      "addedAt": "2026-11-12T07:25:24+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-11T23:17:05.000Z",
+      "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+      "title": "TechCrunch交叉记录英伟达董事会拟撤换CEO的同源消息",
+      "summary": "TechCrunch在报道中记录，《华尔街日报》称英伟达董事会正准备撤换创始人黄仁勋。文章说明已向英伟达请求评论，未提供公司正式决定或撤换完成的证据。",
+      "reason": "全文与精确发布时间已核对，仅作同一进展的交叉记录。核心消息同样来自《华尔街日报》，独立证实有限。",
+      "category": "industry",
+      "quote": "the Wall Street Journal reported that the Nvidia board was preparing to oust its founder.",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "nvidia-megaspeed-allegations-response-2026-10-29",
+        "title": "英伟达回应Megaspeed相关情报指控",
+        "factKey": "reported-board-ceo-removal-preparation-2026-11-11",
+        "factTitle": "媒体报道董事会准备讨论撤换黄仁勋"
+      },
+      "addedAt": "2026-11-12T07:25:24+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-11-12T00:00:00.000Z",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "title": "律所CEO分享年审文档自动化，120位合伙人材料用量账单约$62",
+      "summary": "澳大利亚律所Gilbert + Tobin的CEO Sam Nickless称，他用ChatGPT Work按表格更新120位合伙人的年度评审文件，生成PDF并打包，耗时数分钟，随后在用量面板看到约$62费用。他同时强调按岗位示范任务、设置管理控制，并由使用者检查和负责最终结果。",
+      "reason": "提供具体批处理任务、规模和用量费用，可借鉴文档自动化与成本核查方法。原文正文＋原站 RSS 时间核验；成效为受访者自述，币种和完整成本口径未详列。",
+      "category": "tip",
+      "quote": "the cost for that annual review work was about $62.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI商业化",
+        "AI赛道",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-12T08:34:12+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-11T23:33:03.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification/",
+      "title": "AWS分享权限策略验收方法，用语义差异定位AI遗漏的条件",
+      "summary": "Ferhat Erata与Rémi Delmas介绍，先生成多份权限策略候选，再用开源引擎比较语义差异，定位遗漏条件和逻辑运算符变化，交给验证器、事件回放或人工解决。使用者需编码策略语法与等价规则；OpenShell和CEL部分采用构造示例，候选一致仍可能共享错误。",
+      "reason": "提供可迁移的AI生成权限规则审查流程，附完整代码示例。已核对两位AWS研究者署名、全文与精确发布时间；需要形式化基础，效果尚未经本轮独立复测。",
+      "category": "tip",
+      "quote": "two candidates can share the same mistake.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "编码",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-12T08:34:12+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-11T20:45:45.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-dxc-technology-built-a-multi-model-ai-substrate-on-amazon-bedrock/",
+      "title": "DXC复盘运维Agent权限设计：从只读起步，审批与动作审计放在执行层",
+      "summary": "Asif Fouzi与DXC的Nick Tamburro介绍OASIS架构，将模型访问与操作权限分开管理。Agent按观察、建议、审批后执行和范围内执行四档授权，角色默认只读；执行记录由系统生成，不能依赖Agent自述。企业称56个测量用例的平均处置时间减少95%，文中的航空公司流程则是虚构演示场景。",
+      "reason": "分级授权和独立动作审计可供其他Agent项目借鉴。已核对合著全文及原站精确发布时间；成效数字为企业自述，未经独立验证。",
+      "category": "tip",
+      "quote": "Every DXC OASIS persona starts read-only",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "部署/工程",
+        "安全/对齐",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-12T01:43:53Z"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-11T23:30:03.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/detecting-and-recovering-from-silent-data-corruption-on-amazon-sagemaker-hyperpod/",
+      "title": "AWS分享训练静默错误检测方法，在保存检查点前比对模型副本",
+      "summary": "Siddharth Senger等介绍三层训练检查，包括非有限梯度检测、跨节点复算和更新后的权重指纹比较，避免错误更新进入模型或检查点。方案要求至少三个GPU节点，并在DDP环境进行软件故障注入测试。32张H100、9.53亿参数模型的测试中，每100步进行确定性复算时，平均步耗时增加10.1%。",
+      "reason": "给出可迁移的训练检查顺序、故障定位方法与开销测量，原文和发布时间均已核对。验证来自软件故障注入，仍有检测盲区，实际负载需另测。",
+      "category": "tip",
+      "quote": "Detection has to come from the training job itself.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "数据/训练",
+        "部署/工程",
+        "AI硬件",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-12T02:55:48Z"
+    },
+    {
+      "sourceId": "rss-hugging-face",
+      "sourceName": "Hugging Face Blog",
+      "date": "2026-11-11T05:01:16.000Z",
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "title": "Tether开放0.8B工具调用模型BotPsy，提供本地运行权重",
+      "summary": "Tether AI Research公布基于Qwen3.5-0.8B后训练的BotPsy，模型库已提供BF16及GGUF权重，采用Apache 2.0许可。团队报告BFCL v4成绩由基座的23.4升至44.0，但深度检索BrowseComp-Plus成绩仅4.5。模型主要面向低至中等难度工具任务，推荐英语使用，评估结果来自团队自测。",
+      "reason": "为本地工具调用提供小模型选项。原文正文＋原站 RSS 时间核验，模型库确认权重可见，实际任务效果尚未独立复测。",
+      "category": "ai-models",
+      "quote": "Due to its small parameter count, it is best suited to tasks of low to medium difficulty.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "端侧",
+        "Agent",
+        "开源生态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "tether-botpsy-08b-2026-11-11",
+        "title": "Tether发布BotPsy端侧工具调用模型",
+        "factKey": "botpsy08b-weights-and-evaluation-release",
+        "factTitle": "开放0.8B模型权重并披露工具调用评估"
+      },
+      "addedAt": "2026-11-12T02:55:48Z"
+    },
+    {
+      "sourceId": "ithome-ai",
+      "sourceName": "IT之家",
+      "date": "2026-11-11T12:20:07+08:00",
+      "url": "https://www.ithome.com/1/025/393.htm",
+      "title": "Qwen Code 1.0 Preview融合Qoder运行能力，开放可嵌入的Agent内核",
+      "summary": "汪淼报道，阿里将Qoder的Harness能力融入Qwen Code 1.0 Preview，为开发者提供可嵌入自身产品的Agent运行基础。接入、调度与执行通过统一事件模型协作，模型、沙箱及MCP配置集中管理。预览版以独立分支开放，现有稳定分支继续保留。",
+      "reason": "给自建编码Agent的团队提供了通用运行基础。报道与官方发布说明相符；仍处预览阶段，不能据此认定性能或成本已改善。",
+      "category": "ai-products",
+      "quote": "Qwen Code 1.0 Preview 以独立分支开放，现有稳定分支继续保留。",
+      "tier": "T2",
+      "entity": "qwen",
+      "subjects": [
+        "qwen"
+      ],
+      "region": "国内",
+      "tags": [
+        "开源/仓库",
+        "AI产品",
+        "国内AI",
+        "Agent",
+        "编码",
+        "开源生态"
+      ],
+      "selected": true,
+      "event": {
+        "key": "qwen-code-10-preview-2026-11-11",
+        "title": "Qwen Code 1.0 Preview融合Qoder运行能力并开放",
+        "factKey": "qoder-qwen-harness-open-source-preview",
+        "factTitle": "开放融合Qoder能力的Qwen Code 1.0预览版"
+      },
+      "addedAt": "2026-11-12T04:04:46Z"
+    },
+    {
+      "sourceId": "qwen-code-releases",
+      "sourceName": "Qwen Code · GitHub Releases",
+      "date": "2026-11-11",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v1.0.0-preview",
+      "title": "Qwen官方发布说明确认1.0预览版的平台支持与接口边界",
+      "summary": "官方发布说明确认融合Qoder与Qwen Code的编程Agent能力，支持Qwen、Qoder账号及多个模型提供方，提供macOS、Linux和Windows原生包，并支持会话恢复和非交互执行。团队提醒，预览期接口、配置与行为可能变化。",
+      "reason": "补充同一发布的官方证据，仅作48小时内交叉核对；页面时间未取得可复核时区，因此保留日期，不计作精选新消息。",
+      "category": "ai-products",
+      "quote": "Qwen Code 1.0 Preview is now available.",
+      "tier": "T1",
+      "entity": "qwen",
+      "subjects": [
+        "qwen"
+      ],
+      "region": "国内",
+      "tags": [
+        "开源/仓库",
+        "AI产品",
+        "国内AI",
+        "Agent",
+        "编码",
+        "开源生态"
+      ],
+      "selected": false,
+      "event": {
+        "key": "qwen-code-10-preview-2026-11-11",
+        "title": "Qwen Code 1.0 Preview融合Qoder运行能力并开放",
+        "factKey": "qoder-qwen-harness-open-source-preview",
+        "factTitle": "开放融合Qoder能力的Qwen Code 1.0预览版"
+      },
+      "addedAt": "2026-11-12T04:04:46Z"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-11T23:13:16Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/",
+      "title": "AWS开放独立网页搜索API，自建Agent无需先配置网关",
+      "summary": "AWS新增InvokeWebSearch接口，可通过SDK或CLI直接查询Amazon自有网页索引，返回排序结果与文本摘录，支持域名及发布日期过滤。首批覆盖六个区域，需IAM授权；每千次查询7美元，无网关费用，通过PrivateLink接入的端点费用仍另计。",
+      "reason": "自建Agent和检索流水线可减少网关配置步骤。原文正文＋原站 RSS 时间核验；检索质量尚未独立复测，搜索服务按查询收费。",
+      "category": "ai-products",
+      "quote": "With it, your own code can search the web with a single API call.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "海外AI",
+        "Agent",
+        "搜索",
+        "部署/工程"
+      ],
+      "selected": true,
+      "event": {
+        "key": "aws-agentcore-web-search-api-2026-11-11",
+        "title": "AWS开放AgentCore独立网页搜索API",
+        "factKey": "standalone-invoke-web-search-api-launch",
+        "factTitle": "开放无需配置网关的InvokeWebSearch接口"
+      },
+      "addedAt": "2026-11-12T04:04:46Z"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-11-12T09:45:04+08:00",
+      "url": "https://www.qbitai.com/2026/11/509281.html",
+      "title": "昆腾动力称获近5000台机器人订单，物流供包已有部署验证",
+      "summary": "昆腾动力供稿称，其仓储机器人已出现跨仓复制与客户复购，累计获得近5000台批量订单；供包效率每小时1200件以上、成功率99%。文章未披露已交付数量和测试样本，新构型机器人仍计划于12月底发布。",
+      "reason": "提供物流具身智能订单与作业指标的观察线索。已核对全文和发布时间；量子位刊登企业供稿，订单及效果仍待客户独立验证。",
+      "category": "industry",
+      "quote": "公司已获得合计近5000台机器人的批量订单",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "AI创业",
+        "AI商业化",
+        "具身智能",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-12T05:14:23Z"
+    },
+    {
+      "sourceId": "openrouter-blog",
+      "sourceName": "OpenRouter Blog",
+      "date": "2026-11-12",
+      "url": "https://openrouter.ai/blog/tutorials/ai-agent-infinite-loop/",
+      "title": "OpenRouter实测Agent循环控制，参数变体也需纳入重复检测",
+      "summary": "六个模型各运行三次的故障工具实验中，重复调用检测将工具执行总数从314次降至64次，部分模型仍会改写参数继续尝试。文章给出参数归一化、单次步数与费用上限、密钥总额限制的组合做法，并说明上限触发时仍可能执行待处理调用。",
+      "reason": "提供可迁移的Agent重试与费用控制方法。已通读官方实验和代码；实验刻意要求持续重试，效果尚未独立复测，保留网页当日日期。",
+      "category": "tip",
+      "quote": "A loopKey on the tool tells the detector which part of the input identifies the call.",
+      "tier": "T1",
+      "entity": "openrouter",
+      "subjects": [
+        "openrouter"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-12T05:14:23Z"
+    },
+    {
+      "sourceId": "openrouter-blog",
+      "sourceName": "OpenRouter Blog",
+      "date": "2026-11-12",
+      "url": "https://openrouter.ai/blog/insights/self-hosted-llm-vs-api/",
+      "title": "OpenRouter分享自建推理成本算法，统一负载与Token口径",
+      "summary": "文章用相同Token结构计算GPU租金与API费用的收支平衡点，要求同时考虑缓存比例、输出速度和实际负载。示例采用10月价格及公开硬件跑分，未计工程时间和备用容量；一次后续降价便使3090短提示场景的平衡负载由约8%升至29%。",
+      "reason": "帮助团队按自身流量评估部署成本。已通读官方计算方法与限制；GPU侧未经作者实测，示例价格具有时效性，保留网页当日日期。",
+      "category": "tip",
+      "quote": "We didn’t rent these GPUs ourselves.",
+      "tier": "T1",
+      "entity": "openrouter",
+      "subjects": [
+        "openrouter",
+        "qwen",
+        "deepseek"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "部署/工程",
+        "推理",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-12T05:14:23Z"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-11T23:35:47.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/",
+      "title": "AWS分享编码Agent接入验收，分别核对身份、调用记录与账单",
+      "summary": "AWS以本地Codex连接Bedrock为例，介绍先验证推理通路，再通过两个独立用户检查会话和审计归因，并演练权限撤回。文章区分客户端运行指标、服务端调用记录和实际账单，模型支持情况需按所选地区及推理路径确认。",
+      "reason": "提供企业接入编码Agent时可迁移的验收方法。已核对官方正文与发布时间；示例依赖具体模型、地区和客户端版本，未复测。",
+      "category": "tip",
+      "quote": "Two users are required to test identity isolation.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "编码",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-12T05:14:23Z"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-11T20:52:48.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/automating-aws-agent-registry-updates-with-push-based-architecture/",
+      "title": "AWS分享MCP目录同步方法：自动比对工具变更，更新后重新审批",
+      "summary": "教程以运行时变更事件触发工具查询，比较工具名称、描述和输入结构后更新目录。更新记录回到草稿，消费者继续看到此前获批版本，重新审批后才公开。示例只更新已登记服务器；事件约有5至15分钟延迟，冷启动返回空工具时尚不重试。",
+      "reason": "提供“变更发现、结构比对、重新审批”的可迁移方法。署名全文与精确发布时间可核对；示例未部署复测，不能视为即时同步保证。",
+      "category": "tip",
+      "quote": "Consumers continue to see the previously approved version.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "MCP/工具调用",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-12T14:24:21+08:00"
+    },
+    {
+      "sourceId": "rss-latent-space",
+      "sourceName": "Latent Space",
+      "date": "2026-11-12T05:08:20.000Z",
+      "url": "https://latent.space/p/jev-revolution/",
+      "title": "Jev实践分享：分组淘汰排序文档，在输入过程中预填表单",
+      "summary": "Latent Space现场报道介绍决策模型的应用方式。UiPath演示让Jev从小组文档片段中选出相关项，再逐轮比较胜出者；Workday展示用户仍在输入时预填请假单的原型。Glean则将Jev与大语言模型和其他分类器搭配使用，按任务选择组件。",
+      "reason": "给出把快速判断嵌入软件流程的具体案例。完整原文与原站精确发布时间可核对；演示耗时和应用规模来自参与团队自述，未独立复测。",
+      "category": "tip",
+      "quote": "Jev picked the most relevant chunks from small groups",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI产品",
+        "编码",
+        "推理",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-12T14:24:21+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-11-11T22:03:25.000Z",
+      "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+      "title": "Willison用四个是非问题试用Gemini决策API的视频输入",
+      "summary": "Simon Willison提交一段机器人视频，询问是否出现龙、机器人，以及地点是否在法国或美国，并展示四项概率输出。其中机器人问题约为0.923，龙问题约为0.050。示例展示如何把视频判断写成封闭式问题，没有提供系统准确率或概率校准验证。",
+      "reason": "补充正式发布之外的个人试用与可复用问题示例。原文正文＋原站 RSS 时间核验；仅一段视频四问，不能当作通用评测结论。",
+      "category": "tip",
+      "quote": "I tested it against video",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI产品",
+        "多模态",
+        "视频",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "google-gemini-decisions-api-release-2026-11-11",
+        "title": "Google发布Gemini Decisions API",
+        "factKey": "willison-four-question-video-trial-2026-11-11",
+        "factTitle": "Willison公开单段视频四个是非问题的试用结果"
+      },
+      "addedAt": "2026-11-12T14:24:21+08:00"
+    },
+    {
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "date": "2026-11-12T13:45:00+09:00",
+      "url": "https://gigazine.net/gsc_news/en/20261112-praxis-1/",
+      "title": "Runway开放Praxis-1机器人模型权重，提供本地运行与微调代码",
+      "summary": "Runway按Apache 2.0开放Praxis-1权重及相关代码。这个27B模型同时预测视频与机器人动作，并提供面向RTX 5090的NVFP4量化版本，可供开发者在自身硬件上运行和适配。",
+      "reason": "机器人开发者获得可下载、可适配的模型。署名全文已与官方公告交叉核对，发布时间按日本标准时间读取；硬件表现及评测结果仍来自厂商，未复测。",
+      "category": "ai-models",
+      "quote": "can run on an NVIDIA GeForce 5090",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "具身智能",
+        "开源生态",
+        "AI硬件",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "runway-praxis1-open-weights-2026-11-11",
+        "title": "Runway开放Praxis-1机器人模型权重与代码",
+        "factKey": "apache2-weights-inference-finetuning-release",
+        "factTitle": "按Apache 2.0开放权重及推理、微调代码"
+      },
+      "addedAt": "2026-11-12T15:34:34+08:00"
+    },
+    {
+      "sourceId": "runway-news",
+      "sourceName": "Runway",
+      "date": "2026-11-11",
+      "url": "https://runway.com/news/company-news/praxis-1-is-now-available",
+      "title": "Runway原公告确认Praxis-1商业使用许可与微调支持",
+      "summary": "官方确认本次是九月介绍后的权重开放，Apache 2.0许可覆盖权重、推理及微调代码，支持全量微调和LoRA。公告列出GitHub、Hugging Face及托管推理入口。",
+      "reason": "用于核对许可证和代码开放范围。官方全文仅标日期，按近48小时交叉证据保留；性能结论属于团队评估。",
+      "category": "ai-models",
+      "quote": "including for commercial use.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "具身智能",
+        "开源生态",
+        "AI硬件",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "runway-praxis1-open-weights-2026-11-11",
+        "title": "Runway开放Praxis-1机器人模型权重与代码",
+        "factKey": "apache2-weights-inference-finetuning-release",
+        "factTitle": "按Apache 2.0开放权重及推理、微调代码"
+      },
+      "addedAt": "2026-11-12T15:34:34+08:00"
+    },
+    {
+      "sourceId": "reuters",
+      "sourceName": "Reuters",
+      "date": "2026-11-12T09:01+00:00",
+      "url": "https://www.reuters.com/business/most-large-firms-plan-higher-open-weight-ai-use-cap-bills-study-shows-2026-11-12/",
+      "title": "凯捷调查：59%受访高管称AI支出明显超预期或预算",
+      "summary": "凯捷调查500位大型企业高管，59%称过去一年AI支出明显超预期或预算；近六成计划增加开放权重模型使用。调查反映受访者自报与未来计划，不能视为迁移已经完成。",
+      "reason": "路透署名原文与企业供稿相互对应，提供AI成本压力的新样本；结论不能直接外推至中小企业。",
+      "category": "paper",
+      "quote": "surveyed 500 executives",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "capgemini-ai-economics-snapshot-2026-11-12",
+        "title": "凯捷发布企业AI成本快照调查",
+        "factKey": "survey-cost-overruns-and-multi-model-plans",
+        "factTitle": "披露大型企业AI支出超预期与多模型使用计划"
+      },
+      "addedAt": "2026-11-12T17:51:03+08:00"
+    },
+    {
+      "sourceId": "streetinsider-globenewswire",
+      "sourceName": "StreetInsider · GlobeNewswire企业供稿",
+      "date": "2026-11-12T02:30-05:00",
+      "url": "https://www.streetinsider.com/Globe%2BNewswire/Most%2Borganizations%2Bplan%2Bto%2Badopt%2Ba%2Bmulti-model%2BAI%2Bstrategy,%2Bas%2Bnearly%2Bsix%2Bin%2Bten%2Bfaced%2Bsignificantly%2Bhigher%2BAI%2Bcosts%2Bthan%2Bexpected/27328514.html",
+      "title": "凯捷供稿补充AI成本调查的样本与超支分母",
+      "summary": "供稿说明，调查于2026年9月开展，覆盖10国13个行业、年营收超过10亿美元企业的500位高管。在支出超过预期或预算的企业中，平均超出幅度为24%，并非全部受访企业的平均涨幅。",
+      "reason": "已核对完整供稿及随附新闻稿，补充样本和统计分母；属于企业自报调查，仅作同事实交叉证据。",
+      "category": "paper",
+      "quote": "Among the organizations affected, expenditure was 24% above expectations or budget on average",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "capgemini-ai-economics-snapshot-2026-11-12",
+        "title": "凯捷发布企业AI成本快照调查",
+        "factKey": "survey-cost-overruns-and-multi-model-plans",
+        "factTitle": "披露大型企业AI支出超预期与多模型使用计划"
+      },
+      "addedAt": "2026-11-12T17:51:03+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-12T01:18:23.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-autonomous-ai-agents-with-amazon-bedrock-and-spring-ai/",
+      "title": "AWS分享Java Agent实践：记忆绑定可信身份，异常结果交规则复核",
+      "summary": "Viquar Khan与Mahammadali Saheb通过旅行助手和文档处理示例，讲解工具调用、记忆隔离与规则复核。结构化输出仍可能不符合格式；基础示例按顺序处理文档，并发协作只是可选扩展，自动评测闭环尚未实现。运行需要JDK 21、Spring Boot 4.1及AWS账号。",
+      "reason": "已通读署名原文并核对发布时间，身份隔离和规则复核方法可迁移到其他Agent系统；示例未独立部署复测。",
+      "category": "tip",
+      "quote": "derive the actor from a verified OAuth 2.0 (JWT) identity rather than a client-supplied value",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "编码",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-12T17:51:03+08:00"
+    },
+    {
+      "sourceId": "reuters",
+      "sourceName": "Reuters",
+      "date": "2026-11-12T09:15+00:00",
+      "url": "https://www.reuters.com/world/china/nvidia-customer-megaspeed-says-it-cooperated-with-us-inspections-takes-export-2026-11-12/",
+      "title": "Megaspeed称已聘美国律所清点GPU并核查出口合规",
+      "summary": "路透报道，Megaspeed负责人称公司已配合美国检查，并聘请美国律所全面清点GPU、独立核查出口合规实践。报道同时指出，新加坡相关调查仍在进行。",
+      "reason": "已核对路透署名全文，新增事实是公司披露委托核查；官网暂不可读，未见核查结果或监管结论。",
+      "category": "industry",
+      "quote": "independently verify its export control compliance practices",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "nvidia-megaspeed-allegations-response-2026-10-29",
+        "title": "英伟达回应Megaspeed相关情报指控",
+        "factKey": "megaspeed-us-law-firm-gpu-census-announcement-2026-11-12",
+        "factTitle": "Megaspeed披露聘请美国律所清点GPU并核查出口合规"
+      },
+      "addedAt": "2026-11-12T17:51:03+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-11-12T09:30:00.000Z",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex/",
+      "title": "Holiday Extras称App重建后预订转化提升32.5%",
+      "summary": "Holiday Extras在OpenAI案例中称，团队使用Codex两周完成可运行的App重建，此前相当进度需六个多月。重建后，打开App至预订的转化率提升32.5%，错误率从19%降至9%。团队以有文档的小型软件包复用基础能力，工程师负责架构、API、安全和开发流程。转化率与错误率比较来自不同时期。",
+      "reason": "给出明确经营指标和团队分工，原文正文＋原站 RSS 时间核验。成效为企业自述，前后比较跨时期，缺少同期对照与独立复核。",
+      "category": "industry",
+      "quote": "the main app’s error rate fell from 19% to 9%.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "AI商业化",
+        "AI产品",
+        "编码",
+        "AI赛道"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-12T18:58:16+08:00"
+    },
+    {
+      "sourceId": "the-next-web",
+      "sourceName": "The Next Web",
+      "date": "2026-11-12T05:00+00:00",
+      "url": "https://thenextweb.com/news/nebuly-21m-series-a-enterprise-ai-roi",
+      "title": "Nebuly获2100万美元融资，将Agent活动关联到业务成效",
+      "summary": "The Next Web报道，Nebuly完成Planven领投的2100万美元A轮融资。其平台面向企业内部工具和客户助手，衡量节省时间、释放产能及影响收入等结果，财务团队可以检查并调整计算假设。报道列出Oura、Iveco等客户及六位数美元合同，新增资金计划用于欧美销售团队和平台开发。",
+      "reason": "提供AI价值评估业务的客户、合同规模与计算方法，两家媒体原文均确认融资金额及领投方。客户与成效来自公司披露，尚缺客户方独立复核。",
+      "category": "industry",
+      "quote": "Finance teams can inspect and adjust the assumptions behind the figures",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "AI创业",
+        "AI商业化",
+        "AI赛道",
+        "Agent"
+      ],
+      "selected": true,
+      "event": {
+        "key": "nebuly-series-a-ai-roi-2026-11-12",
+        "title": "Nebuly披露A轮融资与企业AI价值评估业务",
+        "factKey": "series-a21m-announcement",
+        "factTitle": "披露Planven领投的2100万美元A轮融资"
+      },
+      "addedAt": "2026-11-12T18:58:16+08:00"
+    },
+    {
+      "sourceId": "tech-funding-news",
+      "sourceName": "Tech Funding News",
+      "date": "2026-11-12",
+      "url": "https://techfundingnews.com/nebuly-ai-roi-platform-enterprise-agents/",
+      "title": "Nebuly采访补充合同门槛，未披露营收",
+      "summary": "Tech Funding News记者Sofia Chesnokova采访Nebuly创始人，交叉记录2100万美元A轮融资及Planven领投信息。创始人称公司只服务大型企业，合同通常约10万美元一年起。文章明确未披露营收，并指出财务人员仍需检验节省工时估算及其计算假设。",
+      "reason": "同日采访交叉确认融资事实，并补充合同门槛及营收未披露的限制。合同金额属于公司自述，原文仅提供日期，保留该精度。",
+      "category": "industry",
+      "quote": "Contracts typically start at around $100,000 a year. No revenue figures were shared.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "海外AI",
+        "AI创业",
+        "AI商业化",
+        "AI赛道",
+        "Agent"
+      ],
+      "selected": false,
+      "event": {
+        "key": "nebuly-series-a-ai-roi-2026-11-12",
+        "title": "Nebuly披露A轮融资与企业AI价值评估业务",
+        "factKey": "series-a21m-announcement",
+        "factTitle": "披露Planven领投的2100万美元A轮融资"
+      },
+      "addedAt": "2026-11-12T18:58:16+08:00"
+    }
+  ]
+}

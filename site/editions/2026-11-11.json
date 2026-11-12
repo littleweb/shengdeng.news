@@ -1,0 +1,2070 @@
+{
+  "date": "2026-11-11",
+  "researchedAt": "2026-11-11T23:35:25+08:00",
+  "items": [
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-10T16:00:00.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+      "title": "Gemini 4 Carbon扩大开放，覆盖付费API与AI Ultra用户",
+      "summary": "Robert Hart报道，Carbon开始通过Gemini API向付费开发者和企业开放，并覆盖Gemini应用、Search AI Mode及Antigravity中的AI Ultra订阅者。引入价为每百万输入Token 2美元、输出10美元，11月底后翻倍；免费及较低档位的开放时间尚未明确。",
+      "reason": "较此前限网络防御者的阶段，新增明确的付费访问入口。报道全文和精确发布时间可核对；性能及实际任务成本仍需自行测试。",
+      "category": "ai-models",
+      "quote": "Carbon is rolling out today via the Gemini API",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "编码",
+        "Agent",
+        "海外AI",
+        "Google"
+      ],
+      "selected": true,
+      "event": {
+        "key": "google-gemini-4-carbon-2026-10-28",
+        "title": "Google公布Gemini 4 Carbon及分阶段开放安排",
+        "factKey": "gemini-4-carbon-paid-public-rollout-2026-11-10",
+        "factTitle": "Carbon扩大至付费开发者、企业及AI Ultra用户"
+      },
+      "addedAt": "2026-11-10T16:48:46Z"
+    },
+    {
+      "sourceId": "rss-nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "date": "2026-11-10T16:00:03.000Z",
+      "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+      "title": "NVIDIA公布Snapshot，合作方测试将模型就绪时间从约8分钟缩至31秒",
+      "summary": "NVIDIA公布Snapshot开源组件，通过恢复检查点副本减少模型重载与预热等待。官方称，Crusoe在HGX B300上测试GLM-5.3，就绪时间从约8分钟降至31秒。同篇公告还宣布GPU集群管理组件NVKE与NVKR进入公开预览。",
+      "reason": "为推理服务扩容提供具体工具和测试条件。官方全文及精确发布时间可核对；效果来自指定合作方任务，不代表任意集群都能复现。",
+      "category": "ai-products",
+      "quote": "reduced the time for the workload to become ready from roughly eight minutes to 31 seconds.",
+      "tier": "T1",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "开源/仓库",
+        "AI产品",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-10T16:48:46Z"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-10T16:20:30.000Z",
+      "url": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping",
+      "title": "记者复现Muse读取eBay受阻，平台称部分Agent访问受限",
+      "summary": "Mia Sato报道，用户此前用Muse整理eBay商品清单，近期却无法取得链接和详情，记者以其他搜索请求复现了问题。eBay回应称，部分Agent访问因未经授权抓取等情形受到限制，但未直接确认近期是否新增统一限制；Meta拒绝置评。",
+      "reason": "说明购物Agent的可用性还受平台接入规则影响。完整报道包含记者复现和eBay回应，不能据此断言所有第三方Agent都已被封禁。",
+      "category": "industry",
+      "quote": "The Verge was able to re-create the experience using other search requests",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "meta"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI产品",
+        "AI赛道",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "ebay-third-party-agent-access-2026-11-10",
+        "title": "eBay第三方购物智能体访问受限",
+        "factKey": "muse-ebay-browse-block-reproduced",
+        "factTitle": "记者复现Muse读取eBay商品受阻并取得平台回应"
+      },
+      "addedAt": "2026-11-10T16:48:46Z"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-10T14:01:39.000Z",
+      "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+      "title": "Anthropic拟定向售股",
+      "summary": "拟售260亿美元无投票权N类股，尚待完成。",
+      "reason": "报道据申报披露，补充融资结构。",
+      "category": "industry",
+      "quote": "non-voting Class N stock",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "anthropic-ipo-s1-2026-10-26",
+        "title": "Anthropic公开提交IPO注册文件",
+        "factKey": "proposed-26b-class-n-private-placement-2026-11-10",
+        "factTitle": "定向售股"
+      },
+      "addedAt": "2026-11-10T16:48:46Z"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-10T17:30:00.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
+      "title": "Claude推出Sheets协作表格测试版，面向付费套餐",
+      "summary": "Hayden Field报道，Claude Sheets已进入测试，支持团队与Claude共同编辑电子表格。官方说明其可生成多标签页、公式和下拉菜单，但目前仅提供基础表格功能；需要完整Excel功能时可导出文件。Enterprise默认关闭，须由管理员启用。",
+      "reason": "让表格生成和后续协作留在同一工作区。署名报道与官方说明相符，保留测试阶段和企业启用条件，未实测。",
+      "category": "ai-products",
+      "quote": "the first two available to all paid plans",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "claude-sheets-beta-2026-11-10",
+        "title": "Claude推出Sheets协作表格",
+        "factKey": "sheets-paid-plan-beta-launch",
+        "factTitle": "向付费套餐推出Sheets协作表格测试版"
+      },
+      "addedAt": "2026-11-10T17:57:34Z"
+    },
+    {
+      "sourceId": "external-anthropic-claude-blog",
+      "sourceName": "Anthropic · Claude 官方博客",
+      "date": "2026-11-10",
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "title": "Anthropic确认Sheets功能边界：基础表格，企业默认关闭",
+      "summary": "官方说明，Sheets可直接修改单元格并标示变更，支持团队共享及导出.xlsx或CSV。功能覆盖网页、桌面和移动端；Team默认开启，Enterprise默认关闭。当前功能仍较基础，不能据此视为完整Excel替代品。",
+      "reason": "官方全文补充同次上线的功能和管理条件，仅作交叉证据。页面只标11月10日，保留日期精度。",
+      "category": "ai-products",
+      "quote": "For now, sheets have simple spreadsheet functionality",
+      "tier": "T1",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": false,
+      "event": {
+        "key": "claude-sheets-beta-2026-11-10",
+        "title": "Claude推出Sheets协作表格",
+        "factKey": "sheets-paid-plan-beta-launch",
+        "factTitle": "向付费套餐推出Sheets协作表格测试版"
+      },
+      "addedAt": "2026-11-10T17:57:34Z"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-10T17:30:00.000Z",
+      "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+      "title": "Claude交互连接器升级，可在对话旁打开合作应用",
+      "summary": "Aisha Malik报道，新交互连接器可把Adobe、Atlassian和HubSpot等应用直接打开在Claude内。官方进一步说明，支持的工具可提供完整编辑界面，让用户与Claude共同操作；更新随新版体验向网页和桌面分批推送，仍受连接器支持、应用权限及管理员设置限制。",
+      "reason": "把应用操作与Agent对话放进同一界面，减少工作流切换。媒体正文与官方说明互证，未将尚在建设的集成写成已上线。",
+      "category": "ai-products",
+      "quote": "interactive connectors that open the full version of apps",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "MCP/工具调用",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "claude-interactive-connectors-full-apps-2026-11-10",
+        "title": "Claude升级完整应用交互连接器",
+        "factKey": "supported-apps-embedded-editing-rollout",
+        "factTitle": "分批推送支持完整应用界面与共同编辑的连接器"
+      },
+      "addedAt": "2026-11-10T17:57:34Z"
+    },
+    {
+      "sourceId": "external-anthropic-claude-blog",
+      "sourceName": "Anthropic · Claude 官方博客",
+      "date": "2026-11-10",
+      "url": "https://claude.com/resources/articles/interactive-connectors-full-tool",
+      "title": "Anthropic确认完整应用连接器的推送与授权条件",
+      "summary": "官方说明，升级面向所有套餐，但需账号获得新版Claude体验或组织启用，并由具体连接器支持。用户可在对话旁或全屏打开工具，Claude的修改仍经过连接器审批和权限控制。开发者相关能力处于公开预览，Figma、Harvey和Shopify集成仍在建设。",
+      "reason": "补充同次升级的开放范围、权限与预览限制，仅作交叉证据；页面只标11月10日，未补造具体时间。",
+      "category": "ai-products",
+      "quote": "The whole tool opens next to your conversation.",
+      "tier": "T1",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "MCP/工具调用",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": false,
+      "event": {
+        "key": "claude-interactive-connectors-full-apps-2026-11-10",
+        "title": "Claude升级完整应用交互连接器",
+        "factKey": "supported-apps-embedded-editing-rollout",
+        "factTitle": "分批推送支持完整应用界面与共同编辑的连接器"
+      },
+      "addedAt": "2026-11-10T17:57:34Z"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-10T17:32:47.000Z",
+      "url": "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai",
+      "title": "Big Walk团队披露AI辅助排错，称涉及代码远低于0.1%",
+      "summary": "Jay Peters报道，House House称开发末期曾用聊天机器人排查第三方代码问题，少量建议经修改后进入游戏，估计相关代码远低于0.1%。部分IGF评委声明拒投使用生成式AI的作品，但该声明不代表IGF整体政策。工作室承认此前缺少内部AI规则，计划补建。",
+      "reason": "展示AI编码使用的披露与评奖风险。已读署名报道并核对工作室FAQ；代码比例为团队估计，部分评委立场不能当作IGF全面禁令。",
+      "category": "industry",
+      "quote": "well under 0.1%",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "编码",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "big-walk-ai-development-disclosure-2026-11",
+        "title": "House House披露Big Walk的AI辅助开发使用",
+        "factKey": "house-house-llm-debugging-disclosure",
+        "factTitle": "公开说明LLM排错与代码使用范围并承诺补建规则"
+      },
+      "addedAt": "2026-11-10T17:57:34Z"
+    },
+    {
+      "sourceId": "prnewswire",
+      "sourceName": "美通社（Kyndryl供稿）",
+      "date": "2026-11-10T08:05-05:00",
+      "url": "https://www.prnewswire.com/news-releases/kyndryl-report-ai-returns-rise-as-enterprise-readiness-falls-302933969.html",
+      "title": "Kyndryl调查：64%受访领导者称AI有回报，24%曾遇投资失败",
+      "summary": "Kyndryl发布覆盖21国3700名高级企业领导者的调查，64%自报AI投资获得正回报，比2025年高10个百分点；24%称组织曾有AI投资失败，21%取消过重大AI项目。结果来自受访者反馈，不能等同于经过审计的企业利润或AI投入的因果效果。",
+      "reason": "同时披露回报与失败，便于评估企业AI落地阻力。已核对供稿全文、明确发布时间及企业原文；供稿方提供相关技术服务，结果未独立审计。",
+      "category": "paper",
+      "quote": "21% canceled a major AI initiative",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "kyndryl-readiness-report-2026-27",
+        "title": "Kyndryl发布2026至2027年度Readiness调查",
+        "factKey": "survey-ai-returns-risk-readiness-release",
+        "factTitle": "披露企业AI投资回报、失败与组织准备度调查"
+      },
+      "addedAt": "2026-11-10T17:57:34Z"
+    },
+    {
+      "sourceId": "kyndryl-investor-relations",
+      "sourceName": "Kyndryl · 投资者关系",
+      "date": "2026-11-10",
+      "url": "https://kyndryl.gcs-web.com/news-releases/news-release-details/kyndryl-report-ai-returns-rise-enterprise-readiness-falls",
+      "title": "Kyndryl原站补充调查边界：AI岗位与变革管理尚未普及",
+      "summary": "企业原文披露，仅27%的受访领导者称组织正式更新了AI相关岗位职责，29%称已全面实施AI变革管理。报告方法页说明，调查由Edelman Intelligence受委托于2026年7月10日至9月2日进行，覆盖21国、24个行业。",
+      "reason": "企业原文与方法说明对应同一份调查，仅补充来源证据，不构成独立验证；页面只标11月10日，保留日期精度。",
+      "category": "paper",
+      "quote": "27% have formally updated roles and responsibilities around AI",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "AI商业化",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "kyndryl-readiness-report-2026-27",
+        "title": "Kyndryl发布2026至2027年度Readiness调查",
+        "factKey": "survey-ai-returns-risk-readiness-release",
+        "factTitle": "披露企业AI投资回报、失败与组织准备度调查"
+      },
+      "addedAt": "2026-11-10T17:57:34Z"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-11-10T10:00:00.000Z",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "title": "ChatGPT推出商家资料与Agent测试版，Agent先向美国部分企业开放",
+      "summary": "符合条件且位于ChatGPT可用地区的商家可通过Business Hub认领并验证资料，提交商品价格与库存，查看汇总提及及点击数据。Business Agents先向美国符合条件的电商和在线服务企业开放，对话单独标识；商家不会收到用户聊天内容。",
+      "reason": "为商家参与AI搜索和产品咨询提供明确入口。原文正文＋原站 RSS 时间核验，并与记者报道互证；仍处测试阶段，不能据此认定已带来销售增长。",
+      "category": "ai-products",
+      "quote": "Business Agents are now available to eligible ecommerce and online service businesses in the United States.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI赛道",
+        "Agent",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-business-hub-agents-beta-2026-11-10",
+        "title": "OpenAI推出ChatGPT商家资料与Business Agents测试版",
+        "factKey": "business-hub-verification-and-us-agents-beta-launch",
+        "factTitle": "开放商家资料认领与洞察，并向美国部分企业提供Business Agents"
+      },
+      "addedAt": "2026-11-11T03:05:44+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-10T18:00:00.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+      "title": "The Verge交叉确认ChatGPT商家Agent的首批开放范围",
+      "summary": "Jay Peters报道，Business Agents首批面向美国符合条件的电商和在线服务企业。用户可从ChatGPT回答中的商家入口发起独立对话。OpenAI在媒体简报中未披露具体验证方法，称不同企业适用不同方式。",
+      "reason": "署名全文和精确发布时间可核对，补充同次上线的媒体简报证据；仅作交叉核对，不代表记者已实测商家Agent效果。",
+      "category": "ai-products",
+      "quote": "available first to “eligible” e-commerce and online service businesses in the US",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI赛道",
+        "Agent",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "openai-business-hub-agents-beta-2026-11-10",
+        "title": "OpenAI推出ChatGPT商家资料与Business Agents测试版",
+        "factKey": "business-hub-verification-and-us-agents-beta-launch",
+        "factTitle": "开放商家资料认领与洞察，并向美国部分企业提供Business Agents"
+      },
+      "addedAt": "2026-11-11T03:05:44+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-10T16:59:43.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-tcs-built-an-agentic-test-orchestrator-with-amazon-bedrock-agentcore/",
+      "title": "TCS测试Agent复盘：区分代码与环境错误，限制自动修复",
+      "summary": "TCS与AWS介绍金融业测试编排实践：按租户和项目过滤上下文，将生成、执行、修复分开；仅对符合重试条件的代码错误提出修改，连接及认证错误不交给代码修复器。约100个场景的内部对照中，工程工时从约200小时降至24小时，质量工程师仍负责审核和发布判断。",
+      "reason": "提供可迁移的错误分类、修复边界和测试留证方法。已核对三位作者及全文，原文正文＋原站 RSS 时间核验；88%工时降幅来自TCS内部对照，未独立复测。",
+      "category": "tip",
+      "quote": "Environment errors, such as connectivity or authentication failures, are not sent to the code fixer.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "编码",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-11T03:05:44+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-10T18:11:08.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore/",
+      "title": "Trovata资金Agent案例：通过验证API取数，沿用用户权限",
+      "summary": "Trovata技术负责人和AWS架构师介绍现金预测、异常监控及对账工作流：Agent通过已验证API获取数据，沿用用户角色权限，并记录查询和操作供审计。作者称客户案例中的资金报表耗时由数小时或数天缩至一分钟内，但未提供统一样本及独立审计结果。",
+      "reason": "展示金融垂直应用如何约束Agent的数据访问和操作权限。署名全文与精确发布时间已核对；成效为合作方自述，不能视为普遍收益，附带操作手册暂不可读。",
+      "category": "tip",
+      "quote": "AI retrieves data only through Trovata’s own verified API layer",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI赛道",
+        "AI商业化",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-11T03:05:44+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-10T19:23:34.000Z",
+      "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+      "title": "Oura拟以6.25亿美元收购Counsel，将AI辅助医疗纳入业务",
+      "summary": "Aisha Malik报道，Oura宣布拟以6.25亿美元收购Counsel Health。双方此前已在Oura应用中整合医疗AI与持牌医生服务，计划进一步覆盖预防、急性及慢性病照护。Counsel将继续服务其他企业伙伴；交易尚未完成，扩展计划不代表已验证临床效果。",
+      "reason": "展示穿戴设备企业向AI辅助医疗服务延伸的具体商业动作。已核对记者全文和精确发布时间；交割年份存在来源分歧，暂不采用。",
+      "category": "industry",
+      "quote": "Oura announced on Tuesday that it’s acquiring AI-native primary care company Counsel Health for $625 million.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "oura-counsel-health-acquisition-2026-11-10",
+        "title": "Oura宣布拟收购Counsel Health",
+        "factKey": "announced-625m-acquisition-and-care-integration",
+        "factTitle": "宣布6.25亿美元收购计划并扩展AI与医生协作服务"
+      },
+      "addedAt": "2026-11-11T04:13:21+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-10T14:07:47.000Z",
+      "url": "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/",
+      "title": "Fable 5.2在RLI达41.3%，结果仍依赖人工验收",
+      "summary": "Maximilian Schreiner解读RLI结果，Fable 5.2自动完成率为41.3%，Opus 5.5为21.25%。评测方原站确认，数据集包含240个真实项目，量化榜单使用230个私有项目，由人工检查交付物是否达到客户验收标准；范围排除直接客户互动、体力劳动及长期效果评估。",
+      "reason": "补充模型发布之外的任务完成证据与适用边界。已核对报道全文、精确发布时间及评测方榜单和方法；该比例不等于现实就业替代率。",
+      "category": "ai-models",
+      "quote": "Trained human experts manually check whether an AI agent completed a job successfully.",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "评测/基准",
+        "Agent",
+        "AI赛道",
+        "多模态",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "claude-fable-mythos-52-release-2026-11-09",
+        "title": "Anthropic宣布Claude Fable与Mythos 5.2",
+        "factKey": "scale-rli-fable52-results-and-evaluation-method",
+        "factTitle": "补充Fable 5.2的RLI完成率与人工验收边界"
+      },
+      "addedAt": "2026-11-11T04:13:21+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-10T16:56:36.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-tokenomics-data-lake/",
+      "title": "AWS分享推理成本排查方法：把调用日志与账单按身份关联",
+      "summary": "Steph Gooch介绍集中采集Bedrock调用日志，保存模型、Token、停止原因及调用身份，再与成本用量报告关联，定位团队消耗和截断响应。部署基础设施后仍需逐账号开启日志并执行查询视图；集中保存完整提示与回答，也需要限制数据访问权限。",
+      "reason": "提供可迁移的调用追踪、成本归属与异常排查方法。官方全文、作者和精确发布时间已核对；实现依赖AWS服务，未自行部署验证。",
+      "category": "tip",
+      "quote": "Deploying the stack doesn’t start the logging.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI商业化",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-11T04:13:21+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-10T13:37:16.000Z",
+      "url": "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/",
+      "title": "巴黎AI安全承诺提出停机机制，尚无期限与制裁条款",
+      "summary": "Maximilian Schreiner报道，政府、AI企业与研究者在11月9日形成巴黎AI安全承诺，涵盖独立评估、公开非敏感测试结果、严重事故通报及开发者停机机制。法国总统府原文确认这些方向；这仍是待落实的承诺，尚未形成带制裁的国际监督制度。",
+      "reason": "为前沿模型安全责任提供具体承诺文本。已核对完整报道、精确发布时间及总统府原文；签署不代表机制已经部署。",
+      "category": "industry",
+      "quote": "it sets neither deadlines nor sanctions.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "openai",
+        "anthropic",
+        "microsoft"
+      ],
+      "region": "国外",
+      "tags": [
+        "政策/监管",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "paris-call-ai-safety-2026-11-09",
+        "title": "巴黎AI安全承诺",
+        "factKey": "evaluation-shutdown-and-incident-sharing-commitments",
+        "factTitle": "签署共同评估、停机机制与事故信息共享承诺"
+      },
+      "addedAt": "2026-11-11T04:13:21+08:00"
+    },
+    {
+      "sourceId": "elysee",
+      "sourceName": "法国总统府",
+      "date": "2026-11-09",
+      "url": "https://www.elysee.fr/emmanuel-macron/2026/11/09/communique-reunion-ia-et-securite",
+      "title": "法国总统府确认AI安全承诺包含独立评估与模型停机机制",
+      "summary": "总统府会后公报确认，参与方承诺建立共同风险评估框架，公开标准化的非敏感结果，加强严重事故信息共享。前沿模型开发者承诺支持合格独立评估，并建立可中断模型运行的机制；公报未证明这些安排已经落实。",
+      "reason": "官方原文支持同一安全承诺。页面仅标11月9日，处于48小时交叉证据窗口，仅作补充记录。",
+      "category": "industry",
+      "quote": "à mettre en place des mécanismes permettant d'interrompre le fonctionnement d'un modèle",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [
+        "openai",
+        "anthropic",
+        "microsoft",
+        "hugging-face"
+      ],
+      "region": "国外",
+      "tags": [
+        "政策/监管",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "paris-call-ai-safety-2026-11-09",
+        "title": "巴黎AI安全承诺",
+        "factKey": "evaluation-shutdown-and-incident-sharing-commitments",
+        "factTitle": "签署共同评估、停机机制与事故信息共享承诺"
+      },
+      "addedAt": "2026-11-11T04:13:21+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-10T21:08:52.000Z",
+      "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+      "title": "Odessia宣布被OpenAI收购，独立旅行Agent已停服",
+      "summary": "Julie Bort报道，Odessia创始人Francis Davidson宣布公司被OpenAI收购，并称自己已加入OpenAI从事旅行相关工作。Odessia独立服务已经关闭，交易金额未披露。OpenAI尚未向报道确认交易，也未宣布新的旅行专用产品或整合计划。",
+      "reason": "旅行Agent创业团队进入模型公司的具体案例；已核对采访全文，交易条款与后续产品安排仍未知。",
+      "category": "industry",
+      "quote": "Terms of the deal were not disclosed",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI创业",
+        "AI赛道",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-odessia-acquisition-2026-11-10",
+        "title": "Odessia宣布被OpenAI收购",
+        "factKey": "founder-announces-acquisition-joins-openai-service-closes",
+        "factTitle": "创始人宣布收购及加入OpenAI，Odessia独立服务停止"
+      },
+      "addedAt": "2026-11-11T05:21:21+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-10T20:52:13.000Z",
+      "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+      "title": "纽约州开放RAISE登记入口，正式合规要求明年1月开始",
+      "summary": "Rebecca Bellan报道，纽约州11月10日开放大型前沿AI开发者登记入口，要求相关企业在2027年1月1日前登记。正文明确，正式合规要求从明年1月开始，涉及公开安全框架、严重安全事件72小时报告及模型透明度报告，不能按标题理解为全部要求已经生效。",
+      "reason": "监管进入登记实施阶段，影响大型模型开发者；完整报道与州政府原文相互印证，并明确区分登记开放和正式合规时间。",
+      "category": "industry",
+      "quote": "register by January 1, 2027",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "政策/监管",
+        "安全/对齐",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "new-york-raise-registration-portal-2026-11-10",
+        "title": "纽约州开放RAISE开发者登记入口",
+        "factKey": "portal-opens-registration-due-2027-01-01",
+        "factTitle": "开放登记入口并明确2027年1月1日登记期限"
+      },
+      "addedAt": "2026-11-11T05:21:21+08:00"
+    },
+    {
+      "sourceId": "new-york-governor-news",
+      "sourceName": "纽约州州长办公室",
+      "date": "2026-11-10",
+      "url": "https://www.governor.ny.gov/news/governor-hochul-declares-ny-will-lead-nation-ai-science-and-safety-launches-new-research",
+      "title": "纽约州官网确认RAISE登记入口开放及2027年期限",
+      "summary": "州政府公告确认，DIGIT已开放大型前沿AI开发者登记入口，登记期限为2027年1月1日。公告说明，相关安全框架、事故报告和模型透明度要求从明年1月开始实施。",
+      "reason": "官方原文确认登记动作及实施时间，本条用于交叉核对；保留页面仅到日期的发布精度。",
+      "category": "industry",
+      "quote": "register with New York State by January 1, 2027.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "政策/监管",
+        "安全/对齐",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "new-york-raise-registration-portal-2026-11-10",
+        "title": "纽约州开放RAISE开发者登记入口",
+        "factKey": "portal-opens-registration-due-2027-01-01",
+        "factTitle": "开放登记入口并明确2027年1月1日登记期限"
+      },
+      "addedAt": "2026-11-11T05:21:21+08:00"
+    },
+    {
+      "sourceId": "rss-latent-space",
+      "sourceName": "Latent Space",
+      "date": "2026-11-10T20:05:17.000Z",
+      "url": "https://latent.space/p/resend/",
+      "title": "Resend访谈导读：让Agent读懂定价，也检查工具返回是否过大",
+      "summary": "Resend创始人Zeno Rocha的访谈文字导读介绍了几项实践：用可独立使用的React Email进入开发者工作流，为定价页提供Markdown表格，以及展开工具调用检查过大的返回结果。他自述录制时有430万用户、12万付费客户，文章未披露收入或利润。",
+      "reason": "文字导读提供了开发者工具分发和Agent接口设计的具体做法；客户规模为创始人自述，未作独立经营验证。",
+      "category": "tip",
+      "quote": "Add .md to the URL",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI创业",
+        "AI玩法",
+        "MCP/工具调用",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-11T05:21:21+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-10T19:03:52.000Z",
+      "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+      "title": "PSI谈AI科研创业：当前收入来自数据中心优化，物理突破仍需实验",
+      "summary": "Tim Fernholz采访PSI团队，公司称目前通过模拟热、电、水和噪声等变量，为数据中心优化取得收入，长期目标则是把理论物理成果转成实际技术。受访者强调，数学结果的形式化验证与现实物理实验不同，团队仍在探索高效实验验证流程；报道未披露营收规模或盈利情况。",
+      "reason": "补充AI科研创业的当前收入来源与现实验证路径；已核对采访全文，经营情况仍是团队自述，既有数学成果只作背景。",
+      "category": "industry",
+      "quote": "nature gets a vote",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI创业",
+        "AI赛道",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-11T05:21:21+08:00"
+    },
+    {
+      "sourceId": "rss-latent-space",
+      "sourceName": "Latent Space",
+      "date": "2026-11-10T18:56:32.000Z",
+      "url": "https://latent.space/p/naiveai/",
+      "title": "NaiveAI独立评测：中位响应更快，长推理增加Token消耗",
+      "summary": "Latent Space对Naive-N0.5-Flash、DeepSeek V4.1 Flash 1017和GLM-5.3-Flash各测试30道题。开启思考时，Naive端到端中位耗时3.1秒，DeepSeek为10.1秒，两者平均耗时均约45秒。Naive在难题上使用更多思考Token；测试未评答案准确率，吞吐统计口径也有差异。",
+      "reason": "为模型选型提供同时比较耗时与Token消耗的方法。已核对完整原文与发布时间，样本较小且未评答案准确率，结果未复测。",
+      "category": "tip",
+      "quote": "we did not grade answer accuracy.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [
+        "deepseek",
+        "zhipu"
+      ],
+      "region": "国内",
+      "tags": [
+        "评测/基准",
+        "AI玩法",
+        "编码",
+        "推理",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-10T22:28:41Z"
+    },
+    {
+      "sourceId": "rss-google-deepmind",
+      "sourceName": "Google DeepMind",
+      "date": "2026-11-10T16:03:47.000Z",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "title": "Google官方确认Carbon扩大开放的入口与申请条件",
+      "summary": "Google确认Carbon向付费开发者和企业开放API，并向AI Ultra订阅者推送Antigravity、Gemini应用与搜索AI Mode入口。科研免费访问仍受申请、容量与遴选限制，网络安全专用版本通过Fairwind计划滚动开放。本条补充既有开放事件的官方证据。",
+      "reason": "原文正文＋原站 RSS 时间核验，补充付费入口、科研申请和网络安全版本的开放条件；性能表现属于厂商自述。",
+      "category": "ai-models",
+      "quote": "Gemini 4 Carbon is available via the API",
+      "tier": "T1",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "编码",
+        "Agent",
+        "海外AI",
+        "Google"
+      ],
+      "selected": false,
+      "event": {
+        "key": "google-gemini-4-carbon-2026-10-28",
+        "title": "Google公布Gemini 4 Carbon及分阶段开放安排",
+        "factKey": "gemini-4-carbon-paid-public-rollout-2026-11-10",
+        "factTitle": "Carbon扩大至付费开发者、企业及AI Ultra用户"
+      },
+      "addedAt": "2026-11-10T22:28:41Z"
+    },
+    {
+      "sourceId": "rss-microsoft-research",
+      "sourceName": "Microsoft Research",
+      "date": "2026-11-10T20:52:56.000Z",
+      "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+      "title": "微软披露Lazarus：修改少于10个休眠神经元可植入Agent后门",
+      "summary": "Dimitris Papailiopoulos介绍，研究团队无需重新训练模型，通过修改少于10个休眠神经元，使Agent在日期变化等条件触发后执行恶意动作，同时仍能通过常规评测。攻击需要篡改模型权重的权限，工具和终端访问会扩大影响。团队指出，可靠检测依赖与原始权重比对，扫描也有局限。",
+      "reason": "揭示常规评测可能漏掉的权重供应链风险。已核对署名全文及精确发布时间；结果来自研究团队，尚未独立复现。",
+      "category": "paper",
+      "quote": "The attack needs only write access to a checkpoint",
+      "tier": "T1",
+      "entity": "microsoft",
+      "subjects": [
+        "microsoft"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "安全/对齐",
+        "Agent",
+        "数据/训练",
+        "海外AI",
+        "Microsoft"
+      ],
+      "selected": true,
+      "event": {
+        "key": "microsoft-lazarus-weight-backdoor-study-2026-11",
+        "title": "微软披露Lazarus权重后门研究",
+        "factKey": "dormant-neuron-triggered-agent-backdoor-disclosure",
+        "factTitle": "披露通过修改休眠神经元植入触发式Agent后门"
+      },
+      "addedAt": "2026-11-11T00:43:45Z"
+    },
+    {
+      "sourceId": "minimax-official",
+      "sourceName": "MiniMax 官方",
+      "date": "2026-11-11",
+      "url": "https://www.minimax.io/blog/minimax-h3-image",
+      "title": "MiniMax发布H3-Image并开放权重，支持16张参考图",
+      "summary": "H3-Image支持文生图、参考图生成及图像编辑，提供4096×4096输出、最多16张参考图，以及API和应用入口。10秒生成4K为官方宣称。权重采用社区许可证，排除欧盟、英国、韩国和美国；年化收入超过100万美元或向第三方提供托管服务须另获书面授权。",
+      "reason": "为生图和本地部署增加选择，已核对官方正文、模型卡与许可证。英文公告标11月11日，许可证及中文报道标10日，保留各自日期；速度未独立复测。",
+      "category": "ai-models",
+      "quote": "we're releasing H3-Image's model weights.",
+      "tier": "T1",
+      "entity": "minimax",
+      "subjects": [
+        "minimax"
+      ],
+      "region": "国内",
+      "tags": [
+        "模型发布",
+        "图像生成",
+        "AI产品",
+        "开源生态",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "minimax-h3-image-release-2026-11",
+        "title": "MiniMax发布H3-Image图像模型并开放权重",
+        "factKey": "open-weights-api-image-model-launch",
+        "factTitle": "发布支持多参考图的H3-Image并提供权重和API入口"
+      },
+      "addedAt": "2026-11-11T00:43:45Z"
+    },
+    {
+      "sourceId": "ithome",
+      "sourceName": "IT之家",
+      "date": "2026-11-10T23:25:52+08:00",
+      "url": "https://www.ithome.com/1/025/191.htm",
+      "title": "IT之家记录H3-Image于10日晚发布并开放权重",
+      "summary": "清源署名报道记录，MiniMax于11月10日晚宣布H3-Image发布及权重开放，支持文生图、图像参考和编辑，最多使用16张参考图。报道中的4K生成速度及画质比较均引自MiniMax。",
+      "reason": "全文与精确发布时间可核对，补充同一发布的媒体记录；作为交叉证据保留，性能主张仍来自厂商。",
+      "category": "ai-models",
+      "quote": "MiniMax H3-Image 正式发布并开放权重。",
+      "tier": "T2",
+      "entity": "minimax",
+      "subjects": [
+        "minimax"
+      ],
+      "region": "国内",
+      "tags": [
+        "模型发布",
+        "图像生成",
+        "AI产品",
+        "开源生态",
+        "国内AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "minimax-h3-image-release-2026-11",
+        "title": "MiniMax发布H3-Image图像模型并开放权重",
+        "factKey": "open-weights-api-image-model-launch",
+        "factTitle": "发布支持多参考图的H3-Image并提供权重和API入口"
+      },
+      "addedAt": "2026-11-11T00:43:45Z"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-10T23:34:05.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-daily-dependency-watcher-with-langgraph-and-amazon-bedrock-agentcore-web-search/",
+      "title": "AWS分享依赖监测Agent实践：用代码固定检索规则并核验引用",
+      "summary": "Sundar Raghavan和Omar Abdelwahab演示用LangGraph并行检查npm、PyPI及容器镜像，将日期范围、屏蔽来源和搜索预算固定在代码中，再检查引用URL、包名、漏洞编号及日期，并持久化去重。示例的36秒耗时为作者测试；这些检查仍需补充漏洞权威源核验，才能确认严重性、影响版本及处置建议。",
+      "reason": "持续检索中的规则约束、证据检查和去重方法可迁移。已核对署名全文及精确发布时间，示例代码未运行。",
+      "category": "tip",
+      "quote": "Every rule that must hold, whatever the model does, stays in code",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "搜索",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-11T00:43:45Z"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-10T22:35:03.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/",
+      "title": "AWS分享Agent评估方法：任务完成、隐私与工具调用分别验收",
+      "summary": "AWS作者团队从业务目标拆出可观察行为，再选择单次调用或整段会话的评估器。文章说明如何分别检查任务完成、遗漏请求、隐私泄露和工具路径，并用多维评估逐项设门槛，避免综合分掩盖某项退步。需要标准答案或预期路径的评估仅适用于批处理，实时流量须选择相应指标。",
+      "reason": "给出具体的指标选择和上线验收方法，补充既有评估框架资料。已核对四位作者、全文及精确发布时间，方法未独立复测。",
+      "category": "tip",
+      "quote": "Each dimension has its own name, instruction, and numeric or categorical scale.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "评测/基准",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-11T00:43:45Z"
+    },
+    {
+      "sourceId": "nbd",
+      "sourceName": "每日经济新闻",
+      "date": "2026-11-10T14:04:36+08:00",
+      "url": "https://www.nbd.com.cn/articles/2026-11-10/4643574.html",
+      "title": "LongCat-2.5开放MIT权重，新增自行部署与二次训练入口",
+      "summary": "美团LongCat-2.5在此前服务上线后开放模型权重，采用MIT协议。官方模型卡确认权重许可，并提供NPU部署说明；文件列表约3.56TB，不能据此理解为普通电脑即可运行。模型能力与量化性能仍属团队披露。",
+      "reason": "权重开放带来实质可用性变化。已核对媒体全文、精确时间、官方模型卡及文件列表；部署与性能未复测。",
+      "category": "ai-models",
+      "quote": "美团正式开源LongCat-2.5，采用MIT协议",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "模型发布",
+        "国内AI",
+        "Agent",
+        "多模态",
+        "开源生态",
+        "部署/工程"
+      ],
+      "selected": true,
+      "event": {
+        "key": "longcat-25-release-2026-11-02",
+        "title": "美团LongCat-2.5正式版上线",
+        "factKey": "longcat-25-open-weights-mit-license",
+        "factTitle": "开放LongCat-2.5模型权重并采用MIT协议"
+      },
+      "addedAt": "2026-11-11T01:53:10Z"
+    },
+    {
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "date": "2026-11-10T13:51:29+08:00",
+      "url": "https://api3.cls.cn/share/article/2530002?app=&os=ios&sv=853",
+      "title": "财联社交叉记录LongCat-2.5权重开放与MIT许可",
+      "summary": "财联社快讯记录LongCat-2.5开放，明确MIT协议允许商用推理部署和二次训练。参数及能力描述引自美团，不构成独立性能验证。",
+      "reason": "原文与精确发布时间可核对，补充同一权重开放事实的媒体记录，不重复精选。",
+      "category": "ai-models",
+      "quote": "支持商用推理部署与二次训练，无需额外授权。",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "模型发布",
+        "国内AI",
+        "Agent",
+        "开源生态"
+      ],
+      "selected": false,
+      "event": {
+        "key": "longcat-25-release-2026-11-02",
+        "title": "美团LongCat-2.5正式版上线",
+        "factKey": "longcat-25-open-weights-mit-license",
+        "factTitle": "开放LongCat-2.5模型权重并采用MIT协议"
+      },
+      "addedAt": "2026-11-11T01:53:10Z"
+    },
+    {
+      "sourceId": "rss-ars-technica-ai",
+      "sourceName": "Ars Technica · AI",
+      "date": "2026-11-10T21:12:59.000Z",
+      "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+      "title": "Grok Build公开应用暴露数据，24个员工应用已下线",
+      "summary": "Dan Goodin报道，Claroc发现逾3.5万个Grok应用无需登录，其中部分包含敏感资料。记者询问后，24个员工应用已下线；公司与研究者对默认权限的描述仍有分歧。",
+      "reason": "涉及AI生成应用上线安全。已对照研究者原文；原文正文＋原站 RSS 时间核验。",
+      "category": "industry",
+      "quote": "links for all 24 apps returned an “app not found” error.",
+      "tier": "T2",
+      "entity": "xai",
+      "subjects": [
+        "xai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI产品",
+        "编码",
+        "安全/对齐",
+        "海外AI",
+        "xAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "grok-build-ghostshares-exposure-2026-11-10",
+        "title": "Claroc披露Grok Build应用数据暴露",
+        "factKey": "public-app-exposure-disclosure-and-staff-app-removal",
+        "factTitle": "披露公开应用中的敏感数据及24个员工应用下线"
+      },
+      "addedAt": "2026-11-11T01:53:10Z"
+    },
+    {
+      "sourceId": "claroc-research",
+      "sourceName": "Claroc Research",
+      "date": "2026-11-10",
+      "url": "https://blog.claroc.io/ghostshares-grok-build-apps/",
+      "title": "Claroc说明Grok调查边界：公开应用不都含敏感数据",
+      "summary": "Asaf Aprozper报告35,578个应用无需登录，但多数是游戏、落地页或计算器，不能全部算作泄密。写入和删除验证仅在研究者自建应用进行；研究者确认24个员工应用已下线，并记录了公司对发布权限的回应。",
+      "reason": "研究原文补齐统计口径与测试限制。页面仅标日期，按48小时交叉证据保留，不另作精选。",
+      "category": "industry",
+      "quote": "We tested this only on our own app.",
+      "tier": "T1",
+      "entity": "xai",
+      "subjects": [
+        "xai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI产品",
+        "编码",
+        "安全/对齐",
+        "海外AI",
+        "xAI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "grok-build-ghostshares-exposure-2026-11-10",
+        "title": "Claroc披露Grok Build应用数据暴露",
+        "factKey": "public-app-exposure-disclosure-and-staff-app-removal",
+        "factTitle": "披露公开应用中的敏感数据及24个员工应用下线"
+      },
+      "addedAt": "2026-11-11T01:53:10Z"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-11-10T10:48:22+08:00",
+      "url": "https://www.qbitai.com/2026/11/508828.html",
+      "title": "商品图改版实操：固定包装与构图，各市场版本回到原图",
+      "summary": "金磊分享豆包内的Seedream 5.5试用方法：合成商品广告后，在改版提示中逐项锁定包装文字、位置、比例和光影；制作不同市场版本时要求从原始项目出发，避免连续翻译累积改动。展示结果属于作者样例，不是系统盲测。",
+      "reason": "提供可复用的商品图修改约束。已核对署名全文与精确时间；未复测，也不据样例推断整体优于其他模型。",
+      "category": "tip",
+      "quote": "不能依次翻译上一市场版本。",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI产品",
+        "图像生成",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "bytedance-seedream55-release-2026-11-09",
+        "title": "字节发布Seedream 5.5",
+        "factKey": "qbitai-ad-localization-workflow-2026-11-10",
+        "factTitle": "量子位分享商品广告合成与多市场改版实操"
+      },
+      "addedAt": "2026-11-11T01:53:10Z"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-11T01:07:19.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock/",
+      "title": "AWS分享Kimi接入方法，说明推理档位、Flex与缓存费用",
+      "summary": "AWS指南说明，Kimi K3.1 Pro Highspeed默认使用max推理档位，可按任务调整。Flex价格为Standard的一半，但响应可能更慢。显式缓存要求至少256个稳定Token，Converse暂不支持，缓存写入费用高于普通输入。",
+      "reason": "提供部署前核算延迟与成本的具体条件。已核对官方完整指南和发布时间，效果未经本轮复测。",
+      "category": "tip",
+      "quote": "Cache writes are billed at a higher rate than standard input.",
+      "tier": "T1",
+      "entity": "kimi",
+      "subjects": [
+        "kimi"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "部署/工程",
+        "编码",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "kimi-k31-pro-release-2026-10-23",
+        "title": "月之暗面发布Kimi K3.1 Pro及高速版",
+        "factKey": "aws-bedrock-k31-flex-caching-deployment-guide-2026-11",
+        "factTitle": "AWS分享Kimi接入、推理档位及Flex和缓存计费方法"
+      },
+      "addedAt": "2026-11-11T03:02:55Z"
+    },
+    {
+      "sourceId": "rss-ars-technica-ai",
+      "sourceName": "Ars Technica · AI",
+      "date": "2026-11-10T22:35:01.000Z",
+      "url": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+      "title": "Ring商用巡逻机器人开放预订，计划12月在美国交付",
+      "summary": "Jeremy Hsu报道，Ring Rover Cam售价约1000美元，已开放预订，计划12月16日发货。它利用AI Pilot巡逻并拍摄4K视频，仅适用于单层室内空间。",
+      "reason": "补充同批发布中轮式设备的预订安排。原文正文＋原站 RSS 时间核验，交付仍属计划。",
+      "category": "ai-products",
+      "quote": "an autonomous security robot designed for business.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI硬件",
+        "AI产品",
+        "具身智能",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "ring-drone-cam-ai-pilot-2026-11-10",
+        "title": "Ring展示AI导航移动安防设备",
+        "factKey": "rover-cam-preorders-and-december-delivery-plan",
+        "factTitle": "Ring Rover Cam开放预订并公布美国交付计划"
+      },
+      "addedAt": "2026-11-11T03:02:55Z"
+    },
+    {
+      "sourceId": "amazon-official",
+      "sourceName": "Amazon 官方",
+      "date": "2026-11-10",
+      "url": "https://www.aboutamazon.com/news/devices/ring-drone-cam-rover-cam-security-robot",
+      "title": "Amazon确认Ring Rover预订价格、交付计划与订阅条件",
+      "summary": "Amazon Staff公告确认，Ring Rover Cam已开放预订，美国售价999.99美元，计划2026年12月16日发货。定时巡逻需兼容的Ring Protect订阅。",
+      "reason": "官方原文交叉确认同批设备的Rover安排。页面仅标日期，本条作为48小时内的事件证据。",
+      "category": "ai-products",
+      "quote": "The Ring Rover Cam will begin shipping to customers in the U.S. on December 16, 2026, for $999.99.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI硬件",
+        "AI产品",
+        "具身智能",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "ring-drone-cam-ai-pilot-2026-11-10",
+        "title": "Ring展示AI导航移动安防设备",
+        "factKey": "rover-cam-preorders-and-december-delivery-plan",
+        "factTitle": "Ring Rover Cam开放预订并公布美国交付计划"
+      },
+      "addedAt": "2026-11-11T03:02:55Z"
+    },
+    {
+      "sourceId": "rss-nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "date": "2026-11-11T03:00:20.000Z",
+      "url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
+      "title": "回收业AI案例：已有部署规模与未来扩产目标需分开看",
+      "summary": "NVIDIA梳理四家回收创业公司的视觉AI应用。EverestLabs称约150台机器人已部署，Greyparrot称300余套系统覆盖20余国；AIRECO将年处理量提高至4.8万吨、运营成本降低85%，仍是明年产线目标，并非已实现结果。",
+      "reason": "官方完整原文与发布时间可核对，提供具体任务和部署规模；成效来自厂商及团队自述，未独立审计。",
+      "category": "industry",
+      "quote": "About 150 robots are currently deployed",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "AI硬件",
+        "AI创业",
+        "AI商业化",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-11T04:10:33Z"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-11-10T15:56:29+08:00",
+      "url": "https://www.qbitai.com/2026/11/508998.html",
+      "title": "TTSE办公实践：把环境事实与操作技巧分开记忆",
+      "summary": "openJiuwen分享TTSE办公案例，将环境事实与条件式技巧分开保存，并通过失败归因、规则退役和重新归纳更新经验。团队称，Excel清洗示例复用经验后，工具调用从57次降至20次；这是重复任务自测，不代表普遍提效。",
+      "reason": "新增价值在办公案例及经验失效处理方法，相关论文发表于9月；全文已核对，文中最低版本表述不一，效果未经独立复测。",
+      "category": "tip",
+      "quote": "难以确定的内容默认归入TIP",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "部署/工程",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-11T04:10:33Z"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-10T18:41:52.000Z",
+      "url": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/",
+      "title": "GR00T 2研究解读补充规划延迟与触觉局限",
+      "summary": "Maximilian Schreiner梳理NVIDIA研究称，GR00T 2在垃圾分类测试中约三分之一时间用于等待规划模型，单次规划平均超过7秒。模型尚未直接处理触觉传感器数据，也可能漏掉细微操作错误。这些限制补充了此前少样本成功率之外的可靠性信息。",
+      "reason": "补充机器人落地中的时延与感知边界。已核对署名全文和发布时间，并对照官方研究页的装配实验。相关局限尚未独立复测。",
+      "category": "paper",
+      "quote": "the robot stood idle for roughly a third of the total time",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "AI硬件",
+        "具身智能",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-11T13:20:09+08:00"
+    },
+    {
+      "sourceId": "rss-ars-technica-ai",
+      "sourceName": "Ars Technica · AI",
+      "date": "2026-11-10T12:15:32Z",
+      "url": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/",
+      "title": "光纤供应链采访：AI数据中心需求加剧材料竞争",
+      "summary": "Jeremy Hsu采访BlueBird Tech研发人员，对方称2026年光纤采购价较2025年涨约6至10倍，3月后有所稳定。受访者指出，AI数据中心扩建与其他需求共同影响材料供给。",
+      "reason": "呈现AI基础设施需求的跨行业影响，原文正文＋原站 RSS 时间核验。涨幅为单家企业自述，未独立验证。",
+      "category": "industry",
+      "quote": "the growth of AI infrastructure is also contributing to demand.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-11T13:20:09+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-10T17:11:10.000Z",
+      "url": "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/",
+      "title": "The Decoder交叉记录Gemini Robotics 2.5产线试验",
+      "summary": "报道确认DeepMind与Apptronik、奔驰进行汽车零件分拣配套试验，由Gemini Robotics ER监控流程、Robotics 2.5控制手臂。参与方报告试验成功率为96%，模型正向合作伙伴推送。",
+      "reason": "与已归档官方公告相互印证，补充媒体原文。96%仅对应特定产线概念验证，结果由参与方报告。",
+      "category": "ai-models",
+      "quote": "Google Deepmind reports a 96 percent success rate for this pilot test.",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "AI硬件",
+        "具身智能",
+        "海外AI",
+        "Google"
+      ],
+      "selected": false,
+      "event": {
+        "key": "google-gemini-robotics25-release-2026-11-10",
+        "title": "DeepMind发布Gemini Robotics 2.5",
+        "factKey": "robotics25-partner-rollout-mercedes-kitting-pilot",
+        "factTitle": "向伙伴推送机器人模型并披露奔驰产线配套试验"
+      },
+      "addedAt": "2026-11-11T13:20:09+08:00"
+    },
+    {
+      "sourceId": "rss-latent-space",
+      "sourceName": "Latent Space",
+      "date": "2026-11-11T04:49:48.000Z",
+      "url": "https://latent.space/p/codex-work/",
+      "title": "Codex工作坊分享：云端交接前管理上下文，用语音协调任务",
+      "summary": "Latent Space现场报道采访OpenAI工程师Dominik Kundel与Charlie Guo，介绍复用云环境、把本地任务交给云线程，以及用语音查看和协调多个任务。工程师承认本地与云端交接仍有上下文差异；这些是使用经验，不能理解为本轮新发布功能或已验证提效。",
+      "reason": "提供编码Agent的具体协作思路。已通读现场报道并核对发布时间，大会议程确认讲者与工作坊；操作效果尚未复测。",
+      "category": "tip",
+      "quote": "Some of it is going to depend on managing the context differences",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "编码",
+        "Agent",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-11T14:28:58+08:00"
+    },
+    {
+      "sourceId": "rss-qbitai",
+      "sourceName": "量子位",
+      "date": "2026-11-11T11:43:31+08:00",
+      "url": "https://www.qbitai.com/2026/11/509052.html",
+      "title": "丘沃披露无人农机田间作业，规模交付仍待验证",
+      "summary": "量子位授权刊稿介绍丘沃开物无人作业系统。公司称，搭载套件的拖拉机在新疆完成超过30厘米深翻，作业速度11.8公里/小时，此前在江苏完成3000亩无人作业。系统包括远程任务管理、遥测与异常告警；新疆直营店仍计划于11月底开业，不能据此认定规模交付已经实现。",
+      "reason": "提供农业无人作业的具体任务与运维案例。原文正文＋原站 RSS 时间核验；属于授权刊稿，性能及作业规模主要为企业自述，未独立验证。",
+      "category": "ai-products",
+      "quote": "耕深超过30厘米，作业速度11.8km/h",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "产品更新",
+        "AI硬件",
+        "具身智能",
+        "AI赛道",
+        "国内AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-11T14:28:58+08:00"
+    },
+    {
+      "sourceId": "rss-ars-technica-ai",
+      "sourceName": "Ars Technica · AI",
+      "date": "2026-11-10T15:00:39.000Z",
+      "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+      "title": "DeepMind开放机器人越狱评测，测试伪装的不安全指令",
+      "summary": "Ryan Whitwam报道，DeepMind推出ASIMOV-Jailbreak，测试机器人能否拒绝伪装的不安全请求。官方数据集说明还覆盖多轮攻击；获取文件须登录并同意条件。评测成绩不能视为真机安全认证。",
+      "reason": "补充既有机器人发布事件的安全评测事实。原文正文＋原站 RSS 时间核验；已对照官方说明，报道与官网的安全分数不一致，未采用。",
+      "category": "paper",
+      "quote": "There is no agreed-upon way to test physical AI for safety",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "具身智能",
+        "AI硬件",
+        "海外AI",
+        "Google"
+      ],
+      "selected": true,
+      "event": {
+        "key": "google-gemini-robotics25-release-2026-11-10",
+        "title": "DeepMind发布Gemini Robotics 2.5",
+        "factKey": "asimov-jailbreak-robotics-safety-benchmark-release",
+        "factTitle": "开放ASIMOV-Jailbreak机器人安全评测"
+      },
+      "addedAt": "2026-11-11T14:28:58+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-11-10T08:00:00.000Z",
+      "url": "https://openai.com/index/singapore-airlines-travel-work",
+      "title": "新航AI客服案例：人工坐席平均处理时间约降10%",
+      "summary": "OpenAI发布新加坡航空应用复盘。案例称，Kris改用大模型后客户满意度指标翻倍，AI辅助人工客服的平均处理时间约降10%，内部Jarvis平台月使用者超过员工六成。系统结合知识库、工具调用、权限控制和人工复核；更多交易功能仍在扩展。",
+      "reason": "提供航空客服部署的具体指标和实施边界。原文正文＋原站 RSS 时间核验；成效为案例方自述，未披露完整样本口径，也未获独立验证。",
+      "category": "industry",
+      "quote": "approximately 10% reduction in average handling time",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "AI赛道",
+        "AI产品",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-11T15:37:47+08:00"
+    },
+    {
+      "sourceId": "rss-ars-technica-ai",
+      "sourceName": "Ars Technica · AI",
+      "date": "2026-11-10T20:30:01+00:00",
+      "url": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
+      "title": "Strogatz谈AI数学：区分答案可靠与机制可理解",
+      "summary": "数学家Steven Strogatz在访谈中讨论AI从计算工具走向难以解释的“神谕”。他认为，可通过经验检验判断答案可靠性，但这仍涉及数学证明与理解的损失；AI辅导也可能帮助人保留自主发现的乐趣。",
+      "reason": "为讨论AI科研可信性提供清晰框架。已通读Jennifer Ouellette的原采访并核对原站RSS时间；内容属于受访者判断。",
+      "category": "opinion",
+      "quote": "you can still check it by seeing how often it is right",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-11T15:37:47+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-10T19:04:05.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+      "title": "专家谈英伟达治理争议：风险还包括算力分配与政策信息",
+      "summary": "Robert Hart采访三位研究者，讨论GPU分配、政策信息与单一供应商依赖的风险。受访者认为，调查若拖慢英伟达决策，可能影响客户获取算力；原文明确，目前没有公开证据表明黄仁勋向中国转供受限芯片或泄露敏感信息。",
+      "reason": "新增供应链与政策风险的专家采访，署名全文和原站精确发布时间可核对。属于风险判断，未证实机密泄露或算力供应已经受影响。",
+      "category": "opinion",
+      "quote": "There is no public evidence indicating that Huang himself has helped direct restricted Nvidia chips toward China",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "大佬观点",
+        "海外AI",
+        "AI硬件",
+        "AI赛道"
+      ],
+      "selected": true,
+      "event": {
+        "key": "nvidia-megaspeed-allegations-response-2026-10-29",
+        "title": "英伟达回应Megaspeed相关情报指控",
+        "factKey": "expert-interviews-ai-supply-policy-risks-2026-11-10",
+        "factTitle": "The Verge采访专家分析治理争议的算力供应与政策风险"
+      },
+      "addedAt": "2026-11-11T16:44:04+08:00"
+    },
+    {
+      "sourceId": "baidu-ernie",
+      "sourceName": "百度文心 ERNIE",
+      "date": "2026-11-11",
+      "url": "https://ernie.baidu.com/zh/release/ernie-5-5-flash-preview/",
+      "title": "百度发布ERNIE 5.5 Flash Preview，API上线、权重计划25日前开放",
+      "summary": "百度发布基于Flash Base的首个后训练版本，总参数2800亿、激活参数140亿，支持100万Token上下文，千帆API已上线。中文公告称权重将于11月25日前开放；当前仍是训练中的预览版本，游戏、建模和视频案例通过Agent框架及外部工具完成，效果尚未独立复测。",
+      "reason": "新增可调用的后训练版本。已通读官方原文，原站发布列表标注11月11日；保留预览限制，不将权重开放计划写成已完成。",
+      "category": "ai-models",
+      "quote": "模型 API 已在千帆平台上线，权重将于11月25日前开源。",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "模型发布",
+        "国内AI",
+        "Agent",
+        "编码"
+      ],
+      "selected": true,
+      "event": {
+        "key": "baidu-ernie55-flash-preview-release-2026-11-11",
+        "title": "百度发布ERNIE 5.5 Flash Preview",
+        "factKey": "posttrained-preview-api-launch-and-weights-plan",
+        "factTitle": "发布后训练预览版本并上线API，公布权重开放计划"
+      },
+      "addedAt": "2026-11-11T19:01:43+08:00"
+    },
+    {
+      "sourceId": "beijing-jxj",
+      "sourceName": "北京市经济和信息化局",
+      "date": "2026-11-11",
+      "url": "https://jxj.beijing.gov.cn/zwgk/2024zcwj/202611/t20261111_4941527.html",
+      "title": "北京印发具身智能行动方案，提出产能、实景训练与安全治理目标",
+      "summary": "北京市经信局印发2026—2028年行动方案，提出在京形成20万台/年整机生产能力、建设超过50000PFlops的具身智能专用算力集群，并形成至少20个工业、20个服务和10个特种领域标杆场景。方案自印发日起实施，产能、算力和场景建设均属于未来任务。",
+      "reason": "明确机器人产业支持方向与应用验收要求。已通读发文机关全文，并与当日下午媒体报道交叉核对；建设指标尚待兑现。",
+      "category": "industry",
+      "quote": "在京形成20万台/年的整机生产能力。",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "政策/监管",
+        "国内AI",
+        "具身智能",
+        "AI硬件",
+        "AI赛道"
+      ],
+      "selected": true,
+      "event": {
+        "key": "beijing-embodied-robotics-action-plan-2026-2028",
+        "title": "北京印发2026—2028年具身智能机器人行动方案",
+        "factKey": "action-plan-issued-and-effective-2026-11-11",
+        "factTitle": "印发并实施包含模型、产业链、应用及安全治理任务的行动方案"
+      },
+      "addedAt": "2026-11-11T19:01:43+08:00"
+    },
+    {
+      "sourceId": "eastmoney-quanshangzhongguo",
+      "sourceName": "券商中国（东方财富刊载）",
+      "date": "2026-11-11T16:53+08:00",
+      "url": "https://finance.eastmoney.com/a/202611113928458253.html",
+      "title": "券商中国交叉记录北京具身智能行动方案印发",
+      "summary": "报道确认北京市经信局11月11日印发行动方案，并转述专用算力、实景训练和企业培育任务。该条用于交叉核对政策发布，相关建设规模仍是规划目标。",
+      "reason": "全文与明确到分钟的发布时间可核对，与政府原文支持同一发布事实，仅作交叉证据。",
+      "category": "industry",
+      "quote": "北京市经济和信息化局11日印发",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "政策/监管",
+        "国内AI",
+        "具身智能",
+        "AI赛道"
+      ],
+      "selected": false,
+      "event": {
+        "key": "beijing-embodied-robotics-action-plan-2026-2028",
+        "title": "北京印发2026—2028年具身智能机器人行动方案",
+        "factKey": "action-plan-issued-and-effective-2026-11-11",
+        "factTitle": "印发并实施包含模型、产业链、应用及安全治理任务的行动方案"
+      },
+      "addedAt": "2026-11-11T19:01:43+08:00"
+    },
+    {
+      "sourceId": "36kr-dingjiaoone",
+      "sourceName": "36氪 · 定焦One授权稿",
+      "date": "2026-11-11T09:24+08:00",
+      "url": "https://www.36kr.com/p/4064628019598211",
+      "title": "AI创业采访：判断赛道机会，要看价值验证周期与交付能否复制",
+      "summary": "李梦冉采访投资人与应用从业者，比较视觉生成、医疗教育、营销和安全业务的验证路径。受访者建议关注独立客户价值、持续积累的用户数据，以及新增客户是否仍需等比例增加工程与服务人员。文中融资统计和企业收入披露口径不同，不能直接横向比较，也不能据此认定盈利。",
+      "reason": "提供融资规模之外的创业判断方法。已通读署名授权全文并核对发布时间；投资判断属于受访者观点，企业经营数字未独立审计。",
+      "category": "opinion",
+      "quote": "优势能不能规模化复制。",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国内",
+      "tags": [
+        "大佬观点",
+        "国内AI",
+        "AI创业",
+        "AI赛道",
+        "AI商业化"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-11T19:01:43+08:00"
+    },
+    {
+      "sourceId": "office-for-students",
+      "sourceName": "Office for Students",
+      "date": "2026-11-11",
+      "url": "https://www.officeforstudents.org.uk/news-blog-and-events/press-and-media/universities-should-help-students-develop-ai-skills-while-protecting-confidence-in-degrees/",
+      "title": "英格兰监管方要求高校确保AI时代的考核有效性",
+      "summary": "OfS要求高校确保考核可靠反映学生知识与技能，必要时采用闭卷、展示和实践等受控考核。未达要求可能面临罚款或资金限制，同时仍应培养学生的AI技能；公告未宣布具体处罚。",
+      "reason": "监管原文与媒体报道相互印证，明确教育AI落地的考核约束；并非全面禁用AI。原站仅标当日日期。",
+      "category": "industry",
+      "quote": "Require institutions to ensure assessments are valid and reliable measures of students’ knowledge and skills.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "政策/监管",
+        "海外AI",
+        "AI赛道"
+      ],
+      "selected": true,
+      "event": {
+        "key": "england-ofs-ai-assessment-guidance-2026-11-11",
+        "title": "英格兰OfS明确AI背景下的高校考核要求",
+        "factKey": "valid-assessments-and-enforcement-response",
+        "factTitle": "要求高校保障考核有效性并说明违规问责措施"
+      },
+      "addedAt": "2026-11-11T20:09:38+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-11T11:54:46.000Z",
+      "url": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/",
+      "title": "The Decoder交叉记录OfS考核要求与制裁警告",
+      "summary": "报道转述《卫报》采访，记录OfS要求增加可靠的考核方式，并警告未履行要求的机构可能受制裁，与监管公告的核心措施一致。",
+      "reason": "正文及原站发布时间可核对，仅作同事件交叉证据；属于转述，不能视为独立调查。",
+      "category": "industry",
+      "quote": "The OfS warns it could sanction institutions that don't develop reliable formats.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "政策/监管",
+        "海外AI",
+        "AI赛道"
+      ],
+      "selected": false,
+      "event": {
+        "key": "england-ofs-ai-assessment-guidance-2026-11-11",
+        "title": "英格兰OfS明确AI背景下的高校考核要求",
+        "factKey": "valid-assessments-and-enforcement-response",
+        "factTitle": "要求高校保障考核有效性并说明违规问责措施"
+      },
+      "addedAt": "2026-11-11T20:09:38+08:00"
+    },
+    {
+      "sourceId": "openrouter-blog",
+      "sourceName": "OpenRouter Blog",
+      "date": "2026-11-11",
+      "url": "https://openrouter.ai/blog/insights/mcp-vs-cli-vs-skills/",
+      "title": "OpenRouter分享工具成本实测：同时控制定义与返回内容",
+      "summary": "单个GitHub任务中，Sonnet 5.5加载46个MCP工具消耗59,417输入Token，缩至2个工具并截短结果后为5,357。文章建议按字段缩减返回，并检查工具搜索带来的额外重试。",
+      "reason": "原站完整方法与失败案例可供复用；10月20日实验仅覆盖一个服务器和任务，不能推成通用性能结论。保留当日日期精度。",
+      "category": "tip",
+      "quote": "We tested one server on one task, so run mcp_cost.py on yours before you decide.",
+      "tier": "T1",
+      "entity": "openrouter",
+      "subjects": [
+        "openrouter"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "MCP/工具调用",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-11T20:09:38+08:00"
+    },
+    {
+      "sourceId": "openrouter-blog",
+      "sourceName": "OpenRouter Blog",
+      "date": "2026-11-11",
+      "url": "https://openrouter.ai/blog/insights/llm-quantization/",
+      "title": "OpenRouter分享量化端点选法：精度标签不能代替任务实测",
+      "summary": "文章比较Qwen3.8 27B的六个端点，在240道评分任务中未检出显著精度差异，但不能排除较小差距。低位宽也不总是更便宜；建议同时记录服务商、测试实际任务并保留可用的备用端点。",
+      "reason": "已通读原站实验与限制；数据来自10月20日的单模型测试，不能证明4位量化普遍无损。保留当日日期精度。",
+      "category": "tip",
+      "quote": "The small differences between endpoints can come from precision, from each provider’s hardware and inference software",
+      "tier": "T1",
+      "entity": "openrouter",
+      "subjects": [
+        "openrouter",
+        "qwen"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "部署/工程",
+        "推理",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-11T20:09:38+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-11T12:12:47.000Z",
+      "url": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
+      "title": "据报OpenAI第三季度营收约100亿美元，经调整经营亏损109亿美元",
+      "summary": "Maximilian Schreiner援引《华尔街日报》和The Information报道，OpenAI第三季度营收约100亿美元，环比增长约50%；经调整经营亏损由101亿扩大至109亿美元，经调整经营利润率则从负150%改善至负109%。该亏损口径不含约26亿美元股权薪酬，不能等同净亏损或现金消耗。",
+      "reason": "补充此前年化营收报道之外的季度收入与亏损口径。已通读原文并核对署名和原站发布时间；数字仍为媒体援引投资者资料，未取得公开审计报表。",
+      "category": "industry",
+      "quote": "That figure doesn't include stock-based compensation",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI商业化",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-q3-2026-financial-disclosure",
+        "title": "媒体披露OpenAI第三季度经营数据",
+        "factKey": "q3-revenue-and-adjusted-operating-loss-reported",
+        "factTitle": "报道披露季度营收约100亿美元及经调整经营亏损109亿美元"
+      },
+      "addedAt": "2026-11-11T21:17:06+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-11T14:00:00.000Z",
+      "url": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+      "title": "Adobe预览交互式创作实验：与角色对话、在照片中重新取景",
+      "summary": "Jess Weatherbed介绍Adobe的新一批创作实验。Screen Test允许通过对话补充角色性格并生成试演，Sight Span把平面图像扩展为可移动视角的场景；另有交互式音效混合及复制局部修图操作的实验。这些均为技术预览，没有保证会成为正式产品功能。",
+      "reason": "展示生成式创作从文字指令走向直接操控的具体尝试。署名全文和精确发布时间可核对；尚未正式推出，效果未独立复测。",
+      "category": "ai-products",
+      "quote": "there’s no guarantee that they’ll graduate into being available features.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI玩法",
+        "图像生成",
+        "视频",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-11T14:26:42Z"
+    },
+    {
+      "sourceId": "deepl-press",
+      "sourceName": "DeepL",
+      "date": "2026-11-11",
+      "url": "https://www.deepl.com/en/press-release/aure-voice-ai-model",
+      "title": "DeepL发布Aure，实时翻译开始跟随语气与语速变化",
+      "summary": "DeepL宣布Aure自动应用于在线会议、面对面对话及Voice API，持续分析原始音频和译文，尝试保留说话中的情绪、重音与节奏变化。首批支持英、德、西、法、意、日、葡、韩八种语言，不含中文；其他语言继续使用既有模型。",
+      "reason": "为跨语言会议带来明确的模型与可用性变化。官方全文、德国当日发布日期及媒体报道可核对；语气保留效果仍为厂商自述。",
+      "category": "ai-models",
+      "quote": "Aure’s new capabilities are applied automatically, with no additional configuration required",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "AI产品",
+        "语音",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "deepl-aure-voice-model-release-2026-11-11",
+        "title": "DeepL发布Aure实时语音翻译模型",
+        "factKey": "aure-eight-language-voice-rollout",
+        "factTitle": "Aure自动应用于会议、对话及Voice API，首批支持八种语言"
+      },
+      "addedAt": "2026-11-11T14:26:42Z"
+    },
+    {
+      "sourceId": "computerbase",
+      "sourceName": "ComputerBase",
+      "date": "2026-11-11T12:00+01:00",
+      "url": "https://www.computerbase.de/news/apps/echtzeit-sprachuebersetzung-deepl-aure-laesst-emotionen-in-uebersetzung-einfliessen.100287/",
+      "title": "ComputerBase交叉记录Aure开放范围与八种首发语言",
+      "summary": "Michael Schäfer报道确认，Aure无需额外设置即可应用于DeepL的会议、面对面对话和Voice API，首批覆盖八种语言；尚未支持的语言继续使用旧语音模型。",
+      "reason": "署名全文及到分钟的发布时间可核对，与官方公告支持同一上线事实，仅作交叉来源，不代表独立效果测试。",
+      "category": "ai-models",
+      "quote": "Beim Start unterstützt Aure acht Sprachen.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "AI产品",
+        "语音",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "deepl-aure-voice-model-release-2026-11-11",
+        "title": "DeepL发布Aure实时语音翻译模型",
+        "factKey": "aure-eight-language-voice-rollout",
+        "factTitle": "Aure自动应用于会议、对话及Voice API，首批支持八种语言"
+      },
+      "addedAt": "2026-11-11T14:26:42Z"
+    },
+    {
+      "sourceId": "chinatalk",
+      "sourceName": "ChinaTalk",
+      "date": "2026-11-11",
+      "url": "https://www.chinatalk.media/p/the-us-is-selling-rl-environments",
+      "title": "ChinaTalk调查训练环境交易：供应商经验也可能随转售流动",
+      "summary": "Aqib Zakaria与Quinn Ennis调查美国数据供应商向中国AI实验室提供强化学习环境的业务，称识别至少九家相关公司。文章解释，交易可包含应用副本、任务与评分规则，复用已验证环境可能降低试错成本。约五亿美元金额引自此前报道，部分客户关系依赖匿名资料；收紧监管是作者建议。",
+      "reason": "揭示模型能力竞争背后的训练环境供应链与商业激励。已通读双作者原文并核对当日日期；部分交易证据未公开，不能视为完整成交审计。",
+      "category": "industry",
+      "quote": "we were able to find at least nine who do so.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "AI商业化",
+        "数据/训练",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "chinatalk-rl-environment-trade-investigation-2026-11-11",
+        "title": "ChinaTalk发布强化学习环境跨境交易调查",
+        "factKey": "nine-vendor-investigation-publication",
+        "factTitle": "发布涉及至少九家供应商的训练环境交易调查"
+      },
+      "addedAt": "2026-11-11T14:26:42Z"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-11T13:51:11.000Z",
+      "url": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
+      "title": "The Decoder交叉记录ChinaTalk训练环境交易调查",
+      "summary": "报道转述ChinaTalk对至少九家美国数据供应商相关业务的调查，说明强化学习环境与模型蒸馏的区别，以及复用环境可能节约开发试错的机制。文章同时保留部分销售关系无法独立验证的限制。",
+      "reason": "完整正文及原站精确发布时间可核对，与ChinaTalk原文支持同一调查发布事实；属于转述，不能增加交易指控的独立验证程度。",
+      "category": "industry",
+      "quote": "according to an investigation by ChinaTalk",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "数据/训练",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "chinatalk-rl-environment-trade-investigation-2026-11-11",
+        "title": "ChinaTalk发布强化学习环境跨境交易调查",
+        "factKey": "nine-vendor-investigation-publication",
+        "factTitle": "发布涉及至少九家供应商的训练环境交易调查"
+      },
+      "addedAt": "2026-11-11T14:26:42Z"
+    },
+    {
+      "sourceId": "rss-google-deepmind",
+      "sourceName": "Google DeepMind",
+      "date": "2026-11-11T15:00:00.000Z",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "title": "AlphaGenome 2开放研究访问，将DNA变异预测细化到细胞类型",
+      "summary": "DeepMind发布AlphaGenome 2，以DNA序列和细胞状态为条件预测基因调控变化，并通过AlphaGenome API向非商业研究开放，商业研究仍为私有预览。团队报告，在TenK10K免疫细胞数据上的因果变异识别率由16%升至30%。模型仅供研究，尚未获临床或诊断用途验证。",
+      "reason": "新增细胞类型与状态层面的预测能力，为疾病相关变异研究提供工具。已通读团队署名原文并核对发布时间；实验结果来自发布方，尚未独立复现。",
+      "category": "ai-models",
+      "quote": "AlphaGenome 2 is available today for non-commercial research via the AlphaGenome API",
+      "tier": "T1",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "AI赛道",
+        "数据/训练",
+        "海外AI",
+        "DeepMind"
+      ],
+      "selected": true,
+      "event": {
+        "key": "google-alphagenome2-release-2026-11-11",
+        "title": "DeepMind发布AlphaGenome 2并开放研究访问",
+        "factKey": "cell-conditioned-genomics-model-research-api-release",
+        "factTitle": "发布细胞条件基因组模型并开放非商业研究API"
+      },
+      "addedAt": "2026-11-11T23:35:25+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-11T15:00:00.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+      "title": "The Verge采访补充AlphaGenome 2的计算成本与适用边界",
+      "summary": "Robert Hart采访DeepMind研究人员，交叉确认AlphaGenome 2可针对具体细胞类型预测变异影响，以及非商业研究开放、商业研究私有预览的安排。研究人员同时说明，精细预测需要更高计算成本，现阶段仍会保留原版AlphaGenome。",
+      "reason": "采访补充了新旧模型的使用取舍。已通读署名报道并核对精确发布时间，作为同次发布的交叉证据；性能数字仍源于DeepMind。",
+      "category": "ai-models",
+      "quote": "its more detailed predictions come at a computational cost",
+      "tier": "T2",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "模型发布",
+        "AI赛道",
+        "数据/训练",
+        "海外AI",
+        "DeepMind"
+      ],
+      "selected": false,
+      "event": {
+        "key": "google-alphagenome2-release-2026-11-11",
+        "title": "DeepMind发布AlphaGenome 2并开放研究访问",
+        "factKey": "cell-conditioned-genomics-model-research-api-release",
+        "factTitle": "发布细胞条件基因组模型并开放非商业研究API"
+      },
+      "addedAt": "2026-11-11T23:35:25+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-11T14:25:20.000Z",
+      "url": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
+      "title": "Anthropic路演称Mythos三天完成Claude的AMD运行适配",
+      "summary": "Matthias Bastian援引Anthropic路演材料报道，Tom Brown称公司已在四类主要芯片上训练和运行Claude，并用Mythos在约三天内完成AMD适配，几乎全部内核由模型移植或编写。图示结果针对AMD MI355X上的提示处理，相关工期与性能尚无独立复现。",
+      "reason": "补充AI参与底层软件迁移的具体工期与硬件条件。已通读署名原文并核对发布时间；三天及内核比例均为公司自述。",
+      "category": "industry",
+      "quote": "The model ported or wrote nearly 100 percent of the kernels itself.",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic",
+        "amd"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "编码",
+        "部署/工程",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "anthropic-ipo-s1-2026-10-26",
+        "title": "Anthropic公开提交IPO注册文件",
+        "factKey": "roadshow-multi-chip-amd-kernel-port-disclosure-2026-11",
+        "factTitle": "路演披露四类芯片运行策略及Mythos三天AMD适配自述"
+      },
+      "addedAt": "2026-11-11T23:35:25+08:00"
+    },
+    {
+      "sourceId": "rss-simon-willison",
+      "sourceName": "Simon Willison",
+      "date": "2026-11-11T15:11:59.000Z",
+      "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+      "title": "Willison摘录路演发言，交叉记录Anthropic的多芯片与AMD适配自述",
+      "summary": "Simon Willison分享自行提取的Anthropic路演文字，引用Tom Brown关于四类芯片运行Claude，以及Mythos用三天完成AMD适配的发言。他同时摘录了公司对未来研发自动化的预期，后者仍属前景判断。",
+      "reason": "原文正文＋原站 RSS 时间核验。发言摘录与媒体报道相符，作为同一披露的交叉证据，未独立验证迁移效果。",
+      "category": "industry",
+      "quote": "It got Claude running on AMD in just three days, with basically no human intervention",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic",
+        "amd"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI硬件",
+        "编码",
+        "部署/工程",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": false,
+      "event": {
+        "key": "anthropic-ipo-s1-2026-10-26",
+        "title": "Anthropic公开提交IPO注册文件",
+        "factKey": "roadshow-multi-chip-amd-kernel-port-disclosure-2026-11",
+        "factTitle": "路演披露四类芯片运行策略及Mythos三天AMD适配自述"
+      },
+      "addedAt": "2026-11-11T23:35:25+08:00"
+    },
+    {
+      "sourceId": "rss-the-decoder",
+      "sourceName": "The Decoder",
+      "date": "2026-11-11T15:12:53.000Z",
+      "url": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/",
+      "title": "Helsing公布军事情报Agent平台Clarity，称每次武器交接需人工授权",
+      "summary": "Helsing在柏林公布Clarity，称其可汇集传感器、公开资料与报告，由多个Agent分析并准备军事情报，运行于客户自有基础设施。公司表示目标建议须经多源核对、人工确认并记录责任人。报道未确认客户部署，相关控制措施的实际效果仍待验证。",
+      "reason": "显示多Agent系统进入高风险决策场景的新产品方向。已通读媒体原文并核对精确发布时间；官方公告未能打开，部署与安全效果尚缺独立证据。",
+      "category": "ai-products",
+      "quote": "Helsing presented its Clarity platform in Berlin on Wednesday",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI赛道",
+        "Agent",
+        "多模态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "helsing-clarity-platform-unveiling-2026-11-11",
+        "title": "Helsing公布Clarity军事情报Agent平台",
+        "factKey": "clarity-platform-unveiling-and-human-authorization-claims",
+        "factTitle": "公布平台及多源核对、人工授权和责任记录设计"
+      },
+      "addedAt": "2026-11-11T23:35:25+08:00"
+    }
+  ]
+}
