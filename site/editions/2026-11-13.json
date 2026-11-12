@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "researchedAt": "2026-11-13T03:52:48+08:00",
+  "researchedAt": "2026-11-13T05:00:53+08:00",
   "items": [
     {
       "sourceId": "rss-aws-ml",
@@ -421,6 +421,113 @@
         "factTitle": "扩大运行容量并更新闲置资源管理与文件系统挂载"
       },
       "addedAt": "2026-11-13T03:52:48+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-11-12T20:00:00.000Z",
+      "url": "https://openai.com/index/amplitude",
+      "title": "Amplitude分享Agent选型对照：费用较低，质量评分也略低",
+      "summary": "OpenAI案例披露，Amplitude的Data Science Agent评测中，GPT-6.1 Sol综合得分为67.5，另一未具名模型为69.3；每次任务派发的平均模型费用分别为1.28和2.63美元。团队按任务比较质量、时延和费用，将高频检查与深入调查分开，Wave仍处测试阶段。",
+      "reason": "提供同时权衡任务质量与费用的具体对照。原文正文＋原站 RSS 时间核验；结果由客户提供，对手未具名，模型费用不代表系统总成本，未独立复测。",
+      "category": "tip",
+      "quote": "a mean model cost of $1.28 versus $2.63 per dispatch.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI商业化",
+        "Agent",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-13T05:00:53+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-12T20:51:55.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost/",
+      "title": "AWS分享推理成本实验：缓存更久、推理更强都不一定划算",
+      "summary": "AWS围绕缓存时长、服务档位、推理强度和输出上限逐项改变参数，同时检查Token、账单与任务通过率。更长缓存需要足够复用才能回本，降低推理强度需重测质量；压低输出上限虽能限制消耗，也可能截断答案并破坏后续Agent步骤。",
+      "reason": "给出将费用变化与任务质量一起验收的方法。已通读官方全文，网页与原站订阅时间一致；实验范围有限，参数支持和费率随模型而异，未独立复测。",
+      "category": "tip",
+      "quote": "A token reduction that breaks the task is not a saving.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI商业化",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-13T05:00:53+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-12T19:42:40.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+      "title": "记者追访AI玛雅遗址“发现”：登记为空，不代表文献未记录",
+      "summary": "Robert Hart采访Pietro Miotti及多位考古学者，确认48个Agent标出的遗址此前已见于2025年论文。Miotti承认自己与Agent漏查文献，把未登记误当成未被绘制。项目属于其个人探索；学者同时提醒，识别地形不能代替专业解释与实地研究。",
+      "reason": "用当事人与学者采访揭示AI跨领域研究的核验缺口。已通读署名全文并核对精确发布时间；未独立复现扫描或开展实地验证。",
+      "category": "industry",
+      "quote": "My agents and I missed it.",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "Agent",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-13T05:00:53+08:00"
+    },
+    {
+      "sourceId": "united-newsroom",
+      "sourceName": "United Airlines Newsroom",
+      "date": "2026-11-11",
+      "url": "https://united.mediaroom.com/news-releases?item=125496",
+      "title": "美联航官网确认限制未授权Agent，覆盖旅行社和聚合平台",
+      "summary": "美联航声明正采取措施，限制未经授权的第三方个人AI助手通过自有平台、旅行社和聚合平台办理业务，并更新订票、出票及分销政策。公司列举账户信息暴露、非预期购买和行李安全确认等顾虑，未披露具体拦截技术或完成时间。",
+      "reason": "官网声明支持已收录报道的同一限制，仅补充交叉证据并保留原文日期精度；实际执行效果尚未验证。",
+      "category": "industry",
+      "quote": "to prohibit use by unauthorized, third-party personal AI agents or assistants.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "Agent",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "united-personal-ai-agent-booking-restrictions-2026-11-11",
+        "title": "美联航限制未经授权的个人AI助手代办交易",
+        "factKey": "personal-agent-ticket-transaction-restrictions-announced",
+        "factTitle": "宣布限制个人AI助手完成机票交易并说明隐私与监管顾虑"
+      },
+      "addedAt": "2026-11-13T05:00:53+08:00"
     }
   ]
 }
