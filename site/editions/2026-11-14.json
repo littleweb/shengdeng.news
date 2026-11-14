@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "researchedAt": "2026-11-14T12:59:05+08:00",
+  "researchedAt": "2026-11-14T14:11:49+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -237,6 +237,116 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-14T12:59:05+08:00"
+    },
+    {
+      "sourceId": "rss-google-research",
+      "sourceName": "Google Research",
+      "date": "2026-11-13T20:47:18.000Z",
+      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+      "title": "Google披露长程Agent研究结果，用原始测试验收Rust迁移",
+      "summary": "Vahab Mirrokni介绍/teamwork如何结合上下文拆分、接力执行和独立检查完成长期任务。Google称，团队将libgav1改写为约17万行Rust，通过一致性测试后，再用性能分析改进速度。专用重写与形式证明工作流仍有部分等待开放。",
+      "reason": "提供长期编码任务的验收思路。原文正文＋原站 RSS 时间核验；结果来自研究团队报告，未独立复现，不能认为所有专用工作流均已开放。",
+      "category": "paper",
+      "quote": "linking every leaf module against the original, unmodified test suite",
+      "tier": "T1",
+      "entity": "google",
+      "subjects": [
+        "google"
+      ],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "编码",
+        "部署/工程",
+        "海外AI",
+        "Google"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-14T14:11:49+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-11-13T08:00:00.000Z",
+      "url": "https://openai.com/business/customer-stories/shield/",
+      "title": "Shield称旧门户Agent任务平均提速35%–40%，技师保留审批",
+      "summary": "Shield在OpenAI案例中称，Forge已在IT服务商的旧门户每月运行数千次浏览器任务，GPT-6 Astra较此前模型平均快35%–40%。技师决定哪些动作可自主执行、哪些需要审批；电话、现场和远程桌面工作仍需人工参与，远程桌面自动化尚在测试。",
+      "reason": "给出浏览器Agent的实际任务规模和人工边界。原文正文＋原站 RSS 时间核验；速度为客户自述，未披露旧模型版本、样本量及测量周期。",
+      "category": "industry",
+      "quote": "thousands of runs each month",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI产品",
+        "AI赛道",
+        "Agent",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-14T14:11:49+08:00"
+    },
+    {
+      "sourceId": "rss-hugging-face",
+      "sourceName": "Hugging Face Blog",
+      "date": "2026-11-13T18:00:39.000Z",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "title": "NVIDIA分享机器人仿真实操：先验资产，再检查Agent生成的控制",
+      "summary": "NVIDIA作者用Isaac Sim 6.2、UR17G机械臂和Robotiq夹爪资产演示抓取饮料罐。流程包括资产校验、关节与接触检查、Agent辅助组装及控制代码生成。示例采用已知物体位置和固定路径，没有视觉定位，也未验证真实硬件表现。",
+      "reason": "提供可照做的仿真步骤及明确验收条件。已核对NVIDIA作者署名，原文正文＋原站 RSS 时间核验；示例未复测，资产校验通过不代表实际抓取可靠。",
+      "category": "tip",
+      "quote": "They do not establish robustness to uncertain object positions, different payloads, or real hardware.",
+      "tier": "T1",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "具身智能",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-14T14:11:49+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-13T23:22:09.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/",
+      "title": "GS Caltex复盘模型交付：复用预处理，部署从约一周缩至数小时",
+      "summary": "GS Caltex与AWS介绍将工艺工程师验证的预处理流程和模型交给生产流水线，每30分钟执行批量预测。公司称部署耗时从约一周缩至数小时。教程强调核对特征顺序、记录与预测的对应关系，以及调度重叠；模型审批标记不会自动约束每次推理。",
+      "reason": "提供模型交接和批量推理的具体检查方法。已核对合作双方署名全文与精确发布时间；耗时改善为案例自述，文章未给出可独立验证的降本比例。",
+      "category": "tip",
+      "quote": "Model Registry records approval status, but it does not enforce an approval check on every inference request.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI赛道",
+        "部署/工程",
+        "数据/训练",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-14T14:11:49+08:00"
     }
   ]
 }
