@@ -1,0 +1,242 @@
+{
+  "date": "2026-11-14",
+  "researchedAt": "2026-11-14T12:59:05+08:00",
+  "items": [
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-11-13T15:00:00.000Z",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "title": "ChatGPT Wallet开始限量开放，Agent付款须逐笔确认",
+      "summary": "OpenAI开始向美国18岁以上、持符合条件美国发行卡的部分ChatGPT Pro用户推送Wallet，通过dots完成购物。用户每次需检查商品、金额和付款卡，并进行安全验证；Agent与商家获得替代付款凭证。预设额度后全权代购仍属后续计划。",
+      "reason": "购物Agent开始补齐实际付款环节。原文正文＋原站 RSS 时间核验，并与媒体原文交叉核对；商家访问限制和支付风控仍可能阻止交易。",
+      "category": "ai-products",
+      "quote": "Users add a card once, then approve each purchase",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "AI赛道",
+        "Agent",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "openai-chatgpt-wallet-launch-2026-11-13",
+        "title": "OpenAI开始限量推出ChatGPT Wallet",
+        "factKey": "wallet-us-pro-dots-user-approved-payments",
+        "factTitle": "向美国部分Pro用户开放须逐笔确认的Agent付款"
+      },
+      "addedAt": "2026-11-14T12:59:05+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-13T20:45:10.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "title": "The Verge交叉记录Wallet开放条件与逐笔验证要求",
+      "summary": "Stevie Bonifield报道，Wallet首批面向美国18岁以上Pro用户，要求美国账单地址及符合条件的付款卡。dots在结账前需取得用户确认，每笔购买都需安全验证；部分零售网站仍限制或阻止Agent访问。",
+      "reason": "署名报道与官方首批开放条件相符，仅作为同一发布的交叉证据；报道未独立验证交易完成率。",
+      "category": "ai-products",
+      "quote": "they’ll check in with you each time before checking out.",
+      "tier": "T2",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "产品更新",
+        "AI产品",
+        "Agent",
+        "海外AI",
+        "OpenAI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "openai-chatgpt-wallet-launch-2026-11-13",
+        "title": "OpenAI开始限量推出ChatGPT Wallet",
+        "factKey": "wallet-us-pro-dots-user-approved-payments",
+        "factTitle": "向美国部分Pro用户开放须逐笔确认的Agent付款"
+      },
+      "addedAt": "2026-11-14T12:59:05+08:00"
+    },
+    {
+      "sourceId": "rss-hugging-face",
+      "sourceName": "Hugging Face Blog",
+      "date": "2026-11-13T14:05:22.000Z",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "title": "llama.cpp与ggml发布1.0，明确接口兼容版本规则",
+      "summary": "项目团队发布llama.cpp与ggml的1.0.0库，承诺通过主版本升级标明API和ABI不兼容变化。公共C接口的破坏性修改升主版本，兼容功能、后端和模型支持升次版本，无接口变化的修复升补丁版本。",
+      "reason": "为依赖本地推理库的应用提供更清楚的升级边界。已核对项目团队署名，原文正文＋原站 RSS 时间核验；主要变化是接口兼容与版本管理承诺。",
+      "category": "ai-products",
+      "quote": "Today we release libraries `v1.0.0`",
+      "tier": "T1",
+      "entity": "hugging-face",
+      "subjects": [
+        "hugging-face"
+      ],
+      "region": "国外",
+      "tags": [
+        "开源/仓库",
+        "AI产品",
+        "端侧",
+        "开源生态",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "llama-cpp-ggml-v1-2026-11-13",
+        "title": "llama.cpp与ggml发布1.0库",
+        "factKey": "libraries-v1-api-abi-versioning-release",
+        "factTitle": "发布1.0.0并明确API与ABI兼容版本规则"
+      },
+      "addedAt": "2026-11-14T12:59:05+08:00"
+    },
+    {
+      "sourceId": "rss-hugging-face",
+      "sourceName": "Hugging Face Blog",
+      "date": "2026-11-13T17:02:35.000Z",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "title": "Ai2发布XYBench，检验助手能否纠正用户的错误前提",
+      "summary": "Ai2介绍8115题的XYBench，其中6272题基于WikiHow指南生成。五款受测模型经常给出潜在解决办法，却仍把回答重点放在用户原先的错误路径上。研究分别测量是否提出有效方案、回答重点及是否纠正误解。",
+      "reason": "揭示识别有用建议与主动给出有用建议之间的差距。原文正文＋原站 RSS 时间核验；结果限于受测模型、英语操作型问题和单轮回答，部分判断由模型完成。",
+      "category": "paper",
+      "quote": "all five models were less likely to steer users away",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "ai2-xybench-2026-11-13",
+        "title": "Ai2发布XYBench错误前提评估",
+        "factKey": "xybench-release-misconception-evaluation",
+        "factTitle": "发布XYBench并分析模型纠正错误前提的表现"
+      },
+      "addedAt": "2026-11-14T12:59:05+08:00"
+    },
+    {
+      "sourceId": "rss-the-verge-ai",
+      "sourceName": "The Verge · AI",
+      "date": "2026-11-13T14:00:00.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+      "title": "记者体验Duet一周：跨应用提醒有用，判断轻重仍会出错",
+      "summary": "Allison Johnson连接邮件、日历、文档和Slack体验Duet。它发现了休假与交稿安排的冲突，也曾把弹性发布时间当作紧急期限，忽略编辑所在时区。产品仍属研究预览，美国Pro、Max和Ultra用户需加入候补。",
+      "reason": "新增具体成功与失败场景，帮助判断主动助理的使用边界。已核对完整署名实测和精确发布时间；属于一位记者的有限体验，不能推广为普遍可靠性结论。",
+      "category": "opinion",
+      "quote": "it was only 7AM local time for my editor.",
+      "tier": "T2",
+      "entity": "anthropic",
+      "subjects": [
+        "anthropic"
+      ],
+      "region": "国外",
+      "tags": [
+        "评测/基准",
+        "AI产品",
+        "Agent",
+        "海外AI",
+        "Anthropic"
+      ],
+      "selected": true,
+      "event": {
+        "key": "claude-duet-preview-2026-10-21",
+        "title": "Claude Duet 研究预览与候补开放",
+        "factKey": "allison-johnson-duet-week-hands-on-2026-11-13",
+        "factTitle": "Allison Johnson分享一周Duet工作助理实测"
+      },
+      "addedAt": "2026-11-14T12:59:05+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-13T22:30:12.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/",
+      "title": "AWS演示编码Agent选模：按完成任务的总成本比较",
+      "summary": "AWS用LiteLLM与NVIDIA NeMo Switchyard演示按工具执行记录切换模型，并与单模型基线比较任务通过率和每个成功任务的成本。失败尝试、历史重放及重试都要计入费用；示例任务很小，不能据此断言路由一定省钱。",
+      "reason": "提供可复用的选模实验方法，避免只按Token单价决策。已核对全文与原站发布时间；集成仍属实验性、非生产示例，费用是估算，需在自身任务上重复测量。",
+      "category": "tip",
+      "quote": "judge the routing by cost per solved task",
+      "tier": "T1",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "编码",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-14T12:59:05+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-13T22:02:39.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/",
+      "title": "AWS分享Agent启动优化：静态状态进快照，动态值按会话生成",
+      "summary": "AWS解释AgentCore V2的快照恢复机制，建议在初始化阶段保留静态数据和客户端，把随机值、动态数据及凭据刷新留给会话处理。先区分平台启动与业务耗时，再考虑构建钩子或用户打开应用时预热；持有内存和预热会话仍有成本。",
+      "reason": "指出快照复制状态、连接失效和内存费用等实际边界，可供部署Agent时参考。已核对完整原文与原站发布时间；具体时延收益仍需按自身负载测量。",
+      "category": "tip",
+      "quote": "Load dynamic data in the handler, once per session.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-14T12:59:05+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-13T19:35:35.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/",
+      "title": "AssemblyAI复盘语音推理架构，自述计算成本节省70%",
+      "summary": "AWS案例介绍AssemblyAI用按需实例维持基线、多种GPU现货实例扩容，并通过队列重试承接被回收的任务。文章称生产推理计算成本较按需价格低70%；方法面向短时、可独立重试的批量或近实时任务。",
+      "reason": "给出把廉价算力中断风险纳入设计的生产实践。已核对全文与原站发布时间；70%为案例自述，仅指推理计算成本，未获独立审计。",
+      "category": "tip",
+      "quote": "70 percent cost savings on inference compute compared to On-Demand pricing",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI商业化",
+        "语音",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-14T12:59:05+08:00"
+    }
+  ]
+}
