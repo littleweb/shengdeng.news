@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "researchedAt": "2026-11-14T14:11:49+08:00",
+  "researchedAt": "2026-11-14T16:27:48+08:00",
   "items": [
     {
       "sourceId": "rss-openai-news",
@@ -347,6 +347,140 @@
       "selected": true,
       "event": null,
       "addedAt": "2026-11-14T14:11:49+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-13T18:01:15.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture/",
+      "title": "AWS微调示例：合成测试满分，手写测试仍有错",
+      "summary": "AWS演示从工单日志发现新类别、规则重标注、微调及并行部署。调整后280条同生成器留出样本全部答对，另写的24条测试只答对20条，暴露了关键词捷径；模型自报置信度也未经校准。",
+      "reason": "提供可复用的漂移诊断与评测方法。已核对署名全文及原站精确发布时间；使用合成数据，类别扩充与微调同时发生，提升不能全部归于微调，尚未独立复测。",
+      "category": "tip",
+      "quote": "confidence is a field we asked the model to write",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "数据/训练",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-14T15:21:27+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-13T19:37:57.000Z",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "title": "LangChain完成3亿美元融资，披露LangSmith已有7000余组织使用",
+      "summary": "LangChain宣布完成CapitalG领投的3亿美元C轮融资，估值30亿美元。公司公告称，超过7000家组织使用其Agent运行、改进与治理平台LangSmith；这一组织数没有说明付费客户占比。",
+      "reason": "融资与使用规模获公司公告交叉支持，可观察独立Agent平台的商业进展；未披露营收或利润，不能据此判断盈利。",
+      "category": "industry",
+      "quote": "$300 million Series C",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI创业",
+        "AI商业化",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "langchain-series-c-2026-11-13",
+        "title": "LangChain宣布C轮融资与LangSmith使用规模",
+        "factKey": "series-c300m-valuation3b-announcement",
+        "factTitle": "宣布3亿美元C轮融资、30亿美元估值及7000余组织使用规模"
+      },
+      "addedAt": "2026-11-14T16:27:48+08:00"
+    },
+    {
+      "sourceId": "langchain-blog",
+      "sourceName": "LangChain",
+      "date": "2026-11-13",
+      "url": "https://www.langchain.com/blog/series-c",
+      "title": "LangChain原公告确认融资与组织使用数，后续功能仍待发布",
+      "summary": "联合创始人Harrison Chase确认本轮融资及超过7000家组织使用LangSmith，并说明平台覆盖运行、改进和治理。公告预告11月20日展示新能力，不能将这些后续功能视为已上线。",
+      "reason": "公司原文确认同一融资事实，并澄清使用规模的统计口径；页面仅标日期，本条用于交叉核对。",
+      "category": "industry",
+      "quote": "More than 7,000 organizations already rely on LangSmith",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI创业",
+        "AI商业化",
+        "Agent",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "langchain-series-c-2026-11-13",
+        "title": "LangChain宣布C轮融资与LangSmith使用规模",
+        "factKey": "series-c300m-valuation3b-announcement",
+        "factTitle": "宣布3亿美元C轮融资、30亿美元估值及7000余组织使用规模"
+      },
+      "addedAt": "2026-11-14T16:27:48+08:00"
+    },
+    {
+      "sourceId": "rss-aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "date": "2026-11-13T21:53:40.000Z",
+      "url": "https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures/",
+      "title": "AWS分享OpenFold3实践：补充序列比对，并用已知结构检查预测",
+      "summary": "教程演示OpenFold3研究预览版的异步部署、自备多序列比对和结构核验。在一个已知蛋白复合物示例中，加入比对后预测明显改善；作者提醒，该对象可能与训练数据重合，不能把示例当作新靶点准确率基准。多GPU用于并行任务，闲置实例仍需缩容或删除。",
+      "reason": "提供可迁移的输入准备、对照验证与成本检查方法。原文正文＋原站 RSS 时间核验；示例结果未经本轮复测。",
+      "category": "tip",
+      "quote": "Treat this example as a demonstration of the workflow",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "AI赛道",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-14T16:27:48+08:00"
+    },
+    {
+      "sourceId": "rss-nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "date": "2026-11-13T13:00:42.000Z",
+      "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
+      "title": "NVIDIA披露病历AI案例：辅助研究逾7800名瓣膜手术患者",
+      "summary": "NVIDIA介绍Dyania Health的Synapsis AI在医院内部处理病历，并将输出关联到原始记录供医生确认。文中称，Cleveland Clinic用它辅助研究2005—2021年间超过7800名主动脉瓣置换患者，整理长期记录以研究瓣膜退化与再次干预风险；未提供独立的准确率或临床结局改善证据。",
+      "reason": "给出明确患者规模及院内部署、证据追溯和医生决策边界。原文正文＋原站 RSS 时间核验；效果仍属厂商案例披露。",
+      "category": "industry",
+      "quote": "Clinicians review the evidence and make every decision.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI赛道",
+        "部署/工程",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-14T16:27:48+08:00"
     }
   ]
 }
