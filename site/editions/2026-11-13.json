@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "researchedAt": "2026-11-13T06:41:13+08:00",
+  "researchedAt": "2026-11-13T07:48:38+08:00",
   "items": [
     {
       "sourceId": "rss-aws-ml",
@@ -703,6 +703,120 @@
         "factTitle": "Hydrogen开始接入全球搜索、Gemini应用与开发入口"
       },
       "addedAt": "2026-11-13T06:41:13+08:00"
+    },
+    {
+      "sourceId": "rss-github-ai",
+      "sourceName": "GitHub Blog · AI & ML",
+      "date": "2026-11-12T22:54:52.000Z",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+      "title": "GitHub分享Skill复用方法：分离项目配置，验证工具与权限",
+      "summary": "GitHub以Data Forge和Proof Agent展示工程技能的复用方法：项目配置集中在manifest，各技能共享访问路径，再为不同客户端生成配置并检查安装。示例中的独立审查器只静态检查代码差异，不运行测试；阻止合并仍须由CI和仓库规则落实，技能本身不会授予工具权限。",
+      "reason": "给出技能拆分、配置管理和验证边界的具体做法，原站正文与发布时间一致；示例效果未复测。",
+      "category": "tip",
+      "quote": "A skill can describe how to query a database, for example, but it doesn’t grant access to that database.",
+      "tier": "T1",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "教程/实践",
+        "AI玩法",
+        "Agent",
+        "编码",
+        "部署/工程",
+        "开源生态"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-13T07:48:38+08:00"
+    },
+    {
+      "sourceId": "rss-openai-news",
+      "sourceName": "OpenAI News",
+      "date": "2026-11-12T12:00:00.000Z",
+      "url": "https://openai.com/business/customer-stories/gondola/",
+      "title": "Gondola自述营收翻倍，工程产出按合并变更统计",
+      "summary": "Gondola在OpenAI案例中称，使用Codex后团队月度工程产出增加约25%，首席工程师按合并变更统计的产出增加约50%，工程人数未变；公司营收同比超过翻倍。业务人员先制作可运行原型，工程师继续负责架构、安全和上线准备。文章未提供独立审计或收入增长的因果对照。",
+      "reason": "给出小团队AI落地的分工和指标口径。原文正文＋原站 RSS 时间核验；数字为客户自述，不能证明AI导致收入增长或已经盈利。",
+      "category": "industry",
+      "quote": "Across the team, output is up about 25%, with no change in engineering headcount.",
+      "tier": "T1",
+      "entity": "openai",
+      "subjects": [
+        "openai"
+      ],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "AI创业",
+        "AI商业化",
+        "AI产品",
+        "编码",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": null,
+      "addedAt": "2026-11-13T07:48:38+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-12T22:42:51.000Z",
+      "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "title": "美民主党议员调查对华售芯安排，要求商务部保留记录",
+      "summary": "Julie Bort报道，参议员Ron Wyden与众议员Richard Neal向商务部长Howard Lutnick发函，调查政府处理英伟达对华售芯及相关收入安排，并要求保留记录。报道指出，两人目前属少数党，可以提出问题但不能强制答复；信中违法疑虑属于议员指控，尚非调查结论。",
+      "reason": "新增审查涉及政府售芯许可与收入安排。完整报道及发布时间可核对；未取得信函全文，尚无违法认定。",
+      "category": "industry",
+      "quote": "Democrats on Thursday opened an inquiry into how the Trump administration handled Nvidia’s chip sales to China.",
+      "tier": "T2",
+      "entity": "nvidia",
+      "subjects": [
+        "nvidia"
+      ],
+      "region": "国外",
+      "tags": [
+        "政策/监管",
+        "AI硬件",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": true,
+      "event": {
+        "key": "nvidia-megaspeed-allegations-response-2026-10-29",
+        "title": "英伟达回应Megaspeed相关情报指控",
+        "factKey": "neal-wyden-commerce-chip-sales-records-inquiry-2026-11-12",
+        "factTitle": "Neal与Wyden发函调查对华售芯安排并要求保留记录"
+      },
+      "addedAt": "2026-11-13T07:48:38+08:00"
+    },
+    {
+      "sourceId": "rss-techcrunch-ai",
+      "sourceName": "TechCrunch · AI",
+      "date": "2026-11-12T17:17:58.000Z",
+      "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+      "title": "TechCrunch交叉记录美联航Agent限制范围与值机顾虑",
+      "summary": "Zack Whittaker报道，美联航正限制未经授权的第三方个人AI助手订票和管理预订，覆盖自有平台以及旅行社和聚合平台，并提到账户凭据暴露和旅客本人确认行李安全等风险。报道没有说明全部拦截措施已经完成。",
+      "reason": "与已归档的美联航声明核对同一限制范围，仅作交叉材料；实际拦截效果尚未验证。",
+      "category": "industry",
+      "quote": "to prohibit use by unauthorized, third-party personal AI agents or assistants",
+      "tier": "T2",
+      "entity": null,
+      "subjects": [],
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "Agent",
+        "AI赛道",
+        "海外AI"
+      ],
+      "selected": false,
+      "event": {
+        "key": "united-personal-ai-agent-booking-restrictions-2026-11-11",
+        "title": "美联航限制未经授权的个人AI助手代办交易",
+        "factKey": "personal-agent-ticket-transaction-restrictions-announced",
+        "factTitle": "宣布限制个人AI助手完成机票交易并说明隐私与监管顾虑"
+      },
+      "addedAt": "2026-11-13T07:48:38+08:00"
     }
   ]
 }
